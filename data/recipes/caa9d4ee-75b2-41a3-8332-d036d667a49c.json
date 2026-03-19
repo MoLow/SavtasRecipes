@@ -1,0 +1,65 @@
+{
+  "id": "caa9d4ee-75b2-41a3-8332-d036d667a49c",
+  "slug": "pie-crust",
+  "source": {
+    "scanFiles": [
+      "scans/18725E26-8B5E-4CC4-A6CB-9C23B77EFECF.heic"
+    ],
+    "processedAt": "2026-03-19T11:21:10.877Z"
+  },
+  "title": {
+    "en": "Pie Crust",
+    "he": "קלתית פאי"
+  },
+  "description": {
+    "en": "A simple recipe for a basic pie crust.",
+    "he": "מתכון פשוט לקלתית פאי בסיסית."
+  },
+  "ingredients": [
+    {
+      "en": "1½ C. flour",
+      "he": "1½ כוסות קמח",
+      "item": "flour",
+      "amount": 1.5,
+      "unit": "cup"
+    },
+    {
+      "en": "½ t. salt",
+      "he": "½ כפית מלח",
+      "item": "salt",
+      "amount": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "en": "½ C. oil",
+      "he": "½ כוס שמן",
+      "item": "oil",
+      "amount": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Mix well.",
+      "Press into pie pan.",
+      "Bake at 350° until brown."
+    ],
+    "he": [
+      "מערבבים היטב.",
+      "לשטח לתבנית פאי.",
+      "אופים ב-350° (פרנהייט) עד להזהבה."
+    ]
+  },
+  "tags": [
+    "dessert",
+    "baking",
+    "crust",
+    "basic",
+    "vegetarian",
+    "dairy-free"
+  ],
+  "illustration": "illustrations/caa9d4ee-75b2-41a3-8332-d036d667a49c.webp",
+  "ocrRawText": "Pie Crust\n1½ C. flour\n½ t. salt\n½ C. oil\nMix well\nPress into\npie pan. Bake\n350° to\nbrown",
+  "selectedModel": "gemini",
+  "rankingReason": "Result A is more accurate to the likely original handwriting. The OCR raw text in Result A matches standard pie crust ingredients (flour, salt, oil), while Result B adds 'milk' and 'sweet & love (sugar)' that don't appear in A's OCR text and seem to be hallucinations. A pie crust with salt but no sugar is unusual but plausible (oil-based, likely savory or sweet-neutral), whereas B's ingredients list doesn't align with its own OCR transcription. Result A's simpler ingredient list is also more coherent with the handwritten format shown in its OCR raw text."
+}

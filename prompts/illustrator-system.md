@@ -8,3 +8,4 @@ Style guidelines:
 - The dish should look freshly prepared and appetizing
 - No text, watermarks, or overlays
 - No people or hands in the frame
+- Do NOT include any recipe cards, paper, handwriting, or written instructions in the image — only the food itself

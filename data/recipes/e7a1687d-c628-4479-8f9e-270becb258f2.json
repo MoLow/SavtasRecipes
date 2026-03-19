@@ -1,0 +1,128 @@
+{
+  "id": "e7a1687d-c628-4479-8f9e-270becb258f2",
+  "slug": "arlenes-cake-coffee-cake",
+  "source": {
+    "scanFiles": [
+      "scans/F2018EA1-BA9C-45FC-AE8E-BC1370C28454.heic",
+      "scans/7A92F7A5-196F-4F77-BF2A-6CE9648B83A7.heic"
+    ],
+    "processedAt": "2026-03-19T11:31:23.185Z"
+  },
+  "title": {
+    "en": "Arlene's Cake (Coffee Cake)",
+    "he": "עוגת ארלין (עוגת קפה)"
+  },
+  "description": {
+    "en": "This recipe for Arlene's Coffee Cake features a rich, moist cake batter with a delicious walnut, sugar, and cinnamon swirl or topping. The original handwritten instructions for layering the batter and topping are a bit ambiguous, but the interpretation provided follows a common coffee cake preparation method.",
+    "he": "מתכון זה לעוגת הקפה של ארלין כולל בלילת עוגה עשירה ולחה עם מילוי או ציפוי טעים של אגוזי מלך, סוכר וקינמון. ההוראות המקוריות בכתב יד לשכבות הבלילה והציפוי מעט מעורפלות, אך הפרשנות שניתנה עוקבת אחר שיטת הכנה נפוצה לעוגת קפה."
+  },
+  "ingredients": [
+    {
+      "en": "1/2 lb. butter",
+      "he": "1/2 ליברת חמאה",
+      "item": "butter",
+      "amount": 0.5,
+      "unit": "lb"
+    },
+    {
+      "en": "2 cups sugar",
+      "he": "2 כוסות סוכר",
+      "item": "sugar",
+      "amount": 2,
+      "unit": "cup"
+    },
+    {
+      "en": "4 eggs",
+      "he": "4 ביצים",
+      "item": "eggs",
+      "amount": 4,
+      "unit": null
+    },
+    {
+      "en": "4 cups flour",
+      "he": "4 כוסות קמח",
+      "item": "flour",
+      "amount": 4,
+      "unit": "cup"
+    },
+    {
+      "en": "2 tsp. baking powder",
+      "he": "2 כפיות אבקת אפייה",
+      "item": "baking powder",
+      "amount": 2,
+      "unit": "tsp"
+    },
+    {
+      "en": "2 tsp. baking soda",
+      "he": "2 כפיות סודה לשתייה",
+      "item": "baking soda",
+      "amount": 2,
+      "unit": "tsp"
+    },
+    {
+      "en": "1 cup sour cream",
+      "he": "1 כוס שמנת חמוצה",
+      "item": "sour cream",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1 cup walnuts",
+      "he": "1 כוס אגוזי מלך",
+      "item": "walnuts",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "sugar (for topping)",
+      "he": "סוכר (לציפוי)",
+      "item": "sugar",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "cinnamon (for topping)",
+      "he": "קינמון (לציפוי)",
+      "item": "cinnamon",
+      "amount": null,
+      "unit": null
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Cream together butter and sugar.",
+      "Add eggs and mix well.",
+      "In a separate bowl, combine flour, baking powder, and baking soda.",
+      "Gradually add the dry ingredients to the wet ingredients, alternating with sour cream, mixing until just combined to form the cake batter.",
+      "Prepare the topping: Mix sugar, cinnamon, and walnuts.",
+      "Pour half of the cake batter into a prepared pan.",
+      "Sprinkle half of the walnut, sugar, and cinnamon mixture over the batter.",
+      "Pour the remaining batter over the topping.",
+      "Sprinkle the remaining walnut, sugar, and cinnamon mixture on top.",
+      "Bake at 350° for 1 hour."
+    ],
+    "he": [
+      "מקרימים יחד חמאה וסוכר.",
+      "מוסיפים ביצים ומערבבים היטב.",
+      "בקערה נפרדת, מערבבים קמח, אבקת אפייה וסודה לשתייה.",
+      "מוסיפים בהדרגה את החומרים היבשים לחומרים הרטובים, לסירוגין עם שמנת חמוצה, ומערבבים רק עד לאיחוד ליצירת בלילת העוגה.",
+      "מכינים את הציפוי: מערבבים סוכר, קינמון ואגוזי מלך.",
+      "יוצקים חצי מבלילת העוגה לתבנית משומנת.",
+      "מפזרים חצי מתערובת אגוזי המלך, הסוכר והקינמון מעל הבלילה.",
+      "יוצקים את יתרת הבלילה מעל הציפוי.",
+      "מפזרים את יתרת תערובת אגוזי המלך, הסוכר והקינמון מעל.",
+      "אופים בחום של 350° פרנהייט (כ-175° צלזיוס) למשך שעה אחת."
+    ]
+  },
+  "tags": [
+    "dessert",
+    "cake",
+    "coffee cake",
+    "ashkenazi",
+    "dairy"
+  ],
+  "illustration": "illustrations/e7a1687d-c628-4479-8f9e-270becb258f2.webp",
+  "ocrRawText": "Arlene's Cake (Coffee Cake)\n1/2 lb. butter\n2 cups sugar ) Cream together\n4 eggs\n4 cups flour\n2 tsp. baking powder\n2 tsp. baking soda\n1 cup sour cream\n1 cup walnuts\nsugar & cinnamon\nmix the 1/2 mixture of walnut\nsprinkle 1/2 mixture of into batter.\nPour rest of batter & rest of remainder\nof nut on top\nBake 350°\n1 hr",
+  "selectedModel": "gemini",
+  "rankingReason": "Gemini selected (only valid result). Claude returned no result"
+}

@@ -9,8 +9,8 @@ const ingredientSchema = z.object({
   en: z.string(),
   he: z.string(),
   item: z.string(),
-  amount: z.number().optional(),
-  unit: z.string().optional(),
+  amount: z.number().nullable().optional(),
+  unit: z.string().nullable().optional(),
 });
 
 export const recipeSchema = z.object({

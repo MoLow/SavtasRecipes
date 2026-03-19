@@ -1,0 +1,153 @@
+{
+  "id": "4be9a110-92a9-40ea-a5bc-04d2cc68a4b7",
+  "slug": "cheese-cake-with-strawberry-glaze",
+  "source": {
+    "scanFiles": [
+      "scans/E91C2EDC-CA12-4EF8-A05E-291A220B7FDB.heic",
+      "scans/6FC67254-0C04-4311-AC70-E92518696190.heic"
+    ],
+    "processedAt": "2026-03-19T11:23:06.681Z"
+  },
+  "title": {
+    "en": "Cheese Cake with Strawberry Glaze",
+    "he": "עוגת גבינה עם זיגוג תותים"
+  },
+  "description": {
+    "en": "A recipe for cheesecake with a strawberry glaze. Note: The recipe lists \"1 c. egg separated\" which is an unusual measurement for eggs; it is interpreted as \"eggs, separated\" but transcribed literally. There is also a \"1 qt. strawberry glaze\" listed in the raw text, but a separate detailed recipe for making strawberry glaze from scratch is provided, suggesting the former might be an alternative or a typo. The instructions for combining ingredients are somewhat ambiguous and have been interpreted to follow a standard cheesecake preparation method.",
+    "he": "מתכון לעוגת גבינה עם זיגוג תותים. הערה: המתכון מציין \"1 כוס ביצה מופרדת\" שהיא מידה חריגה לביצים; היא פורשה כ\"ביצים מופרדות\" אך תועתקה מילולית. כמו כן, \"1 ליטר זיגוג תותים\" מופיע בטקסט הגולמי, אך מתכון מפורט נפרד להכנת זיגוג תותים מאפס מסופק, מה שמרמז שהראשון עשוי להיות חלופה או טעות הקלדה. ההוראות לשילוב המרכיבים מעט מעורפלות ופורשו בהתאם לשיטת הכנה סטנדרטית של עוגת גבינה."
+  },
+  "ingredients": [
+    {
+      "en": "1 cup egg, separated",
+      "he": "1 כוס ביצה, מופרדת",
+      "item": "egg",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1 lb. cream cheese",
+      "he": "1 ליברא גבינת שמנת",
+      "item": "cream cheese",
+      "amount": 1,
+      "unit": "lb"
+    },
+    {
+      "en": "1 cup sugar (for cake)",
+      "he": "1 כוס סוכר (לעוגה)",
+      "item": "sugar",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "3 tbsp. flour",
+      "he": "3 כפות קמח",
+      "item": "flour",
+      "amount": 3,
+      "unit": "tbsp"
+    },
+    {
+      "en": "1 tsp. vanilla",
+      "he": "1 כפית וניל",
+      "item": "vanilla",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "3 tbsp. lemon juice (for cake, divided)",
+      "he": "3 כפות מיץ לימון (לעוגה, מחולק)",
+      "item": "lemon juice",
+      "amount": 3,
+      "unit": "tbsp"
+    },
+    {
+      "en": "1 pint fresh small strawberries (for glaze and topping)",
+      "he": "1 פיינט תותים טריים קטנים (לזיגוג ולציפוי)",
+      "item": "fresh small strawberries",
+      "amount": 1,
+      "unit": "pint"
+    },
+    {
+      "en": "3/4 cup sugar (for glaze)",
+      "he": "3/4 כוס סוכר (לזיגוג)",
+      "item": "sugar",
+      "amount": 0.75,
+      "unit": "cup"
+    },
+    {
+      "en": "1/2 cup water (for glaze)",
+      "he": "1/2 כוס מים (לזיגוג)",
+      "item": "water",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1 1/2 tbsp. cornstarch (for glaze)",
+      "he": "1.5 כפות קורנפלור (לזיגוג)",
+      "item": "cornstarch",
+      "amount": 1.5,
+      "unit": "tbsp"
+    },
+    {
+      "en": "1 tbsp. lemon juice (for glaze)",
+      "he": "1 כף מיץ לימון (לזיגוג)",
+      "item": "lemon juice",
+      "amount": 1,
+      "unit": "tbsp"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Beat egg yolks until lemon colored.",
+      "Mash cream cheese.",
+      "Add 1 cup sugar, 3 tbsp. flour, 1 tsp. vanilla, and 3 tbsp. lemon juice to the mashed cream cheese.",
+      "Combine the cream cheese mixture with the beaten egg yolks.",
+      "Beat egg whites until stiff (until peaks form).",
+      "Fold the beaten egg whites into the cream cheese and egg yolk mixture.",
+      "Pour the mixture into a crust (or a 10-inch springform pan).",
+      "Bake at 300°F for 1 hour.",
+      "Turn off the oven and let the cake cool in the oven for 3 hours before removing.",
+      "Cool completely.",
+      "Add remaining lemon juice (if any was reserved from the 3 tbsp. for the cake).",
+      "Chill the cake.",
+      "Arrange some fresh small strawberries on top of the chilled cake.",
+      "Reserve 3/4 cup of the strawberries for the glaze mixture.",
+      "Crush 1/4 cup of the reserved strawberries.",
+      "In a saucepan, combine the crushed 1/4 cup strawberries, 1 1/2 tbsp. cornstarch, 1/2 cup water, 3/4 cup sugar, and 1 tbsp. lemon juice.",
+      "Melt (cook) the mixture over heat until it becomes clear.",
+      "Spoon the prepared glaze over the arranged berries on the cake.",
+      "Butter a 9-inch pie plate."
+    ],
+    "he": [
+      "הקציפו חלמונים עד לקבלת צבע לימוני.",
+      "מעכו את גבינת השמנת.",
+      "הוסיפו 1 כוס סוכר, 3 כפות קמח, 1 כפית וניל ו-3 כפות מיץ לימון לגבינת השמנת המעוכה.",
+      "שלבו את תערובת גבינת השמנת עם החלמונים המוקצפים.",
+      "הקציפו חלבונים עד לקבלת קצף יציב (עד שנוצרים פיקים).",
+      "קפלו בעדינות את החלבונים המוקצפים לתוך תערובת גבינת השמנת והחלמונים.",
+      "שפכו את התערובת לתוך קלתית (או תבנית קפיץ בגודל 10 אינץ').",
+      "אפו ב-300°F (כ-150°C) למשך שעה.",
+      "כבו את התנור והניחו לעוגה להתקרר בתנור למשך 3 שעות לפני הוצאתה.",
+      "צננו לחלוטין.",
+      "הוסיפו את שארית מיץ הלימון (אם נשמר מ-3 הכפות המיועדות לעוגה).",
+      "צננו את העוגה במקרר.",
+      "סדרו מעט תותים טריים קטנים על גבי העוגה המצוננת.",
+      "שמרו 3/4 כוס מהתותים לתערובת הזיגוג.",
+      "מעכו 1/4 כוס מהתותים השמורים.",
+      "בסיר קטן, שלבו את 1/4 כוס התותים המעוכים, 1.5 כפות קורנפלור, 1/2 כוס מים, 3/4 כוס סוכר ו-1 כף מיץ לימון.",
+      "בשלו את התערובת על אש בינונית עד שתהפוך שקופה.",
+      "שפכו את הזיגוג המוכן מעל התותים המסודרים על העוגה.",
+      "שמנו תבנית פאי בגודל 9 אינץ'."
+    ]
+  },
+  "tags": [
+    "dessert",
+    "cheesecake",
+    "strawberry",
+    "dairy",
+    "baking"
+  ],
+  "illustration": "illustrations/4be9a110-92a9-40ea-a5bc-04d2cc68a4b7.webp",
+  "ocrRawText": "Cheese Cake with Strawberry Glaze\n1 c. egg separated\n1 lb. cream cheese\n1 cup sugar\n3 tbls. flour\n1 tsp. vanilla\n3 tbls. lemon juice\n1 qt. strawberry glaze\nBeat egg yolks until lemon colored.\nMash cream cheese. Add 1 cup sugar, 3 tbls.\nflour, 1 tsp. vanilla, 3 tbls. lemon juice. Add\nto egg yolks. Beat egg whites\nuntil stiff. Fold to egg yolks. Add to\ncream cheese mixture. Pour into\ncrust. Bake at 300° for 1 hr.\nCool. Add remaining lemon\njuice. Spread glaze over top.\nChill.\nUntil peaks form. Pour into\n10\" springform pan. Bake\nat 300° for 1 hr. Turn off oven. Let\ncake cool in oven 3 hrs. before removing.\nGlaze\n1 pt. fresh small strawberries\n3/4 cup sugar\n1/2 cup water\n1 1/2 tbls. cornstarch\n1 tbls. lemon juice\nArrange strawberries on top of cake. Reserve 3/4 cup\nyou glaze. Crush 1/4 cup strawberries. Add\ncornstarch, 1/2 cup water, 3/4 cup sugar.\nMelt over heat until clear. Spoon onto berries.\nButter 9 inch pie plate.",
+  "selectedModel": "gemini",
+  "rankingReason": "Gemini selected (only valid result). Claude returned no result"
+}

@@ -12,8 +12,8 @@ const ocrResultSchema = z.object({
         en: z.string().min(1),
         he: z.string().min(1),
         item: z.string().min(1),
-        amount: z.number().optional(),
-        unit: z.string().optional(),
+        amount: z.number().nullable().optional(),
+        unit: z.string().nullable().optional(),
       })
     )
     .min(1),

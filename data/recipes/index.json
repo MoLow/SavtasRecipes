@@ -1,9 +1,59 @@
 {
-  "generatedAt": "2026-03-19T10:47:51.879Z",
-  "totalRecipes": 4,
+  "generatedAt": "2026-03-19T11:31:23.191Z",
+  "totalRecipes": 6,
   "recipes": [
     {
-      "id": "08c9c639-20a5-4e61-acab-170037439a15",
+      "id": "113e1abb-b470-4d59-b552-29775b045295",
+      "slug": "nanis-noodle-pudding",
+      "title": {
+        "en": "Nani's Noodle Pudding",
+        "he": "קוגל לוקשן של נאני"
+      },
+      "tags": [
+        "ashkenazi",
+        "dairy",
+        "dessert",
+        "shabbat",
+        "kugel",
+        "baked"
+      ],
+      "illustration": "illustrations/113e1abb-b470-4d59-b552-29775b045295.webp"
+    },
+    {
+      "id": "4be9a110-92a9-40ea-a5bc-04d2cc68a4b7",
+      "slug": "cheese-cake-with-strawberry-glaze",
+      "title": {
+        "en": "Cheese Cake with Strawberry Glaze",
+        "he": "עוגת גבינה עם זיגוג תותים"
+      },
+      "tags": [
+        "dessert",
+        "cheesecake",
+        "strawberry",
+        "dairy",
+        "baking"
+      ],
+      "illustration": "illustrations/4be9a110-92a9-40ea-a5bc-04d2cc68a4b7.webp"
+    },
+    {
+      "id": "5c2260e3-3b06-4669-9248-66f40683eabd",
+      "slug": "apple-cake",
+      "title": {
+        "en": "Apple Cake",
+        "he": "עוגת תפוחים"
+      },
+      "tags": [
+        "dessert",
+        "cake",
+        "apple",
+        "baking",
+        "pareve",
+        "american"
+      ],
+      "illustration": "illustrations/5c2260e3-3b06-4669-9248-66f40683eabd.webp"
+    },
+    {
+      "id": "719bb0ed-909d-46e5-9c97-31435edda4f2",
       "slug": "coconut-custard-pie",
       "title": {
         "en": "Coconut Custard Pie",
@@ -13,64 +63,44 @@
         "dessert",
         "pie",
         "coconut",
-        "custard",
-        "american",
         "dairy",
+        "american",
         "vintage"
       ],
-      "illustration": "illustrations/08c9c639-20a5-4e61-acab-170037439a15.webp"
+      "illustration": "illustrations/719bb0ed-909d-46e5-9c97-31435edda4f2.webp"
     },
     {
-      "id": "606fefa9-04be-445c-a323-8fa0b031b787",
-      "slug": "nanis-noodle-pudding",
-      "title": {
-        "en": "Nani's Noodle Pudding",
-        "he": "קוגל אטריות של נני"
-      },
-      "tags": [
-        "dairy",
-        "dessert",
-        "ashkenazi",
-        "shabbat",
-        "holiday",
-        "kugel",
-        "baked"
-      ],
-      "illustration": "illustrations/606fefa9-04be-445c-a323-8fa0b031b787.webp"
-    },
-    {
-      "id": "91f8ecd5-0d30-41f4-9839-55cd4d671829",
+      "id": "caa9d4ee-75b2-41a3-8332-d036d667a49c",
       "slug": "pie-crust",
       "title": {
         "en": "Pie Crust",
-        "he": "בצק פאי"
+        "he": "קלתית פאי"
       },
       "tags": [
         "dessert",
-        "dairy",
         "baking",
-        "pie",
-        "american"
+        "crust",
+        "basic",
+        "vegetarian",
+        "dairy-free"
       ],
-      "illustration": "illustrations/91f8ecd5-0d30-41f4-9839-55cd4d671829.webp"
+      "illustration": "illustrations/caa9d4ee-75b2-41a3-8332-d036d667a49c.webp"
     },
     {
-      "id": "d4c90391-33f0-4979-9e4c-9bba518c72e2",
-      "slug": "apple-cake",
+      "id": "e7a1687d-c628-4479-8f9e-270becb258f2",
+      "slug": "arlenes-cake-coffee-cake",
       "title": {
-        "en": "Apple Cake",
-        "he": "עוגת תפוחים"
+        "en": "Arlene's Cake (Coffee Cake)",
+        "he": "עוגת ארלין (עוגת קפה)"
       },
       "tags": [
         "dessert",
         "cake",
-        "american",
-        "pareve",
-        "vegetarian",
-        "baking",
-        "apples"
+        "coffee cake",
+        "ashkenazi",
+        "dairy"
       ],
-      "illustration": "illustrations/d4c90391-33f0-4979-9e4c-9bba518c72e2.webp"
+      "illustration": "illustrations/e7a1687d-c628-4479-8f9e-270becb258f2.webp"
     }
   ]
 }
