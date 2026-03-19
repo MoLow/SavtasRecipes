@@ -18,20 +18,27 @@ export default function SearchInput({ recipes, locale, variant = "navbar" }: Sea
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<SearchableRecipe[]>([]);
   const [isOpen, setIsOpen] = useState(false);
+  const [activeIndex, setActiveIndex] = useState(-1);
   const inputRef = useRef<HTMLInputElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
+  const itemRefs = useRef<(HTMLAnchorElement | null)[]>([]);
   const fuseRef = useRef(createFuse(recipes));
   const router = useRouter();
+
+  // Total selectable items: results + "All results" link
+  const totalItems = results.length + (results.length > 0 ? 1 : 0);
 
   const search = useCallback((q: string) => {
     if (q.trim().length === 0) {
       setResults([]);
       setIsOpen(false);
+      setActiveIndex(-1);
       return;
     }
     const found = fuseRef.current.search(q).slice(0, 5).map((r) => r.item);
     setResults(found);
     setIsOpen(found.length > 0);
+    setActiveIndex(-1);
   }, []);
 
   useEffect(() => {
@@ -47,6 +54,7 @@ export default function SearchInput({ recipes, locale, variant = "navbar" }: Sea
       }
       if (e.key === "Escape") {
         setIsOpen(false);
+        setActiveIndex(-1);
         inputRef.current?.blur();
       }
     }
@@ -58,11 +66,46 @@ export default function SearchInput({ recipes, locale, variant = "navbar" }: Sea
     function handleClickOutside(e: MouseEvent) {
       if (containerRef.current && !containerRef.current.contains(e.target as Node)) {
         setIsOpen(false);
+        setActiveIndex(-1);
       }
     }
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
+
+  // Scroll active item into view
+  useEffect(() => {
+    if (activeIndex >= 0 && itemRefs.current[activeIndex]) {
+      itemRefs.current[activeIndex]?.scrollIntoView({ block: "nearest" });
+    }
+  }, [activeIndex]);
+
+  function handleInputKeyDown(e: React.KeyboardEvent) {
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      if (!isOpen && results.length > 0) {
+        setIsOpen(true);
+      }
+      setActiveIndex((prev) => (prev < totalItems - 1 ? prev + 1 : 0));
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      setActiveIndex((prev) => (prev > 0 ? prev - 1 : totalItems - 1));
+    } else if (e.key === "Enter") {
+      e.preventDefault();
+      if (activeIndex >= 0 && activeIndex < results.length) {
+        router.push(`/${locale}/recipe/${results[activeIndex].slug}`);
+        setIsOpen(false);
+        setQuery("");
+      } else if (activeIndex === results.length) {
+        // "All results" link
+        router.push(`/${locale}/search${query ? `?q=${encodeURIComponent(query)}` : ""}`);
+        setIsOpen(false);
+      } else if (query.trim()) {
+        router.push(`/${locale}/search?q=${encodeURIComponent(query)}`);
+        setIsOpen(false);
+      }
+    }
+  }
 
   const isPage = variant === "page";
 
@@ -85,14 +128,12 @@ export default function SearchInput({ recipes, locale, variant = "navbar" }: Sea
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           onFocus={() => results.length > 0 && setIsOpen(true)}
-          onKeyDown={(e) => {
-            if (e.key === "Enter" && query.trim()) {
-              router.push(`/${locale}/search?q=${encodeURIComponent(query)}`);
-              setIsOpen(false);
-            }
-          }}
+          onKeyDown={handleInputKeyDown}
           placeholder={locale === "he" ? "חיפוש מתכונים..." : "Search recipes..."}
           dir={locale === "he" ? "rtl" : "ltr"}
+          role="combobox"
+          aria-expanded={isOpen}
+          aria-activedescendant={activeIndex >= 0 ? `search-item-${activeIndex}` : undefined}
           className={`w-full ps-9 pe-3 bg-[var(--color-bg-recessed)] border border-[var(--color-border)] focus:border-[var(--color-accent)] focus:shadow-[0_0_0_3px_var(--color-accent-glow)] focus:bg-[var(--color-bg-elevated)] rounded-full text-sm text-[var(--color-ink)] placeholder:text-[var(--color-ink-tertiary)] outline-none transition-all duration-200 ${
             isPage ? "py-3.5 ps-11 text-base" : "py-2"
           }`}
@@ -105,15 +146,26 @@ export default function SearchInput({ recipes, locale, variant = "navbar" }: Sea
       </div>
 
       {isOpen && (
-        <div className="absolute top-full mt-2 w-full bg-[var(--color-bg-elevated)] rounded-xl border border-[var(--color-border)] overflow-hidden z-50 animate-fade-in"
+        <div
+          className="absolute top-full mt-2 w-full bg-[var(--color-bg-elevated)] rounded-xl border border-[var(--color-border)] overflow-hidden z-50 animate-fade-in"
           style={{ boxShadow: "var(--shadow-card-hover)" }}
+          role="listbox"
         >
-          {results.map((r) => (
+          {results.map((r, i) => (
             <Link
               key={r.slug}
+              id={`search-item-${i}`}
+              ref={(el) => { itemRefs.current[i] = el; }}
               href={`/${locale}/recipe/${r.slug}`}
               onClick={() => { setIsOpen(false); setQuery(""); }}
-              className="flex items-center gap-3 px-4 py-3 hover:bg-[var(--color-bg-recessed)] transition-colors"
+              onMouseEnter={() => setActiveIndex(i)}
+              role="option"
+              aria-selected={activeIndex === i}
+              className={`flex items-center gap-3 px-4 py-3 transition-colors ${
+                activeIndex === i
+                  ? "bg-[var(--color-bg-recessed)]"
+                  : "hover:bg-[var(--color-bg-recessed)]"
+              }`}
             >
               <div className="relative w-10 h-10 rounded-lg overflow-hidden flex-shrink-0">
                 <Image
@@ -135,9 +187,18 @@ export default function SearchInput({ recipes, locale, variant = "navbar" }: Sea
             </Link>
           ))}
           <Link
+            id={`search-item-${results.length}`}
+            ref={(el) => { itemRefs.current[results.length] = el; }}
             href={`/${locale}/search${query ? `?q=${encodeURIComponent(query)}` : ""}`}
             onClick={() => setIsOpen(false)}
-            className="block px-4 py-2.5 text-xs text-[var(--color-accent)] hover:bg-[var(--color-accent-light)] transition-colors border-t border-[var(--color-border)] text-center"
+            onMouseEnter={() => setActiveIndex(results.length)}
+            role="option"
+            aria-selected={activeIndex === results.length}
+            className={`block px-4 py-2.5 text-xs text-[var(--color-accent)] transition-colors border-t border-[var(--color-border)] text-center ${
+              activeIndex === results.length
+                ? "bg-[var(--color-accent-light)]"
+                : "hover:bg-[var(--color-accent-light)]"
+            }`}
           >
             {locale === "he" ? "→ כל התוצאות" : "All results →"}
           </Link>
