@@ -1,0 +1,142 @@
+{
+  "id": "2ad3a6e9-531e-448e-9dd2-58a181510212",
+  "slug": "streusel-make-coffee-cake",
+  "source": {
+    "scanFiles": [
+      "scans/2ad3a6e9-531e-448e-9dd2-58a181510212-0.jpg",
+      "scans/2ad3a6e9-531e-448e-9dd2-58a181510212-1.jpg"
+    ],
+    "processedAt": "2026-03-19T17:09:51.983Z"
+  },
+  "title": {
+    "en": "Streusel Make (Coffee Cake)",
+    "he": "שטרוייזל (עוגת קפה)"
+  },
+  "description": {
+    "en": "A recipe for a coffee cake with a streusel topping, featuring walnuts, sugar, and cinnamon, and an option to add fruit. The original recipe uses the term 'Streisel Make'.",
+    "he": "מתכון לעוגת קפה עם ציפוי שטרוייזל הכולל אגוזי מלך, סוכר וקינמון, עם אפשרות להוסיף פירות."
+  },
+  "ingredients": [
+    {
+      "en": "1/2 lb butter",
+      "he": "1/2 ליברת חמאה",
+      "item": "butter",
+      "amount": 0.5,
+      "unit": "lb"
+    },
+    {
+      "en": "1 1/2 cups sugar",
+      "he": "1 1/2 כוסות סוכר",
+      "item": "sugar",
+      "amount": 1.5,
+      "unit": "cup"
+    },
+    {
+      "en": "4 eggs",
+      "he": "4 ביצים",
+      "item": "eggs",
+      "amount": 4,
+      "unit": ""
+    },
+    {
+      "en": "4 cups flour",
+      "he": "4 כוסות קמח",
+      "item": "flour",
+      "amount": 4,
+      "unit": "cup"
+    },
+    {
+      "en": "2 tsp baking powder",
+      "he": "2 כפיות אבקת אפייה",
+      "item": "baking powder",
+      "amount": 2,
+      "unit": "tsp"
+    },
+    {
+      "en": "1 tsp vanilla",
+      "he": "1 כפית וניל",
+      "item": "vanilla",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "1 cup sour cream",
+      "he": "1 כוס שמנת חמוצה",
+      "item": "sour cream",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1 lb walnuts",
+      "he": "1 ליברת אגוזי מלך",
+      "item": "walnuts",
+      "amount": 1,
+      "unit": "lb"
+    },
+    {
+      "en": "Sugar (for streusel)",
+      "he": "סוכר (לשטרוייזל)",
+      "item": "sugar",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "Cinnamon (for streusel)",
+      "he": "קינמון (לשטרוייזל)",
+      "item": "cinnamon",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "Fruit (for topping)",
+      "he": "פירות (לציפוי)",
+      "item": "fruit",
+      "amount": null,
+      "unit": null
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Cream together butter, 1 1/2 cups sugar, and eggs.",
+      "Add flour, baking powder, vanilla, and sour cream to the creamed mixture and mix well to form the batter.",
+      "Prepare a mixture of walnuts, sugar, and cinnamon for the streusel.",
+      "Pour half of the batter into a baking pan.",
+      "Sprinkle some of the walnut, sugar, and cinnamon mixture onto the batter.",
+      "Pour the rest of the remaining batter over the streusel layer.",
+      "Add fruit on top.",
+      "Bake at 350°F for 1 hour."
+    ],
+    "he": [
+      "מקציפים יחד חמאה, 1 1/2 כוסות סוכר וביצים.",
+      "מוסיפים קמח, אבקת אפייה, וניל ושמנת חמוצה לתערובת המוקצפת ומערבבים היטב ליצירת הבלילה.",
+      "מכינים תערובת של אגוזי מלך, סוכר וקינמון לשטרוייזל.",
+      "יוצקים חצי מהבלילה לתבנית אפייה.",
+      "מפזרים מעל הבלילה חלק מתערובת אגוזי המלך, הסוכר והקינמון.",
+      "יוצקים את יתרת הבלילה מעל שכבת השטרוייזל.",
+      "מוסיפים פירות מעל.",
+      "אופים בחום של 350°F (כ-175°C) למשך שעה."
+    ]
+  },
+  "tags": [
+    {
+      "en": "Dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "Coffee Cake",
+      "he": "עוגת קפה"
+    },
+    {
+      "en": "Baked Goods",
+      "he": "מאפים"
+    },
+    {
+      "en": "Dairy",
+      "he": "חלבי"
+    }
+  ],
+  "illustration": "illustrations/2ad3a6e9-531e-448e-9dd2-58a181510212.webp",
+  "ocrRawText": "Streisel Make (Coffee Cake)\n1/2 lb butter\n1 1/2 cups sugar\n4 eggs\n4 cups flour\n2 tsp baking powder\n1 tsp vanilla\n1 cup sour cream\nwalnuts (1-lb)\ncreame together\nsugar & cinnamon\nmix half the batter, spread in 1/2\nsprinkle a mixture of walnuts\nsugar & cinnamon onto batter.\npour rest of remainder\nfruit on top\nBake 350°\n1 hr",
+  "selectedModel": "gemini",
+  "rankingReason": "Gemini selected (only valid result). Claude returned no result"
+}

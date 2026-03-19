@@ -1,0 +1,84 @@
+{
+  "id": "ae179489-4f3b-4231-b911-5c9a279ebe5b",
+  "slug": "pie-crust",
+  "source": {
+    "scanFiles": [
+      "scans/ae179489-4f3b-4231-b911-5c9a279ebe5b-0.jpg"
+    ],
+    "processedAt": "2026-03-19T18:00:52.865Z"
+  },
+  "title": {
+    "en": "Pie Crust",
+    "he": "בצק פאי"
+  },
+  "description": {
+    "en": "A simple pie crust recipe made with flour, milk, and oil. Mix and press into a pie pan, then bake until brown.",
+    "he": "מתכון פשוט לבצק פאי עשוי מקמח, חלב ושמן. מערבבים ולוחצים לתוך תבנית פאי, ואופים עד שמשחים."
+  },
+  "ingredients": [
+    {
+      "en": "1 1/2 cups flour",
+      "he": "1.5 כוסות קמח",
+      "item": "flour",
+      "amount": 1.5,
+      "unit": "cup"
+    },
+    {
+      "en": "3 tbsp milk",
+      "he": "3 כפות חלב",
+      "item": "milk",
+      "amount": 3,
+      "unit": "tbsp"
+    },
+    {
+      "en": "1/4 - 1/2 cup oil",
+      "he": "1/4 עד 1/2 כוס שמן",
+      "item": "oil",
+      "amount": 0.25,
+      "unit": "cup"
+    },
+    {
+      "en": "Sweet & Low",
+      "he": "סוכרזית (סוויט אנד לו)",
+      "item": "Sweet & Low"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Step 1: Mix all ingredients together.",
+      "Step 2: Press the mixture into a pie pan.",
+      "Step 3: Bake at 350° until browned."
+    ],
+    "he": [
+      "שלב 1: מערבבים את כל המרכיבים יחד.",
+      "שלב 2: לוחצים את התערובת לתוך תבנית פאי.",
+      "שלב 3: אופים ב-350 מעלות עד שמשחים."
+    ]
+  },
+  "tags": [
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "baking",
+      "he": "אפייה"
+    },
+    {
+      "en": "pastry",
+      "he": "מאפה"
+    },
+    {
+      "en": "dairy",
+      "he": "חלבי"
+    },
+    {
+      "en": "sugar-free",
+      "he": "ללא סוכר"
+    }
+  ],
+  "illustration": "illustrations/ae179489-4f3b-4231-b911-5c9a279ebe5b.webp",
+  "ocrRawText": "Pie Crust\n1 1/2 C flour\n3 tbsp milk\n1/4-1/2 C oil\nsweet & low\nmix & press into\npie pan - bake\n350° to brown",
+  "selectedModel": "claude",
+  "rankingReason": "Claude selected (only valid result). Gemini result failed validation: ingredients.2.amount: Expected number, received string"
+}

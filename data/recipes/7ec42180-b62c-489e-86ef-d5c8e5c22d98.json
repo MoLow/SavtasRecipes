@@ -1,0 +1,115 @@
+{
+  "id": "7ec42180-b62c-489e-86ef-d5c8e5c22d98",
+  "slug": "chocaholic-brownies",
+  "source": {
+    "scanFiles": [
+      "scans/7ec42180-b62c-489e-86ef-d5c8e5c22d98-0.jpg"
+    ],
+    "processedAt": "2026-03-19T17:30:42.975Z"
+  },
+  "title": {
+    "en": "CHOCAHOLIC BROWNIES",
+    "he": "בראוניז שוקוהוליים"
+  },
+  "description": {
+    "en": "A classic recipe for rich and fudgy brownies, packed with chocolate and nuts.",
+    "he": "מתכון קלאסי לבראוניז עשירים ופאדג'יים, עמוסים בשוקולד ואגוזים."
+  },
+  "ingredients": [
+    {
+      "en": "1 cup butter or margarine",
+      "he": "1 כוס חמאה או מרגרינה",
+      "item": "butter or margarine",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "4 squares unsweetened chocolate, melted",
+      "he": "4 קוביות שוקולד מריר לא ממותק, מומס",
+      "item": "unsweetened chocolate, melted",
+      "amount": 4,
+      "unit": "squares"
+    },
+    {
+      "en": "¼ tsp. salt",
+      "he": "¼ כפית מלח",
+      "item": "salt",
+      "amount": 0.25,
+      "unit": "tsp"
+    },
+    {
+      "en": "1½ cups sugar",
+      "he": "1½ כוסות סוכר",
+      "item": "sugar",
+      "amount": 1.5,
+      "unit": "cups"
+    },
+    {
+      "en": "3 eggs",
+      "he": "3 ביצים",
+      "item": "eggs",
+      "amount": 3,
+      "unit": ""
+    },
+    {
+      "en": "1 tsp. vanilla",
+      "he": "1 כפית תמצית וניל",
+      "item": "vanilla",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "1 cup flour",
+      "he": "1 כוס קמח",
+      "item": "flour",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1½ cups nuts, chopped",
+      "he": "1½ כוסות אגוזים קצוצים",
+      "item": "nuts, chopped",
+      "amount": 1.5,
+      "unit": "cups"
+    },
+    {
+      "en": "1 6-oz. package chocolate chips",
+      "he": "1 חבילה (6 אונקיות) שבבי שוקולד",
+      "item": "chocolate chips",
+      "amount": 1,
+      "unit": "6-oz. package"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "1. Heat oven to 350 degrees. Mix all ingredients except chocolate chips and nuts. Pour into greased 9 x 13 inch baking pan. Sprinkle chopped nuts and chocolate chips on top and pat down.",
+      "2. Bake for 35 minutes. Cool on rack for 20 minutes. Cut into squares."
+    ],
+    "he": [
+      "1. חממו תנור ל-350 מעלות פרנהייט (כ-175 מעלות צלזיוס). ערבבו את כל המרכיבים למעט שבבי השוקולד והאגוזים. שפכו לתבנית אפייה משומנת בגודל 9X13 אינץ'. פזרו מעל את האגוזים הקצוצים ושבבי השוקולד וטפחו קלות.",
+      "2. אפו במשך 35 דקות. צננו על רשת במשך 20 דקות. חתכו לריבועים."
+    ]
+  },
+  "tags": [
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "baking",
+      "he": "אפייה"
+    },
+    {
+      "en": "chocolate",
+      "he": "שוקולד"
+    },
+    {
+      "en": "brownies",
+      "he": "בראוניז"
+    }
+  ],
+  "illustration": "illustrations/7ec42180-b62c-489e-86ef-d5c8e5c22d98.webp",
+  "ocrRawText": "CHOCAHOLIC BROWNIES\nIngredients:\n1 cup butter or margarine\n4 squares unsweetened chocolate,\nmelted\n¼ tsp. salt\n1½ cups sugar\n3 eggs\n1 tsp. vanilla\n1 cup flour\n1½ cups nuts, chopped\n1 6-oz. package chocolate chips\n\nPreparation:\n1. Heat oven to 350 degrees. Mix\nall ingredients except chocolate\nchips and nuts. Pour into greased 9\nx 13 inch baking pan. Sprinkle\nchopped nuts and chocolate chips\non top and pat down.\n2. Bake for 35 minutes. Cool on\nrack for 20 minutes. Cut into\nsquares.",
+  "selectedModel": "gemini",
+  "rankingReason": "Result A has better overall quality. Both are complete with titles, descriptions, ingredients, and instructions. However, Result A's Hebrew translation is more natural and idiomatic (e.g., 'תמצית וניל' vs 'וניל' for vanilla extract), and maintains consistency in formatting. Result B has some issues: the ingredients list breaks down '6-oz. package' into amount: 6, unit: 'oz' which is incorrect structuring—it should be amount: 1, unit: '6-oz. package' like Result A. Result B's Hebrew instructions use infinitive forms ('לחמם', 'לערבב') which is less natural for imperative recipe instructions. Result A also provides a clearer description and maintains better semantic accuracy in the ingredient item parsing."
+}

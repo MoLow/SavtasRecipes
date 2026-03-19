@@ -1,0 +1,129 @@
+{
+  "id": "dbe579ef-4ae6-4693-9fbc-67dfd90b67ff",
+  "slug": "chicken-with-biscuit-topping",
+  "source": {
+    "scanFiles": [
+      "scans/dbe579ef-4ae6-4693-9fbc-67dfd90b67ff-0.jpg"
+    ],
+    "processedAt": "2026-03-19T17:15:55.280Z"
+  },
+  "title": {
+    "en": "Chicken with Biscuit Topping",
+    "he": "עוף עם כיסוי ביסקוויט"
+  },
+  "description": {
+    "en": "A comforting baked chicken dish with shredded boiled chicken in a creamy sauce, topped with a biscuit-like flour and baking powder cover, baked at 425°F.",
+    "he": "מנת עוף אפויה ונוחמת עם עוף מבושל ומגורד ברוטב שמנת, מכוסה בשכבת בצק דמוית ביסקוויט, נאפית ב-425 מעלות פרנהייט."
+  },
+  "ingredients": [
+    {
+      "en": "1¼ cup chicken broth",
+      "he": "1¼ כוס מרק עוף",
+      "item": "chicken broth",
+      "amount": 1.25,
+      "unit": "cup"
+    },
+    {
+      "en": "1 can cream of chicken soup",
+      "he": "1 פחית מרק עוף מרוכז שמנתי",
+      "item": "cream of chicken soup",
+      "amount": 1,
+      "unit": "can"
+    },
+    {
+      "en": "1 full chicken, boiled 40 mins and shredded",
+      "he": "1 עוף שלם, מבושל 40 דקות ומגורד",
+      "item": "whole chicken",
+      "amount": 1,
+      "unit": "whole"
+    },
+    {
+      "en": "1 cup flour",
+      "he": "1 כוס קמח",
+      "item": "flour",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "2 tbs baking powder",
+      "he": "2 כפות אבקת אפייה",
+      "item": "baking powder",
+      "amount": 2,
+      "unit": "tbs"
+    },
+    {
+      "en": "1 stick margarine, melted",
+      "he": "1 חפיסת מרגרינה, מומסת",
+      "item": "margarine",
+      "amount": 1,
+      "unit": "stick"
+    },
+    {
+      "en": "1 cup milk",
+      "he": "1 כוס חלב",
+      "item": "milk",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1 tbs pepper",
+      "he": "1 כף פלפל",
+      "item": "pepper",
+      "amount": 1,
+      "unit": "tbs"
+    },
+    {
+      "en": "1 tsp salt",
+      "he": "1 כפית מלח",
+      "item": "salt",
+      "amount": 1,
+      "unit": "tsp"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Step 1: Boil 1 full chicken for 40 minutes, then shred.",
+      "Step 2: Mix 1¼ cup chicken broth and 1 can cream of chicken soup to make a sauce.",
+      "Step 3: Pour the sauce over the shredded chicken in a baking dish.",
+      "Step 4: Prepare the cover: sift together 1 cup flour, 2 tbs baking powder, 1 tbs pepper, and 1 tsp salt. Mix in 1 stick melted margarine and 1 cup milk. Let the batter sit, then pour over the chicken.",
+      "Step 5: Bake at 425°F for 30 minutes."
+    ],
+    "he": [
+      "שלב 1: לבשל עוף שלם במשך 40 דקות, ואז לגרד.",
+      "שלב 2: לערבב 1¼ כוס מרק עוף עם פחית מרק עוף מרוכז שמנתי להכנת הרוטב.",
+      "שלב 3: לשפוך את הרוטב על העוף המגורד בתבנית אפייה.",
+      "שלב 4: להכין את הכיסוי: לנפות יחד 1 כוס קמח, 2 כפות אבקת אפייה, 1 כף פלפל ו-1 כפית מלח. לערבב עם חפיסת מרגרינה מומסת ו-1 כוס חלב. לתת לבלילה לנוח, ואז לשפוך על העוף.",
+      "שלב 5: לאפות ב-425 מעלות פרנהייט (כ-220 מעלות צלזיוס) למשך 30 דקות."
+    ]
+  },
+  "tags": [
+    {
+      "en": "main",
+      "he": "מנה עיקרית"
+    },
+    {
+      "en": "meat",
+      "he": "בשרי"
+    },
+    {
+      "en": "chicken",
+      "he": "עוף"
+    },
+    {
+      "en": "american",
+      "he": "אמריקאי"
+    },
+    {
+      "en": "comfort food",
+      "he": "אוכל נוחמה"
+    },
+    {
+      "en": "baked",
+      "he": "אפוי"
+    }
+  ],
+  "illustration": "illustrations/dbe579ef-4ae6-4693-9fbc-67dfd90b67ff.webp",
+  "ocrRawText": "bake 425° for 30 mins\n1¼ c chicken broth\n1 can cream chix soup\n} sauce - pour over\n  shredded chix\n\n1 full chix boiled 40 mins + shred\n\nCover with:\n  1c flour              1 stick marg melted\n  2 tbs baking powder   1C milk\n  1 tbs pepper          1 tsp salt\n  -sift together, mix, let sit, pour",
+  "selectedModel": "claude",
+  "rankingReason": "Result B is significantly better. It correctly identifies '2 tbs baking powder' (not 2 teaspoons as in A), and crucially, '1 tbs pepper' (not 6 tablespoons as in A—6 tbsp of pepper would make the dish inedible). Result B also more accurately describes the topping as 'Biscuit Topping' rather than 'Casserole,' which better captures the dumpling/drop-biscuit nature of the recipe. The ingredient list is more complete with salt included, and Result B provides better descriptive text with more contextual details. The OCR raw text in Result B also appears to better reflect typical handwritten recipe formatting with the columnar layout of ingredients."
+}

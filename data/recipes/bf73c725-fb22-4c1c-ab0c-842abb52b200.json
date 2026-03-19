@@ -1,0 +1,104 @@
+{
+  "id": "bf73c725-fb22-4c1c-ab0c-842abb52b200",
+  "slug": "vanilla-kipferls-white-cookies",
+  "source": {
+    "scanFiles": [
+      "scans/bf73c725-fb22-4c1c-ab0c-842abb52b200-0.jpg"
+    ],
+    "processedAt": "2026-03-19T17:46:56.817Z"
+  },
+  "title": {
+    "en": "Vanilla Kipferls (White Cookies)",
+    "he": "קיפרל וניל (עוגיות לבנות)"
+  },
+  "description": {
+    "en": "Traditional Austrian crescent-shaped butter cookies rolled in powdered sugar while still hot. Recipe from Irene.",
+    "he": "עוגיות חמאה אוסטריות מסורתיות בצורת סהרון, מגולגלות באבקת סוכר כשהן עדיין חמות. מתכון מאירן."
+  },
+  "ingredients": [
+    {
+      "en": "1¾ cup sifted flour",
+      "he": "1¾ כוס קמח מנופה",
+      "item": "sifted flour",
+      "amount": 1.75,
+      "unit": "cup"
+    },
+    {
+      "en": "½ cup butter",
+      "he": "½ כוס חמאה",
+      "item": "butter",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "⅓ cup ground nuts",
+      "he": "⅓ כוס אגוזים טחונים",
+      "item": "ground nuts",
+      "amount": 0.33,
+      "unit": "cup"
+    },
+    {
+      "en": "4½ tablespoon sugar",
+      "he": "4½ כפות סוכר",
+      "item": "sugar",
+      "amount": 4.5,
+      "unit": "tablespoon"
+    },
+    {
+      "en": "1 teaspoon vanilla",
+      "he": "1 כפית וניל",
+      "item": "vanilla",
+      "amount": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "en": "Powdered sugar",
+      "he": "אבקת סוכר",
+      "item": "powdered sugar"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Step 1: Make dough into a log — about 1\" in diameter.",
+      "Step 2: Refrigerate in wax paper for 3 to 4 hours.",
+      "Step 3: Cut ¼\" pieces and bake on greased pan.",
+      "Step 4: When done and still hot, roll in powdered sugar."
+    ],
+    "he": [
+      "שלב 1: עצבו את הבצק לגליל בקוטר של כ-2.5 ס\"מ.",
+      "שלב 2: צננו במקרר עטוף בנייר שעווה למשך 3 עד 4 שעות.",
+      "שלב 3: חתכו פרוסות בעובי כ-0.5 ס\"מ ואפו על תבנית משומנת.",
+      "שלב 4: כשהעוגיות מוכנות ועדיין חמות, גלגלו באבקת סוכר."
+    ]
+  },
+  "tags": [
+    {
+      "en": "cookies",
+      "he": "עוגיות"
+    },
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "ashkenazi",
+      "he": "אשכנזי"
+    },
+    {
+      "en": "Austrian",
+      "he": "אוסטרי"
+    },
+    {
+      "en": "dairy",
+      "he": "חלבי"
+    },
+    {
+      "en": "baking",
+      "he": "אפייה"
+    }
+  ],
+  "illustration": "illustrations/bf73c725-fb22-4c1c-ab0c-842abb52b200.webp",
+  "ocrRawText": "Vanilla Kipferls (white Cookies) [Irene]\n1¾ cup sifted Flour                Powdered sugar.\n½ cup butter\n⅓ cup ground nuts\n4½ Tablespoon sugar\n1 Teaspoon Vanilla\n        Make dough into a log - about 1\" in diameter - Refrigerate\nin wax paper for 3 to 4 hrs.    Cut ¼\" pieces and bake\non Greased pan. When done and still hot, roll in\nPowdered sugar.",
+  "selectedModel": "claude",
+  "rankingReason": "Result B is superior in several key ways: (1) It includes powdered sugar as an explicit ingredient while A omits it, which is critical since the recipe calls for rolling cookies in it; (2) The instructions are better formatted with numbered steps and more natural phrasing ('3 to 4 hours' vs '3 hrs'); (3) The OCR raw text is more plausible, showing 'Powdered sugar' appearing at the end of the ingredient list as it would in handwriting; (4) The description adds contextual value by identifying kipferls as Austrian crescent-shaped cookies and mentioning Irene as the source; (5) The tags are more comprehensive and culturally informative (Ashkenazi, Austrian, dairy); (6) The instruction in A says cut '¾\" pieces' while B correctly identifies '¼\" pieces' based on the OCR text which shows this dimension. Result A has superior capitalization consistency (NUTS, Tablespoon) but this is outweighed by B's functional completeness and recipe accuracy."
+}

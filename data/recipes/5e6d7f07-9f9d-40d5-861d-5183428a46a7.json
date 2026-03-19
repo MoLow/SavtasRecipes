@@ -1,0 +1,88 @@
+{
+  "id": "5e6d7f07-9f9d-40d5-861d-5183428a46a7",
+  "slug": "diet-cheesecake",
+  "source": {
+    "scanFiles": [
+      "scans/5e6d7f07-9f9d-40d5-861d-5183428a46a7-0.jpg"
+    ],
+    "processedAt": "2026-03-19T17:29:44.882Z"
+  },
+  "title": {
+    "en": "Diet Cheesecake",
+    "he": "עוגת גבינה דיאטטית"
+  },
+  "description": {
+    "en": "A simple, lighter cheesecake made with ricotta cheese and minimal sugar, using Sweet'n Low as a substitute.",
+    "he": "עוגת גבינה פשוטה וקלה יותר, עשויה מגבינת ריקוטה עם מעט סוכר, תוך שימוש בממתיק מלאכותי כתחליף."
+  },
+  "ingredients": [
+    {
+      "en": "2 eggs, well beaten",
+      "he": "2 ביצים, טרופות היטב",
+      "item": "eggs",
+      "amount": 2,
+      "unit": "piece"
+    },
+    {
+      "en": "Vanilla",
+      "he": "וניל",
+      "item": "vanilla"
+    },
+    {
+      "en": "⅓ cup sugar or 3 Sweet'n Lows",
+      "he": "⅓ כוס סוכר או 3 שקיקי ממתיק מלאכותי",
+      "item": "sugar",
+      "amount": 0.33,
+      "unit": "cup"
+    },
+    {
+      "en": "1 lb ricotta cheese",
+      "he": "1 פאונד (450 גרם) גבינת ריקוטה",
+      "item": "ricotta cheese",
+      "amount": 1,
+      "unit": "lb"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Step 1: Beat 2 eggs well with vanilla.",
+      "Step 2: Add ⅓ cup sugar or 3 Sweet'n Lows.",
+      "Step 3: Mix in 1 lb ricotta cheese.",
+      "Step 4: Pour into crust or greased pan.",
+      "Step 5: Bake at 350° for 1 hour."
+    ],
+    "he": [
+      "שלב 1: לטרוף 2 ביצים היטב עם וניל.",
+      "שלב 2: להוסיף ⅓ כוס סוכר או 3 שקיקי ממתיק מלאכותי.",
+      "שלב 3: לערבב פנימה 450 גרם גבינת ריקוטה.",
+      "שלב 4: לשפוך לתוך בסיס פירורים או תבנית משומנת.",
+      "שלב 5: לאפות ב-175 מעלות (350°F) למשך שעה."
+    ]
+  },
+  "tags": [
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "cheesecake",
+      "he": "עוגת גבינה"
+    },
+    {
+      "en": "dairy",
+      "he": "חלבי"
+    },
+    {
+      "en": "diet",
+      "he": "דיאטטי"
+    },
+    {
+      "en": "baking",
+      "he": "אפייה"
+    }
+  ],
+  "illustration": "illustrations/5e6d7f07-9f9d-40d5-861d-5183428a46a7.webp",
+  "ocrRawText": "Diet Cheese Cake\n2 eggs well beaten + vanilla\n⅓ c sugar or 3 sweet + lows\nmix in 1 lb Ricotta Cheese\npour into crust or greased\npan\n    Bake 350° for 1 hr",
+  "selectedModel": "claude",
+  "rankingReason": "Claude selected (only valid result). Gemini result failed validation: ingredients.2.amount: Expected number, received string"
+}

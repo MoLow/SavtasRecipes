@@ -1,0 +1,99 @@
+{
+  "id": "9bf22feb-4de9-48e9-a141-7cdc4bd29db3",
+  "slug": "cheesecake",
+  "source": {
+    "scanFiles": [
+      "scans/9bf22feb-4de9-48e9-a141-7cdc4bd29db3-0.jpg"
+    ],
+    "processedAt": "2026-03-19T17:40:40.364Z"
+  },
+  "title": {
+    "en": "Cheesecake",
+    "he": "עוגת גבינה"
+  },
+  "description": {
+    "en": "A simple baked cheesecake made with cream cheese, eggs, and sweetener, baked in a water bath at 350°F.",
+    "he": "עוגת גבינה אפויה פשוטה עם גבינת שמנת, ביצים וממתיק, נאפית בבן מרי ב-350 מעלות פרנהייט."
+  },
+  "ingredients": [
+    {
+      "en": "3 lbs cream cheese",
+      "he": "3 פאונד גבינת שמנת",
+      "item": "cream cheese",
+      "amount": 3,
+      "unit": "lbs"
+    },
+    {
+      "en": "3 eggs",
+      "he": "3 ביצים",
+      "item": "eggs",
+      "amount": 3,
+      "unit": "whole"
+    },
+    {
+      "en": "Whip whites",
+      "he": "חלבוני ביצים מוקצפים",
+      "item": "egg whites",
+      "amount": 3,
+      "unit": "whole"
+    },
+    {
+      "en": "10 pcs sweetener",
+      "he": "10 יחידות ממתיק",
+      "item": "sweetener",
+      "amount": 10,
+      "unit": "pcs"
+    },
+    {
+      "en": "Zest of 2 lemons",
+      "he": "גרידה של 2 לימונים",
+      "item": "lemon zest",
+      "amount": 2,
+      "unit": "lemons"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Step 1: Mix cream cheese, egg yolks, sweetener, and lemon zest together.",
+      "Step 2: Whip egg whites separately and fold into the mixture.",
+      "Step 3: Line a bowl with wrap, put in the batter.",
+      "Step 4: Place bowl in a tray with water (water bath/bain-marie).",
+      "Step 5: Bake at 350°F in oven for one hour.",
+      "Step 6: Rest in oven for one hour after baking (with oven off)."
+    ],
+    "he": [
+      "שלב 1: לערבב את גבינת השמנת, חלמונים, ממתיק וגרידת לימון יחד.",
+      "שלב 2: להקציף את חלבוני הביצים בנפרד ולקפל לתוך התערובת.",
+      "שלב 3: לרפד קערה בניילון נצמד ולשים בתוכה את התערובת.",
+      "שלב 4: להניח את הקערה במגש עם מים (בן מרי).",
+      "שלב 5: לאפות ב-350 מעלות פרנהייט בתנור למשך שעה אחת.",
+      "שלב 6: להשאיר לנוח בתנור שעה נוספת לאחר האפייה (עם תנור כבוי)."
+    ]
+  },
+  "tags": [
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "cheesecake",
+      "he": "עוגת גבינה"
+    },
+    {
+      "en": "baked",
+      "he": "אפוי"
+    },
+    {
+      "en": "dairy",
+      "he": "חלבי"
+    },
+    {
+      "en": "shavuot",
+      "he": "שבועות"
+    }
+  ],
+  "illustration": "illustrations/9bf22feb-4de9-48e9-a141-7cdc4bd29db3.webp",
+  "ocrRawText": "Cheesecake\n3 LBS cream cheese\n3 eggs\nwhip whites\n10. pcs sweetener\nzest of 2 lemons\none hour at 350° in oven\none hour rest in oven\n\nline bowl with wrap put in\nmix        in tray with\n            water",
+  "selectedModel": "claude",
+  "rankingReason": "Result B is superior because it presents a coherent, executable cheesecake recipe with logical ingredient proportions and clear, sequential instructions. It correctly interprets the handwritten notes to extract 3 eggs (separating whites for whipping), uses the correct quantity of sweetener (10 pcs vs the unclear 20), and specifies lemon zest instead of whole lemons. The instructions are well-organized with numbered steps that make culinary sense (separating and whipping egg whites, folding them in, using a water bath). Result A acknowledges uncertainties with [unclear] tags throughout and proposes an unusual recipe using 8 egg whites with only 3 lbs cream cheese, which would create an overly eggy, unbalanced cheesecake. Result B's Hebrew translations are more natural, and the OCR raw text more accurately reflects typical handwritten recipe formatting."
+}

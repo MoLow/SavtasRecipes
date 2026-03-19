@@ -1,0 +1,116 @@
+{
+  "id": "8d01d1d7-5a46-4112-bbe1-e3f66a709230",
+  "slug": "chocolate-chip-nut-pie",
+  "source": {
+    "scanFiles": [
+      "scans/8d01d1d7-5a46-4112-bbe1-e3f66a709230-0.jpg"
+    ],
+    "processedAt": "2026-03-19T17:49:49.297Z"
+  },
+  "title": {
+    "en": "Chocolate Chip Nut Pie",
+    "he": "פאי אגוזים ושוקולד צ'יפס"
+  },
+  "description": {
+    "en": "A simple recipe for a chocolate chip nut pie, baked in an unbaked pie shell. The recipe specifies to bake until a crust forms.",
+    "he": "מתכון פשוט לפאי אגוזים ושוקולד צ'יפס, נאפה בקלתית פאי לא אפויה. המתכון מציין לאפות עד שנוצר קרום."
+  },
+  "ingredients": [
+    {
+      "en": "Unbaked pie shell",
+      "he": "קלתית פאי לא אפויה",
+      "item": "pie shell",
+      "amount": null,
+      "unit": "unbaked"
+    },
+    {
+      "en": "2 eggs",
+      "he": "2 ביצים",
+      "item": "eggs",
+      "amount": 2,
+      "unit": null
+    },
+    {
+      "en": "½ cup sugar",
+      "he": "½ כוס סוכר",
+      "item": "sugar",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "½ cup flour",
+      "he": "½ כוס קמח",
+      "item": "flour",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "½ cup melted Margarine",
+      "he": "½ כוס מרגרינה מומסת",
+      "item": "margarine",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1 tsp vanilla",
+      "he": "1 כפית תמצית וניל",
+      "item": "vanilla",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "1 cup chopped almonds or pecans",
+      "he": "1 כוס שקדים או פקאנים קצוצים",
+      "item": "almonds or pecans",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "½ cup choc. chips",
+      "he": "½ כוס שוקולד צ'יפס",
+      "item": "chocolate chips",
+      "amount": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Beat eggs.",
+      "Add all other ingredients, stirring in nuts and chocolate chips.",
+      "Bake at 350°F.",
+      "The pie is ready when a crust forms."
+    ],
+    "he": [
+      "טורפים ביצים.",
+      "מוסיפים את כל שאר המרכיבים, מערבבים פנימה את האגוזים ושוקולד צ'יפס.",
+      "אופים בחום של 350°F.",
+      "הפאי מוכן כאשר נוצר קרום."
+    ]
+  },
+  "tags": [
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "pie",
+      "he": "פאי"
+    },
+    {
+      "en": "baking",
+      "he": "אפייה"
+    },
+    {
+      "en": "nuts",
+      "he": "אגוזים"
+    },
+    {
+      "en": "chocolate",
+      "he": "שוקולד"
+    }
+  ],
+  "illustration": "illustrations/8d01d1d7-5a46-4112-bbe1-e3f66a709230.webp",
+  "ocrRawText": "Chocolate chip nut Pie\nChocolate chip nut Pie\nUnbaked pie shell\n2 eggs\n½ cup sugar\n½ cup flour\n½ cup melted Margarine\n1 tsp vanilla\n1 cup chopped almonds or pecans\n½ cup choc. chips\n\nBeat eggs - add all other ingredients\nnut + choc chips (stir in)\nBake 350\nWhen a crust forms it is ready",
+  "selectedModel": "gemini",
+  "rankingReason": "Result A is more accurate to the handwritten source. The OCR raw text in Result A correctly shows '½ cup sugar' and '½ cup choc. chips', matching the original. Result B incorrectly extracts '⅔ cup sugar' and '1 cup chocolate chips', which contradict its own OCR text showing '½ cup' for both. Result A also correctly identifies the pie shell as 'unbaked' (matching the handwriting), while Result B contradicts itself by claiming 'prebaked' in the description while the OCR shows 'unbaked'. Result B adds unsupported details like specific baking time (45-50 minutes) and temperature conversion that don't appear in the original, and includes dubious tags like 'american' and 'pareve' without evidence. Result A's ingredient and instruction extraction is internally consistent with its OCR text, making it the more reliable extraction."
+}

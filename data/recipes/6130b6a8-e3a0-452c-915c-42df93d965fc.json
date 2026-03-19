@@ -1,0 +1,123 @@
+{
+  "id": "6130b6a8-e3a0-452c-915c-42df93d965fc",
+  "slug": "egg-cutlet",
+  "source": {
+    "scanFiles": [
+      "scans/6130b6a8-e3a0-452c-915c-42df93d965fc-0.jpg"
+    ],
+    "processedAt": "2026-03-19T17:23:50.841Z"
+  },
+  "title": {
+    "en": "Egg Cutlet",
+    "he": "קציצות ביצה"
+  },
+  "description": {
+    "en": "Fried egg cutlets made with hard-boiled eggs, mashed potatoes, and spices, coated in breadcrumbs. The recipe notes to never use a knife when cutting — only use your hands to break them.",
+    "he": "קציצות ביצה מטוגנות עשויות מביצים קשות, פירה תפוחי אדמה ותבלינים, מצופות בפירורי לחם. המתכון מציין לעולם לא להשתמש בסכין לחיתוך — רק להשתמש בידיים לפרוס אותן."
+  },
+  "ingredients": [
+    {
+      "en": "4 hard-boiled eggs, chopped",
+      "he": "4 ביצים קשות, קצוצות",
+      "item": "hard-boiled eggs",
+      "amount": 4,
+      "unit": "pieces"
+    },
+    {
+      "en": "6 slices of bread, soaked in water and squeezed",
+      "he": "6 פרוסות לחם, שרויות במים וסחוטות",
+      "item": "bread slices",
+      "amount": 6,
+      "unit": "slices"
+    },
+    {
+      "en": "5 beaten eggs",
+      "he": "5 ביצים טרופות",
+      "item": "eggs",
+      "amount": 5,
+      "unit": "pieces"
+    },
+    {
+      "en": "1 cup mashed potatoes (leftover)",
+      "he": "1 כוס פירה תפוחי אדמה (שאריות)",
+      "item": "mashed potatoes",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "Pepper",
+      "he": "פלפל",
+      "item": "pepper"
+    },
+    {
+      "en": "1 tablespoon water",
+      "he": "1 כף מים",
+      "item": "water",
+      "amount": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "en": "Salt",
+      "he": "מלח",
+      "item": "salt"
+    },
+    {
+      "en": "Breadcrumbs",
+      "he": "פירורי לחם",
+      "item": "breadcrumbs"
+    },
+    {
+      "en": "Oil for frying",
+      "he": "שמן לטיגון",
+      "item": "oil"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Step 1: Chop 4 hard-boiled eggs. Soak 6 slices of bread in water and squeeze out excess.",
+      "Step 2: Mix chopped eggs with 5 beaten eggs, mashed potatoes, soaked bread, salt, and pepper.",
+      "Step 3: Add 1 tablespoon water. Mix well by hand until combined.",
+      "Step 4: Take portions and coat/roll in breadcrumbs, shaping into cutlets.",
+      "Step 5: Fry in oil on both sides until golden and crispy on the edges.",
+      "Step 6: Dry off with towels. Serve with kind regard. Never use a knife — only break apart with your hands. Makes about 6 pieces."
+    ],
+    "he": [
+      "שלב 1: לקצוץ 4 ביצים קשות. לשרות 6 פרוסות לחם במים ולסחוט את העודף.",
+      "שלב 2: לערבב את הביצים הקצוצות עם 5 ביצים טרופות, פירה תפוחי אדמה, לחם שרוי, מלח ופלפל.",
+      "שלב 3: להוסיף 1 כף מים. לערבב היטב עם הידיים עד שמתקבל תערובת אחידה.",
+      "שלב 4: לקחת חלקים ולגלגל בפירורי לחם, לעצב לצורת קציצות.",
+      "שלב 5: לטגן בשמן משני הצדדים עד שמוזהב ופריך בקצוות.",
+      "שלב 6: לייבש על מגבות נייר. להגיש. לעולם לא להשתמש בסכין — רק לשבור עם הידיים. מכין כ-6 יחידות."
+    ]
+  },
+  "tags": [
+    {
+      "en": "appetizer",
+      "he": "מתאבן"
+    },
+    {
+      "en": "fried",
+      "he": "מטוגן"
+    },
+    {
+      "en": "vegetarian",
+      "he": "צמחוני"
+    },
+    {
+      "en": "iraqi",
+      "he": "עיראקי"
+    },
+    {
+      "en": "side dish",
+      "he": "תוספת"
+    },
+    {
+      "en": "shabbat",
+      "he": "שבת"
+    }
+  ],
+  "illustration": "illustrations/6130b6a8-e3a0-452c-915c-42df93d965fc.webp",
+  "ocrRawText": "Egg Cutlet\n4 hard boiled eggs chopped\n6 slices of bread soaked in water\n  and squeezed\n5 beaten eggs\n1 cup mashed potatoes (leftover)\npepper\n1 tablespoon water\nsalt\nbreadcrumbs\n\nMix all together. Add 1 tbl water.\nTake and roll in breadcrumbs — shape into cutlets.\nFry in oil on both sides until golden\nand crispy on edges.\nDry off with towels and serve. Kind regard. Never\nuse a knife but only your hands. Touches\napprox. 6 pieces.\n2 jars",
+  "selectedModel": "claude",
+  "rankingReason": "Result B provides a more coherent and realistic recipe. Result A misidentifies the dish as vegetable-based when the handwriting clearly shows 'Egg Cutlet' with hard-boiled eggs as the main ingredient. Result A's extracted instructions contain nonsensical elements (untranslatable chants, crude serving jokes) that appear to be OCR errors or misinterpretations, whereas Result B extracts sensible cooking instructions that form a logical recipe. Result B's ingredient list (hard-boiled eggs, bread, mashed potatoes, breadcrumbs) creates a plausible egg cutlet recipe, while Result A's mix of vegetables doesn't match the actual handwritten content. Result B also provides clearer, more structured instructions with logical steps."
+}

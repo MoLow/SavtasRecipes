@@ -1,0 +1,110 @@
+{
+  "id": "92443870-de24-4a50-a3c9-addc4c482a61",
+  "slug": "lemon-cake",
+  "source": {
+    "scanFiles": [
+      "scans/92443870-de24-4a50-a3c9-addc4c482a61-0.jpg"
+    ],
+    "processedAt": "2026-03-19T17:11:59.648Z"
+  },
+  "title": {
+    "en": "Lemon Cake",
+    "he": "עוגת לימון"
+  },
+  "description": {
+    "en": "A lemon cake recipe from Elaine C. Atlow's personal collection, written on her personal stationery. The cake is baked in a loaf pan at 375°F for about 30 minutes, and can be used with a filling.",
+    "he": "מתכון לעוגת לימון מהאוסף האישי של אליין סי אטלו, כתוב על הנייר המכתבים האישי שלה. העוגה נאפית בתבנית אורכית ב-375 מעלות פרנהייט במשך כ-30 דקות, וניתן להשתמש גם עם מילוי."
+  },
+  "ingredients": [
+    {
+      "en": "1⅓ cup flour",
+      "he": "1⅓ כוס קמח",
+      "item": "flour",
+      "amount": 1.33,
+      "unit": "cup"
+    },
+    {
+      "en": "1½ tsp baking powder",
+      "he": "1½ כפית אבקת אפייה",
+      "item": "baking powder",
+      "amount": 1.5,
+      "unit": "tsp"
+    },
+    {
+      "en": "¼ cup margarine",
+      "he": "¼ כוס מרגרינה",
+      "item": "margarine",
+      "amount": 0.25,
+      "unit": "cup"
+    },
+    {
+      "en": "¾ cup sugar",
+      "he": "¾ כוס סוכר",
+      "item": "sugar",
+      "amount": 0.75,
+      "unit": "cup"
+    },
+    {
+      "en": "Blend, 1 tsp vanilla",
+      "he": "1 כפית וניל",
+      "item": "vanilla",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "1 egg",
+      "he": "1 ביצה",
+      "item": "egg",
+      "amount": 1,
+      "unit": "piece"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Cream margarine, sugar. Add egg.",
+      "Slowly mix in flour and dry ingredients. Should be blended with flour.",
+      "Pour batter into a loaf pan, a 3\" deep long one, or it will be too thick.",
+      "Add lemon rind for one kind.",
+      "Keep seeds and use a strainer.",
+      "Fresh lemon peel is best. Bake 375.",
+      "One cookie or so, maybe 30 min.",
+      "For effect, use chocolate for filling. Can use."
+    ],
+    "he": [
+      "להקציף מרגרינה וסוכר. להוסיף ביצה.",
+      "לערבב לאט את הקמח והמרכיבים היבשים. צריך להתמזג עם הקמח.",
+      "לשפוך את הבלילה לתבנית אורכית, עמוקה כ-7.5 ס\"מ, אחרת תהיה עבה מדי.",
+      "להוסיף גרידת לימון לגרסה אחת.",
+      "לשמור זרעים ולהשתמש במסננת.",
+      "קליפת לימון טרייה היא הכי טובה. לאפות ב-375 מעלות.",
+      "כעוגייה אחת בערך, אולי 30 דקות.",
+      "לאפקט, אפשר להשתמש בשוקולד למילוי."
+    ]
+  },
+  "tags": [
+    {
+      "en": "cake",
+      "he": "עוגה"
+    },
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "ashkenazi",
+      "he": "אשכנזי"
+    },
+    {
+      "en": "pareve",
+      "he": "פרווה"
+    },
+    {
+      "en": "baking",
+      "he": "אפייה"
+    }
+  ],
+  "illustration": "illustrations/92443870-de24-4a50-a3c9-addc4c482a61.webp",
+  "ocrRawText": "FROM THE DESK OF: ELAINE C. ATLOW\n\nLemon Cake\n1⅓ C flour\n1½ t baking powder\n¼ C margarine\n¾ C sugar\nBlend, 1 tsp vanilla\n1 egg\n\nCream marg., sugar. Add\negg. Slowly mix in flour and\ndry ingredients. Should be\nblended with flour.\nPour into a long pan, a 3\" deep\nlong one or it will be too thick.\nAdd lemon rind for one kind.\nKeep seeds and use a strainer.\nFresh lemon peel is best. Bake 375.\nOne cookie or so maybe 30 min.\nFor effect, use chocolate for filling.\nCan use.",
+  "selectedModel": "claude",
+  "rankingReason": "Result B demonstrates significantly better OCR accuracy and recipe coherence. It correctly identifies the title as 'Lemon Cake' (with actual lemon ingredients listed), properly reads quantities for flour (1⅓ cup) and baking powder (1½ tsp) that were missing in Result A, and extracts meaningful instructions about lemon rind/peel that align with the title. Result A misinterprets '1/3' as '1⅓ C. Baking Powder' (an implausibly large amount), omits flour quantities, and contains a title-ingredient mismatch (Lemon Delight with no lemon). Result B's Hebrew translations are more natural and contextually appropriate, and the recipe as a whole is more coherent and executable."
+}

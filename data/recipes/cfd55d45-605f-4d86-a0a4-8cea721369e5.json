@@ -1,0 +1,122 @@
+{
+  "id": "cfd55d45-605f-4d86-a0a4-8cea721369e5",
+  "slug": "cream-cheese-cake-with-fruit-topping",
+  "source": {
+    "scanFiles": [
+      "scans/cfd55d45-605f-4d86-a0a4-8cea721369e5-0.jpg"
+    ],
+    "processedAt": "2026-03-19T17:09:00.406Z"
+  },
+  "title": {
+    "en": "Cream Cheese Cake with Fruit Topping",
+    "he": "עוגת גבינת שמנת עם ציפוי פירות"
+  },
+  "description": {
+    "en": "A classic cream cheese cake baked in a pie shell with a sour cream and sugar topping, finished with fruit topping. A vintage handwritten recipe card.",
+    "he": "עוגת גבינת שמנת קלאסית אפויה בתבנית פאי עם ציפוי שמנת חמוצה וסוכר, מוגשת עם ציפוי פירות. מתכון וינטג' כתוב בכתב יד."
+  },
+  "ingredients": [
+    {
+      "en": "11 oz cream cheese",
+      "he": "310 גרם גבינת שמנת",
+      "item": "cream cheese",
+      "amount": 11,
+      "unit": "oz"
+    },
+    {
+      "en": "2 eggs",
+      "he": "2 ביצים",
+      "item": "eggs",
+      "amount": 2,
+      "unit": "piece"
+    },
+    {
+      "en": "1 tsp vanilla",
+      "he": "1 כפית וניל",
+      "item": "vanilla",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "1/3 cup sugar",
+      "he": "1/3 כוס סוכר",
+      "item": "sugar",
+      "amount": 0.333,
+      "unit": "cup"
+    },
+    {
+      "en": "1 unbaked pie shell",
+      "he": "1 תבנית פאי לא אפויה",
+      "item": "unbaked pie shell",
+      "amount": 1,
+      "unit": "piece"
+    },
+    {
+      "en": "1 cup sour cream",
+      "he": "1 כוס שמנת חמוצה",
+      "item": "sour cream",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1/4 cup sugar",
+      "he": "1/4 כוס סוכר",
+      "item": "sugar",
+      "amount": 0.25,
+      "unit": "cup"
+    },
+    {
+      "en": "Passion fruit topping",
+      "he": "ציפוי פסיפלורה",
+      "item": "passion fruit topping"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Step 1: Beat cream cheese, eggs, vanilla, and 1/3 cup sugar with electric mixer.",
+      "Step 2: Pour into unbaked pie shell.",
+      "Step 3: Preheat oven to 350°F.",
+      "Step 4: Bake 20-30 minutes.",
+      "Step 5: While cake is in oven, mix 1 cup sour cream and 1/4 cup sugar.",
+      "Step 6: Add sour cream and sugar mixture the last few minutes.",
+      "Step 7: Turn oven off – let it stand 5 minutes.",
+      "Step 8: Top with passion fruit topping."
+    ],
+    "he": [
+      "שלב 1: להקציף גבינת שמנת, ביצים, וניל ו-1/3 כוס סוכר עם מיקסר חשמלי.",
+      "שלב 2: לשפוך לתוך תבנית פאי לא אפויה.",
+      "שלב 3: לחמם תנור ל-175 מעלות צלזיוס.",
+      "שלב 4: לאפות 20-30 דקות.",
+      "שלב 5: בזמן שהעוגה בתנור, לערבב 1 כוס שמנת חמוצה ו-1/4 כוס סוכר.",
+      "שלב 6: להוסיף את תערובת השמנת החמוצה והסוכר בדקות האחרונות.",
+      "שלב 7: לכבות את התנור – להשאיר בפנים 5 דקות.",
+      "שלב 8: לצפות בציפוי פסיפלורה."
+    ]
+  },
+  "tags": [
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "cheesecake",
+      "he": "עוגת גבינה"
+    },
+    {
+      "en": "dairy",
+      "he": "חלבי"
+    },
+    {
+      "en": "baking",
+      "he": "אפייה"
+    },
+    {
+      "en": "american",
+      "he": "אמריקאי"
+    }
+  ],
+  "illustration": "illustrations/cfd55d45-605f-4d86-a0a4-8cea721369e5.webp",
+  "ocrRawText": "Cream Cheese Cake with Fruit Topping\n11oz cream cheese       2 eggs\n1 tsp vanilla       1/3 cup sugar\nbeat with electric mixer. Pour into\nunbaked pie shell. Preheat oven to 350°.\nBake 20-30 minutes.\nWhile cake is in oven mix 1 cup sour cream\n1/4 cup sugar.\nAdd sour cream & sugar mixture the\nlast few minutes.   Turn oven off-\nlet it stand 5 minutes.  Passion fruit topping",
+  "selectedModel": "claude",
+  "rankingReason": "Result B is more complete and coherent. It correctly identifies cream cheese as a key ingredient (11 oz), which is essential for a 'Cream Cheese Cake' but missing entirely from Result A. Result B's instructions are more detailed and logical (preheating oven, timing for sour cream mixture application). Result A's OCR text contains an error ('pour off fruit topping' vs 'passion fruit topping'), while Result B's raw text is more accurate and detailed. Result B also has better ingredient amounts (1/3 cup vs 1 cup sugar for initial mix) that align better with the OCR text, and includes more relevant tags (cheesecake, american). Result A's instructions are confusing ('Mix to the top for 5 minutes')."
+}

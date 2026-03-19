@@ -1,0 +1,99 @@
+{
+  "id": "48183468-bbb0-4fb6-bbb2-6446485352f3",
+  "slug": "cheeseless-cheese-cake",
+  "source": {
+    "scanFiles": [
+      "scans/48183468-bbb0-4fb6-bbb2-6446485352f3-0.jpg"
+    ],
+    "processedAt": "2026-03-19T17:44:57.566Z"
+  },
+  "title": {
+    "en": "Cheeseless Cheese Cake",
+    "he": "עוגת גבינה ללא גבינה"
+  },
+  "description": {
+    "en": "A light, no-cheese cheesecake made with gelatin, skimmed milk, and crushed pineapple, sweetened with Sweet & Low. A diet-friendly dessert from a vintage recipe card.",
+    "he": "עוגת גבינה קלה ללא גבינה, מוכנה מג'לטין, חלב רזה ואננס מרוסק, ממותקת בסוכרזית. קינוח דיאטטי ממתכון וינטג'."
+  },
+  "ingredients": [
+    {
+      "en": "2 cups crushed unsweetened pineapple with juice",
+      "he": "2 כוסות אננס מרוסק לא ממותק עם המיץ",
+      "item": "crushed unsweetened pineapple",
+      "amount": 2,
+      "unit": "cup"
+    },
+    {
+      "en": "2 envelopes unflavored gelatine",
+      "he": "2 מעטפות ג'לטין ללא טעם",
+      "item": "unflavored gelatine",
+      "amount": 2,
+      "unit": "envelope"
+    },
+    {
+      "en": "4 packets Sweet & Low",
+      "he": "4 שקיקי סוכרזית",
+      "item": "Sweet & Low",
+      "amount": 4,
+      "unit": "packet"
+    },
+    {
+      "en": "3 tsp vanilla extract",
+      "he": "3 כפיות תמצית וניל",
+      "item": "vanilla extract",
+      "amount": 3,
+      "unit": "tsp"
+    },
+    {
+      "en": "1 tsp butter extract",
+      "he": "1 כפית תמצית חמאה",
+      "item": "butter extract",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "1/2 cup boiling water",
+      "he": "1/2 כוס מים רותחים",
+      "item": "boiling water",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1 1/3 cups skimmed milk (canned or made from powder milk is best)",
+      "he": "1 1/3 כוסות חלב רזה (משומר או מאבקת חלב עדיף)",
+      "item": "skimmed milk",
+      "amount": 1.33,
+      "unit": "cup"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Note: This recipe card contains only the ingredient list. No preparation instructions were included on this card."
+    ],
+    "he": [
+      "הערה: כרטיס מתכון זה מכיל רק את רשימת המרכיבים. הוראות הכנה לא נכללו בכרטיס זה."
+    ]
+  },
+  "tags": [
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "dairy",
+      "he": "חלבי"
+    },
+    {
+      "en": "diet",
+      "he": "דיאטטי"
+    },
+    {
+      "en": "no-bake",
+      "he": "ללא אפייה"
+    }
+  ],
+  "illustration": "illustrations/48183468-bbb0-4fb6-bbb2-6446485352f3.webp",
+  "ocrRawText": "Cheeseless Cheese Cake\n2 Cups Crushed Unsweetened Pineapple with juice\n2 Envelopes Unflavored Gelatine\n4 Packets Sweet & Low\n3 Tsp Vanilla Extract\n1 Tsp Butter Extract\n1/2 Cup Boiling water\n1 1/3 Cups Skimmed Milk (Canned or made from powder\nmilk is best)",
+  "selectedModel": "claude",
+  "rankingReason": "Result B has a more informative and contextual description that explains this is a vintage diet-friendly recipe, provides more natural Hebrew translations (e.g., 'שקיקי סוכרזית' is more idiomatic for Sweet & Low packets than 'שקיות'), uses consistent lowercase formatting for units and items, and offers a more detailed note about the missing instructions rather than a bare statement. Both have identical OCR text and ingredients, but B's overall presentation and metadata quality is superior."
+}

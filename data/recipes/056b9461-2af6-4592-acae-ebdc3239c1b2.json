@@ -1,0 +1,109 @@
+{
+  "id": "056b9461-2af6-4592-acae-ebdc3239c1b2",
+  "slug": "hamantaschen",
+  "source": {
+    "scanFiles": [
+      "scans/056b9461-2af6-4592-acae-ebdc3239c1b2-0.jpg"
+    ],
+    "processedAt": "2026-03-19T17:19:25.185Z"
+  },
+  "title": {
+    "en": "Hamantaschen",
+    "he": "אוזני המן"
+  },
+  "description": {
+    "en": "This recipe for Hamantaschen was transcribed by Stu from David's original. The dough may require additional juice and flour to reach the desired consistency for rolling.",
+    "he": "מתכון זה לאוזני המן תועתק על ידי סטו מהמתכון המקורי של דוד. ייתכן שיהיה צורך להוסיף מיץ וקמח נוספים לבצק עד לקבלת מרקם נוח לרידוד."
+  },
+  "ingredients": [
+    {
+      "en": "3 Eggs",
+      "he": "3 ביצים",
+      "item": "Eggs",
+      "amount": 3,
+      "unit": null
+    },
+    {
+      "en": "2 1/2 c Flour",
+      "he": "2.5 כוסות קמח",
+      "item": "Flour",
+      "amount": 2.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1/4 c Oil",
+      "he": "1/4 כוס שמן",
+      "item": "Oil",
+      "amount": 0.25,
+      "unit": "cup"
+    },
+    {
+      "en": "1/4 c + 2 tbsp Sugar",
+      "he": "1/4 כוס + 2 כפות סוכר",
+      "item": "Sugar",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "1/2 tsp baking soda",
+      "he": "1/2 כפית אבקת סודה לשתייה",
+      "item": "baking soda",
+      "amount": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "en": "2 tbs Orange (fruit) juice",
+      "he": "2 כפות מיץ תפוזים (פרי)",
+      "item": "Orange (fruit) juice",
+      "amount": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "en": "prune butter, jam or jelly",
+      "he": "ממרח שזיפים (פרונלה), ריבה או ג'לי",
+      "item": "prune butter, jam or jelly",
+      "amount": null,
+      "unit": null
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Mix all ingredients together to form a dough.",
+      "Roll out the dough and use a glass to cut out round shapes.",
+      "Place prune butter, jam, or jelly in the center of each round.",
+      "Pinch the corners together with your fingers to form a triangle.",
+      "To ensure the corners seal properly, place a drop of water on each corner before baking.",
+      "Bake at 350°F (approximately 175°C) until done."
+    ],
+    "he": [
+      "ערבבו את כל המרכיבים יחד ליצירת בצק.",
+      "רדדו את הבצק והשתמשו בכוס לחיתוך עיגולים.",
+      "הניחו ממרח שזיפים, ריבה או ג'לי במרכז כל עיגול.",
+      "צבטו את הפינות יחד עם האצבעות ליצירת משולש.",
+      "כדי להבטיח שהפינות ייסגרו היטב, שימו טיפת מים על כל פינה לפני האפייה.",
+      "אפו ב-350°F (כ-175°C) עד שהמאפים מוכנים."
+    ]
+  },
+  "tags": [
+    {
+      "en": "Jewish",
+      "he": "יהודי"
+    },
+    {
+      "en": "Purim",
+      "he": "פורים"
+    },
+    {
+      "en": "Dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "Pastry",
+      "he": "מאפה"
+    }
+  ],
+  "illustration": "illustrations/056b9461-2af6-4592-acae-ebdc3239c1b2.webp",
+  "ocrRawText": "Humentaschen (David as transposed by Stu)\n3 Eggs\n2 1/2 c Flour\n1/4 c Oil\n1/4 c + 2 tbsp Sugar\n1/2 tsp baking soda\n2 tbs Orange (fruit) juice\n(add # more juice & flour\nas needed until ready to roll)\nMix ingredients. Roll & use a glass to punch round\nshapes. Put prune butter, jam or jelly in the middle and\npinch the corners together c your fingers. To ensure the\ncorners seal, put a drop of water on each corner before\nbaking. Bake 350°F until done.",
+  "selectedModel": "gemini",
+  "rankingReason": "Result A is more accurate to the original handwritten recipe. The sugar amount is correctly parsed as '1/4 c + 2 tbsp' (matching the OCR raw text) rather than Result B's incorrect '1/4 cup + 2 tsp'. The baking soda amount in Result A (0.5 tsp) correctly reflects the original '1/2 tsp', while Result B incorrectly states 1.5 tsp. Result A also properly handles the open-ended ingredient 'prune butter, jam or jelly' without forced amounts. While Result B has more tags and numbered steps, these additions don't compensate for the fundamental measurement errors that would cause the recipe to fail if followed. Result A's description accurately acknowledges the note about adjusting juice and flour, which is critical context for the recipe."
+}

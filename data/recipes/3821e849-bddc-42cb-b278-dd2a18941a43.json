@@ -1,0 +1,81 @@
+{
+  "id": "3821e849-bddc-42cb-b278-dd2a18941a43",
+  "slug": "butterscotch-krunch",
+  "source": {
+    "scanFiles": [
+      "scans/3821e849-bddc-42cb-b278-dd2a18941a43-0.jpg"
+    ],
+    "processedAt": "2026-03-19T17:37:47.941Z"
+  },
+  "title": {
+    "en": "Butterscotch Krunch",
+    "he": "קראנץ' באטרסקוטש"
+  },
+  "description": {
+    "en": "A simple no-bake candy made with butterscotch morsels, chow mein noodles, and salted peanuts. Makes about 4 dozen pieces.",
+    "he": "ממתק פשוט ללא אפייה העשוי מצ'יפס באטרסקוטש, אטריות צ'או מיין ובוטנים מלוחים. מכין כ-4 תריסרים."
+  },
+  "ingredients": [
+    {
+      "en": "2 - 6oz butterscotch pkgs",
+      "he": "2 חבילות באטרסקוטש, 6 אונקיות כל אחת",
+      "item": "butterscotch morsels",
+      "amount": 2,
+      "unit": "6oz pkg"
+    },
+    {
+      "en": "1 - 3oz can chow mein noodles",
+      "he": "1 פחית אטריות צ'או מיין, 3 אונקיות",
+      "item": "chow mein noodles",
+      "amount": 1,
+      "unit": "3oz can"
+    },
+    {
+      "en": "1 - 7oz can salted peanuts",
+      "he": "1 פחית בוטנים מלוחים, 7 אונקיות",
+      "item": "salted peanuts",
+      "amount": 1,
+      "unit": "7oz can"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Melt morsels in double boiler.",
+      "Stir in nuts and crushed noodles.",
+      "Drop onto waxed paper.",
+      "Set for 20 minutes."
+    ],
+    "he": [
+      "להמיס את צ'יפס הבאטרסקוטש בסיר בן-מרי (סיר כפול).",
+      "לערבב פנימה את הבוטנים ואת האטריות המרוסקות.",
+      "לטפטף בכפיות על נייר אפייה.",
+      "להניח להתקשות למשך 20 דקות."
+    ]
+  },
+  "tags": [
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "no-bake",
+      "he": "ללא אפייה"
+    },
+    {
+      "en": "candy",
+      "he": "ממתקים"
+    },
+    {
+      "en": "american",
+      "he": "אמריקאי"
+    },
+    {
+      "en": "pareve",
+      "he": "פרווה"
+    }
+  ],
+  "illustration": "illustrations/3821e849-bddc-42cb-b278-dd2a18941a43.webp",
+  "ocrRawText": "Butterscotch Krunch\n2 - 6oz butterscotch pkgs\n1 - 3oz can chow mein noodles\n1 - 7oz can salted peanuts\nMelt morsels in double\nboiler. Stir in nuts &\ncrushed noodles. Drop onto\nwaxed paper set for 20 min\n(4 doz)",
+  "selectedModel": "claude",
+  "rankingReason": "Result B is better across multiple dimensions: (1) More accurate ingredient description ('butterscotch morsels' vs 'butterscotch packages'), (2) Better categorization (calls it 'candy' which is more accurate than just 'dessert'), (3) Superior Hebrew translations that are more natural and idiomatic (e.g., 'סיר בן-מרי' is the proper Hebrew term for 'double boiler', 'צ'יפס' for morsels), (4) More complete recipe metadata with the 'pareve' tag indicating it's kosher for both meat and dairy meals, (5) Better instruction wording ('Set for 20 minutes' vs 'Set for 20 min'), (6) Slightly more polished English descriptions ('no-bake candy' is more precise than 'no-bake dessert'). Result A has adequate quality but Result B demonstrates superior understanding of the recipe's nature, cultural context (Hebrew/Jewish cooking), and linguistic precision."
+}

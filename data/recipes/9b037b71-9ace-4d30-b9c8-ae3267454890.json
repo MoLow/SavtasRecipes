@@ -1,0 +1,93 @@
+{
+  "id": "9b037b71-9ace-4d30-b9c8-ae3267454890",
+  "slug": "salmon-souffle",
+  "source": {
+    "scanFiles": [
+      "scans/9b037b71-9ace-4d30-b9c8-ae3267454890-0.jpg"
+    ],
+    "processedAt": "2026-03-19T17:51:07.942Z"
+  },
+  "title": {
+    "en": "Salmon Souffle",
+    "he": "סופלה סלמון"
+  },
+  "description": {
+    "en": "A classic salmon souffle made with canned salmon, soda crackers, and eggs. A simple baked dish from a handwritten recipe card.",
+    "he": "סופלה סלמון קלאסית העשויה מסלמון משומר, קרקרים ובצים. מנה אפויה פשוטה מכרטיס מתכון בכתב יד."
+  },
+  "ingredients": [
+    {
+      "en": "1 can salmon",
+      "he": "1 פחית סלמון",
+      "item": "salmon",
+      "amount": 1,
+      "unit": "can"
+    },
+    {
+      "en": "4 soda crackers",
+      "he": "4 קרקרים (סודה קרקרס)",
+      "item": "soda crackers",
+      "amount": 4,
+      "unit": "piece"
+    },
+    {
+      "en": "1 cup milk with salmon liquid",
+      "he": "1 כוס חלב עם נוזל הסלמון",
+      "item": "milk with salmon liquid",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1 tbsp melted margarine",
+      "he": "1 כף מרגרינה מומסת",
+      "item": "margarine",
+      "amount": 1,
+      "unit": "tbsp"
+    },
+    {
+      "en": "2 eggs, separated",
+      "he": "2 ביצים, מופרדות",
+      "item": "eggs",
+      "amount": 2,
+      "unit": "piece"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Soak crackers in milk for 1/2 hour.",
+      "Then mix together.",
+      "Bake in greased dish."
+    ],
+    "he": [
+      "השרו את הקרקרים בחלב למשך חצי שעה.",
+      "לאחר מכן ערבבו הכל יחד.",
+      "אפו בתבנית משומנת."
+    ]
+  },
+  "tags": [
+    {
+      "en": "fish",
+      "he": "דגים"
+    },
+    {
+      "en": "main",
+      "he": "מנה עיקרית"
+    },
+    {
+      "en": "dairy",
+      "he": "חלבי"
+    },
+    {
+      "en": "ashkenazi",
+      "he": "אשכנזי"
+    },
+    {
+      "en": "baked",
+      "he": "אפייה"
+    }
+  ],
+  "illustration": "illustrations/9b037b71-9ace-4d30-b9c8-ae3267454890.webp",
+  "ocrRawText": "Salmon Souffle\n\nCan Salmon\n4 soda crackers\n1 cup milk with salmon liquid\n1 tbsp melted marg.\n2 eggs separated\nSoak crackers in milk for\n1/2 hr. then mix together\nbake in greased dish.",
+  "selectedModel": "claude",
+  "rankingReason": "Result B is superior because: (1) It correctly interprets '1/4 soda cracker' as '4 soda crackers' - the handwritten '1/4' likely refers to a fraction of the recipe or was misread by Gemini; (2) It includes complete, logical instructions (soak, mix, bake) that make culinary sense for a souffle, whereas Result A omits crucial preparation steps; (3) The ingredient list is more coherent - Result A's '1/4 cup melted marg.' with '1/4 soda cracker' creates an imbalanced recipe, while Result B's proportions are realistic; (4) Result B's 'milk with salmon liquid' shows understanding that canned salmon liquid is typically used in the recipe; (5) The OCR raw text in Result B is more plausible as a handwritten reading. Both have good translations, but Result B's recipe would actually work."
+}

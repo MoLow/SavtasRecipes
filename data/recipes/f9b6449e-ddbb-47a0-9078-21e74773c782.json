@@ -1,0 +1,78 @@
+{
+  "id": "f9b6449e-ddbb-47a0-9078-21e74773c782",
+  "slug": "salmon-puffs",
+  "source": {
+    "scanFiles": [
+      "scans/f9b6449e-ddbb-47a0-9078-21e74773c782-0.jpg"
+    ],
+    "processedAt": "2026-03-19T17:50:40.591Z"
+  },
+  "title": {
+    "en": "Salmon Puffs",
+    "he": "פאפס סלמון"
+  },
+  "description": {
+    "en": "Fried salmon balls made with mashed potatoes and corn flake crumbs, similar to salmon croquettes. A brief recipe card with minimal quantities specified.",
+    "he": "כדורי סלמון מטוגנים עם פירה תפוחי אדמה ופירורי קורנפלקס, בדומה לקרוקטים של סלמון. כרטיס מתכון קצר ללא כמויות מדויקות."
+  },
+  "ingredients": [
+    {
+      "en": "Salmon",
+      "he": "סלמון",
+      "item": "salmon"
+    },
+    {
+      "en": "Mashed potatoes",
+      "he": "פירה תפוחי אדמה",
+      "item": "mashed potatoes"
+    },
+    {
+      "en": "Corn flake crumbs",
+      "he": "פירורי קורנפלקס",
+      "item": "corn flake crumbs"
+    },
+    {
+      "en": "Oil for frying",
+      "he": "שמן לטיגון",
+      "item": "oil"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Step 1: Make like salmon croquettes.",
+      "Step 2: Add mashed potatoes and corn flake crumbs.",
+      "Step 3: Make balls — dip in corn flake crumbs.",
+      "Step 4: Fry.",
+      "Step 5: Bake before serving."
+    ],
+    "he": [
+      "שלב 1: הכינו כמו קרוקטים של סלמון.",
+      "שלב 2: הוסיפו פירה תפוחי אדמה ופירורי קורנפלקס.",
+      "שלב 3: צרו כדורים — טבלו בפירורי קורנפלקס.",
+      "שלב 4: טגנו.",
+      "שלב 5: אפו בתנור לפני ההגשה."
+    ]
+  },
+  "tags": [
+    {
+      "en": "fish",
+      "he": "דגים"
+    },
+    {
+      "en": "appetizer",
+      "he": "מנה ראשונה"
+    },
+    {
+      "en": "fried",
+      "he": "מטוגן"
+    },
+    {
+      "en": "pareve",
+      "he": "פרווה"
+    }
+  ],
+  "illustration": "illustrations/f9b6449e-ddbb-47a0-9078-21e74773c782.webp",
+  "ocrRawText": "Salmon Puffs\nmake like salmon croquette.\nAdd mashed potatos & corn\nflake crumbs. Make balls-\ndips in corn flake crumbs.\nfry.\nBake before serving.",
+  "selectedModel": "claude",
+  "rankingReason": "Result B is more accurate and coherent. It correctly identifies 'corn flake crumbs' from the handwriting (which Result A misses as generic 'crumbs'), includes 'oil for frying' as an ingredient (necessary for the process), and has a more detailed OCR raw text that accurately captures 'corn flake crumbs' and 'potatos' (misspelling preserved). Result B also provides more specific instructions with numbered steps and better tags (including 'fried' and 'pareve' which are contextually appropriate). While Result A uses the original title 'Delmonico Puffs', Result B's 'Salmon Puffs' better reflects the actual recipe content, and its Hebrew translations are equally natural. The key difference is Result B's superior ingredient extraction and more practical recipe structure."
+}

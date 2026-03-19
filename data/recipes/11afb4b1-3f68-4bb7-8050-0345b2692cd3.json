@@ -1,0 +1,98 @@
+{
+  "id": "11afb4b1-3f68-4bb7-8050-0345b2692cd3",
+  "slug": "cookie-exchange-guide",
+  "source": {
+    "scanFiles": [
+      "scans/11afb4b1-3f68-4bb7-8050-0345b2692cd3-0.jpg"
+    ],
+    "processedAt": "2026-03-19T17:48:44.726Z"
+  },
+  "title": {
+    "en": "Cookie Exchange Guide",
+    "he": "מדריך החלפת עוגיות"
+  },
+  "description": {
+    "en": "A reference note listing cookie exchange equivalents for dietary planning. Lists yield information and various cookie types with their bread exchange values. This is not a traditional recipe but rather a dietary exchange guide for cookies.",
+    "he": "פתק עזר המפרט שווי ערך של החלפות עוגיות לתכנון תזונתי. מפרט מידע על תפוקה וסוגי עוגיות שונים עם ערכי ההחלפה שלהם ללחם. זהו לא מתכון מסורתי אלא מדריך החלפות תזונתיות לעוגיות."
+  },
+  "ingredients": [
+    {
+      "en": "3 Lorna Doones",
+      "he": "3 עוגיות לורנה דון",
+      "item": "Lorna Doones",
+      "amount": 3,
+      "unit": "pieces"
+    },
+    {
+      "en": "6 Vanilla Wafers",
+      "he": "6 וופלי וניל",
+      "item": "Vanilla Wafers",
+      "amount": 6,
+      "unit": "pieces"
+    },
+    {
+      "en": "Ginger Snaps",
+      "he": "עוגיות ג'ינג'ר סנאפס",
+      "item": "Ginger Snaps"
+    },
+    {
+      "en": "Lemon Snaps",
+      "he": "עוגיות לימון",
+      "item": "Lemon Snaps"
+    },
+    {
+      "en": "6 Arrowroot",
+      "he": "6 עוגיות אראורוט",
+      "item": "Arrowroot",
+      "amount": 6,
+      "unit": "pieces"
+    },
+    {
+      "en": "3 Graham Crackers",
+      "he": "3 קרקרים גראהם",
+      "item": "Graham Crackers",
+      "amount": 3,
+      "unit": "pieces"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Yield 36 cookies.",
+      "2 cookies equals 1 bread exchange and 1 fat exchange.",
+      "Cookies = 1 Bread exchange.",
+      "The following cookie amounts each equal 1 bread exchange: 3 Lorna Doones, 6 Vanilla Wafers, Ginger Snaps, Lemon Snaps, 6 Arrowroot, 3 Graham Crackers."
+    ],
+    "he": [
+      "תפוקה: 36 עוגיות.",
+      "2 עוגיות שוות ל-1 החלפת לחם ו-1 החלפת שומן.",
+      "עוגיות = 1 החלפת לחם.",
+      "הכמויות הבאות של עוגיות שוות כל אחת ל-1 החלפת לחם: 3 לורנה דון, 6 וופלי וניל, ג'ינג'ר סנאפס, לימון סנאפס, 6 אראורוט, 3 קרקרים גראהם."
+    ]
+  },
+  "tags": [
+    {
+      "en": "cookies",
+      "he": "עוגיות"
+    },
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "dietary guide",
+      "he": "מדריך תזונתי"
+    },
+    {
+      "en": "diabetic exchange",
+      "he": "החלפות לסוכרתיים"
+    },
+    {
+      "en": "reference",
+      "he": "עזר"
+    }
+  ],
+  "illustration": "illustrations/11afb4b1-3f68-4bb7-8050-0345b2692cd3.webp",
+  "ocrRawText": "Yield 36 Cookies.\n2 Cookies equals\n1 Bread exchange\n1 Fat exchange\n\nCookies = 1 Bread\nexchange\n\n3 Lorna Doones\n6 Vanilla Wafers\nGinger Snaps\nLemon Snaps\n6 Arrowroot\n3 Graham Crackers",
+  "selectedModel": "claude",
+  "rankingReason": "Claude selected (only valid result). Gemini result failed validation: instructions.en: Array must contain at least 1 element(s); instructions.he: Array must contain at least 1 element(s)"
+}

@@ -1,0 +1,79 @@
+{
+  "id": "1a92871e-2bc5-4600-b6d6-ffa65aacda53",
+  "slug": "pudding-in-a-cloud",
+  "source": {
+    "scanFiles": [
+      "scans/1a92871e-2bc5-4600-b6d6-ffa65aacda53-0.jpg"
+    ],
+    "processedAt": "2026-03-19T17:41:17.467Z"
+  },
+  "title": {
+    "en": "Pudding In A Cloud",
+    "he": "פודינג בענן"
+  },
+  "description": {
+    "en": "A simple no-bake dessert where whipped topping is shaped into clouds in dessert glasses, then filled with instant pudding and chilled.",
+    "he": "קינוח פשוט ללא אפייה, בו קצפת מעוצבת בצורת עננים בכוסות קינוח, ממולאת בפודינג אינסטנט ומצוננת."
+  },
+  "ingredients": [
+    {
+      "en": "1 4oz container Cool Whip",
+      "he": "1 מיכל קול-וויפ (113 גרם)",
+      "item": "Cool Whip",
+      "amount": 1,
+      "unit": "4oz container"
+    },
+    {
+      "en": "1 pkg instant pudding - any flavor",
+      "he": "1 חבילת פודינג אינסטנט - בכל טעם",
+      "item": "instant pudding",
+      "amount": 1,
+      "unit": "pkg"
+    },
+    {
+      "en": "2 cups cold milk",
+      "he": "2 כוסות חלב קר",
+      "item": "cold milk",
+      "amount": 2,
+      "unit": "cups"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Divide whipped topping into 6 dessert glasses.",
+      "Make a depression and spread up the sides.",
+      "Prepare pudding with milk.",
+      "Spoon into glasses.",
+      "Chill."
+    ],
+    "he": [
+      "חלקו את הקצפת ל-6 כוסות קינוח.",
+      "צרו שקע במרכז ומרחו כלפי מעלה על הדפנות.",
+      "הכינו את הפודינג עם החלב.",
+      "הניחו בכפית לתוך הכוסות.",
+      "צננו במקרר."
+    ]
+  },
+  "tags": [
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "no-bake",
+      "he": "ללא אפייה"
+    },
+    {
+      "en": "dairy",
+      "he": "חלבי"
+    },
+    {
+      "en": "american",
+      "he": "אמריקאי"
+    }
+  ],
+  "illustration": "illustrations/1a92871e-2bc5-4600-b6d6-ffa65aacda53.webp",
+  "ocrRawText": "Pudding In A Cloud\n1 4oz container Cool Whip\n1 Pkg instant pudding -\n       any flavor\n2 cups cold milk\nDivot whipped topping into 6\ndessert glasses - make a\ndepression & spread up the sides\nPrepare pudding with milk -\nspoon into glasses\nChill",
+  "selectedModel": "claude",
+  "rankingReason": "Result B is more coherent and accurate. It correctly identifies 'Cool Whip' (a real product) instead of the ambiguous 'tea whip', captures the actual recipe technique of shaping whipped topping into clouds with a depression, and includes all essential ingredients. The instructions are clearer and more practical. Result A invents an ingredient ('tea whip'), infers boiling water that may not be in the original, and describes a less sensible technique of beating everything together. Result B's OCR text is also more plausible as a handwriting transcription, and the Hebrew translation is more natural."
+}

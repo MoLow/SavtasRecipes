@@ -1,0 +1,103 @@
+{
+  "id": "876fc525-cf5f-418b-9c9b-fb5361691fe1",
+  "slug": "crescent-cookies-doris-recipe",
+  "source": {
+    "scanFiles": [
+      "scans/876fc525-cf5f-418b-9c9b-fb5361691fe1-0.jpg",
+      "scans/876fc525-cf5f-418b-9c9b-fb5361691fe1-1.jpg"
+    ],
+    "processedAt": "2026-03-19T17:32:58.593Z"
+  },
+  "title": {
+    "en": "Crescent Cookies (Doris Recipe)",
+    "he": "עוגיות סהר (מתכון של דוריס)"
+  },
+  "description": {
+    "en": "A recipe for crescent-shaped cookies, featuring butter or margarine, sugar, and a hint of whisky. The cookies are baked until done, then finished by dipping in melted chocolate or rolling in confectioners' sugar. The recipe includes a humorous note about enjoying the whisky: \"Peek out whisky glass + throw out the rest of the ingredients.\"",
+    "he": "מתכון לעוגיות בצורת סהר, המכילות חמאה או מרגרינה, סוכר ונגיעת וויסקי. העוגיות נאפות עד שהן מוכנות, ולאחר מכן מצופות בטבילה בשוקולד מומס או בגלגול באבקת סוכר. המתכון כולל הערה הומוריסטית לגבי הוויסקי: \"הציצו בכוסית הוויסקי וזרקו את שאר המרכיבים.\""
+  },
+  "ingredients": [
+    {
+      "en": "1 lb. sweet butter or margarine (preferred)",
+      "he": "1 ליברות חמאה מתוקה או מרגרינה (מועדף)",
+      "item": "sweet butter or margarine",
+      "amount": 1,
+      "unit": "lb"
+    },
+    {
+      "en": "2/3 cup of fine sugar",
+      "he": "2/3 כוס סוכר דק",
+      "item": "fine sugar",
+      "amount": 0.66,
+      "unit": "cup"
+    },
+    {
+      "en": "1 rounded jigger of whisky",
+      "he": "1 ג'יגר מלא (מעוגל) של וויסקי",
+      "item": "whisky",
+      "amount": 1,
+      "unit": "jigger"
+    },
+    {
+      "en": "approx. 4 cups of flour",
+      "he": "כ-4 כוסות קמח",
+      "item": "flour",
+      "amount": 4,
+      "unit": "cups"
+    },
+    {
+      "en": "sweet chocolate (for dipping)",
+      "he": "שוקולד מתוק (לטבילה)",
+      "item": "sweet chocolate",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "Confectioners sugar (for rolling)",
+      "he": "אבקת סוכר (לגלגול)",
+      "item": "confectioners sugar",
+      "amount": null,
+      "unit": null
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Combine butter, sugar, whisky with enough flour to make a soft dough.",
+      "Shape into crescents.",
+      "Bake @ 350° until done.",
+      "After cooling, dip points into melted chocolate - or roll in confectionary sugar."
+    ],
+    "he": [
+      "שלבו חמאה, סוכר וויסקי עם מספיק קמח ליצירת בצק רך.",
+      "עצבו לסהרונים.",
+      "אפו ב-350° פרנהייט עד שמוכן.",
+      "לאחר קירור, טבלו את הקצוות בשוקולד מומס - או גלגלו באבקת סוכר."
+    ]
+  },
+  "tags": [
+    {
+      "en": "Dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "Cookies",
+      "he": "עוגיות"
+    },
+    {
+      "en": "Baking",
+      "he": "אפייה"
+    },
+    {
+      "en": "Dairy",
+      "he": "חלבי"
+    },
+    {
+      "en": "Holiday",
+      "he": "חג"
+    }
+  ],
+  "illustration": "illustrations/876fc525-cf5f-418b-9c9b-fb5361691fe1.webp",
+  "ocrRawText": "Crescent Cookies (Doris Recipe)\n1 lb. sweet butter or margarine (preferred)\n2/3 cup of fine sugar\n1 rounded jigger of whisky\napprox. 4 cups of flour\nmix to same - sweet chocolate\nConfectioners sugar\nCombine butter, sugar, whisky with enough\nflour to make a soft dough - Shape into\ncrescents - Bake @ 350° until done (over)\nafter cooling, dip points into\nmelted chocolate - or roll in\nconfectionary sugar.\nPeek out whisky glass + throw\nout the rest of the ingredients.",
+  "selectedModel": "gemini",
+  "rankingReason": "Gemini selected (only valid result). Claude returned no result"
+}

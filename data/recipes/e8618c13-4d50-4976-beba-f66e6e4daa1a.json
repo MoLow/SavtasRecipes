@@ -1,0 +1,133 @@
+{
+  "id": "e8618c13-4d50-4976-beba-f66e6e4daa1a",
+  "slug": "black-bean-soup",
+  "source": {
+    "scanFiles": [
+      "scans/e8618c13-4d50-4976-beba-f66e6e4daa1a-0.jpg"
+    ],
+    "processedAt": "2026-03-19T17:55:46.546Z"
+  },
+  "title": {
+    "en": "Black Bean Soup",
+    "he": "מרק שעועית שחורה"
+  },
+  "description": {
+    "en": "A hearty black bean soup with vegetables, pureed and served with sour cream and salsa. Can be served hot or cold.",
+    "he": "מרק שעועית שחורה עשיר עם ירקות, מרוסק ומוגש עם שמנת חמוצה וסלסה. ניתן להגיש חם או קר."
+  },
+  "ingredients": [
+    {
+      "en": "1 pkg Black Beans (soaked)",
+      "he": "חבילה אחת שעועית שחורה (מושרית)",
+      "item": "black beans",
+      "amount": 1,
+      "unit": "pkg"
+    },
+    {
+      "en": "1 Onion Chopped (approx 1 cup)",
+      "he": "בצל אחד קצוץ (כוס בערך)",
+      "item": "onion",
+      "amount": 1,
+      "unit": "whole"
+    },
+    {
+      "en": "3 T Margarine",
+      "he": "3 כפות מרגרינה",
+      "item": "margarine",
+      "amount": 3,
+      "unit": "tablespoon"
+    },
+    {
+      "en": "1 C Shredded Carrots",
+      "he": "כוס אחת גזר מגורר",
+      "item": "carrots",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1 C Chopped Celery",
+      "he": "כוס אחת סלרי קצוץ",
+      "item": "celery",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "5-6 C Onion stock or other broth",
+      "he": "5-6 כוסות ציר בצל או ציר אחר",
+      "item": "onion stock or other broth",
+      "amount": 5.5,
+      "unit": "cup"
+    },
+    {
+      "en": "Garlic (approx 1 tb)",
+      "he": "שום (כף אחת בערך)",
+      "item": "garlic",
+      "amount": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "en": "Thyme",
+      "he": "טימין",
+      "item": "thyme"
+    },
+    {
+      "en": "1/4 C Lemon juice",
+      "he": "רבע כוס מיץ לימון",
+      "item": "lemon juice",
+      "amount": 0.25,
+      "unit": "cup"
+    },
+    {
+      "en": "Sour Cream",
+      "he": "שמנת חמוצה",
+      "item": "sour cream"
+    },
+    {
+      "en": "Salsa (if you want it hot)",
+      "he": "סלסה (אם רוצים חריף)",
+      "item": "salsa"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Saute onion in margarine for 5 mins.",
+      "Add carrots, celery, thyme and garlic — saute 5 mins more.",
+      "Add broth and beans — bring to boil.",
+      "Reduce heat and simmer covered for 1½ hr.",
+      "Puree in blender or food processor — mix in lemon juice.",
+      "Serve with a dollop of sour cream.",
+      "* For hot soup, add salsa also."
+    ],
+    "he": [
+      "מטגנים בצל במרגרינה במשך 5 דקות.",
+      "מוסיפים גזר, סלרי, טימין ושום — מטגנים עוד 5 דקות.",
+      "מוסיפים ציר ושעועית — מביאים לרתיחה.",
+      "מנמיכים חום ומבשלים על אש נמוכה מכוסה במשך שעה וחצי.",
+      "מרסקים בבלנדר או מעבד מזון — מערבבים מיץ לימון.",
+      "מגישים עם כף שמנת חמוצה.",
+      "* למרק חריף, מוסיפים גם סלסה."
+    ]
+  },
+  "tags": [
+    {
+      "en": "soup",
+      "he": "מרק"
+    },
+    {
+      "en": "vegetarian",
+      "he": "צמחוני"
+    },
+    {
+      "en": "pareve",
+      "he": "פרווה"
+    },
+    {
+      "en": "main",
+      "he": "מנה עיקרית"
+    }
+  ],
+  "illustration": "illustrations/e8618c13-4d50-4976-beba-f66e6e4daa1a.webp",
+  "ocrRawText": "Black Bean Soup\n1 pkg Black Beans (Soaked)\n1 Onion Chopped (aprox 1 cup)\n3 T Margarine\n1 C Shredded Carrots\n1 C Chopped Celery\n5/6 C Onion stock or other broth\nGarlic (aprox 1 tb)\nThyme\n1/4 C Lemon juice\nSour Cream\n(If you want it hot, Salsa)\n\nSaute Onion in Margarine for\n5 mins ~ add Carrots, Celery, Thyme\nand garlic ~ saute 5 mins more ~\nadd Broth + Beans* ~ bring to\nboil ~ Reduce heat and Simmer\ncovered for 1½ hr ~ puree in\nblender or food processor ~ mix in\nlemon juice — serve with a dollop of\nSour Cream\n* for hot Soup, add Salsa also",
+  "selectedModel": "claude",
+  "rankingReason": "Result B is superior in several key ways: (1) The instructions are more concise and readable with better formatting (7 steps vs 10, with logical grouping using em-dashes), (2) The ingredient list is more accurate - it correctly identifies garlic as 1 tablespoon (tb) whereas A leaves it without quantity, and correctly reads the broth as '5-6 C' instead of '5 1/2 C', (3) The Hebrew instructions use more natural present-tense construction (מטגנים, מוסיפים) rather than infinitives, making them more idiomatic, (4) The tags include 'pareve' which is contextually appropriate given the margarine and lack of dairy/meat mix, (5) The description avoids the awkward 'Mexican-inspired' tag which isn't supported by the recipe text, and (6) The OCR raw text more accurately reflects the original with 'Garlic (aprox 1 tb)' and '5/6 C' captured correctly"
+}

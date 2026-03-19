@@ -1,0 +1,98 @@
+{
+  "id": "7a5d69f8-4af6-4499-99af-1a188fd355a4",
+  "slug": "cheese-cake-with-ricotta",
+  "source": {
+    "scanFiles": [
+      "scans/7a5d69f8-4af6-4499-99af-1a188fd355a4-0.jpg"
+    ],
+    "processedAt": "2026-03-19T17:38:55.490Z"
+  },
+  "title": {
+    "en": "Cheese Cake with Ricotta",
+    "he": "עוגת גבינה עם ריקוטה"
+  },
+  "description": {
+    "en": "A classic baked cheesecake made with ricotta cheese, cream cheese, eggs, and citrus rind. Baked in a Pyrex pan.",
+    "he": "עוגת גבינה אפויה קלאסית עם גבינת ריקוטה, גבינת שמנת, ביצים וגרידת הדרים. נאפית בתבנית פיירקס."
+  },
+  "ingredients": [
+    {
+      "en": "3½ lbs ricotta",
+      "he": "1.6 ק\"ג ריקוטה",
+      "item": "ricotta",
+      "amount": 3.5,
+      "unit": "lbs"
+    },
+    {
+      "en": "large cream cheese",
+      "he": "גבינת שמנת גדולה",
+      "item": "cream cheese"
+    },
+    {
+      "en": "1 dozen eggs",
+      "he": "12 ביצים",
+      "item": "eggs",
+      "amount": 12,
+      "unit": "piece"
+    },
+    {
+      "en": "orange & lemon rind",
+      "he": "גרידת תפוז ולימון",
+      "item": "orange and lemon rind"
+    },
+    {
+      "en": "1¼ cup sugar",
+      "he": "1¼ כוס סוכר",
+      "item": "sugar",
+      "amount": 1.25,
+      "unit": "cup"
+    },
+    {
+      "en": "½ cup milk",
+      "he": "½ כוס חלב",
+      "item": "milk",
+      "amount": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Step 1: Cook orange and lemon rind together with sugar to make a smooth mixture.",
+      "Step 2: After adding cheeses, add ½ cup milk.",
+      "Step 3: Pour into a Pyrex pan.",
+      "Step 4: Bake for 1½ hours."
+    ],
+    "he": [
+      "שלב 1: לבשל גרידת תפוז ולימון יחד עם הסוכר לקבלת תערובת חלקה.",
+      "שלב 2: לאחר הוספת הגבינות, להוסיף ½ כוס חלב.",
+      "שלב 3: לשפוך לתבנית פיירקס.",
+      "שלב 4: לאפות במשך שעה וחצי."
+    ]
+  },
+  "tags": [
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "cheesecake",
+      "he": "עוגת גבינה"
+    },
+    {
+      "en": "dairy",
+      "he": "חלבי"
+    },
+    {
+      "en": "baking",
+      "he": "אפייה"
+    },
+    {
+      "en": "holiday",
+      "he": "חג"
+    }
+  ],
+  "illustration": "illustrations/7a5d69f8-4af6-4499-99af-1a188fd355a4.webp",
+  "ocrRawText": "Cheese Cake with Ricotta\n3½ lbs Ricotta\nlarge Cream Cheese\n1 doz. eggs\norange & lemon rind ) cook\n1¼ cup sugar           ) together\nsmooth mixture after\nadding Cheeses. Add ½ cup\nmilk    - Pyrex Pan\nBake 1½ hr",
+  "selectedModel": "claude",
+  "rankingReason": "Claude selected (only valid result). Gemini result failed validation: ingredients.0.amount: Expected number, received string"
+}
