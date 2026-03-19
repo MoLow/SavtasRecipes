@@ -1,6 +1,7 @@
 import { execSync } from "child_process";
 import { readFileSync } from "fs";
 import { getGeminiClient } from "../utils/api-clients.ts";
+import { cached, fileFingerprint } from "../utils/cache.ts";
 
 /**
  * Detects the correct rotation for a scan image.
@@ -13,8 +14,6 @@ import { getGeminiClient } from "../utils/api-clients.ts";
  * Returns clockwise rotation in degrees (0, 90, 180, or 270).
  */
 export async function detectRotation(imagePath: string): Promise<number> {
-  const client = getGeminiClient();
-
   // Get actual pixel dimensions
   const sipsOut = execSync(`sips -g pixelWidth -g pixelHeight "${imagePath}"`, {
     encoding: "utf-8",
@@ -29,29 +28,35 @@ export async function detectRotation(imagePath: string): Promise<number> {
     return 0;
   }
 
-  // Image is landscape but content is portrait — needs 90 or 270.
-  // Ask the model which direction the text flows to determine which rotation.
-  const response = await client.models.generateContent({
-    model: "gemini-3-flash-preview",
-    contents: [
-      {
-        role: "user",
-        parts: [
-          { text: `This is a photo of a handwritten recipe. How many degrees clockwise should this image be rotated so the text reads normally? Respond with a JSON object: {"degrees": N} where N is 0, 90, 180, or 270.` },
-          {
-            inlineData: {
-              mimeType: "image/jpeg",
-              data: readFileSync(imagePath).toString("base64"),
-            },
-          },
-        ],
-      },
-    ],
-  });
+  const cacheKey = fileFingerprint(imagePath) + ":orient";
 
-  let text = response.text?.trim() ?? '{}';
-  // Strip markdown code fences if present
-  text = text.replace(/^```(?:json)?\s*\n?/i, '').replace(/\n?```\s*$/, '');
-  const parsed = JSON.parse(text);
-  return parsed.degrees;
+  return cached("orient", cacheKey, async () => {
+    const client = getGeminiClient();
+
+    // Image is landscape but content is portrait — needs 90 or 270.
+    // Ask the model which direction the text flows to determine which rotation.
+    const response = await client.models.generateContent({
+      model: "gemini-3-flash-preview",
+      contents: [
+        {
+          role: "user",
+          parts: [
+            { text: `This is a photo of a handwritten recipe. How many degrees clockwise should this image be rotated so the text reads normally? Respond with a JSON object: {"degrees": N} where N is 0, 90, 180, or 270.` },
+            {
+              inlineData: {
+                mimeType: "image/jpeg",
+                data: readFileSync(imagePath).toString("base64"),
+              },
+            },
+          ],
+        },
+      ],
+    });
+
+    let text = response.text?.trim() ?? '{}';
+    // Strip markdown code fences if present
+    text = text.replace(/^```(?:json)?\s*\n?/i, '').replace(/\n?```\s*$/, '');
+    const parsed = JSON.parse(text);
+    return parsed.degrees;
+  });
 }

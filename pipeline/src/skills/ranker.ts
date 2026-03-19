@@ -1,6 +1,8 @@
+import { createHash } from "crypto";
 import { z } from "zod";
 import { query } from "@anthropic-ai/claude-agent-sdk";
 import type { OcrTranslateResult } from "./ocr-gemini.ts";
+import { cached } from "../utils/cache.ts";
 
 /** Schema to validate raw OCR+translate output before agent adds id/slug/etc */
 const ocrResultSchema = z.object({
@@ -96,6 +98,12 @@ async function judgeWithClaude(
   geminiData: OcrTranslateResult,
   claudeData: OcrTranslateResult
 ): Promise<RankingResult> {
+  const cacheKey = createHash("sha256")
+    .update(JSON.stringify(geminiData) + JSON.stringify(claudeData))
+    .digest("hex")
+    .slice(0, 16) + ":ranker";
+
+  return cached("ranker", cacheKey, async () => {
   const prompt = `You are comparing two AI-generated recipe extractions from the same handwritten scan. Pick the better one.
 
 ## Result A (Gemini)
@@ -175,4 +183,5 @@ Respond with ONLY a JSON object (no markdown, no code fences):
       rankingReason: "Claude Code judge response was not valid JSON, defaulting to Gemini",
     };
   }
+  });
 }

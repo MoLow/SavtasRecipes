@@ -1,9 +1,12 @@
+import { createHash } from "crypto";
 import { readFileSync } from "fs";
 import { resolve, basename, dirname } from "path";
 import { fileURLToPath } from "url";
 import pMap from "p-map";
+import cliProgress from "cli-progress";
 import { getGeminiClient } from "../utils/api-clients.ts";
 import { ensureCompatibleImage } from "../utils/image.ts";
+import { cached, fileFingerprint } from "../utils/cache.ts";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PROMPT_PATH = resolve(__dirname, "../../../prompts/grouper-system.md");
@@ -14,30 +17,34 @@ interface ScanSummary {
 }
 
 async function quickOcr(imagePath: string): Promise<string> {
-  const client = getGeminiClient();
-  const compatiblePath = await ensureCompatibleImage(imagePath);
-  const imageData = readFileSync(compatiblePath);
-  const base64Image = imageData.toString("base64");
+  const cacheKey = fileFingerprint(imagePath) + ":quick-ocr";
 
-  const ext = compatiblePath.toLowerCase().split(".").pop();
-  const mimeType =
-    ext === "png" ? "image/png" : ext === "webp" ? "image/webp" : "image/jpeg";
+  return cached("quick-ocr", cacheKey, async () => {
+    const client = getGeminiClient();
+    const compatiblePath = await ensureCompatibleImage(imagePath);
+    const imageData = readFileSync(compatiblePath);
+    const base64Image = imageData.toString("base64");
 
-  const response = await client.models.generateContent({
-    model: "gemini-2.5-flash",
-    contents: [
-      {
-        role: "user",
-        parts: [
-          { inlineData: { mimeType, data: base64Image } },
-          { text: "Read the handwritten text in this image. Return ONLY the raw text, nothing else." },
-        ],
-      },
-    ],
-    config: { temperature: 0 },
+    const ext = compatiblePath.toLowerCase().split(".").pop();
+    const mimeType =
+      ext === "png" ? "image/png" : ext === "webp" ? "image/webp" : "image/jpeg";
+
+    const response = await client.models.generateContent({
+      model: "gemini-2.5-flash",
+      contents: [
+        {
+          role: "user",
+          parts: [
+            { inlineData: { mimeType, data: base64Image } },
+            { text: "Read the handwritten text in this image. Return ONLY the raw text, nothing else." },
+          ],
+        },
+      ],
+      config: { temperature: 0 },
+    });
+
+    return response.text ?? "";
   });
-
-  return response.text ?? "";
 }
 
 export async function groupScans(scanPaths: string[]): Promise<string[][]> {
@@ -45,7 +52,17 @@ export async function groupScans(scanPaths: string[]): Promise<string[][]> {
     return scanPaths.map((p) => [basename(p)]);
   }
 
-  console.log("  Running quick OCR on all scans for grouping...");
+  // Progress bar for quick OCR + grouping
+  const bar = new cliProgress.SingleBar({
+    format: "  Grouping {bar} {percentage}% | {value}/{total} scans",
+    barCompleteChar: "\u2588",
+    barIncompleteChar: "\u2591",
+    hideCursor: true,
+    clearOnComplete: true,
+    barsize: 25,
+  }, cliProgress.Presets.shades_classic);
+
+  bar.start(scanPaths.length + 1, 0); // +1 for the clustering step
 
   // Quick OCR with limited concurrency (3 at a time)
   const summaries: ScanSummary[] = [];
@@ -60,40 +77,53 @@ export async function groupScans(scanPaths: string[]): Promise<string[][]> {
     } catch {
       failedCount++;
     }
+    bar.increment();
   }, { concurrency: 3 });
 
   if (failedCount > 0) {
+    bar.stop();
     console.warn(`  Warning: ${failedCount} scans failed quick OCR`);
   }
 
   // If too few succeeded, fall back to individual groups
   if (summaries.length === 0) {
+    bar.stop();
     console.warn("  All quick OCR failed, treating each scan as separate recipe");
     return scanPaths.map((p) => [basename(p)]);
   }
 
-  // Build the clustering prompt
+  // Build the clustering prompt — cache by content hash
   const promptTemplate = readFileSync(PROMPT_PATH, "utf-8");
   const scanList = summaries
     .map((s) => `Filename: ${s.filename}\nText: ${s.textSnippet}\n`)
     .join("\n");
 
-  const client = getGeminiClient();
-  const response = await client.models.generateContent({
-    model: "gemini-2.5-flash",
-    contents: [
-      {
-        role: "user",
-        parts: [{ text: promptTemplate + scanList }],
+  const clusterCacheKey = createHash("sha256")
+    .update(scanList)
+    .digest("hex")
+    .slice(0, 16) + ":grouper";
+
+  const text = await cached("grouper", clusterCacheKey, async () => {
+    const client = getGeminiClient();
+    const response = await client.models.generateContent({
+      model: "gemini-2.5-flash",
+      contents: [
+        {
+          role: "user",
+          parts: [{ text: promptTemplate + scanList }],
+        },
+      ],
+      config: {
+        temperature: 0,
+        responseMimeType: "application/json",
       },
-    ],
-    config: {
-      temperature: 0,
-      responseMimeType: "application/json",
-    },
+    });
+    return response.text ?? "";
   });
 
-  const text = response.text;
+  bar.increment(); // clustering step done
+  bar.stop();
+
   if (!text) {
     console.warn("  Grouper returned empty response, treating each scan as separate");
     return scanPaths.map((p) => [basename(p)]);

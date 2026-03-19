@@ -19,4 +19,5 @@ out/
 # Pipeline build
 pipeline/dist/
 pipeline/.image-cache/
+pipeline/.ai-cache/
 .playwright-mcp

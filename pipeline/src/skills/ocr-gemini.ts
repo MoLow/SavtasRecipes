@@ -2,6 +2,7 @@ import { readFileSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
 import { getGeminiClient } from "../utils/api-clients.ts";
+import { cached, fileFingerprint } from "../utils/cache.ts";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PROMPT_PATH = resolve(__dirname, "../../../prompts/ocr-translate-system.md");
@@ -29,34 +30,38 @@ function getMimeType(path: string): string {
 export async function ocrWithGemini(
   imagePaths: string[]
 ): Promise<OcrTranslateResult> {
-  const client = getGeminiClient();
-  const systemPrompt = readFileSync(PROMPT_PATH, "utf-8");
+  const cacheKey = imagePaths.map(fileFingerprint).join("+") + ":gemini-ocr";
 
-  const imageParts = imagePaths.map((p) => ({
-    inlineData: {
-      mimeType: getMimeType(p),
-      data: readFileSync(p).toString("base64"),
-    },
-  }));
+  return cached("ocr-gemini", cacheKey, async () => {
+    const client = getGeminiClient();
+    const systemPrompt = readFileSync(PROMPT_PATH, "utf-8");
 
-  const response = await client.models.generateContent({
-    model: "gemini-2.5-flash",
-    contents: [
-      {
-        role: "user",
-        parts: [...imageParts, { text: systemPrompt }],
+    const imageParts = imagePaths.map((p) => ({
+      inlineData: {
+        mimeType: getMimeType(p),
+        data: readFileSync(p).toString("base64"),
       },
-    ],
-    config: {
-      temperature: 0.1,
-      responseMimeType: "application/json",
-    },
+    }));
+
+    const response = await client.models.generateContent({
+      model: "gemini-2.5-flash",
+      contents: [
+        {
+          role: "user",
+          parts: [...imageParts, { text: systemPrompt }],
+        },
+      ],
+      config: {
+        temperature: 0.1,
+        responseMimeType: "application/json",
+      },
+    });
+
+    const text = response.text;
+    if (!text) {
+      throw new Error("Gemini returned empty response");
+    }
+
+    return JSON.parse(text) as OcrTranslateResult;
   });
-
-  const text = response.text;
-  if (!text) {
-    throw new Error("Gemini returned empty response");
-  }
-
-  return JSON.parse(text) as OcrTranslateResult;
 }

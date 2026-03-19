@@ -3,6 +3,7 @@ import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
 import { query } from "@anthropic-ai/claude-agent-sdk";
 import type { OcrTranslateResult } from "./ocr-gemini.ts";
+import { cached, fileFingerprint } from "../utils/cache.ts";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PROMPT_PATH = resolve(__dirname, "../../../prompts/ocr-translate-system.md");
@@ -10,6 +11,9 @@ const PROMPT_PATH = resolve(__dirname, "../../../prompts/ocr-translate-system.md
 export async function ocrWithClaude(
   imagePaths: string[]
 ): Promise<OcrTranslateResult> {
+  const cacheKey = imagePaths.map(fileFingerprint).join("+") + ":claude-ocr";
+
+  return cached("ocr-claude", cacheKey, async () => {
   const systemPrompt = readFileSync(PROMPT_PATH, "utf-8");
   const absolutePaths = imagePaths.map((p) => resolve(p));
 
@@ -56,4 +60,5 @@ export async function ocrWithClaude(
   }
 
   return JSON.parse(jsonText) as OcrTranslateResult;
+  });
 }
