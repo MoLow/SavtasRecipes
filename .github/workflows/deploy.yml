@@ -40,15 +40,22 @@ jobs:
           role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
           aws-region: ${{ env.AWS_REGION }}
 
+      - name: Deploy infrastructure
+        run: |
+          aws cloudformation deploy \
+            --template-file infra/cloudformation.yaml \
+            --stack-name savtas-recipes \
+            --no-fail-on-empty-changeset
+
       - name: Sync to S3
         run: |
-          aws s3 sync website/out/ s3://recepies.atlow.co.il \
+          aws s3 sync website/out/ s3://recipes.atlow.co.il \
             --delete \
             --cache-control "public, max-age=31536000, immutable" \
             --exclude "*.html" \
             --exclude "*.json"
           # HTML and JSON get shorter cache (for content updates)
-          aws s3 sync website/out/ s3://recepies.atlow.co.il \
+          aws s3 sync website/out/ s3://recipes.atlow.co.il \
             --delete \
             --cache-control "public, max-age=60, s-maxage=3600" \
             --include "*.html" \
@@ -57,7 +64,7 @@ jobs:
             --content-type "text/html" \
             --no-guess-mime-type
           # Fix JSON content type
-          aws s3 sync website/out/ s3://recepies.atlow.co.il \
+          aws s3 sync website/out/ s3://recipes.atlow.co.il \
             --delete \
             --cache-control "public, max-age=60, s-maxage=3600" \
             --exclude "*" \

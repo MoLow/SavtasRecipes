@@ -48,7 +48,7 @@ Made original handwritten scans available on the website:
 ### 4. S3 + CloudFront Deployment Infrastructure
 Replaced GitHub Pages with S3 static website + CloudFront CDN:
 - **CloudFormation template** (`infra/cloudformation.yaml`): S3 bucket, CloudFront with OAC, ACM cert, Route53 A record
-- **Custom domain**: `recepies.atlow.co.il` (Route53 hosted zone `ZBK1TP4S8FJSM`)
+- **Custom domain**: `recipes.atlow.co.il` (Route53 hosted zone `ZBK1TP4S8FJSM`)
 - **GitHub Actions** (`.github/workflows/deploy.yml`): Build → S3 sync (with cache headers) → CloudFront invalidation
 - **Auth**: GitHub OIDC → IAM Role (no long-lived keys)
 - Smart cache headers: immutable for static assets, short TTL for HTML/JSON

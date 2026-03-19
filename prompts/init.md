@@ -1,6 +1,6 @@
 Hello this is the very beginning of my project, I will describe it to you so you can craft the .claude md files and directory:
 
-I have a bunch of scanned papers with recepies from my "Savta" (grandmother in hebrew), I want to digitize them and create a interactive website out of them
+I have a bunch of scanned papers with recipes from my "Savta" (grandmother in hebrew), I want to digitize them and create a interactive website out of them
 for this I need (at least thats what I think, feel free to suggest changes) the following skills:
 - OCR skill: take the scan/photo of the recepie and convert it to text
 - Translater skill: take a recepie and translate it to other langauges. I currently intend to only have english and hebrew

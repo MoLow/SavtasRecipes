@@ -4,7 +4,7 @@ Description: "Savta's Recipes — S3 static website with CloudFront and custom d
 Parameters:
   DomainName:
     Type: String
-    Default: recepies.atlow.co.il
+    Default: recipes.atlow.co.il
   HostedZoneId:
     Type: String
     Default: ZBK1TP4S8FJSM
