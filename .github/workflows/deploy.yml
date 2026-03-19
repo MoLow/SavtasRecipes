@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy to S3 + CloudFront
 
 on:
   push:
@@ -6,21 +6,23 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
   id-token: write
+  contents: read
 
 concurrency:
-  group: pages
+  group: deploy
   cancel-in-progress: false
 
+env:
+  AWS_REGION: us-east-1
+
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@v4
         with:
           node-version: 24
           cache: npm
@@ -32,18 +34,43 @@ jobs:
         working-directory: website
         run: npx next build
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
         with:
-          path: website/out
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: ${{ env.AWS_REGION }}
 
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Sync to S3
+        run: |
+          aws s3 sync website/out/ s3://recepies.atlow.co.il \
+            --delete \
+            --cache-control "public, max-age=31536000, immutable" \
+            --exclude "*.html" \
+            --exclude "*.json"
+          # HTML and JSON get shorter cache (for content updates)
+          aws s3 sync website/out/ s3://recepies.atlow.co.il \
+            --delete \
+            --cache-control "public, max-age=60, s-maxage=3600" \
+            --include "*.html" \
+            --include "*.json" \
+            --exclude "*" \
+            --content-type "text/html" \
+            --no-guess-mime-type
+          # Fix JSON content type
+          aws s3 sync website/out/ s3://recepies.atlow.co.il \
+            --delete \
+            --cache-control "public, max-age=60, s-maxage=3600" \
+            --exclude "*" \
+            --include "*.json" \
+            --content-type "application/json" \
+            --no-guess-mime-type
+
+      - name: Invalidate CloudFront cache
+        run: |
+          DISTRIBUTION_ID=$(aws cloudformation describe-stacks \
+            --stack-name savtas-recipes \
+            --query "Stacks[0].Outputs[?OutputKey=='DistributionId'].OutputValue" \
+            --output text)
+          aws cloudfront create-invalidation \
+            --distribution-id "$DISTRIBUTION_ID" \
+            --paths "/*"

@@ -45,8 +45,36 @@ Made original handwritten scans available on the website:
 - Used `gemini-3-flash-preview` for orient detection (Gemini Pro also works but flash is faster)
 - All scan files committed to git (both raw HEIC and exported JPEG) per user preference
 
+### 4. S3 + CloudFront Deployment Infrastructure
+Replaced GitHub Pages with S3 static website + CloudFront CDN:
+- **CloudFormation template** (`infra/cloudformation.yaml`): S3 bucket, CloudFront with OAC, ACM cert, Route53 A record
+- **Custom domain**: `recepies.atlow.co.il` (Route53 hosted zone `ZBK1TP4S8FJSM`)
+- **GitHub Actions** (`.github/workflows/deploy.yml`): Build → S3 sync (with cache headers) → CloudFront invalidation
+- **Auth**: GitHub OIDC → IAM Role (no long-lived keys)
+- Smart cache headers: immutable for static assets, short TTL for HTML/JSON
+
+## Commits
+1. `2f31a9f` — Redesign website: "The Archive Table" design system
+2. `2db72f9` — Fix website build: add Tailwind PostCSS plugin and extract SearchResults component
+3. `ba67f87` — Add scan export pipeline with AI rotation detection
+4. `70e115d` — Add Savta's photo and family dedication to home page
+5. `0e75777` — Add conversation log
+6. TBD — S3 + CloudFront deployment infrastructure
+
+## Key decisions
+- Serif-first typography for editorial feel (unusual for web, memorable)
+- Scans displayed as "physical photos" with white borders and rotation — celebrates the handwritten originals
+- AI rotation detection needed because HEIC→JPEG conversion doesn't preserve orientation metadata
+- Used `gemini-3-flash-preview` for orient detection (Gemini Pro also works but flash is faster)
+- All scan files committed to git (both raw HEIC and exported JPEG) per user preference
+- CloudFormation over Terraform — single template, no extra tooling, AWS-native
+- GitHub OIDC over access keys — more secure, no key rotation needed
+- CloudFront OAC over OAI — newer, more secure S3 access method
+
 ## Technical notes
 - Tailwind v4 with Next.js requires `@tailwindcss/postcss` package + `postcss.config.mjs`
 - HEIC files from iPhones store rotation via `irot` box, not standard EXIF orientation
 - `sips` on macOS doesn't expose or apply HEIC rotation during format conversion
 - AI models auto-apply orientation metadata when processing images, making direct rotation detection impossible — workaround is to reason about pixel dimensions + text flow direction
+- ACM certificate must be in `us-east-1` for CloudFront (even if other resources are elsewhere)
+- CloudFront hosted zone ID `Z2FDTNDATAQYW2` is a global AWS constant for alias records
