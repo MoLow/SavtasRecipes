@@ -21,3 +21,7 @@ pipeline/dist/
 pipeline/.image-cache/
 pipeline/.ai-cache/
 .playwright-mcp
+
+# Website optimized images
+data/illustrations/*-*w.*
+data/scans/*-*w.*
