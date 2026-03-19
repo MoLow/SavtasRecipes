@@ -57,3 +57,20 @@ Initial project setup for Savta's Recipes — digitizing 50+ scanned handwritten
 - Runs Gemini and Claude OCR in parallel via `Promise.allSettled`
 - Builds `data/recipes/index.json` manifest after processing
 - Progress logging for each step (OCR → rank → illustrate → write)
+
+### Phase 6: Website
+- Scaffolded Next.js app with static export (`output: 'export'`) and Tailwind CSS
+- Created `website/lib/recipes.ts` — loads recipe JSON from `data/recipes/` at build time
+- Created `website/lib/search.ts` — Fuse.js search index builder with weighted fields
+- **Components**:
+  - `RecipeCard` — card with illustration, title, tags; links to recipe detail
+  - `LanguageToggle` — switches between EN/HE, rewrites URL path
+  - `SearchBar` — client-side fuzzy search with instant filtering
+  - `ScanViewer` — modal overlay to view original handwritten scan
+- **Pages**:
+  - `/` — landing page with language selection (English / עברית)
+  - `/[locale]` — recipe grid with all recipes
+  - `/[locale]/recipe/[slug]` — full recipe detail with illustration, ingredients, numbered instructions, tags, and scan viewer
+  - `/search` — search across all recipes by name, ingredients, tags
+- Locale layout applies `dir="rtl"` for Hebrew, sticky header with nav + language toggle
+- Warm family-cookbook color palette (cream, brown, gold, tan)

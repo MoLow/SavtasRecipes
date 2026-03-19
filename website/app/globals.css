@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  --color-warm-cream: #fdf6ec;
+  --color-warm-brown: #5c3d2e;
+  --color-warm-tan: #c4a882;
+  --color-warm-gold: #d4a047;
+  --color-warm-red: #b85c38;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: var(--color-warm-cream);
+  color: var(--color-warm-brown);
+}
+
+/* Hebrew font support */
+[lang="he"] {
+  font-family: "Heebo", system-ui, sans-serif;
+}
