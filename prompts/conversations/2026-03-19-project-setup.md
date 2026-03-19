@@ -23,6 +23,7 @@ Initial project setup for Savta's Recipes — digitizing 50+ scanned handwritten
 
 ## Actions taken
 
+### Phase 1: Foundation
 - Renamed `propmts/` → `prompts/`, created `conversations/` and `plans/` subdirs
 - Created npm workspaces monorepo (`package.json` at root, `pipeline/`, `website/`)
 - Created TypeScript configs (`tsconfig.base.json`, `pipeline/tsconfig.json`)
@@ -31,4 +32,18 @@ Initial project setup for Savta's Recipes — digitizing 50+ scanned handwritten
 - Defined Zod recipe schema in `pipeline/src/schema.ts`
 - Set up git pre-commit hook to auto-stage `prompts/`
 - Set up Claude Code `PreToolUse` hook to auto-stage `prompts/` before git commits
-- Saved this conversation log and the project plan to `prompts/`
+- Saved conversation log and project plan to `prompts/`
+
+### Phase 2: Dual OCR + Translation Skills
+- Created `pipeline/src/utils/api-clients.ts` — loads keys from `pipeline/.env` (gitignored), lazy-inits Gemini + Anthropic clients
+- Created `pipeline/src/skills/ocr-gemini.ts` — Gemini 2.0 Flash vision OCR + structure + translate
+- Created `pipeline/src/skills/ocr-claude.ts` — Claude Opus 4.6 vision OCR + structure + translate
+- Created `prompts/ocr-translate-system.md` — shared prompt template for both models
+- Created `pipeline/.env` from `.env.example` (gitignored, user fills in API keys)
+
+### Phase 3: Ranker + README
+- Created `pipeline/src/skills/ranker.ts` — validates both OCR results with Zod, uses Claude Haiku as judge when both pass
+- Updated `README.md` with project description, tech stack, and "vibe coded with Claude Code" note
+
+### Phase 4: Illustration Skill (in progress)
+- Implementing `pipeline/src/skills/illustrator.ts` using Nano Banana Pro
