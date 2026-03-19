@@ -1,0 +1,20 @@
+{
+  "name": "pipeline",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "process": "tsx src/agent.ts",
+    "process:one": "tsx src/agent.ts --file"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@google/genai": "^1.0.0",
+    "sharp": "^0.33.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

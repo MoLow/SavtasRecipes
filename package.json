@@ -1,0 +1,16 @@
+{
+  "name": "savtas-recipes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Digitizing Savta's handwritten recipes into a bilingual interactive website",
+  "workspaces": [
+    "pipeline",
+    "website"
+  ],
+  "scripts": {
+    "process": "npm run process --workspace=pipeline",
+    "process:one": "npm run process:one --workspace=pipeline",
+    "dev": "npm run dev --workspace=website",
+    "build": "npm run build --workspace=website"
+  }
+}
