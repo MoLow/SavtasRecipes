@@ -58,6 +58,11 @@ body::before {
   mix-blend-mode: multiply;
 }
 
+/* Eliminate 300ms tap delay on touch devices */
+a, button, input, select, textarea, [role="button"] {
+  touch-action: manipulation;
+}
+
 /* All elements inherit body font */
 input, button, textarea, select {
   font-family: inherit;
