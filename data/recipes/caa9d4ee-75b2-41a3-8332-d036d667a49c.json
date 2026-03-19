@@ -51,12 +51,30 @@
     ]
   },
   "tags": [
-    "dessert",
-    "baking",
-    "crust",
-    "basic",
-    "vegetarian",
-    "dairy-free"
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "baking",
+      "he": "אפייה"
+    },
+    {
+      "en": "crust",
+      "he": "בצק"
+    },
+    {
+      "en": "basic",
+      "he": "בסיסי"
+    },
+    {
+      "en": "vegetarian",
+      "he": "צמחוני"
+    },
+    {
+      "en": "dairy-free",
+      "he": "ללא חלב"
+    }
   ],
   "illustration": "illustrations/caa9d4ee-75b2-41a3-8332-d036d667a49c.webp",
   "ocrRawText": "Pie Crust\n1½ C. flour\n½ t. salt\n½ C. oil\nMix well\nPress into\npie pan. Bake\n350° to\nbrown",

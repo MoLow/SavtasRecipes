@@ -94,7 +94,7 @@ export default function SearchResults({ recipes, locale }: SearchResultsProps) {
                   {locale === "he" ? r.titleHe : r.titleEn}
                 </h3>
                 <p className="text-[10px] sm:text-xs text-[var(--color-ink-tertiary)] truncate mt-0.5">
-                  {r.tags.split(" ").slice(0, 3).join(" \u00b7 ")}
+                  {(locale === "he" ? r.tagsHe : r.tagsEn).slice(0, 3).join(" \u00b7 ")}
                 </p>
               </div>
             </Link>

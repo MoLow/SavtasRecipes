@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T13:13:20.457Z",
+  "generatedAt": "2026-03-19T14:24:44.230Z",
   "totalRecipes": 6,
   "recipes": [
     {
@@ -10,12 +10,30 @@
         "he": "קוגל לוקשן של נאני"
       },
       "tags": [
-        "ashkenazi",
-        "dairy",
-        "dessert",
-        "shabbat",
-        "kugel",
-        "baked"
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "shabbat",
+          "he": "שבת"
+        },
+        {
+          "en": "kugel",
+          "he": "קוגל"
+        },
+        {
+          "en": "baked",
+          "he": "אפוי"
+        }
       ],
       "illustration": "illustrations/113e1abb-b470-4d59-b552-29775b045295.webp"
     },
@@ -27,11 +45,26 @@
         "he": "עוגת גבינה עם זיגוג תותים"
       },
       "tags": [
-        "dessert",
-        "cheesecake",
-        "strawberry",
-        "dairy",
-        "baking"
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cheesecake",
+          "he": "עוגת גבינה"
+        },
+        {
+          "en": "strawberry",
+          "he": "תות"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        }
       ],
       "illustration": "illustrations/4be9a110-92a9-40ea-a5bc-04d2cc68a4b7.webp"
     },
@@ -43,12 +76,30 @@
         "he": "עוגת תפוחים"
       },
       "tags": [
-        "dessert",
-        "cake",
-        "apple",
-        "baking",
-        "pareve",
-        "american"
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cake",
+          "he": "עוגה"
+        },
+        {
+          "en": "apple",
+          "he": "תפוח"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        },
+        {
+          "en": "american",
+          "he": "אמריקאי"
+        }
       ],
       "illustration": "illustrations/5c2260e3-3b06-4669-9248-66f40683eabd.webp"
     },
@@ -60,12 +111,30 @@
         "he": "פאי קסטרד קוקוס"
       },
       "tags": [
-        "dessert",
-        "pie",
-        "coconut",
-        "dairy",
-        "american",
-        "vintage"
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "pie",
+          "he": "פאי"
+        },
+        {
+          "en": "coconut",
+          "he": "קוקוס"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "american",
+          "he": "אמריקאי"
+        },
+        {
+          "en": "vintage",
+          "he": "קלאסי"
+        }
       ],
       "illustration": "illustrations/719bb0ed-909d-46e5-9c97-31435edda4f2.webp"
     },
@@ -77,12 +146,30 @@
         "he": "קלתית פאי"
       },
       "tags": [
-        "dessert",
-        "baking",
-        "crust",
-        "basic",
-        "vegetarian",
-        "dairy-free"
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        },
+        {
+          "en": "crust",
+          "he": "בצק"
+        },
+        {
+          "en": "basic",
+          "he": "בסיסי"
+        },
+        {
+          "en": "vegetarian",
+          "he": "צמחוני"
+        },
+        {
+          "en": "dairy-free",
+          "he": "ללא חלב"
+        }
       ],
       "illustration": "illustrations/caa9d4ee-75b2-41a3-8332-d036d667a49c.webp"
     },
@@ -94,11 +181,26 @@
         "he": "עוגת ארלין (עוגת קפה)"
       },
       "tags": [
-        "dessert",
-        "cake",
-        "coffee cake",
-        "ashkenazi",
-        "dairy"
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cake",
+          "he": "עוגה"
+        },
+        {
+          "en": "coffee cake",
+          "he": "עוגת קפה"
+        },
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        }
       ],
       "illustration": "illustrations/e7a1687d-c628-4479-8f9e-270becb258f2.webp"
     }

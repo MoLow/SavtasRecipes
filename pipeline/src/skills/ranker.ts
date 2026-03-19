@@ -21,7 +21,7 @@ const ocrResultSchema = z.object({
     en: z.array(z.string().min(1)).min(1),
     he: z.array(z.string().min(1)).min(1),
   }),
-  tags: z.array(z.string()),
+  tags: z.array(z.object({ en: z.string(), he: z.string() })),
   ocrRawText: z.string().min(1),
 });
 

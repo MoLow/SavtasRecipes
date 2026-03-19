@@ -17,7 +17,7 @@ export interface OcrTranslateResult {
     unit?: string;
   }>;
   instructions: { en: string[]; he: string[] };
-  tags: string[];
+  tags: Array<{ en: string; he: string }>;
   ocrRawText: string;
 }
 

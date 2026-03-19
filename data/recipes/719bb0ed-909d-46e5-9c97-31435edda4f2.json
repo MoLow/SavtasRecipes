@@ -62,12 +62,30 @@
     ]
   },
   "tags": [
-    "dessert",
-    "pie",
-    "coconut",
-    "dairy",
-    "american",
-    "vintage"
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "pie",
+      "he": "פאי"
+    },
+    {
+      "en": "coconut",
+      "he": "קוקוס"
+    },
+    {
+      "en": "dairy",
+      "he": "חלבי"
+    },
+    {
+      "en": "american",
+      "he": "אמריקאי"
+    },
+    {
+      "en": "vintage",
+      "he": "קלאסי"
+    }
   ],
   "illustration": "illustrations/719bb0ed-909d-46e5-9c97-31435edda4f2.webp",
   "ocrRawText": "Bob\nCoconut Custard Pie\nAnn Page coconut custard pie filling\nDurkees shredded coconut\nFollow directions on box; add\n2 egg yolks. add ½ pkg\ncoconuts. Pour in - let set.\nBrown rest of coconuts. Put\nfilling in pie crust & sprinkle\nbrowned coconuts on top -\nrefrigerate.",

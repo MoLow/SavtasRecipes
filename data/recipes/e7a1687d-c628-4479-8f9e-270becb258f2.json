@@ -115,11 +115,26 @@
     ]
   },
   "tags": [
-    "dessert",
-    "cake",
-    "coffee cake",
-    "ashkenazi",
-    "dairy"
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "cake",
+      "he": "עוגה"
+    },
+    {
+      "en": "coffee cake",
+      "he": "עוגת קפה"
+    },
+    {
+      "en": "ashkenazi",
+      "he": "אשכנזי"
+    },
+    {
+      "en": "dairy",
+      "he": "חלבי"
+    }
   ],
   "illustration": "illustrations/e7a1687d-c628-4479-8f9e-270becb258f2.webp",
   "ocrRawText": "Arlene's Cake (Coffee Cake)\n1/2 lb. butter\n2 cups sugar ) Cream together\n4 eggs\n4 cups flour\n2 tsp. baking powder\n2 tsp. baking soda\n1 cup sour cream\n1 cup walnuts\nsugar & cinnamon\nmix the 1/2 mixture of walnut\nsprinkle 1/2 mixture of into batter.\nPour rest of batter & rest of remainder\nof nut on top\nBake 350°\n1 hr",

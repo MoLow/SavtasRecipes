@@ -7,6 +7,8 @@ export interface SearchableRecipe {
   description: string;
   ingredients: string;
   tags: string;
+  tagsEn: string[];
+  tagsHe: string[];
   illustration: string;
   titleHe: string;
   titleEn: string;
@@ -20,7 +22,9 @@ export function buildSearchIndex(
     title: r.title.en,
     description: r.description.en,
     ingredients: r.ingredients.map((i) => `${i.en} ${i.he}`).join(" "),
-    tags: r.tags.join(" "),
+    tags: r.tags.map((t) => `${t.en} ${t.he}`).join(" "),
+    tagsEn: r.tags.map((t) => t.en),
+    tagsHe: r.tags.map((t) => t.he),
     illustration: r.illustration,
     titleHe: r.title.he,
     titleEn: r.title.en,

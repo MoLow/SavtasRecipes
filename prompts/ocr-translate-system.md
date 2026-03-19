@@ -26,14 +26,14 @@ Return a JSON object with exactly this structure (no markdown, no code fences, j
     "en": ["Step 1: ...", "Step 2: ..."],
     "he": ["שלב 1: ...", "שלב 2: ..."]
   },
-  "tags": ["category1", "category2"],
+  "tags": [{ "en": "category1", "he": "קטגוריה1" }, { "en": "category2", "he": "קטגוריה2" }],
   "ocrRawText": "The complete raw English text exactly as written on the paper"
 }
 
 Guidelines:
 - For `ocrRawText`, include ALL text visible on the page, preserving line breaks as \n
 - For `ingredients`, extract structured data (item, amount, unit) when possible. If amount/unit are unclear, omit them.
-- For `tags`, infer relevant categories: cuisine type (e.g. "iraqi", "moroccan", "ashkenazi"), meal type (e.g. "dessert", "soup", "main"), occasion (e.g. "shabbat", "holiday"), dietary (e.g. "vegetarian", "dairy", "meat")
+- For `tags`, infer relevant categories: cuisine type (e.g. "iraqi"/"עיראקי", "moroccan"/"מרוקאי", "ashkenazi"/"אשכנזי"), meal type (e.g. "dessert"/"קינוח", "soup"/"מרק", "main"/"מנה עיקרית"), occasion (e.g. "shabbat"/"שבת", "holiday"/"חג"), dietary (e.g. "vegetarian"/"צמחוני", "dairy"/"חלבי", "meat"/"בשרי"). Each tag must have both English and Hebrew.
 - Hebrew translations should sound natural, using standard Israeli cooking terminology
 - If any part of the handwriting is illegible, make your best guess and note it in the description
 - Return ONLY valid JSON, no additional text

@@ -6,7 +6,7 @@ interface RecipeCardProps {
   slug: string;
   title: { en: string; he: string };
   illustration: string;
-  tags?: string[];
+  tags?: Array<{ en: string; he: string }>;
   locale: Locale;
   index?: number;
 }
@@ -50,7 +50,7 @@ export default function RecipeCard({
         </h3>
         {tags && tags.length > 0 && (
           <p className="text-[10px] sm:text-xs text-[var(--color-ink-tertiary)] truncate mt-0.5">
-            {tags.slice(0, 3).join(" \u00b7 ")}
+            {tags.slice(0, 3).map((t) => t[locale]).join(" \u00b7 ")}
           </p>
         )}
       </div>

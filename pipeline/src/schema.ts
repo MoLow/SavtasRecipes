@@ -27,7 +27,7 @@ export const recipeSchema = z.object({
     en: z.array(z.string()).min(1),
     he: z.array(z.string()).min(1),
   }),
-  tags: z.array(z.string()),
+  tags: z.array(bilingualText),
   illustration: z.string(),
   ocrRawText: z.string(),
   selectedModel: z.enum(["gemini", "claude"]),
@@ -46,7 +46,7 @@ export const recipeIndexSchema = z.object({
       id: z.string(),
       slug: z.string(),
       title: bilingualText,
-      tags: z.array(z.string()),
+      tags: z.array(bilingualText),
       illustration: z.string(),
     })
   ),

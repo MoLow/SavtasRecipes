@@ -66,10 +66,10 @@ export default async function RecipeDetail({
                 <div className="flex flex-wrap gap-2">
                   {recipe.tags.map((tag) => (
                     <span
-                      key={tag}
+                      key={tag.en}
                       className="text-xs px-2.5 py-1 rounded-full border border-[var(--color-border)] bg-[var(--color-tag-bg)] text-[var(--color-tag-text)]"
                     >
-                      {tag}
+                      {tag[locale]}
                     </span>
                   ))}
                 </div>

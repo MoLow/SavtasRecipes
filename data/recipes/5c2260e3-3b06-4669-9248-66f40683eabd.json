@@ -107,12 +107,30 @@
     ]
   },
   "tags": [
-    "dessert",
-    "cake",
-    "apple",
-    "baking",
-    "pareve",
-    "american"
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "cake",
+      "he": "עוגה"
+    },
+    {
+      "en": "apple",
+      "he": "תפוח"
+    },
+    {
+      "en": "baking",
+      "he": "אפייה"
+    },
+    {
+      "en": "pareve",
+      "he": "פרווה"
+    },
+    {
+      "en": "american",
+      "he": "אמריקאי"
+    }
   ],
   "illustration": "illustrations/5c2260e3-3b06-4669-9248-66f40683eabd.webp",
   "ocrRawText": "Apple Cake\n5 large Cortland baking apples, peeled, cored & thinly sliced.\n1 tsp. cinnamon\n3 tsp. sugar\n3 cups flour                4 eggs\n1½ cups sugar             1 cup vegetable oil\n1 tsp. salt                  ¼ cup orange juice\n3 tsp. baking powder      1½ tsp. vanilla\n1. Mix apples, cinnamon & 3 tsp. sugar; Set aside.\n2. Sift flour, 1½ cups sugar, salt & baking powder in bowl.\n   Make well in the center; pour in eggs, oil, orange juice and\n   vanilla. Mix well.\n3. Spread half the batter into greased 13\" x 9\" baking pan, then\n   cover with apple mixture. Cover with remaining batter.\n   Bake in 350° oven for 45 to 50 minutes.",

@@ -129,7 +129,7 @@ export default function SearchInput({ recipes, locale, variant = "navbar" }: Sea
                   {locale === "he" ? r.titleHe : r.titleEn}
                 </p>
                 <p className="text-xs text-[var(--color-ink-tertiary)] truncate">
-                  {r.tags}
+                  {(locale === "he" ? r.tagsHe : r.tagsEn).slice(0, 3).join(" \u00b7 ")}
                 </p>
               </div>
             </Link>

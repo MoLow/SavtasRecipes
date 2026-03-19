@@ -86,12 +86,30 @@
     ]
   },
   "tags": [
-    "ashkenazi",
-    "dairy",
-    "dessert",
-    "shabbat",
-    "kugel",
-    "baked"
+    {
+      "en": "ashkenazi",
+      "he": "אשכנזי"
+    },
+    {
+      "en": "dairy",
+      "he": "חלבי"
+    },
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "shabbat",
+      "he": "שבת"
+    },
+    {
+      "en": "kugel",
+      "he": "קוגל"
+    },
+    {
+      "en": "baked",
+      "he": "אפוי"
+    }
   ],
   "illustration": "illustrations/113e1abb-b470-4d59-b552-29775b045295.webp",
   "ocrRawText": "Nani's\n2 lbs Broad Noodles  Noodle Pudding\nDrain + soak overnight in 1 quart of\nbuttermilk\n1 lb Carton 2% Cottage Cheese\n7 eggs Beaten\n1 pt Sour Cream\n1/2 tsp Vanilla - 1/4 lb Butter\n1 cup of sugar or less\nbake for 1 1/2 hrs - 350°",
