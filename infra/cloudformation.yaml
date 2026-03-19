@@ -68,6 +68,30 @@ Resources:
         - DomainName: !Ref DomainName
           HostedZoneId: !Ref HostedZoneId
 
+  # ── CloudFront Function (clean URL routing for static export) ──
+  UrlRewriteFunction:
+    Type: AWS::CloudFront::Function
+    Properties:
+      Name: !Sub "${AWS::StackName}-url-rewrite"
+      AutoPublish: true
+      FunctionConfig:
+        Comment: "Append .html to extensionless paths for Next.js static export"
+        Runtime: cloudfront-js-2.0
+      FunctionCode: |
+        function handler(event) {
+          var request = event.request;
+          var uri = request.uri;
+          if (uri === '/') {
+            return request;
+          }
+          if (uri.endsWith('/')) {
+            request.uri = uri.slice(0, -1) + '.html';
+          } else if (!uri.includes('.')) {
+            request.uri += '.html';
+          }
+          return request;
+        }
+
   # ── CloudFront Distribution ──
   CloudFrontDistribution:
     Type: AWS::CloudFront::Distribution
@@ -87,6 +111,9 @@ Resources:
           ViewerProtocolPolicy: redirect-to-https
           CachePolicyId: 658327ea-f89d-4fab-a63d-7e88639e58f6 # CachingOptimized
           Compress: true
+          FunctionAssociations:
+            - EventType: viewer-request
+              FunctionARN: !GetAtt UrlRewriteFunction.FunctionARN
         # SPA fallback: serve index.html for 404s (Next.js static export)
         CustomErrorResponses:
           - ErrorCode: 403
