@@ -1,0 +1,147 @@
+{
+  "id": "a6668af9-88d0-4e0f-bf13-aca575e9edf2",
+  "slug": "coq-au-vin",
+  "source": {
+    "scanFiles": [
+      "scans/a6668af9-88d0-4e0f-bf13-aca575e9edf2-0.jpg",
+      "scans/a6668af9-88d0-4e0f-bf13-aca575e9edf2-1.jpg"
+    ],
+    "processedAt": "2026-03-19T19:20:15.366Z"
+  },
+  "title": {
+    "en": "COQ AU VIN",
+    "he": "קוק או וין"
+  },
+  "description": {
+    "en": "This Coq Au Vin recipe may be used for Passover.",
+    "he": "מתכון זה לקוק או וין יכול לשמש לפסח."
+  },
+  "ingredients": [
+    {
+      "en": "3 lbs chicken cut up",
+      "he": "3 ליברות עוף חתוך",
+      "item": "chicken cut up",
+      "amount": 3,
+      "unit": "lbs"
+    },
+    {
+      "en": "2 tbsps oil",
+      "he": "2 כפות שמן",
+      "item": "oil",
+      "amount": 2,
+      "unit": "tbsps"
+    },
+    {
+      "en": "8 small onions",
+      "he": "8 בצלים קטנים",
+      "item": "small onions",
+      "amount": 8
+    },
+    {
+      "en": "4 carrots cut into thirds",
+      "he": "4 גזרים חתוכים לשלישים",
+      "item": "carrots cut into thirds",
+      "amount": 4
+    },
+    {
+      "en": "4 scallions sliced",
+      "he": "4 בצלים ירוקים פרוסים",
+      "item": "scallions sliced",
+      "amount": 4
+    },
+    {
+      "en": "1 tsp salt",
+      "he": "1 כפית מלח",
+      "item": "salt",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "1 tsp pepper",
+      "he": "1 כפית פלפל",
+      "item": "pepper",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "2 cups dry white wine",
+      "he": "2 כוסות יין לבן יבש",
+      "item": "dry white wine",
+      "amount": 2,
+      "unit": "cups"
+    },
+    {
+      "en": "1 lb mushrooms",
+      "he": "1 ליברה פטריות",
+      "item": "mushrooms",
+      "amount": 1,
+      "unit": "lb"
+    },
+    {
+      "en": "2 tbsps potato starch or corn starch",
+      "he": "2 כפות קורנפלור או עמילן תפוחי אדמה",
+      "item": "potato starch or corn starch",
+      "amount": 2,
+      "unit": "tbsps"
+    },
+    {
+      "en": "2 tbsps water",
+      "he": "2 כפות מים",
+      "item": "water",
+      "amount": 2,
+      "unit": "tbsps"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Heat oil in Dutch Oven.",
+      "Add chicken & brown on all sides.",
+      "Remove chicken.",
+      "Pour off all but 2 tbsps oil.",
+      "Add vegetables, saute until onions brown.",
+      "Return chicken to pot.",
+      "Sprinkle in salt and pepper.",
+      "Pour in wine.",
+      "Simmer covered 25 min.",
+      "Add mushrooms, simmer covered for another 20 minutes.",
+      "Blend together potato starch and water.",
+      "Stir into liquid in pot and cook for another minute."
+    ],
+    "he": [
+      "לחמם שמן בסיר הולנדי (או סיר כבד).",
+      "להוסיף עוף ולהשחים מכל הצדדים.",
+      "להוציא את העוף.",
+      "לשפוך את כל השמן מלבד 2 כפות.",
+      "להוסיף ירקות, להקפיץ עד שהבצלים משחימים.",
+      "להחזיר את העוף לסיר.",
+      "לפזר מלח ופלפל.",
+      "למזוג יין.",
+      "לבשל על אש קטנה מכוסה 25 דקות.",
+      "להוסיף פטריות, לבשל על אש קטנה מכוסה לעוד 20 דקות.",
+      "לערבב יחד עמילן תפוחי אדמה ומים.",
+      "לערבב לתוך הנוזל בסיר ולבשל לעוד דקה."
+    ]
+  },
+  "tags": [
+    {
+      "en": "French",
+      "he": "צרפתי"
+    },
+    {
+      "en": "Main",
+      "he": "מנה עיקרית"
+    },
+    {
+      "en": "Passover",
+      "he": "פסח"
+    },
+    {
+      "en": "Meat",
+      "he": "בשרי"
+    }
+  ],
+  "illustration": "illustrations/a6668af9-88d0-4e0f-bf13-aca575e9edf2.webp",
+  "ocrRawText": "#3\nCOQ AU VIN (MAY BE USED FOR PASSOVER)\n3 lbs chicken cut up\n2 tbsps oil\n8 small onions\n4 carrots cut into thirds\n4 scallions sliced\n1 stp salt\n1 tsp pepper\n2 cups dry white wine\n1 lb mushrooms\n2 tbsps potato starch or corn starch\n2 tbsps water\nHeat oil in Dutch Oven. Add chicken & brown on\nall sides. Remove chicken. Pour off all but\n2 tbsps oil. Add vegetables, saute until\nonions brown. Return chicken to pot. Sprinkle\nin salt and pepper. Pour in wine. Simmer\ncovered 25 min. Add mushrooms, simmer covered\nfor another 20 minutes. Blend together potato\nstarch and water. Stir into liquid in pot\nand cook for another minute.",
+  "selectedModel": "gemini",
+  "rankingReason": "Gemini selected (only valid result). Claude returned no result"
+}

@@ -1,0 +1,170 @@
+{
+  "id": "86bb1b9f-bcc9-4185-b56b-c10fe1d5a167",
+  "slug": "honey-whole-wheat-challah-jeff-smith",
+  "source": {
+    "scanFiles": [
+      "scans/86bb1b9f-bcc9-4185-b56b-c10fe1d5a167-0.jpg",
+      "scans/86bb1b9f-bcc9-4185-b56b-c10fe1d5a167-1.jpg"
+    ],
+    "processedAt": "2026-03-19T19:09:31.963Z"
+  },
+  "title": {
+    "en": "Honey Whole Wheat Challah (Jeff Smith)",
+    "he": "חלת דבש מחיטה מלאה (ג'ף סמית')"
+  },
+  "description": {
+    "en": "This recipe is for Honey Whole Wheat Challah, attributed to Jeff Smith. It includes instructions for preparing the dough, braiding, and baking.",
+    "he": "מתכון זה מיועד לחלת דבש מחיטה מלאה, המיוחס לג'ף סמית'. הוא כולל הוראות להכנת הבצק, קליעה ואפייה."
+  },
+  "ingredients": [
+    {
+      "en": "2c Tap Water",
+      "he": "2 כוסות מים מהברז",
+      "item": "Tap Water",
+      "amount": 2,
+      "unit": "cup"
+    },
+    {
+      "en": "4 Envelopes Quick Rise Yeast",
+      "he": "4 שקיות שמרים יבשים מהירי פעולה",
+      "item": "Quick Rise Yeast",
+      "amount": 4,
+      "unit": "envelopes"
+    },
+    {
+      "en": "2 Tsp Kosher Salt",
+      "he": "2 כפיות מלח גס",
+      "item": "Kosher Salt",
+      "amount": 2,
+      "unit": "tsp"
+    },
+    {
+      "en": "2 Tbsp Brown Sugar",
+      "he": "2 כפות סוכר חום",
+      "item": "Brown Sugar",
+      "amount": 2,
+      "unit": "tbsp"
+    },
+    {
+      "en": "1 Egg & 1 yolk - beaten",
+      "he": "1 ביצה ו-1 חלמון - טרופים",
+      "item": "Egg & yolk (beaten)",
+      "amount": 1,
+      "unit": "egg"
+    },
+    {
+      "en": "1/3 c Oil (peanuts)",
+      "he": "1/3 כוס שמן (בוטנים)",
+      "item": "Oil (peanuts)",
+      "amount": 0.33,
+      "unit": "cup"
+    },
+    {
+      "en": "1/2 c Honey",
+      "he": "1/2 כוס דבש",
+      "item": "Honey",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "3c White Flour",
+      "he": "3 כוסות קמח לבן",
+      "item": "White Flour",
+      "amount": 3,
+      "unit": "cup"
+    },
+    {
+      "en": "3c Wheat Flour",
+      "he": "3 כוסות קמח חיטה מלאה",
+      "item": "Wheat Flour",
+      "amount": 3,
+      "unit": "cup"
+    },
+    {
+      "en": "Corn Meal",
+      "he": "קמח תירס",
+      "item": "Corn Meal",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "1 Egg (for Egg Wash)",
+      "he": "1 ביצה (לציפוי ביצה)",
+      "item": "Egg",
+      "amount": 1,
+      "unit": "egg"
+    },
+    {
+      "en": "1 Tbsp Honey (for Egg Wash)",
+      "he": "1 כף דבש (לציפוי ביצה)",
+      "item": "Honey",
+      "amount": 1,
+      "unit": "tbsp"
+    },
+    {
+      "en": "1 Tbsp Water (for Egg Wash)",
+      "he": "1 כף מים (לציפוי ביצה)",
+      "item": "Water",
+      "amount": 1,
+      "unit": "tbsp"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Water, yeast, salt, br. Sugar - Stir to dissolve",
+      "Add beaten egg + yolk, oil, honey - stir",
+      "Add 3c White Flour + 2c Wheat Flour - beat 10 min",
+      "Knead in remaining flour (both 1c wheat + 1c White)",
+      "Knead for 10 min",
+      "Put in bowl, cover & allow to rise until doubles in size",
+      "Punch down & allow to rise again",
+      "Punch down again, divide in half. Divide each half into thirds & braid. Sprinkle cornmeal on sheet pans and place one loaf on each",
+      "Allow to rise until doubles in size",
+      "Make Egg wash & spread on top (brush on)",
+      "Bake 1hr at 350°F (preheat oven)"
+    ],
+    "he": [
+      "מים, שמרים, מלח, סוכר חום - לערבב עד להמסה",
+      "להוסיף ביצה טרופה + חלמון, שמן, דבש - לערבב",
+      "להוסיף 3 כוסות קמח לבן + 2 כוסות קמח חיטה מלאה - ללוש 10 דקות",
+      "ללוש פנימה את הקמח הנותר (גם 1 כוס חיטה מלאה + 1 כוס לבן)",
+      "ללוש במשך 10 דקות",
+      "להניח בקערה, לכסות ולאפשר לתפוח עד להכפלת הנפח",
+      "להוריד את האוויר ולאפשר לתפוח שוב",
+      "להוריד את האוויר שוב, לחלק לחצי. כל חצי לחלק לשלישים ולקלוע. לפזר קמח תירס על תבניות אפייה ולהניח כיכר אחת על כל תבנית",
+      "לאפשר לתפוח עד להכפלת הנפח",
+      "להכין ציפוי ביצה ולמרוח מעל (להבריש)",
+      "לאפות שעה ב-350°F (לחמם תנור מראש)"
+    ]
+  },
+  "tags": [
+    {
+      "en": "Challah",
+      "he": "חלה"
+    },
+    {
+      "en": "Bread",
+      "he": "לחם"
+    },
+    {
+      "en": "Jewish",
+      "he": "יהודי"
+    },
+    {
+      "en": "Shabbat",
+      "he": "שבת"
+    },
+    {
+      "en": "Whole Wheat",
+      "he": "חיטה מלאה"
+    },
+    {
+      "en": "Baking",
+      "he": "אפייה"
+    }
+  ],
+  "illustration": "illustrations/86bb1b9f-bcc9-4185-b56b-c10fe1d5a167.webp",
+  "ocrRawText": "Honey Whole Wheat Challah (Jeff Smith)\n2c Tap Water\n4 Envelopes Quick Rise Yeast\n2 Tsp Kosher Salt\n2 Tbsp Brown Sugar\n1 Egg & 1 yolk - beaten\n1/3 c Oil (peanuts)\n1/2 c Honey\n3c White Flour\n3c Wheat Flour\nCorn Meal\nEgg Wash-mix\n1 Egg\n1 Tbsp Honey\n1 Tbsp Water\n\n① Water, yeast, salt, br. Sugar - Stir to dissolve\n② Add beaten egg + yolk, oil, honey - stir\n③ Add 3c White Flour + 2c Wheat Flour - beat 10 min\n④ Knead in remaining flour (both 1c wheat + 1c White)\n⑤ Knead for 10 min\n⑥ Put in bowl, cover & allow to rise until doubles in size\n⑦ Punch down & allow to rise again\n⑧ Punch down again, divide in half. Divide each half into\nthirds & braid. Sprinkle cornmeal on sheet pans and\nplace one loaf on each\n⑨ Allow to rise until doubles in size\n⑩ Make Egg wash & spread on top (brush on)\n⑪ Bake 1hr at 350°F (preheat oven)",
+  "selectedModel": "gemini",
+  "rankingReason": "Gemini selected (only valid result). Claude returned no result"
+}

@@ -1,0 +1,113 @@
+{
+  "id": "e3f67e32-ee09-419b-9a68-6ed278978b6d",
+  "slug": "cinnamon-swirls-david",
+  "source": {
+    "scanFiles": [
+      "scans/e3f67e32-ee09-419b-9a68-6ed278978b6d-0.jpg"
+    ],
+    "processedAt": "2026-03-19T19:10:15.903Z"
+  },
+  "title": {
+    "en": "Cinnamon Swirls (David)",
+    "he": "ספירלות קינמון (דוד)"
+  },
+  "description": {
+    "en": "Small cinnamon-coated cookie swirls, rolled into rope shapes and wound into spirals. A simple oil-based dough baked at high heat.",
+    "he": "עוגיות ספירלה קטנות מצופות קינמון, מגולגלות לצורת חבל ומסולסלות לספירלות. בצק פשוט על בסיס שמן הנאפה בחום גבוה."
+  },
+  "ingredients": [
+    {
+      "en": "1/2 cup oil",
+      "he": "1/2 כוס שמן",
+      "item": "oil",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "2 eggs",
+      "he": "2 ביצים",
+      "item": "eggs",
+      "amount": 2,
+      "unit": "whole"
+    },
+    {
+      "en": "1/2 tsp vanilla",
+      "he": "1/2 כפית וניל",
+      "item": "vanilla",
+      "amount": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "en": "1/4 cup + 2 Tbsp sugar",
+      "he": "1/4 כוס + 2 כפות סוכר",
+      "item": "sugar",
+      "amount": 0.375,
+      "unit": "cup"
+    },
+    {
+      "en": "1 tsp baking powder",
+      "he": "1 כפית אבקת אפייה",
+      "item": "baking powder",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "1 1/2 - 2 cups flour",
+      "he": "1.5 - 2 כוסות קמח",
+      "item": "flour",
+      "amount": 1.5,
+      "unit": "cup"
+    },
+    {
+      "en": "Cinnamon for coating",
+      "he": "קינמון לציפוי",
+      "item": "cinnamon"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Mix all ingredients except flour.",
+      "Add 1 1/2 cups flour. Mix in additional flour to make a soft dough that doesn't stick to your hands.",
+      "Do NOT add too much flour as the dough will become oily and difficult to work with.",
+      "Make small balls about the size of a walnut.",
+      "Dip balls in cinnamon and roll into a rope.",
+      "Wind rope around itself.",
+      "Bake on ungreased cookie sheet for 10 minutes at 400°F."
+    ],
+    "he": [
+      "לערבב את כל המרכיבים חוץ מהקמח.",
+      "להוסיף 1.5 כוסות קמח. להוסיף קמח נוסף עד לקבלת בצק רך שלא נדבק לידיים.",
+      "לא להוסיף יותר מדי קמח כי הבצק יהפוך שמנוני וקשה לעיבוד.",
+      "ליצור כדורים קטנים בגודל של אגוז מלך.",
+      "לטבול את הכדורים בקינמון ולגלגל לצורת חבל.",
+      "לסלסל את החבל סביב עצמו.",
+      "לאפות על תבנית עוגיות לא משומנת למשך 10 דקות ב-200°C (400°F)."
+    ]
+  },
+  "tags": [
+    {
+      "en": "cookies",
+      "he": "עוגיות"
+    },
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "cinnamon",
+      "he": "קינמון"
+    },
+    {
+      "en": "pareve",
+      "he": "פרווה"
+    },
+    {
+      "en": "baking",
+      "he": "אפייה"
+    }
+  ],
+  "illustration": "illustrations/e3f67e32-ee09-419b-9a68-6ed278978b6d.webp",
+  "ocrRawText": "Swirls @ (David)\n1/2 C Oil\t\t1/4 c + 2 Tbsp Sugar\n2 Eggs\t\t\t1 Tsp Baking Powder\n1/2 Tsp Vanilla\t\t1 1/2 - 2 c Flour\nMix all ingredients except flour. Add 1 1/2 c flour. Mix in\nadditional flour to make a soft dough that doesn't stick\nto your hands. DoNOT add too much flour as the dough will\nbecome oily & difficult to work with. Make small balls\nabout the size of a walnut. Dip balls in cinamon and roll\ninto a rope. Wind rope around itself @. Bake on\nungreased cookie sheet for 10min at 400°F",
+  "selectedModel": "claude",
+  "rankingReason": "Result B is more complete and accurate. It explicitly includes cinnamon as an ingredient (critical for the recipe), correctly converts the sugar amount to 0.375 cup, and provides more consistent unit formatting. The Hebrew instructions use proper imperative form (infinitives with 'le-' prefix) which is more natural for recipe instructions. Result A has incomplete ingredient data with null amounts for sugar and flour, and misses cinnamon entirely as a listed ingredient despite it being essential to the recipe. Both have similar OCR quality and translation quality overall, but B's ingredient completeness and unit standardization make it the better extraction."
+}

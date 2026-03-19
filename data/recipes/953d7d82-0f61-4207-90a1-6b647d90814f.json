@@ -1,0 +1,168 @@
+{
+  "id": "953d7d82-0f61-4207-90a1-6b647d90814f",
+  "slug": "pad-thai",
+  "source": {
+    "scanFiles": [
+      "scans/953d7d82-0f61-4207-90a1-6b647d90814f-0.jpg"
+    ],
+    "processedAt": "2026-03-19T19:27:24.018Z"
+  },
+  "title": {
+    "en": "Pad Thai",
+    "he": "פאד תאי"
+  },
+  "description": {
+    "en": "A classic Thai stir-fried rice noodle dish with bean sprouts, eggs, peanuts, and scallions in a savory-sweet sauce.",
+    "he": "מנת אטריות אורז מוקפצות תאילנדית קלאסית עם נבטי שעועית, ביצים, בוטנים ובצל ירוק ברוטב מתקתק-מלוח."
+  },
+  "ingredients": [
+    {
+      "en": "2 quarts water",
+      "he": "2 ליטר מים",
+      "item": "water",
+      "amount": 2,
+      "unit": "quarts"
+    },
+    {
+      "en": "3/4 lb bean sprouts",
+      "he": "340 גרם נבטי שעועית",
+      "item": "bean sprouts",
+      "amount": 0.75,
+      "unit": "lb"
+    },
+    {
+      "en": "6 oz rice noodles",
+      "he": "170 גרם אטריות אורז",
+      "item": "rice noodles",
+      "amount": 6,
+      "unit": "oz"
+    },
+    {
+      "en": "3 tbsp fresh lime juice",
+      "he": "3 כפות מיץ ליים טרי",
+      "item": "fresh lime juice",
+      "amount": 3,
+      "unit": "tbsp"
+    },
+    {
+      "en": "3 tbsp ketchup",
+      "he": "3 כפות קטשופ",
+      "item": "ketchup",
+      "amount": 3,
+      "unit": "tbsp"
+    },
+    {
+      "en": "1 tbsp brown sugar",
+      "he": "1 כף סוכר חום",
+      "item": "brown sugar",
+      "amount": 1,
+      "unit": "tbsp"
+    },
+    {
+      "en": "1/4 cup soy sauce",
+      "he": "1/4 כוס רוטב סויה",
+      "item": "soy sauce",
+      "amount": 0.25,
+      "unit": "cup"
+    },
+    {
+      "en": "3 tbsp peanut or vegetable oil",
+      "he": "3 כפות שמן בוטנים או שמן צמחי",
+      "item": "peanut or vegetable oil",
+      "amount": 3,
+      "unit": "tbsp"
+    },
+    {
+      "en": "3-4 garlic cloves - minced",
+      "he": "3-4 שיני שום - קצוצות",
+      "item": "garlic cloves",
+      "amount": 3,
+      "unit": "piece"
+    },
+    {
+      "en": "2 cups grated carrots",
+      "he": "2 כוסות גזר מגורר",
+      "item": "grated carrots",
+      "amount": 2,
+      "unit": "cups"
+    },
+    {
+      "en": "4 large eggs - slightly beaten",
+      "he": "4 ביצים גדולות - טרופות קלות",
+      "item": "eggs",
+      "amount": 4,
+      "unit": "large"
+    },
+    {
+      "en": "pinch salt",
+      "he": "קמצוץ מלח",
+      "item": "salt",
+      "amount": 1,
+      "unit": "pinch"
+    },
+    {
+      "en": "2/3 cups chopped peanuts",
+      "he": "2/3 כוס בוטנים קצוצים",
+      "item": "chopped peanuts",
+      "amount": 0.67,
+      "unit": "cups"
+    },
+    {
+      "en": "6-8 scallions - chopped",
+      "he": "6-8 בצל ירוק - קצוץ",
+      "item": "scallions",
+      "amount": 6,
+      "unit": "piece"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Do prep work first.",
+      "Mix the sauce ingredients together in a small bowl: fresh lime juice, ketchup, brown sugar, and soy sauce.",
+      "Bring water to a rolling boil in a covered pot. Blanch bean sprouts - place them into a strainer and dip into boiling water for 30 seconds. Drain well.",
+      "Reboil water and stir in rice noodles. Cook for 3-5 minutes. Drain and rinse under cool water - cool and drain.",
+      "Prepare remaining ingredients and have them near before you begin to stir fry.",
+      "Put the oil in a wok or skillet. Add garlic then stir in carrots. Stir fry for 1 minute. Push carrots to the side and make them hollow in the center.",
+      "Pour beaten eggs into center and scramble them. When eggs have just set, pour in the sauce and stir everything together.",
+      "Add the rice noodles and bean sprouts. Toss.",
+      "Stir in peanuts and scallions."
+    ],
+    "he": [
+      "הכינו את כל ההכנות מראש.",
+      "ערבבו את מרכיבי הרוטב יחד בקערה קטנה: מיץ ליים טרי, קטשופ, סוכר חום ורוטב סויה.",
+      "הביאו מים לרתיחה סוערת בסיר מכוסה. חלטו את נבטי השעועית - הניחו אותם במסננת וטבלו במים הרותחים למשך 30 שניות. סננו היטב.",
+      "הרתיחו שוב את המים והוסיפו את אטריות האורז. בשלו 3-5 דקות. סננו ושטפו תחת מים קרים - קררו וסננו.",
+      "הכינו את שאר המרכיבים והניחו אותם בקרבת מקום לפני שמתחילים לטגן בחיתוך.",
+      "שימו את השמן בווק או במחבת. הוסיפו שום ואז ערבבו את הגזר. טגנו בחיתוך דקה אחת. דחפו את הגזר לצד ופנו מקום במרכז.",
+      "שפכו את הביצים הטרופות למרכז וטרפו אותן. כשהביצים רק נקרשו, שפכו את הרוטב וערבבו הכל יחד.",
+      "הוסיפו את אטריות האורז ונבטי השעועית. ערבבו.",
+      "הוסיפו את הבוטנים והבצל הירוק וערבבו."
+    ]
+  },
+  "tags": [
+    {
+      "en": "Thai",
+      "he": "תאילנדי"
+    },
+    {
+      "en": "main",
+      "he": "מנה עיקרית"
+    },
+    {
+      "en": "stir fry",
+      "he": "מוקפץ"
+    },
+    {
+      "en": "noodles",
+      "he": "אטריות"
+    },
+    {
+      "en": "pareve",
+      "he": "פרווה"
+    }
+  ],
+  "illustration": "illustrations/953d7d82-0f61-4207-90a1-6b647d90814f.webp",
+  "ocrRawText": "Pad Thai\n\nDo prep work first.\n\n2 quarts water\n3/4 lb bean sprouts\n6 ozs. rice noodles\n\nsauce\n3 tbsp. fresh lime juice\n3 tbsp. ketchup\n1 tbsp. brown sugar\n1/4 cup soy sauce\n\n3 tbsp. peanut or vegetable oil\n3-4 garlic cloves - minced\n2 cups grated carrots\n4 large eggs - slightly beaten\npinch salt\n2/3 cups chopped peanuts\n6-8 scallions - chopped\n\nBring water to a rolling boil in a covered pot. Blanch bean sprouts - place\nthem into a strainer and dip into boiling water for 30 seconds. Drain well.\nReboil water and stir in rice noodles. Cool for 3-5 minutes. Drain and rinse\nunder cool water - cool and drain.\n\nMix the sauce ingredients together in a small bowl.\n\nPrepare remaining ingredients and have them near before you begin to stir fry.\nPut the oil in a wok or skillet. Add garlic then stir in carrots. Stir fry for 1\nminute. Push carrots to the side and make them hollow in the center. Pour\nbeaten eggs into center and scramble them. When eggs have just set, pour in\nthe sauce and stir everything together. Add the rice noodles and bean sprouts.\nToss. Stir in peanuts and scallions.",
+  "selectedModel": "claude",
+  "rankingReason": "Claude selected (only valid result). Gemini result failed validation: ingredients.8.amount: Expected number, received string; ingredients.11.amount: Expected number, received string; ingredients.13.amount: Expected number, received string"
+}

@@ -1,0 +1,147 @@
+{
+  "id": "24f94380-92db-4e13-976f-c368f21b390f",
+  "slug": "jelly-rolls-or-hamantaschen",
+  "source": {
+    "scanFiles": [
+      "scans/24f94380-92db-4e13-976f-c368f21b390f-0.jpg",
+      "scans/24f94380-92db-4e13-976f-c368f21b390f-1.jpg",
+      "scans/24f94380-92db-4e13-976f-c368f21b390f-2.jpg"
+    ],
+    "processedAt": "2026-03-19T19:27:21.475Z"
+  },
+  "title": {
+    "en": "Jelly Rolls, or Hamantaschen",
+    "he": "רולדות ריבה, או אוזני המן"
+  },
+  "description": {
+    "en": "A recipe for Jelly Rolls or Hamantaschen, possibly a double batch. The recipe involves making a dough, chilling it, rolling it out, filling it, and baking. Note: The ingredient \"juice\" is mentioned in the instructions but not listed in the ingredients. Also, \"3 lbs of\" is listed without an item, its purpose is unclear.",
+    "he": "מתכון לרולדות ריבה או אוזני המן, ייתכן שמדובר במנה כפולה. המתכון כולל הכנת בצק, קירורו, רידודו, מילוי ואפייה. הערה: המרכיב \"מיץ\" מוזכר בהוראות אך אינו מופיע ברשימת המרכיבים. כמו כן, \"3 ליברות של\" מופיע ללא פריט, מטרתו אינה ברורה."
+  },
+  "ingredients": [
+    {
+      "en": "1/2 cup oil",
+      "he": "1/2 כוס שמן",
+      "item": "oil",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1/2 cup sugar",
+      "he": "1/2 כוס סוכר",
+      "item": "sugar",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1 teaspoon vanilla",
+      "he": "1 כפית תמצית וניל",
+      "item": "vanilla",
+      "amount": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "en": "3 eggs",
+      "he": "3 ביצים",
+      "item": "eggs",
+      "amount": 3,
+      "unit": null
+    },
+    {
+      "en": "1 pinch salt",
+      "he": "קורט מלח",
+      "item": "salt",
+      "amount": 1,
+      "unit": "pinch"
+    },
+    {
+      "en": "2 1/2 teaspoons baking powder",
+      "he": "2.5 כפיות אבקת אפייה",
+      "item": "baking powder",
+      "amount": 2.5,
+      "unit": "teaspoon"
+    },
+    {
+      "en": "Flour (for dough and dusting)",
+      "he": "קמח (לבצק ולאיבוק)",
+      "item": "flour",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "Jam or nuts (for filling)",
+      "he": "ריבה או אגוזים (למילוי)",
+      "item": "jam or nuts",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "Cooking spray (e.g., Pam)",
+      "he": "תרסיס שמן (למשל, פאם)",
+      "item": "cooking spray",
+      "amount": null,
+      "unit": null
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Mix together oil & sugar.",
+      "Add juice, eggs & vanilla.",
+      "Add flour mixture.",
+      "Mix well.",
+      "Divide in small sections.",
+      "Add 1 cup [flour] as needed.",
+      "After mixing ingredients, sprinkle flour on top of the dough and put in freezer for 10 minutes.",
+      "Flour board and work with 1/3 of dough.",
+      "Work flour in. (Knead)",
+      "Put on plate.",
+      "Flour on top & put in freezer again for 20 min.",
+      "Roll out the dough (without splitting it beforehand).",
+      "Fill with jam or nuts.",
+      "Cover & press with a fork & pinch ends together.",
+      "With spatula, flip the seam side down on a flatter pan.",
+      "Spray pan with Pam.",
+      "Bake 400° until top is brown or 15 min."
+    ],
+    "he": [
+      "ערבבו יחד שמן וסוכר.",
+      "הוסיפו מיץ, ביצים ותמצית וניל.",
+      "הוסיפו את תערובת הקמח.",
+      "ערבבו היטב.",
+      "חלקו למקטעים קטנים.",
+      "הוסיפו כוס קמח לפי הצורך.",
+      "לאחר ערבוב המרכיבים, פזרו קמח מעל הבצק והכניסו למקפיא ל-10 דקות.",
+      "קמחו משטח עבודה ועבדו עם שליש מהבצק.",
+      "עבדו את הקמח פנימה (לושו).",
+      "הניחו על צלחת.",
+      "פזרו קמח מעל והכניסו למקפיא שוב ל-20 דקות.",
+      "רדדו את הבצק (מבלי לחלק אותו מראש).",
+      "מלאו בריבה או אגוזים.",
+      "כסו ולחצו עם מזלג וצבטו את הקצוות יחד.",
+      "בעזרת מרית, הפכו את התפר כלפי מטה על תבנית שטוחה יותר.",
+      "רססו את התבנית בתרסיס שמן (פאם).",
+      "אפו ב-400° פרנהייט עד שהחלק העליון משחים או למשך 15 דקות."
+    ]
+  },
+  "tags": [
+    {
+      "en": "Dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "Jewish",
+      "he": "יהודי"
+    },
+    {
+      "en": "Holiday",
+      "he": "חג"
+    },
+    {
+      "en": "Baking",
+      "he": "אפייה"
+    }
+  ],
+  "illustration": "illustrations/24f94380-92db-4e13-976f-c368f21b390f.webp",
+  "ocrRawText": "Jelly Rolls, or\nHamantaschen\nDouble\n1/2 C oil\n1/2 C sugar\n1 tsp vanilla\n3 lbs of\n3 eggs\n1 pinch salt\n2 1/2 tsp Bk. Pwdr\npack lightly flour\nsalt & baking\nPowder\n\nMix together oil &\nsugar, add\njuice, eggs &\nvanilla.\nAdd flour mixture\n\nMix well.\nDivide in\nsmall sections\nadd 1 cup as\nneeded.\n\nSifter mixture\ningredients sprinkle\nflour on top &\nput in freezer\nfor 10 minutes\n\nFlour board & spoon\non 1/3 of dough\nWork flour in.\n(Knead) Put on\nplate. Flour on\ntop & put in\nfreezer again for\n20 min.\n\nBake without split\nup in work\ndough (roll out)\nfill with jam or\nnuts. Cover & press\nwith a fork &\npinch ends\ntogether.\nWith spatula\nflip seam on\nflatter pan\nSpray pan with\nPam.\nBake 400° until\ntop is brown\nor 15 min.",
+  "selectedModel": "gemini",
+  "rankingReason": "Gemini selected (only valid result). Claude returned no result"
+}

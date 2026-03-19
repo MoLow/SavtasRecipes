@@ -1,0 +1,115 @@
+{
+  "id": "c5e51f56-5645-4138-b40c-599b03b3f976",
+  "slug": "mushroom-barley",
+  "source": {
+    "scanFiles": [
+      "scans/c5e51f56-5645-4138-b40c-599b03b3f976-0.jpg"
+    ],
+    "processedAt": "2026-03-19T19:19:15.333Z"
+  },
+  "title": {
+    "en": "Mushroom Barley",
+    "he": "שעורה עם פטריות"
+  },
+  "description": {
+    "en": "A hearty mushroom barley soup or stew with onions, celery, and carrots, cooked for a long time",
+    "he": "מרק או תבשיל שעורה עם פטריות, בצל, סלרי וגזר, מבושל לאורך זמן רב"
+  },
+  "ingredients": [
+    {
+      "en": "Mushrooms",
+      "he": "פטריות",
+      "item": "mushrooms"
+    },
+    {
+      "en": "3 onions - quartered",
+      "he": "3 בצלים - רבועים",
+      "item": "onions",
+      "amount": 3,
+      "unit": "whole"
+    },
+    {
+      "en": "3 stalks celery - diced",
+      "he": "3 גבעולי סלרי - חתוכים לקוביות",
+      "item": "celery",
+      "amount": 3,
+      "unit": "stalks"
+    },
+    {
+      "en": "Carrots - sliced",
+      "he": "גזר - פרוס",
+      "item": "carrots"
+    },
+    {
+      "en": "1 pkg dried mushrooms",
+      "he": "1 חבילת פטריות מיובשות",
+      "item": "dried mushrooms",
+      "amount": 1,
+      "unit": "pkg"
+    },
+    {
+      "en": "2-3 cups barley",
+      "he": "2-3 כוסות שעורה",
+      "item": "barley",
+      "amount": 2,
+      "unit": "cups"
+    },
+    {
+      "en": "3 bean cans",
+      "he": "3 קופסאות שעועית",
+      "item": "bean cans",
+      "amount": 3,
+      "unit": "cans"
+    },
+    {
+      "en": "Mushroom broth",
+      "he": "ציר פטריות",
+      "item": "mushroom broth"
+    },
+    {
+      "en": "A lot of pepper",
+      "he": "הרבה פלפל",
+      "item": "pepper"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Step 1: Quarter the onions, dice the celery, and slice the carrots.",
+      "Step 2: Combine mushrooms, onions, celery, carrots, dried mushrooms, barley, beans, and mushroom broth.",
+      "Step 3: Add a lot of pepper.",
+      "Step 4: Cook for a long time."
+    ],
+    "he": [
+      "שלב 1: לחתוך את הבצלים לרבעים, את הסלרי לקוביות ואת הגזר לפרוסות.",
+      "שלב 2: לשלב פטריות, בצל, סלרי, גזר, פטריות מיובשות, שעורה, שעועית וציר פטריות.",
+      "שלב 3: להוסיף הרבה פלפל.",
+      "שלב 4: לבשל במשך זמן רב."
+    ]
+  },
+  "tags": [
+    {
+      "en": "soup",
+      "he": "מרק"
+    },
+    {
+      "en": "vegetarian",
+      "he": "צמחוני"
+    },
+    {
+      "en": "pareve",
+      "he": "פרווה"
+    },
+    {
+      "en": "ashkenazi",
+      "he": "אשכנזי"
+    },
+    {
+      "en": "shabbat",
+      "he": "שבת"
+    }
+  ],
+  "illustration": "illustrations/c5e51f56-5645-4138-b40c-599b03b3f976.webp",
+  "ocrRawText": "Mushroom - Barley\n3 onions - quartered\n3 stalks celery diced\nCarrots - sliced\n1 pkg dried mushrooms\n2-3 c barley\n3 bean cans\nMushroom broth\nA lot of pepper\nboil a long time",
+  "selectedModel": "claude",
+  "rankingReason": "Claude selected (only valid result). Gemini result failed validation: ingredients.3.amount: Expected number, received string; ingredients.4.amount: Expected number, received string"
+}

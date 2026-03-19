@@ -1,0 +1,122 @@
+{
+  "id": "c7f12420-662f-43bd-bad1-86ccad1ce6b9",
+  "slug": "nut-filled-cupcakes",
+  "source": {
+    "scanFiles": [
+      "scans/c7f12420-662f-43bd-bad1-86ccad1ce6b9-0.jpg",
+      "scans/c7f12420-662f-43bd-bad1-86ccad1ce6b9-1.jpg"
+    ],
+    "processedAt": "2026-03-19T19:15:45.437Z"
+  },
+  "title": {
+    "en": "Nut-Filled Cupcakes",
+    "he": "קאפקייקס במילוי אגוזים"
+  },
+  "description": {
+    "en": "A recipe for nut-filled cupcakes, featuring a cream cheese dough that is partially baked and then filled with a sweet brown sugar and walnut mixture, baked again, and finished with powdered sugar.",
+    "he": "מתכון לקאפקייקס במילוי אגוזים, הכולל בצק גבינת שמנת הנאפה חלקית, ממולא בתערובת מתוקה של סוכר חום ואגוזי מלך, נאפה שוב ומסתיים בפיזור אבקת סוכר."
+  },
+  "ingredients": [
+    {
+      "en": "2/16 margarine",
+      "he": "2/16 מרגרינה",
+      "item": "margarine"
+    },
+    {
+      "en": "1 cup flour",
+      "he": "1 כוס קמח",
+      "item": "flour",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "3 oz. Cream cheese",
+      "he": "3 אונקיות גבינת שמנת",
+      "item": "cream cheese",
+      "amount": 3,
+      "unit": "oz"
+    },
+    {
+      "en": "¾ cup brown sugar",
+      "he": "¾ כוס סוכר חום",
+      "item": "brown sugar",
+      "amount": 0.75,
+      "unit": "cup"
+    },
+    {
+      "en": "1 egg",
+      "he": "1 ביצה",
+      "item": "egg",
+      "amount": 1
+    },
+    {
+      "en": "1 Tblspn. Margarine or butter",
+      "he": "1 כף מרגרינה או חמאה",
+      "item": "margarine or butter",
+      "amount": 1,
+      "unit": "Tblspn"
+    },
+    {
+      "en": "1 cup chopped nuts (walnuts)",
+      "he": "1 כוס אגוזים קצוצים (אגוזי מלך)",
+      "item": "chopped nuts",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "½ tsp vanilla",
+      "he": "½ כפית וניל",
+      "item": "vanilla",
+      "amount": 0.5,
+      "unit": "tsp"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "For the dough: Mix 2/16 margarine, 1 cup flour, and 3 oz cream cheese together.",
+      "Place 24 balls of dough into small muffin tins.",
+      "Spread sides making a small cup.",
+      "Bake until well.",
+      "For the filling: Mix ¾ cup brown sugar, 1 egg, 1 Tblspn margarine or butter, 1 cup chopped nuts (walnuts), and ½ tsp vanilla all together.",
+      "Put 1 Tblsp. of filling mixture into each muffin tin.",
+      "Bake at 375°F for 20-25 minutes or until the edge is golden brown.",
+      "Sprinkle with powdered sugar."
+    ],
+    "he": [
+      "לבצק: מערבבים יחד 2/16 מרגרינה, 1 כוס קמח ו-3 אונקיות גבינת שמנת.",
+      "מניחים 24 כדורי בצק בתבניות מאפינס קטנות.",
+      "משטחים את הצדדים ליצירת גביע קטן.",
+      "אופים עד שמוכן היטב.",
+      "למילוי: מערבבים יחד ¾ כוס סוכר חום, 1 ביצה, 1 כף מרגרינה או חמאה, 1 כוס אגוזים קצוצים (אגוזי מלך) ו-½ כפית וניל.",
+      "מניחים כף אחת מתערובת המילוי בכל שקע מאפינס.",
+      "אופים בחום של 375°F (כ-190°C) למשך 20-25 דקות או עד שהשוליים מזהיבים.",
+      "מפזרים אבקת סוכר."
+    ]
+  },
+  "tags": [
+    {
+      "en": "Dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "Baked Goods",
+      "he": "מאפים"
+    },
+    {
+      "en": "Dairy",
+      "he": "חלבי"
+    },
+    {
+      "en": "Nuts",
+      "he": "אגוזים"
+    },
+    {
+      "en": "Cupcakes",
+      "he": "קאפקייקס"
+    }
+  ],
+  "illustration": "illustrations/c7f12420-662f-43bd-bad1-86ccad1ce6b9.webp",
+  "ocrRawText": "Nut-Filled Cupcakes recipe\n2/16. margarine\n1 cup flour\n3 oz. Cream cheese\nMix a have together. Place 24 balls\nof dough into small muffin\ntins. Spread sides making\na small cup. BAKE until\nwell.\nFilling\n¾ cup brown sugar\n1 egg\n1 Tblspn. Margarine or butter\n1 cup chopped nuts (walnuts)\n½ tsp vanilla\nMix all together. Put 1 Tblsp. of mixture\ninto each muffin tin. Bake\nat 375° for 20-25 min or\nuntil edge is golden brown. Sprinkle with powdered\nsugar.",
+  "selectedModel": "gemini",
+  "rankingReason": "Gemini selected (only valid result). Claude returned no result"
+}

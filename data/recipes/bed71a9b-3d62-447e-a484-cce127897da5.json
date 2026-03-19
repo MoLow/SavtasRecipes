@@ -1,0 +1,122 @@
+{
+  "id": "bed71a9b-3d62-447e-a484-cce127897da5",
+  "slug": "namis-noodle-pudding",
+  "source": {
+    "scanFiles": [
+      "scans/bed71a9b-3d62-447e-a484-cce127897da5-0.jpg"
+    ],
+    "processedAt": "2026-03-19T19:20:54.449Z"
+  },
+  "title": {
+    "en": "Nami's Noodle Pudding",
+    "he": "קוגל אטריות של נאמי"
+  },
+  "description": {
+    "en": "A classic noodle pudding (kugel) made with broad noodles soaked overnight in buttermilk, cottage cheese, sour cream, and eggs, baked until golden.",
+    "he": "קוגל אטריות קלאסי מאטריות רחבות שנשרו לילה בחלב חמאה, גבינת קוטג', שמנת חמוצה וביצים, אפוי עד להזהבה."
+  },
+  "ingredients": [
+    {
+      "en": "2 pkgs broad noodles",
+      "he": "2 חבילות אטריות רחבות",
+      "item": "broad noodles",
+      "amount": 2,
+      "unit": "pkg"
+    },
+    {
+      "en": "1 quart buttermilk",
+      "he": "1 ליטר חלב חמאה",
+      "item": "buttermilk",
+      "amount": 1,
+      "unit": "quart"
+    },
+    {
+      "en": "1 lb carton 2% cottage cheese",
+      "he": "חבילת 450 גרם גבינת קוטג' 2%",
+      "item": "cottage cheese",
+      "amount": 1,
+      "unit": "lb"
+    },
+    {
+      "en": "7 eggs, beaten",
+      "he": "7 ביצים, טרופות",
+      "item": "eggs",
+      "amount": 7,
+      "unit": "piece"
+    },
+    {
+      "en": "1 pt sour cream",
+      "he": "1 כוס שמנת חמוצה (חצי ליטר)",
+      "item": "sour cream",
+      "amount": 1,
+      "unit": "pint"
+    },
+    {
+      "en": "1/2 tsp vanilla",
+      "he": "1/2 כפית תמצית וניל",
+      "item": "vanilla",
+      "amount": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "en": "1/4 lb butter",
+      "he": "115 גרם חמאה",
+      "item": "butter",
+      "amount": 0.25,
+      "unit": "lb"
+    },
+    {
+      "en": "1 cup of sugar or less",
+      "he": "1 כוס סוכר או פחות",
+      "item": "sugar",
+      "amount": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Step 1: Drain the broad noodles and soak them overnight in 1 quart of buttermilk.",
+      "Step 2: Mix in 1 lb carton of 2% cottage cheese, 7 beaten eggs, 1 pint sour cream, 1/2 tsp vanilla, 1/4 lb butter, and 1 cup of sugar (or less to taste).",
+      "Step 3: Bake for 1 1/2 hours at 350°F."
+    ],
+    "he": [
+      "שלב 1: סננו את האטריות הרחבות והשרו אותן לילה ב-1 ליטר חלב חמאה.",
+      "שלב 2: ערבבו עם חבילת גבינת קוטג' 2%, 7 ביצים טרופות, חצי ליטר שמנת חמוצה, 1/2 כפית וניל, 115 גרם חמאה וכוס סוכר (או פחות לפי הטעם).",
+      "שלב 3: אפו במשך שעה וחצי בחום 175 מעלות צלזיוס (350°F)."
+    ]
+  },
+  "tags": [
+    {
+      "en": "kugel",
+      "he": "קוגל"
+    },
+    {
+      "en": "ashkenazi",
+      "he": "אשכנזי"
+    },
+    {
+      "en": "dairy",
+      "he": "חלבי"
+    },
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "shabbat",
+      "he": "שבת"
+    },
+    {
+      "en": "holiday",
+      "he": "חג"
+    },
+    {
+      "en": "baked",
+      "he": "אפייה"
+    }
+  ],
+  "illustration": "illustrations/bed71a9b-3d62-447e-a484-cce127897da5.webp",
+  "ocrRawText": "Nami's\n2 pkgs Broad Noodles   Noodle Pudding\nDrain + soak overnight in 1 quart of\nButtermilk\n1 lb Carton 2% Cottage Cheese\n7 eggs Beaten\n1 pt Sour Cream\n1/2 tsp Vanilla - 1/4 lb Butter\n1 cup of sugar or less\nbake for 1 1/2 hrs - 350°",
+  "selectedModel": "claude",
+  "rankingReason": "Result B is more accurate and complete. It correctly identifies 7 eggs and 2 pkgs broad noodles from the OCR text, while Result A incorrectly shows 4 eggs and generic 'Bread Noodles'. Result B's OCR raw text is more faithful to the original document layout. The recipe makes more sense with 7 eggs for binding such a large quantity of noodles. Result B also includes the proper Yiddish/Hebrew term 'kugel' which is the correct dish name, adds helpful tags (shabbat, holiday, baked), and provides more detailed numbered instructions. The Hebrew translations in B are more natural and include helpful conversions (grams for metric users). Result A's mention of 'JAPAN' in the OCR raw text is clearly a misreading that B correctly omitted."
+}

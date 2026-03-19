@@ -1,0 +1,109 @@
+{
+  "id": "e9a2c805-b7d2-4318-8333-84fbb1c7b7cd",
+  "slug": "moms-apple-cake",
+  "source": {
+    "scanFiles": [
+      "scans/e9a2c805-b7d2-4318-8333-84fbb1c7b7cd-0.jpg"
+    ],
+    "processedAt": "2026-03-19T19:13:54.903Z"
+  },
+  "title": {
+    "en": "Mom's Apple Cake",
+    "he": "עוגת תפוחים של אמא"
+  },
+  "description": {
+    "en": "A classic homemade apple cake with vanilla and sliced apples, baked at 350 degrees. A simple family recipe passed down from mom.",
+    "he": "עוגת תפוחים קלאסית ביתית עם וניל ותפוחים פרוסים, נאפית ב-350 מעלות. מתכון משפחתי פשוט שעבר מאמא."
+  },
+  "ingredients": [
+    {
+      "en": "3 eggs",
+      "he": "3 ביצים",
+      "item": "eggs",
+      "amount": 3,
+      "unit": "piece"
+    },
+    {
+      "en": "1 cup sugar",
+      "he": "1 כוס סוכר",
+      "item": "sugar",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1/4 cup oil",
+      "he": "1/4 כוס שמן",
+      "item": "oil",
+      "amount": 0.25,
+      "unit": "cup"
+    },
+    {
+      "en": "1 1/3 cup flour",
+      "he": "1 1/3 כוס קמח",
+      "item": "flour",
+      "amount": 1.33,
+      "unit": "cup"
+    },
+    {
+      "en": "1 tsp baking powder",
+      "he": "1 כפית אבקת אפייה",
+      "item": "baking powder",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "Vanilla",
+      "he": "וניל",
+      "item": "vanilla"
+    },
+    {
+      "en": "Sliced apples",
+      "he": "תפוחים פרוסים",
+      "item": "apples"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Step 1: Mix 3 eggs, 1 cup sugar, 1/4 cup oil, 1 1/3 cup flour, 1 tsp baking powder, and vanilla together.",
+      "Step 2: Slice apples and mix them into the batter.",
+      "Step 3: Pour into a baking pan.",
+      "Step 4: Bake at 350 degrees until the top is brown."
+    ],
+    "he": [
+      "שלב 1: לערבב 3 ביצים, 1 כוס סוכר, 1/4 כוס שמן, 1 1/3 כוס קמח, 1 כפית אבקת אפייה ווניל יחד.",
+      "שלב 2: לפרוס תפוחים ולערבב אותם לתוך הבלילה.",
+      "שלב 3: לשפוך לתוך תבנית אפייה.",
+      "שלב 4: לאפות ב-350 מעלות עד שהחלק העליון משחים."
+    ]
+  },
+  "tags": [
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "cake",
+      "he": "עוגה"
+    },
+    {
+      "en": "ashkenazi",
+      "he": "אשכנזי"
+    },
+    {
+      "en": "vegetarian",
+      "he": "צמחוני"
+    },
+    {
+      "en": "dairy-free",
+      "he": "ללא חלב"
+    },
+    {
+      "en": "pareve",
+      "he": "פרווה"
+    }
+  ],
+  "illustration": "illustrations/e9a2c805-b7d2-4318-8333-84fbb1c7b7cd.webp",
+  "ocrRawText": "Mom's Apple Cake\n3 eggs\n1 cup sugar\n1/4 cup oil\n1 1/3 cup flour\n1 tsp bake powder\nVanilla\nSliced apples\nSome sliced apples\nmixed in tell\n350 o brown\ntop brown",
+  "selectedModel": "claude",
+  "rankingReason": "Claude selected (only valid result). Gemini result failed validation: ingredients.3.amount: Expected number, received string; ingredients.7.amount: Expected number, received string"
+}

@@ -1,0 +1,114 @@
+{
+  "id": "745f1a15-4420-4f7d-922b-10c6e316ed53",
+  "slug": "mandel-broit",
+  "source": {
+    "scanFiles": [
+      "scans/745f1a15-4420-4f7d-922b-10c6e316ed53-0.jpg"
+    ],
+    "processedAt": "2026-03-19T19:29:21.060Z"
+  },
+  "title": {
+    "en": "Mandel Broit",
+    "he": "מנדל ברויט"
+  },
+  "description": {
+    "en": "Traditional Jewish twice-baked almond cookies, similar to biscotti. A classic Ashkenazi treat.",
+    "he": "עוגיות שקדים אפויות פעמיים בסגנון מסורתי יהודי, דומות לביסקוטי. מאפה אשכנזי קלאסי."
+  },
+  "ingredients": [
+    {
+      "en": "4 eggs",
+      "he": "4 ביצים",
+      "item": "eggs",
+      "amount": 4,
+      "unit": "piece"
+    },
+    {
+      "en": "1 cup oil",
+      "he": "1 כוס שמן",
+      "item": "oil",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "3/4 cup sugar",
+      "he": "3/4 כוס סוכר",
+      "item": "sugar",
+      "amount": 0.75,
+      "unit": "cup"
+    },
+    {
+      "en": "2 tsp baking powder",
+      "he": "2 כפיות אבקת אפייה",
+      "item": "baking powder",
+      "amount": 2,
+      "unit": "tsp"
+    },
+    {
+      "en": "1 tsp vanilla",
+      "he": "1 כפית תמצית וניל",
+      "item": "vanilla",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "1 tsp almond extract",
+      "he": "1 כפית תמצית שקדים",
+      "item": "almond extract",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "1/2 cup chopped nuts",
+      "he": "1/2 כוס אגוזים קצוצים",
+      "item": "chopped nuts",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "3 1/2 - 4 cups flour",
+      "he": "3.5 - 4 כוסות קמח",
+      "item": "flour",
+      "amount": 3.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Mix all ingredients, shape into 2 loaves.",
+      "Bake 20 to 30 minutes at 350°F.",
+      "Cut into 1/2\" slices, put back into oven at 200°F for 1 hour."
+    ],
+    "he": [
+      "לערבב את כל המרכיבים ולעצב ל-2 כיכרות.",
+      "לאפות 20 עד 30 דקות ב-175°C (350°F).",
+      "לחתוך לפרוסות בעובי 1.5 ס\"מ, להחזיר לתנור על 95°C (200°F) למשך שעה."
+    ]
+  },
+  "tags": [
+    {
+      "en": "ashkenazi",
+      "he": "אשכנזי"
+    },
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "cookies",
+      "he": "עוגיות"
+    },
+    {
+      "en": "pareve",
+      "he": "פרווה"
+    },
+    {
+      "en": "baking",
+      "he": "אפייה"
+    }
+  ],
+  "illustration": "illustrations/745f1a15-4420-4f7d-922b-10c6e316ed53.webp",
+  "ocrRawText": "Mandel Broit\n4 Eggs                1 tsp Vanilla\n1 c Oil               1 tsp Almond Extract\n3/4 c Sugar          1/2 c Chopped Nuts\n2 tsp Baking Powder   3 1/2 - 4 c Flour\nMix all ingredients, shape into 2 loaves. Bake 20\nto 30 mins at 350°F. Cut into 1/2\" slices, put\nback into oven at 200°F for 1hr",
+  "selectedModel": "claude",
+  "rankingReason": "Claude selected (only valid result). Gemini result failed validation: ingredients.7.amount: Expected number, received string"
+}

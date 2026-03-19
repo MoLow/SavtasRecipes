@@ -1,0 +1,123 @@
+{
+  "id": "2eb0ebc0-f41e-4567-8fd8-8cd27e1c89ef",
+  "slug": "vegetable-sauce",
+  "source": {
+    "scanFiles": [
+      "scans/2eb0ebc0-f41e-4567-8fd8-8cd27e1c89ef-0.jpg"
+    ],
+    "processedAt": "2026-03-19T19:15:47.438Z"
+  },
+  "title": {
+    "en": "Vegetable Sauce",
+    "he": "רוטב ירקות"
+  },
+  "description": {
+    "en": "A vegetable sauce made with zucchini, tomatoes, and other vegetables, simmered and seasoned with salt, pepper, and sugar. The recipe was written on the back of a meeting sign-up sheet. Some words are partially obscured by the printed form columns.",
+    "he": "רוטב ירקות העשוי מקישואים, עגבניות וירקות נוספים, מבושל ומתובל במלח, פלפל וסוכר. המתכון נכתב על גב דף רישום לפגישה. חלק מהמילים מוסתרות חלקית על ידי העמודות המודפסות."
+  },
+  "ingredients": [
+    {
+      "en": "7 zucchini",
+      "he": "7 קישואים",
+      "item": "zucchini",
+      "amount": 7,
+      "unit": "piece"
+    },
+    {
+      "en": "3 tomatoes or 1 can crushed tomatoes",
+      "he": "3 עגבניות או 1 קופסת עגבניות מרוסקות",
+      "item": "tomatoes",
+      "amount": 3,
+      "unit": "piece"
+    },
+    {
+      "en": "1 small can tomato paste",
+      "he": "1 קופסה קטנה משחת עגבניות",
+      "item": "tomato paste",
+      "amount": 1,
+      "unit": "small can"
+    },
+    {
+      "en": "3 cloves of garlic",
+      "he": "3 שיני שום",
+      "item": "garlic",
+      "amount": 3,
+      "unit": "cloves"
+    },
+    {
+      "en": "1 lemon, juice of",
+      "he": "מיץ של לימון 1",
+      "item": "lemon",
+      "amount": 1,
+      "unit": "piece"
+    },
+    {
+      "en": "Salt",
+      "he": "מלח",
+      "item": "salt"
+    },
+    {
+      "en": "Pepper",
+      "he": "פלפל",
+      "item": "pepper"
+    },
+    {
+      "en": "Sugar",
+      "he": "סוכר",
+      "item": "sugar"
+    },
+    {
+      "en": "Oil",
+      "he": "שמן",
+      "item": "oil"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Step 1: Cut the zucchini into pieces.",
+      "Step 2: Use oil and brown/sauté the vegetables.",
+      "Step 3: Add crushed tomatoes and tomato paste.",
+      "Step 4: Add 3 cloves of garlic.",
+      "Step 5: Add lemon juice, buttoned/covered (flip).",
+      "Step 6: Simmer for about 1-1.5 hours from the time it starts to boil. Stir occasionally.",
+      "Step 7: Bring to a low simmer for about 30 minutes.",
+      "Step 8: Add salt, pepper, and sugar to taste."
+    ],
+    "he": [
+      "שלב 1: חותכים את הקישואים לחתיכות.",
+      "שלב 2: משתמשים בשמן ומשחימים/מטגנים את הירקות.",
+      "שלב 3: מוסיפים עגבניות מרוסקות ומשחת עגבניות.",
+      "שלב 4: מוסיפים 3 שיני שום.",
+      "שלב 5: מוסיפים מיץ לימון, מכסים (הופכים).",
+      "שלב 6: מבשלים על אש נמוכה כשעה עד שעה וחצי מרגע הרתיחה. מערבבים מדי פעם.",
+      "שלב 7: ממשיכים לבשל על אש נמוכה כ-30 דקות.",
+      "שלב 8: מוסיפים מלח, פלפל וסוכר לפי הטעם."
+    ]
+  },
+  "tags": [
+    {
+      "en": "vegetarian",
+      "he": "צמחוני"
+    },
+    {
+      "en": "side dish",
+      "he": "תוספת"
+    },
+    {
+      "en": "sauce",
+      "he": "רוטב"
+    },
+    {
+      "en": "pareve",
+      "he": "פרווה"
+    },
+    {
+      "en": "vegetables",
+      "he": "ירקות"
+    }
+  ],
+  "illustration": "illustrations/2eb0ebc0-f41e-4567-8fd8-8cd27e1c89ef.webp",
+  "ocrRawText": "Veg. sauce\n7 zucchini\n3 tomatoes or 1 can 3 cup\n1 small can tomato paste\ncan crushed tomatoes\n3 cloves of garlic\n2 cleans buttoned (flip)\n1 lemon juice/buttoned (flip)\n\nStung it for ?\ncusts it - 1 1/2 hrs from\nthe hot to boil / simmer\nBring to a low simmer\n30 min.\nSalt pepper sugar\n\"",
+  "selectedModel": "claude",
+  "rankingReason": "Claude selected (only valid result). Gemini result failed validation: instructions.en: Array must contain at least 1 element(s); instructions.he: Array must contain at least 1 element(s)"
+}

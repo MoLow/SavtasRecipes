@@ -1,0 +1,79 @@
+{
+  "id": "ad1dc04c-4755-4315-8cff-7fd536621c5a",
+  "slug": "borscht",
+  "source": {
+    "scanFiles": [
+      "scans/ad1dc04c-4755-4315-8cff-7fd536621c5a-0.jpg"
+    ],
+    "processedAt": "2026-03-19T19:19:48.476Z"
+  },
+  "title": {
+    "en": "Borscht",
+    "he": "בורשט"
+  },
+  "description": {
+    "en": "A simple beet borscht soup — peel and grate beets, boil in water, and season with salt, lemon, and pepper.",
+    "he": "מרק בורשט סלק פשוט — מקלפים וגוררים סלק, מבשלים במים ומתבלים במלח, לימון ופלפל."
+  },
+  "ingredients": [
+    {
+      "en": "Beets",
+      "he": "סלק",
+      "item": "beets"
+    },
+    {
+      "en": "Water",
+      "he": "מים",
+      "item": "water"
+    },
+    {
+      "en": "Salt",
+      "he": "מלח",
+      "item": "salt"
+    },
+    {
+      "en": "Lemon",
+      "he": "לימון",
+      "item": "lemon"
+    },
+    {
+      "en": "Pepper",
+      "he": "פלפל",
+      "item": "pepper"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Peel beets and grate on the long side.",
+      "Put into water and boil for ½ hour.",
+      "Season with salt, lemon, and pepper."
+    ],
+    "he": [
+      "מקלפים את הסלק וגוררים על הצד הגס של הפומפיה.",
+      "מכניסים למים ומרתיחים במשך חצי שעה.",
+      "מתבלים במלח, לימון ופלפל."
+    ]
+  },
+  "tags": [
+    {
+      "en": "soup",
+      "he": "מרק"
+    },
+    {
+      "en": "ashkenazi",
+      "he": "אשכנזי"
+    },
+    {
+      "en": "vegetarian",
+      "he": "צמחוני"
+    },
+    {
+      "en": "pareve",
+      "he": "פרווה"
+    }
+  ],
+  "illustration": "illustrations/ad1dc04c-4755-4315-8cff-7fd536621c5a.webp",
+  "ocrRawText": "Borscht\npeel beets, grate on long side\nput into H₂O + boil for ½ hr.\nseason with salt, lemon +\npepper",
+  "selectedModel": "claude",
+  "rankingReason": "Result B is more complete and coherent. It includes water as an essential ingredient (which is logically necessary for boiling soup but missing in A), has a more natural description that mirrors the instructions, and includes more contextually appropriate tags (ashkenazi and pareve are relevant to borscht cuisine). The OCR raw text in B also shows more sophisticated capture with 'H₂O' notation. Result A's Hebrew instructions contain an error ('קלו' should be 'קלפו'), while B's Hebrew is more naturally phrased despite the minor oddity about 'פומפיה' (grater) which appears to be an OCR/translation artifact."
+}

@@ -1,0 +1,4253 @@
+{
+  "generatedAt": "2026-03-19T19:30:07.548Z",
+  "totalRecipes": 141,
+  "recipes": [
+    {
+      "id": "023987d8-c3cb-4e32-97ce-15fb390f0d10",
+      "slug": "shortbread-cookies",
+      "title": {
+        "en": "Shortbread Cookies",
+        "he": "עוגיות שורטברד"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cookies",
+          "he": "עוגיות"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        }
+      ],
+      "illustration": "illustrations/023987d8-c3cb-4e32-97ce-15fb390f0d10.webp"
+    },
+    {
+      "id": "039e2367-e16f-49aa-8b8b-65150ba912e6",
+      "slug": "peach-cobbler",
+      "title": {
+        "en": "Peach Cobbler",
+        "he": "קובלר אפרסקים"
+      },
+      "tags": [
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Microwave",
+          "he": "מיקרוגל"
+        },
+        {
+          "en": "Peach",
+          "he": "אפרסק"
+        },
+        {
+          "en": "Cobbler",
+          "he": "קובלר"
+        }
+      ],
+      "illustration": "illustrations/039e2367-e16f-49aa-8b8b-65150ba912e6.webp"
+    },
+    {
+      "id": "049d2b09-80ff-4ea0-b442-3099407bbdcc",
+      "slug": "cinnamon-rope-cookies",
+      "title": {
+        "en": "Cinnamon Rope Cookies",
+        "he": "עוגיות חבל קינמון"
+      },
+      "tags": [
+        {
+          "en": "cookies",
+          "he": "עוגיות"
+        },
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cinnamon",
+          "he": "קינמון"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        }
+      ],
+      "illustration": "illustrations/049d2b09-80ff-4ea0-b442-3099407bbdcc.webp"
+    },
+    {
+      "id": "095f8819-6460-4734-a316-f570dd62677e",
+      "slug": "pistachio-bundt-cake",
+      "title": {
+        "en": "Pistachio Bundt Cake",
+        "he": "עוגת בונדט פיסטוק"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cake",
+          "he": "עוגה"
+        },
+        {
+          "en": "bundt cake",
+          "he": "עוגת בונדט"
+        },
+        {
+          "en": "pistachio",
+          "he": "פיסטוק"
+        },
+        {
+          "en": "chocolate",
+          "he": "שוקולד"
+        }
+      ],
+      "illustration": "illustrations/095f8819-6460-4734-a316-f570dd62677e.webp"
+    },
+    {
+      "id": "097aaf7b-e770-48a7-b18a-6f4668927273",
+      "slug": "date-nut-cake",
+      "title": {
+        "en": "Date Nut Cake",
+        "he": "עוגת תמרים ואגוזים"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cake",
+          "he": "עוגה"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        },
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        }
+      ],
+      "illustration": "illustrations/097aaf7b-e770-48a7-b18a-6f4668927273.webp"
+    },
+    {
+      "id": "0bd353fc-7843-4314-afad-a768b79fd307",
+      "slug": "cherry-topped-cheese-pie",
+      "title": {
+        "en": "Cherry Topped Cheese Pie",
+        "he": "פאי גבינה עם ציפוי דובדבנים"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "no-bake",
+          "he": "ללא אפייה"
+        },
+        {
+          "en": "american",
+          "he": "אמריקאי"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "pie",
+          "he": "פאי"
+        }
+      ],
+      "illustration": "illustrations/0bd353fc-7843-4314-afad-a768b79fd307.webp"
+    },
+    {
+      "id": "0d5251ea-6d60-4ca0-b296-56aa887da623",
+      "slug": "haman-taschen",
+      "title": {
+        "en": "Haman Taschen",
+        "he": "אוזני המן"
+      },
+      "tags": [
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Holiday",
+          "he": "חג"
+        },
+        {
+          "en": "Purim",
+          "he": "פורים"
+        },
+        {
+          "en": "Ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "Cookies",
+          "he": "עוגיות"
+        }
+      ],
+      "illustration": "illustrations/0d5251ea-6d60-4ca0-b296-56aa887da623.webp"
+    },
+    {
+      "id": "0e0eca0b-c1a5-4983-ac29-83473c015aa4",
+      "slug": "imitation-stuffed-derma",
+      "title": {
+        "en": "Imitation Stuffed Derma",
+        "he": "קישקע מדומה"
+      },
+      "tags": [
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "side dish",
+          "he": "תוספת"
+        },
+        {
+          "en": "shabbat",
+          "he": "שבת"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        },
+        {
+          "en": "freezer-friendly",
+          "he": "מתאים להקפאה"
+        }
+      ],
+      "illustration": "illustrations/0e0eca0b-c1a5-4983-ac29-83473c015aa4.webp"
+    },
+    {
+      "id": "0f321a48-4981-405c-a6a1-ddbca686f049",
+      "slug": "sweet-sour-meatballs",
+      "title": {
+        "en": "Sweet & Sour Meatballs",
+        "he": "כדורי בשר חמוץ מתוק"
+      },
+      "tags": [
+        {
+          "en": "meat",
+          "he": "בשרי"
+        },
+        {
+          "en": "main",
+          "he": "מנה עיקרית"
+        },
+        {
+          "en": "american",
+          "he": "אמריקאי"
+        },
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "holiday",
+          "he": "חג"
+        }
+      ],
+      "illustration": "illustrations/0f321a48-4981-405c-a6a1-ddbca686f049.webp"
+    },
+    {
+      "id": "1128f48e-24b2-41f3-8a98-4211a22831cb",
+      "slug": "crescent-cookies-david",
+      "title": {
+        "en": "Crescent Cookies (David)",
+        "he": "עוגיות סהר (דוד)"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cookies",
+          "he": "עוגיות"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "holiday",
+          "he": "חג"
+        }
+      ],
+      "illustration": "illustrations/1128f48e-24b2-41f3-8a98-4211a22831cb.webp"
+    },
+    {
+      "id": "12f73e34-6551-414f-86b1-0f2570eb5873",
+      "slug": "spanish-rice",
+      "title": {
+        "en": "Spanish Rice",
+        "he": "אורז ספרדי"
+      },
+      "tags": [
+        {
+          "en": "Spanish",
+          "he": "ספרדי"
+        },
+        {
+          "en": "Main Course",
+          "he": "מנה עיקרית"
+        },
+        {
+          "en": "Side Dish",
+          "he": "תוספת"
+        },
+        {
+          "en": "Vegetarian",
+          "he": "צמחוני"
+        }
+      ],
+      "illustration": "illustrations/12f73e34-6551-414f-86b1-0f2570eb5873.webp"
+    },
+    {
+      "id": "156f2d08-372f-450f-b08f-20c7623ef0d2",
+      "slug": "clean-beans",
+      "title": {
+        "en": "Clean Beans",
+        "he": "שעועית נקייה"
+      },
+      "tags": [
+        {
+          "en": "Asian",
+          "he": "אסיאתי"
+        },
+        {
+          "en": "Main",
+          "he": "מנה עיקרית"
+        }
+      ],
+      "illustration": "illustrations/156f2d08-372f-450f-b08f-20c7623ef0d2.webp"
+    },
+    {
+      "id": "1734abb3-31e0-488e-a8c7-7531b68ddf75",
+      "slug": "apple-raisin-cake",
+      "title": {
+        "en": "Apple Raisin Cake",
+        "he": "עוגת תפוחים וצימוקים"
+      },
+      "tags": [
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Cake",
+          "he": "עוגה"
+        },
+        {
+          "en": "American",
+          "he": "אמריקאי"
+        },
+        {
+          "en": "Dairy",
+          "he": "חלבי"
+        }
+      ],
+      "illustration": "illustrations/1734abb3-31e0-488e-a8c7-7531b68ddf75.webp"
+    },
+    {
+      "id": "19231f1d-587a-469b-aae6-07daf9817d4e",
+      "slug": "german-chocolate-bread",
+      "title": {
+        "en": "German Chocolate Bread",
+        "he": "לחם שוקולד גרמני"
+      },
+      "tags": [
+        {
+          "en": "bread",
+          "he": "לחם"
+        },
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "chocolate",
+          "he": "שוקולד"
+        },
+        {
+          "en": "bread machine",
+          "he": "מכונת לחם"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        }
+      ],
+      "illustration": "illustrations/19231f1d-587a-469b-aae6-07daf9817d4e.webp"
+    },
+    {
+      "id": "19e90e03-4175-4125-a911-e50ad8405c3a",
+      "slug": "vegetable-soup",
+      "title": {
+        "en": "Vegetable Soup",
+        "he": "מרק ירקות"
+      },
+      "tags": [
+        {
+          "en": "soup",
+          "he": "מרק"
+        },
+        {
+          "en": "vegetarian",
+          "he": "צמחוני"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        },
+        {
+          "en": "vegetables",
+          "he": "ירקות"
+        }
+      ],
+      "illustration": "illustrations/19e90e03-4175-4125-a911-e50ad8405c3a.webp"
+    },
+    {
+      "id": "1d98aad1-3805-44ce-bb3e-b89d00ed05b2",
+      "slug": "chicken-valencia-few-calorie",
+      "title": {
+        "en": "Chicken Valencia (few-Calorie)",
+        "he": "עוף ולנסיה (דל קלוריות)"
+      },
+      "tags": [
+        {
+          "en": "Main course",
+          "he": "מנה עיקרית"
+        },
+        {
+          "en": "Chicken",
+          "he": "עוף"
+        },
+        {
+          "en": "Low calorie",
+          "he": "דל קלוריות"
+        }
+      ],
+      "illustration": "illustrations/1d98aad1-3805-44ce-bb3e-b89d00ed05b2.webp"
+    },
+    {
+      "id": "222a3b39-a8d5-4e73-b82a-e98344eeea57",
+      "slug": "kugel",
+      "title": {
+        "en": "Kugel",
+        "he": "קוגל"
+      },
+      "tags": [
+        {
+          "en": "Ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Dairy",
+          "he": "חלבי"
+        }
+      ],
+      "illustration": "illustrations/222a3b39-a8d5-4e73-b82a-e98344eeea57.webp"
+    },
+    {
+      "id": "22bfb21f-625c-4d09-bd7e-33ed01fa5c15",
+      "slug": "frozen-dough-cookies-irene-two-variations",
+      "title": {
+        "en": "Frozen Dough Cookies (Irene) - Two Variations",
+        "he": "עוגיות בצק קפוא (איירין) - שתי וריאציות"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cookies",
+          "he": "עוגיות"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        }
+      ],
+      "illustration": "illustrations/22bfb21f-625c-4d09-bd7e-33ed01fa5c15.webp"
+    },
+    {
+      "id": "24f94380-92db-4e13-976f-c368f21b390f",
+      "slug": "jelly-rolls-or-hamantaschen",
+      "title": {
+        "en": "Jelly Rolls, or Hamantaschen",
+        "he": "רולדות ריבה, או אוזני המן"
+      },
+      "tags": [
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Jewish",
+          "he": "יהודי"
+        },
+        {
+          "en": "Holiday",
+          "he": "חג"
+        },
+        {
+          "en": "Baking",
+          "he": "אפייה"
+        }
+      ],
+      "illustration": "illustrations/24f94380-92db-4e13-976f-c368f21b390f.webp"
+    },
+    {
+      "id": "25367698-b17c-423f-aee0-666fb0796153",
+      "slug": "orange-glazed-cocoa-bundt-cake",
+      "title": {
+        "en": "Orange Glazed Cocoa Bundt Cake",
+        "he": "עוגת בונדט קקאו בציפוי תפוזים"
+      },
+      "tags": [
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Cake",
+          "he": "עוגה"
+        },
+        {
+          "en": "Baking",
+          "he": "אפייה"
+        },
+        {
+          "en": "Orange",
+          "he": "תפוז"
+        },
+        {
+          "en": "Chocolate",
+          "he": "שוקולד"
+        }
+      ],
+      "illustration": "illustrations/25367698-b17c-423f-aee0-666fb0796153.webp"
+    },
+    {
+      "id": "2716281a-42a3-4f44-a548-21e45a34738b",
+      "slug": "spice-mix-for-meat",
+      "title": {
+        "en": "Spice Mix for Meat",
+        "he": "תערובת תבלינים לבשר"
+      },
+      "tags": [
+        {
+          "en": "Spice Mix",
+          "he": "תערובת תבלינים"
+        },
+        {
+          "en": "Meat Seasoning",
+          "he": "תיבול בשר"
+        },
+        {
+          "en": "Main",
+          "he": "מנה עיקרית"
+        }
+      ],
+      "illustration": "illustrations/2716281a-42a3-4f44-a548-21e45a34738b.webp"
+    },
+    {
+      "id": "274657d5-4a90-4847-96db-b490e5d5bdcf",
+      "slug": "chocolate-mousse",
+      "title": {
+        "en": "Chocolate Mousse",
+        "he": "מוס שוקולד"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "chocolate",
+          "he": "שוקולד"
+        },
+        {
+          "en": "mousse",
+          "he": "מוס"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "frozen dessert",
+          "he": "קינוח קפוא"
+        },
+        {
+          "en": "american",
+          "he": "אמריקאי"
+        }
+      ],
+      "illustration": "illustrations/274657d5-4a90-4847-96db-b490e5d5bdcf.webp"
+    },
+    {
+      "id": "2cb6d6f7-9a49-40a6-b96b-1a674590968e",
+      "slug": "pudding-in-a-cloud",
+      "title": {
+        "en": "Pudding In A Cloud",
+        "he": "פודינג בענן"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "no-bake",
+          "he": "ללא אפייה"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "american",
+          "he": "אמריקאי"
+        }
+      ],
+      "illustration": "illustrations/2cb6d6f7-9a49-40a6-b96b-1a674590968e.webp"
+    },
+    {
+      "id": "2eb0ebc0-f41e-4567-8fd8-8cd27e1c89ef",
+      "slug": "vegetable-sauce",
+      "title": {
+        "en": "Vegetable Sauce",
+        "he": "רוטב ירקות"
+      },
+      "tags": [
+        {
+          "en": "vegetarian",
+          "he": "צמחוני"
+        },
+        {
+          "en": "side dish",
+          "he": "תוספת"
+        },
+        {
+          "en": "sauce",
+          "he": "רוטב"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        },
+        {
+          "en": "vegetables",
+          "he": "ירקות"
+        }
+      ],
+      "illustration": "illustrations/2eb0ebc0-f41e-4567-8fd8-8cd27e1c89ef.webp"
+    },
+    {
+      "id": "32191908-4214-40a6-b28d-d0694146c612",
+      "slug": "meatless-chopped-liver",
+      "title": {
+        "en": "Meatless Chopped Liver",
+        "he": "כבד קצוץ ללא בשר"
+      },
+      "tags": [
+        {
+          "en": "appetizer",
+          "he": "מנת פתיחה"
+        },
+        {
+          "en": "vegetarian",
+          "he": "צמחוני"
+        },
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        },
+        {
+          "en": "shabbat",
+          "he": "שבת"
+        },
+        {
+          "en": "holiday",
+          "he": "חג"
+        }
+      ],
+      "illustration": "illustrations/32191908-4214-40a6-b28d-d0694146c612.webp"
+    },
+    {
+      "id": "322ad74e-9428-469c-9973-0d2e95256c69",
+      "slug": "chicken-livers-w-mushrooms",
+      "title": {
+        "en": "Chicken Livers W/ Mushrooms",
+        "he": "כבד עוף עם פטריות"
+      },
+      "tags": [
+        {
+          "en": "Main Course",
+          "he": "מנה עיקרית"
+        },
+        {
+          "en": "Meat",
+          "he": "בשרי"
+        },
+        {
+          "en": "Chicken",
+          "he": "עוף"
+        },
+        {
+          "en": "Liver",
+          "he": "כבד"
+        },
+        {
+          "en": "Mushroom",
+          "he": "פטריות"
+        }
+      ],
+      "illustration": "illustrations/322ad74e-9428-469c-9973-0d2e95256c69.webp"
+    },
+    {
+      "id": "32f3ecc8-651f-4910-97ee-a5ec23a69bde",
+      "slug": "uncle-davids-hamentashen",
+      "title": {
+        "en": "Uncle David's Hamentashen",
+        "he": "אוזני המן של דוד דיוויד"
+      },
+      "tags": [
+        {
+          "en": "purim",
+          "he": "פורים"
+        },
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cookies",
+          "he": "עוגיות"
+        },
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "holiday",
+          "he": "חג"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        }
+      ],
+      "illustration": "illustrations/32f3ecc8-651f-4910-97ee-a5ec23a69bde.webp"
+    },
+    {
+      "id": "3324e707-206e-4377-92e7-a483adf00d27",
+      "slug": "impos-brownie-pie",
+      "title": {
+        "en": "Impos. Brownie Pie",
+        "he": "פאי בראוניז (בלתי אפשרי)"
+      },
+      "tags": [
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Chocolate",
+          "he": "שוקולד"
+        },
+        {
+          "en": "Nuts",
+          "he": "אגוזים"
+        },
+        {
+          "en": "Baked",
+          "he": "אפוי"
+        },
+        {
+          "en": "American",
+          "he": "אמריקאי"
+        }
+      ],
+      "illustration": "illustrations/3324e707-206e-4377-92e7-a483adf00d27.webp"
+    },
+    {
+      "id": "356fe6f9-5edd-4567-a559-802c1fb02021",
+      "slug": "crescent-cookies-doris-recipe",
+      "title": {
+        "en": "Crescent Cookies (Doris Recipe)",
+        "he": "עוגיות סהר (מתכון של דוריס)"
+      },
+      "tags": [
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Cookies",
+          "he": "עוגיות"
+        },
+        {
+          "en": "Baking",
+          "he": "אפייה"
+        },
+        {
+          "en": "Dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "Holiday",
+          "he": "חג"
+        }
+      ],
+      "illustration": "illustrations/356fe6f9-5edd-4567-a559-802c1fb02021.webp"
+    },
+    {
+      "id": "36730a85-90e4-4242-a72f-7e9980c0fdee",
+      "slug": "dream-pie",
+      "title": {
+        "en": "Dream Pie",
+        "he": "פאי חלום"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "pie",
+          "he": "פאי"
+        },
+        {
+          "en": "no-bake",
+          "he": "ללא אפייה"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "american",
+          "he": "אמריקאי"
+        }
+      ],
+      "illustration": "illustrations/36730a85-90e4-4242-a72f-7e9980c0fdee.webp"
+    },
+    {
+      "id": "380c3a65-55fd-4d66-8200-cb4a396034ef",
+      "slug": "almond-chocolate-chip-bread",
+      "title": {
+        "en": "Almond Chocolate Chip Bread",
+        "he": "לחם שקדים ושוקולד צ'יפס"
+      },
+      "tags": [
+        {
+          "en": "bread",
+          "he": "לחם"
+        },
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "bread machine",
+          "he": "מכונת לחם"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "sweet",
+          "he": "מתוק"
+        }
+      ],
+      "illustration": "illustrations/380c3a65-55fd-4d66-8200-cb4a396034ef.webp"
+    },
+    {
+      "id": "3a226956-5963-4e2d-b3ce-1ed2e2098f33",
+      "slug": "chocolate-raspberry-bars-dave",
+      "title": {
+        "en": "Chocolate Raspberry Bars (Dave)",
+        "he": "חטיפי שוקולד פטל (דייב)"
+      },
+      "tags": [
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Bars",
+          "he": "חטיפים"
+        },
+        {
+          "en": "Chocolate",
+          "he": "שוקולד"
+        },
+        {
+          "en": "Raspberry",
+          "he": "פטל"
+        },
+        {
+          "en": "Baking",
+          "he": "אפייה"
+        }
+      ],
+      "illustration": "illustrations/3a226956-5963-4e2d-b3ce-1ed2e2098f33.webp"
+    },
+    {
+      "id": "3a3442e4-dc25-4729-996f-d4e5f69fd780",
+      "slug": "rugelach",
+      "title": {
+        "en": "Rugelach",
+        "he": "רוגלך"
+      },
+      "tags": [
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "pastry",
+          "he": "מאפה"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "holiday",
+          "he": "חג"
+        }
+      ],
+      "illustration": "illustrations/3a3442e4-dc25-4729-996f-d4e5f69fd780.webp"
+    },
+    {
+      "id": "3ae66cd3-288c-4e34-a0ac-39d61d199e58",
+      "slug": "blue-cheese-dip",
+      "title": {
+        "en": "Blue Cheese Dip",
+        "he": "דיפ גבינה כחולה"
+      },
+      "tags": [
+        {
+          "en": "dip",
+          "he": "דיפ"
+        },
+        {
+          "en": "appetizer",
+          "he": "מנה ראשונה"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "vegetarian",
+          "he": "צמחוני"
+        },
+        {
+          "en": "snack",
+          "he": "חטיף"
+        }
+      ],
+      "illustration": "illustrations/3ae66cd3-288c-4e34-a0ac-39d61d199e58.webp"
+    },
+    {
+      "id": "3cd087fa-900e-419f-90f9-5fa467d46528",
+      "slug": "chocolate-chip-nut-pie",
+      "title": {
+        "en": "Chocolate Chip Nut Pie",
+        "he": "פאי אגוזים ושוקולד צ'יפס"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "pie",
+          "he": "פאי"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        },
+        {
+          "en": "nuts",
+          "he": "אגוזים"
+        },
+        {
+          "en": "chocolate",
+          "he": "שוקולד"
+        }
+      ],
+      "illustration": "illustrations/3cd087fa-900e-419f-90f9-5fa467d46528.webp"
+    },
+    {
+      "id": "450bc445-8974-40be-9020-cf8c2d626ac0",
+      "slug": "coffee-cake",
+      "title": {
+        "en": "Coffee Cake",
+        "he": "עוגת קפה"
+      },
+      "tags": [
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Yeast Cake",
+          "he": "עוגת שמרים"
+        },
+        {
+          "en": "Baked Goods",
+          "he": "מאפים"
+        },
+        {
+          "en": "Sweet Bread",
+          "he": "לחם מתוק"
+        },
+        {
+          "en": "Ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "Dairy",
+          "he": "חלבי"
+        }
+      ],
+      "illustration": "illustrations/450bc445-8974-40be-9020-cf8c2d626ac0.webp"
+    },
+    {
+      "id": "450e3d9a-07d0-4a49-8c6f-d98d01cbeae3",
+      "slug": "chocaholic-brownies",
+      "title": {
+        "en": "CHOCAHOLIC BROWNIES",
+        "he": "בראוניז שוקוהוליים"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        },
+        {
+          "en": "chocolate",
+          "he": "שוקולד"
+        },
+        {
+          "en": "brownies",
+          "he": "בראוניז"
+        }
+      ],
+      "illustration": "illustrations/450e3d9a-07d0-4a49-8c6f-d98d01cbeae3.webp"
+    },
+    {
+      "id": "4ab10901-e269-40f2-b711-ac2e5b598a89",
+      "slug": "rugelach",
+      "title": {
+        "en": "Rugelach",
+        "he": "רוגלך"
+      },
+      "tags": [
+        {
+          "en": "Ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Pastry",
+          "he": "מאפה"
+        },
+        {
+          "en": "Holiday",
+          "he": "חג"
+        },
+        {
+          "en": "Dairy",
+          "he": "חלבי"
+        }
+      ],
+      "illustration": "illustrations/4ab10901-e269-40f2-b711-ac2e5b598a89.webp"
+    },
+    {
+      "id": "4eabb3f6-fb6d-4caa-91d9-16fded540d25",
+      "slug": "champagne-punch",
+      "title": {
+        "en": "Champagne Punch",
+        "he": "פונץ' שמפניה"
+      },
+      "tags": [
+        {
+          "en": "drink",
+          "he": "משקה"
+        },
+        {
+          "en": "punch",
+          "he": "פונץ'"
+        },
+        {
+          "en": "party",
+          "he": "מסיבה"
+        },
+        {
+          "en": "alcoholic",
+          "he": "אלכוהולי"
+        },
+        {
+          "en": "holiday",
+          "he": "חג"
+        }
+      ],
+      "illustration": "illustrations/4eabb3f6-fb6d-4caa-91d9-16fded540d25.webp"
+    },
+    {
+      "id": "551b5d1b-b3f6-40e7-8403-1147334442b4",
+      "slug": "black-bean-soup",
+      "title": {
+        "en": "Black Bean Soup",
+        "he": "מרק שעועית שחורה"
+      },
+      "tags": [
+        {
+          "en": "soup",
+          "he": "מרק"
+        },
+        {
+          "en": "vegetarian",
+          "he": "צמחוני"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        },
+        {
+          "en": "main",
+          "he": "מנה עיקרית"
+        }
+      ],
+      "illustration": "illustrations/551b5d1b-b3f6-40e7-8403-1147334442b4.webp"
+    },
+    {
+      "id": "565d81da-b288-48aa-806c-cd881c11038a",
+      "slug": "vanilla-kipferls-white-cookies",
+      "title": {
+        "en": "Vanilla Kipferls (White Cookies)",
+        "he": "קיפרל וניל (עוגיות לבנות)"
+      },
+      "tags": [
+        {
+          "en": "cookies",
+          "he": "עוגיות"
+        },
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "Austrian",
+          "he": "אוסטרי"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        }
+      ],
+      "illustration": "illustrations/565d81da-b288-48aa-806c-cd881c11038a.webp"
+    },
+    {
+      "id": "5679af19-72bc-4061-a287-a6eab58d09b9",
+      "slug": "lemon-delight",
+      "title": {
+        "en": "Lemon Delight",
+        "he": "עונג לימון"
+      },
+      "tags": [
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "Lemon",
+          "he": "לימון"
+        }
+      ],
+      "illustration": "illustrations/5679af19-72bc-4061-a287-a6eab58d09b9.webp"
+    },
+    {
+      "id": "5745456a-6b45-44b0-8b94-dfe2380ceefa",
+      "slug": "hamantaschen",
+      "title": {
+        "en": "Hamantaschen",
+        "he": "אוזני המן"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cookies",
+          "he": "עוגיות"
+        },
+        {
+          "en": "purim",
+          "he": "פורים"
+        },
+        {
+          "en": "holiday",
+          "he": "חג"
+        },
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        }
+      ],
+      "illustration": "illustrations/5745456a-6b45-44b0-8b94-dfe2380ceefa.webp"
+    },
+    {
+      "id": "57bf27cf-e534-4a40-bee3-b015e1d4e0c1",
+      "slug": "salmon-souffle",
+      "title": {
+        "en": "Salmon Souffle",
+        "he": "סופלה סלמון"
+      },
+      "tags": [
+        {
+          "en": "fish",
+          "he": "דגים"
+        },
+        {
+          "en": "main",
+          "he": "מנה עיקרית"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "baked",
+          "he": "אפייה"
+        }
+      ],
+      "illustration": "illustrations/57bf27cf-e534-4a40-bee3-b015e1d4e0c1.webp"
+    },
+    {
+      "id": "5c42022e-1e21-4305-a64c-4b91e56046e9",
+      "slug": "spanish-rice",
+      "title": {
+        "en": "Spanish Rice",
+        "he": "אורז ספרדי"
+      },
+      "tags": [
+        {
+          "en": "Spanish",
+          "he": "ספרדי"
+        },
+        {
+          "en": "Main",
+          "he": "מנה עיקרית"
+        },
+        {
+          "en": "Meat",
+          "he": "בשרי"
+        }
+      ],
+      "illustration": "illustrations/5c42022e-1e21-4305-a64c-4b91e56046e9.webp"
+    },
+    {
+      "id": "5c7e0fa8-00db-4565-b43f-24c6730c28de",
+      "slug": "salmon-mousse",
+      "title": {
+        "en": "Salmon Mousse",
+        "he": "מוס סלמון"
+      },
+      "tags": [
+        {
+          "en": "Appetizer",
+          "he": "מתאבן"
+        },
+        {
+          "en": "Fish",
+          "he": "דגים"
+        },
+        {
+          "en": "Cold Dish",
+          "he": "מנה קרה"
+        },
+        {
+          "en": "Mousse",
+          "he": "מוס"
+        }
+      ],
+      "illustration": "illustrations/5c7e0fa8-00db-4565-b43f-24c6730c28de.webp"
+    },
+    {
+      "id": "6835bc26-3a50-4fc4-96f7-6800fe54b70f",
+      "slug": "eggplant-parmesan",
+      "title": {
+        "en": "Eggplant Parmesan",
+        "he": "חציל פרמזן"
+      },
+      "tags": [
+        {
+          "en": "vegetarian",
+          "he": "צמחוני"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "Italian",
+          "he": "איטלקי"
+        },
+        {
+          "en": "main",
+          "he": "מנה עיקרית"
+        },
+        {
+          "en": "low fat",
+          "he": "דל שומן"
+        }
+      ],
+      "illustration": "illustrations/6835bc26-3a50-4fc4-96f7-6800fe54b70f.webp"
+    },
+    {
+      "id": "68b92c6e-8708-4541-9955-24f64cc7daf4",
+      "slug": "date-nut-bread",
+      "title": {
+        "en": "Date Nut Bread",
+        "he": "לחם תמרים ואגוזים"
+      },
+      "tags": [
+        {
+          "en": "bread",
+          "he": "לחם"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        },
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "vegetarian",
+          "he": "צמחוני"
+        },
+        {
+          "en": "dairy-free",
+          "he": "ללא חלב"
+        }
+      ],
+      "illustration": "illustrations/68b92c6e-8708-4541-9955-24f64cc7daf4.webp"
+    },
+    {
+      "id": "6b144d4a-cdff-4a76-8c19-847d0b0e49f2",
+      "slug": "cheese-cake-barbaras",
+      "title": {
+        "en": "Cheese Cake (Barbara's)",
+        "he": "עוגת גבינה (של ברברה)"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "cheesecake",
+          "he": "עוגת גבינה"
+        }
+      ],
+      "illustration": "illustrations/6b144d4a-cdff-4a76-8c19-847d0b0e49f2.webp"
+    },
+    {
+      "id": "6daee68b-3a8f-4ed4-b91d-e5fc367ff8d1",
+      "slug": "egg-cutlet",
+      "title": {
+        "en": "Egg Cutlet",
+        "he": "קציצות ביצה"
+      },
+      "tags": [
+        {
+          "en": "appetizer",
+          "he": "מתאבן"
+        },
+        {
+          "en": "fried",
+          "he": "מטוגן"
+        },
+        {
+          "en": "vegetarian",
+          "he": "צמחוני"
+        },
+        {
+          "en": "iraqi",
+          "he": "עיראקי"
+        },
+        {
+          "en": "side dish",
+          "he": "תוספת"
+        },
+        {
+          "en": "shabbat",
+          "he": "שבת"
+        }
+      ],
+      "illustration": "illustrations/6daee68b-3a8f-4ed4-b91d-e5fc367ff8d1.webp"
+    },
+    {
+      "id": "6f2b8122-7cb5-4df2-833b-8c3a9a2e97e1",
+      "slug": "oatmeal-raisin-nut-cookies",
+      "title": {
+        "en": "Oatmeal Raisin Nut Cookies",
+        "he": "עוגיות שיבולת שועל, צימוקים ואגוזים"
+      },
+      "tags": [
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Cookies",
+          "he": "עוגיות"
+        },
+        {
+          "en": "Oatmeal",
+          "he": "שיבולת שועל"
+        },
+        {
+          "en": "Nut",
+          "he": "אגוזים"
+        },
+        {
+          "en": "Raisin",
+          "he": "צימוקים"
+        }
+      ],
+      "illustration": "illustrations/6f2b8122-7cb5-4df2-833b-8c3a9a2e97e1.webp"
+    },
+    {
+      "id": "70bd7ddd-8abf-4870-bade-b2bfe4ddacb7",
+      "slug": "mams-strudel-dough",
+      "title": {
+        "en": "Mams Strudel Dough",
+        "he": "בצק שטרודל של אמא"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        }
+      ],
+      "illustration": "illustrations/70bd7ddd-8abf-4870-bade-b2bfe4ddacb7.webp"
+    },
+    {
+      "id": "72ad7045-409d-4ea9-9d3a-840cc1d7a167",
+      "slug": "low-calorie-gelatin-dessert",
+      "title": {
+        "en": "Low-Calorie Gelatin Dessert",
+        "he": "קינוח ג'לטין דל קלוריות"
+      },
+      "tags": [
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Low-Calorie",
+          "he": "דל קלוריות"
+        },
+        {
+          "en": "Fruit",
+          "he": "פירותי"
+        },
+        {
+          "en": "No-Bake",
+          "he": "ללא אפייה"
+        }
+      ],
+      "illustration": "illustrations/72ad7045-409d-4ea9-9d3a-840cc1d7a167.webp"
+    },
+    {
+      "id": "72e5842b-0fa4-4928-9047-d14bbf2ca730",
+      "slug": "roly-polys",
+      "title": {
+        "en": "Roly Polys",
+        "he": "רולי פולי"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "pastry",
+          "he": "מאפה"
+        },
+        {
+          "en": "iraqi",
+          "he": "עיראקי"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        },
+        {
+          "en": "holiday",
+          "he": "חג"
+        }
+      ],
+      "illustration": "illustrations/72e5842b-0fa4-4928-9047-d14bbf2ca730.webp"
+    },
+    {
+      "id": "745f1a15-4420-4f7d-922b-10c6e316ed53",
+      "slug": "mandel-broit",
+      "title": {
+        "en": "Mandel Broit",
+        "he": "מנדל ברויט"
+      },
+      "tags": [
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cookies",
+          "he": "עוגיות"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        }
+      ],
+      "illustration": "illustrations/745f1a15-4420-4f7d-922b-10c6e316ed53.webp"
+    },
+    {
+      "id": "74766c86-547c-405e-b4e0-eb8114eddf03",
+      "slug": "gazpacho",
+      "title": {
+        "en": "Gazpacho",
+        "he": "גספצ'ו"
+      },
+      "tags": [
+        {
+          "en": "Spanish",
+          "he": "ספרדי"
+        },
+        {
+          "en": "Soup",
+          "he": "מרק"
+        },
+        {
+          "en": "Cold dish",
+          "he": "מנה קרה"
+        },
+        {
+          "en": "Vegetarian",
+          "he": "צמחוני"
+        },
+        {
+          "en": "Vegan",
+          "he": "טבעוני"
+        }
+      ],
+      "illustration": "illustrations/74766c86-547c-405e-b4e0-eb8114eddf03.webp"
+    },
+    {
+      "id": "74c60b24-c659-42f2-96c7-af6194568228",
+      "slug": "jam-sticks",
+      "title": {
+        "en": "Jam Sticks",
+        "he": "מקלות ריבה"
+      },
+      "tags": [
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Baked Goods",
+          "he": "מאפים"
+        },
+        {
+          "en": "American",
+          "he": "אמריקאי"
+        }
+      ],
+      "illustration": "illustrations/74c60b24-c659-42f2-96c7-af6194568228.webp"
+    },
+    {
+      "id": "75139b1d-74f4-4ba3-a09a-1089267dc1f6",
+      "slug": "diet-cheesecake",
+      "title": {
+        "en": "Diet Cheesecake",
+        "he": "עוגת גבינה דיאטטית"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cheesecake",
+          "he": "עוגת גבינה"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "diet",
+          "he": "דיאטטי"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        }
+      ],
+      "illustration": "illustrations/75139b1d-74f4-4ba3-a09a-1089267dc1f6.webp"
+    },
+    {
+      "id": "78de598e-ae3d-4b28-bfdd-fe200f9a319d",
+      "slug": "date-nut-bread",
+      "title": {
+        "en": "Date - Nut Bread",
+        "he": "לחם תמרים ואגוזים"
+      },
+      "tags": [
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Baking",
+          "he": "אפייה"
+        },
+        {
+          "en": "Bread",
+          "he": "לחם"
+        },
+        {
+          "en": "Sweet",
+          "he": "מתוק"
+        }
+      ],
+      "illustration": "illustrations/78de598e-ae3d-4b28-bfdd-fe200f9a319d.webp"
+    },
+    {
+      "id": "79bf360a-8038-4d93-85d8-ecedcaeb6442",
+      "slug": "cheese-cake-with-ricotta",
+      "title": {
+        "en": "Cheese Cake with Ricotta",
+        "he": "עוגת גבינה עם ריקוטה"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cheesecake",
+          "he": "עוגת גבינה"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        },
+        {
+          "en": "holiday",
+          "he": "חג"
+        }
+      ],
+      "illustration": "illustrations/79bf360a-8038-4d93-85d8-ecedcaeb6442.webp"
+    },
+    {
+      "id": "7a54d9d6-fc79-47a6-8cee-acd2bf433f06",
+      "slug": "honey-whole-wheat-challah",
+      "title": {
+        "en": "Honey-Whole Wheat Challah",
+        "he": "חלה מדבש וקמח מלא"
+      },
+      "tags": [
+        {
+          "en": "Challah",
+          "he": "חלה"
+        },
+        {
+          "en": "Bread",
+          "he": "לחם"
+        },
+        {
+          "en": "Jewish",
+          "he": "יהודי"
+        },
+        {
+          "en": "Shabbat",
+          "he": "שבת"
+        },
+        {
+          "en": "Holiday",
+          "he": "חג"
+        },
+        {
+          "en": "Ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "Baking",
+          "he": "אפייה"
+        },
+        {
+          "en": "Whole Wheat",
+          "he": "קמח מלא"
+        }
+      ],
+      "illustration": "illustrations/7a54d9d6-fc79-47a6-8cee-acd2bf433f06.webp"
+    },
+    {
+      "id": "7a8c61c6-7685-434d-8543-feddfe80ae14",
+      "slug": "chicken-breasts",
+      "title": {
+        "en": "Chicken Breasts",
+        "he": "חזה עוף"
+      },
+      "tags": [
+        {
+          "en": "Main",
+          "he": "מנה עיקרית"
+        },
+        {
+          "en": "Meat",
+          "he": "בשרי"
+        },
+        {
+          "en": "Baked",
+          "he": "אפוי"
+        },
+        {
+          "en": "Chicken",
+          "he": "עוף"
+        }
+      ],
+      "illustration": "illustrations/7a8c61c6-7685-434d-8543-feddfe80ae14.webp"
+    },
+    {
+      "id": "7b73d91f-ef63-4b73-a579-d0d2fa8f4639",
+      "slug": "orange-nut-cake",
+      "title": {
+        "en": "Orange Nut Cake",
+        "he": "עוגת תפוזים ואגוזים"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cake",
+          "he": "עוגה"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "american",
+          "he": "אמריקאי"
+        }
+      ],
+      "illustration": "illustrations/7b73d91f-ef63-4b73-a579-d0d2fa8f4639.webp"
+    },
+    {
+      "id": "7bb68a87-0588-4285-956e-05cffc76564f",
+      "slug": "coconut-custard-pie",
+      "title": {
+        "en": "Coconut Custard Pie",
+        "he": "פאי קסטרד קוקוס"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "pie",
+          "he": "פאי"
+        },
+        {
+          "en": "american",
+          "he": "אמריקאי"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "coconut",
+          "he": "קוקוס"
+        }
+      ],
+      "illustration": "illustrations/7bb68a87-0588-4285-956e-05cffc76564f.webp"
+    },
+    {
+      "id": "7bdd9b45-c155-41dc-b095-414246ae7cf0",
+      "slug": "blueberry-muffins",
+      "title": {
+        "en": "Blueberry Muffins",
+        "he": "מאפינס אוכמניות"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        },
+        {
+          "en": "breakfast",
+          "he": "ארוחת בוקר"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "vegetarian",
+          "he": "צמחוני"
+        },
+        {
+          "en": "american",
+          "he": "אמריקאי"
+        }
+      ],
+      "illustration": "illustrations/7bdd9b45-c155-41dc-b095-414246ae7cf0.webp"
+    },
+    {
+      "id": "7cb6303a-449a-4cd6-a6bb-af949aef360e",
+      "slug": "moms-gefilte-fish",
+      "title": {
+        "en": "Mom's Gefilte Fish",
+        "he": "גפילטע פיש של אמא"
+      },
+      "tags": [
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "fish",
+          "he": "דגים"
+        },
+        {
+          "en": "main",
+          "he": "מנה עיקרית"
+        },
+        {
+          "en": "holiday",
+          "he": "חג"
+        },
+        {
+          "en": "shabbat",
+          "he": "שבת"
+        },
+        {
+          "en": "passover",
+          "he": "פסח"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        }
+      ],
+      "illustration": "illustrations/7cb6303a-449a-4cd6-a6bb-af949aef360e.webp"
+    },
+    {
+      "id": "7dc1b1d3-2d29-4bff-822d-877d57fa913a",
+      "slug": "nut-cookies",
+      "title": {
+        "en": "Nut Cookies",
+        "he": "עוגיות אגוזים"
+      },
+      "tags": [
+        {
+          "en": "cookies",
+          "he": "עוגיות"
+        },
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        }
+      ],
+      "illustration": "illustrations/7dc1b1d3-2d29-4bff-822d-877d57fa913a.webp"
+    },
+    {
+      "id": "81209a71-70fc-405b-9d69-70f61d935b5d",
+      "slug": "mocca-cake",
+      "title": {
+        "en": "Mocca Cake",
+        "he": "עוגת מוקה"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cake",
+          "he": "עוגה"
+        },
+        {
+          "en": "coffee",
+          "he": "קפה"
+        }
+      ],
+      "illustration": "illustrations/81209a71-70fc-405b-9d69-70f61d935b5d.webp"
+    },
+    {
+      "id": "81aa21a7-fa41-46b7-ad4f-180a37757af1",
+      "slug": "pie-crust",
+      "title": {
+        "en": "Pie Crust",
+        "he": "בצק פאי"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        },
+        {
+          "en": "pastry",
+          "he": "מאפה"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "sugar-free",
+          "he": "ללא סוכר"
+        }
+      ],
+      "illustration": "illustrations/81aa21a7-fa41-46b7-ad4f-180a37757af1.webp"
+    },
+    {
+      "id": "842b4078-f5d2-4f87-8988-92825b47bf0f",
+      "slug": "stuffing",
+      "title": {
+        "en": "Stuffing",
+        "he": "מילוי"
+      },
+      "tags": [
+        {
+          "en": "stuffing",
+          "he": "מילוי"
+        },
+        {
+          "en": "side dish",
+          "he": "תוספת"
+        },
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        }
+      ],
+      "illustration": "illustrations/842b4078-f5d2-4f87-8988-92825b47bf0f.webp"
+    },
+    {
+      "id": "8488216b-a451-4617-ae04-3a23874f6970",
+      "slug": "chicken-with-biscuit-topping",
+      "title": {
+        "en": "Chicken with Biscuit Topping",
+        "he": "עוף עם כיסוי ביסקוויט"
+      },
+      "tags": [
+        {
+          "en": "main",
+          "he": "מנה עיקרית"
+        },
+        {
+          "en": "meat",
+          "he": "בשרי"
+        },
+        {
+          "en": "chicken",
+          "he": "עוף"
+        },
+        {
+          "en": "american",
+          "he": "אמריקאי"
+        },
+        {
+          "en": "comfort food",
+          "he": "אוכל נוחמה"
+        },
+        {
+          "en": "baked",
+          "he": "אפוי"
+        }
+      ],
+      "illustration": "illustrations/8488216b-a451-4617-ae04-3a23874f6970.webp"
+    },
+    {
+      "id": "86514655-c418-42b9-bfd7-4639afc89b8d",
+      "slug": "salmon-puffs",
+      "title": {
+        "en": "Salmon Puffs",
+        "he": "פאפס סלמון"
+      },
+      "tags": [
+        {
+          "en": "fish",
+          "he": "דגים"
+        },
+        {
+          "en": "appetizer",
+          "he": "מנה ראשונה"
+        },
+        {
+          "en": "fried",
+          "he": "מטוגן"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        }
+      ],
+      "illustration": "illustrations/86514655-c418-42b9-bfd7-4639afc89b8d.webp"
+    },
+    {
+      "id": "868d1673-9ecb-4d90-918b-d13f2d6ab2b5",
+      "slug": "french-apple-pie",
+      "title": {
+        "en": "French Apple Pie",
+        "he": "פאי תפוחים צרפתי"
+      },
+      "tags": [
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Pie",
+          "he": "פאי"
+        },
+        {
+          "en": "Apple",
+          "he": "תפוחים"
+        },
+        {
+          "en": "Baking",
+          "he": "אפייה"
+        },
+        {
+          "en": "American",
+          "he": "אמריקאי"
+        }
+      ],
+      "illustration": "illustrations/868d1673-9ecb-4d90-918b-d13f2d6ab2b5.webp"
+    },
+    {
+      "id": "86bb1b9f-bcc9-4185-b56b-c10fe1d5a167",
+      "slug": "honey-whole-wheat-challah-jeff-smith",
+      "title": {
+        "en": "Honey Whole Wheat Challah (Jeff Smith)",
+        "he": "חלת דבש מחיטה מלאה (ג'ף סמית')"
+      },
+      "tags": [
+        {
+          "en": "Challah",
+          "he": "חלה"
+        },
+        {
+          "en": "Bread",
+          "he": "לחם"
+        },
+        {
+          "en": "Jewish",
+          "he": "יהודי"
+        },
+        {
+          "en": "Shabbat",
+          "he": "שבת"
+        },
+        {
+          "en": "Whole Wheat",
+          "he": "חיטה מלאה"
+        },
+        {
+          "en": "Baking",
+          "he": "אפייה"
+        }
+      ],
+      "illustration": "illustrations/86bb1b9f-bcc9-4185-b56b-c10fe1d5a167.webp"
+    },
+    {
+      "id": "86ec76af-9a3f-4e1e-8bb3-2a8eb3af7e72",
+      "slug": "cheese-cake",
+      "title": {
+        "en": "Cheese cake",
+        "he": "עוגת גבינה"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "no-bake",
+          "he": "ללא אפייה"
+        }
+      ],
+      "illustration": "illustrations/86ec76af-9a3f-4e1e-8bb3-2a8eb3af7e72.webp"
+    },
+    {
+      "id": "8740a5bc-abe4-4bce-89f0-fb0b5f50c952",
+      "slug": "cookies",
+      "title": {
+        "en": "Cookies",
+        "he": "עוגיות"
+      },
+      "tags": [
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Cookies",
+          "he": "עוגיות"
+        },
+        {
+          "en": "Baked Goods",
+          "he": "מאפים"
+        }
+      ],
+      "illustration": "illustrations/8740a5bc-abe4-4bce-89f0-fb0b5f50c952.webp"
+    },
+    {
+      "id": "8ab077fa-ffb3-4434-ac82-6848ea2dab28",
+      "slug": "cheesecake",
+      "title": {
+        "en": "Cheesecake",
+        "he": "עוגת גבינה"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cheesecake",
+          "he": "עוגת גבינה"
+        },
+        {
+          "en": "baked",
+          "he": "אפוי"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "shavuot",
+          "he": "שבועות"
+        }
+      ],
+      "illustration": "illustrations/8ab077fa-ffb3-4434-ac82-6848ea2dab28.webp"
+    },
+    {
+      "id": "8aef3852-2909-4e99-8d0d-fa30d0900c85",
+      "slug": "fish-chowder",
+      "title": {
+        "en": "Fish Chowder",
+        "he": "צ'אודר דגים"
+      },
+      "tags": [
+        {
+          "en": "Fish",
+          "he": "דגים"
+        },
+        {
+          "en": "Chowder",
+          "he": "צ'אודר"
+        },
+        {
+          "en": "Soup",
+          "he": "מרק"
+        },
+        {
+          "en": "Main Course",
+          "he": "מנה עיקרית"
+        },
+        {
+          "en": "Seafood",
+          "he": "פירות ים"
+        }
+      ],
+      "illustration": "illustrations/8aef3852-2909-4e99-8d0d-fa30d0900c85.webp"
+    },
+    {
+      "id": "8c1b7944-18ed-4e08-97d6-7a2efd258365",
+      "slug": "diet-lime-cake",
+      "title": {
+        "en": "Diet Lime Cake",
+        "he": "עוגת ליים דיאטטית"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cake",
+          "he": "עוגה"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "baked",
+          "he": "אפוי"
+        },
+        {
+          "en": "easy",
+          "he": "קל להכנה"
+        },
+        {
+          "en": "lime",
+          "he": "ליים"
+        }
+      ],
+      "illustration": "illustrations/8c1b7944-18ed-4e08-97d6-7a2efd258365.webp"
+    },
+    {
+      "id": "93e5d040-b8c7-460b-9588-e273cb81a9e5",
+      "slug": "roly-polys",
+      "title": {
+        "en": "Roly Polys",
+        "he": "רולי פולי"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "pastry",
+          "he": "מאפה"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        }
+      ],
+      "illustration": "illustrations/93e5d040-b8c7-460b-9588-e273cb81a9e5.webp"
+    },
+    {
+      "id": "93eaffce-71d1-44d2-bb7f-2d9f742448c8",
+      "slug": "cabbage-soup",
+      "title": {
+        "en": "Cabbage Soup",
+        "he": "מרק כרוב"
+      },
+      "tags": [
+        {
+          "en": "soup",
+          "he": "מרק"
+        },
+        {
+          "en": "vegetarian",
+          "he": "צמחוני"
+        },
+        {
+          "en": "main",
+          "he": "מנה עיקרית"
+        }
+      ],
+      "illustration": "illustrations/93eaffce-71d1-44d2-bb7f-2d9f742448c8.webp"
+    },
+    {
+      "id": "953d7d82-0f61-4207-90a1-6b647d90814f",
+      "slug": "pad-thai",
+      "title": {
+        "en": "Pad Thai",
+        "he": "פאד תאי"
+      },
+      "tags": [
+        {
+          "en": "Thai",
+          "he": "תאילנדי"
+        },
+        {
+          "en": "main",
+          "he": "מנה עיקרית"
+        },
+        {
+          "en": "stir fry",
+          "he": "מוקפץ"
+        },
+        {
+          "en": "noodles",
+          "he": "אטריות"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        }
+      ],
+      "illustration": "illustrations/953d7d82-0f61-4207-90a1-6b647d90814f.webp"
+    },
+    {
+      "id": "958829fa-541a-4914-b4c0-d6f0e7edaaec",
+      "slug": "cheese-cake",
+      "title": {
+        "en": "Cheese Cake",
+        "he": "עוגת גבינה"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "cheesecake",
+          "he": "עוגת גבינה"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        },
+        {
+          "en": "american",
+          "he": "אמריקאי"
+        }
+      ],
+      "illustration": "illustrations/958829fa-541a-4914-b4c0-d6f0e7edaaec.webp"
+    },
+    {
+      "id": "96b34ca8-9093-4749-b684-b83dee4dd0db",
+      "slug": "chicken-mushrooms",
+      "title": {
+        "en": "Chicken & Mushrooms",
+        "he": "עוף ופטריות"
+      },
+      "tags": [
+        {
+          "en": "main",
+          "he": "מנה עיקרית"
+        },
+        {
+          "en": "meat",
+          "he": "בשרי"
+        },
+        {
+          "en": "chicken",
+          "he": "עוף"
+        },
+        {
+          "en": "american",
+          "he": "אמריקאי"
+        }
+      ],
+      "illustration": "illustrations/96b34ca8-9093-4749-b684-b83dee4dd0db.webp"
+    },
+    {
+      "id": "a02ecddb-5e1a-488c-bf31-d337b2fc039a",
+      "slug": "sour-cream-cake-irenes-recipe",
+      "title": {
+        "en": "Sour Cream Cake (Irene's Recipe)",
+        "he": "עוגת שמנת חמוצה (המתכון של אירן)"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cake",
+          "he": "עוגה"
+        },
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "shabbat",
+          "he": "שבת"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        }
+      ],
+      "illustration": "illustrations/a02ecddb-5e1a-488c-bf31-d337b2fc039a.webp"
+    },
+    {
+      "id": "a0859777-7c85-4472-8210-34aa94d5b43e",
+      "slug": "peanutty-calif-sandwich",
+      "title": {
+        "en": "Peanutty-Calif Sandwich",
+        "he": "כריך קליפורני עם חמאת בוטנים"
+      },
+      "tags": [
+        {
+          "en": "sandwich",
+          "he": "כריך"
+        },
+        {
+          "en": "snack",
+          "he": "חטיף"
+        },
+        {
+          "en": "vegetarian",
+          "he": "צמחוני"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "american",
+          "he": "אמריקאי"
+        },
+        {
+          "en": "healthy",
+          "he": "בריא"
+        }
+      ],
+      "illustration": "illustrations/a0859777-7c85-4472-8210-34aa94d5b43e.webp"
+    },
+    {
+      "id": "a1d8700c-b999-4d79-8e46-cf03c5f58946",
+      "slug": "impossible-french-apple-pie",
+      "title": {
+        "en": "Impossible French Apple Pie",
+        "he": "פאי תפוחים צרפתי בלתי אפשרי"
+      },
+      "tags": [
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Pie",
+          "he": "פאי"
+        },
+        {
+          "en": "Apple",
+          "he": "תפוחים"
+        },
+        {
+          "en": "French",
+          "he": "צרפתי"
+        },
+        {
+          "en": "Baked",
+          "he": "אפוי"
+        }
+      ],
+      "illustration": "illustrations/a1d8700c-b999-4d79-8e46-cf03c5f58946.webp"
+    },
+    {
+      "id": "a4fd0cb7-61f8-4ecc-a191-b7214d59aa8d",
+      "slug": "cheese-rolls",
+      "title": {
+        "en": "Cheese Rolls",
+        "he": "רולדות גבינה"
+      },
+      "tags": [
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "pastry",
+          "he": "מאפה"
+        },
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "shavuot",
+          "he": "שבועות"
+        }
+      ],
+      "illustration": "illustrations/a4fd0cb7-61f8-4ecc-a191-b7214d59aa8d.webp"
+    },
+    {
+      "id": "a5397eec-6287-4878-b450-31f0284f75b7",
+      "slug": "jewish-apple-cake",
+      "title": {
+        "en": "Jewish Apple Cake",
+        "he": "עוגת תפוחים יהודית"
+      },
+      "tags": [
+        {
+          "en": "Jewish",
+          "he": "יהודי"
+        },
+        {
+          "en": "Ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Cake",
+          "he": "עוגה"
+        },
+        {
+          "en": "Vegetarian",
+          "he": "צמחוני"
+        },
+        {
+          "en": "Holiday",
+          "he": "חג"
+        },
+        {
+          "en": "Shabbat",
+          "he": "שבת"
+        }
+      ],
+      "illustration": "illustrations/a5397eec-6287-4878-b450-31f0284f75b7.webp"
+    },
+    {
+      "id": "a623b0b7-648c-49e3-9563-1fc0f46d697e",
+      "slug": "esthers-strudel",
+      "title": {
+        "en": "Esther's Strudel",
+        "he": "שטרודל של אסתר"
+      },
+      "tags": [
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "Baked Goods",
+          "he": "מאפים"
+        },
+        {
+          "en": "Pastry",
+          "he": "בצק"
+        }
+      ],
+      "illustration": "illustrations/a623b0b7-648c-49e3-9563-1fc0f46d697e.webp"
+    },
+    {
+      "id": "a6668af9-88d0-4e0f-bf13-aca575e9edf2",
+      "slug": "coq-au-vin",
+      "title": {
+        "en": "COQ AU VIN",
+        "he": "קוק או וין"
+      },
+      "tags": [
+        {
+          "en": "French",
+          "he": "צרפתי"
+        },
+        {
+          "en": "Main",
+          "he": "מנה עיקרית"
+        },
+        {
+          "en": "Passover",
+          "he": "פסח"
+        },
+        {
+          "en": "Meat",
+          "he": "בשרי"
+        }
+      ],
+      "illustration": "illustrations/a6668af9-88d0-4e0f-bf13-aca575e9edf2.webp"
+    },
+    {
+      "id": "a7ab2c16-7314-403e-9bb8-fe7a42e05ac1",
+      "slug": "carrot-cake",
+      "title": {
+        "en": "CARROT CAKE",
+        "he": "עוגת גזר"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cake",
+          "he": "עוגה"
+        },
+        {
+          "en": "american",
+          "he": "אמריקאי"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        }
+      ],
+      "illustration": "illustrations/a7ab2c16-7314-403e-9bb8-fe7a42e05ac1.webp"
+    },
+    {
+      "id": "a9e6a4f7-c41d-41d4-a9db-41b4d8fd4aed",
+      "slug": "lemerkuches",
+      "title": {
+        "en": "Lemerkuches",
+        "he": "למרקוצ'ס"
+      },
+      "tags": [
+        {
+          "en": "Ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Cookies",
+          "he": "עוגיות"
+        }
+      ],
+      "illustration": "illustrations/a9e6a4f7-c41d-41d4-a9db-41b4d8fd4aed.webp"
+    },
+    {
+      "id": "aa019123-cbdb-4c9a-88b4-2c169f104722",
+      "slug": "impossible-pie",
+      "title": {
+        "en": "Impossible Pie",
+        "he": "פאי בלתי אפשרי"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "pie",
+          "he": "פאי"
+        },
+        {
+          "en": "baked",
+          "he": "אפוי"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        }
+      ],
+      "illustration": "illustrations/aa019123-cbdb-4c9a-88b4-2c169f104722.webp"
+    },
+    {
+      "id": "aa2d1fff-f37b-487c-87fd-137086c9861d",
+      "slug": "mandel-broit",
+      "title": {
+        "en": "Mandel Broit",
+        "he": "מנדל ברויט"
+      },
+      "tags": [
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cookies",
+          "he": "עוגיות"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        },
+        {
+          "en": "holiday",
+          "he": "חג"
+        }
+      ],
+      "illustration": "illustrations/aa2d1fff-f37b-487c-87fd-137086c9861d.webp"
+    },
+    {
+      "id": "ad1dc04c-4755-4315-8cff-7fd536621c5a",
+      "slug": "borscht",
+      "title": {
+        "en": "Borscht",
+        "he": "בורשט"
+      },
+      "tags": [
+        {
+          "en": "soup",
+          "he": "מרק"
+        },
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "vegetarian",
+          "he": "צמחוני"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        }
+      ],
+      "illustration": "illustrations/ad1dc04c-4755-4315-8cff-7fd536621c5a.webp"
+    },
+    {
+      "id": "ad7fa6ac-c061-464d-bd6a-2ff7ed340210",
+      "slug": "chocolate-chip-cake",
+      "title": {
+        "en": "Chocolate Chip Cake",
+        "he": "עוגת שוקולד צ'יפס"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cake",
+          "he": "עוגה"
+        },
+        {
+          "en": "chocolate",
+          "he": "שוקולד"
+        },
+        {
+          "en": "american",
+          "he": "אמריקאי"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        }
+      ],
+      "illustration": "illustrations/ad7fa6ac-c061-464d-bd6a-2ff7ed340210.webp"
+    },
+    {
+      "id": "ae43b71a-9542-467c-85fe-a76619a387a6",
+      "slug": "lemon-cake",
+      "title": {
+        "en": "Lemon Cake",
+        "he": "עוגת לימון"
+      },
+      "tags": [
+        {
+          "en": "cake",
+          "he": "עוגה"
+        },
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        }
+      ],
+      "illustration": "illustrations/ae43b71a-9542-467c-85fe-a76619a387a6.webp"
+    },
+    {
+      "id": "af2c041d-9a53-4eba-bcd6-0b7f385c7aba",
+      "slug": "moms-meatballs",
+      "title": {
+        "en": "Mom's Meatballs",
+        "he": "כדורי הבשר של אמא"
+      },
+      "tags": [
+        {
+          "en": "meat",
+          "he": "בשרי"
+        },
+        {
+          "en": "main",
+          "he": "מנה עיקרית"
+        },
+        {
+          "en": "american",
+          "he": "אמריקאי"
+        },
+        {
+          "en": "holiday",
+          "he": "חג"
+        },
+        {
+          "en": "poultry",
+          "he": "עוף"
+        }
+      ],
+      "illustration": "illustrations/af2c041d-9a53-4eba-bcd6-0b7f385c7aba.webp"
+    },
+    {
+      "id": "af8daf14-b736-4f59-9504-6750ddff0f65",
+      "slug": "streusel-make-coffee-cake",
+      "title": {
+        "en": "Streusel Make (Coffee Cake)",
+        "he": "שטרוייזל (עוגת קפה)"
+      },
+      "tags": [
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Coffee Cake",
+          "he": "עוגת קפה"
+        },
+        {
+          "en": "Baked Goods",
+          "he": "מאפים"
+        },
+        {
+          "en": "Dairy",
+          "he": "חלבי"
+        }
+      ],
+      "illustration": "illustrations/af8daf14-b736-4f59-9504-6750ddff0f65.webp"
+    },
+    {
+      "id": "b5e0762e-1443-4918-b079-7912e73cb843",
+      "slug": "stuffed-roast-meat",
+      "title": {
+        "en": "Stuffed Roast Meat",
+        "he": "בשר צלי ממולא"
+      },
+      "tags": [
+        {
+          "en": "main",
+          "he": "מנה עיקרית"
+        },
+        {
+          "en": "meat",
+          "he": "בשרי"
+        },
+        {
+          "en": "roast",
+          "he": "צלי"
+        },
+        {
+          "en": "stuffed",
+          "he": "ממולא"
+        }
+      ],
+      "illustration": "illustrations/b5e0762e-1443-4918-b079-7912e73cb843.webp"
+    },
+    {
+      "id": "b6f7c130-1dc3-4b91-aa28-7b6b86b118b8",
+      "slug": "chicken-cacciatore",
+      "title": {
+        "en": "Chicken Cacciatore",
+        "he": "עוף קצ'טורה"
+      },
+      "tags": [
+        {
+          "en": "Italian",
+          "he": "איטלקי"
+        },
+        {
+          "en": "Main",
+          "he": "מנה עיקרית"
+        },
+        {
+          "en": "Meat",
+          "he": "בשרי"
+        }
+      ],
+      "illustration": "illustrations/b6f7c130-1dc3-4b91-aa28-7b6b86b118b8.webp"
+    },
+    {
+      "id": "bc4feaac-af18-4dd0-9774-4b5db870b60f",
+      "slug": "noodle-pudding",
+      "title": {
+        "en": "Noodle Pudding",
+        "he": "קוגל אטריות"
+      },
+      "tags": [
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "kugel",
+          "he": "קוגל"
+        },
+        {
+          "en": "shabbat",
+          "he": "שבת"
+        },
+        {
+          "en": "holiday",
+          "he": "חג"
+        }
+      ],
+      "illustration": "illustrations/bc4feaac-af18-4dd0-9774-4b5db870b60f.webp"
+    },
+    {
+      "id": "bed71a9b-3d62-447e-a484-cce127897da5",
+      "slug": "namis-noodle-pudding",
+      "title": {
+        "en": "Nami's Noodle Pudding",
+        "he": "קוגל אטריות של נאמי"
+      },
+      "tags": [
+        {
+          "en": "kugel",
+          "he": "קוגל"
+        },
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "shabbat",
+          "he": "שבת"
+        },
+        {
+          "en": "holiday",
+          "he": "חג"
+        },
+        {
+          "en": "baked",
+          "he": "אפייה"
+        }
+      ],
+      "illustration": "illustrations/bed71a9b-3d62-447e-a484-cce127897da5.webp"
+    },
+    {
+      "id": "bf49f3e9-1502-4bf6-9bbb-9dd7b55f3bba",
+      "slug": "yogurt-baba",
+      "title": {
+        "en": "Yogurt Baba",
+        "he": "יוגורט באבא"
+      },
+      "tags": [
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Cake",
+          "he": "עוגה"
+        },
+        {
+          "en": "Baked",
+          "he": "אפוי"
+        },
+        {
+          "en": "Dairy",
+          "he": "חלבי"
+        }
+      ],
+      "illustration": "illustrations/bf49f3e9-1502-4bf6-9bbb-9dd7b55f3bba.webp"
+    },
+    {
+      "id": "c11ded28-c22e-489f-922f-ef9563f260ac",
+      "slug": "barley-mushrooms",
+      "title": {
+        "en": "Barley & Mushrooms",
+        "he": "גריסים ופטריות"
+      },
+      "tags": [
+        {
+          "en": "side dish",
+          "he": "תוספת"
+        },
+        {
+          "en": "vegetarian",
+          "he": "צמחוני"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        },
+        {
+          "en": "grains",
+          "he": "דגנים"
+        }
+      ],
+      "illustration": "illustrations/c11ded28-c22e-489f-922f-ef9563f260ac.webp"
+    },
+    {
+      "id": "c1983893-cfb3-4b4b-a4f4-d0f9e19086d0",
+      "slug": "davids-knishes",
+      "title": {
+        "en": "David's Knishes",
+        "he": "קנישס של דיוויד"
+      },
+      "tags": [
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "side dish",
+          "he": "תוספת"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        },
+        {
+          "en": "pastry",
+          "he": "מאפה"
+        }
+      ],
+      "illustration": "illustrations/c1983893-cfb3-4b4b-a4f4-d0f9e19086d0.webp"
+    },
+    {
+      "id": "c5e51f56-5645-4138-b40c-599b03b3f976",
+      "slug": "mushroom-barley",
+      "title": {
+        "en": "Mushroom Barley",
+        "he": "שעורה עם פטריות"
+      },
+      "tags": [
+        {
+          "en": "soup",
+          "he": "מרק"
+        },
+        {
+          "en": "vegetarian",
+          "he": "צמחוני"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        },
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "shabbat",
+          "he": "שבת"
+        }
+      ],
+      "illustration": "illustrations/c5e51f56-5645-4138-b40c-599b03b3f976.webp"
+    },
+    {
+      "id": "c6c9292d-dc99-492b-b8af-464bcd5e08e8",
+      "slug": "cabbage-soup",
+      "title": {
+        "en": "Cabbage Soup",
+        "he": "מרק כרוב"
+      },
+      "tags": [
+        {
+          "en": "soup",
+          "he": "מרק"
+        },
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "vegetarian",
+          "he": "צמחוני"
+        },
+        {
+          "en": "main",
+          "he": "מנה עיקרית"
+        }
+      ],
+      "illustration": "illustrations/c6c9292d-dc99-492b-b8af-464bcd5e08e8.webp"
+    },
+    {
+      "id": "c71b49ff-e85c-4a92-903b-e8264358cdd8",
+      "slug": "madelines-broccoli-noodle-pudding",
+      "title": {
+        "en": "Madeline's Broccoli Noodle Pudding",
+        "he": "פודינג אטריות ברוקולי של מדלין"
+      },
+      "tags": [
+        {
+          "en": "kugel",
+          "he": "קוגל"
+        },
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "side dish",
+          "he": "תוספת"
+        },
+        {
+          "en": "parve",
+          "he": "פרווה"
+        },
+        {
+          "en": "shabbat",
+          "he": "שבת"
+        },
+        {
+          "en": "vegetarian",
+          "he": "צמחוני"
+        }
+      ],
+      "illustration": "illustrations/c71b49ff-e85c-4a92-903b-e8264358cdd8.webp"
+    },
+    {
+      "id": "c7f12420-662f-43bd-bad1-86ccad1ce6b9",
+      "slug": "nut-filled-cupcakes",
+      "title": {
+        "en": "Nut-Filled Cupcakes",
+        "he": "קאפקייקס במילוי אגוזים"
+      },
+      "tags": [
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Baked Goods",
+          "he": "מאפים"
+        },
+        {
+          "en": "Dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "Nuts",
+          "he": "אגוזים"
+        },
+        {
+          "en": "Cupcakes",
+          "he": "קאפקייקס"
+        }
+      ],
+      "illustration": "illustrations/c7f12420-662f-43bd-bad1-86ccad1ce6b9.webp"
+    },
+    {
+      "id": "ced306e7-705d-4571-873c-6cb23e08597d",
+      "slug": "blueberry-or-any-berry-muffins",
+      "title": {
+        "en": "Blueberry (or any Berry) Muffins",
+        "he": "מאפינס אוכמניות (או כל פרי יער)"
+      },
+      "tags": [
+        {
+          "en": "Muffins",
+          "he": "מאפינס"
+        },
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Baking",
+          "he": "אפייה"
+        },
+        {
+          "en": "American",
+          "he": "אמריקאי"
+        },
+        {
+          "en": "Dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "Vegetarian",
+          "he": "צמחוני"
+        },
+        {
+          "en": "Blueberry",
+          "he": "אוכמניות"
+        },
+        {
+          "en": "Banana",
+          "he": "בננה"
+        },
+        {
+          "en": "Apple",
+          "he": "תפוח"
+        },
+        {
+          "en": "Cinnamon",
+          "he": "קינמון"
+        }
+      ],
+      "illustration": "illustrations/ced306e7-705d-4571-873c-6cb23e08597d.webp"
+    },
+    {
+      "id": "cfc21113-a0ee-446e-901c-c0827ab8fff2",
+      "slug": "apple-cake",
+      "title": {
+        "en": "Apple Cake",
+        "he": "עוגת תפוחים"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cake",
+          "he": "עוגה"
+        },
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "holiday",
+          "he": "חג"
+        }
+      ],
+      "illustration": "illustrations/cfc21113-a0ee-446e-901c-c0827ab8fff2.webp"
+    },
+    {
+      "id": "d26f67a3-bf12-4f42-9229-b7e58cc1622a",
+      "slug": "apple-cake",
+      "title": {
+        "en": "Apple Cake",
+        "he": "עוגת תפוחים"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cake",
+          "he": "עוגה"
+        },
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        },
+        {
+          "en": "holiday",
+          "he": "חג"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        }
+      ],
+      "illustration": "illustrations/d26f67a3-bf12-4f42-9229-b7e58cc1622a.webp"
+    },
+    {
+      "id": "d332f58e-eddb-4c4f-8f7b-cb574c21661a",
+      "slug": "cheese-rolls",
+      "title": {
+        "en": "Cheese Rolls",
+        "he": "גלילות גבינה"
+      },
+      "tags": [
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "Ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "Holiday",
+          "he": "חג"
+        }
+      ],
+      "illustration": "illustrations/d332f58e-eddb-4c4f-8f7b-cb574c21661a.webp"
+    },
+    {
+      "id": "d7491b66-e4bd-4fee-9754-20ab08c5249b",
+      "slug": "carrot-soup",
+      "title": {
+        "en": "Carrot Soup",
+        "he": "מרק גזר"
+      },
+      "tags": [
+        {
+          "en": "soup",
+          "he": "מרק"
+        },
+        {
+          "en": "vegetarian",
+          "he": "צמחוני"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        },
+        {
+          "en": "easy",
+          "he": "קל"
+        },
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        }
+      ],
+      "illustration": "illustrations/d7491b66-e4bd-4fee-9754-20ab08c5249b.webp"
+    },
+    {
+      "id": "d7691316-b506-48ed-9130-6c9bf4fa8230",
+      "slug": "chicken-jardiniere",
+      "title": {
+        "en": "Chicken Jardiniere",
+        "he": "עוף ז'רדיניר"
+      },
+      "tags": [
+        {
+          "en": "main",
+          "he": "מנה עיקרית"
+        },
+        {
+          "en": "chicken",
+          "he": "עוף"
+        },
+        {
+          "en": "meat",
+          "he": "בשרי"
+        },
+        {
+          "en": "baked",
+          "he": "אפוי"
+        },
+        {
+          "en": "french",
+          "he": "צרפתי"
+        }
+      ],
+      "illustration": "illustrations/d7691316-b506-48ed-9130-6c9bf4fa8230.webp"
+    },
+    {
+      "id": "d8917656-e6ef-46f9-a57e-be7961a15d9e",
+      "slug": "cheese-blintzes",
+      "title": {
+        "en": "Cheese Blintzes",
+        "he": "בלינצ'ס גבינה"
+      },
+      "tags": [
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "breakfast",
+          "he": "ארוחת בוקר"
+        },
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "shavuot",
+          "he": "שבועות"
+        }
+      ],
+      "illustration": "illustrations/d8917656-e6ef-46f9-a57e-be7961a15d9e.webp"
+    },
+    {
+      "id": "d8aba178-c933-418c-8eb0-065c6081240e",
+      "slug": "vanilla-sugar",
+      "title": {
+        "en": "Vanilla Sugar",
+        "he": "סוכר וניל"
+      },
+      "tags": [
+        {
+          "en": "passover",
+          "he": "פסח"
+        },
+        {
+          "en": "baking basics",
+          "he": "יסודות אפייה"
+        },
+        {
+          "en": "pantry",
+          "he": "מזווה"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        },
+        {
+          "en": "holiday",
+          "he": "חג"
+        }
+      ],
+      "illustration": "illustrations/d8aba178-c933-418c-8eb0-065c6081240e.webp"
+    },
+    {
+      "id": "d9c277e0-3e81-48d0-997b-6a007517ab1f",
+      "slug": "pecan-squares",
+      "title": {
+        "en": "Pecan Squares",
+        "he": "ריבועי פקאן"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "bars",
+          "he": "חיתוכיות"
+        },
+        {
+          "en": "American",
+          "he": "אמריקאי"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        }
+      ],
+      "illustration": "illustrations/d9c277e0-3e81-48d0-997b-6a007517ab1f.webp"
+    },
+    {
+      "id": "da2fdca7-c2d5-46a2-a17e-d22c44a50fc6",
+      "slug": "black-bean-soup",
+      "title": {
+        "en": "Black Bean Soup",
+        "he": "מרק שעועית שחורה"
+      },
+      "tags": [
+        {
+          "en": "soup",
+          "he": "מרק"
+        },
+        {
+          "en": "vegetarian",
+          "he": "צמחוני"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        },
+        {
+          "en": "main",
+          "he": "מנה עיקרית"
+        }
+      ],
+      "illustration": "illustrations/da2fdca7-c2d5-46a2-a17e-d22c44a50fc6.webp"
+    },
+    {
+      "id": "df01e60b-ab55-4451-87c7-979422861b26",
+      "slug": "chocolate-raspberry-bars-david",
+      "title": {
+        "en": "Chocolate Raspberry Bars (David)",
+        "he": "חטיפי שוקולד ופטל (דוד)"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        },
+        {
+          "en": "chocolate",
+          "he": "שוקולד"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        },
+        {
+          "en": "bars",
+          "he": "חטיפים"
+        }
+      ],
+      "illustration": "illustrations/df01e60b-ab55-4451-87c7-979422861b26.webp"
+    },
+    {
+      "id": "df8ca224-8107-4db1-bb75-06da2d5de226",
+      "slug": "cheeseless-cheese-cake",
+      "title": {
+        "en": "Cheeseless Cheese Cake",
+        "he": "עוגת גבינה ללא גבינה"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "diet",
+          "he": "דיאטטי"
+        },
+        {
+          "en": "no-bake",
+          "he": "ללא אפייה"
+        }
+      ],
+      "illustration": "illustrations/df8ca224-8107-4db1-bb75-06da2d5de226.webp"
+    },
+    {
+      "id": "e0aaa4be-f1dc-47d5-8357-317eff1b47d9",
+      "slug": "carrot-cake",
+      "title": {
+        "en": "Carrot Cake",
+        "he": "עוגת גזר"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cake",
+          "he": "עוגה"
+        },
+        {
+          "en": "vegetarian",
+          "he": "צמחוני"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        }
+      ],
+      "illustration": "illustrations/e0aaa4be-f1dc-47d5-8357-317eff1b47d9.webp"
+    },
+    {
+      "id": "e0b6057a-777b-437c-84fe-1f1633e2972d",
+      "slug": "butterscotch-krunch",
+      "title": {
+        "en": "Butterscotch Krunch",
+        "he": "קראנץ' באטרסקוטש"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "no-bake",
+          "he": "ללא אפייה"
+        },
+        {
+          "en": "candy",
+          "he": "ממתקים"
+        },
+        {
+          "en": "american",
+          "he": "אמריקאי"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        }
+      ],
+      "illustration": "illustrations/e0b6057a-777b-437c-84fe-1f1633e2972d.webp"
+    },
+    {
+      "id": "e3f67e32-ee09-419b-9a68-6ed278978b6d",
+      "slug": "cinnamon-swirls-david",
+      "title": {
+        "en": "Cinnamon Swirls (David)",
+        "he": "ספירלות קינמון (דוד)"
+      },
+      "tags": [
+        {
+          "en": "cookies",
+          "he": "עוגיות"
+        },
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cinnamon",
+          "he": "קינמון"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        }
+      ],
+      "illustration": "illustrations/e3f67e32-ee09-419b-9a68-6ed278978b6d.webp"
+    },
+    {
+      "id": "e40e950c-8532-4a8b-908a-08ad0209d450",
+      "slug": "stuffing",
+      "title": {
+        "en": "Stuffing",
+        "he": "סטאפינג (מילוי)"
+      },
+      "tags": [
+        {
+          "en": "side dish",
+          "he": "תוספת"
+        },
+        {
+          "en": "vegetarian",
+          "he": "צמחוני"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        },
+        {
+          "en": "shabbat",
+          "he": "שבת"
+        },
+        {
+          "en": "holiday",
+          "he": "חג"
+        }
+      ],
+      "illustration": "illustrations/e40e950c-8532-4a8b-908a-08ad0209d450.webp"
+    },
+    {
+      "id": "e6b39113-aec3-497c-82d0-43cc9fbc6d98",
+      "slug": "carrot-pineapple-cake",
+      "title": {
+        "en": "Carrot Pineapple Cake",
+        "he": "עוגת גזר ואננס"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cake",
+          "he": "עוגה"
+        },
+        {
+          "en": "American",
+          "he": "אמריקאי"
+        },
+        {
+          "en": "vegetarian",
+          "he": "צמחוני"
+        },
+        {
+          "en": "dairy-free",
+          "he": "ללא חלב"
+        }
+      ],
+      "illustration": "illustrations/e6b39113-aec3-497c-82d0-43cc9fbc6d98.webp"
+    },
+    {
+      "id": "e6e4d105-495c-4b62-a6f0-747d58639300",
+      "slug": "herring-salad",
+      "title": {
+        "en": "Herring Salad",
+        "he": "סלט הרינג"
+      },
+      "tags": [
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "salad",
+          "he": "סלט"
+        },
+        {
+          "en": "appetizer",
+          "he": "מנה ראשונה"
+        },
+        {
+          "en": "shabbat",
+          "he": "שבת"
+        },
+        {
+          "en": "fish",
+          "he": "דגים"
+        }
+      ],
+      "illustration": "illustrations/e6e4d105-495c-4b62-a6f0-747d58639300.webp"
+    },
+    {
+      "id": "e9a2c805-b7d2-4318-8333-84fbb1c7b7cd",
+      "slug": "moms-apple-cake",
+      "title": {
+        "en": "Mom's Apple Cake",
+        "he": "עוגת תפוחים של אמא"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cake",
+          "he": "עוגה"
+        },
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "vegetarian",
+          "he": "צמחוני"
+        },
+        {
+          "en": "dairy-free",
+          "he": "ללא חלב"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        }
+      ],
+      "illustration": "illustrations/e9a2c805-b7d2-4318-8333-84fbb1c7b7cd.webp"
+    },
+    {
+      "id": "eaddf8fa-24a6-47eb-ac2f-adb9dbaf7a50",
+      "slug": "applesauce-cake",
+      "title": {
+        "en": "Applesauce Cake",
+        "he": "עוגת רסק תפוחים"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cake",
+          "he": "עוגה"
+        },
+        {
+          "en": "american",
+          "he": "אמריקאי"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        },
+        {
+          "en": "easy",
+          "he": "קל"
+        }
+      ],
+      "illustration": "illustrations/eaddf8fa-24a6-47eb-ac2f-adb9dbaf7a50.webp"
+    },
+    {
+      "id": "ed7f8c52-b554-4de1-82d9-da0796f594bf",
+      "slug": "choc-pudding-cake",
+      "title": {
+        "en": "Choc. Pudding Cake",
+        "he": "עוגת פודינג שוקולד"
+      },
+      "tags": [
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Chocolate",
+          "he": "שוקולד"
+        },
+        {
+          "en": "Microwave",
+          "he": "מיקרוגל"
+        },
+        {
+          "en": "American",
+          "he": "אמריקאי"
+        }
+      ],
+      "illustration": "illustrations/ed7f8c52-b554-4de1-82d9-da0796f594bf.webp"
+    },
+    {
+      "id": "ee3bc8c1-261d-49a7-a966-2599252ae812",
+      "slug": "cookie-exchange-guide",
+      "title": {
+        "en": "Cookie Exchange Guide",
+        "he": "מדריך החלפת עוגיות"
+      },
+      "tags": [
+        {
+          "en": "cookies",
+          "he": "עוגיות"
+        },
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "dietary guide",
+          "he": "מדריך תזונתי"
+        },
+        {
+          "en": "diabetic exchange",
+          "he": "החלפות לסוכרתיים"
+        },
+        {
+          "en": "reference",
+          "he": "עזר"
+        }
+      ],
+      "illustration": "illustrations/ee3bc8c1-261d-49a7-a966-2599252ae812.webp"
+    },
+    {
+      "id": "ef0a8e26-f4da-4c81-9ab7-87c7e5cc6445",
+      "slug": "nut-crust-crumb-crust",
+      "title": {
+        "en": "Nut Crust & Crumb Crust",
+        "he": "בסיס פאי אגוזים ובסיס פאי פירורים"
+      },
+      "tags": [
+        {
+          "en": "baking",
+          "he": "אפייה"
+        },
+        {
+          "en": "pie crust",
+          "he": "בסיס פאי"
+        },
+        {
+          "en": "vegetarian",
+          "he": "צמחוני"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "american",
+          "he": "אמריקאי"
+        }
+      ],
+      "illustration": "illustrations/ef0a8e26-f4da-4c81-9ab7-87c7e5cc6445.webp"
+    },
+    {
+      "id": "ef18a034-654b-494d-b6cf-323019ed0c16",
+      "slug": "lace-wafer-cookies",
+      "title": {
+        "en": "Lace Wafer Cookies",
+        "he": "עוגיות וופל תחרה"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cookies",
+          "he": "עוגיות"
+        },
+        {
+          "en": "American",
+          "he": "אמריקאי"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        }
+      ],
+      "illustration": "illustrations/ef18a034-654b-494d-b6cf-323019ed0c16.webp"
+    },
+    {
+      "id": "ef1fe144-c5cd-4b31-bfaf-0dc225741814",
+      "slug": "hamantaschen",
+      "title": {
+        "en": "Hamantaschen",
+        "he": "אוזני המן"
+      },
+      "tags": [
+        {
+          "en": "Jewish",
+          "he": "יהודי"
+        },
+        {
+          "en": "Purim",
+          "he": "פורים"
+        },
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Pastry",
+          "he": "מאפה"
+        }
+      ],
+      "illustration": "illustrations/ef1fe144-c5cd-4b31-bfaf-0dc225741814.webp"
+    },
+    {
+      "id": "f0380a55-e8f8-4ed6-ad96-ce1e83306789",
+      "slug": "viennese-crescents-irenes-recipe",
+      "title": {
+        "en": "Viennese Crescents (Irene's Recipe)",
+        "he": "סהרוני וינה (המתכון של אירן)"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cookies",
+          "he": "עוגיות"
+        },
+        {
+          "en": "Austrian",
+          "he": "אוסטרי"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        }
+      ],
+      "illustration": "illustrations/f0380a55-e8f8-4ed6-ad96-ce1e83306789.webp"
+    },
+    {
+      "id": "f6549b99-47fb-443e-9e13-555ec69380d3",
+      "slug": "hamantaschen",
+      "title": {
+        "en": "Hamantaschen",
+        "he": "אוזני המן"
+      },
+      "tags": [
+        {
+          "en": "Purim",
+          "he": "פורים"
+        },
+        {
+          "en": "holiday",
+          "he": "חג"
+        },
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cookies",
+          "he": "עוגיות"
+        },
+        {
+          "en": "Ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        }
+      ],
+      "illustration": "illustrations/f6549b99-47fb-443e-9e13-555ec69380d3.webp"
+    },
+    {
+      "id": "f7ec2afd-24f0-47b7-9ed5-e5f500e884ac",
+      "slug": "champagne-punch",
+      "title": {
+        "en": "Champagne Punch",
+        "he": "פאנץ' שמפניה"
+      },
+      "tags": [
+        {
+          "en": "beverage",
+          "he": "משקה"
+        },
+        {
+          "en": "party",
+          "he": "מסיבה"
+        },
+        {
+          "en": "holiday",
+          "he": "חג"
+        },
+        {
+          "en": "dairy-free",
+          "he": "ללא חלב"
+        },
+        {
+          "en": "vegetarian",
+          "he": "צמחוני"
+        }
+      ],
+      "illustration": "illustrations/f7ec2afd-24f0-47b7-9ed5-e5f500e884ac.webp"
+    },
+    {
+      "id": "fab4ce75-2de2-4129-8faf-4e474a47dd2c",
+      "slug": "cream-cheese-cake-with-fruit-topping",
+      "title": {
+        "en": "Cream Cheese Cake with Fruit Topping",
+        "he": "עוגת גבינת שמנת עם ציפוי פירות"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cheesecake",
+          "he": "עוגת גבינה"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        },
+        {
+          "en": "american",
+          "he": "אמריקאי"
+        }
+      ],
+      "illustration": "illustrations/fab4ce75-2de2-4129-8faf-4e474a47dd2c.webp"
+    },
+    {
+      "id": "fbc67d10-e05a-42e5-8c91-6bbd9aab78fe",
+      "slug": "noodle-pudding",
+      "title": {
+        "en": "Noodle Pudding",
+        "he": "קוגל אטריות"
+      },
+      "tags": [
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "shabbat",
+          "he": "שבת"
+        },
+        {
+          "en": "holiday",
+          "he": "חג"
+        },
+        {
+          "en": "pareve",
+          "he": "פרווה"
+        },
+        {
+          "en": "baked",
+          "he": "אפייה"
+        }
+      ],
+      "illustration": "illustrations/fbc67d10-e05a-42e5-8c91-6bbd9aab78fe.webp"
+    }
+  ]
+}

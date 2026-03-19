@@ -1,0 +1,126 @@
+{
+  "id": "74766c86-547c-405e-b4e0-eb8114eddf03",
+  "slug": "gazpacho",
+  "source": {
+    "scanFiles": [
+      "scans/74766c86-547c-405e-b4e0-eb8114eddf03-0.jpg"
+    ],
+    "processedAt": "2026-03-19T19:18:46.257Z"
+  },
+  "title": {
+    "en": "Gazpacho",
+    "he": "גספצ'ו"
+  },
+  "description": {
+    "en": "A refreshing cold soup, perfect for summer.",
+    "he": "מרק קר ומרענן, מושלם לקיץ."
+  },
+  "ingredients": [
+    {
+      "en": "6 tomatoes",
+      "he": "6 עגבניות",
+      "item": "tomatoes",
+      "amount": 6,
+      "unit": null
+    },
+    {
+      "en": "1 cucumber",
+      "he": "1 מלפפון",
+      "item": "cucumber",
+      "amount": 1,
+      "unit": null
+    },
+    {
+      "en": "1 red pepper",
+      "he": "1 פלפל אדום",
+      "item": "red pepper",
+      "amount": 1,
+      "unit": null
+    },
+    {
+      "en": "1 red onion",
+      "he": "1 בצל אדום",
+      "item": "red onion",
+      "amount": 1,
+      "unit": null
+    },
+    {
+      "en": "2 large garlic cloves",
+      "he": "2 שיני שום גדולות",
+      "item": "garlic cloves",
+      "amount": 2,
+      "unit": "large"
+    },
+    {
+      "en": "Parsley & oregano",
+      "he": "פטרוזיליה ואורגנו",
+      "item": "parsley & oregano",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "1/2 cup wine vinegar",
+      "he": "1/2 כוס חומץ יין",
+      "item": "wine vinegar",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "4 cups ice H₂O",
+      "he": "4 כוסות מי קרח",
+      "item": "ice water",
+      "amount": 4,
+      "unit": "cups"
+    },
+    {
+      "en": "3/4 tsp celery seed",
+      "he": "3/4 כפית זרעי סלרי",
+      "item": "celery seed",
+      "amount": 0.75,
+      "unit": "tsp"
+    },
+    {
+      "en": "3/4 tsp Tabasco",
+      "he": "3/4 כפית טבסקו",
+      "item": "Tabasco",
+      "amount": 0.75,
+      "unit": "tsp"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Puree & chill",
+      "Garnish w/ minced scallion"
+    ],
+    "he": [
+      "לטחון ולקרר",
+      "לקשט עם בצל ירוק קצוץ"
+    ]
+  },
+  "tags": [
+    {
+      "en": "Spanish",
+      "he": "ספרדי"
+    },
+    {
+      "en": "Soup",
+      "he": "מרק"
+    },
+    {
+      "en": "Cold dish",
+      "he": "מנה קרה"
+    },
+    {
+      "en": "Vegetarian",
+      "he": "צמחוני"
+    },
+    {
+      "en": "Vegan",
+      "he": "טבעוני"
+    }
+  ],
+  "illustration": "illustrations/74766c86-547c-405e-b4e0-eb8114eddf03.webp",
+  "ocrRawText": "Gazpacho\n6 tomatoes\n1 cucumber\n1 red pepper\n1 red onion\n2 large garlic cloves\nParsley & oregano\n1/2 cup wine vinegar\n4 cups ice H₂O\n3/4 tsp celery seed\n\" \" Tabasco\nPuree & chill\nGarnish w/ minced\nscallion",
+  "selectedModel": "gemini",
+  "rankingReason": "Result A is more coherent and accurate as a gazpacho recipe. It correctly captures the classic ingredients (tomatoes, cucumber, pepper, onion, garlic, vinegar, water, herbs, and spices) with proper quantities. Result B has critical errors: it lists conflicting olive oil amounts (1 tbsp and 11 tbsp to 1/2 cup), includes bread cubed (not traditional for gazpacho), misreads '2 large garlic cloves' as '1 large garlic clove', and omits the cucumber entirely. Result A's instructions are simplified but functional ('Puree & chill'), while Result B's detailed steps are based on incorrect ingredient interpretations. Both have good translations and completeness, but Result A's ingredient accuracy and recipe coherence make it significantly better."
+}

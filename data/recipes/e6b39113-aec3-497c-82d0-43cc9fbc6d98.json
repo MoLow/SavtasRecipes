@@ -1,0 +1,147 @@
+{
+  "id": "e6b39113-aec3-497c-82d0-43cc9fbc6d98",
+  "slug": "carrot-pineapple-cake",
+  "source": {
+    "scanFiles": [
+      "scans/e6b39113-aec3-497c-82d0-43cc9fbc6d98-0.jpg"
+    ],
+    "processedAt": "2026-03-19T19:22:36.658Z"
+  },
+  "title": {
+    "en": "Carrot Pineapple Cake",
+    "he": "עוגת גזר ואננס"
+  },
+  "description": {
+    "en": "A classic carrot cake with pineapple, walnuts, and cinnamon, baked in a greased tube pan.",
+    "he": "עוגת גזר קלאסית עם אננס, אגוזי מלך וקינמון, נאפית בתבנית טבעת משומנת."
+  },
+  "ingredients": [
+    {
+      "en": "2 cups sugar",
+      "he": "2 כוסות סוכר",
+      "item": "sugar",
+      "amount": 2,
+      "unit": "cup"
+    },
+    {
+      "en": "1½ cups cooking oil",
+      "he": "1½ כוסות שמן",
+      "item": "cooking oil",
+      "amount": 1.5,
+      "unit": "cup"
+    },
+    {
+      "en": "3 eggs",
+      "he": "3 ביצים",
+      "item": "eggs",
+      "amount": 3
+    },
+    {
+      "en": "1 8oz can crushed pineapple",
+      "he": "1 פחית אננס מרוסק (225 גרם)",
+      "item": "crushed pineapple",
+      "amount": 1,
+      "unit": "8oz can"
+    },
+    {
+      "en": "3 cups sifted flour",
+      "he": "3 כוסות קמח מנופה",
+      "item": "flour",
+      "amount": 3,
+      "unit": "cup"
+    },
+    {
+      "en": "2 tsp baking soda",
+      "he": "2 כפיות סודה לשתייה",
+      "item": "baking soda",
+      "amount": 2,
+      "unit": "tsp"
+    },
+    {
+      "en": "3 tsp salt",
+      "he": "3 כפיות מלח",
+      "item": "salt",
+      "amount": 3,
+      "unit": "tsp"
+    },
+    {
+      "en": "3½ cups grated raw carrots",
+      "he": "3½ כוסות גזר חי מגורר",
+      "item": "carrots",
+      "amount": 3.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1 cup raisins",
+      "he": "1 כוס צימוקים",
+      "item": "raisins",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1 cup walnuts",
+      "he": "1 כוס אגוזי מלך",
+      "item": "walnuts",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1 tsp cinnamon",
+      "he": "1 כפית קינמון",
+      "item": "cinnamon",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "1 tsp vanilla",
+      "he": "1 כפית וניל",
+      "item": "vanilla",
+      "amount": 1,
+      "unit": "tsp"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Step 1: Combine 2 cups sugar, 1½ cups cooking oil, and 3 eggs.",
+      "Step 2: Add 1 can (8oz) crushed pineapple.",
+      "Step 3: Sift together 3 cups flour, 2 tsp baking soda, and 3 tsp salt. Add to the mixture.",
+      "Step 4: Fold in 3½ cups grated raw carrots, 1 cup raisins, 1 cup walnuts, 1 tsp cinnamon, and 1 tsp vanilla.",
+      "Step 5: Pour into a greased tube pan.",
+      "Step 6: Bake at 350°F (175°C) for 70 minutes."
+    ],
+    "he": [
+      "שלב 1: מערבבים 2 כוסות סוכר, 1½ כוסות שמן ו-3 ביצים.",
+      "שלב 2: מוסיפים פחית אננס מרוסק (225 גרם).",
+      "שלב 3: מנפים יחד 3 כוסות קמח, 2 כפיות סודה לשתייה ו-3 כפיות מלח. מוסיפים לתערובת.",
+      "שלב 4: מקפלים פנימה 3½ כוסות גזר חי מגורר, 1 כוס צימוקים, 1 כוס אגוזי מלך, 1 כפית קינמון ו-1 כפית וניל.",
+      "שלב 5: יוצקים לתבנית טבעת משומנת.",
+      "שלב 6: אופים בחום 175 מעלות צלזיוס (350°F) למשך 70 דקות."
+    ]
+  },
+  "tags": [
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "cake",
+      "he": "עוגה"
+    },
+    {
+      "en": "American",
+      "he": "אמריקאי"
+    },
+    {
+      "en": "vegetarian",
+      "he": "צמחוני"
+    },
+    {
+      "en": "dairy-free",
+      "he": "ללא חלב"
+    }
+  ],
+  "illustration": "illustrations/e6b39113-aec3-497c-82d0-43cc9fbc6d98.webp",
+  "ocrRawText": "Carrot Pineapple\nCake\n2 C sugar\n1½ C cooking oil\n3 eggs\n1 8 oz can crushed\npineapple\n3 C sifted flour\n2 tsp baking soda\n3 tsp salt\n3½ C grated raw carrots\n1 C raisins\n1 C walnuts\n1 tsp cinnamon\n1 tsp vanilla\nBake 350\ngreased tube pan\n70 min",
+  "selectedModel": "claude",
+  "rankingReason": "Result B is more complete and coherent. It includes missing ingredients from the OCR (brown sugar is absent in B's raw text but present in A, suggesting A's OCR captured more), but B provides detailed step-by-step instructions while A only has a single baking instruction. Result B's ingredient amounts are more reasonable for a cake (3 cups flour vs 2, 3.5 cups carrots vs 1), and the instructions logically flow from mixing to baking. Result B also has more accurate temperature (350°F vs 325°F matching its OCR), better ingredient descriptions (e.g., '8oz can' for pineapple), and more natural Hebrew translations. The main weakness is that B's OCR doesn't capture brown sugar, but the structured recipe data and cooking instructions quality makes B substantially better overall."
+}

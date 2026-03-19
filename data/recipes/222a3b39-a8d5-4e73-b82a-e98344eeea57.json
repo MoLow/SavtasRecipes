@@ -1,0 +1,144 @@
+{
+  "id": "222a3b39-a8d5-4e73-b82a-e98344eeea57",
+  "slug": "kugel",
+  "source": {
+    "scanFiles": [
+      "scans/222a3b39-a8d5-4e73-b82a-e98344eeea57-0.jpg",
+      "scans/222a3b39-a8d5-4e73-b82a-e98344eeea57-1.jpg"
+    ],
+    "processedAt": "2026-03-19T19:26:34.127Z"
+  },
+  "title": {
+    "en": "Kugel",
+    "he": "קוגל"
+  },
+  "description": {
+    "en": "A recipe for Kugel, likely a sweet version, involving a dough made with butter, cream cheese, and flour, filled with nuts, raisins, cinnamon, and sugar.",
+    "he": "מתכון לקוגל, ככל הנראה גרסה מתוקה, הכולל בצק העשוי מחמאה, גבינת שמנת וקמח, במילוי אגוזים, צימוקים, קינמון וסוכר."
+  },
+  "ingredients": [
+    {
+      "en": "1/2 lb. Butter",
+      "he": "1/2 ליברות חמאה",
+      "item": "Butter",
+      "amount": 0.5,
+      "unit": "lb"
+    },
+    {
+      "en": "1/2 lb. Cream Cheese",
+      "he": "1/2 ליברות גבינת שמנת",
+      "item": "Cream Cheese",
+      "amount": 0.5,
+      "unit": "lb"
+    },
+    {
+      "en": "1/2 cup sour cream",
+      "he": "1/2 כוס שמנת חמוצה",
+      "item": "sour cream",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1/2 cup cold milk",
+      "he": "1/2 כוס חלב קר",
+      "item": "cold milk",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1 tsp vanilla",
+      "he": "1 כפית וניל",
+      "item": "vanilla",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "1 tsp baking powder",
+      "he": "1 כפית אבקת אפייה",
+      "item": "baking powder",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "1/2 tsp salt",
+      "he": "1/2 כפית מלח",
+      "item": "salt",
+      "amount": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "en": "1 cup sugar",
+      "he": "1 כוס סוכר",
+      "item": "sugar",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1 cup flour",
+      "he": "1 כוס קמח",
+      "item": "flour",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "nuts (for filling)",
+      "he": "אגוזים (למילוי)",
+      "item": "nuts",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "raisins (for filling)",
+      "he": "צימוקים (למילוי)",
+      "item": "raisins",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "cinnamon (for filling)",
+      "he": "קינמון (למילוי)",
+      "item": "cinnamon",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "sugar (for filling)",
+      "he": "סוכר (למילוי)",
+      "item": "sugar",
+      "amount": null,
+      "unit": null
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Combine above ingredients in a bowl & mix well.",
+      "Refrigerate for 2 hours.",
+      "Roll out very thin.",
+      "Fill with nuts, raisins & cinnamon & sugar."
+    ],
+    "he": [
+      "שלבו את המרכיבים הנ\"ל בקערה וערבבו היטב.",
+      "צננו במקרר למשך שעתיים.",
+      "רדדו דק מאוד.",
+      "מלאו באגוזים, צימוקים, קינמון וסוכר."
+    ]
+  },
+  "tags": [
+    {
+      "en": "Ashkenazi",
+      "he": "אשכנזי"
+    },
+    {
+      "en": "Dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "Dairy",
+      "he": "חלבי"
+    }
+  ],
+  "illustration": "illustrations/222a3b39-a8d5-4e73-b82a-e98344eeea57.webp",
+  "ocrRawText": "1/2 lb. Kugel\n1/2 lb. Butter\n1/2 lb. Cream Cheese\n1/2 cup sour cream\n1/2 cup cold milk\n1 tsp vanilla\n1 tsp baking powder\n1/2 tsp salt\n1 cup sugar\n1 cup flour\nnuts\nraisins\ncinnamon\n(over)\nCombine above ingredients in a\nbowl & mix well. Refrigerate\nfor 2 hours. Roll out very thin.\nFill with nuts, raisins &\ncinnamon & sugar.",
+  "selectedModel": "gemini",
+  "rankingReason": "Gemini selected (only valid result). Claude returned no result"
+}

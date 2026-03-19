@@ -1,0 +1,129 @@
+{
+  "id": "8c1b7944-18ed-4e08-97d6-7a2efd258365",
+  "slug": "diet-lime-cake",
+  "source": {
+    "scanFiles": [
+      "scans/8c1b7944-18ed-4e08-97d6-7a2efd258365-0.jpg"
+    ],
+    "processedAt": "2026-03-19T19:08:18.069Z"
+  },
+  "title": {
+    "en": "Diet Lime Cake",
+    "he": "עוגת ליים דיאטטית"
+  },
+  "description": {
+    "en": "This recipe is for a Diet Lime Cake, featuring a cottage cheese base and topped with Jello.",
+    "he": "מתכון זה הוא לעוגת ליים דיאטטית, הכוללת בסיס גבינת קוטג' ומצופה בג'לי."
+  },
+  "ingredients": [
+    {
+      "en": "1 lb cottage cheese",
+      "he": "1 ליברא גבינת קוטג'",
+      "item": "cottage cheese",
+      "amount": 1,
+      "unit": "lb"
+    },
+    {
+      "en": "1 egg",
+      "he": "1 ביצה",
+      "item": "egg",
+      "amount": 1,
+      "unit": ""
+    },
+    {
+      "en": "1/2 cup sugar",
+      "he": "1/2 כוס סוכר",
+      "item": "sugar",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1/2 cup crushed pineapple",
+      "he": "1/2 כוס אננס מרוסק",
+      "item": "crushed pineapple",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1/2 cup flour",
+      "he": "1/2 כוס קמח",
+      "item": "flour",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1 tsp vanilla",
+      "he": "1 כפית וניל",
+      "item": "vanilla",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "1 pkg Jello",
+      "he": "1 חבילת ג'לי",
+      "item": "Jello",
+      "amount": 1,
+      "unit": "pkg"
+    },
+    {
+      "en": "1/2 cup boiling water",
+      "he": "1/2 כוס מים רותחים",
+      "item": "boiling water",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1/2 cup cold water",
+      "he": "1/2 כוס מים קרים",
+      "item": "cold water",
+      "amount": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Mix all ingredients (cottage cheese, egg, sugar, crushed pineapple, flour, vanilla) together.",
+      "Pour the mixture into a 9x13 inch pan.",
+      "Bake at 350 degrees for 1/2 hour.",
+      "Prepare the Jello topping: Mix 1 package of Jello with 1/2 cup boiling water and 1/2 cup cold water.",
+      "Pour the Jello mixture over the baked cake."
+    ],
+    "he": [
+      "מערבבים את כל המרכיבים (גבינת קוטג', ביצה, סוכר, אננס מרוסק, קמח, וניל) יחד.",
+      "יוצקים את התערובת לתבנית בגודל 9x13 אינץ'.",
+      "אופים בחום של 350 מעלות (פרנהייט) למשך חצי שעה.",
+      "מכינים את ציפוי הג'לי: מערבבים 1 חבילת ג'לי עם 1/2 כוס מים רותחים ו-1/2 כוס מים קרים.",
+      "יוצקים את תערובת הג'לי מעל העוגה האפויה."
+    ]
+  },
+  "tags": [
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "cake",
+      "he": "עוגה"
+    },
+    {
+      "en": "dairy",
+      "he": "חלבי"
+    },
+    {
+      "en": "baked",
+      "he": "אפוי"
+    },
+    {
+      "en": "easy",
+      "he": "קל להכנה"
+    },
+    {
+      "en": "lime",
+      "he": "ליים"
+    }
+  ],
+  "illustration": "illustrations/8c1b7944-18ed-4e08-97d6-7a2efd258365.webp",
+  "ocrRawText": "Diet Lime Cake\n1 lb cottage cheese\n1 egg\n1/2 cup sugar\n1/2 cup crushed pineapple\n1/2 cup flour\n1 tsp vanilla\nMix all together. Pour into a\n9x13 pan. Bake 350 - 1/2 hr.\nTop with Jello. 1 pkg Jello\n1/2 cup boiling water\n1/2 cup cold water\nMix & pour over cake.",
+  "selectedModel": "gemini",
+  "rankingReason": "Result A is more complete and coherent. It includes all ingredients with proper measurements (sugar, flour) that are essential for a cake, provides detailed step-by-step instructions including pan size and baking temperature, and the recipe logic is sound. Result B has incomplete ingredients (missing sugar and flour measurements), vague instructions that skip crucial baking steps, and makes unsupported additions (ricotta, sweetener, gelatin as a main ingredient) not mentioned in the OCR text. Result A's recipe is actually executable, while Result B's would likely fail as a cake due to missing dry ingredients."
+}

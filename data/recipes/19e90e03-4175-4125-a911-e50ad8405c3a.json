@@ -1,0 +1,154 @@
+{
+  "id": "19e90e03-4175-4125-a911-e50ad8405c3a",
+  "slug": "vegetable-soup",
+  "source": {
+    "scanFiles": [
+      "scans/19e90e03-4175-4125-a911-e50ad8405c3a-0.jpg"
+    ],
+    "processedAt": "2026-03-19T19:15:26.803Z"
+  },
+  "title": {
+    "en": "Vegetable Soup",
+    "he": "מרק ירקות"
+  },
+  "description": {
+    "en": "A hearty vegetable soup with potatoes, carrots, celery, mushrooms, and herbs. The recipe includes optional additions like white wine, soy sauce, peas, and rice or pasta to thicken.",
+    "he": "מרק ירקות עשיר עם תפוחי אדמה, גזר, סלרי, פטריות ועשבי תיבול. המתכון כולל תוספות אופציונליות כמו יין לבן יבש, רוטב סויה, אפונה ואורז או פסטה לסמיכות."
+  },
+  "ingredients": [
+    {
+      "en": "1 large potato, cubed",
+      "he": "1 תפוח אדמה גדול, חתוך לקוביות",
+      "item": "potato",
+      "amount": 1,
+      "unit": "large"
+    },
+    {
+      "en": "Water",
+      "he": "מים",
+      "item": "water"
+    },
+    {
+      "en": "Salt",
+      "he": "מלח",
+      "item": "salt"
+    },
+    {
+      "en": "2 tbs margarine",
+      "he": "2 כפות מרגרינה",
+      "item": "margarine",
+      "amount": 2,
+      "unit": "tbs"
+    },
+    {
+      "en": "1 tbs olive oil",
+      "he": "1 כף שמן זית",
+      "item": "olive oil",
+      "amount": 1,
+      "unit": "tbs"
+    },
+    {
+      "en": "1 cup chopped onion",
+      "he": "1 כוס בצל קצוץ",
+      "item": "onion",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1 clove crushed garlic",
+      "he": "1 שן שום כתוש",
+      "item": "garlic",
+      "amount": 1,
+      "unit": "clove"
+    },
+    {
+      "en": "Chopped celery",
+      "he": "סלרי קצוץ",
+      "item": "celery"
+    },
+    {
+      "en": "1 large diced carrot",
+      "he": "1 גזר גדול חתוך לקוביות",
+      "item": "carrot",
+      "amount": 1,
+      "unit": "large"
+    },
+    {
+      "en": "1/2 tsp each: dill, marjoram, basil",
+      "he": "1/2 כפית מכל אחד: שמיר, מיורן, בזיליקום",
+      "item": "dill, marjoram, basil",
+      "amount": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "en": "Ground pepper",
+      "he": "פלפל שחור טחון",
+      "item": "ground pepper"
+    },
+    {
+      "en": "Chopped mushrooms",
+      "he": "פטריות קצוצות",
+      "item": "mushrooms"
+    },
+    {
+      "en": "Optional: 3/4 cup dry white wine",
+      "he": "אופציונלי: 3/4 כוס יין לבן יבש",
+      "item": "dry white wine",
+      "amount": 0.75,
+      "unit": "cup"
+    },
+    {
+      "en": "Optional: 1 tbs soy sauce",
+      "he": "אופציונלי: 1 כף רוטב סויה",
+      "item": "soy sauce",
+      "amount": 1,
+      "unit": "tbs"
+    },
+    {
+      "en": "Optional: 1 cup raw or frozen peas",
+      "he": "אופציונלי: 1 כוס אפונה טרייה או קפואה",
+      "item": "peas",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "Optional: rice or pasta to thicken",
+      "he": "אופציונלי: אורז או פסטה לסמיכות",
+      "item": "rice or pasta"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Step 1: Cube 1 large potato and place in a pot with water and salt. Boil together, covered, until potatoes are tender.",
+      "Step 2: In a separate pan, sauté oil, onions, garlic, and salt. Add remaining ingredients (margarine, celery, carrot, herbs, pepper, mushrooms) and continue cooking and stirring. When tender, about 8-10 minutes, add the entire mixture to the potatoes.",
+      "Step 3: Optionally add 3/4 cup dry white wine, 1 tbs soy sauce, 1 cup raw or frozen peas, and rice or pasta to thicken."
+    ],
+    "he": [
+      "שלב 1: חתכו תפוח אדמה גדול לקוביות והניחו בסיר עם מים ומלח. בשלו יחד, מכוסה, עד שתפוחי האדמה רכים.",
+      "שלב 2: במחבת נפרדת, טגנו בשמן את הבצל, השום והמלח. הוסיפו את שאר המרכיבים (מרגרינה, סלרי, גזר, עשבי תיבול, פלפל, פטריות) והמשיכו לבשל ולערבב. כשהירקות רכים, כ-8-10 דקות, הוסיפו את כל התערובת לתפוחי האדמה.",
+      "שלב 3: ניתן להוסיף 3/4 כוס יין לבן יבש, 1 כף רוטב סויה, 1 כוס אפונה טרייה או קפואה, ואורז או פסטה לסמיכות."
+    ]
+  },
+  "tags": [
+    {
+      "en": "soup",
+      "he": "מרק"
+    },
+    {
+      "en": "vegetarian",
+      "he": "צמחוני"
+    },
+    {
+      "en": "pareve",
+      "he": "פרווה"
+    },
+    {
+      "en": "vegetables",
+      "he": "ירקות"
+    }
+  ],
+  "illustration": "illustrations/19e90e03-4175-4125-a911-e50ad8405c3a.webp",
+  "ocrRawText": "Vegetable Soup\n\n1 large potato cubed    water    salt\nBoil together, covered, until potatos are tender\n\n2 tbs margerine                1 tbs olive oil\n1 cup chopped onion            clove crushed garlic\nsalt                           chopped celery\nlarge diced carrot             1/2 tsp ea-dill marjoram basil\nground pepper                  chopped mushrooms\n\nsaute oil, onionsd, garlic, salt. Add remaining ingredients,\ncontinue cooking and stiring. When tendser 8-10 minutes, add\nthe entire mixture to the potatos.\n\nOptional: 3/4 cup dry white wine\n         1 tbs soy sauce\n         1 cup raw or frozen peas\n         rice or pasta to thicken",
+  "selectedModel": "claude",
+  "rankingReason": "Claude selected (only valid result). Gemini result failed validation: description.en: String must contain at least 1 character(s); description.he: String must contain at least 1 character(s)"
+}

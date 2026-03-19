@@ -1,0 +1,122 @@
+{
+  "id": "fbc67d10-e05a-42e5-8c91-6bbd9aab78fe",
+  "slug": "noodle-pudding",
+  "source": {
+    "scanFiles": [
+      "scans/fbc67d10-e05a-42e5-8c91-6bbd9aab78fe-0.jpg"
+    ],
+    "processedAt": "2026-03-19T19:20:27.281Z"
+  },
+  "title": {
+    "en": "Noodle Pudding",
+    "he": "קוגל אטריות"
+  },
+  "description": {
+    "en": "A classic Ashkenazi noodle pudding (kugel) made with broad noodles, eggs, applesauce with apricots, raisins, and margarine. Baked at 350°F for 1 hour.",
+    "he": "קוגל אטריות אשכנזי קלאסי העשוי מאטריות רחבות, ביצים, רסק תפוחים עם משמשים, צימוקים ומרגרינה. נאפה ב-350°F למשך שעה."
+  },
+  "ingredients": [
+    {
+      "en": "1 lb broad noodles",
+      "he": "450 גרם אטריות רחבות",
+      "item": "broad noodles",
+      "amount": 1,
+      "unit": "lb"
+    },
+    {
+      "en": "6 eggs",
+      "he": "6 ביצים",
+      "item": "eggs",
+      "amount": 6,
+      "unit": "piece"
+    },
+    {
+      "en": "3/4 jar Mott's apples & apricots",
+      "he": "3/4 צנצנת רסק תפוחים ומשמשים של מוטס",
+      "item": "Mott's apples & apricots",
+      "amount": 0.75,
+      "unit": "jar"
+    },
+    {
+      "en": "1/2 cup sugar",
+      "he": "1/2 כוס סוכר",
+      "item": "sugar",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1/4 cup raisins",
+      "he": "1/4 כוס צימוקים",
+      "item": "raisins",
+      "amount": 0.25,
+      "unit": "cup"
+    },
+    {
+      "en": "Lemon juice",
+      "he": "מיץ לימון",
+      "item": "lemon juice"
+    },
+    {
+      "en": "1 tsp vanilla",
+      "he": "1 כפית תמצית וניל",
+      "item": "vanilla",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "1 bar melted margarine (save some for pan)",
+      "he": "חפיסת מרגרינה מומסת (לשמור קצת לתבנית)",
+      "item": "margarine",
+      "amount": 1,
+      "unit": "bar"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Step 1: Cook 1 lb broad noodles according to package directions and drain.",
+      "Step 2: Mix together 6 eggs, 3/4 jar Mott's apples & apricots, 1/2 cup sugar, 1/4 cup raisins, lemon juice, 1 tsp vanilla, and 1 bar melted margarine.",
+      "Step 3: Combine the noodles with the egg mixture.",
+      "Step 4: Grease the pan with some of the reserved melted margarine.",
+      "Step 5: Pour the mixture into the greased pan.",
+      "Step 6: Bake at 350°F for 1 hour."
+    ],
+    "he": [
+      "שלב 1: לבשל 450 גרם אטריות רחבות לפי ההוראות על האריזה ולסנן.",
+      "שלב 2: לערבב יחד 6 ביצים, 3/4 צנצנת רסק תפוחים ומשמשים, 1/2 כוס סוכר, 1/4 כוס צימוקים, מיץ לימון, 1 כפית וניל וחפיסת מרגרינה מומסת.",
+      "שלב 3: לשלב את האטריות עם תערובת הביצים.",
+      "שלב 4: לשמן את התבנית עם מעט מהמרגרינה המומסת שנשמרה בצד.",
+      "שלב 5: לשפוך את התערובת לתבנית המשומנת.",
+      "שלב 6: לאפות בתנור ב-175°C (350°F) למשך שעה."
+    ]
+  },
+  "tags": [
+    {
+      "en": "ashkenazi",
+      "he": "אשכנזי"
+    },
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "shabbat",
+      "he": "שבת"
+    },
+    {
+      "en": "holiday",
+      "he": "חג"
+    },
+    {
+      "en": "pareve",
+      "he": "פרווה"
+    },
+    {
+      "en": "baked",
+      "he": "אפייה"
+    }
+  ],
+  "illustration": "illustrations/fbc67d10-e05a-42e5-8c91-6bbd9aab78fe.webp",
+  "ocrRawText": "Noodle Pudding\n1 lb broad noodles\n6 eggs\n3/4 jar Motts apples & apricots\n1/2 cup sugar\n1/4 cup raisins\nlemon juice\n1 tsp vanilla\n1 bar melted margarine (save some\n350° for 1 hr.                for pan)",
+  "selectedModel": "claude",
+  "rankingReason": "Result B is more complete and coherent. It correctly identifies '3/4 jar Mott's apples & apricots' (a specific brand product) rather than misinterpreting it as '3/4 cup nuts, apples & apricots.' Result B also includes the lemon juice ingredient that appears in the OCR text but Result A omits. The instructions in B are detailed and practical (cooking noodles first, greasing the pan with reserved margarine), while A's instructions are oversimplified. Result B's ingredient list has 8 items matching the OCR, while A has only 7 and combines unrelated items. The Hebrew translations in B are more natural and contextually appropriate (e.g., 'רסק תפוחים' for applesauce). Result B's OCR raw text also better reflects actual handwritten recipe formatting with wrapped text."
+}

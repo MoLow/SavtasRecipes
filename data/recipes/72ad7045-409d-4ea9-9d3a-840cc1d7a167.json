@@ -1,0 +1,86 @@
+{
+  "id": "72ad7045-409d-4ea9-9d3a-840cc1d7a167",
+  "slug": "low-calorie-gelatin-dessert",
+  "source": {
+    "scanFiles": [
+      "scans/72ad7045-409d-4ea9-9d3a-840cc1d7a167-0.jpg"
+    ],
+    "processedAt": "2026-03-19T19:15:23.667Z"
+  },
+  "title": {
+    "en": "Low-Calorie Gelatin Dessert",
+    "he": "קינוח ג'לטין דל קלוריות"
+  },
+  "description": {
+    "en": "A simple, low-calorie gelatin dessert featuring strawberries and cocoa. Makes 4 servings, with each 1/4 serving equal to 84 calories. A substitution option using Alba packets is provided.",
+    "he": "קינוח ג'לטין פשוט ודל קלוריות המכיל תותים וקקאו. המתכון מניב 4 מנות, כאשר כל רבע מנה שווה ל-84 קלוריות. קיימת אפשרות החלפה באמצעות שקיות אלבה."
+  },
+  "ingredients": [
+    {
+      "en": "Gelatine, softened in 1 Tbs pineapple juice and water to make 1/2 cup liquid",
+      "he": "ג'לטין, מרוכך ב-1 כף מיץ אננס ובמים להשלמת 1/2 כוס נוזל",
+      "item": "gelatine",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "6 tsp unsweetened cocoa",
+      "he": "6 כפיות קקאו לא ממותק",
+      "item": "unsweetened cocoa",
+      "amount": 6,
+      "unit": "tsp"
+    },
+    {
+      "en": "Strawberries",
+      "he": "תותים",
+      "item": "strawberries",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "4 packets of Alba (substitution option)",
+      "he": "4 שקיות אלבה (אפשרות החלפה)",
+      "item": "Alba packets",
+      "amount": 4,
+      "unit": "pkts"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Soften gelatine in 1 Tbs pineapple juice, then add water to make a total of 1/2 cup liquid.",
+      "Add all ingredients.",
+      "Blend in a blender for 3 minutes OR beat in a mixer for 1 minute.",
+      "Pour into a pie plate.",
+      "Refrigerate for 2 hours."
+    ],
+    "he": [
+      "רככו את הג'לטין ב-1 כף מיץ אננס, ולאחר מכן הוסיפו מים להשלמת סך הכל 1/2 כוס נוזל.",
+      "הוסיפו את כל המרכיבים.",
+      "ערבבו בבלנדר במשך 3 דקות או הקציפו במיקסר במשך דקה אחת.",
+      "צקו לתבנית פאי.",
+      "קררו במקרר למשך שעתיים."
+    ]
+  },
+  "tags": [
+    {
+      "en": "Dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "Low-Calorie",
+      "he": "דל קלוריות"
+    },
+    {
+      "en": "Fruit",
+      "he": "פירותי"
+    },
+    {
+      "en": "No-Bake",
+      "he": "ללא אפייה"
+    }
+  ],
+  "illustration": "illustrations/72ad7045-409d-4ea9-9d3a-840cc1d7a167.webp",
+  "ocrRawText": "Soft gelatine in 1 Tbs pineapple juice add water to\nequal 1/2 cup.\nAdd all ingredients, Blend in Blender 3 minutes or\nBeat in mixer 1 minute Pour into pie plate refreg. 2 hrs.\nMakes 4 servings\n1/4 equal 84 Calories\n6 tsp cocoa unsweetened\nStrawberries\nSubstitution:\n4 pkts of Alba",
+  "selectedModel": "gemini",
+  "rankingReason": "Result A provides a more coherent and accurate recipe extraction. It correctly identifies the main ingredients (gelatine, cocoa, strawberries) as actual components rather than treating strawberries, cocoa, and Alba as substitution options. Result A's title 'Low-Calorie Gelatin Dessert' better captures the recipe's nature, while Result B's 'Pineapple Gelatin Pie' misses that pineapple juice is just a liquid component, not the main flavor. Result A has clearer ingredient structure with proper amounts, while Result B leaves the base gelatin amount vague. The instructions flow more logically in Result A. Result B's claim that 'the full ingredient list may have been on the reverse side' is unnecessary speculation that weakens the extraction."
+}

@@ -1,0 +1,95 @@
+{
+  "id": "e40e950c-8532-4a8b-908a-08ad0209d450",
+  "slug": "stuffing",
+  "source": {
+    "scanFiles": [
+      "scans/e40e950c-8532-4a8b-908a-08ad0209d450-0.jpg"
+    ],
+    "processedAt": "2026-03-19T19:10:26.999Z"
+  },
+  "title": {
+    "en": "Stuffing",
+    "he": "סטאפינג (מילוי)"
+  },
+  "description": {
+    "en": "A simple vegetable stuffing loaf made with whole wheat flour, celery, carrots, and onion, wrapped in aluminum foil and baked.",
+    "he": "כיכר מילוי פשוטה מקמח מלא, סלרי, גזר ובצל, עטופה בנייר אלומיניום ואפויה בתנור."
+  },
+  "ingredients": [
+    {
+      "en": "2 celery",
+      "he": "2 סלרי",
+      "item": "celery",
+      "amount": 2
+    },
+    {
+      "en": "2 carrots",
+      "he": "2 גזרים",
+      "item": "carrots",
+      "amount": 2
+    },
+    {
+      "en": "1 onion",
+      "he": "1 בצל",
+      "item": "onion",
+      "amount": 1
+    },
+    {
+      "en": "1/2 cup oil",
+      "he": "1/2 כוס שמן",
+      "item": "oil",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "2 cups whole wheat flour",
+      "he": "2 כוסות קמח מלא",
+      "item": "whole wheat flour",
+      "amount": 2,
+      "unit": "cup"
+    },
+    {
+      "en": "Salt & pepper",
+      "he": "מלח ופלפל",
+      "item": "salt & pepper"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Grind up fine.",
+      "Make loaf and wrap in aluminium foil.",
+      "Bake at 325°F."
+    ],
+    "he": [
+      "לטחון דק.",
+      "לעצב ככיכר ולעטוף בנייר אלומיניום.",
+      "לאפות ב-325°F (כ-160°C)."
+    ]
+  },
+  "tags": [
+    {
+      "en": "side dish",
+      "he": "תוספת"
+    },
+    {
+      "en": "vegetarian",
+      "he": "צמחוני"
+    },
+    {
+      "en": "pareve",
+      "he": "פרווה"
+    },
+    {
+      "en": "shabbat",
+      "he": "שבת"
+    },
+    {
+      "en": "holiday",
+      "he": "חג"
+    }
+  ],
+  "illustration": "illustrations/e40e950c-8532-4a8b-908a-08ad0209d450.webp",
+  "ocrRawText": "Stuffing\n2 Celery          2 Carrots\n1 Onion           1/2 c Oil\n2c Whole Wheat Flour    Salt & Pepper\n\nGrind up fine. Make loaf & wrap in aluminium\nfoil. Bake 325°F",
+  "selectedModel": "claude",
+  "rankingReason": "Result B has superior OCR accuracy (correctly captures the two-column layout of ingredients), more natural and contextually appropriate Hebrew translations (includes 'pareve' and 'Shabbat' tags relevant to kosher cooking), better description coherence, and more polished instruction formatting. Result A includes 'Whole Wheat Flour' in the description as a key ingredient detail, but Result B's overall execution across all evaluation criteria is more refined and accurate."
+}

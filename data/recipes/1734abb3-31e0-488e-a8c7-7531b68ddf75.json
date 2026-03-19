@@ -1,0 +1,196 @@
+{
+  "id": "1734abb3-31e0-488e-a8c7-7531b68ddf75",
+  "slug": "apple-raisin-cake",
+  "source": {
+    "scanFiles": [
+      "scans/1734abb3-31e0-488e-a8c7-7531b68ddf75-0.jpg",
+      "scans/1734abb3-31e0-488e-a8c7-7531b68ddf75-1.jpg"
+    ],
+    "processedAt": "2026-03-19T19:26:16.223Z"
+  },
+  "title": {
+    "en": "Apple Raisin Cake",
+    "he": "עוגת תפוחים וצימוקים"
+  },
+  "description": {
+    "en": "A cake with apples, raisins, and walnuts, topped with a brown sugar frosting.",
+    "he": "עוגה עם תפוחים, צימוקים ואגוזי מלך, בציפוי קרם סוכר חום."
+  },
+  "ingredients": [
+    {
+      "en": "1/3 cup margarine",
+      "he": "1/3 כוס מרגרינה",
+      "item": "margarine",
+      "amount": 0.33,
+      "unit": "cup"
+    },
+    {
+      "en": "1/3 cup packed brown sugar",
+      "he": "1/3 כוס סוכר חום דחוס",
+      "item": "packed brown sugar",
+      "amount": 0.33,
+      "unit": "cup"
+    },
+    {
+      "en": "2 eggs",
+      "he": "2 ביצים",
+      "item": "eggs",
+      "amount": 2,
+      "unit": null
+    },
+    {
+      "en": "1 tsp vanilla",
+      "he": "1 כפית תמצית וניל",
+      "item": "vanilla",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "2 cups flour",
+      "he": "2 כוסות קמח",
+      "item": "flour",
+      "amount": 2,
+      "unit": "cup"
+    },
+    {
+      "en": "1 tsp cinnamon",
+      "he": "1 כפית קינמון",
+      "item": "cinnamon",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "3/4 tsp baking soda",
+      "he": "3/4 כפית סודה לשתייה",
+      "item": "baking soda",
+      "amount": 0.75,
+      "unit": "tsp"
+    },
+    {
+      "en": "1 tsp baking powder",
+      "he": "1 כפית אבקת אפייה",
+      "item": "baking powder",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "1 cup milk",
+      "he": "1 כוס חלב",
+      "item": "milk",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "2 cups finely chopped peeled apples",
+      "he": "2 כוסות תפוחים קלופים קצוצים דק",
+      "item": "finely chopped peeled apples",
+      "amount": 2,
+      "unit": "cup"
+    },
+    {
+      "en": "1 cup raisins",
+      "he": "1 כוס צימוקים",
+      "item": "raisins",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1 cup chopped walnuts",
+      "he": "1 כוס אגוזי מלך קצוצים",
+      "item": "chopped walnuts",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "Brown Sugar Frosting:",
+      "he": "לציפוי סוכר חום:",
+      "item": "Brown Sugar Frosting",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "1 cup packed brown sugar",
+      "he": "1 כוס סוכר חום דחוס",
+      "item": "packed brown sugar",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1/2 cup margarine",
+      "he": "1/2 כוס מרגרינה",
+      "item": "margarine",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1 cup milk",
+      "he": "1 כוס חלב",
+      "item": "milk",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "3 cups sifted confectioners sugar",
+      "he": "3 כוסות אבקת סוכר מנופה",
+      "item": "sifted confectioners sugar",
+      "amount": 3,
+      "unit": "cup"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Combine margarine and sugar.",
+      "Blend in eggs and vanilla.",
+      "Add combined dry ingredients alternately with milk, mixing well after each addition.",
+      "Pour in apples, raisins and nuts.",
+      "Pour into greased and floured 13x9 baking pan.",
+      "Bake at 350 degrees for 40 to 45 minutes.",
+      "Cool before frosting.",
+      "Brown Sugar Frosting:",
+      "Combine margarine and brown sugar in a saucepan and bring to a boil.",
+      "Cook for 1 minute.",
+      "Remove from heat.",
+      "Cool slightly.",
+      "Stir in milk and confectioners sugar.",
+      "Beat until smooth and spread on the cooled cake."
+    ],
+    "he": [
+      "שלבו מרגרינה וסוכר.",
+      "ערבבו פנימה ביצים ותמצית וניל.",
+      "הוסיפו את החומרים היבשים המשולבים לסירוגין עם החלב, וערבבו היטב לאחר כל הוספה.",
+      "שפכו פנימה תפוחים, צימוקים ואגוזים.",
+      "שפכו לתבנית אפייה בגודל 13x9 אינץ' משומנת ומקומחת.",
+      "אפו ב-350 מעלות (פרנהייט) למשך 40 עד 45 דקות.",
+      "צננו לפני הציפוי.",
+      "לציפוי סוכר חום:",
+      "שלבו מרגרינה וסוכר חום בסיר והביאו לרתיחה.",
+      "בשלו במשך דקה אחת.",
+      "הסירו מהאש.",
+      "צננו מעט.",
+      "ערבבו פנימה חלב ואבקת סוכר.",
+      "הקציפו עד לקבלת תערובת חלקה ומרחו על העוגה המצוננת."
+    ]
+  },
+  "tags": [
+    {
+      "en": "Dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "Cake",
+      "he": "עוגה"
+    },
+    {
+      "en": "American",
+      "he": "אמריקאי"
+    },
+    {
+      "en": "Dairy",
+      "he": "חלבי"
+    }
+  ],
+  "illustration": "illustrations/1734abb3-31e0-488e-a8c7-7531b68ddf75.webp",
+  "ocrRawText": "APPLE RAISIN CAKE\n1/3 cup margarine\n1/3 cup packed brown sugar\n2 eggs\n1 tsp vanilla\n2 cups flour\n1 tsp cinnamon\n3/4 tsp baking soda\n1 tsp baking powder\n1 cup milk\n2 cups finely chopped peeled apples\n1 cup raisins\n1 cup chopped walnuts\nBrown Sugar Frosting\nCombine margerin and sugar. Blend in eggs\nand vanilla. Add combined dry ingredients\nalternately with milk mixing well after\neach addition. Pour in apples, raisins\nand nuts. Pour into greased and floured\n13x9 baking pan. Bake 350 degrees\n40 to 45 min. Cool frost\nBrown Sugar Frosting\n1 cup packed brown sugar\n1/2 cup margarine\n1 cup milk\n3 cups sifted confectioners sugar\nCombine margarine and brown sugar in sauce\npan bring to boil. Cook 1 min. remove\nfrom heat. Cool slightly. stir in milk and con\nfectioners sugar. Beat until smooth and spread",
+  "selectedModel": "gemini",
+  "rankingReason": "Gemini selected (only valid result). Claude returned no result"
+}

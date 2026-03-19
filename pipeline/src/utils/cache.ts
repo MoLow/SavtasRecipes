@@ -46,6 +46,7 @@ export async function cached<T>(
     return JSON.parse(readFileSync(cachePath, "utf-8")) as T;
   }
 
+  console.log(`Cache miss for key: ${key}, namespace: ${namespace}`);
   const result = await fn();
   writeFileSync(cachePath, JSON.stringify(result) + "\n");
   return result;

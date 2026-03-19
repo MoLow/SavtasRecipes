@@ -1,0 +1,160 @@
+{
+  "id": "8aef3852-2909-4e99-8d0d-fa30d0900c85",
+  "slug": "fish-chowder",
+  "source": {
+    "scanFiles": [
+      "scans/8aef3852-2909-4e99-8d0d-fa30d0900c85-0.jpg"
+    ],
+    "processedAt": "2026-03-19T19:10:34.060Z"
+  },
+  "title": {
+    "en": "Fish Chowder",
+    "he": "צ'אודר דגים"
+  },
+  "description": {
+    "en": "A hearty fish chowder recipe. It involves making a fish stock from fish heads and vegetables, then combining it with a milk base, thickened with butter and flour. Note: The recipe specifies '6oz 1 stick butter' for thickening; a standard stick of butter is 4oz, so 6oz would be 1.5 sticks. We've interpreted this as 6oz of butter.",
+    "he": "מתכון לצ'אודר דגים עשיר. המתכון כולל הכנת ציר דגים מראשי דגים וירקות, שילובו עם בסיס חלב, והסמכה עם חמאה וקמח. הערה: המתכון מציין '6oz 1 stick butter' להסמכה; מקל חמאה סטנדרטי הוא 4 אונקיות, כך ש-6 אונקיות יהיו מקל וחצי. פירשנו זאת כ-6 אונקיות חמאה."
+  },
+  "ingredients": [
+    {
+      "en": "Fish Heads (boiled down)",
+      "he": "ראשי דגים (מבושלים ומצומצמים)",
+      "item": "Fish Heads",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "Celery",
+      "he": "סלרי",
+      "item": "Celery",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "Carrots",
+      "he": "גזרים",
+      "item": "Carrots",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "Onion",
+      "he": "בצל",
+      "item": "Onion",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "Milk base",
+      "he": "בסיס חלב",
+      "item": "Milk",
+      "amount": 2,
+      "unit": "pints"
+    },
+    {
+      "en": "Salt",
+      "he": "מלח",
+      "item": "Salt",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "Pepper",
+      "he": "פלפל",
+      "item": "Pepper",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "Butter",
+      "he": "חמאה",
+      "item": "Butter",
+      "amount": 6,
+      "unit": "oz"
+    },
+    {
+      "en": "Flour",
+      "he": "קמח",
+      "item": "Flour",
+      "amount": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "en": "Potatoes (cubed)",
+      "he": "תפוחי אדמה (חתוכים לקוביות)",
+      "item": "Potatoes",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "Celery (cubed)",
+      "he": "סלרי (חתוך לקוביות)",
+      "item": "Celery",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "Carrots (cubed)",
+      "he": "גזרים (חתוכים לקוביות)",
+      "item": "Carrots",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "Onion (cubed)",
+      "he": "בצל (חתוך לקוביות)",
+      "item": "Onion",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "Fish",
+      "he": "דגים",
+      "item": "Fish",
+      "amount": null,
+      "unit": null
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Prepare the Fish Stock: Combine fish heads, celery, carrots, and onion. Boil for 1 hour, then drain to get the stock.",
+      "Prepare the Chowder Base: In a separate pot, prepare a milk base (2 pints) and season with salt and pepper.",
+      "Thicken the Base: To thicken the chowder, melt 6 oz of butter. Stir in 1 tablespoon of flour to create a roux. Add this roux to the milk base, stirring until thickened.",
+      "Cook Vegetables: Cube potatoes, celery, carrots, and onion. Add them to the thickened chowder base and simmer for 15-20 minutes until tender.",
+      "Add Fish: Finally, add the fish to the chowder and cook for 10 minutes, or until the fish is cooked through."
+    ],
+    "he": [
+      "הכנת ציר הדגים: שלבו ראשי דגים, סלרי, גזר ובצל. בשלו במשך שעה, ואז סננו לקבלת הציר.",
+      "הכנת בסיס הצ'אודר: בסיר נפרד, הכינו בסיס חלב (2 פינטות) ותבלו במלח ופלפל.",
+      "הסמכת הבסיס: כדי להסמיך את הצ'אודר, המיסו 6 אונקיות (כ-170 גרם) חמאה. ערבבו פנימה 1 כף קמח ליצירת רוטב רו (roux). הוסיפו את הרוטב הזה לבסיס החלב, וערבבו עד להסמכה.",
+      "בישול הירקות: חתכו תפוחי אדמה, סלרי, גזר ובצל לקוביות. הוסיפו אותם לבסיס הצ'אודר המוסמך ובשלו על אש קטנה (סימרו) במשך 15-20 דקות עד שהם רכים.",
+      "הוספת הדגים: לבסוף, הוסיפו את הדגים לצ'אודר ובשלו במשך 10 דקות, או עד שהדגים מבושלים היטב."
+    ]
+  },
+  "tags": [
+    {
+      "en": "Fish",
+      "he": "דגים"
+    },
+    {
+      "en": "Chowder",
+      "he": "צ'אודר"
+    },
+    {
+      "en": "Soup",
+      "he": "מרק"
+    },
+    {
+      "en": "Main Course",
+      "he": "מנה עיקרית"
+    },
+    {
+      "en": "Seafood",
+      "he": "פירות ים"
+    }
+  ],
+  "illustration": "illustrations/8aef3852-2909-4e99-8d0d-fa30d0900c85.webp",
+  "ocrRawText": "Fish Chowder\nFish Heads (boiled down)\nCelery\nCarrots\nOnion\nMilk base (2pt) (salt + pepper)\nBoil 1 hr, drain\nstock\nto thicken,\n6oz 1 stick butter\n& 1T flour\nCube potatoes, celery, carrots, onion,\nSimmer 15-20 mins\nAdd fish, cook 10 mins",
+  "selectedModel": "gemini",
+  "rankingReason": "Result A is more complete and coherent. It properly distinguishes between stock-making vegetables (fish heads, celery, carrots, onion for boiling) and the final vegetables (potatoes, celery, carrots, onion cubed for the chowder), listing them as separate ingredients. Result A correctly interprets '6oz 1 stick butter' as 6oz of butter with an explanatory note, while Result B oversimplifies to just '1 stick butter,' losing important information. Result A's instructions are clearer and more logical (prepare stock, prepare milk base separately, then thicken and combine). Result B has a critical error claiming to boil for '2 hours' when the handwriting clearly says '1 hour,' and its instruction to 'fry 1 stick butter' is less precise than Result A's roux-making approach. Result A's ingredient list is more thorough with proper amounts (2 pints milk, 1 tablespoon flour). Both have good Hebrew translations, but Result A's overall accuracy and completeness make it superior."
+}

@@ -1,0 +1,118 @@
+{
+  "id": "039e2367-e16f-49aa-8b8b-65150ba912e6",
+  "slug": "peach-cobbler",
+  "source": {
+    "scanFiles": [
+      "scans/039e2367-e16f-49aa-8b8b-65150ba912e6-0.jpg"
+    ],
+    "processedAt": "2026-03-19T19:20:57.730Z"
+  },
+  "title": {
+    "en": "Peach Cobbler",
+    "he": "קובלר אפרסקים"
+  },
+  "description": {
+    "en": "A quick and easy peach cobbler recipe, likely prepared in a microwave.",
+    "he": "מתכון מהיר וקל לקובלר אפרסקים, ככל הנראה מוכן במיקרוגל."
+  },
+  "ingredients": [
+    {
+      "en": "1 can peach pie filling",
+      "he": "1 קופסת מילוי פאי אפרסקים",
+      "item": "peach pie filling",
+      "amount": 1,
+      "unit": "can"
+    },
+    {
+      "en": "1/4 tsp nutmeg",
+      "he": "1/4 כפית אגוז מוסקט",
+      "item": "nutmeg",
+      "amount": 0.25,
+      "unit": "tsp"
+    },
+    {
+      "en": "1 C. Bisquick",
+      "he": "1 כוס ביסקוויק",
+      "item": "Bisquick",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1/4 C. milk",
+      "he": "1/4 כוס חלב",
+      "item": "milk",
+      "amount": 0.25,
+      "unit": "cup"
+    },
+    {
+      "en": "1 Tbsp sugar",
+      "he": "1 כף סוכר",
+      "item": "sugar",
+      "amount": 1,
+      "unit": "Tbsp"
+    },
+    {
+      "en": "1 Tbsp marg. softened",
+      "he": "1 כף מרגרינה רכה",
+      "item": "margarine, softened",
+      "amount": 1,
+      "unit": "Tbsp"
+    },
+    {
+      "en": "2 Tbsp slivered nuts",
+      "he": "2 כפות שבבי שקדים",
+      "item": "slivered nuts",
+      "amount": 2,
+      "unit": "Tbsp"
+    },
+    {
+      "en": "cinnamon",
+      "he": "קינמון",
+      "item": "cinnamon",
+      "amount": null,
+      "unit": null
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Mix pie filling + nutmeg.",
+      "Nuke on 70% - 4 min. Stir.",
+      "Mix rest of ingredients.",
+      "Drop by spoonfuls onto hot peach mixture.",
+      "Nuke - med hi 7 min.",
+      "Rotate - nuke 2-5 min.",
+      "Let stand 10 min."
+    ],
+    "he": [
+      "מערבבים את מילוי הפאי ואגוז המוסקט.",
+      "מחממים במיקרוגל בעוצמה של 70% למשך 4 דקות. מערבבים.",
+      "מערבבים את שאר המרכיבים.",
+      "מטפטפים בכפות על תערובת האפרסקים החמה.",
+      "מחממים במיקרוגל בעוצמה בינונית-גבוהה למשך 7 דקות.",
+      "מסובבים ומחממים במיקרוגל למשך 2-5 דקות נוספות.",
+      "מניחים לעמוד למשך 10 דקות."
+    ]
+  },
+  "tags": [
+    {
+      "en": "Dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "Microwave",
+      "he": "מיקרוגל"
+    },
+    {
+      "en": "Peach",
+      "he": "אפרסק"
+    },
+    {
+      "en": "Cobbler",
+      "he": "קובלר"
+    }
+  ],
+  "illustration": "illustrations/039e2367-e16f-49aa-8b8b-65150ba912e6.webp",
+  "ocrRawText": "Peach Cobbler\n1 can peach pie filling\n1/4 tsp nutmeg\n1 C. Bisquick\n1/4 C. milk\n1 Tbsp sugar\n1\" marg. softened\n2\" slivered nuts\ncinnamon\nmix pie filling + nutmeg\nnuke on 70% - 4 min. Stir.\nmix rest of ingredients\ndrop by spoonfuls onto\nhot peach mixture.\nnuke - med hi 7 min.\nrotate - nuke 2-5 min\nLet stand 10 min",
+  "selectedModel": "gemini",
+  "rankingReason": "Result A is significantly better. The OCR raw text in A is clean and plausible, accurately capturing a microwave peach cobbler recipe. Result A's ingredients are correct (1 C Bisquick, 1/4 C milk, 1 Tbsp sugar, 1 Tbsp margarine, nutmeg, cinnamon) and the instructions are coherent microwave cooking steps. Result B's extraction is severely flawed: the OCR shows garbled handwriting ('bea ?', 'dry but peach mixture', 'hang 10 min'), and the extracted ingredients are completely wrong (flour, quick mix, vinegar, egg, butter - none of which appear in the source). Result B also fundamentally misidentified the cooking method as oven-baking at 350°F when the recipe clearly states 'nuke' (microwave). Result A correctly preserves the microwave cooking method throughout. While both have identical titles and similar tags, Result A's accurate ingredient extraction and coherent instructions make it objectively superior."
+}

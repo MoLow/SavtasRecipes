@@ -1,0 +1,130 @@
+{
+  "id": "380c3a65-55fd-4d66-8200-cb4a396034ef",
+  "slug": "almond-chocolate-chip-bread",
+  "source": {
+    "scanFiles": [
+      "scans/380c3a65-55fd-4d66-8200-cb4a396034ef-0.jpg"
+    ],
+    "processedAt": "2026-03-19T19:11:53.231Z"
+  },
+  "title": {
+    "en": "Almond Chocolate Chip Bread",
+    "he": "לחם שקדים ושוקולד צ'יפס"
+  },
+  "description": {
+    "en": "A sweet bread machine recipe with chocolate chips and chopped almonds, using a sweet or basic cycle.",
+    "he": "מתכון ללחם מתוק במכונת לחם עם שבבי שוקולד ושקדים קצוצים, במצב מתוק או בסיסי."
+  },
+  "ingredients": [
+    {
+      "en": "1 cup + 2 tablespoons water",
+      "he": "1 כוס + 2 כפות מים",
+      "item": "water",
+      "amount": 1.125,
+      "unit": "cup"
+    },
+    {
+      "en": "2 tablespoons margarine or butter",
+      "he": "2 כפות מרגרינה או חמאה",
+      "item": "margarine or butter",
+      "amount": 2,
+      "unit": "tablespoon"
+    },
+    {
+      "en": "1/2 teaspoon vanilla",
+      "he": "1/2 כפית וניל",
+      "item": "vanilla",
+      "amount": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "en": "3 cups flour",
+      "he": "3 כוסות קמח",
+      "item": "flour",
+      "amount": 3,
+      "unit": "cup"
+    },
+    {
+      "en": "3/4 cup chocolate chips",
+      "he": "3/4 כוס שבבי שוקולד",
+      "item": "chocolate chips",
+      "amount": 0.75,
+      "unit": "cup"
+    },
+    {
+      "en": "3 tablespoons sugar",
+      "he": "3 כפות סוכר",
+      "item": "sugar",
+      "amount": 3,
+      "unit": "tablespoon"
+    },
+    {
+      "en": "1 tablespoon dry milk",
+      "he": "1 כף חלב מיובש",
+      "item": "dry milk",
+      "amount": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "en": "3/4 teaspoon salt",
+      "he": "3/4 כפית מלח",
+      "item": "salt",
+      "amount": 0.75,
+      "unit": "teaspoon"
+    },
+    {
+      "en": "1 1/2 teaspoons yeast",
+      "he": "1 1/2 כפיות שמרים",
+      "item": "yeast",
+      "amount": 1.5,
+      "unit": "teaspoon"
+    },
+    {
+      "en": "1/3 cup chopped almonds",
+      "he": "1/3 כוס שקדים קצוצים",
+      "item": "chopped almonds",
+      "amount": 0.33,
+      "unit": "cup"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Add all ingredients except almonds and chocolate chips to the bread machine.",
+      "Select sweet or basic cycle.",
+      "Add almonds 5-10 minutes before last knead ends. Don't delay.",
+      "Add chocolate chips at the same stage or as directed by your machine."
+    ],
+    "he": [
+      "הוסיפו את כל המרכיבים למכונת הלחם, מלבד השקדים ושבבי השוקולד.",
+      "בחרו במצב מתוק או בסיסי.",
+      "הוסיפו את השקדים 5-10 דקות לפני סוף הלישה האחרונה. אל תעכבו.",
+      "הוסיפו את שבבי השוקולד באותו שלב או לפי הוראות המכונה."
+    ]
+  },
+  "tags": [
+    {
+      "en": "bread",
+      "he": "לחם"
+    },
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "bread machine",
+      "he": "מכונת לחם"
+    },
+    {
+      "en": "dairy",
+      "he": "חלבי"
+    },
+    {
+      "en": "sweet",
+      "he": "מתוק"
+    }
+  ],
+  "illustration": "illustrations/380c3a65-55fd-4d66-8200-cb4a396034ef.webp",
+  "ocrRawText": "Almond choc. chip bread\n1C+2T water\n2T marg or butter\n1/2 tsp vanilla\n3C flour\n3/4C choc. chips\n3T sugar\n1T dry milk\n3/4 tsp salt\n1 1/2 tsp yeast\n* 1/3C chopped almonds\nSweet or basic cycle\n* Add almonds 5-10 min. before last knead ends don't delay",
+  "selectedModel": "claude",
+  "rankingReason": "Result B is better because: (1) It includes the critical 'don't delay' instruction that appears in the OCR raw text but was omitted from Result A's instructions, making the recipe more complete and accurate. (2) Result B's instructions are more logically organized and clearer about when to add chocolate chips. (3) Result B's Hebrew translation uses more natural phrasing ('חלב מיובש' vs 'אבקת חלב' for dry milk, 'שבבי שוקולד' vs 'שוקולד צ'יפס'). (4) While both have similar completeness and ingredient accuracy, Result B better captures the nuance and urgency of the original handwritten instructions. (5) Result B's unit consistency is slightly better (uses 'tablespoon' singular form consistently in some ingredients)."
+}

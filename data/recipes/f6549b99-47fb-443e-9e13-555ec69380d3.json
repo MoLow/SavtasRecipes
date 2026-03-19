@@ -1,0 +1,130 @@
+{
+  "id": "f6549b99-47fb-443e-9e13-555ec69380d3",
+  "slug": "hamantaschen",
+  "source": {
+    "scanFiles": [
+      "scans/f6549b99-47fb-443e-9e13-555ec69380d3-0.jpg"
+    ],
+    "processedAt": "2026-03-19T19:10:29.841Z"
+  },
+  "title": {
+    "en": "Hamantaschen",
+    "he": "אוזני המן"
+  },
+  "description": {
+    "en": "Traditional Purim cookies filled with lekvar or apricot butter, shaped into triangles. Chocolate chips can also be used as filling. Yields about 20 cookies.",
+    "he": "עוגיות פורים מסורתיות ממולאות בלקוואר או חמאת משמש, מעוצבות בצורת משולשים. אפשר גם למלא בשוקולד צ'יפס. התפוקה כ-20 עוגיות."
+  },
+  "ingredients": [
+    {
+      "en": "1 1/3 cups flour",
+      "he": "1 1/3 כוסות קמח",
+      "item": "flour",
+      "amount": 1.33,
+      "unit": "cups"
+    },
+    {
+      "en": "1 1/2 tsp. baking powder",
+      "he": "1 1/2 כפיות אבקת אפייה",
+      "item": "baking powder",
+      "amount": 1.5,
+      "unit": "tsp"
+    },
+    {
+      "en": "1/4 cup margarine",
+      "he": "1/4 כוס מרגרינה",
+      "item": "margarine",
+      "amount": 0.25,
+      "unit": "cup"
+    },
+    {
+      "en": "1/4 cup sugar",
+      "he": "1/4 כוס סוכר",
+      "item": "sugar",
+      "amount": 0.25,
+      "unit": "cup"
+    },
+    {
+      "en": "1 tsp. vanilla flavoring",
+      "he": "1 כפית תמצית וניל",
+      "item": "vanilla flavoring",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "1 tsp. almond flavoring",
+      "he": "1 כפית תמצית שקדים",
+      "item": "almond flavoring",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "1/8 tsp. salt",
+      "he": "1/8 כפית מלח",
+      "item": "salt",
+      "amount": 0.125,
+      "unit": "tsp"
+    },
+    {
+      "en": "1 egg",
+      "he": "1 ביצה",
+      "item": "egg",
+      "amount": 1,
+      "unit": "whole"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Blend: 1 tsp. vanilla flavoring, 1 tsp. almond flavoring, 1/8 tsp. salt.",
+      "Cream margarine and sugar. Add egg, flavorings.",
+      "Add dry ingredients. Roll out dough on a lightly floured surface.",
+      "Cut circles with a glass (2 1/2\" - 3\").",
+      "Fill circles with lekvar or apricot butter. Pinch on 3 sides into a triangle shape.",
+      "Bake on greased cookie sheet at 375°F about 20 minutes.",
+      "Yield: 20."
+    ],
+    "he": [
+      "לערבב: 1 כפית תמצית וניל, 1 כפית תמצית שקדים, 1/8 כפית מלח.",
+      "לערבב את המרגרינה והסוכר עד לקרם. להוסיף ביצה ותמציות.",
+      "להוסיף את המרכיבים היבשים. לרדד את הבצק על משטח מקומח קלות.",
+      "לחתוך עיגולים בעזרת כוס (2.5 - 3 אינץ').",
+      "למלא את העיגולים בלקוואר או חמאת משמש. לצבוט 3 צדדים לצורת משולש.",
+      "לאפות על תבנית משומנת ב-190°C כ-20 דקות.",
+      "התפוקה: 20 עוגיות."
+    ]
+  },
+  "tags": [
+    {
+      "en": "Purim",
+      "he": "פורים"
+    },
+    {
+      "en": "holiday",
+      "he": "חג"
+    },
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "cookies",
+      "he": "עוגיות"
+    },
+    {
+      "en": "Ashkenazi",
+      "he": "אשכנזי"
+    },
+    {
+      "en": "pareve",
+      "he": "פרווה"
+    },
+    {
+      "en": "baking",
+      "he": "אפייה"
+    }
+  ],
+  "illustration": "illustrations/f6549b99-47fb-443e-9e13-555ec69380d3.webp",
+  "ocrRawText": "Hamantaschen\n1 1/3 cups flour\n1 1/2 tsp. baking powder\n1/4 cup margarine\n1/4 cup sugar\nBlend: 1 tsp. vanilla flavoring\n1 tsp. almond flavoring\n1/8 tsp. salt.\n1 Egg\nCream margarine+sugar. Add egg, flavorings.\nAdd dry ingredients. Roll out dough on a lightly\nfloured surface. Cut circles with a glass (2 1/2\" - 3\")\nFill circles with lekvar or Apricot butter. Pinch\non 3 sides into △ shape. Bake on greased\ncookie sheet at 375°F about 20 minutes.\nYield-20.\nEnjoy!  Happy Purim!\n* Chocolate chips are great for filling too!",
+  "selectedModel": "claude",
+  "rankingReason": "Result B is more accurate in OCR reading (1 1/2 tsp baking powder vs A's 1/2 tsp), has better title spelling (Hamantaschen vs Haman taschen), includes more comprehensive tags (pareve, baking), provides clearer instructions with the 'Blend' step first, and has more natural Hebrew translations. Both are complete and coherent, but B demonstrates better attention to detail in ingredient quantities and overall extraction quality."
+}

@@ -1,0 +1,126 @@
+{
+  "id": "7cb6303a-449a-4cd6-a6bb-af949aef360e",
+  "slug": "moms-gefilte-fish",
+  "source": {
+    "scanFiles": [
+      "scans/7cb6303a-449a-4cd6-a6bb-af949aef360e-0.jpg"
+    ],
+    "processedAt": "2026-03-19T19:17:28.434Z"
+  },
+  "title": {
+    "en": "Mom's Gefilte Fish",
+    "he": "גפילטע פיש של אמא"
+  },
+  "description": {
+    "en": "A traditional Ashkenazi gefilte fish recipe using pike, white fish, and carp, ground and formed into patties and poached in broth. Attributed to Roslyn Slavitti (Leslie Goldress' mother).",
+    "he": "מתכון מסורתי אשכנזי לגפילטע פיש מדג פייק, דג לבן וקרפיון, טחונים ומעוצבים לקציצות ומבושלים ברוטב. המתכון מיוחס לרוזלין סלאוויטי (אמה של לסלי גולדרס)."
+  },
+  "ingredients": [
+    {
+      "en": "9 lbs. fish (7½ lbs. pike & white fish, 1½ lbs. carp)",
+      "he": "9 פאונד דגים (7.5 פאונד פייק ודג לבן, 1.5 פאונד קרפיון)",
+      "item": "fish (pike, white fish, carp)",
+      "amount": 9,
+      "unit": "lbs"
+    },
+    {
+      "en": "8 carrots",
+      "he": "8 גזרים",
+      "item": "carrots",
+      "amount": 8,
+      "unit": "piece"
+    },
+    {
+      "en": "6 Tbsp. matzoh meal",
+      "he": "6 כפות מצה טחונה",
+      "item": "matzoh meal",
+      "amount": 6,
+      "unit": "Tbsp"
+    },
+    {
+      "en": "6 eggs",
+      "he": "6 ביצים",
+      "item": "eggs",
+      "amount": 6,
+      "unit": "piece"
+    },
+    {
+      "en": "salt & pepper to taste",
+      "he": "מלח ופלפל לפי הטעם",
+      "item": "salt & pepper"
+    },
+    {
+      "en": "10 onions",
+      "he": "10 בצלים",
+      "item": "onions",
+      "amount": 10,
+      "unit": "piece"
+    },
+    {
+      "en": "1/2 C. water",
+      "he": "1/2 כוס מים",
+      "item": "water",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "4 large onions sliced thick",
+      "he": "4 בצלים גדולים חתוכים לפרוסות עבות",
+      "item": "large onions",
+      "amount": 4,
+      "unit": "piece"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Step 1: Fill a 12 quart pot half full of water and put up to boil.",
+      "Step 2: Add 4 large onions sliced thick and salt and pepper. Have fishman fillet fish and save bones, skins and heads. Put bones, skins and heads into 2 ft. square piece of sheeting, tie together tightly and add to cooking water.",
+      "Step 3: Now begin fish patties. Quarter 6 onions. Put onions, fillet fish and 3 of the carrots through grinder. Add unbeaten eggs to this mixture and matzoh meal. Add 1/2 cup of water and salt and pepper.",
+      "Step 4: Check consistency, if more water is needed add another 1/4 cup. Put entire mixture through grinder a second time.",
+      "Step 5: Remove sheeting from water and set aside. Form hands into patties and drop into the boiling water (dipping hands into cold water occasionally). Use large spoon to slide patties into boiling water if necessary. When all patties are in boiling water replace sheeting containing bones, etc. on top of patties.",
+      "Step 6: Cover partially and continue cooking for 2 hours. After 1 hour add carrot circles from 5 carrots. After the 2 hours remove bones and let patties cool in pot."
+    ],
+    "he": [
+      "שלב 1: למלא סיר של 12 ליטר עד לחצי במים ולהביא לרתיחה.",
+      "שלב 2: להוסיף 4 בצלים גדולים חתוכים לפרוסות עבות, מלח ופלפל. לבקש ממוכר הדגים לפלט את הדגים ולשמור את העצמות, העורות והראשים. לשים את העצמות, העורות והראשים בתוך פיסת בד מרובעת, לקשור היטב ולהוסיף למי הבישול.",
+      "שלב 3: כעת מתחילים להכין את הקציצות. לרבע 6 בצלים. להעביר את הבצלים, פילה הדג ו-3 מהגזרים דרך מטחנה. להוסיף ביצים לא טרופות לתערובת ומצה טחונה. להוסיף 1/2 כוס מים, מלח ופלפל.",
+      "שלב 4: לבדוק את המרקם, אם צריך עוד מים להוסיף עוד 1/4 כוס. להעביר את כל התערובת שוב דרך המטחנה פעם שנייה.",
+      "שלב 5: להוציא את הבד מהמים ולהניח בצד. לעצב בידיים קציצות ולהכניס למים הרותחים (לטבול ידיים במים קרים מדי פעם). להשתמש בכף גדולה להחליק את הקציצות למים הרותחים אם צריך. כשכל הקציצות במים הרותחים, להחזיר את הבד עם העצמות וכו' מעל הקציצות.",
+      "שלב 6: לכסות חלקית ולהמשיך לבשל במשך שעתיים. אחרי שעה להוסיף עיגולי גזר מ-5 גזרים. אחרי השעתיים להוציא את העצמות ולתת לקציצות להתקרר בסיר."
+    ]
+  },
+  "tags": [
+    {
+      "en": "ashkenazi",
+      "he": "אשכנזי"
+    },
+    {
+      "en": "fish",
+      "he": "דגים"
+    },
+    {
+      "en": "main",
+      "he": "מנה עיקרית"
+    },
+    {
+      "en": "holiday",
+      "he": "חג"
+    },
+    {
+      "en": "shabbat",
+      "he": "שבת"
+    },
+    {
+      "en": "passover",
+      "he": "פסח"
+    },
+    {
+      "en": "pareve",
+      "he": "פרווה"
+    }
+  ],
+  "illustration": "illustrations/7cb6303a-449a-4cd6-a6bb-af949aef360e.webp",
+  "ocrRawText": "GEFILTE FISH\n\nMOM'S GEFILTE FISH\n\n9 lbs. fish (7½ lbs. pike &\n    white fish, 1½ lbs. carp)\n6 eggs\n10 onions\n\n8 carrots\n6 Tbsp. matzoh meal\n    salt & pepper to taste\n    1/2 C. water\n\nFill a 12 quart pot half full of water and put up to boil.\nAdd 4 large onions sliced thick and salt and pepper. Have\nfishman fillet fish and save bones, skins and heads. Put\nbones, skins and heads into 2 ft. square piece of sheeting,\ntie together tightly and add to cooking water. Now begin\nfish patties. Quarter 6 onions. Put onions, fillet fish and\n3 of the carrots through grinder. Add unbeaten eggs to this\nmixture and matzoh meal. Add 1/2 cup of water and salt and\npepper. Check consistency, if more water is needed add\nanother 1/4 cup. Put entire mixture through grinder a sec-\nond time. Remove sheeting from water and set aside. Form\nhands into patties and drop into the boiling water (dipping\nhands into cold water occasionally). Use large spoon to\nslide patties into boiling water if necessary. When all\npatties are in boiling water replace sheeting containing\nbones, etc. on top of patties. Cover partially and con-\ntinue cooking for 2 hours. After 1 hour add carrot cir-\ncles from 5 carrots. After the 2 hours remove bones and\nlet patties cool in pot.\n\n                                        Roslyn Slavitti\n                                (Leslie Goldress' mother)\n\n-68-",
+  "selectedModel": "claude",
+  "rankingReason": "Result B is superior in multiple ways: (1) More complete OCR - includes 'white fish' detail in ingredients list that A missed, and better preserves the original handwritten formatting; (2) Better ingredient organization - lists all 8 ingredients properly with units standardized (piece/cup), while A has inconsistent units and duplicates (4 large onions listed separately in B); (3) Clearer instructions - B reorganizes the somewhat confusing OCR text into 6 logical numbered steps with better sentence structure ('Now begin fish patties. Quarter 6 onions...'), while A preserves ambiguous phrasing ('Now begin 3 of the carrots, then 6 onions'); (4) More accurate description - B mentions both the origin (Roslyn Slavitti/Leslie Goldress' mother) and the Ashkenazi tradition, while A omits the attribution; (5) Better tags - B includes more comprehensive and appropriate tags (passover, pareve, fish, main) while A uses less specific categorization. The instruction refinement in B makes the recipe genuinely more usable for cooking."
+}

@@ -1,0 +1,133 @@
+{
+  "id": "d332f58e-eddb-4c4f-8f7b-cb574c21661a",
+  "slug": "cheese-rolls",
+  "source": {
+    "scanFiles": [
+      "scans/d332f58e-eddb-4c4f-8f7b-cb574c21661a-0.jpg",
+      "scans/d332f58e-eddb-4c4f-8f7b-cb574c21661a-1.jpg"
+    ],
+    "processedAt": "2026-03-19T19:09:08.149Z"
+  },
+  "title": {
+    "en": "Cheese Rolls",
+    "he": "גלילות גבינה"
+  },
+  "description": {
+    "en": "This recipe makes 8 cheese rolls. The dough needs to be refrigerated overnight.",
+    "he": "מתכון זה מכין 8 גלילות גבינה. את הבצק יש לקרר במקרר למשך הלילה."
+  },
+  "ingredients": [
+    {
+      "en": "1 lb Margarine",
+      "he": "1 ליברא מרגרינה",
+      "item": "Margarine",
+      "amount": 1,
+      "unit": "lb"
+    },
+    {
+      "en": "2 Tablespoons oil",
+      "he": "2 כפות שמן",
+      "item": "oil",
+      "amount": 2,
+      "unit": "Tablespoons"
+    },
+    {
+      "en": "6 cups flour",
+      "he": "6 כוסות קמח",
+      "item": "flour",
+      "amount": 6,
+      "unit": "cups"
+    },
+    {
+      "en": "Approx ½ Cup MILK (to soften)",
+      "he": "כ-½ כוס חלב (לריכוך)",
+      "item": "milk",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "2 lbs Cottage cheese",
+      "he": "2 ליברא גבינת קוטג'",
+      "item": "cottage cheese",
+      "amount": 2,
+      "unit": "lbs"
+    },
+    {
+      "en": "1 lb. Farmer cheese",
+      "he": "1 ליברא גבינת איכרים",
+      "item": "farmer cheese",
+      "amount": 1,
+      "unit": "lb"
+    },
+    {
+      "en": "1 lb. Cooked rice (optional)",
+      "he": "1 ליברא אורז מבושל (אופציונלי)",
+      "item": "cooked rice",
+      "amount": 1,
+      "unit": "lb"
+    },
+    {
+      "en": "3 eggs",
+      "he": "3 ביצים",
+      "item": "eggs",
+      "amount": 3,
+      "unit": null
+    },
+    {
+      "en": "Sugar to taste",
+      "he": "סוכר לפי הטעם",
+      "item": "sugar",
+      "amount": null,
+      "unit": "to taste"
+    },
+    {
+      "en": "Cinnamon (optional)",
+      "he": "קינמון (אופציונלי)",
+      "item": "cinnamon",
+      "amount": null,
+      "unit": "optional"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Combine margarine, oil, flour, and milk to form a dough.",
+      "Refrigerate dough overnight.",
+      "Spread rolled dough very Thin (approx ¼\").",
+      "Prepare filling: Combine cottage cheese, farmer cheese, cooked rice (optional), eggs, sugar to taste, and cinnamon (optional).",
+      "Put filling along the edge of the dough.",
+      "Roll the dough.",
+      "Bake at 350°."
+    ],
+    "he": [
+      "מערבבים מרגרינה, שמן, קמח וחלב ליצירת בצק.",
+      "מקררים את הבצק למשך הלילה.",
+      "מרדדים את הבצק דק מאוד (כ-¼ אינץ').",
+      "מכינים את המילוי: מערבבים גבינת קוטג', גבינת איכרים, אורז מבושל (אופציונלי), ביצים, סוכר לפי הטעם וקינמון (אופציונלי).",
+      "מניחים את המילוי לאורך קצה הבצק.",
+      "מגלגלים את הבצק.",
+      "אופים ב-350 מעלות פרנהייט."
+    ]
+  },
+  "tags": [
+    {
+      "en": "Dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "Dairy",
+      "he": "חלבי"
+    },
+    {
+      "en": "Ashkenazi",
+      "he": "אשכנזי"
+    },
+    {
+      "en": "Holiday",
+      "he": "חג"
+    }
+  ],
+  "illustration": "illustrations/d332f58e-eddb-4c4f-8f7b-cb574c21661a.webp",
+  "ocrRawText": "Cheese Rolls\n1 lb Margarine + 2 Tablespoons oil\n6 cups flour; Approx ½ Cup MILK (to soften)\nRefrigerate overnight -\nSpread rolled very Thin (approx ¼\")\nPut filling along with edge -\nRoll\nFilling (over)\nFilling\n2 lbs Cottage cheese\n1 lb. Farmer cheese\n1 lb. Cooked rice (optional)\n3 eggs + Sugar to taste\nCinnamon (optional)\nBake 350°\nRecipe makes 8 rolls",
+  "selectedModel": "gemini",
+  "rankingReason": "Gemini selected (only valid result). Claude returned no result"
+}

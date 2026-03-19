@@ -1,0 +1,122 @@
+{
+  "id": "78de598e-ae3d-4b28-bfdd-fe200f9a319d",
+  "slug": "date-nut-bread",
+  "source": {
+    "scanFiles": [
+      "scans/78de598e-ae3d-4b28-bfdd-fe200f9a319d-0.jpg",
+      "scans/78de598e-ae3d-4b28-bfdd-fe200f9a319d-1.jpg"
+    ],
+    "processedAt": "2026-03-19T19:08:26.662Z"
+  },
+  "title": {
+    "en": "Date - Nut Bread",
+    "he": "לחם תמרים ואגוזים"
+  },
+  "description": {
+    "en": "A sweet bread recipe featuring dates and nuts.",
+    "he": "מתכון ללחם מתוק המכיל תמרים ואגוזים."
+  },
+  "ingredients": [
+    {
+      "en": "1 lb walnuts",
+      "he": "450 גרם אגוזי מלך",
+      "item": "walnuts",
+      "amount": 1,
+      "unit": "lb"
+    },
+    {
+      "en": "3½ cups sifted flour",
+      "he": "3½ כוסות קמח מנופה",
+      "item": "sifted flour",
+      "amount": 3.5,
+      "unit": "cups"
+    },
+    {
+      "en": "3 tsp bicarbonate of soda",
+      "he": "3 כפיות סודה לשתייה",
+      "item": "bicarbonate of soda",
+      "amount": 3,
+      "unit": "tsp"
+    },
+    {
+      "en": "3/4 tsp salt",
+      "he": "3/4 כפית מלח",
+      "item": "salt",
+      "amount": 0.75,
+      "unit": "tsp"
+    },
+    {
+      "en": "4 eggs",
+      "he": "4 ביצים",
+      "item": "eggs",
+      "amount": 4,
+      "unit": null
+    },
+    {
+      "en": "2 lbs sugar",
+      "he": "900 גרם סוכר",
+      "item": "sugar",
+      "amount": 2,
+      "unit": "lbs"
+    },
+    {
+      "en": "Pitted dates",
+      "he": "תמרים מגולענים",
+      "item": "pitted dates",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "1 cup liquid from boiled/soaked dates",
+      "he": "1 כוס נוזל מתמרים מבושלים/מושרים",
+      "item": "liquid from dates",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "Hot water",
+      "he": "מים חמים",
+      "item": "hot water",
+      "amount": null,
+      "unit": null
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Pour hot water over pitted dates.",
+      "Mix eggs and sugar.",
+      "Gradually add flour to the date and nut mix.",
+      "Bake in greased bread loaf pans, filling 2/3 full.",
+      "Bake at 275°F or 300°F for 1 hour."
+    ],
+    "he": [
+      "שפכו מים חמים על התמרים המגולענים.",
+      "ערבבו ביצים וסוכר.",
+      "הוסיפו בהדרגה קמח לתערובת התמרים והאגוזים.",
+      "אפו בתבניות אינגליש קייק משומנות, מלאו אותן עד 2/3 גובה.",
+      "אפו ב-275°F או 300°F למשך שעה."
+    ]
+  },
+  "tags": [
+    {
+      "en": "Dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "Baking",
+      "he": "אפייה"
+    },
+    {
+      "en": "Bread",
+      "he": "לחם"
+    },
+    {
+      "en": "Sweet",
+      "he": "מתוק"
+    }
+  ],
+  "illustration": "illustrations/78de598e-ae3d-4b28-bfdd-fe200f9a319d.webp",
+  "ocrRawText": "Date - Nut Bread\n1 lb walnuts\n3½ cups sifted flour\n3 tsp bicarbonate of soda\n3/4 tsp salt\n6 cups flour (approximately)\n4 eggs\n2# sugar\n1 cup boiled fro over sweetening dates\nPitted\nPoured hot water over dates\nMix eggs + sugar &\n(over)\nflour gradually + gradually\nadd to from date + nut mix.\nBake in greased pan (fill 2/3\nfull) in thin bread loafs. 275° or 300° for 1 hr.\nalways.",
+  "selectedModel": "gemini",
+  "rankingReason": "Gemini selected (only valid result). Claude returned no result"
+}

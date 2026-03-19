@@ -1,0 +1,153 @@
+{
+  "id": "b5e0762e-1443-4918-b079-7912e73cb843",
+  "slug": "stuffed-roast-meat",
+  "source": {
+    "scanFiles": [
+      "scans/b5e0762e-1443-4918-b079-7912e73cb843-0.jpg",
+      "scans/b5e0762e-1443-4918-b079-7912e73cb843-1.jpg"
+    ],
+    "processedAt": "2026-03-19T19:24:29.269Z"
+  },
+  "title": {
+    "en": "Stuffed Roast Meat",
+    "he": "בשר צלי ממולא"
+  },
+  "description": {
+    "en": "A recipe for stuffed roast meat, serving 6-8 portions, with potatoes and onions. The instructions are on the back of the card.",
+    "he": "מתכון לבשר צלי ממולא, מוגש ל-6-8 מנות, עם תפוחי אדמה ובצלים. ההוראות נמצאות בגב הכרטיס."
+  },
+  "ingredients": [
+    {
+      "en": "6 large potatoes",
+      "he": "6 תפוחי אדמה גדולים",
+      "item": "large potatoes",
+      "amount": 6,
+      "unit": null
+    },
+    {
+      "en": "3 large onion",
+      "he": "3 בצלים גדולים",
+      "item": "large onion",
+      "amount": 3,
+      "unit": null
+    },
+    {
+      "en": "1 large onion",
+      "he": "1 בצל גדול",
+      "item": "large onion",
+      "amount": 1,
+      "unit": null
+    },
+    {
+      "en": "2 tbsp sugar",
+      "he": "2 כפות סוכר",
+      "item": "sugar",
+      "amount": 2,
+      "unit": "tbsp"
+    },
+    {
+      "en": "1½ tsp salt",
+      "he": "1½ כפיות מלח",
+      "item": "salt",
+      "amount": 1.5,
+      "unit": "tsp"
+    },
+    {
+      "en": "½ tsp pepper",
+      "he": "½ כפית פלפל",
+      "item": "pepper",
+      "amount": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "en": "2 cups chopped celery",
+      "he": "2 כוסות סלרי קצוץ",
+      "item": "chopped celery",
+      "amount": 2,
+      "unit": "cups"
+    },
+    {
+      "en": "1 cup chopped onion",
+      "he": "1 כוס בצל קצוץ",
+      "item": "chopped onion",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1 cup orange juice",
+      "he": "1 כוס מיץ תפוזים",
+      "item": "orange juice",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1 cup water",
+      "he": "1 כוס מים",
+      "item": "water",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "½ tsp salt",
+      "he": "½ כפית מלח",
+      "item": "salt",
+      "amount": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "en": "½ tsp pepper",
+      "he": "½ כפית פלפל",
+      "item": "pepper",
+      "amount": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "en": "1 cup flour",
+      "he": "1 כוס קמח",
+      "item": "flour",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "2 tbsp brown sugar",
+      "he": "2 כפות סוכר חום",
+      "item": "brown sugar",
+      "amount": 2,
+      "unit": "tbsp"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Pour into meat. Mix together and place in roasting pan. Cream with salt & pepper, add diced onion, brown sugar, salt & pepper.",
+      "Bake, uncovered, 325-350 degrees for 40 to 45 min per lb (6 lbs - 3½ hrs).",
+      "Baste with oil 3x during cooking."
+    ],
+    "he": [
+      "יוצקים לתוך הבשר. מערבבים יחד ומניחים בתבנית צלייה. מערבבים עם מלח ופלפל, מוסיפים בצל קצוץ, סוכר חום, מלח ופלפל.",
+      "אופים ללא כיסוי, ב-325-350 מעלות, 40 עד 45 דקות לקילו (6 קילו - 3.5 שעות).",
+      "מברישים בשמן 3 פעמים במהלך הבישול."
+    ]
+  },
+  "tags": [
+    {
+      "en": "main",
+      "he": "מנה עיקרית"
+    },
+    {
+      "en": "meat",
+      "he": "בשרי"
+    },
+    {
+      "en": "roast",
+      "he": "צלי"
+    },
+    {
+      "en": "stuffed",
+      "he": "ממולא"
+    }
+  ],
+  "illustration": "illustrations/b5e0762e-1443-4918-b079-7912e73cb843.webp",
+  "ocrRawText": "Stuffed Roast Meat (6-8 portions)\n6 large potatoes\n3 large onion\n1 large onion\n2 tbsp sugar\n1½ tsp salt\n½ tsp pepper\n2 cups chopped celery\n1 cup chopped onion\n1 cup orange juice\n1 cup water\n½ tsp salt\n½ tsp pepper\n1 cup flour\n\nPour into meat. Mix together and place in roasting\npan. Cream with salt & pepper, add diced\nonion, brown sugar, salt & pepper.\nBake, uncovered, 325-350 degrees for\n40 to 45 min per lb (6 lbs - 3½ hrs).\nBaste with oil 3x during cooking.",
+  "selectedModel": "gemini",
+  "rankingReason": "Gemini selected (only valid result). Claude returned no result"
+}

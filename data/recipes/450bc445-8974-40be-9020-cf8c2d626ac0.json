@@ -1,0 +1,177 @@
+{
+  "id": "450bc445-8974-40be-9020-cf8c2d626ac0",
+  "slug": "coffee-cake",
+  "source": {
+    "scanFiles": [
+      "scans/450bc445-8974-40be-9020-cf8c2d626ac0-0.jpg"
+    ],
+    "processedAt": "2026-03-19T19:13:04.427Z"
+  },
+  "title": {
+    "en": "Coffee Cake",
+    "he": "עוגת קפה"
+  },
+  "description": {
+    "en": "A sweet yeast cake with a fruit and nut filling, topped with a meringue-like mixture, and baked in loaf pans. The dough requires an overnight refrigeration.",
+    "he": "עוגת שמרים מתוקה עם מילוי פירות ואגוזים, בציפוי קצף חלבונים, נאפית בתבניות אינגליש קייק. הבצק דורש קירור לילה."
+  },
+  "ingredients": [
+    {
+      "en": "Dry Yeast",
+      "he": "שמרים יבשים",
+      "item": "Dry Yeast",
+      "amount": 0.5,
+      "unit": "packet"
+    },
+    {
+      "en": "Flour",
+      "he": "קמח",
+      "item": "Flour",
+      "amount": 2.5,
+      "unit": "cup"
+    },
+    {
+      "en": "Sugar (for dough)",
+      "he": "סוכר (לבצק)",
+      "item": "Sugar",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "Milk",
+      "he": "חלב",
+      "item": "Milk",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "Water (warm)",
+      "he": "מים (חמימים)",
+      "item": "Water",
+      "amount": 0.25,
+      "unit": "cup"
+    },
+    {
+      "en": "Eggs",
+      "he": "ביצים",
+      "item": "Eggs",
+      "amount": 3,
+      "unit": null
+    },
+    {
+      "en": "Butter",
+      "he": "חמאה",
+      "item": "Butter",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "Sugar (for yeast activation)",
+      "he": "סוכר (להפעלת שמרים)",
+      "item": "Sugar",
+      "amount": 2,
+      "unit": "tablespoon"
+    },
+    {
+      "en": "Raisins",
+      "he": "צימוקים",
+      "item": "Raisins",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "Nuts",
+      "he": "אגוזים",
+      "item": "Nuts",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "Sliced Apple",
+      "he": "תפוח פרוס",
+      "item": "Sliced Apple",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "Sugar (for fruit filling)",
+      "he": "סוכר (למילוי פירות)",
+      "item": "Sugar",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "Sugar (for egg white topping)",
+      "he": "סוכר (לציפוי חלבונים)",
+      "item": "Sugar",
+      "amount": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Separate the 3 eggs. Cut the 3 yolks into the 2 1/2 cups of flour until the mixture is grainy.",
+      "In a separate bowl, dissolve 1/2 packet of dry yeast in 1/4 cup warm water, adding 2 tablespoons of sugar. Let it sit until the yeast is active and foamy.",
+      "Once the yeast is ready, add it to the flour and yolk mixture.",
+      "Add 1/2 cup sugar, 1/2 cup milk, and 1/2 cup butter to the dough. Mix all ingredients well to form a dough.",
+      "Refrigerate the dough overnight.",
+      "The next day, roll out the chilled dough until it is a little thicker than a pie crust.",
+      "Prepare the fruit filling: Combine raisins, nuts, sliced apple, and 1/2 cup sugar.",
+      "Prepare the egg white topping: In a clean bowl, beat the 3 egg whites with 1/4 cup sugar until light and fluffy.",
+      "Spread the beaten egg white mixture evenly over the rolled-out dough.",
+      "Sprinkle the fruit and nut mixture over the egg white layer.",
+      "Roll up the dough tightly, like a jelly roll.",
+      "Place the rolled dough into greased loaf pans.",
+      "Let the dough rise in a warm place for 1 1/2 hours.",
+      "Preheat oven to 350°F.",
+      "Bake for 35-45 minutes, or until golden brown and cooked through."
+    ],
+    "he": [
+      "מפרידים את 3 הביצים. מפוררים את 3 החלמונים לתוך 2.5 כוסות הקמח עד לקבלת תערובת פירורית.",
+      "בקערה נפרדת, ממיסים 1/2 חבילה שמרים יבשים ב-1/4 כוס מים חמימים, בתוספת 2 כפות סוכר. מניחים בצד עד שהשמרים פעילים ותוססים.",
+      "כשהשמרים מוכנים, מוסיפים אותם לתערובת הקמח והחלמונים.",
+      "מוסיפים לבצק 1/2 כוס סוכר, 1/2 כוס חלב ו-1/2 כוס חמאה. מערבבים היטב את כל המרכיבים ליצירת בצק.",
+      "מקררים את הבצק במקרר למשך הלילה.",
+      "למחרת, מרדדים את הבצק הקר עד שהוא מעט עבה יותר מקלתית פאי.",
+      "מכינים את מילוי הפירות: מערבבים צימוקים, אגוזים, תפוח פרוס ו-1/2 כוס סוכר.",
+      "מכינים את ציפוי קצף הביצים: בקערה נקייה, מקציפים את 3 החלבונים עם 1/4 כוס סוכר עד לקבלת קצף בהיר ותפוח.",
+      "מורחים את תערובת קצף הביצים באופן אחיד על הבצק המרודד.",
+      "מפזרים את תערובת הפירות והאגוזים מעל שכבת קצף הביצים.",
+      "מגלגלים את הבצק בחוזקה, כמו רולדת ריבה.",
+      "מניחים את הבצק המגולגל בתבניות אינגליש קייק משומנות.",
+      "מניחים לבצק לתפוח במקום חמים למשך שעה וחצי.",
+      "מחממים תנור ל-350°F (כ-175°C).",
+      "אופים במשך 35-45 דקות, או עד להזהבה והתייצבות."
+    ]
+  },
+  "tags": [
+    {
+      "en": "Dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "Yeast Cake",
+      "he": "עוגת שמרים"
+    },
+    {
+      "en": "Baked Goods",
+      "he": "מאפים"
+    },
+    {
+      "en": "Sweet Bread",
+      "he": "לחם מתוק"
+    },
+    {
+      "en": "Ashkenazi",
+      "he": "אשכנזי"
+    },
+    {
+      "en": "Dairy",
+      "he": "חלבי"
+    }
+  ],
+  "illustration": "illustrations/450bc445-8974-40be-9020-cf8c2d626ac0.webp",
+  "ocrRawText": "Coffee Cake\n1/2 Pk Dry Yeast\n2 1/2 C Flour\n1/2 C Sugar\n1/2 C Milk\n1/4 C Water\n3 Eggs\n1/2 C Butter\n\nCut 3 yolks into\nFlour until grainy\nDissolve yeast in\n1/4 C warm water (Add\n2 tbsp. of sugar).\nWhen yeast is ready add\nto other. Put in 3 yolks.\nMix well. Refrigerate\novernight.\n\nYeast\nCake\nRaisins, Nuts +\nSliced Apple\n1/2 C Sugar\n\nRoll out\n(A little\nthicker than\npie crust).\nSprinkle\nwith white\nmixture.\nBeat\n3 egg whites + 1/4 C\nsugar. Spread over\ndough. Roll up\njelly roll.\nPut in greased loaf\npans. Let rise 1 1/2 hr.\nBake 350 35-45 Min.",
+  "selectedModel": "gemini",
+  "rankingReason": "Result A is more complete and coherent as a recipe. It properly structures all ingredients with consistent quantities and units, while Result B has missing quantities (raisins, nuts, apple jelly) and inconsistent measurements. Result A's instructions follow a logical progression with 15 clear steps, while Result B's 6 steps are vague and harder to follow. Result A includes milk and water which appear in the handwriting but are missing from Result B. The Hebrew translations in both are natural, but Result A's comprehensive ingredient list and detailed instructions make it a significantly better extraction that would actually be usable for cooking."
+}

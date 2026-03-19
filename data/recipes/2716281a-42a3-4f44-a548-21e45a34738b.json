@@ -1,0 +1,125 @@
+{
+  "id": "2716281a-42a3-4f44-a548-21e45a34738b",
+  "slug": "spice-mix-for-meat",
+  "source": {
+    "scanFiles": [
+      "scans/2716281a-42a3-4f44-a548-21e45a34738b-0.jpg"
+    ],
+    "processedAt": "2026-03-19T19:11:57.294Z"
+  },
+  "title": {
+    "en": "Spice Mix for Meat",
+    "he": "תערובת תבלינים לבשר"
+  },
+  "description": {
+    "en": "This recipe provides a list of ingredients for a spice mix intended for 1 pound of meat. Note: '2 cloves garlic' is listed among dry spices; if preparing a dry rub, consider using garlic powder instead of fresh cloves.",
+    "he": "מתכון זה מפרט רשימת מרכיבים לתערובת תבלינים המיועדת לתיבול 1 ליברת בשר. הערה: '2 שיני שום' מופיעות ברשימת תבלינים יבשים; אם מכינים תערובת תיבול יבשה, מומלץ לשקול שימוש באבקת שום במקום שיני שום טריות."
+  },
+  "ingredients": [
+    {
+      "en": "3 t paprika",
+      "he": "3 כפיות פפריקה",
+      "item": "paprika",
+      "amount": 3,
+      "unit": "teaspoon"
+    },
+    {
+      "en": "2 cloves garlic",
+      "he": "2 שיני שום",
+      "item": "garlic",
+      "amount": 2,
+      "unit": "cloves"
+    },
+    {
+      "en": "1/2 t fennel",
+      "he": "1/2 כפית שומר",
+      "item": "fennel",
+      "amount": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "en": "1/2 t pepper",
+      "he": "1/2 כפית פלפל",
+      "item": "pepper",
+      "amount": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "en": "1 t salt",
+      "he": "1 כפית מלח",
+      "item": "salt",
+      "amount": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "en": "1/2 t red pepper flakes",
+      "he": "1/2 כפית פתיתי פלפל אדום",
+      "item": "red pepper flakes",
+      "amount": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "en": "1/2 t sage",
+      "he": "1/2 כפית מרווה",
+      "item": "sage",
+      "amount": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "en": "1/4 t thyme",
+      "he": "1/4 כפית טימין",
+      "item": "thyme",
+      "amount": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "en": "1/2 t rosemary",
+      "he": "1/2 כפית רוזמרין",
+      "item": "rosemary",
+      "amount": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "en": "1/2 t nutmeg",
+      "he": "1/2 כפית אגוז מוסקט",
+      "item": "nutmeg",
+      "amount": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "en": "1 T brown sugar",
+      "he": "1 כף סוכר חום",
+      "item": "brown sugar",
+      "amount": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Combine all listed ingredients thoroughly to create the spice mix.",
+      "Use to season 1 pound of meat."
+    ],
+    "he": [
+      "שלבו את כל המרכיבים הרשומים היטב ליצירת תערובת התבלינים.",
+      "השתמשו לתיבול 1 ליברת בשר."
+    ]
+  },
+  "tags": [
+    {
+      "en": "Spice Mix",
+      "he": "תערובת תבלינים"
+    },
+    {
+      "en": "Meat Seasoning",
+      "he": "תיבול בשר"
+    },
+    {
+      "en": "Main",
+      "he": "מנה עיקרית"
+    }
+  ],
+  "illustration": "illustrations/2716281a-42a3-4f44-a548-21e45a34738b.webp",
+  "ocrRawText": "for 1 lb meat:\n3 t paprika\n2 cloves garlic\n1/2 t fenel\n1/2 t pepper\n1 t salt\n1/2 t Red pepper flakes\n1/2 t Sage\n1/4 t thyme\n1/2 t Rosemary\n1/2 t Nutmeg\n1 T brown sugar",
+  "selectedModel": "gemini",
+  "rankingReason": "Result A has better completeness and accuracy. While Result B provides more detailed instructions, it contains critical errors: the sage quantity is doubled (2t vs 1/2t in the source), the Hebrew translation for thyme is incorrect (קורנית is coriander, not thyme), and the description incorrectly states 'half kilo' when the source clearly says '1 lb'. Result A's red pepper flakes is missing the quantity, which is a minor flaw, but Result A's translations are accurate and quantities match the OCR text more faithfully."
+}

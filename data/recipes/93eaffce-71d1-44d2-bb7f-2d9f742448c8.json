@@ -1,0 +1,100 @@
+{
+  "id": "93eaffce-71d1-44d2-bb7f-2d9f742448c8",
+  "slug": "cabbage-soup",
+  "source": {
+    "scanFiles": [
+      "scans/93eaffce-71d1-44d2-bb7f-2d9f742448c8-0.jpg"
+    ],
+    "processedAt": "2026-03-19T19:25:46.224Z"
+  },
+  "title": {
+    "en": "Cabbage Soup",
+    "he": "מרק כרוב"
+  },
+  "description": {
+    "en": "A simple recipe for cabbage soup, featuring shredded cabbage, onions, canned tomatoes, and a tangy flavor from lemon juice and sour salt. Note: Some ingredients were difficult to decipher; '3 legs of oil' was interpreted as '3 tablespoons of oil', and '4 pks of sour of a few' was interpreted as '4 packages of sour salt' (citric acid). The cooking process involves simmering the ingredients for an extended period.",
+    "he": "מתכון פשוט למרק כרוב, המכיל כרוב מגורר, בצלים, עגבניות משומרות וטעם חמצמץ ממיץ לימון ומלח לימון. הערה: חלק מהמרכיבים היו קשים לפענוח; '3 legs of oil' פורש כ'3 כפות שמן', ו-'4 pks of sour of a few' פורש כ'4 חבילות מלח לימון'. תהליך הבישול כולל בישול איטי של המרכיבים למשך זמן ממושך."
+  },
+  "ingredients": [
+    {
+      "en": "4 cups shredded Cabbage",
+      "he": "4 כוסות כרוב מגורר",
+      "item": "shredded Cabbage",
+      "amount": 4,
+      "unit": "cups"
+    },
+    {
+      "en": "2 onions - 2 cups",
+      "he": "2 בצלים - 2 כוסות",
+      "item": "onions",
+      "amount": 2,
+      "unit": "cups"
+    },
+    {
+      "en": "3 tbsps oil",
+      "he": "3 כפות שמן",
+      "item": "oil",
+      "amount": 3,
+      "unit": "tbsps"
+    },
+    {
+      "en": "2 lb canned tomatoes undrained",
+      "he": "2 ליברות עגבניות משומרות לא מסוננות",
+      "item": "canned tomatoes undrained",
+      "amount": 2,
+      "unit": "lb"
+    },
+    {
+      "en": "lemon juice",
+      "he": "מיץ לימון",
+      "item": "lemon juice"
+    },
+    {
+      "en": "4 pkgs sour salt",
+      "he": "4 חבילות מלח לימון",
+      "item": "sour salt",
+      "amount": 4,
+      "unit": "pkgs"
+    },
+    {
+      "en": "pepper",
+      "he": "פלפל",
+      "item": "pepper"
+    },
+    {
+      "en": "salt",
+      "he": "מלח",
+      "item": "salt"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Simmer the cabbage on low heat.",
+      "Add the canned tomatoes (undrained) and simmer for 1½ hours.",
+      "Add lemon juice and sour salt, then continue to simmer for 45 minutes to 1 hour. Season with salt and pepper to taste."
+    ],
+    "he": [
+      "בשלו את הכרוב על אש נמוכה.",
+      "הוסיפו את העגבניות המשומרות (ללא סינון) ובשלו על אש קטנה למשך שעה וחצי.",
+      "הוסיפו מיץ לימון ומלח לימון, והמשיכו לבשל על אש קטנה למשך 45 דקות עד שעה. תבלו במלח ופלפל לפי הטעם."
+    ]
+  },
+  "tags": [
+    {
+      "en": "soup",
+      "he": "מרק"
+    },
+    {
+      "en": "vegetarian",
+      "he": "צמחוני"
+    },
+    {
+      "en": "main",
+      "he": "מנה עיקרית"
+    }
+  ],
+  "illustration": "illustrations/93eaffce-71d1-44d2-bb7f-2d9f742448c8.webp",
+  "ocrRawText": "Cabbage Soup\n4 cups shredded Cabbage\n2 onions - 2 cups\n3 legs of oil\n2 lb canned tomatoes undrained\nlemon juice\n4 pks of sour of a few\npepper\nsalt\nlow heat - simmer Cabbage\ntomatoes - 1½ hr\nlemon - 45 min - hr",
+  "selectedModel": "gemini",
+  "rankingReason": "Result A is more faithful to the actual OCR raw text and provides more complete ingredient information. While Result B has a cleaner narrative flow, it introduces elements not present in the source (3 cups water, 15-minute onion cooking step) and misinterprets 'sour salt' as 'sweet & sour mix'. Result A correctly identifies the problematic handwriting passages, explicitly notes the ambiguities ('3 legs of oil', '4 pks of sour of a few'), and provides reasonable interpretations with full transparency. The ingredient list in A is more complete (includes salt, which B omits), and the cooking instructions align better with the raw text. Result A's approach of acknowledging OCR difficulties is more trustworthy than Result B's confident but inaccurate interpretations."
+}

@@ -1,0 +1,81 @@
+{
+  "id": "c11ded28-c22e-489f-922f-ef9563f260ac",
+  "slug": "barley-mushrooms",
+  "source": {
+    "scanFiles": [
+      "scans/c11ded28-c22e-489f-922f-ef9563f260ac-0.jpg"
+    ],
+    "processedAt": "2026-03-19T19:21:40.393Z"
+  },
+  "title": {
+    "en": "Barley & Mushrooms",
+    "he": "גריסים ופטריות"
+  },
+  "description": {
+    "en": "A simple barley and mushroom dish made with sautéed onions, mushrooms, bouillon, and toasted barley.",
+    "he": "מנת גריסים ופטריות פשוטה עם בצל מוקפץ, פטריות, מרק וגריסים קלויים."
+  },
+  "ingredients": [
+    {
+      "en": "Onions",
+      "he": "בצל",
+      "item": "onions"
+    },
+    {
+      "en": "Mushrooms",
+      "he": "פטריות",
+      "item": "mushrooms"
+    },
+    {
+      "en": "1 bouillon cube",
+      "he": "1 קוביית מרק",
+      "item": "bouillon cube",
+      "amount": 1,
+      "unit": "cube"
+    },
+    {
+      "en": "Water",
+      "he": "מים",
+      "item": "water"
+    },
+    {
+      "en": "Toasted barley",
+      "he": "גריסים קלויים",
+      "item": "barley"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Sauté onions and mushrooms.",
+      "Add a bouillon cube and water.",
+      "Add toasted barley and cook."
+    ],
+    "he": [
+      "מקפיצים בצל ופטריות.",
+      "מוסיפים קוביית מרק ומים.",
+      "מוסיפים גריסים קלויים ומבשלים."
+    ]
+  },
+  "tags": [
+    {
+      "en": "side dish",
+      "he": "תוספת"
+    },
+    {
+      "en": "vegetarian",
+      "he": "צמחוני"
+    },
+    {
+      "en": "pareve",
+      "he": "פרווה"
+    },
+    {
+      "en": "grains",
+      "he": "דגנים"
+    }
+  ],
+  "illustration": "illustrations/c11ded28-c22e-489f-922f-ef9563f260ac.webp",
+  "ocrRawText": "Barley + Mushrooms\nSaute onions + Mushrooms\nadd a bullion cube & water\n. Add Toasted Barley - Cook",
+  "selectedModel": "claude",
+  "rankingReason": "Result B is superior in multiple ways: (1) It includes quantified ingredient amounts (\"1 bouillon cube\") with structured fields, while A lacks this detail; (2) The Hebrew translation is more natural and accurate—B uses \"מקפיצים\" (the correct conjugation for sautéing) vs A's less precise \"מטגנים\", and \"מרק\" (broth) is clearer than \"ציר\" (stock); (3) B has richer tags including 'pareve' and 'grains', providing more useful recipe metadata; (4) The OCR raw text in B shows more authentic handwriting variations (lowercase 'add', period before final sentence) suggesting better character-level accuracy; (5) The description in B is more detailed and recipe-focused. Both have complete structure, but B demonstrates superior data extraction quality overall."
+}

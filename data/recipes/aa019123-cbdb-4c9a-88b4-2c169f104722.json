@@ -1,0 +1,122 @@
+{
+  "id": "aa019123-cbdb-4c9a-88b4-2c169f104722",
+  "slug": "impossible-pie",
+  "source": {
+    "scanFiles": [
+      "scans/aa019123-cbdb-4c9a-88b4-2c169f104722-0.jpg",
+      "scans/aa019123-cbdb-4c9a-88b4-2c169f104722-1.jpg"
+    ],
+    "processedAt": "2026-03-19T19:15:34.325Z"
+  },
+  "title": {
+    "en": "Impossible Pie",
+    "he": "פאי בלתי אפשרי"
+  },
+  "description": {
+    "en": "This recipe is for an \"Impossible Pie,\" a unique dessert where the ingredients magically separate during baking to form distinct layers of crust, custard, and coconut. The recipe notes that baking time may vary depending on your oven.",
+    "he": "מתכון זה הוא ל\"פאי בלתי אפשרי\", קינוח ייחודי שבו המרכיבים נפרדים באורח פלא במהלך האפייה ליצירת שכבות מובחנות של קרום, קרם קסטארד וקוקוס. המתכון מציין שזמן האפייה עשוי להשתנות בהתאם לתנור שלכם."
+  },
+  "ingredients": [
+    {
+      "en": "4 EGGS",
+      "he": "4 ביצים",
+      "item": "eggs",
+      "amount": 4,
+      "unit": ""
+    },
+    {
+      "en": "1/4 C. MARGARINE",
+      "he": "1/4 כוס מרגרינה",
+      "item": "margarine",
+      "amount": 0.25,
+      "unit": "cup"
+    },
+    {
+      "en": "1/4 TSP. SALT",
+      "he": "1/4 כפית מלח",
+      "item": "salt",
+      "amount": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "en": "1/4 TSP. BAKING POWDER",
+      "he": "1/4 כפית אבקת אפייה",
+      "item": "baking powder",
+      "amount": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "en": "2 C. WHITE SUGAR",
+      "he": "2 כוסות סוכר לבן",
+      "item": "white sugar",
+      "amount": 2,
+      "unit": "cup"
+    },
+    {
+      "en": "2 Cups MILK",
+      "he": "2 כוסות חלב",
+      "item": "milk",
+      "amount": 2,
+      "unit": "cup"
+    },
+    {
+      "en": "1 1/2 C. FLOUR",
+      "he": "1 1/2 כוסות קמח",
+      "item": "flour",
+      "amount": 1.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1 TSP. VANILLA",
+      "he": "1 כפית תמצית וניל",
+      "item": "vanilla",
+      "amount": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "en": "1 Cup COCONUT",
+      "he": "1 כוס קוקוס",
+      "item": "coconut",
+      "amount": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Place ALL ingredients in BLENDER AT ONE TIME.",
+      "BLEND UNTIL MIXED TOGETHER.",
+      "POUR INTO A BUTTERED 10 INCH PIE PAN.",
+      "BAKE @ 350° - FOR 1 HOUR (RECIPE TIME - MY OVEN TAKES LESS).",
+      "WHEN DONE, CRUST WILL BE ON THE BOTTOM, CUSTARD IN THE MIDDLE AND COCONUT ON TOP."
+    ],
+    "he": [
+      "הכניסו את כל המרכיבים לבלנדר בבת אחת.",
+      "ערבבו עד לקבלת תערובת אחידה.",
+      "שפכו לתבנית פאי משומנת בגודל 10 אינץ'.",
+      "אפו בחום של 350°F (כ-175°C) למשך שעה אחת (זמן מתכון - התנור שלי לוקח פחות).",
+      "כשהפאי מוכן, הקרום יהיה בתחתית, הקסטארד באמצע והקוקוס למעלה."
+    ]
+  },
+  "tags": [
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "pie",
+      "he": "פאי"
+    },
+    {
+      "en": "baked",
+      "he": "אפוי"
+    },
+    {
+      "en": "dairy",
+      "he": "חלבי"
+    }
+  ],
+  "illustration": "illustrations/aa019123-cbdb-4c9a-88b4-2c169f104722.webp",
+  "ocrRawText": "\"Impossible Pie\"\n4 EGGS\n1/4 C. MARGARINE\n1/4 TSP. SALT\n1/4 TSP. BAKING POWDER\n2 C. WHITE SUGAR\n2 Cups MILK\n1 1/2 C. FLOUR\n1 TSP. VANILLA\n1 Cup COCONUT\nPlace ALL ingredients in BLENDER AT\nONE TIME. BLEND UNTIL MIXED TOGETHER.\nPOUR INTO A BUTTERED 10 INCH PIE PAN.\nBAKE @ 350° - FOR 1 HOUR (RECIPE\nTIME - MY OVEN TAKES LESS) -\nWHEN DONE, CRUST WILL BE ON\nTHE BOTTOM, CUSTARD IN THE MIDDLE\nAND COCONUT ON TOP.",
+  "selectedModel": "gemini",
+  "rankingReason": "Gemini selected (only valid result). Claude returned no result"
+}

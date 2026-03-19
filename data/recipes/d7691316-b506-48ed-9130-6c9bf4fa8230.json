@@ -1,0 +1,150 @@
+{
+  "id": "d7691316-b506-48ed-9130-6c9bf4fa8230",
+  "slug": "chicken-jardiniere",
+  "source": {
+    "scanFiles": [
+      "scans/d7691316-b506-48ed-9130-6c9bf4fa8230-0.jpg"
+    ],
+    "processedAt": "2026-03-19T19:18:08.575Z"
+  },
+  "title": {
+    "en": "Chicken Jardiniere",
+    "he": "עוף ז'רדיניר"
+  },
+  "description": {
+    "en": "A classic baked chicken dish with vegetables, tomato sauce, mushrooms, and dry wine, served for 6 to 8 people.",
+    "he": "מנת עוף קלאסית אפויה עם ירקות, רוטב עגבניות, פטריות ויין יבש, מוגשת ל-6 עד 8 סועדים."
+  },
+  "ingredients": [
+    {
+      "en": "2- 2 lb chickens quartered",
+      "he": "2 עופות במשקל 2 פאונד כל אחד, חתוכים לרבעים",
+      "item": "chicken",
+      "amount": 2,
+      "unit": "whole"
+    },
+    {
+      "en": "1 clove garlic",
+      "he": "1 שן שום",
+      "item": "garlic",
+      "amount": 1,
+      "unit": "clove"
+    },
+    {
+      "en": "1/4 cup oil",
+      "he": "1/4 כוס שמן",
+      "item": "oil",
+      "amount": 0.25,
+      "unit": "cup"
+    },
+    {
+      "en": "1 tsp salt",
+      "he": "1 כפית מלח",
+      "item": "salt",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "1/8 tsp pepper",
+      "he": "1/8 כפית פלפל",
+      "item": "pepper",
+      "amount": 0.125,
+      "unit": "tsp"
+    },
+    {
+      "en": "2 cups chopped celery",
+      "he": "2 כוסות סלרי קצוץ",
+      "item": "celery",
+      "amount": 2,
+      "unit": "cups"
+    },
+    {
+      "en": "3 chopped carrots",
+      "he": "3 גזרים קצוצים",
+      "item": "carrots",
+      "amount": 3,
+      "unit": "whole"
+    },
+    {
+      "en": "2 sliced onions",
+      "he": "2 בצלים פרוסים",
+      "item": "onions",
+      "amount": 2,
+      "unit": "whole"
+    },
+    {
+      "en": "1 can tomato sauce with mushrooms",
+      "he": "1 פחית רוטב עגבניות עם פטריות",
+      "item": "tomato sauce with mushrooms",
+      "amount": 1,
+      "unit": "can"
+    },
+    {
+      "en": "1/2 cup water",
+      "he": "1/2 כוס מים",
+      "item": "water",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1/3 cup dry wine",
+      "he": "1/3 כוס יין יבש",
+      "item": "dry wine",
+      "amount": 0.33,
+      "unit": "cup"
+    },
+    {
+      "en": "1/2 tsp marjoram",
+      "he": "1/2 כפית מיורם",
+      "item": "marjoram",
+      "amount": 0.5,
+      "unit": "tsp"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Brown chicken with garlic and oil.",
+      "Sprinkle with salt and pepper.",
+      "Brown celery, carrots and onions.",
+      "Pour off excess fat.",
+      "Add rest of ingredients.",
+      "Bake covered at 350 degrees for 50 minutes.",
+      "Serves 6 to 8."
+    ],
+    "he": [
+      "להשחים את העוף עם שום ושמן.",
+      "לתבל במלח ופלפל.",
+      "להשחים סלרי, גזרים ובצלים.",
+      "לסנן את השומן העודף.",
+      "להוסיף את שאר המרכיבים.",
+      "לאפות מכוסה בחום 175 מעלות (350°F) למשך 50 דקות.",
+      "מוגש ל-6 עד 8 סועדים."
+    ]
+  },
+  "tags": [
+    {
+      "en": "main",
+      "he": "מנה עיקרית"
+    },
+    {
+      "en": "chicken",
+      "he": "עוף"
+    },
+    {
+      "en": "meat",
+      "he": "בשרי"
+    },
+    {
+      "en": "baked",
+      "he": "אפוי"
+    },
+    {
+      "en": "french",
+      "he": "צרפתי"
+    }
+  ],
+  "illustration": "illustrations/d7691316-b506-48ed-9130-6c9bf4fa8230.webp",
+  "ocrRawText": "CHICKEN JARDINIERE\n2- 2 lb chickens quartered    1 clove garlic\n1/4 cup oil                   1 tsp salt\n1/8 tsp pepper                2 cups chopped celery\n3 chopped carrots              2 sliced onions\n1 can tomato sauce with mushrooms\n1/2 cup water                 1/3 cup dry wine\n1/2 tsp marjoram\nBrown chicken with garlic and oil. Sprinkle\nwith salt and pepper. Brown celery carrots\nand onions, Pour off excess fat. Add rest of\ningredients. Bake covered 350 degrees for\n50 min. Serves 6 to 8",
+  "selectedModel": "claude",
+  "rankingReason": "Result B has better accuracy in critical ingredient quantities (1/2 cup water vs 1 cup, 1/2 tsp marjoram vs 1 tsp), more comprehensive tags (5 vs 3), more complete instructions (7 vs 6 steps including serving info), better Hebrew translation with natural phrasing (e.g., 'פחית' vs 'קופסת' for can), and more logical ingredient organization in the OCR raw text that reflects typical handwritten recipe layout. While Result A has slight translation variations, Result B's ingredient accuracy is more reliable for actual cooking."
+}
