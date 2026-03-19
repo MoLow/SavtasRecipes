@@ -1,0 +1,130 @@
+{
+  "id": "e7b5d6dd-353d-4c72-b1e0-c2ea213274fb",
+  "slug": "cheese-cake-barbaras",
+  "source": {
+    "scanFiles": [
+      "scans/e7b5d6dd-353d-4c72-b1e0-c2ea213274fb-0.jpg",
+      "scans/e7b5d6dd-353d-4c72-b1e0-c2ea213274fb-1.jpg"
+    ],
+    "processedAt": "2026-03-19T18:41:04.028Z"
+  },
+  "title": {
+    "en": "Cheese Cake (Barbara's)",
+    "he": "עוגת גבינה (של ברברה)"
+  },
+  "description": {
+    "en": "A classic cheesecake recipe featuring a graham cracker crust and a rich, creamy filling. The cake is baked and then slowly cooled in the oven before being refrigerated overnight.",
+    "he": "מתכון קלאסי לעוגת גבינה הכולל בסיס פירורי גרהם ומלית עשירה וקרמית. העוגה נאפית ולאחר מכן מתקררת לאט בתנור לפני קירור לילה במקרר."
+  },
+  "ingredients": [
+    {
+      "en": "Graham cracker crumbs",
+      "he": "פירורי גרהם",
+      "item": "Graham cracker crumbs",
+      "amount": 2,
+      "unit": "cups"
+    },
+    {
+      "en": "melted butter",
+      "he": "חמאה מומסת",
+      "item": "melted butter",
+      "amount": 0.25,
+      "unit": "lb"
+    },
+    {
+      "en": "sugar (for crust)",
+      "he": "סוכר (לקראסט)",
+      "item": "sugar",
+      "amount": 0.25,
+      "unit": "cup"
+    },
+    {
+      "en": "large packages (8 oz. each) cream cheese",
+      "he": "חבילות גדולות (226 גרם כל אחת) גבינת שמנת",
+      "item": "cream cheese",
+      "amount": 3,
+      "unit": "large packages (8 oz. each)"
+    },
+    {
+      "en": "sugar (for filling)",
+      "he": "סוכר (למלית)",
+      "item": "sugar",
+      "amount": 1.25,
+      "unit": "cup"
+    },
+    {
+      "en": "eggs",
+      "he": "ביצים",
+      "item": "eggs",
+      "amount": 6,
+      "unit": ""
+    },
+    {
+      "en": "sour cream",
+      "he": "שמנת חמוצה",
+      "item": "sour cream",
+      "amount": 1,
+      "unit": "pint"
+    },
+    {
+      "en": "vanilla",
+      "he": "תמצית וניל",
+      "item": "vanilla",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "lemon juice (or more)",
+      "he": "מיץ לימון (או יותר)",
+      "item": "lemon juice",
+      "amount": 1,
+      "unit": "Tbsp"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "For the crust: Combine 2 cups graham cracker crumbs, 1/4 lb melted butter, and 1/4 cup sugar.",
+      "Prepare a springform pan, possibly lining the sides with foil halfway up. Press the crust mixture into the bottom of the pan.",
+      "For the filling: In a large bowl, cream together 3 large packages (8 oz. each) cream cheese and 1 1/4 cup sugar.",
+      "Add 6 eggs, one at a time, beating well after each addition.",
+      "Stir in 1 pint sour cream, 1 tablespoon lemon juice, and 1 teaspoon vanilla. Mix well.",
+      "Pour the filling mixture over the prepared crust.",
+      "Sprinkle any remaining crumbs on top (if reserved).",
+      "Bake at 350°F for 1 hour.",
+      "Turn the oven off and open the oven door slightly.",
+      "Let the cake cool in the oven for 1 hour.",
+      "Refrigerate the cheesecake overnight before serving."
+    ],
+    "he": [
+      "לקראסט: שלבו 2 כוסות פירורי גרהם, 1/4 ליברות (כ-113 גרם) חמאה מומסת ו-1/4 כוס סוכר.",
+      "הכינו תבנית קפיץ, ייתכן שתרצו לרפד את הדפנות בנייר כסף עד חצי גובה. לחצו את תערובת הקראסט לתחתית התבנית.",
+      "למלית: בקערה גדולה, ערבבו יחד 3 חבילות גדולות (226 גרם כל אחת) גבינת שמנת ו-1 ורבע כוס סוכר.",
+      "הוסיפו 6 ביצים, אחת בכל פעם, וטרפו היטב לאחר כל הוספה.",
+      "ערבבו פנימה 1 פיינט (כ-473 מ\"ל) שמנת חמוצה, 1 כף מיץ לימון ו-1 כפית תמצית וניל. ערבבו היטב.",
+      "שפכו את תערובת המלית מעל הקראסט המוכן.",
+      "פזרו מעל כל פירורים שנותרו (אם שמרתם).",
+      "אפו בחום של 350°F (כ-175°C) למשך שעה אחת.",
+      "כבו את התנור ופתחו מעט את דלת התנור.",
+      "הניחו לעוגה להתקרר בתנור למשך שעה אחת.",
+      "צננו את עוגת הגבינה במקרר למשך הלילה לפני ההגשה."
+    ]
+  },
+  "tags": [
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "dairy",
+      "he": "חלבי"
+    },
+    {
+      "en": "cheesecake",
+      "he": "עוגת גבינה"
+    }
+  ],
+  "illustration": "illustrations/e7b5d6dd-353d-4c72-b1e0-c2ea213274fb.webp",
+  "ocrRawText": "Cheese Cake (Barbara's)\nCrust - Graham crackers - 2 cups (crumbs)\n1/4 lb melted butter\n1/4 cup sugar\nFilling - 3 large pkg (8 oz. each) cream cheese\n1 1/4 cup sugar\n6 eggs\n1 pt. sour cream\n1 tsp vanilla\n1 Tsp lemon juice (or more)\npan a cover with foil to half way a\nmix with a spring form -\nmix well\nmix well\ncream cheese & sugar - add eggs\n1 at a time - beat after ea. egg\nAdd sour cream - lemon juice -\nvanilla. Pour into crust. Sprinkle\nrest of crumbs on top.\nBake 1 hr @ 350° - Turn oven off\n& open door. Let cake cool in\noven 1 hr. - refrigerate over\nnight",
+  "selectedModel": "gemini",
+  "rankingReason": "Gemini selected (only valid result). Claude returned no result"
+}

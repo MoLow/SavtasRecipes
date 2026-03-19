@@ -1,0 +1,89 @@
+{
+  "id": "920f2028-e5ff-4ce4-9020-4713306b5915",
+  "slug": "cheese-cake",
+  "source": {
+    "scanFiles": [
+      "scans/920f2028-e5ff-4ce4-9020-4713306b5915-0.jpg"
+    ],
+    "processedAt": "2026-03-19T18:42:49.928Z"
+  },
+  "title": {
+    "en": "Cheese cake",
+    "he": "עוגת גבינה"
+  },
+  "description": {
+    "en": "A recipe for a cheesecake, likely no-bake, using gelatin, vanilla, and buttermilk. The recipe seems to be incomplete as it does not list main cheesecake ingredients like cream cheese or sugar. The term 'Brine' is used as a section header, which is unusual for a cheesecake recipe and might be a unique term by the author or a typo for 'Blend' or 'Batter'.",
+    "he": "מתכון לעוגת גבינה, ככל הנראה ללא אפייה, המשתמש בג'לטין, וניל וחובצה. המתכון נראה חלקי מכיוון שאינו מפרט מרכיבים עיקריים לעוגת גבינה כמו גבינת שמנת או סוכר. המונח 'Brine' (תמלחת) משמש ככותרת סעיף, דבר חריג למתכון עוגת גבינה ועשוי להיות מונח ייחודי של הכותב או טעות כתיב עבור 'Blend' (תערובת) או 'Batter' (בלילה)."
+  },
+  "ingredients": [
+    {
+      "en": "3 Pkgs gelatine",
+      "he": "3 חבילות ג'לטין",
+      "item": "gelatine",
+      "amount": 3,
+      "unit": "Pkgs"
+    },
+    {
+      "en": "7 Teaspoons vanilla",
+      "he": "7 כפיות וניל",
+      "item": "vanilla",
+      "amount": 7,
+      "unit": "Teaspoons"
+    },
+    {
+      "en": "2 Teaspoons yellow color",
+      "he": "2 כפיות צבע מאכל צהוב",
+      "item": "yellow color",
+      "amount": 2,
+      "unit": "Teaspoons"
+    },
+    {
+      "en": "5 drops hot water",
+      "he": "5 טיפות מים חמים",
+      "item": "hot water",
+      "amount": 5,
+      "unit": "drops"
+    },
+    {
+      "en": "1/2 cup Buttermilk",
+      "he": "1/2 כוס חובצה",
+      "item": "Buttermilk",
+      "amount": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Dissolve gelatine in hot water - add Buttermilk",
+      "Mix in large mix and add",
+      "Brine:",
+      "all ingredient beat for about 5 min.",
+      "immediately pour in to a dish"
+    ],
+    "he": [
+      "ממיסים את הג'לטין במים חמים - מוסיפים חובצה",
+      "מערבבים בתערובת גדולה ומוסיפים",
+      "תמלחת:",
+      "מקציפים את כל המרכיבים כ-5 דקות.",
+      "יוצקים מיד לתבנית."
+    ]
+  },
+  "tags": [
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "dairy",
+      "he": "חלבי"
+    },
+    {
+      "en": "no-bake",
+      "he": "ללא אפייה"
+    }
+  ],
+  "illustration": "illustrations/920f2028-e5ff-4ce4-9020-4713306b5915.webp",
+  "ocrRawText": "Cheese cake\n3 Pkgs gelatine\n7 Teaspoons vanilla\n2 Teaspoons yellow color\n5 drops hot water\n1/2 cup Buttermilk\nDissolve gelatine in hot\nwater - add Buttermilk\nMix in large mix\nand add\nBrine:\nall ingredient\nbeat for about 5 min.\nimmediately pour in\nto a dish",
+  "selectedModel": "gemini",
+  "rankingReason": "Result A is more accurate to the actual OCR text provided. While Result B attempts to invent missing ingredients (cream cheese, sugar, sour cream) that aren't in the raw text, Result A correctly extracts only what's present in the handwriting. Result A also honestly acknowledges the recipe's incompleteness and the unusual 'Brine' section header rather than inventing plausible-sounding but false details. Result B's description claims it's 'baked in a springform pan' when the raw text shows 'no-bake' characteristics, and fabricates ingredients not visible in the scan. For OCR extraction tasks, accuracy to source material is paramount—Result A demonstrates better fidelity to the actual document."
+}

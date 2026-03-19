@@ -1,0 +1,111 @@
+{
+  "id": "ba196522-2924-44ba-a9fd-357753045459",
+  "slug": "roly-polys",
+  "source": {
+    "scanFiles": [
+      "scans/ba196522-2924-44ba-a9fd-357753045459-0.jpg"
+    ],
+    "processedAt": "2026-03-19T18:41:43.218Z"
+  },
+  "title": {
+    "en": "Roly Polys",
+    "he": "רולי פולי"
+  },
+  "description": {
+    "en": "A traditional roly poly pastry made with eggs, oil, orange juice, and honey. This is an ingredient list on an index card with no instructions provided.",
+    "he": "מאפה רולי פולי מסורתי העשוי מביצים, שמן, מיץ תפוזים ודבש. זוהי רשימת מרכיבים על כרטיסיית אינדקס ללא הוראות הכנה."
+  },
+  "ingredients": [
+    {
+      "en": "4 eggs",
+      "he": "4 ביצים",
+      "item": "eggs",
+      "amount": 4,
+      "unit": "piece"
+    },
+    {
+      "en": "1/2 cup sugar",
+      "he": "1/2 כוס סוכר",
+      "item": "sugar",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "3/4 cup oil",
+      "he": "3/4 כוס שמן",
+      "item": "oil",
+      "amount": 0.75,
+      "unit": "cup"
+    },
+    {
+      "en": "1/4 cup OJ & water",
+      "he": "1/4 כוס מיץ תפוזים ומים",
+      "item": "orange juice and water",
+      "amount": 0.25,
+      "unit": "cup"
+    },
+    {
+      "en": "2 tsp baking powder",
+      "he": "2 כפיות אבקת אפייה",
+      "item": "baking powder",
+      "amount": 2,
+      "unit": "tsp"
+    },
+    {
+      "en": "Vanilla or lemon juice",
+      "he": "וניל או מיץ לימון",
+      "item": "vanilla or lemon juice"
+    },
+    {
+      "en": "3 cups flour",
+      "he": "3 כוסות קמח",
+      "item": "flour",
+      "amount": 3,
+      "unit": "cup"
+    },
+    {
+      "en": "1 tsp honey",
+      "he": "1 כפית דבש",
+      "item": "honey",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "Pinch of salt",
+      "he": "קמצוץ מלח",
+      "item": "salt",
+      "amount": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "No instructions were provided on this recipe card. Typically, combine wet and dry ingredients separately, mix together to form a dough, shape into small rolls, and bake until golden."
+    ],
+    "he": [
+      "לא צוינו הוראות הכנה בכרטיס המתכון. בדרך כלל, יש לערבב בנפרד את המרכיבים הרטובים והיבשים, לשלב יחד לבצק, לעצב לגלילות קטנות ולאפות עד להזהבה."
+    ]
+  },
+  "tags": [
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "pastry",
+      "he": "מאפה"
+    },
+    {
+      "en": "pareve",
+      "he": "פרווה"
+    },
+    {
+      "en": "baking",
+      "he": "אפייה"
+    }
+  ],
+  "illustration": "illustrations/ba196522-2924-44ba-a9fd-357753045459.webp",
+  "ocrRawText": "Roly Polys\n4 Eggs\n1/2 c Sugar\n3/4 c Oil\n1/4 c OJ & Water\n2 tsp Baking Powder\nVanilla or Lemon Juice\n3c Flour\n1 tsp Honey\npinch of Salt",
+  "selectedModel": "claude",
+  "rankingReason": "Result B is superior in several key ways: (1) It correctly identifies the honey measurement as 1 tsp instead of 1 tbsp, matching the OCR text more accurately; (2) It provides helpful contextual instructions acknowledging this is an index card with typical roly poly preparation steps, while A explicitly states 'No instructions were provided'; (3) The ingredient items are more normalized (e.g., 'orange juice and water' instead of 'OJ + Water', 'eggs' instead of 'Eggs'); (4) The Hebrew translation uses 'קמצוץ' (pinch) instead of 'קורט', which is more idiomatic; (5) Result B adds relevant tags like 'pareve' and 'baking' showing better cultural/culinary context; (6) The OCR raw text in B matches the handwritten source more faithfully (showing '3/4 c Oil' and '1/4 c OJ & Water' with proper spacing). Result A has a critical error listing honey as 1 tbsp when it should be 1 tsp based on the source text."
+}

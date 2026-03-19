@@ -1,0 +1,180 @@
+{
+  "id": "0d463190-d0b3-4347-b9a9-a68e69a55507",
+  "slug": "honey-whole-wheat-challah",
+  "source": {
+    "scanFiles": [
+      "scans/0d463190-d0b3-4347-b9a9-a68e69a55507-0.jpg",
+      "scans/0d463190-d0b3-4347-b9a9-a68e69a55507-1.jpg"
+    ],
+    "processedAt": "2026-03-19T18:49:14.488Z"
+  },
+  "title": {
+    "en": "Honey-Whole Wheat Challah",
+    "he": "חלה מדבש וקמח מלא"
+  },
+  "description": {
+    "en": "A recipe for Honey-Whole Wheat Challah, likely for Shabbat or holidays. The ingredient \"3/4 dry eggs\" is transcribed as written, assuming it refers to a specific dry egg product without a specified unit.",
+    "he": "מתכון לחלה מדבש וקמח מלא, מתאים לשבת או לחגים. המרכיב \"3/4 ביצים יבשות\" תועתק כפי שנכתב, בהנחה שהוא מתייחס למוצר ביצים יבש ספציפי ללא יחידת מידה מפורטת."
+  },
+  "ingredients": [
+    {
+      "en": "2 cups tap H₂O",
+      "he": "2 כוסות מים מהברז",
+      "item": "tap water",
+      "amount": 2,
+      "unit": "cups"
+    },
+    {
+      "en": "2 envelopes yeast",
+      "he": "2 שקיות שמרים",
+      "item": "yeast",
+      "amount": 2,
+      "unit": "envelopes"
+    },
+    {
+      "en": "2 tsp large salt",
+      "he": "2 כפיות מלח גס",
+      "item": "large salt",
+      "amount": 2,
+      "unit": "tsp"
+    },
+    {
+      "en": "2 tsp lite brown sugar",
+      "he": "2 כפיות סוכר חום בהיר",
+      "item": "light brown sugar",
+      "amount": 2,
+      "unit": "tsp"
+    },
+    {
+      "en": "3/4 dry eggs",
+      "he": "3/4 ביצים יבשות",
+      "item": "dry eggs",
+      "amount": 0.75,
+      "unit": null
+    },
+    {
+      "en": "1 yolk (room temp)",
+      "he": "1 חלמון (בטמפרטורת החדר)",
+      "item": "egg yolk",
+      "amount": 1,
+      "unit": null
+    },
+    {
+      "en": "1/3 cup peanut oil",
+      "he": "1/3 כוס שמן בוטנים",
+      "item": "peanut oil",
+      "amount": 0.33,
+      "unit": "cup"
+    },
+    {
+      "en": "1/2 cup honey",
+      "he": "1/2 כוס דבש",
+      "item": "honey",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "3 cups white flour",
+      "he": "3 כוסות קמח לבן",
+      "item": "white flour",
+      "amount": 3,
+      "unit": "cups"
+    },
+    {
+      "en": "3 C whole wheat flour",
+      "he": "3 כוסות קמח חיטה מלאה",
+      "item": "whole wheat flour",
+      "amount": 3,
+      "unit": "cups"
+    },
+    {
+      "en": "1 egg (for wash)",
+      "he": "1 ביצה (לציפוי)",
+      "item": "egg",
+      "amount": 1,
+      "unit": null
+    },
+    {
+      "en": "1 Tsp honey (for wash)",
+      "he": "1 כפית דבש (לציפוי)",
+      "item": "honey",
+      "amount": 1,
+      "unit": "Tsp"
+    },
+    {
+      "en": "1 Tsp H₂O (for wash)",
+      "he": "1 כפית מים (לציפוי)",
+      "item": "water",
+      "amount": 1,
+      "unit": "Tsp"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Stir yeast, salt, brown sugar - stir to dissolve.",
+      "Beat eggs + yolk - add to above, add oil + honey - stir.",
+      "Add 2 C. ea. white flour + whole wheat flour. Beat for 10 min to form a soft ball.",
+      "Knead in remaining flour (both kinds). Knead add'l 10 min.",
+      "Put in bowl, cover (put in warm place). Allow to rise until dough doubles in size.",
+      "Punch down + allow to rise again.",
+      "Punch again + divide in 2. Divide ea 1/2 into 3rds.",
+      "Braid. Sprinkle corn meal on a sheet pan - place loaf on it.",
+      "Allow to rise until double.",
+      "Make egg wash & brush on top.",
+      "Egg Wash: 1 egg, 1 Tsp honey, 1 Tsp H₂O.",
+      "Bake for 350° F in preheated oven."
+    ],
+    "he": [
+      "ערבבו שמרים, מלח וסוכר חום – ערבבו עד להמסה.",
+      "טרפו ביצים יבשות + חלמון – הוסיפו לתערובת הנ\"ל, הוסיפו שמן + דבש – ערבבו.",
+      "הוסיפו 2 כוסות מכל סוג קמח (לבן + מלא). ערבלו במשך 10 דקות ליצירת כדור רך.",
+      "לשו פנימה את שארית הקמח (משני הסוגים). לשו 10 דקות נוספות.",
+      "הניחו בקערה, כסו (הניחו במקום חמים). הניחו לתפוח עד שהבצק יכפיל את נפחו.",
+      "הורידו את נפח הבצק + הניחו לו לתפוח שוב.",
+      "הורידו שוב את נפח הבצק + חלקו ל-2. חלקו כל חצי ל-3 חלקים.",
+      "קלעו. פזרו קמח תירס על תבנית אפייה – הניחו עליה את הכיכר.",
+      "הניחו לתפוח עד שיכפיל את גודלו.",
+      "הכינו ציפוי ביצה והברישו מעל.",
+      "ציפוי ביצה: 1 ביצה, 1 כפית דבש, 1 כפית מים.",
+      "אפו בחום של 350°F בתנור שחומם מראש."
+    ]
+  },
+  "tags": [
+    {
+      "en": "Challah",
+      "he": "חלה"
+    },
+    {
+      "en": "Bread",
+      "he": "לחם"
+    },
+    {
+      "en": "Jewish",
+      "he": "יהודי"
+    },
+    {
+      "en": "Shabbat",
+      "he": "שבת"
+    },
+    {
+      "en": "Holiday",
+      "he": "חג"
+    },
+    {
+      "en": "Ashkenazi",
+      "he": "אשכנזי"
+    },
+    {
+      "en": "Baking",
+      "he": "אפייה"
+    },
+    {
+      "en": "Whole Wheat",
+      "he": "קמח מלא"
+    }
+  ],
+  "illustration": "illustrations/0d463190-d0b3-4347-b9a9-a68e69a55507.webp",
+  "ocrRawText": "Attn: Sue & Steve\nHoney-Whole W. Wheat Challah\n\n2 cups tap H₂O\n2 envelopes yeast\n2 tsp large salt\n2 tsp lite brown sugar\n3/4 dry eggs + 1 yolk (room temp)\n1/3 cup peanut oil\n1/2 cup honey\n3 cups white flour + 3 C whole wheat flour\n\n① Stir yeast, salt, brown sugar - stir to dissolve\n② Beat eggs + yolk - add to above, add oil +\n    honey - stir\n③ Add 2 C. ea. white flour + whole wheat flour\n    Beat for 10 min to form a soft ball\n④ Knead in remaining flour (both kinds)\n    Knead add'l 10 min\n⑤ Put in bowl, cover (put in warm place)\n    Allow to rise until dough doubles in size\n⑥ Punch down + allow to rise again\n⑦ Punch again + divide in 2. Divide ea\n    1/2 into 3rds.\n⑧ Braid. Sprinkle corn meal on a sheet\n    pan - place loaf on it\n⑨ Allow to rise until double\n⑩ Make egg wash & brush on top\n    (over)\n⑪ Egg Wash\n    1 egg\n    1 Tsp honey\n    1 \" \" H₂O\n⑫ Bake for 350° F in\n    preheated oven.",
+  "selectedModel": "gemini",
+  "rankingReason": "Gemini selected (only valid result). Claude returned no result"
+}

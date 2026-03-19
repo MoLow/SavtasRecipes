@@ -1,0 +1,147 @@
+{
+  "id": "f87459db-d296-4e37-a26b-a66d42ddb0c2",
+  "slug": "german-chocolate-bread",
+  "source": {
+    "scanFiles": [
+      "scans/f87459db-d296-4e37-a26b-a66d42ddb0c2-0.jpg"
+    ],
+    "processedAt": "2026-03-19T18:42:19.881Z"
+  },
+  "title": {
+    "en": "German Chocolate Bread",
+    "he": "לחם שוקולד גרמני"
+  },
+  "description": {
+    "en": "A 1½ pound chocolate bread loaf made in a bread machine, with cocoa, chocolate chips, chopped nuts, and toasted coconut.",
+    "he": "כיכר לחם שוקולד במשקל 680 גרם להכנה במכונת לחם, עם קקאו, שבבי שוקולד, אגוזים קצוצים וקוקוס קלוי."
+  },
+  "ingredients": [
+    {
+      "en": "1 cup milk",
+      "he": "1 כוס חלב",
+      "item": "milk",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1 egg",
+      "he": "1 ביצה",
+      "item": "egg",
+      "amount": 1
+    },
+    {
+      "en": "2 tablespoons margarine or butter",
+      "he": "2 כפות מרגרינה או חמאה",
+      "item": "margarine or butter",
+      "amount": 2,
+      "unit": "tablespoon"
+    },
+    {
+      "en": "2 cups flour",
+      "he": "2 כוסות קמח",
+      "item": "flour",
+      "amount": 2,
+      "unit": "cup"
+    },
+    {
+      "en": "1 cup wheat flour",
+      "he": "1 כוס קמח חיטה מלאה",
+      "item": "wheat flour",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "3 tablespoons brown sugar",
+      "he": "3 כפות סוכר חום",
+      "item": "brown sugar",
+      "amount": 3,
+      "unit": "tablespoon"
+    },
+    {
+      "en": "2 tablespoons cocoa powder",
+      "he": "2 כפות אבקת קקאו",
+      "item": "cocoa powder",
+      "amount": 2,
+      "unit": "tablespoon"
+    },
+    {
+      "en": "3/4 teaspoon salt",
+      "he": "3/4 כפית מלח",
+      "item": "salt",
+      "amount": 0.75,
+      "unit": "teaspoon"
+    },
+    {
+      "en": "1 1/2 teaspoons yeast",
+      "he": "1.5 כפיות שמרים",
+      "item": "yeast",
+      "amount": 1.5,
+      "unit": "teaspoon"
+    },
+    {
+      "en": "1/2 cup chocolate chips",
+      "he": "1/2 כוס שבבי שוקולד",
+      "item": "chocolate chips",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1/3 cup chopped nuts",
+      "he": "1/3 כוס אגוזים קצוצים",
+      "item": "chopped nuts",
+      "amount": 0.33,
+      "unit": "cup"
+    },
+    {
+      "en": "1/3 cup toasted coconut",
+      "he": "1/3 כוס קוקוס קלוי",
+      "item": "toasted coconut",
+      "amount": 0.33,
+      "unit": "cup"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Step 1: Add milk, egg, and margarine or butter to the bread machine pan.",
+      "Step 2: Add flour, wheat flour, brown sugar, cocoa powder, salt, and yeast.",
+      "Step 3: Set the bread machine to the 1½ pound loaf setting.",
+      "Step 4: Add chocolate chips, chopped nuts, and toasted coconut at the mix-in signal or during the last knead cycle."
+    ],
+    "he": [
+      "שלב 1: הוסיפו חלב, ביצה ומרגרינה או חמאה לתבנית מכונת הלחם.",
+      "שלב 2: הוסיפו קמח, קמח חיטה מלאה, סוכר חום, אבקת קקאו, מלח ושמרים.",
+      "שלב 3: הגדירו את מכונת הלחם להגדרת כיכר של 680 גרם.",
+      "שלב 4: הוסיפו שבבי שוקולד, אגוזים קצוצים וקוקוס קלוי בצפצוף ההוספה או במהלך הלישה האחרונה."
+    ]
+  },
+  "tags": [
+    {
+      "en": "bread",
+      "he": "לחם"
+    },
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "chocolate",
+      "he": "שוקולד"
+    },
+    {
+      "en": "bread machine",
+      "he": "מכונת לחם"
+    },
+    {
+      "en": "dairy",
+      "he": "חלבי"
+    },
+    {
+      "en": "baking",
+      "he": "אפייה"
+    }
+  ],
+  "illustration": "illustrations/f87459db-d296-4e37-a26b-a66d42ddb0c2.webp",
+  "ocrRawText": "German Chocolate Bred\n1½ #\n1) 1C milk\n2) 1 egg\n3) 2T marg. or butter\n4) 2C flour\n5) 1C wheat flour\n6) 3T brown sugar\n7) 2T cocoa powder\n8) 3/4 tsp salt\n9) 1½ tsp. yeast\n10) ½C choc. chips\n11) 1/3C chopped nuts\n12) 1/3C toasted coconut",
+  "selectedModel": "claude",
+  "rankingReason": "Claude selected (only valid result). Gemini result failed validation: instructions.en: Array must contain at least 1 element(s); instructions.he: Array must contain at least 1 element(s)"
+}

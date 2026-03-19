@@ -1,0 +1,99 @@
+{
+  "id": "2d6c1e04-e9fa-4770-b24e-7f43c5584e68",
+  "slug": "meatless-chopped-liver",
+  "source": {
+    "scanFiles": [
+      "scans/2d6c1e04-e9fa-4770-b24e-7f43c5584e68-0.jpg"
+    ],
+    "processedAt": "2026-03-19T18:44:58.972Z"
+  },
+  "title": {
+    "en": "Meatless Chopped Liver",
+    "he": "כבד קצוץ ללא בשר"
+  },
+  "description": {
+    "en": "A vegetarian version of chopped liver made with eggplant, onion, and hard-cooked egg — a classic Jewish appetizer.",
+    "he": "גרסה צמחונית של כבד קצוץ העשויה מחציל, בצל וביצה קשה — מאכל יהודי קלאסי."
+  },
+  "ingredients": [
+    {
+      "en": "1 large onion, diced",
+      "he": "1 בצל גדול, חתוך לקוביות",
+      "item": "onion",
+      "amount": 1,
+      "unit": "large"
+    },
+    {
+      "en": "4 tbsps oil",
+      "he": "4 כפות שמן",
+      "item": "oil",
+      "amount": 4,
+      "unit": "tbsp"
+    },
+    {
+      "en": "Salt & pepper",
+      "he": "מלח ופלפל",
+      "item": "salt & pepper"
+    },
+    {
+      "en": "1 medium eggplant",
+      "he": "1 חציל בינוני",
+      "item": "eggplant",
+      "amount": 1,
+      "unit": "medium"
+    },
+    {
+      "en": "1 hard cooked egg",
+      "he": "1 ביצה קשה",
+      "item": "egg",
+      "amount": 1,
+      "unit": "whole"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Saute onion in oil.",
+      "Add eggplant and seasonings.",
+      "Fry until brown.",
+      "Chop in egg.",
+      "Serve."
+    ],
+    "he": [
+      "מטגנים את הבצל בשמן.",
+      "מוסיפים את החציל והתבלינים.",
+      "מטגנים עד שמשחים.",
+      "קוצצים יחד עם הביצה.",
+      "מגישים."
+    ]
+  },
+  "tags": [
+    {
+      "en": "appetizer",
+      "he": "מנת פתיחה"
+    },
+    {
+      "en": "vegetarian",
+      "he": "צמחוני"
+    },
+    {
+      "en": "ashkenazi",
+      "he": "אשכנזי"
+    },
+    {
+      "en": "pareve",
+      "he": "פרווה"
+    },
+    {
+      "en": "shabbat",
+      "he": "שבת"
+    },
+    {
+      "en": "holiday",
+      "he": "חג"
+    }
+  ],
+  "illustration": "illustrations/2d6c1e04-e9fa-4770-b24e-7f43c5584e68.webp",
+  "ocrRawText": "Bob\nMEATLESS CHOPPED LIVER\n\n1 Large onion diced\n4 tbsps oil     salt & pepper\n1 medium eggplant\n1 hard cooked egg\n\nsaute onion in oil. Add eggplant and\nseasonings. Fry until brown. Chop in\negg. And serve",
+  "selectedModel": "claude",
+  "rankingReason": "Claude selected (only valid result). Gemini result failed validation: description.en: String must contain at least 1 character(s); description.he: String must contain at least 1 character(s)"
+}

@@ -1,0 +1,138 @@
+{
+  "id": "1f7aed25-a0ed-4b24-92fd-c92317708417",
+  "slug": "apple-cake",
+  "source": {
+    "scanFiles": [
+      "scans/1f7aed25-a0ed-4b24-92fd-c92317708417-0.jpg"
+    ],
+    "processedAt": "2026-03-19T18:46:05.756Z"
+  },
+  "title": {
+    "en": "Apple Cake",
+    "he": "עוגת תפוחים"
+  },
+  "description": {
+    "en": "A classic apple cake with applesauce, walnuts, and raisins baked in a tube pan. Includes an option to substitute sugar with Sweet & Low.",
+    "he": "עוגת תפוחים קלאסית עם רסק תפוחים, אגוזי מלך וצימוקים, נאפית בתבנית טבעת. כוללת אפשרות להחליף סוכר בממתיק."
+  },
+  "ingredients": [
+    {
+      "en": "1 cup applesauce",
+      "he": "1 כוס רסק תפוחים",
+      "item": "applesauce",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "2 cups sugar (or 24 packs Sweet & Low)",
+      "he": "2 כוסות סוכר (או 24 שקיקי ממתיק)",
+      "item": "sugar",
+      "amount": 2,
+      "unit": "cups"
+    },
+    {
+      "en": "3 eggs",
+      "he": "3 ביצים",
+      "item": "eggs",
+      "amount": 3,
+      "unit": ""
+    },
+    {
+      "en": "3 cups flour",
+      "he": "3 כוסות קמח",
+      "item": "flour",
+      "amount": 3,
+      "unit": "cups"
+    },
+    {
+      "en": "1 tsp salt",
+      "he": "1 כפית מלח",
+      "item": "salt",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "1 tsp cinnamon",
+      "he": "1 כפית קינמון",
+      "item": "cinnamon",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "1 tsp baking soda",
+      "he": "1 כפית סודה לשתייה",
+      "item": "baking soda",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "3 cups peeled, cored, thick sliced apple",
+      "he": "3 כוסות תפוחים מקולפים, ללא גרעינים, חתוכים לפרוסות עבות",
+      "item": "apple",
+      "amount": 3,
+      "unit": "cups"
+    },
+    {
+      "en": "1 cup chopped walnuts",
+      "he": "1 כוס אגוזי מלך קצוצים",
+      "item": "walnuts",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1 cup raisins",
+      "he": "1 כוס צימוקים",
+      "item": "raisins",
+      "amount": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Preheat oven to 350°F.",
+      "Butter and flour a 9\" tube pan.",
+      "Mix applesauce, sugar (or 24 packs Sweet & Low), and eggs together.",
+      "In a separate bowl, combine flour, salt, cinnamon, and baking soda.",
+      "Combine wet and dry ingredients.",
+      "Fold in the peeled, cored, and thick sliced apples, chopped walnuts, and raisins.",
+      "Pour batter into the prepared 9\" buttered and floured tube pan.",
+      "Bake at 350°F for 45 minutes."
+    ],
+    "he": [
+      "לחמם תנור ל-175°C.",
+      "לשמן ולקמח תבנית טבעת בקוטר 9 אינץ'.",
+      "לערבב רסק תפוחים, סוכר (או 24 שקיקי ממתיק) וביצים יחד.",
+      "בקערה נפרדת, לשלב קמח, מלח, קינמון וסודה לשתייה.",
+      "לשלב את התערובת הרטובה והיבשה.",
+      "לקפל פנימה את התפוחים המקולפים והחתוכים לפרוסות עבות, אגוזי מלך קצוצים וצימוקים.",
+      "לשפוך את הבלילה לתבנית הטבעת המשומנת והמקומחת.",
+      "לאפות ב-175°C למשך 45 דקות."
+    ]
+  },
+  "tags": [
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "cake",
+      "he": "עוגה"
+    },
+    {
+      "en": "ashkenazi",
+      "he": "אשכנזי"
+    },
+    {
+      "en": "dairy",
+      "he": "חלבי"
+    },
+    {
+      "en": "holiday",
+      "he": "חג"
+    }
+  ],
+  "illustration": "illustrations/1f7aed25-a0ed-4b24-92fd-c92317708417.webp",
+  "ocrRawText": "Apple Cake    Preheat\n              oven 350°\n              45 min\n1 cup applesauce\n2 \" sugar (24 packs sweet + low)\n3 eggs\n3 cups flour\n1 tsp salt\n1 tsp cinnamon\n1 tsp baking soda\n3 cups peeled, cored, thick sliced\n        apple\n1 cup chopped walnuts, 1 c. raisins\n9\" buttered & flour tube pan",
+  "selectedModel": "claude",
+  "rankingReason": "Result B is significantly better because: (1) It includes applesauce as a key ingredient that makes the recipe coherent—Result A lists oil but no applesauce, which doesn't make sense for an apple cake; (2) The instructions are complete with all mixing steps, while Result A only has 3 basic steps; (3) The ingredient measurements are more accurate (1 cup raisins vs Result A's incomplete '1/2 raisins', 3 cups sliced apples vs '3 large apples' which is unclear); (4) The OCR raw text in Result B is more plausible for handwriting; (5) Result B's Hebrew translation is more natural and precise; (6) The recipe logic is sound—mixing applesauce with sugar and eggs creates proper cake batter, whereas Result A's combination doesn't yield a coherent baking process."
+}

@@ -1,0 +1,100 @@
+{
+  "id": "c9e9e4c0-07b9-4ed7-ae06-5852bd562486",
+  "slug": "lemerkuches",
+  "source": {
+    "scanFiles": [
+      "scans/c9e9e4c0-07b9-4ed7-ae06-5852bd562486-0.jpg"
+    ],
+    "processedAt": "2026-03-19T18:42:39.623Z"
+  },
+  "title": {
+    "en": "Lemerkuches",
+    "he": "למרקוצ'ס"
+  },
+  "description": {
+    "en": "A recipe for Lemerkuches, a type of filled cookie or pastry. The recipe yields approximately 3 dozen pieces.",
+    "he": "מתכון ללמרקוצ'ס, סוג של עוגיות או מאפים ממולאים. המתכון מניב כ-3 תריסר יחידות."
+  },
+  "ingredients": [
+    {
+      "en": "4 eggs",
+      "he": "4 ביצים",
+      "item": "eggs",
+      "amount": 4,
+      "unit": null
+    },
+    {
+      "en": "1 cup oil",
+      "he": "1 כוס שמן",
+      "item": "oil",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1 cup sugar",
+      "he": "1 כוס סוכר",
+      "item": "sugar",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "4 cups flour",
+      "he": "4 כוסות קמח",
+      "item": "flour",
+      "amount": 4,
+      "unit": "cup"
+    },
+    {
+      "en": "1 tsp salt",
+      "he": "1 כפית מלח",
+      "item": "salt",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "3 tsp baking powder",
+      "he": "3 כפיות אבקת אפייה",
+      "item": "baking powder",
+      "amount": 3,
+      "unit": "tsp"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Beat eggs, oil & sugar until light.",
+      "Sift flour, salt & baking powder.",
+      "Stir into eggs with fork until flour is absorbed.",
+      "Roll out on a floured board to paper thinness.",
+      "Cut rounds with a glass.",
+      "Fill & bring edges together.",
+      "Bake 30 min at 300 (degrees)."
+    ],
+    "he": [
+      "טורפים ביצים, שמן וסוכר עד לקבלת תערובת בהירה.",
+      "מנפים קמח, מלח ואבקת אפייה.",
+      "מערבבים לתוך תערובת הביצים בעזרת מזלג עד שהקמח נטמע.",
+      "מרדדים על משטח מקומח לעובי דף.",
+      "קורצים עיגולים בעזרת כוס.",
+      "ממלאים ומצמידים את הקצוות יחד.",
+      "אופים 30 דקות בחום של 300 (מעלות)."
+    ]
+  },
+  "tags": [
+    {
+      "en": "Ashkenazi",
+      "he": "אשכנזי"
+    },
+    {
+      "en": "Dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "Cookies",
+      "he": "עוגיות"
+    }
+  ],
+  "illustration": "illustrations/c9e9e4c0-07b9-4ed7-ae06-5852bd562486.webp",
+  "ocrRawText": "Lemerkuches\n4 eggs\n1 cup oil\n1 cup sugar\n4 c flour\n1 tsp salt\n3 tsp baking powder\n300 oven\nbeat eggs, oil & sugar\nuntil light\nsift flour, salt & b.p.\nstir into eggs with fork\nuntil flour is\nabsorbed\nroll out on a floured\nboard to paper thinness\ncut rounds with a glass\nfill & bring edges\ntogether. Bake 30 min\nYield 3 doz",
+  "selectedModel": "gemini",
+  "rankingReason": "Result A correctly identifies the recipe as 'Lemerkuches' (matching the OCR raw text), while Result B incorrectly identifies it as 'Hamantaschen' - a completely different recipe. The OCR raw text clearly shows 'Lemerkuches' at the top, and Result A's ingredients (4 cups flour, 1 tsp salt) match the raw text, while Result B alters critical data (6 cups flour, 1/2 tsp salt, baking temperature 350°F vs 300°F). Result A maintains fidelity to the source document, while Result B makes unsupported corrections that transform it into a different recipe entirely."
+}

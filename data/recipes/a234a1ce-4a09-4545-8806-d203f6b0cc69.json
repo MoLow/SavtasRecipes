@@ -1,0 +1,116 @@
+{
+  "id": "a234a1ce-4a09-4545-8806-d203f6b0cc69",
+  "slug": "date-nut-bread",
+  "source": {
+    "scanFiles": [
+      "scans/a234a1ce-4a09-4545-8806-d203f6b0cc69-0.jpg"
+    ],
+    "processedAt": "2026-03-19T18:41:33.664Z"
+  },
+  "title": {
+    "en": "Date Nut Bread",
+    "he": "לחם תמרים ואגוזים"
+  },
+  "description": {
+    "en": "A classic baked date and walnut bread, slow-baked at a low temperature for a moist, dense loaf.",
+    "he": "לחם תמרים ואגוזי מלך קלאסי, נאפה באיטיות בטמפרטורה נמוכה לקבלת כיכר לחה וצפופה."
+  },
+  "ingredients": [
+    {
+      "en": "1 lb walnuts",
+      "he": "1 ליברה (450 גרם) אגוזי מלך",
+      "item": "walnuts",
+      "amount": 1,
+      "unit": "lb"
+    },
+    {
+      "en": "1 lb pitted dates",
+      "he": "1 ליברה (450 גרם) תמרים ללא גלעין",
+      "item": "pitted dates",
+      "amount": 1,
+      "unit": "lb"
+    },
+    {
+      "en": "3½ cups boiled water",
+      "he": "3½ כוסות מים רותחים",
+      "item": "boiled water",
+      "amount": 3.5,
+      "unit": "cup"
+    },
+    {
+      "en": "¾ tsp salt",
+      "he": "¾ כפית מלח",
+      "item": "salt",
+      "amount": 0.75,
+      "unit": "tsp"
+    },
+    {
+      "en": "3 tsp bicarbonate of soda",
+      "he": "3 כפיות סודה לשתייה",
+      "item": "bicarbonate of soda",
+      "amount": 3,
+      "unit": "tsp"
+    },
+    {
+      "en": "6 cups flour (approx)",
+      "he": "6 כוסות קמח (בערך)",
+      "item": "flour",
+      "amount": 6,
+      "unit": "cup"
+    },
+    {
+      "en": "4 eggs",
+      "he": "4 ביצים",
+      "item": "eggs",
+      "amount": 4,
+      "unit": "piece"
+    },
+    {
+      "en": "2½ cups sugar",
+      "he": "2½ כוסות סוכר",
+      "item": "sugar",
+      "amount": 2.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Pour boiled water over walnuts, dates, bicarbonate of soda and salt.",
+      "Mix eggs and sugar together. Gradually add flour.",
+      "Gradually add the water, date and nut mixture.",
+      "Bake in a greased pan at 275°F or 300°F for 1 to 1½ hours."
+    ],
+    "he": [
+      "יוצקים מים רותחים על אגוזי המלך, התמרים, הסודה לשתייה והמלח.",
+      "מערבבים את הביצים והסוכר יחד. מוסיפים בהדרגה את הקמח.",
+      "מוסיפים בהדרגה את תערובת המים, התמרים והאגוזים.",
+      "אופים בתבנית משומנת בטמפרטורה של 135°C או 150°C למשך שעה עד שעה וחצי."
+    ]
+  },
+  "tags": [
+    {
+      "en": "bread",
+      "he": "לחם"
+    },
+    {
+      "en": "baking",
+      "he": "אפייה"
+    },
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "vegetarian",
+      "he": "צמחוני"
+    },
+    {
+      "en": "dairy-free",
+      "he": "ללא חלב"
+    }
+  ],
+  "illustration": "illustrations/a234a1ce-4a09-4545-8806-d203f6b0cc69.webp",
+  "ocrRawText": "Date Nut Bread\n1 lb Walnuts                1 lb pitted Dates\n3½ c boiled H₂O          3/4 tsp salt\n3 tsp bicarbonate of soda   6c Flour (aprox)\n4 Eggs                      2½ c Sugar\n\nPour boiled H₂O over walnuts, dates, bicarb & salt\nMix Eggs & Sugar together. Gradually add flour.\nGradually add H₂O, date & nut mix.\nBake in greased pan at 275°F or 300°F for 1 to 1½ hr",
+  "selectedModel": "claude",
+  "rankingReason": "Result B is superior due to better ingredient organization (logical grouping in raw text), more natural English descriptions (\"moist, dense loaf\" vs generic \"baked to perfection\"), improved instruction clarity (\"1 to 1½ hours\" with proper grammar), more relevant tags (adds vegetarian/dairy-free which are accurate), and more helpful Hebrew translations that include metric conversions. While both capture the core recipe accurately, Result B demonstrates better overall quality in presentation and usability."
+}

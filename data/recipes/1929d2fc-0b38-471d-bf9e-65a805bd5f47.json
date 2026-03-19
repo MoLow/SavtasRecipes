@@ -1,0 +1,103 @@
+{
+  "id": "1929d2fc-0b38-471d-bf9e-65a805bd5f47",
+  "slug": "crescent-cookies-david",
+  "source": {
+    "scanFiles": [
+      "scans/1929d2fc-0b38-471d-bf9e-65a805bd5f47-0.jpg",
+      "scans/1929d2fc-0b38-471d-bf9e-65a805bd5f47-1.jpg"
+    ],
+    "processedAt": "2026-03-19T18:42:03.473Z"
+  },
+  "title": {
+    "en": "Crescent Cookies (David)",
+    "he": "עוגיות סהר (דוד)"
+  },
+  "description": {
+    "en": "A recipe for crescent-shaped cookies, featuring butter, sugar, whiskey, and flour. The cookies are baked until golden and then dipped in melted chocolate or rolled in confectioners' sugar. The recipe includes a humorous personal note at the end.",
+    "he": "מתכון לעוגיות בצורת סהר, המשלב חמאה, סוכר, וויסקי וקמח. העוגיות נאפות עד להזהבה ולאחר מכן נטבלות בשוקולד מומס או מגולגלות באבקת סוכר. המתכון כולל הערה אישית הומוריסטית בסופו."
+  },
+  "ingredients": [
+    {
+      "en": "1 lb sweet butter or margarine (softened)",
+      "he": "1 ליברא חמאה מתוקה או מרגרינה (רכה)",
+      "item": "sweet butter or margarine",
+      "amount": 1,
+      "unit": "lb"
+    },
+    {
+      "en": "2/3 c fine sugar",
+      "he": "2/3 כוס סוכר דק",
+      "item": "fine sugar",
+      "amount": 0.66,
+      "unit": "c"
+    },
+    {
+      "en": "1 jigger whiskey",
+      "he": "1 ג'יגר וויסקי",
+      "item": "whiskey",
+      "amount": 1,
+      "unit": "jigger"
+    },
+    {
+      "en": "4 c flour (approx)",
+      "he": "4 כוסות קמח (בערך)",
+      "item": "flour",
+      "amount": 4,
+      "unit": "c"
+    },
+    {
+      "en": "Semi sweet chocolate (melted)",
+      "he": "שוקולד מריר למחצה (מומס)",
+      "item": "semi-sweet chocolate",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "Confectioners Sugar",
+      "he": "אבקת סוכר",
+      "item": "confectioners sugar",
+      "amount": null,
+      "unit": null
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Combine butter, sugar, and whiskey with enough flour to make a soft dough.",
+      "Shape into crescents.",
+      "Bake at 350°F until done.",
+      "After cooking, dip points into melted chocolate or roll in confectioners sugar."
+    ],
+    "he": [
+      "שלבו חמאה, סוכר וויסקי עם מספיק קמח ליצירת בצק רך.",
+      "עצבו לסהרונים.",
+      "אפו ב-350°F (כ-175°C) עד שהן מוכנות.",
+      "לאחר האפייה, טבלו את הקצוות בשוקולד מומס או גלגלו באבקת סוכר."
+    ]
+  },
+  "tags": [
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "cookies",
+      "he": "עוגיות"
+    },
+    {
+      "en": "baking",
+      "he": "אפייה"
+    },
+    {
+      "en": "dairy",
+      "he": "חלבי"
+    },
+    {
+      "en": "holiday",
+      "he": "חג"
+    }
+  ],
+  "illustration": "illustrations/1929d2fc-0b38-471d-bf9e-65a805bd5f47.webp",
+  "ocrRawText": "Crescent Cookies (David)\n1 lb sweet butter or margarine (softened)\n2/3 c fine sugar\n1 jigger whiskey\n4 c flour (approx)\nSemi sweet chocolate (melted)\nConfectioners Sugar\nCombine butter, sugar, and whiskey with enough flour\nto make a soft dough. Shape into crescents and\nbake 350°F until done. After cooking Dip points\ninto melted chocolate or Roll in confectioners\nSugar. Link out whiskey glass & threw out the\nRest of the ingredients.",
+  "selectedModel": "gemini",
+  "rankingReason": "Gemini selected (only valid result). Claude returned no result"
+}

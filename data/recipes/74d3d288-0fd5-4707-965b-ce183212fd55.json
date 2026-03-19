@@ -1,0 +1,118 @@
+{
+  "id": "74d3d288-0fd5-4707-965b-ce183212fd55",
+  "slug": "chicken-cacciatore",
+  "source": {
+    "scanFiles": [
+      "scans/74d3d288-0fd5-4707-965b-ce183212fd55-0.jpg",
+      "scans/74d3d288-0fd5-4707-965b-ce183212fd55-1.jpg"
+    ],
+    "processedAt": "2026-03-19T18:44:01.337Z"
+  },
+  "title": {
+    "en": "Chicken Cacciatore",
+    "he": "עוף קצ'טורה"
+  },
+  "description": {
+    "en": "A classic Italian-American dish featuring chicken simmered in a savory tomato sauce with onions and mushrooms.",
+    "he": "מנה איטלקית-אמריקאית קלאסית הכוללת עוף מבושל ברוטב עגבניות מלוח עם בצל ופטריות."
+  },
+  "ingredients": [
+    {
+      "en": "Frying Chicken cut into pieces",
+      "he": "עוף מטוגן חתוך לחתיכות",
+      "item": "Frying Chicken",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "1/4 cup oil",
+      "he": "1/4 כוס שמן",
+      "item": "oil",
+      "amount": 0.25,
+      "unit": "cup"
+    },
+    {
+      "en": "1 chopped onion",
+      "he": "1 בצל קצוץ",
+      "item": "onion",
+      "amount": 1,
+      "unit": null
+    },
+    {
+      "en": "garlic",
+      "he": "שום",
+      "item": "garlic",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "1 small can mushrooms",
+      "he": "1 קופסת שימורים קטנה של פטריות",
+      "item": "mushrooms",
+      "amount": 1,
+      "unit": "small can"
+    },
+    {
+      "en": "1 large can tomato sauce",
+      "he": "1 קופסת שימורים גדולה של רוטב עגבניות",
+      "item": "tomato sauce",
+      "amount": 1,
+      "unit": "large can"
+    },
+    {
+      "en": "1/2 cup water",
+      "he": "1/2 כוס מים",
+      "item": "water",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "salt",
+      "he": "מלח",
+      "item": "salt",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "1/4 tsp allspice",
+      "he": "1/4 כפית פלפל אנגלי",
+      "item": "allspice",
+      "amount": 0.25,
+      "unit": "tsp"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Brown chicken + sauté onion + mushrooms.",
+      "Mix tomato sauce with rest of ingredients + water.",
+      "Pour over chicken.",
+      "Cover + simmer for 30 minutes.",
+      "Uncover + cook until sauce gets thick."
+    ],
+    "he": [
+      "השחימו את העוף + טגנו את הבצל + הפטריות.",
+      "ערבבו את רוטב העגבניות עם שאר המרכיבים + מים.",
+      "שפכו מעל העוף.",
+      "כסו + בשלו על אש קטנה במשך 30 דקות.",
+      "גלו + בשלו עד שהרוטב מסמיך."
+    ]
+  },
+  "tags": [
+    {
+      "en": "Italian",
+      "he": "איטלקי"
+    },
+    {
+      "en": "Main",
+      "he": "מנה עיקרית"
+    },
+    {
+      "en": "Meat",
+      "he": "בשרי"
+    }
+  ],
+  "illustration": "illustrations/74d3d288-0fd5-4707-965b-ce183212fd55.webp",
+  "ocrRawText": "Chicken Cacciatore\nFrying Chicken cut into pieces\n1/4 cup oil\n1 chopped onion\ngarlic\n1 small can mushrooms\n1 large can tomato sauce\n1/2 cup water\nsalt\n1/4 tsp allspice\nBrown chicken + sauté onion +\nmushrooms. Mix tomato sauce\nwith rest of ingredients +\nwater.\nPour over chicken. Cover +\nsimmer for 30 minutes.\nUncover + cook until sauce\ngets thick.",
+  "selectedModel": "gemini",
+  "rankingReason": "Gemini selected (only valid result). Claude returned no result"
+}

@@ -1,0 +1,111 @@
+{
+  "id": "4dcf0ac1-aead-486a-a5ca-3bc2e522cb51",
+  "slug": "pecan-squares",
+  "source": {
+    "scanFiles": [
+      "scans/4dcf0ac1-aead-486a-a5ca-3bc2e522cb51-0.jpg"
+    ],
+    "processedAt": "2026-03-19T18:44:29.576Z"
+  },
+  "title": {
+    "en": "Pecan Squares",
+    "he": "ריבועי פקאן"
+  },
+  "description": {
+    "en": "Layered bar cookies made with graham crackers, coconut, chocolate chips, butterscotch chips, condensed milk, and pecans or walnuts, baked in a 9x13 pan. Recipe noted as from Magnolia/Borden.",
+    "he": "חיתוכיות שכבות עשויות מפירורי גרהם, קוקוס, שבבי שוקולד, שבבי באטרסקוטש, חלב מרוכז ממותק ופקאנים או אגוזי מלך, נאפות בתבנית 9x13. המתכון מיוחס למגנוליה/בורדן."
+  },
+  "ingredients": [
+    {
+      "en": "1/2 cup margarine (= 1 stick)",
+      "he": "1/2 כוס מרגרינה (= חפיסה אחת)",
+      "item": "margarine",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1 cup crushed graham crackers",
+      "he": "1 כוס פירורי גרהם קרקרס",
+      "item": "crushed graham crackers",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1 cup coconut",
+      "he": "1 כוס קוקוס",
+      "item": "coconut",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1 package chocolate bits (6 ozs)",
+      "he": "1 חבילה שבבי שוקולד (170 גרם)",
+      "item": "chocolate bits",
+      "amount": 6,
+      "unit": "oz"
+    },
+    {
+      "en": "1 package butterscotch bits (6 ozs)",
+      "he": "1 חבילה שבבי באטרסקוטש (170 גרם)",
+      "item": "butterscotch bits",
+      "amount": 6,
+      "unit": "oz"
+    },
+    {
+      "en": "1 can condensed sweet milk (14 ozs)",
+      "he": "1 פחית חלב מרוכז ממותק (400 גרם)",
+      "item": "condensed sweet milk",
+      "amount": 14,
+      "unit": "oz"
+    },
+    {
+      "en": "1 cup chopped pecans or walnuts",
+      "he": "1 כוס פקאנים או אגוזי מלך קצוצים",
+      "item": "chopped pecans or walnuts",
+      "amount": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Step 1: Melt margarine in a 9x13 pan on top of the stove.",
+      "Step 2: Add crushed graham crackers over the melted margarine.",
+      "Step 3: Go down the list in order given, layering each ingredient: coconut, chocolate bits, butterscotch bits, condensed sweet milk, and chopped pecans or walnuts.",
+      "Step 4: Bake at 350°F for 25 minutes.",
+      "Step 5: Make sure it is cold before cutting into squares."
+    ],
+    "he": [
+      "שלב 1: להמיס מרגרינה בתבנית 9x13 על גבי הכיריים.",
+      "שלב 2: לפזר את פירורי הגרהם קרקרס מעל המרגרינה המומסת.",
+      "שלב 3: להוסיף שכבות לפי הסדר ברשימה: קוקוס, שבבי שוקולד, שבבי באטרסקוטש, חלב מרוכז ממותק ופקאנים או אגוזי מלך קצוצים.",
+      "שלב 4: לאפות בתנור ב-175 מעלות צלזיוס למשך 25 דקות.",
+      "שלב 5: לוודא שהתבנית התקררה לגמרי לפני חיתוך לריבועים."
+    ]
+  },
+  "tags": [
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "bars",
+      "he": "חיתוכיות"
+    },
+    {
+      "en": "American",
+      "he": "אמריקאי"
+    },
+    {
+      "en": "pareve",
+      "he": "פרווה"
+    },
+    {
+      "en": "baking",
+      "he": "אפייה"
+    }
+  ],
+  "illustration": "illustrations/4dcf0ac1-aead-486a-a5ca-3bc2e522cb51.webp",
+  "ocrRawText": "Pecan Squares\n9 x 13 pan (approximately)\n1/2 cup margarine (= 1 stick)\n1 cup crushed graham crackers\n1 cup coconut\n1 pkge chocolate bits (6 ozs)\n1 pkge butterscotch bits (6 ozs)\n1 can condensed sweet milk (14 ozs)\n1 cup chopped pecans or walnuts\n350°-25 mins. (make sure cold before\ncutting into squares)\nMelt margarine in pan (on top of stove)\nand go down list in order given\nput graham crackers over\n(Magnolia, Borden)",
+  "selectedModel": "claude",
+  "rankingReason": "Claude selected (only valid result). Gemini returned no result"
+}

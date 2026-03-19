@@ -42,13 +42,24 @@ function slugify(text: string): string {
     .replace(/^-|-$/g, "");
 }
 
-/** Maps scan filenames to recipe UUIDs for idempotency */
-function loadProcessedMap(): Record<string, string> {
-  if (!existsSync(PROCESSED_MAP_PATH)) return {};
-  return JSON.parse(readFileSync(PROCESSED_MAP_PATH, "utf-8"));
+/** Maps scan filenames to recipe UUIDs for idempotency.
+ *  Single shared instance to avoid race conditions with concurrent processing. */
+let _processedMap: Record<string, string> | null = null;
+
+function getProcessedMap(): Record<string, string> {
+  if (!_processedMap) {
+    _processedMap = existsSync(PROCESSED_MAP_PATH)
+      ? JSON.parse(readFileSync(PROCESSED_MAP_PATH, "utf-8"))
+      : {};
+  }
+  return _processedMap;
 }
 
-function saveProcessedMap(map: Record<string, string>): void {
+function markProcessed(filenames: string[], recipeId: string): void {
+  const map = getProcessedMap();
+  for (const f of filenames) {
+    map[f] = recipeId;
+  }
   mkdirSync(RECIPES_DIR, { recursive: true });
   writeFileSync(PROCESSED_MAP_PATH, JSON.stringify(map, null, 2) + "\n");
 }
@@ -67,7 +78,7 @@ async function processRecipeGroup(
   force: boolean,
   progress: ProgressReporter = noopReporter()
 ): Promise<void> {
-  const processedMap = loadProcessedMap();
+  const processedMap = getProcessedMap();
 
   // Check if all files in group are already processed
   const allProcessed = scanFilenames.every((f) => processedMap[f]);
@@ -141,10 +152,7 @@ async function processRecipeGroup(
   writeFileSync(outputPath, JSON.stringify(recipe, null, 2) + "\n");
 
   // Update processed map — all files in group map to same UUID
-  for (const filename of scanFilenames) {
-    processedMap[filename] = id;
-  }
-  saveProcessedMap(processedMap);
+  markProcessed(scanFilenames, id);
 
   progress.done();
 }
@@ -231,7 +239,7 @@ async function main(): Promise<void> {
   }
 
   // Filter out already-processed files
-  const processedMap = loadProcessedMap();
+  const processedMap = getProcessedMap();
   const unprocessed = force
     ? scanFiles
     : scanFiles.filter((f) => !processedMap[f]);
@@ -260,6 +268,7 @@ async function main(): Promise<void> {
 
   let completed = 0;
   let failed = 0;
+  const failures: Array<{ files: string[]; error: string }> = [];
 
   await pMap(groups, async (group, i) => {
     const recipeNum = (i ?? 0) + 1;
@@ -288,6 +297,8 @@ async function main(): Promise<void> {
         step: `[${recipeNum}/${groups.length}] FAILED`,
         current: recipeNum,
       });
+      const message = err instanceof Error ? err.message : String(err);
+      failures.push({ files: group, error: message });
       failed++;
     }
   }, { concurrency: 2 });
@@ -298,6 +309,17 @@ async function main(): Promise<void> {
   buildIndex();
 
   console.log(`\nComplete: ${completed} processed, ${failed} failed`);
+
+  if (failures.length > 0) {
+    console.log("\n--- Failed recipes ---");
+    for (const f of failures) {
+      const label = f.files.length === 1 ? f.files[0] : f.files.join(" + ");
+      console.log(`  ${label}`);
+      console.log(`    Error: ${f.error}`);
+    }
+    console.log(`\nTo retry failed recipes, run again (they remain unprocessed).`);
+    console.log(`To retry a single recipe: npm run process:one -- --file scans/<filename>`);
+  }
 }
 
 main().catch((err) => {

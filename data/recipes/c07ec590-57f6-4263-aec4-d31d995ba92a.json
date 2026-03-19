@@ -1,0 +1,202 @@
+{
+  "id": "c07ec590-57f6-4263-aec4-d31d995ba92a",
+  "slug": "impossible-french-apple-pie",
+  "source": {
+    "scanFiles": [
+      "scans/c07ec590-57f6-4263-aec4-d31d995ba92a-0.jpg",
+      "scans/c07ec590-57f6-4263-aec4-d31d995ba92a-1.jpg"
+    ],
+    "processedAt": "2026-03-19T18:47:56.435Z"
+  },
+  "title": {
+    "en": "Impossible French Apple Pie",
+    "he": "פאי תפוחים צרפתי בלתי אפשרי"
+  },
+  "description": {
+    "en": "This recipe combines ingredients for an 'Impossible French Apple Pie' with a 'Crumbley' topping. The first part of the first page contains ambiguous ingredients labeled 'A German' which are not integrated into this specific pie recipe. The 'Crumbley' section is used as the streusel topping for the pie. Note: 'Lesquick' and 'Mini' in the crumble topping are transcribed as written, their exact nature is unclear.",
+    "he": "מתכון זה משלב מרכיבים לפאי תפוחים צרפתי 'בלתי אפשרי' עם ציפוי פירורים. החלק הראשון של העמוד הראשון מכיל מרכיבים מעורפלים תחת הכותרת 'גרמני', שאינם משולבים במתכון הספציפי הזה לפאי. חלק ה'פירורים' משמש כציפוי השטרוייזל לפאי. הערה: 'לסקוויק' ו'מיני' בציפוי הפירורים תועתקו כפי שנכתבו, טיבם המדויק אינו ברור."
+  },
+  "ingredients": [
+    {
+      "en": "6 C. sliced tart apples",
+      "he": "6 כוסות תפוחי עץ חמוצים פרוסים",
+      "item": "sliced tart apples",
+      "amount": 6,
+      "unit": "cup"
+    },
+    {
+      "en": "1 1/4 C. granulated sugar",
+      "he": "1 ו-1/4 כוסות סוכר מגורען",
+      "item": "granulated sugar",
+      "amount": 1.25,
+      "unit": "cup"
+    },
+    {
+      "en": "1/4 tsp. nutmeg",
+      "he": "1/4 כפית אגוז מוסקט",
+      "item": "nutmeg",
+      "amount": 0.25,
+      "unit": "tsp"
+    },
+    {
+      "en": "3/4 C. milk",
+      "he": "3/4 כוס חלב",
+      "item": "milk",
+      "amount": 0.75,
+      "unit": "cup"
+    },
+    {
+      "en": "2 tbsp. Margarine",
+      "he": "2 כפות מרגרינה",
+      "item": "margarine",
+      "amount": 2,
+      "unit": "tbsp"
+    },
+    {
+      "en": "2 eggs",
+      "he": "2 ביצים",
+      "item": "eggs",
+      "amount": 2,
+      "unit": null
+    },
+    {
+      "en": "1 C. Bisquick",
+      "he": "1 כוס ביסקוויק",
+      "item": "Bisquick",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1/2 tsp. vanilla",
+      "he": "1/2 כפית תמצית וניל",
+      "item": "vanilla",
+      "amount": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "en": "Crumbley Topping:",
+      "he": "ציפוי פירורים:",
+      "item": "Crumbley Topping",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "2 C. Bisquick",
+      "he": "2 כוסות ביסקוויק",
+      "item": "Bisquick",
+      "amount": 2,
+      "unit": "cup"
+    },
+    {
+      "en": "1 C. milk",
+      "he": "1 כוס חלב",
+      "item": "milk",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1/2 C. margarine",
+      "he": "1/2 כוס מרגרינה",
+      "item": "margarine",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1/2 tsp vanilla",
+      "he": "1/2 כפית תמצית וניל",
+      "item": "vanilla",
+      "amount": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "en": "4 eggs",
+      "he": "4 ביצים",
+      "item": "eggs",
+      "amount": 4,
+      "unit": null
+    },
+    {
+      "en": "1/2 C. coconut",
+      "he": "1/2 כוס קוקוס",
+      "item": "coconut",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1/2 C. sugar",
+      "he": "1/2 כוס סוכר",
+      "item": "sugar",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1/2 C. Bisquick",
+      "he": "1/2 כוס ביסקוויק",
+      "item": "Bisquick",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1/2 C. Lesquick",
+      "he": "1/2 כוס לסקוויק",
+      "item": "Lesquick",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1/2 C. Mini",
+      "he": "1/2 כוס מיני",
+      "item": "Mini",
+      "amount": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "1. Grease a 3x5 inch pie plate.",
+      "2. In a bowl, combine the pie ingredients: 1 1/4 cups granulated sugar, 1/4 teaspoon nutmeg, 3/4 cup milk, 2 tablespoons margarine, 2 eggs, 1 cup Bisquick, and 1/2 teaspoon vanilla. Blend well.",
+      "3. Place the 6 cups of sliced tart apples into the prepared pie plate.",
+      "4. Pour the blended liquid mixture over the apples in the pie plate.",
+      "5. Prepare the Crumbley topping: In a separate bowl, mix 2 cups Bisquick, 1 cup milk, 1/2 cup margarine, 1/2 teaspoon vanilla, 4 eggs, 1/2 cup coconut, 1/2 cup sugar, 1/2 cup Bisquick, 1/2 cup Lesquick, and 1/2 cup Mini (item unclear).",
+      "6. Sprinkle the prepared Crumbley topping evenly over the pie.",
+      "7. Bake for 55-60 minutes.",
+      "8. Allow to cool before serving."
+    ],
+    "he": [
+      "1. שמנו תבנית פאי בגודל 3x5 אינץ'.",
+      "2. בקערה, שלבו את מרכיבי הפאי: 1 ו-1/4 כוסות סוכר מגורען, 1/4 כפית אגוז מוסקט, 3/4 כוס חלב, 2 כפות מרגרינה, 2 ביצים, 1 כוס ביסקוויק ו-1/2 כפית תמצית וניל. ערבבו היטב.",
+      "3. הניחו את 6 כוסות תפוחי העץ החמוצים הפרוסים בתבנית הפאי המוכנה.",
+      "4. שפכו את התערובת הנוזלית המעורבבת מעל התפוחים בתבנית הפאי.",
+      "5. הכינו את ציפוי הפירורים: בקערה נפרדת, ערבבו 2 כוסות ביסקוויק, 1 כוס חלב, 1/2 כוס מרגרינה, 1/2 כפית תמצית וניל, 4 ביצים, 1/2 כוס קוקוס, 1/2 כוס סוכר, 1/2 כוס ביסקוויק, 1/2 כוס לסקוויק ו-1/2 כוס מיני (פריט לא ברור).",
+      "6. פזרו את ציפוי הפירורים המוכן באופן אחיד מעל הפאי.",
+      "7. אפו במשך 55-60 דקות.",
+      "8. צננו לפני ההגשה."
+    ]
+  },
+  "tags": [
+    {
+      "en": "Dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "Pie",
+      "he": "פאי"
+    },
+    {
+      "en": "Apple",
+      "he": "תפוחים"
+    },
+    {
+      "en": "French",
+      "he": "צרפתי"
+    },
+    {
+      "en": "Baked",
+      "he": "אפוי"
+    }
+  ],
+  "illustration": "illustrations/c07ec590-57f6-4263-aec4-d31d995ba92a.webp",
+  "ocrRawText": "A German\nMint 1/2 C. Bisquick\n1/2 C. chop. Nuts\n1/3 C. packed brown\n1/2 C. sugar\n1/2 C. marg.\n3 eggs\nCrumbley:\n2 C. Bisquick\n1 C. milk\n1/2 C. marg.\n1/2 tsp vanilla\n4 eggs\n1/2 C. coconut\n1/2 C. sugar\n1/2 C. Bisquick\n1/2 C. Lesquick\n1/2 C. Mini\nMix\n\nImpossible French\nApple Pie\n6 C. sliced tart apples\n1 1/4 C. granulated sugar\n1/4 tsp. nutmeg\n3/4 C. milk\n2 tbsp. Marg\n2 eggs\n1 C. Bisquick\n1/2 tsp. vanilla\nGrease 3x5 pie plate\nMix all ingredients\nApples & spice in pie plate\nRest of ingredients pour\nBlend & pour over apples\nSprinkle streusel\non top. Bake 55-60\nMin. Cool. (To make all)\nImpossible + fruit pie 1/2 C.\nflour + 1/2 C. butter + 1/2 C. sugar\n8 min - 24-28 min",
+  "selectedModel": "gemini",
+  "rankingReason": "Gemini selected (only valid result). Claude returned no result"
+}

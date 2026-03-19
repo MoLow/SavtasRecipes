@@ -1,0 +1,134 @@
+{
+  "id": "fe1293f2-8bad-4f26-a9ff-873052c2411e",
+  "slug": "mocca-cake",
+  "source": {
+    "scanFiles": [
+      "scans/fe1293f2-8bad-4f26-a9ff-873052c2411e-0.jpg"
+    ],
+    "processedAt": "2026-03-19T18:47:00.522Z"
+  },
+  "title": {
+    "en": "Mocca Cake",
+    "he": "עוגת מוקה"
+  },
+  "description": {
+    "en": "A Mocca Cake recipe from Leah Siegal, updated on October 1, 1991. This cake features layers of batter with grated chocolate or nuts, creating a marbled effect.",
+    "he": "מתכון לעוגת מוקה של לאה סיגל, שעודכן ב-1 באוקטובר 1991. העוגה כוללת שכבות של בלילה עם שוקולד מגורר או אגוזים, היוצרות אפקט שיש."
+  },
+  "ingredients": [
+    {
+      "en": "2 cups flour",
+      "he": "2 כוסות קמח",
+      "item": "flour",
+      "amount": 2,
+      "unit": "cups"
+    },
+    {
+      "en": "1 1/4 cups sugar",
+      "he": "1 ורבע כוסות סוכר",
+      "item": "sugar",
+      "amount": 1.25,
+      "unit": "cups"
+    },
+    {
+      "en": "1 tsp salt",
+      "he": "1 כפית מלח",
+      "item": "salt",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "1 tsp baking powder",
+      "he": "1 כפית אבקת אפייה",
+      "item": "baking powder",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "2 tbsp coffee powder",
+      "he": "2 כפות אבקת קפה",
+      "item": "coffee powder",
+      "amount": 2,
+      "unit": "tbsp"
+    },
+    {
+      "en": "100 gr. margarine",
+      "he": "100 גרם מרגרינה",
+      "item": "margarine",
+      "amount": 100,
+      "unit": "gr"
+    },
+    {
+      "en": "3 eggs",
+      "he": "3 ביצים",
+      "item": "eggs",
+      "amount": 3,
+      "unit": null
+    },
+    {
+      "en": "2/3 cup tap water",
+      "he": "2/3 כוס מי ברז",
+      "item": "tap water",
+      "amount": 0.66,
+      "unit": "cup"
+    },
+    {
+      "en": "1 tsp vanilla",
+      "he": "1 כפית וניל",
+      "item": "vanilla",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "150 gr. grated chocolate or nuts",
+      "he": "150 גרם שוקולד מגורר או אגוזים",
+      "item": "grated chocolate or nuts",
+      "amount": 150,
+      "unit": "gr"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Sift flour, baking powder, salt, and coffee powder together.",
+      "In a separate bowl, cream sugar and margarine until light and fluffy.",
+      "Beat in eggs, one by one, until well combined.",
+      "In a small bowl, combine water with vanilla.",
+      "Gradually add the sifted dry ingredients alternately with the water-vanilla mixture to the creamy mixture, mixing until just combined.",
+      "Pour half of the batter into a tube-shaped pan and sprinkle with half of the grated chocolate or nuts.",
+      "Add the remaining batter and sprinkle with the rest of the chocolate or nuts.",
+      "(Optionally, gently fold the batter with a spoon to create a marbled effect.)",
+      "Bake at 350°F (175°C) for 60-70 minutes.",
+      "Let the cake cool completely, then sprinkle with sugar before serving."
+    ],
+    "he": [
+      "מנפים יחד קמח, אבקת אפייה, מלח ואבקת קפה.",
+      "בקערה נפרדת, מקציפים סוכר ומרגרינה עד לקבלת תערובת בהירה וקרמית.",
+      "מערבבים פנימה את הביצים, אחת אחת, עד שהן נטמעות היטב.",
+      "בקערה קטנה, מערבבים מים עם וניל.",
+      "מוסיפים בהדרגה את החומרים היבשים המנופים לסירוגין עם תערובת המים-וניל לתערובת הקרמית, ומערבבים רק עד לאיחוד.",
+      "יוצקים חצי מהבלילה לתבנית טובה (תבנית עם חור באמצע) ומפזרים חצי מכמות השוקולד המגורר או האגוזים.",
+      "מוסיפים את יתרת הבלילה ומפזרים שוב את השוקולד או האגוזים הנותרים.",
+      "(אפשר לשייש את העוגה על ידי קיפול עדין של הבלילה עם כף.)",
+      "אופים בחום של 350 מעלות פרנהייט (כ-175 מעלות צלזיוס) למשך 60-70 דקות.",
+      "מניחים לעוגה להתקרר לחלוטין, ואז מפזרים עליה סוכר לפני ההגשה."
+    ]
+  },
+  "tags": [
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "cake",
+      "he": "עוגה"
+    },
+    {
+      "en": "coffee",
+      "he": "קפה"
+    }
+  ],
+  "illustration": "illustrations/fe1293f2-8bad-4f26-a9ff-873052c2411e.webp",
+  "ocrRawText": "name: Mocca Cake\ncode: 124\norigin: Leah Siegal\npreparation time:\n------------\nfor ? servings\nupdate: 10/01/91\n\nIngredients:\n2 cups flower\n1 1/4 cups sugar\n1 tsp salt\n1 tsp baking powder\n2 tbsp coffee powder\n100 gr. margarine\n3 eggs\n2/3 cup tap water\n1 tsp vanilla\n150 gr. grated chocolate or nuts\n\nPreparation:\nSift flower, baking powder, salt and coffee together. Add sugar to\nmargarine, until creamy. Blend in eggs, one by one. Combine water with\nvanilla. Add vanilla and the rest to the creamy mixture.\nPour 1/2 the batter into pan (tube shape), sprinkle half the chocolate.\nAdd the second half of the batter and sprinkle again.\n(You can maybe the cake by folding the batter with a spoon.)\nBake at 350 F for 60-70 minutes.\nLet cool and sprinkle with sugar.\n\nMama's special tips:\n\nSpecial utensils:",
+  "selectedModel": "gemini",
+  "rankingReason": "Result A has better instruction clarity and organization. It breaks down the preparation into 10 distinct, logical steps that are easier to follow, while Result B combines multiple steps into single lines making it less clear. Result A also has more natural Hebrew translations (e.g., 'מעדן' vs 'קינוח' for dessert context) and slightly more complete OCR raw text. Both have excellent ingredient extraction and translation quality overall, but Result A's structured instructions provide better usability for someone actually following the recipe."
+}

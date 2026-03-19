@@ -1,0 +1,125 @@
+{
+  "id": "5b5007e7-d277-410c-881e-abb771de7abe",
+  "slug": "cheese-rolls",
+  "source": {
+    "scanFiles": [
+      "scans/5b5007e7-d277-410c-881e-abb771de7abe-0.jpg"
+    ],
+    "processedAt": "2026-03-19T18:42:10.030Z"
+  },
+  "title": {
+    "en": "Cheese Rolls",
+    "he": "רולדות גבינה"
+  },
+  "description": {
+    "en": "Baked cheese-filled pastry rolls made with a margarine dough and a cottage cheese and farmer cheese filling, seasoned with sugar and cinnamon.",
+    "he": "רולדות בצק אפויות במילוי גבינת קוטג' וגבינה לבנה, מתובלות בסוכר וקינמון."
+  },
+  "ingredients": [
+    {
+      "en": "1 lb margarine",
+      "he": "450 גרם מרגרינה",
+      "item": "margarine",
+      "amount": 1,
+      "unit": "lb"
+    },
+    {
+      "en": "2 tbs oil",
+      "he": "2 כפות שמן",
+      "item": "oil",
+      "amount": 2,
+      "unit": "tbs"
+    },
+    {
+      "en": "6 cups flour",
+      "he": "6 כוסות קמח",
+      "item": "flour",
+      "amount": 6,
+      "unit": "cup"
+    },
+    {
+      "en": "1/2 cup milk (approx) to soften",
+      "he": "1/2 כוס חלב (בערך) לריכוך",
+      "item": "milk",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "2 lbs cottage cheese (filling)",
+      "he": "900 גרם גבינת קוטג' (למילוי)",
+      "item": "cottage cheese",
+      "amount": 2,
+      "unit": "lb"
+    },
+    {
+      "en": "1 lb farmer cheese (filling)",
+      "he": "450 גרם גבינה לבנה (למילוי)",
+      "item": "farmer cheese",
+      "amount": 1,
+      "unit": "lb"
+    },
+    {
+      "en": "1 lb cooked rice (optional, filling)",
+      "he": "450 גרם אורז מבושל (אופציונלי, למילוי)",
+      "item": "cooked rice",
+      "amount": 1,
+      "unit": "lb"
+    },
+    {
+      "en": "3 eggs (filling)",
+      "he": "3 ביצים (למילוי)",
+      "item": "eggs",
+      "amount": 3,
+      "unit": "piece"
+    },
+    {
+      "en": "Sugar & cinnamon to taste (filling)",
+      "he": "סוכר וקינמון לפי הטעם (למילוי)",
+      "item": "sugar & cinnamon"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Step 1: Mix margarine, oil, flour, and milk (approx 1/2 cup) to form a dough. Refrigerate overnight.",
+      "Step 2: Roll dough very thin (1/4 inch).",
+      "Step 3: Spread melted margarine along the dough.",
+      "Step 4: Prepare filling: mix 2 lbs cottage cheese, 1 lb farmer cheese, 1 lb cooked rice (optional), 3 eggs, and sugar & cinnamon to taste.",
+      "Step 5: Put filling along the outer edge of the dough.",
+      "Step 6: Roll up the dough and bake at 350°F."
+    ],
+    "he": [
+      "שלב 1: מערבבים מרגרינה, שמן, קמח וחלב (כ-1/2 כוס) ליצירת בצק. מכניסים למקרר ללילה.",
+      "שלב 2: מרדדים את הבצק דק מאוד (כ-0.5 ס\"מ).",
+      "שלב 3: מורחים מרגרינה מומסת על פני הבצק.",
+      "שלב 4: מכינים את המילוי: מערבבים 900 גרם גבינת קוטג', 450 גרם גבינה לבנה, 450 גרם אורז מבושל (אופציונלי), 3 ביצים, וסוכר וקינמון לפי הטעם.",
+      "שלב 5: מניחים את המילוי לאורך קצה הבצק.",
+      "שלב 6: מגלגלים את הבצק ואופים בתנור ב-175°C (350°F)."
+    ]
+  },
+  "tags": [
+    {
+      "en": "dairy",
+      "he": "חלבי"
+    },
+    {
+      "en": "pastry",
+      "he": "מאפה"
+    },
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "ashkenazi",
+      "he": "אשכנזי"
+    },
+    {
+      "en": "shavuot",
+      "he": "שבועות"
+    }
+  ],
+  "illustration": "illustrations/5b5007e7-d277-410c-881e-abb771de7abe.webp",
+  "ocrRawText": "Cheese Rolls\n1 lb margarine          2 tbs Oil\n6c Flour                1/2c Milk (aprox) to soften\nRefrigerate over night. Roll dough very thin (1/4\")\nSpread melted margarine along dough, Put Filling along\nouter edge, Roll & bake 350°F\n\nFilling: 2 lbs cottage cheese, 1 lb farmer cheese,\n         1 lb cooked rice (optional), 3 eggs\n         Sugar & Cinamon to taste",
+  "selectedModel": "claude",
+  "rankingReason": "Result B is superior in several key ways: (1) The instructions are better organized with numbered steps that flow more logically - it explicitly includes 'Prepare filling' as a separate step rather than burying it in the ingredient list; (2) The Hebrew translation is more natural and idiomatic - 'רולדות גבינה' vs 'גלילות גבינה' are both acceptable, but Result B uses more consistent terminology throughout (e.g., 'גבינה לבנה' for farmer cheese is more standard); (3) The ingredients are more precisely labeled with '(filling)' and '(dough)' designations making the recipe clearer; (4) Result B includes metric conversions (450g, 900g) in the Hebrew section, making it more practical for international use; (5) The tags are more specific and useful - 'shavuot' is a more precise category than 'Holiday' for a cheese-based dairy recipe; (6) The OCR raw text in Result B appears more faithful to the actual layout of the original handwritten recipe. While both extractions are largely accurate and complete, Result B demonstrates superior organization, clarity, and practical usability."
+}
