@@ -3,10 +3,8 @@
 /* ── Design System: "The Archive Table" ── */
 
 @theme {
-  --font-display: "DM Serif Display", Georgia, serif;
-  --font-body: "Source Serif 4", Georgia, serif;
+  --font-body: "JetBrains Mono", monospace;
   --font-hebrew: "Heebo", system-ui, sans-serif;
-  --font-mono: "JetBrains Mono", monospace;
 
   --color-bg: #FAF7F2;
   --color-bg-elevated: #FFFFFF;
@@ -60,26 +58,18 @@ body::before {
   mix-blend-mode: multiply;
 }
 
-/* Ensure inputs and buttons inherit body font */
+/* All elements inherit body font */
 input, button, textarea, select {
   font-family: inherit;
 }
 
-/* Hebrew font override — applies to all elements in RTL context */
+/* Hebrew: Heebo for everything, bold Heebo for display headings */
 [dir="rtl"],
 [dir="rtl"] input,
-[dir="rtl"] button {
+[dir="rtl"] button,
+[dir="rtl"] textarea,
+[dir="rtl"] select {
   font-family: var(--font-hebrew);
-}
-
-[dir="rtl"] .font-display {
-  font-family: var(--font-hebrew);
-  font-weight: 700;
-}
-
-/* Mono stays mono regardless of direction */
-.font-mono, [dir="rtl"] .font-mono {
-  font-family: var(--font-mono);
 }
 
 /* ── Animations ── */

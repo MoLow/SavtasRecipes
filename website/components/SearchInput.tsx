@@ -93,12 +93,12 @@ export default function SearchInput({ recipes, locale, variant = "navbar" }: Sea
           }}
           placeholder={locale === "he" ? "חיפוש מתכונים..." : "Search recipes..."}
           dir={locale === "he" ? "rtl" : "ltr"}
-          className={`w-full ps-9 pe-3 bg-[var(--color-bg-recessed)] border border-[var(--color-border)] focus:border-[var(--color-accent)] focus:shadow-[0_0_0_3px_var(--color-accent-glow)] focus:bg-[var(--color-bg-elevated)] rounded-full font-body text-sm text-[var(--color-ink)] placeholder:text-[var(--color-ink-tertiary)] outline-none transition-all duration-200 ${
+          className={`w-full ps-9 pe-3 bg-[var(--color-bg-recessed)] border border-[var(--color-border)] focus:border-[var(--color-accent)] focus:shadow-[0_0_0_3px_var(--color-accent-glow)] focus:bg-[var(--color-bg-elevated)] rounded-full text-sm text-[var(--color-ink)] placeholder:text-[var(--color-ink-tertiary)] outline-none transition-all duration-200 ${
             isPage ? "py-3.5 ps-11 text-base" : "py-2"
           }`}
         />
         {!isPage && (
-          <kbd className="absolute end-3 top-1/2 -translate-y-1/2 hidden sm:inline-flex text-[10px] font-mono text-[var(--color-ink-tertiary)] bg-[var(--color-bg-elevated)] border border-[var(--color-border)] rounded px-1.5 py-0.5">
+          <kbd className="absolute end-3 top-1/2 -translate-y-1/2 hidden sm:inline-flex text-[10px] text-[var(--color-ink-tertiary)] bg-[var(--color-bg-elevated)] border border-[var(--color-border)] rounded px-1.5 py-0.5">
             ⌘K
           </kbd>
         )}
@@ -125,10 +125,10 @@ export default function SearchInput({ recipes, locale, variant = "navbar" }: Sea
                 />
               </div>
               <div className="min-w-0">
-                <p className="text-sm text-[var(--color-ink)] truncate font-body">
+                <p className="text-sm text-[var(--color-ink)] truncate">
                   {locale === "he" ? r.titleHe : r.titleEn}
                 </p>
-                <p className="text-xs font-mono text-[var(--color-ink-tertiary)] truncate">
+                <p className="text-xs text-[var(--color-ink-tertiary)] truncate">
                   {r.tags}
                 </p>
               </div>
@@ -137,7 +137,7 @@ export default function SearchInput({ recipes, locale, variant = "navbar" }: Sea
           <Link
             href={`/${locale}/search${query ? `?q=${encodeURIComponent(query)}` : ""}`}
             onClick={() => setIsOpen(false)}
-            className="block px-4 py-2.5 text-xs font-mono text-[var(--color-accent)] hover:bg-[var(--color-accent-light)] transition-colors border-t border-[var(--color-border)] text-center"
+            className="block px-4 py-2.5 text-xs text-[var(--color-accent)] hover:bg-[var(--color-accent-light)] transition-colors border-t border-[var(--color-border)] text-center"
           >
             {locale === "he" ? "→ כל התוצאות" : "All results →"}
           </Link>

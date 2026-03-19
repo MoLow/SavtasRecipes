@@ -22,7 +22,7 @@ export default function LanguageToggle({ currentLocale }: LanguageToggleProps) {
     >
       <Link
         href={getPath("en")}
-        className={`px-3 py-1 rounded-full text-xs font-mono transition-all duration-200 ${
+        className={`px-3 py-1 rounded-full text-xs transition-all duration-200 ${
           currentLocale === "en"
             ? "bg-[var(--color-bg-elevated)] text-[var(--color-ink)] shadow-sm"
             : "text-[var(--color-ink-tertiary)] hover:text-[var(--color-ink-secondary)]"
@@ -32,7 +32,7 @@ export default function LanguageToggle({ currentLocale }: LanguageToggleProps) {
       </Link>
       <Link
         href={getPath("he")}
-        className={`px-3 py-1 rounded-full text-xs font-mono transition-all duration-200 ${
+        className={`px-3 py-1 rounded-full text-xs transition-all duration-200 ${
           currentLocale === "he"
             ? "bg-[var(--color-bg-elevated)] text-[var(--color-ink)] shadow-sm"
             : "text-[var(--color-ink-tertiary)] hover:text-[var(--color-ink-secondary)]"

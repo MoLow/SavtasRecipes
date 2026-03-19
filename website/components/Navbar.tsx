@@ -26,7 +26,7 @@ export default function Navbar({ locale }: NavbarProps) {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between gap-4">
         <Link
           href={`/${locale}`}
-          className="font-display text-lg text-[var(--color-ink)] hover:text-[var(--color-accent)] transition-colors flex-shrink-0"
+          className="font-semibold text-lg text-[var(--color-ink)] hover:text-[var(--color-accent)] transition-colors flex-shrink-0"
         >
           {isHebrew ? "המתכונים של סבתא" : "Savta\u2019s Recipes"}
         </Link>

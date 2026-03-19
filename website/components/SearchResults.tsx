@@ -31,7 +31,7 @@ export default function SearchResults({ recipes, locale }: SearchResultsProps) {
 
   return (
     <div className="py-8 animate-fade-up">
-      <h1 className="font-display text-3xl text-[var(--color-ink)] text-center mb-8">
+      <h1 className="font-semibold text-3xl text-[var(--color-ink)] text-center mb-8">
         {isHebrew ? "חיפוש מתכונים" : "Search Recipes"}
       </h1>
 
@@ -54,7 +54,7 @@ export default function SearchResults({ recipes, locale }: SearchResultsProps) {
             placeholder={isHebrew ? "חיפוש מתכונים..." : "Search recipes..."}
             dir={isHebrew ? "rtl" : "ltr"}
             autoFocus
-            className="w-full ps-12 pe-4 py-4 bg-[var(--color-bg-elevated)] border border-[var(--color-border)] focus:border-[var(--color-accent)] focus:shadow-[0_0_0_3px_var(--color-accent-glow)] rounded-2xl font-body text-base text-[var(--color-ink)] placeholder:text-[var(--color-ink-tertiary)] outline-none transition-all duration-200"
+            className="w-full ps-12 pe-4 py-4 bg-[var(--color-bg-elevated)] border border-[var(--color-border)] focus:border-[var(--color-accent)] focus:shadow-[0_0_0_3px_var(--color-accent-glow)] rounded-2xl text-base text-[var(--color-ink)] placeholder:text-[var(--color-ink-tertiary)] outline-none transition-all duration-200"
           />
         </div>
       </div>
@@ -90,10 +90,10 @@ export default function SearchResults({ recipes, locale }: SearchResultsProps) {
                   WebkitBackdropFilter: "blur(16px) saturate(1.2)",
                 }}
               >
-                <h3 className="font-display text-sm sm:text-base text-[var(--color-ink)] truncate leading-tight">
+                <h3 className="font-semibold text-sm sm:text-base text-[var(--color-ink)] truncate leading-tight">
                   {locale === "he" ? r.titleHe : r.titleEn}
                 </h3>
-                <p className="font-mono text-[10px] sm:text-xs text-[var(--color-ink-tertiary)] truncate mt-0.5">
+                <p className="text-[10px] sm:text-xs text-[var(--color-ink-tertiary)] truncate mt-0.5">
                   {r.tags.split(" ").slice(0, 3).join(" \u00b7 ")}
                 </p>
               </div>

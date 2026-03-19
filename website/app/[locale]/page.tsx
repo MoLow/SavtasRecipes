@@ -15,7 +15,7 @@ export default async function RecipeGrid({
   if (recipes.length === 0) {
     return (
       <div className="text-center py-20 animate-fade-up">
-        <p className="text-[var(--color-ink-secondary)] font-body">
+        <p className="text-[var(--color-ink-secondary)]">
           {isHebrew
             ? "אין עדיין מתכונים. הפעל את הפייפליין כדי לעבד סריקות."
             : "No recipes yet. Run the pipeline to process scans."}
@@ -45,7 +45,7 @@ export default async function RecipeGrid({
           />
         </div>
 
-        <h1 className="font-display text-3xl sm:text-4xl text-[var(--color-ink)]">
+        <h1 className="font-semibold text-3xl sm:text-4xl text-[var(--color-ink)]">
           {isHebrew ? "המתכונים של סבתא" : "Savta\u2019s Recipes"}
         </h1>
 
@@ -61,9 +61,9 @@ export default async function RecipeGrid({
             : "Handwritten recipes, digitized & translated"}
         </p>
 
-        <p className="text-[var(--color-ink-tertiary)] text-xs font-mono mt-4">
+        <p className="text-[var(--color-ink-tertiary)] text-xs mt-4">
           {isHebrew
-            ? "בזכות ניל אטלו וסטיוארט אטלו"
+            ? "בזכות ניל אטלו ושבתי אטלו"
             : "Thanks to Neal Atlow & Stuart Atlow"}
         </p>
       </div>

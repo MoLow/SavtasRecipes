@@ -45,11 +45,11 @@ export default function RecipeCard({
           WebkitBackdropFilter: "blur(16px) saturate(1.2)",
         }}
       >
-        <h3 className="font-display text-sm sm:text-base text-[var(--color-ink)] truncate leading-tight">
+        <h3 className="font-semibold text-sm sm:text-base text-[var(--color-ink)] truncate leading-tight">
           {title[locale]}
         </h3>
         {tags && tags.length > 0 && (
-          <p className="font-mono text-[10px] sm:text-xs text-[var(--color-ink-tertiary)] truncate mt-0.5">
+          <p className="text-[10px] sm:text-xs text-[var(--color-ink-tertiary)] truncate mt-0.5">
             {tags.slice(0, 3).join(" \u00b7 ")}
           </p>
         )}
