@@ -70,17 +70,18 @@ export default function SearchResults({ recipes, locale }: SearchResultsProps) {
             <Link
               key={r.slug}
               href={`/${locale}/recipe/${r.slug}`}
-              className="group relative aspect-square rounded-xl overflow-hidden animate-card-enter"
+              className="group relative aspect-square rounded-xl animate-card-enter cursor-pointer"
               style={{
                 animationDelay: `${i * 50}ms`,
                 boxShadow: "var(--shadow-card)",
               }}
             >
+              <div className="absolute inset-0 rounded-xl overflow-hidden">
               <Image
                 src={`/${optimizedImage(r.illustration, 400)}`}
                 alt={locale === "he" ? r.titleHe : r.titleEn}
                 fill
-                className="object-cover transition-transform duration-500 ease-out group-hover:scale-[1.04]"
+                className="object-cover transition-transform duration-500 ease-out [@media(hover:hover)]:group-hover:scale-[1.04]"
                 sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
               />
               <div
@@ -97,6 +98,7 @@ export default function SearchResults({ recipes, locale }: SearchResultsProps) {
                 <p className="text-[10px] sm:text-xs text-[var(--color-ink-tertiary)] truncate mt-0.5">
                   {(locale === "he" ? r.tagsHe : r.tagsEn).slice(0, 3).join(" \u00b7 ")}
                 </p>
+              </div>
               </div>
             </Link>
           ))}

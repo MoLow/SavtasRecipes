@@ -23,12 +23,14 @@ export default function RecipeCard({
   return (
     <Link
       href={`/${locale}/recipe/${slug}`}
-      className="group relative aspect-square rounded-xl overflow-hidden animate-card-enter cursor-pointer"
+      className="group relative aspect-square rounded-xl animate-card-enter cursor-pointer"
       style={{
         animationDelay: `${index * 50}ms`,
         boxShadow: "var(--shadow-card)",
       }}
     >
+      {/* Inner wrapper clips image to rounded corners — overflow-hidden must NOT be on <a> on iOS Safari */}
+      <div className="absolute inset-0 rounded-xl overflow-hidden">
       <Image
         src={`/${optimizedImage(illustration, 400)}`}
         alt={title[locale]}
@@ -54,6 +56,7 @@ export default function RecipeCard({
             {tags.slice(0, 3).map((t) => t[locale]).join(" \u00b7 ")}
           </p>
         )}
+      </div>
       </div>
 
       {/* Hover lift effect */}
