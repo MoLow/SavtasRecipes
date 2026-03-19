@@ -91,10 +91,10 @@ export default function SearchInput({ recipes, locale, variant = "navbar" }: Sea
               setIsOpen(false);
             }
           }}
-          placeholder={locale === "he" ? "...חיפוש מתכונים" : "Search recipes..."}
+          placeholder={locale === "he" ? "חיפוש מתכונים..." : "Search recipes..."}
           dir={locale === "he" ? "rtl" : "ltr"}
-          className={`w-full ps-9 pe-3 bg-[var(--color-bg-recessed)] border border-[var(--color-border)] focus:border-[var(--color-accent)] focus:shadow-[0_0_0_3px_var(--color-accent-glow)] focus:bg-[var(--color-bg-elevated)] rounded-full text-sm text-[var(--color-ink)] placeholder:text-[var(--color-ink-tertiary)] outline-none transition-all duration-200 ${
-            isPage ? "py-3.5 ps-11 text-base font-body" : "py-2"
+          className={`w-full ps-9 pe-3 bg-[var(--color-bg-recessed)] border border-[var(--color-border)] focus:border-[var(--color-accent)] focus:shadow-[0_0_0_3px_var(--color-accent-glow)] focus:bg-[var(--color-bg-elevated)] rounded-full font-body text-sm text-[var(--color-ink)] placeholder:text-[var(--color-ink-tertiary)] outline-none transition-all duration-200 ${
+            isPage ? "py-3.5 ps-11 text-base" : "py-2"
           }`}
         />
         {!isPage && (
@@ -139,7 +139,7 @@ export default function SearchInput({ recipes, locale, variant = "navbar" }: Sea
             onClick={() => setIsOpen(false)}
             className="block px-4 py-2.5 text-xs font-mono text-[var(--color-accent)] hover:bg-[var(--color-accent-light)] transition-colors border-t border-[var(--color-border)] text-center"
           >
-            {locale === "he" ? "כל התוצאות ←" : "All results →"}
+            {locale === "he" ? "→ כל התוצאות" : "All results →"}
           </Link>
         </div>
       )}

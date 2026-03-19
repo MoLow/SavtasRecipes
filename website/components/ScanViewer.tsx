@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useCallback } from "react";
 import Image from "next/image";
 
 interface ScanViewerProps {
@@ -12,6 +12,27 @@ const rotations = [-1.5, 1, -0.5, 1.5];
 
 export default function ScanViewer({ scanFiles, recipeName }: ScanViewerProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
+
+  const close = useCallback(() => setOpenIndex(null), []);
+  const prev = useCallback(() => setOpenIndex((i) => i !== null ? Math.max(0, i - 1) : null), []);
+  const next = useCallback(() => setOpenIndex((i) => i !== null ? Math.min(scanFiles.length - 1, i + 1) : null), [scanFiles.length]);
+
+  // Lock body scroll and handle keyboard when lightbox is open
+  useEffect(() => {
+    if (openIndex === null) return;
+    document.body.style.overflow = "hidden";
+
+    function handleKey(e: KeyboardEvent) {
+      if (e.key === "Escape") close();
+      if (e.key === "ArrowLeft") prev();
+      if (e.key === "ArrowRight") next();
+    }
+    document.addEventListener("keydown", handleKey);
+    return () => {
+      document.body.style.overflow = "";
+      document.removeEventListener("keydown", handleKey);
+    };
+  }, [openIndex, close, prev, next]);
 
   return (
     <>
@@ -27,7 +48,6 @@ export default function ScanViewer({ scanFiles, recipeName }: ScanViewerProps) {
               filter: "drop-shadow(0 4px 12px rgba(44, 24, 16, 0.15))",
             }}
           >
-            {/* White photo border */}
             <div className="bg-white p-2 pb-3 rounded-sm">
               <div className="relative w-28 h-36 sm:w-32 sm:h-40 overflow-hidden">
                 <Image
@@ -48,66 +68,68 @@ export default function ScanViewer({ scanFiles, recipeName }: ScanViewerProps) {
         ))}
       </div>
 
-      {/* Dark warm lightbox */}
+      {/* Full-screen lightbox */}
       {openIndex !== null && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 animate-fade-in"
-          style={{ backgroundColor: "var(--color-scan-overlay)" }}
-          onClick={() => setOpenIndex(null)}
+          className="fixed inset-0 z-[9999] animate-fade-in"
+          style={{ backgroundColor: "var(--color-scan-bg)" }}
         >
-          <div
-            className="relative max-w-2xl w-full max-h-[90vh] rounded-xl overflow-hidden"
-            style={{ boxShadow: "0 24px 48px rgba(0, 0, 0, 0.3)" }}
-            onClick={(e) => e.stopPropagation()}
-          >
-            {/* Header */}
-            <div className="flex items-center justify-between px-4 py-3 bg-[var(--color-scan-bg)] border-b border-white/10">
-              <h3 className="text-sm font-mono text-white/70">
-                {recipeName}
-                {scanFiles.length > 1 && ` \u2014 ${openIndex + 1} / ${scanFiles.length}`}
-              </h3>
-              <div className="flex items-center gap-1">
-                {scanFiles.length > 1 && (
-                  <>
-                    <button
-                      onClick={() => setOpenIndex(Math.max(0, openIndex - 1))}
-                      disabled={openIndex === 0}
-                      className="p-1.5 rounded-lg hover:bg-white/10 disabled:opacity-30 transition-colors text-white/70"
-                    >
-                      <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                      </svg>
-                    </button>
-                    <button
-                      onClick={() => setOpenIndex(Math.min(scanFiles.length - 1, openIndex + 1))}
-                      disabled={openIndex === scanFiles.length - 1}
-                      className="p-1.5 rounded-lg hover:bg-white/10 disabled:opacity-30 transition-colors text-white/70"
-                    >
-                      <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                      </svg>
-                    </button>
-                  </>
-                )}
-                <button
-                  onClick={() => setOpenIndex(null)}
-                  className="p-1.5 rounded-lg hover:bg-white/10 transition-colors text-white/70 ms-2"
-                >
-                  <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                  </svg>
-                </button>
-              </div>
+          {/* Top bar */}
+          <div className="absolute top-0 inset-x-0 z-10 flex items-center justify-between px-4 sm:px-6 py-3 bg-gradient-to-b from-black/40 to-transparent">
+            <h3 className="text-sm font-mono text-white/80">
+              {recipeName}
+              {scanFiles.length > 1 && ` \u2014 ${openIndex + 1} / ${scanFiles.length}`}
+            </h3>
+            <div className="flex items-center gap-2">
+              {scanFiles.length > 1 && (
+                <>
+                  <button
+                    onClick={prev}
+                    disabled={openIndex === 0}
+                    className="p-2 rounded-full bg-white/10 hover:bg-white/20 disabled:opacity-30 transition-colors text-white"
+                  >
+                    <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                    </svg>
+                  </button>
+                  <button
+                    onClick={next}
+                    disabled={openIndex === scanFiles.length - 1}
+                    className="p-2 rounded-full bg-white/10 hover:bg-white/20 disabled:opacity-30 transition-colors text-white"
+                  >
+                    <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </button>
+                </>
+              )}
+              <button
+                onClick={close}
+                className="p-2 rounded-full bg-white/10 hover:bg-white/20 transition-colors text-white ms-2"
+              >
+                <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
             </div>
+          </div>
 
-            {/* Scan image */}
-            <div className="overflow-auto max-h-[calc(90vh-3.5rem)] bg-[var(--color-scan-bg)]">
+          {/* Image — centered, scrollable if taller than viewport */}
+          <div
+            className="absolute inset-0 overflow-auto flex items-start justify-center pt-14 pb-4 px-4"
+            onClick={close}
+          >
+            <div
+              className="relative w-full max-w-3xl"
+              onClick={(e) => e.stopPropagation()}
+            >
               <Image
                 src={`/${scanFiles[openIndex]}`}
                 alt={`Scan of ${recipeName}`}
                 width={800}
                 height={1100}
-                className="w-full h-auto"
+                className="w-full h-auto rounded-lg"
+                priority
               />
             </div>
           </div>

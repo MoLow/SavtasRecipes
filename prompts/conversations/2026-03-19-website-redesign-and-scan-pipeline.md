@@ -59,7 +59,9 @@ Replaced GitHub Pages with S3 static website + CloudFront CDN:
 3. `ba67f87` — Add scan export pipeline with AI rotation detection
 4. `70e115d` — Add Savta's photo and family dedication to home page
 5. `0e75777` — Add conversation log
-6. TBD — S3 + CloudFront deployment infrastructure
+6. `f21f0dd` — S3 + CloudFront deployment infrastructure
+7. `bff4701` — Deploy CloudFormation stack from GitHub Actions + fix domain spelling
+8. TBD — UI QA fixes (fonts, translations, scan placement, lightbox)
 
 ## Key decisions
 - Serif-first typography for editorial feel (unusual for web, memorable)

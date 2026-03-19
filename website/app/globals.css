@@ -60,14 +60,26 @@ body::before {
   mix-blend-mode: multiply;
 }
 
-/* Hebrew font override */
-[dir="rtl"] {
+/* Ensure inputs and buttons inherit body font */
+input, button, textarea, select {
+  font-family: inherit;
+}
+
+/* Hebrew font override — applies to all elements in RTL context */
+[dir="rtl"],
+[dir="rtl"] input,
+[dir="rtl"] button {
   font-family: var(--font-hebrew);
 }
 
 [dir="rtl"] .font-display {
   font-family: var(--font-hebrew);
   font-weight: 700;
+}
+
+/* Mono stays mono regardless of direction */
+.font-mono, [dir="rtl"] .font-mono {
+  font-family: var(--font-mono);
 }
 
 /* ── Animations ── */

@@ -51,10 +51,10 @@ export default function SearchResults({ recipes, locale }: SearchResultsProps) {
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder={isHebrew ? "...חיפוש מתכונים" : "Search recipes..."}
+            placeholder={isHebrew ? "חיפוש מתכונים..." : "Search recipes..."}
             dir={isHebrew ? "rtl" : "ltr"}
             autoFocus
-            className="w-full ps-12 pe-4 py-4 bg-[var(--color-bg-elevated)] border border-[var(--color-border)] focus:border-[var(--color-accent)] focus:shadow-[0_0_0_3px_var(--color-accent-glow)] rounded-2xl text-base text-[var(--color-ink)] placeholder:text-[var(--color-ink-tertiary)] outline-none transition-all duration-200"
+            className="w-full ps-12 pe-4 py-4 bg-[var(--color-bg-elevated)] border border-[var(--color-border)] focus:border-[var(--color-accent)] focus:shadow-[0_0_0_3px_var(--color-accent-glow)] rounded-2xl font-body text-base text-[var(--color-ink)] placeholder:text-[var(--color-ink-tertiary)] outline-none transition-all duration-200"
           />
         </div>
       </div>

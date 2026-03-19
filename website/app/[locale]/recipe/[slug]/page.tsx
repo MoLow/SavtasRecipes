@@ -35,7 +35,7 @@ export default async function RecipeDetail({
   return (
     <article className="animate-fade-up">
       {/* Hero section — recessed background */}
-      <div className="bg-[var(--color-bg-recessed)] -mx-4 sm:-mx-6 px-4 sm:px-6 py-8 mb-10 rounded-xl">
+      <div className="bg-[var(--color-bg-recessed)] -mx-4 sm:-mx-6 px-4 sm:px-6 py-8 mb-8 rounded-xl">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row gap-6 md:gap-10">
           {/* Illustration */}
           <div className="md:w-2/5 flex-shrink-0">
@@ -59,7 +59,7 @@ export default async function RecipeDetail({
             <h1 className="font-display text-3xl sm:text-4xl text-[var(--color-ink)] mb-4 leading-tight">
               {recipe.title[locale]}
             </h1>
-            <p className="text-base text-[var(--color-ink-secondary)] leading-relaxed mb-5">
+            <p className="font-body text-base text-[var(--color-ink-secondary)] leading-relaxed mb-5">
               {recipe.description[locale]}
             </p>
             {recipe.tags.length > 0 && (
@@ -78,8 +78,32 @@ export default async function RecipeDetail({
         </div>
       </div>
 
+      {/* Original scans — "The Original" — prominent center position */}
+      <div className="max-w-5xl mx-auto mb-10">
+        <div className="flex items-center gap-3 mb-5">
+          <span className="h-px flex-1 bg-[var(--color-border)]" />
+          <h2 className="font-display text-xl text-[var(--color-ink)] px-4">
+            {isHebrew ? "המקור" : "The Original"}
+          </h2>
+          <span className="h-px flex-1 bg-[var(--color-border)]" />
+        </div>
+
+        <div className="bg-[var(--color-bg-recessed)] rounded-xl p-6 sm:p-8 flex justify-center">
+          <ScanViewer
+            scanFiles={recipe.source.scanFiles}
+            recipeName={recipe.title.en}
+          />
+        </div>
+
+        <p className="mt-3 text-xs font-mono text-[var(--color-ink-tertiary)] text-center">
+          {isHebrew
+            ? `עובד על ידי ${recipe.selectedModel === "gemini" ? "Gemini" : "Claude"}`
+            : `Processed by ${recipe.selectedModel === "gemini" ? "Gemini" : "Claude"}`}
+        </p>
+      </div>
+
       {/* Ingredients + Instructions */}
-      <div className="max-w-5xl mx-auto grid md:grid-cols-[minmax(240px,1fr)_2fr] gap-8 md:gap-12 mb-12">
+      <div className="max-w-5xl mx-auto grid md:grid-cols-[minmax(240px,1fr)_2fr] gap-8 md:gap-12 pb-8">
         {/* Ingredients — sticky on desktop */}
         <section className="md:sticky md:top-20 md:self-start">
           <h2 className="font-display text-xl text-[var(--color-ink)] mb-4">
@@ -92,7 +116,7 @@ export default async function RecipeDetail({
                 className="flex items-start gap-3 py-2.5 border-b border-[var(--color-border)] last:border-0"
               >
                 <span className="text-[var(--color-accent)] mt-1 text-[8px]">{"\u25CF"}</span>
-                <span className="text-[var(--color-ink)] text-sm leading-relaxed">
+                <span className="font-body text-[var(--color-ink)] text-sm leading-relaxed">
                   {ing[locale]}
                 </span>
               </li>
@@ -111,37 +135,13 @@ export default async function RecipeDetail({
                 <span className="flex-shrink-0 font-display text-2xl text-[var(--color-accent)] leading-none mt-0.5 w-8 text-end">
                   {i + 1}
                 </span>
-                <p className="text-[var(--color-ink)] text-sm leading-[1.75] pt-1 border-b border-[var(--color-border)] pb-5 flex-1">
+                <p className="font-body text-[var(--color-ink)] text-sm leading-[1.75] pt-1 border-b border-[var(--color-border)] pb-5 flex-1">
                   {step}
                 </p>
               </li>
             ))}
           </ol>
         </section>
-      </div>
-
-      {/* Original scans — "The Original" */}
-      <div className="max-w-5xl mx-auto border-t border-[var(--color-border)] pt-10 pb-4">
-        <div className="flex items-center gap-3 mb-6">
-          <span className="h-px flex-1 bg-[var(--color-border)]" />
-          <h2 className="font-display text-xl text-[var(--color-ink)] px-4">
-            {isHebrew ? "המקור" : "The Original"}
-          </h2>
-          <span className="h-px flex-1 bg-[var(--color-border)]" />
-        </div>
-
-        <div className="bg-[var(--color-bg-recessed)] rounded-xl p-6 sm:p-8 flex justify-center">
-          <ScanViewer
-            scanFiles={recipe.source.scanFiles}
-            recipeName={recipe.title.en}
-          />
-        </div>
-
-        <p className="mt-4 text-xs font-mono text-[var(--color-ink-tertiary)] text-center">
-          {isHebrew
-            ? `עובד על ידי ${recipe.selectedModel === "gemini" ? "Gemini" : "Claude"}`
-            : `Processed by ${recipe.selectedModel === "gemini" ? "Gemini" : "Claude"}`}
-        </p>
       </div>
     </article>
   );
