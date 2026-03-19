@@ -29,12 +29,24 @@ export type Locale = "en" | "he";
 export function getAllRecipes(): Recipe[] {
   if (!existsSync(RECIPES_DIR)) return [];
 
-  return readdirSync(RECIPES_DIR)
+  const recipes = readdirSync(RECIPES_DIR)
     .filter((f) => f.endsWith(".json") && !f.startsWith(".") && f !== "index.json")
     .map((f) => {
       const content = readFileSync(resolve(RECIPES_DIR, f), "utf-8");
       return JSON.parse(content) as Recipe;
     });
+
+  // Deduplicate slugs — append -2, -3, etc. for collisions
+  const slugCounts = new Map<string, number>();
+  for (const recipe of recipes) {
+    const count = (slugCounts.get(recipe.slug) ?? 0) + 1;
+    slugCounts.set(recipe.slug, count);
+    if (count > 1) {
+      recipe.slug = `${recipe.slug}-${count}`;
+    }
+  }
+
+  return recipes;
 }
 
 export function getRecipeBySlug(slug: string): Recipe | undefined {
