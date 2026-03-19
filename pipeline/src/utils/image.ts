@@ -2,6 +2,7 @@ import { execSync } from "child_process";
 import { existsSync, mkdirSync, copyFileSync } from "fs";
 import { resolve, dirname, extname } from "path";
 import { fileURLToPath } from "url";
+import pMap from "p-map";
 import { detectRotation } from "../skills/orient.ts";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -54,16 +55,15 @@ export async function exportWebScans(
 ): Promise<string[]> {
   mkdirSync(WEB_SCANS_DIR, { recursive: true });
 
-  const results: string[] = [];
+  const indexed = scanPaths.map((scanPath, i) => ({ scanPath, i }));
 
-  for (let i = 0; i < scanPaths.length; i++) {
-    const scanPath = scanPaths[i];
+  const results = await pMap(indexed, async ({ scanPath, i }) => {
     const ext = extname(scanPath).toLowerCase();
     const outFile = resolve(WEB_SCANS_DIR, `${recipeId}-${i}.jpg`);
+    const relPath = `scans/${recipeId}-${i}.jpg`;
 
     if (existsSync(outFile)) {
-      results.push(`scans/${recipeId}-${i}.jpg`);
-      continue;
+      return relPath;
     }
 
     // Step 1: Convert to JPEG
@@ -82,8 +82,8 @@ export async function exportWebScans(
       execSync(`sips -r ${rotation} "${outFile}"`, { stdio: "pipe" });
     }
 
-    results.push(`scans/${recipeId}-${i}.jpg`);
-  }
+    return relPath;
+  }, { concurrency: 3 });
 
   return results;
 }

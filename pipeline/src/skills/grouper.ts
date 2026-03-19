@@ -1,6 +1,7 @@
 import { readFileSync } from "fs";
 import { resolve, basename, dirname } from "path";
 import { fileURLToPath } from "url";
+import pMap from "p-map";
 import { getGeminiClient } from "../utils/api-clients.ts";
 import { ensureCompatibleImage } from "../utils/image.ts";
 
@@ -46,19 +47,21 @@ export async function groupScans(scanPaths: string[]): Promise<string[][]> {
 
   console.log("  Running quick OCR on all scans for grouping...");
 
-  // Quick OCR all scans in parallel
-  const results = await Promise.allSettled(
-    scanPaths.map(async (p): Promise<ScanSummary> => ({
-      filename: basename(p),
-      textSnippet: (await quickOcr(p)).slice(0, 300),
-    }))
-  );
+  // Quick OCR with limited concurrency (3 at a time)
+  const summaries: ScanSummary[] = [];
+  let failedCount = 0;
 
-  const summaries: ScanSummary[] = results
-    .filter((r): r is PromiseFulfilledResult<ScanSummary> => r.status === "fulfilled")
-    .map((r) => r.value);
+  await pMap(scanPaths, async (p) => {
+    try {
+      summaries.push({
+        filename: basename(p),
+        textSnippet: (await quickOcr(p)).slice(0, 300),
+      });
+    } catch {
+      failedCount++;
+    }
+  }, { concurrency: 3 });
 
-  const failedCount = results.filter((r) => r.status === "rejected").length;
   if (failedCount > 0) {
     console.warn(`  Warning: ${failedCount} scans failed quick OCR`);
   }
@@ -108,7 +111,36 @@ export async function groupScans(scanPaths: string[]): Promise<string[][]> {
       return scanPaths.map((p) => [basename(p)]);
     }
 
-    const multiGroups = groups.filter((g) => g.length > 1);
+    // Validate: multi-page groups must be consecutive files in sorted order.
+    // Scans were performed serially, so pages of the same recipe are always
+    // adjacent files. Non-consecutive grouping is a false positive.
+    const sortedFilenames = [...allFilenames].sort();
+    const indexMap = new Map(sortedFilenames.map((f, i) => [f, i]));
+
+    const validatedGroups: string[][] = [];
+    for (const group of groups) {
+      if (group.length <= 1) {
+        validatedGroups.push(group);
+        continue;
+      }
+
+      // Sort group by file order and check consecutive
+      const sorted = [...group].sort((a, b) => (indexMap.get(a) ?? 0) - (indexMap.get(b) ?? 0));
+      const indices = sorted.map((f) => indexMap.get(f) ?? -1);
+      const isConsecutive = indices.every((idx, i) => i === 0 || idx === indices[i - 1] + 1);
+
+      if (isConsecutive) {
+        validatedGroups.push(sorted);
+      } else {
+        console.warn(`  Group rejected (non-consecutive files): ${group.join(" + ")}`);
+        console.warn(`    Splitting into individual recipes.`);
+        for (const f of sorted) {
+          validatedGroups.push([f]);
+        }
+      }
+    }
+
+    const multiGroups = validatedGroups.filter((g) => g.length > 1);
     if (multiGroups.length > 0) {
       console.log(`  Found ${multiGroups.length} multi-page recipe(s):`);
       for (const group of multiGroups) {
@@ -118,7 +150,7 @@ export async function groupScans(scanPaths: string[]): Promise<string[][]> {
       console.log("  All scans are single-page recipes.");
     }
 
-    return groups;
+    return validatedGroups;
   } catch {
     console.warn("  Failed to parse grouper response, treating each scan as separate");
     return scanPaths.map((p) => [basename(p)]);

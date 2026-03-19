@@ -2,6 +2,8 @@ import { randomUUID } from "crypto";
 import { readdirSync, readFileSync, existsSync, writeFileSync, mkdirSync } from "fs";
 import { resolve, basename, dirname, extname } from "path";
 import { fileURLToPath } from "url";
+import pMap from "p-map";
+import cliProgress from "cli-progress";
 import { ocrWithGemini } from "./skills/ocr-gemini.ts";
 import { ocrWithClaude } from "./skills/ocr-claude.ts";
 import { rankResults } from "./skills/ranker.ts";
@@ -17,6 +19,19 @@ const RECIPES_DIR = resolve(ROOT_DIR, "data/recipes");
 const PROCESSED_MAP_PATH = resolve(RECIPES_DIR, ".processed.json");
 
 const IMAGE_EXTENSIONS = new Set([".jpg", ".jpeg", ".png", ".webp", ".tiff", ".heic", ".heif"]);
+
+const STEPS = ["OCR + Translate", "Rank", "Illustrate", "Export scans", "Write JSON"] as const;
+
+function createProgressBar() {
+  return new cliProgress.SingleBar({
+    format: "  {bar} {percentage}% | {step} | Recipe {current}/{total}",
+    barCompleteChar: "\u2588",
+    barIncompleteChar: "\u2591",
+    hideCursor: true,
+    clearOnComplete: false,
+    barsize: 25,
+  }, cliProgress.Presets.shades_classic);
+}
 
 function slugify(text: string): string {
   return text
@@ -38,26 +53,37 @@ function saveProcessedMap(map: Record<string, string>): void {
   writeFileSync(PROCESSED_MAP_PATH, JSON.stringify(map, null, 2) + "\n");
 }
 
+interface ProgressReporter {
+  step(stepIndex: number): void;
+  done(): void;
+}
+
+function noopReporter(): ProgressReporter {
+  return { step() {}, done() {} };
+}
+
 async function processRecipeGroup(
   scanFilenames: string[],
-  force: boolean
+  force: boolean,
+  progress: ProgressReporter = noopReporter()
 ): Promise<void> {
   const processedMap = loadProcessedMap();
 
   // Check if all files in group are already processed
   const allProcessed = scanFilenames.every((f) => processedMap[f]);
   if (allProcessed && !force) {
-    console.log(`  Skipping (already processed, use --force to reprocess)`);
+    progress.done();
     return;
   }
 
   const id = randomUUID();
   const scanPaths = scanFilenames.map((f) => resolve(SCANS_DIR, f));
 
-  console.log(`  [1/5] Running dual OCR + translation...`);
+  // Step 1: Dual OCR + translation
+  progress.step(0);
 
-  // Convert HEIC/TIFF to JPEG if needed
-  const compatiblePaths = await Promise.all(scanPaths.map(ensureCompatibleImage));
+  // Convert HEIC/TIFF to JPEG if needed (3 at a time)
+  const compatiblePaths = await pMap(scanPaths, ensureCompatibleImage, { concurrency: 3 });
 
   // Run both models in parallel
   const [geminiResult, claudeResult] = await Promise.allSettled([
@@ -70,30 +96,24 @@ async function processRecipeGroup(
   const claudeData =
     claudeResult.status === "fulfilled" ? claudeResult.value : null;
 
-  if (geminiResult.status === "rejected") {
-    console.warn(`  Gemini OCR failed: ${geminiResult.reason}`);
-  }
-  if (claudeResult.status === "rejected") {
-    console.warn(`  Claude OCR failed: ${claudeResult.reason}`);
-  }
-
-  console.log(`  [2/5] Ranking results...`);
+  // Step 2: Ranking
+  progress.step(1);
   const ranking = await rankResults(geminiData, claudeData);
-  console.log(
-    `  Selected: ${ranking.selectedModel} — ${ranking.rankingReason}`
-  );
 
-  console.log(`  [3/5] Generating illustration...`);
+  // Step 3: Illustration
+  progress.step(2);
   const illustrationPath = await generateIllustration(
     id,
     ranking.winner.title.en,
     ranking.winner.description.en
   );
 
-  console.log(`  [4/5] Exporting scans for web...`);
+  // Step 4: Export scans
+  progress.step(3);
   const webScanPaths = await exportWebScans(id, scanPaths);
 
-  console.log(`  [5/5] Writing recipe JSON...`);
+  // Step 5: Write JSON
+  progress.step(4);
   const slug = slugify(ranking.winner.title.en);
   const recipe: Recipe = {
     id,
@@ -126,7 +146,7 @@ async function processRecipeGroup(
   }
   saveProcessedMap(processedMap);
 
-  console.log(`  Done: ${recipe.title.en} → ${outputPath}`);
+  progress.done();
 }
 
 function buildIndex(): void {
@@ -158,7 +178,7 @@ function buildIndex(): void {
     resolve(RECIPES_DIR, "index.json"),
     JSON.stringify(index, null, 2) + "\n"
   );
-  console.log(`\nIndex updated: ${recipes.length} recipes`);
+  console.log(`Index updated: ${recipes.length} recipes`);
 }
 
 async function main(): Promise<void> {
@@ -179,7 +199,16 @@ async function main(): Promise<void> {
       process.exit(1);
     }
     console.log(`Processing single scan: ${basename(fullPath)}`);
-    await processRecipeGroup([basename(fullPath)], force);
+
+    const bar = createProgressBar();
+    bar.start(STEPS.length, 0, { step: STEPS[0], current: 1, total: 1 });
+
+    const reporter: ProgressReporter = {
+      step(i) { bar.update(i, { step: STEPS[i] }); },
+      done() { bar.update(STEPS.length, { step: "Done" }); bar.stop(); },
+    };
+
+    await processRecipeGroup([basename(fullPath)], force, reporter);
     buildIndex();
     return;
   }
@@ -192,9 +221,9 @@ async function main(): Promise<void> {
     process.exit(1);
   }
 
-  const scanFiles = readdirSync(SCANS_DIR).filter((f) =>
-    IMAGE_EXTENSIONS.has(extname(f).toLowerCase())
-  );
+  const scanFiles = readdirSync(SCANS_DIR)
+    .filter((f) => IMAGE_EXTENSIONS.has(extname(f).toLowerCase()))
+    .sort();
 
   if (scanFiles.length === 0) {
     console.log("No scan images found in scans/ directory.");
@@ -219,28 +248,53 @@ async function main(): Promise<void> {
   const unprocessedPaths = unprocessed.map((f) => resolve(SCANS_DIR, f));
   const groups = await groupScans(unprocessedPaths);
 
-  console.log(`\nProcessing ${groups.length} recipe group(s)...\n`);
+  console.log(`\nProcessing ${groups.length} recipe(s)...\n`);
 
-  let processed = 0;
+  // Overall progress: each recipe has STEPS.length sub-steps
+  const totalSteps = groups.length * STEPS.length;
+  const bar = createProgressBar();
+  bar.start(totalSteps, 0, { step: "Starting", current: 0, total: groups.length });
+
+  let completed = 0;
   let failed = 0;
 
-  for (let i = 0; i < groups.length; i++) {
-    const group = groups[i];
-    const label = group.length === 1 ? group[0] : `[${group.join(" + ")}]`;
-    console.log(`[${i + 1}/${groups.length}] ${label}`);
+  await pMap(groups, async (group, i) => {
+    const recipeNum = (i ?? 0) + 1;
+    const baseStep = (i ?? 0) * STEPS.length;
+
+    const reporter: ProgressReporter = {
+      step(stepIndex) {
+        bar.update(baseStep + stepIndex, {
+          step: `[${recipeNum}/${groups.length}] ${STEPS[stepIndex]}`,
+          current: recipeNum,
+        });
+      },
+      done() {
+        bar.update(baseStep + STEPS.length, {
+          step: `[${recipeNum}/${groups.length}] Done`,
+          current: recipeNum,
+        });
+      },
+    };
 
     try {
-      await processRecipeGroup(group, force);
-      processed++;
+      await processRecipeGroup(group, force, reporter);
+      completed++;
     } catch (err) {
-      console.error(`  FAILED: ${err}`);
+      bar.update(baseStep + STEPS.length, {
+        step: `[${recipeNum}/${groups.length}] FAILED`,
+        current: recipeNum,
+      });
       failed++;
     }
-  }
+  }, { concurrency: 2 });
+
+  bar.stop();
+  console.log();
 
   buildIndex();
 
-  console.log(`\nComplete: ${processed} processed, ${failed} failed`);
+  console.log(`\nComplete: ${completed} processed, ${failed} failed`);
 }
 
 main().catch((err) => {
