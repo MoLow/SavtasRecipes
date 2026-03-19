@@ -1,18 +1,21 @@
-import { readdirSync, existsSync, writeFileSync, mkdirSync } from "fs";
+import { randomUUID } from "crypto";
+import { readdirSync, readFileSync, existsSync, writeFileSync, mkdirSync } from "fs";
 import { resolve, basename, dirname, extname } from "path";
 import { fileURLToPath } from "url";
-import { ocrWithGemini } from "./skills/ocr-gemini.js";
-import { ocrWithClaude } from "./skills/ocr-claude.js";
-import { rankResults } from "./skills/ranker.js";
-import { generateIllustration } from "./skills/illustrator.js";
-import { recipeSchema, type Recipe } from "./schema.js";
+import { ocrWithGemini } from "./skills/ocr-gemini.ts";
+import { ocrWithClaude } from "./skills/ocr-claude.ts";
+import { rankResults } from "./skills/ranker.ts";
+import { generateIllustration } from "./skills/illustrator.ts";
+import { recipeSchema, type Recipe } from "./schema.ts";
+import { ensureCompatibleImage } from "./utils/image.ts";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = resolve(__dirname, "../..");
 const SCANS_DIR = resolve(ROOT_DIR, "scans");
 const RECIPES_DIR = resolve(ROOT_DIR, "data/recipes");
+const PROCESSED_MAP_PATH = resolve(RECIPES_DIR, ".processed.json");
 
-const IMAGE_EXTENSIONS = new Set([".jpg", ".jpeg", ".png", ".webp", ".tiff"]);
+const IMAGE_EXTENSIONS = new Set([".jpg", ".jpeg", ".png", ".webp", ".tiff", ".heic", ".heif"]);
 
 function slugify(text: string): string {
   return text
@@ -23,28 +26,40 @@ function slugify(text: string): string {
     .replace(/^-|-$/g, "");
 }
 
-function getRecipeId(filename: string): string {
-  return basename(filename, extname(filename));
+/** Maps scan filenames to recipe UUIDs for idempotency */
+function loadProcessedMap(): Record<string, string> {
+  if (!existsSync(PROCESSED_MAP_PATH)) return {};
+  return JSON.parse(readFileSync(PROCESSED_MAP_PATH, "utf-8"));
+}
+
+function saveProcessedMap(map: Record<string, string>): void {
+  mkdirSync(RECIPES_DIR, { recursive: true });
+  writeFileSync(PROCESSED_MAP_PATH, JSON.stringify(map, null, 2) + "\n");
 }
 
 async function processSingleScan(
   scanPath: string,
   force: boolean
 ): Promise<void> {
-  const id = getRecipeId(basename(scanPath));
-  const outputPath = resolve(RECIPES_DIR, `${id}.json`);
+  const scanFilename = basename(scanPath);
+  const processedMap = loadProcessedMap();
 
-  if (existsSync(outputPath) && !force) {
-    console.log(`  Skipping ${id} (already processed, use --force to reprocess)`);
+  if (processedMap[scanFilename] && !force) {
+    console.log(`  Skipping ${scanFilename} (already processed, use --force to reprocess)`);
     return;
   }
 
+  const id = randomUUID();
+
   console.log(`  [1/4] Running dual OCR + translation...`);
+
+  // Convert HEIC/TIFF to JPEG if needed
+  const compatiblePath = await ensureCompatibleImage(scanPath);
 
   // Run both models in parallel
   const [geminiResult, claudeResult] = await Promise.allSettled([
-    ocrWithGemini(scanPath),
-    ocrWithClaude(scanPath),
+    ocrWithGemini(compatiblePath),
+    ocrWithClaude(compatiblePath),
   ]);
 
   const geminiData =
@@ -78,7 +93,7 @@ async function processSingleScan(
     id,
     slug,
     source: {
-      scanFile: `scans/${basename(scanPath)}`,
+      scanFile: `scans/${scanFilename}`,
       processedAt: new Date().toISOString(),
     },
     title: ranking.winner.title,
@@ -96,15 +111,21 @@ async function processSingleScan(
   recipeSchema.parse(recipe);
 
   mkdirSync(RECIPES_DIR, { recursive: true });
+  const outputPath = resolve(RECIPES_DIR, `${id}.json`);
   writeFileSync(outputPath, JSON.stringify(recipe, null, 2) + "\n");
-  console.log(`  Done: ${outputPath}`);
+
+  // Update processed map
+  processedMap[scanFilename] = id;
+  saveProcessedMap(processedMap);
+
+  console.log(`  Done: ${recipe.title.en} → ${outputPath}`);
 }
 
 function buildIndex(): void {
   if (!existsSync(RECIPES_DIR)) return;
 
   const files = readdirSync(RECIPES_DIR).filter(
-    (f) => f.endsWith(".json") && f !== "index.json"
+    (f) => f.endsWith(".json") && f !== "index.json" && f !== ".processed.json"
   );
 
   const recipes = files.map((f) => {
@@ -183,12 +204,6 @@ async function main(): Promise<void> {
     console.log(`[${processed + skipped + failed + 1}/${scanFiles.length}] ${file}`);
 
     try {
-      const outputPath = resolve(RECIPES_DIR, `${getRecipeId(file)}.json`);
-      if (existsSync(outputPath) && !force) {
-        console.log(`  Skipping (already processed)`);
-        skipped++;
-        continue;
-      }
       await processSingleScan(scanPath, force);
       processed++;
     } catch (err) {

@@ -1,7 +1,7 @@
 import { readFileSync, writeFileSync, mkdirSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
-import { getGeminiClient } from "../utils/api-clients.js";
+import { getGeminiClient } from "../utils/api-clients.ts";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PROMPT_PATH = resolve(__dirname, "../../../prompts/illustrator-system.md");

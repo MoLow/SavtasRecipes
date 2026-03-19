@@ -1,7 +1,7 @@
 import { readFileSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
-import { getGeminiClient } from "../utils/api-clients.js";
+import { getGeminiClient } from "../utils/api-clients.ts";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PROMPT_PATH = resolve(__dirname, "../../../prompts/ocr-translate-system.md");
@@ -38,7 +38,7 @@ export async function ocrWithGemini(
         : "image/jpeg";
 
   const response = await client.models.generateContent({
-    model: "gemini-2.0-flash",
+    model: "gemini-2.5-flash",
     contents: [
       {
         role: "user",

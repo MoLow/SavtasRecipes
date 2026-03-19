@@ -1,6 +1,6 @@
 import { z } from "zod";
 import { query } from "@anthropic-ai/claude-agent-sdk";
-import type { OcrTranslateResult } from "./ocr-gemini.js";
+import type { OcrTranslateResult } from "./ocr-gemini.ts";
 
 /** Schema to validate raw OCR+translate output before agent adds id/slug/etc */
 const ocrResultSchema = z.object({

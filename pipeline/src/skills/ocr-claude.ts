@@ -2,7 +2,7 @@ import { readFileSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
 import { query } from "@anthropic-ai/claude-agent-sdk";
-import type { OcrTranslateResult } from "./ocr-gemini.js";
+import type { OcrTranslateResult } from "./ocr-gemini.ts";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PROMPT_PATH = resolve(__dirname, "../../../prompts/ocr-translate-system.md");

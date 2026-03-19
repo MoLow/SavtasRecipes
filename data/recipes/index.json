@@ -1,0 +1,76 @@
+{
+  "generatedAt": "2026-03-19T10:47:51.879Z",
+  "totalRecipes": 4,
+  "recipes": [
+    {
+      "id": "08c9c639-20a5-4e61-acab-170037439a15",
+      "slug": "coconut-custard-pie",
+      "title": {
+        "en": "Coconut Custard Pie",
+        "he": "פאי קסטרד קוקוס"
+      },
+      "tags": [
+        "dessert",
+        "pie",
+        "coconut",
+        "custard",
+        "american",
+        "dairy",
+        "vintage"
+      ],
+      "illustration": "illustrations/08c9c639-20a5-4e61-acab-170037439a15.webp"
+    },
+    {
+      "id": "606fefa9-04be-445c-a323-8fa0b031b787",
+      "slug": "nanis-noodle-pudding",
+      "title": {
+        "en": "Nani's Noodle Pudding",
+        "he": "קוגל אטריות של נני"
+      },
+      "tags": [
+        "dairy",
+        "dessert",
+        "ashkenazi",
+        "shabbat",
+        "holiday",
+        "kugel",
+        "baked"
+      ],
+      "illustration": "illustrations/606fefa9-04be-445c-a323-8fa0b031b787.webp"
+    },
+    {
+      "id": "91f8ecd5-0d30-41f4-9839-55cd4d671829",
+      "slug": "pie-crust",
+      "title": {
+        "en": "Pie Crust",
+        "he": "בצק פאי"
+      },
+      "tags": [
+        "dessert",
+        "dairy",
+        "baking",
+        "pie",
+        "american"
+      ],
+      "illustration": "illustrations/91f8ecd5-0d30-41f4-9839-55cd4d671829.webp"
+    },
+    {
+      "id": "d4c90391-33f0-4979-9e4c-9bba518c72e2",
+      "slug": "apple-cake",
+      "title": {
+        "en": "Apple Cake",
+        "he": "עוגת תפוחים"
+      },
+      "tags": [
+        "dessert",
+        "cake",
+        "american",
+        "pareve",
+        "vegetarian",
+        "baking",
+        "apples"
+      ],
+      "illustration": "illustrations/d4c90391-33f0-4979-9e4c-9bba518c72e2.webp"
+    }
+  ]
+}

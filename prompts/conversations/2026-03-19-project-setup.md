@@ -99,3 +99,18 @@ Initial project setup for Savta's Recipes — digitizing 50+ scanned handwritten
 - Removed `ANTHROPIC_API_KEY` from `.env` and `.env.example`
 - Now only one API key needed: `GEMINI_API_KEY`
 - Claude uses existing Claude Code authentication (subscription)
+
+### Modernizations
+- Replaced `tsx` with Node.js native type stripping (`--experimental-strip-types`)
+- Replaced custom `.env` parser with Node.js native `--env-file=.env`
+- Removed `sharp` dependency — HEIC conversion uses macOS-native `sips` instead
+- Updated tsconfig: `allowImportingTsExtensions`, `noEmit`, `verbatimModuleSyntax`
+- Changed all `.js` import extensions to `.ts`
+
+### First Pipeline Run (4 demo scans)
+- Added HEIC support (iPhone photos) via `sips` conversion to JPEG
+- Recipe IDs changed from filenames to random UUIDs (tracked via `.processed.json`)
+- Gemini OCR model `gemini-2.0-flash` was deprecated, updated to `gemini-2.5-flash`
+- Claude OCR successfully extracted all 4 recipes: Pie Crust, Coconut Custard Pie, Nani's Noodle Pudding, Apple Cake
+- Nano Banana Pro generated illustrations for all 4
+- Output: 4 recipe JSONs + 4 WebP illustrations in `data/`

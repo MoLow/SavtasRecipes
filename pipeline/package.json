@@ -4,17 +4,15 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "process": "tsx src/agent.ts",
-    "process:one": "tsx src/agent.ts --file"
+    "process": "node --env-file=.env --experimental-strip-types --no-warnings src/agent.ts",
+    "process:one": "node --env-file=.env --experimental-strip-types --no-warnings src/agent.ts --file"
   },
   "dependencies": {
     "@anthropic-ai/claude-agent-sdk": "^0.1.0",
     "@google/genai": "^1.45.0",
-    "sharp": "^0.34.5",
     "zod": "^3.24.0"
   },
   "devDependencies": {
-    "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   }
 }
