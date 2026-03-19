@@ -30,7 +30,7 @@ export function getAllRecipes(): Recipe[] {
   if (!existsSync(RECIPES_DIR)) return [];
 
   return readdirSync(RECIPES_DIR)
-    .filter((f) => f.endsWith(".json") && f !== "index.json")
+    .filter((f) => f.endsWith(".json") && !f.startsWith(".") && f !== "index.json")
     .map((f) => {
       const content = readFileSync(resolve(RECIPES_DIR, f), "utf-8");
       return JSON.parse(content) as Recipe;

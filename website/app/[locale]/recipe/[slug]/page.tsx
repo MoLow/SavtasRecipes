@@ -7,16 +7,9 @@ export const dynamicParams = false;
 export async function generateStaticParams() {
   const recipes = getAllRecipes();
   if (recipes.length === 0) {
-    // Return a placeholder that won't match any real route
-    // This satisfies Next.js static export requirement
-    return [{ locale: "en", slug: "_placeholder" }];
+    return [{ slug: "_placeholder" }];
   }
-  const params: { locale: string; slug: string }[] = [];
-  for (const recipe of recipes) {
-    params.push({ locale: "en", slug: recipe.slug });
-    params.push({ locale: "he", slug: recipe.slug });
-  }
-  return params;
+  return recipes.map((recipe) => ({ slug: recipe.slug }));
 }
 
 export default async function RecipeDetail({

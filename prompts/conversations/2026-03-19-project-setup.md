@@ -114,3 +114,14 @@ Initial project setup for Savta's Recipes — digitizing 50+ scanned handwritten
 - Claude OCR successfully extracted all 4 recipes: Pie Crust, Coconut Custard Pie, Nani's Noodle Pudding, Apple Cake
 - Nano Banana Pro generated illustrations for all 4
 - Output: 4 recipe JSONs + 4 WebP illustrations in `data/`
+
+### Website Build Fix & Verification
+- Fixed `generateStaticParams` in recipe detail page — nested route should only return `slug`, not `locale` (parent layout handles that)
+- Fixed `getAllRecipes()` picking up `.processed.json` — added `!f.startsWith(".")` filter
+- Symlinked `data/illustrations/` → `website/public/illustrations/` so Next.js can serve them
+- Build succeeded: 15 static pages (4 recipes × 2 languages + landing + grid×2 + search + 404)
+- Verified locally with Playwright:
+  - Landing page: language selection works
+  - English grid: all 4 recipe cards with illustrations
+  - Recipe detail: full content (title, description, ingredients, instructions, tags, scan viewer)
+  - Hebrew version: RTL layout, Hebrew translations, language toggle between en/he
