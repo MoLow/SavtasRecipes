@@ -84,11 +84,11 @@ export default function ScanViewer({ scanFiles, recipeName }: ScanViewerProps) {
 
       {/* Image — centered, scrollable if taller than viewport */}
       <div
-        className="absolute inset-0 overflow-auto flex items-start justify-center pt-14 pb-4 px-4"
+        className="absolute inset-0 overflow-auto flex items-center justify-center pt-14 pb-4 px-4"
         onClick={close}
       >
         <div
-          className="relative w-full max-w-3xl"
+          className="relative w-full max-w-3xl min-h-0"
           onClick={(e) => e.stopPropagation()}
         >
           <Image
