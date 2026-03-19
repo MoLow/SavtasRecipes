@@ -1,0 +1,52 @@
+# Website Redesign & Scan Export Pipeline
+
+**Date:** 2026-03-19
+**Session:** Complete website redesign + scan pipeline improvements
+
+## What was done
+
+### 1. Full Website Redesign — "The Archive Table"
+Deleted the old ugly website and rebuilt from scratch with a distinctive editorial aesthetic:
+- **Typography**: DM Serif Display (headings), Source Serif 4 (body), Heebo (Hebrew), JetBrains Mono (metadata)
+- **Color palette**: Aged paper (#FAF7F2), espresso ink (#2C1810), burnt sienna accent (#C4553A)
+- **Special effects**: Paper grain texture overlay, frosted glass card overlays, photo-styled scan viewer
+- **Pages**: Home grid, recipe detail (hero + ingredients/instructions + "The Original" scans), search
+- **Components**: Navbar (frosted glass), LanguageToggle (segmented pill), SearchInput (Fuse.js dropdown), RecipeCard (square with frost band), ScanViewer (photo-styled with dark lightbox), SearchResults
+- **RTL**: Full Hebrew support with logical properties
+- Fixed missing `@tailwindcss/postcss` dependency (Tailwind v4 + Next.js requirement)
+
+### 2. Scan Export Pipeline
+Made original handwritten scans available on the website:
+- **New skill**: `orient.ts` — AI-powered rotation detection using Gemini
+  - Challenge: All AI models auto-apply EXIF orientation, so they always see upright text
+  - Solution: Check pixel dimensions (landscape = needs rotation), then ask Gemini which direction text flows relative to the pixel grid to determine 90° vs 270°
+  - Model: `gemini-3-flash-preview`
+- **New utility**: `exportWebScans()` in `image.ts` — converts HEIC→JPEG with AI rotation, saves to `data/scans/`
+- **Pipeline integration**: New step 4/5 in agent.ts, recipe JSON now references web-friendly JPEGs
+- **Migration script**: `migrate-scans.ts` with `--force` flag for re-processing
+- **Website**: Symlink `website/public/scans → ../../data/scans`
+- **Gitignore**: Removed `scans/` ignore, added `!data/scans/` exception for web exports
+
+### 3. Savta's Photo & Dedication
+- Added grandmother's photo as circular portrait on home page
+- Double-ring frame effect (CSS box-shadow)
+- Dedication line: "Thanks to Neal Atlow & Stuart Atlow" (bilingual)
+
+## Commits
+1. `2f31a9f` — Redesign website: "The Archive Table" design system
+2. `2db72f9` — Fix website build: add Tailwind PostCSS plugin and extract SearchResults component
+3. `ba67f87` — Add scan export pipeline with AI rotation detection
+4. `70e115d` — Add Savta's photo and family dedication to home page
+
+## Key decisions
+- Serif-first typography for editorial feel (unusual for web, memorable)
+- Scans displayed as "physical photos" with white borders and rotation — celebrates the handwritten originals
+- AI rotation detection needed because HEIC→JPEG conversion doesn't preserve orientation metadata
+- Used `gemini-3-flash-preview` for orient detection (Gemini Pro also works but flash is faster)
+- All scan files committed to git (both raw HEIC and exported JPEG) per user preference
+
+## Technical notes
+- Tailwind v4 with Next.js requires `@tailwindcss/postcss` package + `postcss.config.mjs`
+- HEIC files from iPhones store rotation via `irot` box, not standard EXIF orientation
+- `sips` on macOS doesn't expose or apply HEIC rotation during format conversion
+- AI models auto-apply orientation metadata when processing images, making direct rotation detection impossible — workaround is to reason about pixel dimensions + text flow direction
