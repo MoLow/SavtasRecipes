@@ -37,6 +37,12 @@ export default function Navbar({ locale }: NavbarProps) {
 
         <div className="flex items-center gap-3">
           <Link
+            href={`/${locale}/about`}
+            className="hidden sm:inline text-xs text-[var(--color-ink-tertiary)] hover:text-[var(--color-accent)] transition-colors"
+          >
+            {isHebrew ? "איך זה עובד" : "How It Works"}
+          </Link>
+          <Link
             href={`/${locale}/search`}
             className="sm:hidden p-2 rounded-full hover:bg-[var(--color-bg-recessed)] transition-colors"
             aria-label={isHebrew ? "חיפוש" : "Search"}
