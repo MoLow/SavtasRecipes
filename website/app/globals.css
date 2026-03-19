@@ -1,0 +1,131 @@
+@import "tailwindcss";
+
+/* ── Design System: "The Archive Table" ── */
+
+@theme {
+  --font-display: "DM Serif Display", Georgia, serif;
+  --font-body: "Source Serif 4", Georgia, serif;
+  --font-hebrew: "Heebo", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-bg: #FAF7F2;
+  --color-bg-elevated: #FFFFFF;
+  --color-bg-recessed: #F0EBE3;
+
+  --color-ink: #2C1810;
+  --color-ink-secondary: #6B5B4E;
+  --color-ink-tertiary: #A69585;
+
+  --color-accent: #C4553A;
+  --color-accent-hover: #A8432D;
+  --color-accent-light: #FBF0ED;
+  --color-accent-glow: rgba(196, 85, 58, 0.12);
+
+  --color-gold: #B8860B;
+  --color-gold-light: #FDF8EE;
+
+  --color-border: #E5DDD3;
+  --color-border-strong: #CFC3B5;
+
+  --color-tag-bg: #F0EBE3;
+  --color-tag-text: #6B5B4E;
+
+  --color-scan-bg: #1A1410;
+  --color-scan-overlay: rgba(26, 20, 16, 0.85);
+
+  --shadow-card: 0 1px 3px rgba(44, 24, 16, 0.06), 0 1px 2px rgba(44, 24, 16, 0.04);
+  --shadow-card-hover: 0 12px 24px rgba(44, 24, 16, 0.10), 0 4px 8px rgba(44, 24, 16, 0.06);
+  --shadow-nav: 0 1px 0 rgba(44, 24, 16, 0.06);
+}
+
+/* ── Base ── */
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
+
+/* Paper grain texture */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.025;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 256px 256px;
+  mix-blend-mode: multiply;
+}
+
+/* Hebrew font override */
+[dir="rtl"] {
+  font-family: var(--font-hebrew);
+}
+
+[dir="rtl"] .font-display {
+  font-family: var(--font-hebrew);
+  font-weight: 700;
+}
+
+/* ── Animations ── */
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes card-enter {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.4s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease both;
+}
+
+.animate-card-enter {
+  animation: card-enter 0.4s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* ── Scrollbar ── */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border-strong);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-ink-tertiary);
+}

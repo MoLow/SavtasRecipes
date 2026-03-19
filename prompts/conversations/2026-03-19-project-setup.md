@@ -141,3 +141,15 @@ Initial project setup for Savta's Recipes — digitizing 50+ scanned handwritten
   - Website: ScanViewer renders multiple scan pages with page numbers
   - Migrated existing 4 recipe JSONs to new schema
 - Build verified: 15 static pages, all passing
+
+### Website Redesign
+- User deleted old website (`remove website it sucks`) and we rebuilt from scratch
+- Design system: "The Archive Table" — serif fonts (DM Serif Display, Source Serif 4), paper grain texture, warm archive-style colors
+- New components: Navbar (glass effect, inline search), SearchInput (Fuse.js with dropdown + Cmd+K), LanguageToggle (segmented pill)
+- Redesigned RecipeCard: square with frosted glass title band, staggered card-enter animation
+- Recipe detail: recessed hero section, sticky ingredients sidebar, decorative serif step numbers
+- Search moved under `[locale]/search` (locale-aware)
+- Root `/` redirects to `/en` (no language landing page)
+- ScanViewer: thumbnail grid with lightbox modal, prev/next navigation
+- All CSS vars aligned to new design system (`--color-ink`, `--color-accent`, `--color-bg-recessed`, etc.)
+- Build verified: 20 static pages
