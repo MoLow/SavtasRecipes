@@ -74,3 +74,10 @@ Initial project setup for Savta's Recipes — digitizing 50+ scanned handwritten
   - `/search` — search across all recipes by name, ingredients, tags
 - Locale layout applies `dir="rtl"` for Hebrew, sticky header with nav + language toggle
 - Warm family-cookbook color palette (cream, brown, gold, tan)
+
+### Phase 7: Polish & Deploy
+- Created `.github/workflows/deploy.yml` — GitHub Actions workflow for building and deploying to GitHub Pages
+- Installed all dependencies (`npm install`)
+- Fixed Next.js 15 async params issue (params are now `Promise` in layouts/pages)
+- Verified static build passes (`npx next build` succeeds, outputs to `website/out/`)
+- User noted conversation log wasn't being updated before commits — fixed by updating log before every commit going forward

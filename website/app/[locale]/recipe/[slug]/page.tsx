@@ -2,8 +2,15 @@ import Image from "next/image";
 import { getAllRecipes, getRecipeBySlug, type Locale } from "@/lib/recipes";
 import ScanViewer from "@/components/ScanViewer";
 
-export function generateStaticParams() {
+export const dynamicParams = false;
+
+export async function generateStaticParams() {
   const recipes = getAllRecipes();
+  if (recipes.length === 0) {
+    // Return a placeholder that won't match any real route
+    // This satisfies Next.js static export requirement
+    return [{ locale: "en", slug: "_placeholder" }];
+  }
   const params: { locale: string; slug: string }[] = [];
   for (const recipe of recipes) {
     params.push({ locale: "en", slug: recipe.slug });
@@ -12,13 +19,14 @@ export function generateStaticParams() {
   return params;
 }
 
-export default function RecipeDetail({
+export default async function RecipeDetail({
   params,
 }: {
-  params: { locale: string; slug: string };
+  params: Promise<{ locale: string; slug: string }>;
 }) {
-  const locale = params.locale as Locale;
-  const recipe = getRecipeBySlug(params.slug);
+  const { locale: localeParam, slug } = await params;
+  const locale = localeParam as Locale;
+  const recipe = getRecipeBySlug(slug);
   const isHebrew = locale === "he";
 
   if (!recipe) {

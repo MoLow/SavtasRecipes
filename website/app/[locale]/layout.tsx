@@ -6,14 +6,15 @@ export function generateStaticParams() {
   return [{ locale: "en" }, { locale: "he" }];
 }
 
-export default function LocaleLayout({
+export default async function LocaleLayout({
   children,
   params,
 }: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
-  const locale = params.locale as Locale;
+  const { locale: localeParam } = await params;
+  const locale = localeParam as Locale;
   const isHebrew = locale === "he";
 
   return (

@@ -5,12 +5,13 @@ export function generateStaticParams() {
   return [{ locale: "en" }, { locale: "he" }];
 }
 
-export default function RecipeGrid({
+export default async function RecipeGrid({
   params,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
-  const locale = params.locale as Locale;
+  const { locale: localeParam } = await params;
+  const locale = localeParam as Locale;
   const recipes = getAllRecipes();
   const isHebrew = locale === "he";
 
