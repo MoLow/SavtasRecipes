@@ -19,3 +19,4 @@ scans/
 # Pipeline build
 pipeline/dist/
 pipeline/.image-cache/
+.playwright-mcp
