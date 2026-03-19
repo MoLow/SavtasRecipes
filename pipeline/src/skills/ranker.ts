@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { getAnthropicClient } from "../utils/api-clients.js";
+import { query } from "@anthropic-ai/claude-agent-sdk";
 import type { OcrTranslateResult } from "./ocr-gemini.js";
 
 /** Schema to validate raw OCR+translate output before agent adds id/slug/etc */
@@ -85,26 +85,18 @@ export async function rankResults(
     );
   }
 
-  // Both valid — use Claude Haiku as a cheap judge
+  // Both valid — use Claude via Claude Code as judge
   const geminiData = (geminiValid as { valid: true; data: OcrTranslateResult }).data;
   const claudeData = (claudeValid as { valid: true; data: OcrTranslateResult }).data;
 
-  return await judgeWithHaiku(geminiData, claudeData);
+  return await judgeWithClaude(geminiData, claudeData);
 }
 
-async function judgeWithHaiku(
+async function judgeWithClaude(
   geminiData: OcrTranslateResult,
   claudeData: OcrTranslateResult
 ): Promise<RankingResult> {
-  const client = getAnthropicClient();
-
-  const response = await client.messages.create({
-    model: "claude-haiku-4-5-20251001",
-    max_tokens: 1024,
-    messages: [
-      {
-        role: "user",
-        content: `You are comparing two AI-generated recipe extractions from the same handwritten scan. Pick the better one.
+  const prompt = `You are comparing two AI-generated recipe extractions from the same handwritten scan. Pick the better one.
 
 ## Result A (Gemini)
 ${JSON.stringify(geminiData, null, 2)}
@@ -122,25 +114,47 @@ Respond with ONLY a JSON object (no markdown, no code fences):
 {
   "winner": "A" or "B",
   "reason": "Brief explanation of why this result is better"
-}`,
-      },
-    ],
-  });
+}`;
 
-  const textBlock = response.content.find((block) => block.type === "text");
-  if (!textBlock || textBlock.type !== "text") {
-    // Fallback to Gemini if judge fails
+  let responseText = "";
+
+  for await (const message of query({
+    prompt,
+    options: {
+      model: "haiku",
+      permissionMode: "default",
+      allowedTools: [],
+      maxTurns: 1,
+    },
+  })) {
+    if (message.type === "assistant" && message.message?.content) {
+      for (const block of message.message.content) {
+        if ("text" in block) {
+          responseText += block.text;
+        }
+      }
+    }
+  }
+
+  if (!responseText) {
     return {
       winner: geminiData,
       selectedModel: "gemini",
-      rankingReason: "Haiku judge returned no response, defaulting to Gemini",
+      rankingReason: "Claude Code judge returned no response, defaulting to Gemini",
     };
   }
 
   try {
-    let jsonText = textBlock.text.trim();
-    if (jsonText.startsWith("```")) {
-      jsonText = jsonText.replace(/^```(?:json)?\n?/, "").replace(/\n?```$/, "");
+    let jsonText = responseText.trim();
+    const jsonMatch = jsonText.match(/```(?:json)?\s*\n?([\s\S]*?)\n?```/);
+    if (jsonMatch) {
+      jsonText = jsonMatch[1].trim();
+    } else {
+      const braceStart = jsonText.indexOf("{");
+      const braceEnd = jsonText.lastIndexOf("}");
+      if (braceStart !== -1 && braceEnd !== -1) {
+        jsonText = jsonText.slice(braceStart, braceEnd + 1);
+      }
     }
 
     const judgment = JSON.parse(jsonText) as {
@@ -155,11 +169,10 @@ Respond with ONLY a JSON object (no markdown, no code fences):
       rankingReason: judgment.reason,
     };
   } catch {
-    // JSON parse failed, default to Gemini
     return {
       winner: geminiData,
       selectedModel: "gemini",
-      rankingReason: "Haiku judge response was not valid JSON, defaulting to Gemini",
+      rankingReason: "Claude Code judge response was not valid JSON, defaulting to Gemini",
     };
   }
 }

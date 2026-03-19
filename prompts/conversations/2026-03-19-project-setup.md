@@ -89,3 +89,13 @@ Initial project setup for Savta's Recipes — digitizing 50+ scanned handwritten
 - Kept Zod at 3.x (4.x has breaking API changes), kept Next.js at 15.x (16.x would need code changes)
 - GitHub Actions: `checkout` v6, `setup-node` v6, Node.js 22
 - Verified build still passes after updates
+
+### Switch to Claude Code SDK
+- User requested using Claude Code instead of Anthropic API key for Claude calls
+- Replaced `@anthropic-ai/sdk` with `@anthropic-ai/claude-agent-sdk` in pipeline
+- Rewrote `ocr-claude.ts` to use `query()` from Agent SDK — reads images via Claude Code's built-in Read tool
+- Rewrote `ranker.ts` to use `query()` with Haiku model for judging
+- Removed `getAnthropicClient()` from `api-clients.ts`
+- Removed `ANTHROPIC_API_KEY` from `.env` and `.env.example`
+- Now only one API key needed: `GEMINI_API_KEY`
+- Claude uses existing Claude Code authentication (subscription)

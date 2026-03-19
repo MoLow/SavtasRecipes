@@ -2,7 +2,6 @@ import { readFileSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
 import { GoogleGenAI } from "@google/genai";
-import Anthropic from "@anthropic-ai/sdk";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -39,18 +38,10 @@ function getEnv(key: string): string {
 }
 
 let geminiClient: GoogleGenAI | null = null;
-let anthropicClient: Anthropic | null = null;
 
 export function getGeminiClient(): GoogleGenAI {
   if (!geminiClient) {
     geminiClient = new GoogleGenAI({ apiKey: getEnv("GEMINI_API_KEY") });
   }
   return geminiClient;
-}
-
-export function getAnthropicClient(): Anthropic {
-  if (!anthropicClient) {
-    anthropicClient = new Anthropic({ apiKey: getEnv("ANTHROPIC_API_KEY") });
-  }
-  return anthropicClient;
 }

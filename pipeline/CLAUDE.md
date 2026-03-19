@@ -7,8 +7,8 @@ Processes scanned recipe images into structured bilingual JSON data using a dual
 ## Architecture
 
 - `src/skills/ocr-gemini.ts` — Sends scan to Gemini 2.0 Flash for OCR + structuring + EN→HE translation
-- `src/skills/ocr-claude.ts` — Sends scan to Claude Opus 4.6 for OCR + structuring + EN→HE translation
-- `src/skills/ranker.ts` — Validates both results, uses Claude Haiku to pick the best one
+- `src/skills/ocr-claude.ts` — Uses Claude Code (Agent SDK) for OCR + structuring + EN→HE translation
+- `src/skills/ranker.ts` — Validates both results, uses Claude via Claude Code to pick the best one
 - `src/skills/illustrator.ts` — Sends recipe description to Nano Banana Pro for illustration
 - `src/agent.ts` — Orchestrates all skills: dual OCR → rank → illustrate → write JSON
 - `src/schema.ts` — Zod schema for recipe validation

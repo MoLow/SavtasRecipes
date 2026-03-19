@@ -13,7 +13,7 @@ Personal project to digitize grandmother's handwritten English recipes into a bi
 ## Tech Stack
 
 - TypeScript throughout (npm workspaces monorepo)
-- Gemini 2.0 Flash + Claude Opus 4.6 for dual-model OCR + translation (best result wins)
+- Gemini 2.0 Flash + Claude Opus 4.6 (via Claude Code) for dual-model OCR + translation (best result wins)
 - Nano Banana Pro (Gemini `gemini-3-pro-image-preview`) for food illustrations
 - Next.js with static export for the website
 - Tailwind CSS for styling
@@ -29,8 +29,9 @@ Personal project to digitize grandmother's handwritten English recipes into a bi
 ## Environment Variables
 
 Copy `pipeline/.env.example` to `pipeline/.env` and fill in:
-- `GEMINI_API_KEY` — Google AI (used for OCR + illustrations)
-- `ANTHROPIC_API_KEY` — Anthropic (used for OCR + translation + ranking)
+- `GEMINI_API_KEY` — Google AI (used for Gemini OCR + Nano Banana Pro illustrations)
+
+Claude is used via the Claude Agent SDK (`@anthropic-ai/claude-agent-sdk`) which uses your existing Claude Code authentication — no API key needed.
 
 ## Languages
 

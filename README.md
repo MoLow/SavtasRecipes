@@ -16,7 +16,7 @@ Scanned papers → Dual AI OCR → Rank best result → Translate EN↔HE → Ge
 
 ## Tech stack
 
-- **Pipeline**: TypeScript, Gemini 2.0 Flash, Claude Opus 4.6, Nano Banana Pro
+- **Pipeline**: TypeScript, Gemini 2.0 Flash, Claude Opus 4.6 (via Claude Code), Nano Banana Pro
 - **Website**: Next.js (static export), Tailwind CSS, Fuse.js
 - **Deployment**: GitHub Pages
 

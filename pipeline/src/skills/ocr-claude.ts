@@ -1,7 +1,7 @@
 import { readFileSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
-import { getAnthropicClient } from "../utils/api-clients.js";
+import { query } from "@anthropic-ai/claude-agent-sdk";
 import type { OcrTranslateResult } from "./ocr-gemini.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -10,54 +10,45 @@ const PROMPT_PATH = resolve(__dirname, "../../../prompts/ocr-translate-system.md
 export async function ocrWithClaude(
   imagePath: string
 ): Promise<OcrTranslateResult> {
-  const client = getAnthropicClient();
   const systemPrompt = readFileSync(PROMPT_PATH, "utf-8");
-  const imageData = readFileSync(imagePath);
-  const base64Image = imageData.toString("base64");
+  const absoluteImagePath = resolve(imagePath);
 
-  const ext = imagePath.toLowerCase().split(".").pop();
-  const mediaType =
-    ext === "png"
-      ? "image/png"
-      : ext === "webp"
-        ? "image/webp"
-        : ext === "gif"
-          ? "image/gif"
-          : "image/jpeg";
+  let responseText = "";
 
-  const response = await client.messages.create({
-    model: "claude-opus-4-6",
-    max_tokens: 4096,
-    messages: [
-      {
-        role: "user",
-        content: [
-          {
-            type: "image",
-            source: {
-              type: "base64",
-              media_type: mediaType,
-              data: base64Image,
-            },
-          },
-          {
-            type: "text",
-            text: systemPrompt,
-          },
-        ],
-      },
-    ],
-  });
-
-  const textBlock = response.content.find((block) => block.type === "text");
-  if (!textBlock || textBlock.type !== "text") {
-    throw new Error("Claude returned no text response");
+  for await (const message of query({
+    prompt: `Read the image at ${absoluteImagePath} and follow these instructions:\n\n${systemPrompt}`,
+    options: {
+      model: "claude-opus-4-6",
+      permissionMode: "default",
+      allowedTools: ["Read"],
+      maxTurns: 3,
+    },
+  })) {
+    if (message.type === "assistant" && message.message?.content) {
+      for (const block of message.message.content) {
+        if ("text" in block) {
+          responseText += block.text;
+        }
+      }
+    }
   }
 
-  // Claude may wrap JSON in code fences, strip them
-  let jsonText = textBlock.text.trim();
-  if (jsonText.startsWith("```")) {
-    jsonText = jsonText.replace(/^```(?:json)?\n?/, "").replace(/\n?```$/, "");
+  if (!responseText) {
+    throw new Error("Claude Code returned no response");
+  }
+
+  // Extract JSON from response — may be wrapped in code fences or prose
+  let jsonText = responseText.trim();
+  const jsonMatch = jsonText.match(/```(?:json)?\s*\n?([\s\S]*?)\n?```/);
+  if (jsonMatch) {
+    jsonText = jsonMatch[1].trim();
+  } else {
+    // Try to find raw JSON object
+    const braceStart = jsonText.indexOf("{");
+    const braceEnd = jsonText.lastIndexOf("}");
+    if (braceStart !== -1 && braceEnd !== -1) {
+      jsonText = jsonText.slice(braceStart, braceEnd + 1);
+    }
   }
 
   return JSON.parse(jsonText) as OcrTranslateResult;
