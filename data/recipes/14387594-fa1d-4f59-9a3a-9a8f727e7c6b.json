@@ -1,0 +1,125 @@
+{
+  "id": "14387594-fa1d-4f59-9a3a-9a8f727e7c6b",
+  "slug": "falafel",
+  "source": {
+    "scanFiles": [
+      "scans/14387594-fa1d-4f59-9a3a-9a8f727e7c6b-0.jpg",
+      "scans/14387594-fa1d-4f59-9a3a-9a8f727e7c6b-1.jpg"
+    ],
+    "processedAt": "2026-03-19T22:47:16.952Z"
+  },
+  "title": {
+    "en": "FALAFEL",
+    "he": "פלאפל"
+  },
+  "description": {
+    "en": "A classic recipe for homemade falafel, made from mashed chickpeas and fried until golden brown.",
+    "he": "מתכון קלאסי לפלאפל ביתי, עשוי מגרגרי חומוס מעוכים ומטוגן עד להזהבה."
+  },
+  "ingredients": [
+    {
+      "en": "2 cups canned chick peas - drained and mashed.",
+      "he": "2 כוסות גרגירי חומוס מקופסה - מסוננים ומעוכים.",
+      "item": "canned chick peas",
+      "amount": 2,
+      "unit": "cups"
+    },
+    {
+      "en": "1/2 teaspoon salt",
+      "he": "1/2 כפית מלח",
+      "item": "salt",
+      "amount": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "en": "1/4 teaspoon hot pepper sauce",
+      "he": "1/4 כפית רוטב פלפל חריף",
+      "item": "hot pepper sauce",
+      "amount": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "en": "shortening for deep fat frying",
+      "he": "שומן לטיגון עמוק",
+      "item": "shortening for deep fat frying",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "1/4 teaspoon pepper",
+      "he": "1/4 כפית פלפל",
+      "item": "pepper",
+      "amount": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "en": "2 soups fine dry bread crumbs",
+      "he": "2 'סופס' (כנראה כפות) פירורי לחם יבשים דקים",
+      "item": "fine dry bread crumbs",
+      "amount": 2,
+      "unit": null
+    },
+    {
+      "en": "2 tablespoons melted shortening",
+      "he": "2 כפות שומן מומס",
+      "item": "melted shortening",
+      "amount": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "en": "2 eggs",
+      "he": "2 ביצים",
+      "item": "eggs",
+      "amount": 2,
+      "unit": null
+    }
+  ],
+  "instructions": {
+    "en": [
+      "To the mashed chick peas add all ingredients except melted shortening and eggs. Stir thoroughly.",
+      "Add eggs which have been beaten.",
+      "Stir in melted shortening.",
+      "Shape mixture into balls about 1\" to 1 1/2 inch in diameter.",
+      "Roll balls in crumbs.",
+      "Fry a few at a time in deep hot fat for 2 or 3 minutes until golden brown.",
+      "Remove with a slotted spoon and dry on absorbent paper.",
+      "Makes 15 balls."
+    ],
+    "he": [
+      "לגרגירי החומוס המעוכים הוסיפו את כל המרכיבים למעט השומן המומס והביצים. ערבבו היטב.",
+      "הוסיפו ביצים טרופות.",
+      "ערבבו פנימה את השומן המומס.",
+      "צרו מהתערובת כדורים בקוטר של כ-1 עד 1.5 אינץ'.",
+      "גלגלו את הכדורים בפירורי לחם.",
+      "טגנו כמה כדורים בכל פעם בשומן עמוק וחם במשך 2 או 3 דקות עד להזהבה.",
+      "הוציאו בכף מחוררת וייבשו על נייר סופג.",
+      "מכין 15 כדורים."
+    ]
+  },
+  "tags": [
+    {
+      "en": "Middle Eastern",
+      "he": "מזרח תיכוני"
+    },
+    {
+      "en": "Main",
+      "he": "עיקרית"
+    },
+    {
+      "en": "Appetizer",
+      "he": "מתאבן"
+    },
+    {
+      "en": "Vegetarian",
+      "he": "צמחוני"
+    },
+    {
+      "en": "Fried",
+      "he": "מטוגן"
+    }
+  ],
+  "illustration": "illustrations/14387594-fa1d-4f59-9a3a-9a8f727e7c6b.webp",
+  "ocrRawText": "FALAFEL\n2 cups canned chick peas - drained and mashed.\n1/2 teaspoon salt; 1/4 teaspoon hot pepper sauce;\nshortening for deep fat frying; 1/4 teaspoon pepper;\n2 soups fine dry bread crumbs; 2 tablespoons melted\nshortening; 2 eggs.\n\nTo the mashed chick peas add all ingredients except\nmelted shortening and eggs. Stir thoroughly. Add eggs\nwhich have been beaten. Stir in melted shortening.\nShape mixture into balls about 1\" to 1 1/2 inch in diameter. Reel\nballs in crumbs. Fry a few at a time in deep hot\nfat for 2 or 3 minutes until golden brown.\nRemove with a slotted spoon and dry on absorbent\npaper. Makes 15 balls.",
+  "selectedModel": "gemini",
+  "rankingReason": "Gemini selected (only valid result). Claude returned no result"
+}

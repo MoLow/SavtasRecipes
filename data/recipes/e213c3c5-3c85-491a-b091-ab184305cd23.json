@@ -1,0 +1,89 @@
+{
+  "id": "e213c3c5-3c85-491a-b091-ab184305cd23",
+  "slug": "rugelach-cinnamon-nut-crescents",
+  "source": {
+    "scanFiles": [
+      "scans/e213c3c5-3c85-491a-b091-ab184305cd23-0.jpg"
+    ],
+    "processedAt": "2026-03-19T22:38:52.446Z"
+  },
+  "title": {
+    "en": "Rugelach (Cinnamon Nut Crescents)",
+    "he": "רוגלך (סהרוני קינמון ואגוזים)"
+  },
+  "description": {
+    "en": "A classic rugelach recipe with a cinnamon, sugar, and nut filling, rolled into crescent shapes and baked until golden. Note: this appears to be the second part of the recipe card — the dough ingredients from the first part are missing.",
+    "he": "מתכון קלאסי לרוגלך עם מילוי קינמון, סוכר ואגוזים, מגולגל לצורת סהרונים ואפוי עד להזהבה. הערה: זהו כנראה החלק השני של כרטיס המתכון — מרכיבי הבצק מהחלק הראשון חסרים."
+  },
+  "ingredients": [
+    {
+      "en": "1 scant cup sugar",
+      "he": "כוס סוכר לא מלאה (קמצוץ פחות מכוס)",
+      "item": "sugar",
+      "amount": 1,
+      "unit": "scant cup"
+    },
+    {
+      "en": "1 cup chopped nuts",
+      "he": "כוס אגוזים קצוצים",
+      "item": "chopped nuts",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "3½ tsp cinnamon",
+      "he": "3½ כפיות קינמון",
+      "item": "cinnamon",
+      "amount": 3.5,
+      "unit": "tsp"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Prepare the sugar mixture: combine 1 scant cup sugar, 1 cup chopped nuts, and 3½ tsp cinnamon.",
+      "Divide the dough into 4 equal parts.",
+      "Use ¼ of the sugar mixture for each part.",
+      "Spread on a board. Roll dough into the shape of a pie (circle) using all of the sugar mixture.",
+      "Cut into 16 wedges and roll up each wedge from the widest part.",
+      "Bake at 350°F until light brown."
+    ],
+    "he": [
+      "הכינו את תערובת הסוכר: ערבבו כוס סוכר (לא מלאה), כוס אגוזים קצוצים ו-3½ כפיות קינמון.",
+      "חלקו את הבצק ל-4 חלקים שווים.",
+      "השתמשו ב-¼ מתערובת הסוכר לכל חלק.",
+      "פזרו על משטח עבודה. רדדו את הבצק לצורת עיגול תוך שימוש בכל תערובת הסוכר.",
+      "חתכו ל-16 משולשים וגלגלו כל משולש מהצד הרחב.",
+      "אפו בתנור ב-175°C (350°F) עד להזהבה קלה."
+    ]
+  },
+  "tags": [
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "pastry",
+      "he": "מאפה"
+    },
+    {
+      "en": "ashkenazi",
+      "he": "אשכנזי"
+    },
+    {
+      "en": "holiday",
+      "he": "חג"
+    },
+    {
+      "en": "vegetarian",
+      "he": "צמחוני"
+    },
+    {
+      "en": "baking",
+      "he": "אפייה"
+    }
+  ],
+  "illustration": "illustrations/e213c3c5-3c85-491a-b091-ab184305cd23.webp",
+  "ocrRawText": "[su]gar mixture, 1 scant cup sugar\ncup chopped nuts 3½ tsp cinnamon\nDivide dough in 4 equal\nparts. Use ¼ of sugar mixture.\nSpread on board. Roll dough into\nshape of pie using all of sugar\nmixture. Cut into 16 wedges\nand roll up from widest part.\nBake at 350° till light brown.",
+  "selectedModel": "claude",
+  "rankingReason": "Result B is superior in several key ways: (1) It correctly identifies the recipe as Rugelach, a real, well-known Jewish pastry, rather than generic 'Cinnamon Nut Rolls'; (2) It acknowledges this is a partial recipe (dough missing from first page), showing better contextual understanding; (3) The instructions are more coherent and concise (6 steps vs 9), eliminating redundant repetition in steps 3-7 that appears in Result A; (4) The ingredients list is cleaner without the vague 'Dough' entry; (5) More comprehensive and culturally appropriate tags (ashkenazi, holiday, vegetarian, baking); (6) The Hebrew translation is more natural and idiomatic; (7) The OCR raw text in Result B shows '[su]gar' indicating better capture of actual handwriting imperfections, while Result A shows a cleaner, less realistic OCR representation."
+}

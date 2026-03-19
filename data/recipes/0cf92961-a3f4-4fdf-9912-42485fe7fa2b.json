@@ -1,0 +1,120 @@
+{
+  "id": "0cf92961-a3f4-4fdf-9912-42485fe7fa2b",
+  "slug": "carrot-cake",
+  "source": {
+    "scanFiles": [
+      "scans/0cf92961-a3f4-4fdf-9912-42485fe7fa2b-0.jpg",
+      "scans/0cf92961-a3f4-4fdf-9912-42485fe7fa2b-1.jpg"
+    ],
+    "processedAt": "2026-03-19T22:42:18.247Z"
+  },
+  "title": {
+    "en": "Carrot Cake",
+    "he": "עוגת גזר"
+  },
+  "description": {
+    "en": "A classic carrot cake recipe with walnuts and maraschino cherries, baked in an 8x12 inch pan.",
+    "he": "מתכון קלאסי לעוגת גזר עם אגוזי מלך ודובדבני מרסקינו, נאפית בתבנית בגודל 8x12 אינץ'."
+  },
+  "ingredients": [
+    {
+      "en": "6 eggs",
+      "he": "6 ביצים",
+      "item": "eggs",
+      "amount": 6,
+      "unit": null
+    },
+    {
+      "en": "1/2 lb ground walnuts",
+      "he": "1/2 ליברה אגוזי מלך טחונים",
+      "item": "ground walnuts",
+      "amount": 0.5,
+      "unit": "lb"
+    },
+    {
+      "en": "3-4 glasses carrot (grated)",
+      "he": "3-4 כוסות גזר (מגורר)",
+      "item": "grated carrot",
+      "amount": null,
+      "unit": "glasses"
+    },
+    {
+      "en": "1/2 cup oil",
+      "he": "1/2 כוס שמן",
+      "item": "oil",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1 1/2 cup sugar",
+      "he": "1 1/2 כוס סוכר",
+      "item": "sugar",
+      "amount": 1.5,
+      "unit": "cup"
+    },
+    {
+      "en": "2 cups flour",
+      "he": "2 כוסות קמח",
+      "item": "flour",
+      "amount": 2,
+      "unit": "cups"
+    },
+    {
+      "en": "2 tsp baking powder",
+      "he": "2 כפיות אבקת אפייה",
+      "item": "baking powder",
+      "amount": 2,
+      "unit": "tsp"
+    },
+    {
+      "en": "1/2 tsp soda",
+      "he": "1/2 כפית סודה לשתייה",
+      "item": "soda",
+      "amount": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "en": "1 small jar Maraschino Cherries (drained & cut)",
+      "he": "1 צנצנת קטנה דובדבני מרסקינו (מסוננים וחתוכים)",
+      "item": "Maraschino Cherries (drained & cut)",
+      "amount": 1,
+      "unit": "small jar"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Separate eggs.",
+      "Beat whites till foamy.",
+      "Add 1/2 of the sugar & beat well.",
+      "Then add yolks & oil & whites.",
+      "Then add remaining ingredients.",
+      "Bake in an 8x12 pan for 1 hour at 350°."
+    ],
+    "he": [
+      "הפרידו את הביצים.",
+      "הקציפו את החלבונים עד לקבלת קצף.",
+      "הוסיפו 1/2 מהסוכר והקציפו היטב.",
+      "לאחר מכן הוסיפו את החלמונים, השמן והחלבונים.",
+      "לאחר מכן הוסיפו את שאר המרכיבים.",
+      "אפו בתבנית בגודל 8x12 למשך שעה ב-350 מעלות."
+    ]
+  },
+  "tags": [
+    {
+      "en": "Dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "Cake",
+      "he": "עוגה"
+    },
+    {
+      "en": "Vegetarian",
+      "he": "צמחוני"
+    }
+  ],
+  "illustration": "illustrations/0cf92961-a3f4-4fdf-9912-42485fe7fa2b.webp",
+  "ocrRawText": "Carrot Cake\n6 eggs\n1/2 lb ground walnuts\n3-4 glasses carrot (grated)\n1/2 cup oil\n1 1/2 cup sugar\n2 cups flour\n2 tsp baking powder\n1/2 tsp soda\n1 small jar Maraschino Cherries\n(drained & cut)\nseparate eggs. beat whites till\nfoamy. add 1/2 of the sugar & beat\nwell. Then add yolks & oil & whites\nThen add remaining ingredients\nbake in an 8x12 pan for 1 hour\n350°",
+  "selectedModel": "gemini",
+  "rankingReason": "Gemini selected (only valid result). Claude returned no result"
+}

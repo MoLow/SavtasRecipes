@@ -1,0 +1,101 @@
+{
+  "id": "d2da0061-a59c-45db-bd42-ddf86a0f867b",
+  "slug": "fruit-squares",
+  "source": {
+    "scanFiles": [
+      "scans/d2da0061-a59c-45db-bd42-ddf86a0f867b-0.jpg",
+      "scans/d2da0061-a59c-45db-bd42-ddf86a0f867b-1.jpg"
+    ],
+    "processedAt": "2026-03-19T22:42:51.481Z"
+  },
+  "title": {
+    "en": "Fruit Squares",
+    "he": "ריבועי פירות"
+  },
+  "description": {
+    "en": "A recipe for fruit squares with a crumbly crust. The recipe provides options for various fruit fillings, such as apples with cinnamon and sugar, apple pie, blueberry, lemon, or cherry.",
+    "he": "מתכון לריבועי פירות עם קראמבל פריך. המתכון מציע אפשרויות למילוי פירות שונים, כגון תפוחים עם קינמון וסוכר, פאי תפוחים, אוכמניות, לימון או דובדבנים."
+  },
+  "ingredients": [
+    {
+      "en": "4 cups flour",
+      "he": "4 כוסות קמח",
+      "item": "flour",
+      "amount": 4,
+      "unit": "cup"
+    },
+    {
+      "en": "1½ cups sugar",
+      "he": "1½ כוסות סוכר",
+      "item": "sugar",
+      "amount": 1.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1 cup margarine (Howe)",
+      "he": "1 כוס מרגרינה (האו)",
+      "item": "margarine",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "2 eggs",
+      "he": "2 ביצים",
+      "item": "eggs",
+      "amount": 2,
+      "unit": ""
+    },
+    {
+      "en": "2 tsp baking powder",
+      "he": "2 כפיות אבקת אפייה",
+      "item": "baking powder",
+      "amount": 2,
+      "unit": "tsp"
+    },
+    {
+      "en": "pinch salt",
+      "he": "קורט מלח",
+      "item": "salt",
+      "amount": null,
+      "unit": ""
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Cream together sugar, margarine, and eggs.",
+      "Add the dry ingredients (flour, baking powder, salt) and blend well until crumbly.",
+      "Press half of the dough mixture into a 9x13 inch pan.",
+      "Spread your choice of canned fruit or pie filling over the pressed dough. (Suggested fillings include apples with cinnamon and sugar, apple pie filling, blueberry, lemon, or cherry).",
+      "Sprinkle the remaining dough mixture on top of the filling.",
+      "Optionally, sprinkle with additional cinnamon and sugar. (Add water if necessary to achieve desired consistency for sprinkling).",
+      "Bake at 375 degrees Fahrenheit for 45 minutes."
+    ],
+    "he": [
+      "מקציפים יחד סוכר, מרגרינה וביצים.",
+      "מוסיפים את החומרים היבשים (קמח, אבקת אפייה, מלח) ומערבבים היטב עד לקבלת תערובת פירורית.",
+      "מהדקים חצי מכמות הבצק לתבנית בגודל 9x13 אינץ'.",
+      "מורחים מעל הבצק המהודק מילוי פירות משומר או מילוי פאי לבחירתכם. (מילויים מוצעים כוללים תפוחים עם קינמון וסוכר, מילוי פאי תפוחים, אוכמניות, לימון או דובדבנים).",
+      "מפזרים את יתרת תערובת הבצק מעל המילוי.",
+      "אפשרות: מפזרים מעל קינמון וסוכר נוספים. (מוסיפים מים במידת הצורך כדי להגיע למרקם הרצוי לפיזור).",
+      "אופים בחום של 375 מעלות פרנהייט למשך 45 דקות."
+    ]
+  },
+  "tags": [
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "baked goods",
+      "he": "מאפים"
+    },
+    {
+      "en": "fruit",
+      "he": "פירות"
+    }
+  ],
+  "illustration": "illustrations/d2da0061-a59c-45db-bd42-ddf86a0f867b.webp",
+  "ocrRawText": "4C Flour\n1½ C sugar\n1C margarine (Howe)\n2 eggs\n2 Tsp BK powder\npinch salt\nCream sugar, margarine + eggs. Add\ndry ingredients + blend well (will be\ncrumbly). Pat ½ into 9x13. Use any can\nor pie filling. Sprinkle remaining dough\non top. Sprinkle with cinnamon + sugar. (Water\nif necessary).\nBake 375 - 45 minutes\n(over)\nFilling:\nApples + Cin. + sugar\nApple Pie\nBlueberry\nLemon\nCherry",
+  "selectedModel": "gemini",
+  "rankingReason": "Gemini selected (only valid result). Claude returned no result"
+}

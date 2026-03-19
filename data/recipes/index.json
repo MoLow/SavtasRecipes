@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-03-19T19:30:07.548Z",
-  "totalRecipes": 141,
+  "generatedAt": "2026-03-19T22:49:00.524Z",
+  "totalRecipes": 156,
   "recipes": [
     {
       "id": "023987d8-c3cb-4e32-97ce-15fb390f0d10",
@@ -181,6 +181,29 @@
       "illustration": "illustrations/0bd353fc-7843-4314-afad-a768b79fd307.webp"
     },
     {
+      "id": "0cf92961-a3f4-4fdf-9912-42485fe7fa2b",
+      "slug": "carrot-cake",
+      "title": {
+        "en": "Carrot Cake",
+        "he": "עוגת גזר"
+      },
+      "tags": [
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Cake",
+          "he": "עוגה"
+        },
+        {
+          "en": "Vegetarian",
+          "he": "צמחוני"
+        }
+      ],
+      "illustration": "illustrations/0cf92961-a3f4-4fdf-9912-42485fe7fa2b.webp"
+    },
+    {
       "id": "0d5251ea-6d60-4ca0-b296-56aa887da623",
       "slug": "haman-taschen",
       "title": {
@@ -332,6 +355,37 @@
       "illustration": "illustrations/12f73e34-6551-414f-86b1-0f2570eb5873.webp"
     },
     {
+      "id": "14387594-fa1d-4f59-9a3a-9a8f727e7c6b",
+      "slug": "falafel",
+      "title": {
+        "en": "FALAFEL",
+        "he": "פלאפל"
+      },
+      "tags": [
+        {
+          "en": "Middle Eastern",
+          "he": "מזרח תיכוני"
+        },
+        {
+          "en": "Main",
+          "he": "עיקרית"
+        },
+        {
+          "en": "Appetizer",
+          "he": "מתאבן"
+        },
+        {
+          "en": "Vegetarian",
+          "he": "צמחוני"
+        },
+        {
+          "en": "Fried",
+          "he": "מטוגן"
+        }
+      ],
+      "illustration": "illustrations/14387594-fa1d-4f59-9a3a-9a8f727e7c6b.webp"
+    },
+    {
       "id": "156f2d08-372f-450f-b08f-20c7623ef0d2",
       "slug": "clean-beans",
       "title": {
@@ -349,6 +403,33 @@
         }
       ],
       "illustration": "illustrations/156f2d08-372f-450f-b08f-20c7623ef0d2.webp"
+    },
+    {
+      "id": "15b79c13-7a36-4ac2-a1af-6ed1ef74eebf",
+      "slug": "carrot-cake",
+      "title": {
+        "en": "Carrot Cake",
+        "he": "עוגת גזר"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "cake",
+          "he": "עוגה"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        },
+        {
+          "en": "vegetarian",
+          "he": "צמחוני"
+        }
+      ],
+      "illustration": "illustrations/15b79c13-7a36-4ac2-a1af-6ed1ef74eebf.webp"
     },
     {
       "id": "1734abb3-31e0-488e-a8c7-7531b68ddf75",
@@ -1036,6 +1117,29 @@
       "illustration": "illustrations/3cd087fa-900e-419f-90f9-5fa467d46528.webp"
     },
     {
+      "id": "41ffbe1b-f370-4e72-adb8-084111d8faf2",
+      "slug": "cheesecake",
+      "title": {
+        "en": "Cheesecake",
+        "he": "עוגת גבינה"
+      },
+      "tags": [
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "Baked",
+          "he": "אפוי"
+        }
+      ],
+      "illustration": "illustrations/41ffbe1b-f370-4e72-adb8-084111d8faf2.webp"
+    },
+    {
       "id": "450bc445-8974-40be-9020-cf8c2d626ac0",
       "slug": "coffee-cake",
       "title": {
@@ -1158,6 +1262,41 @@
         }
       ],
       "illustration": "illustrations/4eabb3f6-fb6d-4caa-91d9-16fded540d25.webp"
+    },
+    {
+      "id": "528863b6-ed12-4985-a8a0-b14571ce1312",
+      "slug": "rugelach",
+      "title": {
+        "en": "Rugelach",
+        "he": "רוגלך"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "pastry",
+          "he": "מאפה"
+        },
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "holiday",
+          "he": "חג"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        }
+      ],
+      "illustration": "illustrations/528863b6-ed12-4985-a8a0-b14571ce1312.webp"
     },
     {
       "id": "551b5d1b-b3f6-40e7-8403-1147334442b4",
@@ -1315,6 +1454,33 @@
       "illustration": "illustrations/57bf27cf-e534-4a40-bee3-b015e1d4e0c1.webp"
     },
     {
+      "id": "5a36b4b9-68ac-4078-a7c2-d9fd87ba3a90",
+      "slug": "sweet-potato-casserole",
+      "title": {
+        "en": "Sweet Potato Casserole",
+        "he": "קדרת בטטה"
+      },
+      "tags": [
+        {
+          "en": "casserole",
+          "he": "קדרה"
+        },
+        {
+          "en": "side dish",
+          "he": "תוספת"
+        },
+        {
+          "en": "vegetarian",
+          "he": "צמחוני"
+        },
+        {
+          "en": "holiday",
+          "he": "חג"
+        }
+      ],
+      "illustration": "illustrations/5a36b4b9-68ac-4078-a7c2-d9fd87ba3a90.webp"
+    },
+    {
       "id": "5c42022e-1e21-4305-a64c-4b91e56046e9",
       "slug": "spanish-rice",
       "title": {
@@ -1363,6 +1529,41 @@
         }
       ],
       "illustration": "illustrations/5c7e0fa8-00db-4565-b43f-24c6730c28de.webp"
+    },
+    {
+      "id": "658739d3-89af-47f3-9511-280016a91e9e",
+      "slug": "tofu-burgers-and-meatballs",
+      "title": {
+        "en": "Tofu Burgers and \"Meatballs\"",
+        "he": "המבורגרים ו\"קציצות\" טופו"
+      },
+      "tags": [
+        {
+          "en": "vegetarian",
+          "he": "צמחוני"
+        },
+        {
+          "en": "main",
+          "he": "מנה עיקרית"
+        },
+        {
+          "en": "lunch",
+          "he": "ארוחת צהריים"
+        },
+        {
+          "en": "burgers",
+          "he": "המבורגרים"
+        },
+        {
+          "en": "meatballs",
+          "he": "קציצות"
+        },
+        {
+          "en": "american",
+          "he": "אמריקאי"
+        }
+      ],
+      "illustration": "illustrations/658739d3-89af-47f3-9511-280016a91e9e.webp"
     },
     {
       "id": "6835bc26-3a50-4fc4-96f7-6800fe54b70f",
@@ -1448,6 +1649,33 @@
         }
       ],
       "illustration": "illustrations/6b144d4a-cdff-4a76-8c19-847d0b0e49f2.webp"
+    },
+    {
+      "id": "6ceaa871-b276-4d69-94a7-fc56554c66dd",
+      "slug": "toll-house-marble-squares",
+      "title": {
+        "en": "Toll House Marble Squares",
+        "he": "ריבועי שיש טול האוס"
+      },
+      "tags": [
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Baked Goods",
+          "he": "מאפים"
+        },
+        {
+          "en": "American",
+          "he": "אמריקאי"
+        },
+        {
+          "en": "Dairy",
+          "he": "חלבי"
+        }
+      ],
+      "illustration": "illustrations/6ceaa871-b276-4d69-94a7-fc56554c66dd.webp"
     },
     {
       "id": "6daee68b-3a8f-4ed4-b91d-e5fc367ff8d1",
@@ -1899,6 +2127,33 @@
       "illustration": "illustrations/7bb68a87-0588-4285-956e-05cffc76564f.webp"
     },
     {
+      "id": "7bc6b61e-b835-4749-98a4-dd1503416ead",
+      "slug": "chocolate-swirl-cheese-pie",
+      "title": {
+        "en": "Chocolate Swirl Cheese Pie",
+        "he": "פאי גבינה שוקולד משויש"
+      },
+      "tags": [
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "Baked",
+          "he": "אפוי"
+        },
+        {
+          "en": "American",
+          "he": "אמריקאי"
+        }
+      ],
+      "illustration": "illustrations/7bc6b61e-b835-4749-98a4-dd1503416ead.webp"
+    },
+    {
       "id": "7bdd9b45-c155-41dc-b095-414246ae7cf0",
       "slug": "blueberry-muffins",
       "title": {
@@ -2118,6 +2373,37 @@
         }
       ],
       "illustration": "illustrations/8488216b-a451-4617-ae04-3a23874f6970.webp"
+    },
+    {
+      "id": "8537727a-ce0d-48b4-bb36-f7b22cda10f2",
+      "slug": "salmon-loaf",
+      "title": {
+        "en": "Salmon Loaf",
+        "he": "כיכר סלמון"
+      },
+      "tags": [
+        {
+          "en": "fish",
+          "he": "דגים"
+        },
+        {
+          "en": "dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "main",
+          "he": "מנה עיקרית"
+        },
+        {
+          "en": "American",
+          "he": "אמריקאי"
+        },
+        {
+          "en": "baked",
+          "he": "אפייה"
+        }
+      ],
+      "illustration": "illustrations/8537727a-ce0d-48b4-bb36-f7b22cda10f2.webp"
     },
     {
       "id": "86514655-c418-42b9-bfd7-4639afc89b8d",
@@ -2594,6 +2880,33 @@
         }
       ],
       "illustration": "illustrations/a1d8700c-b999-4d79-8e46-cf03c5f58946.webp"
+    },
+    {
+      "id": "a27623d0-d015-4772-ae37-e52cf13c4d82",
+      "slug": "applesauce-cake",
+      "title": {
+        "en": "Applesauce Cake",
+        "he": "עוגת רסק תפוחים"
+      },
+      "tags": [
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Cake",
+          "he": "עוגה"
+        },
+        {
+          "en": "Baked",
+          "he": "אפוי"
+        },
+        {
+          "en": "American",
+          "he": "אמריקאי"
+        }
+      ],
+      "illustration": "illustrations/a27623d0-d015-4772-ae37-e52cf13c4d82.webp"
     },
     {
       "id": "a4fd0cb7-61f8-4ecc-a191-b7214d59aa8d",
@@ -3184,6 +3497,33 @@
       "illustration": "illustrations/c1983893-cfb3-4b4b-a4f4-d0f9e19086d0.webp"
     },
     {
+      "id": "c2d4350b-1d94-4590-baad-17e889319c41",
+      "slug": "cheese-cake-with-strawberry-glaze",
+      "title": {
+        "en": "CHEESE CAKE with Strawberry Glaze",
+        "he": "עוגת גבינה עם זיגוג תותים"
+      },
+      "tags": [
+        {
+          "en": "Dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "Dairy",
+          "he": "חלבי"
+        },
+        {
+          "en": "Cheesecake",
+          "he": "עוגת גבינה"
+        },
+        {
+          "en": "American",
+          "he": "אמריקאי"
+        }
+      ],
+      "illustration": "illustrations/c2d4350b-1d94-4590-baad-17e889319c41.webp"
+    },
+    {
       "id": "c5e51f56-5645-4138-b40c-599b03b3f976",
       "slug": "mushroom-barley",
       "title": {
@@ -3423,6 +3763,29 @@
         }
       ],
       "illustration": "illustrations/d26f67a3-bf12-4f42-9229-b7e58cc1622a.webp"
+    },
+    {
+      "id": "d2da0061-a59c-45db-bd42-ddf86a0f867b",
+      "slug": "fruit-squares",
+      "title": {
+        "en": "Fruit Squares",
+        "he": "ריבועי פירות"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "baked goods",
+          "he": "מאפים"
+        },
+        {
+          "en": "fruit",
+          "he": "פירות"
+        }
+      ],
+      "illustration": "illustrations/d2da0061-a59c-45db-bd42-ddf86a0f867b.webp"
     },
     {
       "id": "d332f58e-eddb-4c4f-8f7b-cb574c21661a",
@@ -3750,6 +4113,41 @@
       "illustration": "illustrations/e0b6057a-777b-437c-84fe-1f1633e2972d.webp"
     },
     {
+      "id": "e213c3c5-3c85-491a-b091-ab184305cd23",
+      "slug": "rugelach-cinnamon-nut-crescents",
+      "title": {
+        "en": "Rugelach (Cinnamon Nut Crescents)",
+        "he": "רוגלך (סהרוני קינמון ואגוזים)"
+      },
+      "tags": [
+        {
+          "en": "dessert",
+          "he": "קינוח"
+        },
+        {
+          "en": "pastry",
+          "he": "מאפה"
+        },
+        {
+          "en": "ashkenazi",
+          "he": "אשכנזי"
+        },
+        {
+          "en": "holiday",
+          "he": "חג"
+        },
+        {
+          "en": "vegetarian",
+          "he": "צמחוני"
+        },
+        {
+          "en": "baking",
+          "he": "אפייה"
+        }
+      ],
+      "illustration": "illustrations/e213c3c5-3c85-491a-b091-ab184305cd23.webp"
+    },
+    {
       "id": "e3f67e32-ee09-419b-9a68-6ed278978b6d",
       "slug": "cinnamon-swirls-david",
       "title": {
@@ -3907,6 +4305,33 @@
         }
       ],
       "illustration": "illustrations/e9a2c805-b7d2-4318-8333-84fbb1c7b7cd.webp"
+    },
+    {
+      "id": "ea5ac469-c65c-49ab-9596-50efa5dcc332",
+      "slug": "sun-dried-pizza-pie",
+      "title": {
+        "en": "Sun-Dried Pizza Pie",
+        "he": "פאי פיצה מיובש בשמש"
+      },
+      "tags": [
+        {
+          "en": "Main",
+          "he": "מנה עיקרית"
+        },
+        {
+          "en": "Pie",
+          "he": "פאי"
+        },
+        {
+          "en": "Vegetarian",
+          "he": "צמחוני"
+        },
+        {
+          "en": "American",
+          "he": "אמריקאי"
+        }
+      ],
+      "illustration": "illustrations/ea5ac469-c65c-49ab-9596-50efa5dcc332.webp"
     },
     {
       "id": "eaddf8fa-24a6-47eb-ac2f-adb9dbaf7a50",

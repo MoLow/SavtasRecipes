@@ -1,0 +1,135 @@
+{
+  "id": "6ceaa871-b276-4d69-94a7-fc56554c66dd",
+  "slug": "toll-house-marble-squares",
+  "source": {
+    "scanFiles": [
+      "scans/6ceaa871-b276-4d69-94a7-fc56554c66dd-0.jpg",
+      "scans/6ceaa871-b276-4d69-94a7-fc56554c66dd-1.jpg"
+    ],
+    "processedAt": "2026-03-19T22:43:27.760Z"
+  },
+  "title": {
+    "en": "Toll House Marble Squares",
+    "he": "ריבועי שיש טול האוס"
+  },
+  "description": {
+    "en": "A recipe for Toll House Marble Squares, a dessert combining butter, sugars, egg, vanilla, water, flour, baking soda, salt, and optional nuts or chocolate chips, baked and then swirled for a marble effect.",
+    "he": "מתכון לריבועי שיש טול האוס, קינוח המשלב חמאה, סוכרים, ביצה, וניל, מים, קמח, סודה לשתייה, מלח, ואגוזים או שוקולד צ'יפס אופציונליים, נאפה ולאחר מכן מערבבים ליצירת אפקט שיש."
+  },
+  "ingredients": [
+    {
+      "en": "½ cup soft butter or Margarine",
+      "he": "½ כוס חמאה רכה או מרגרינה",
+      "item": "soft butter or margarine",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "6 tbsp white sugar",
+      "he": "6 כפות סוכר לבן",
+      "item": "white sugar",
+      "amount": 6,
+      "unit": "tbsp"
+    },
+    {
+      "en": "6 tbsp brown sugar (firmly packed)",
+      "he": "6 כפות סוכר חום (דחוס היטב)",
+      "item": "brown sugar (firmly packed)",
+      "amount": 6,
+      "unit": "tbsp"
+    },
+    {
+      "en": "1 egg",
+      "he": "1 ביצה",
+      "item": "egg",
+      "amount": 1
+    },
+    {
+      "en": "1 tsp vanilla",
+      "he": "1 כפית וניל",
+      "item": "vanilla",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "¼ cup water",
+      "he": "¼ כוס מים",
+      "item": "water",
+      "amount": 0.25,
+      "unit": "cup"
+    },
+    {
+      "en": "1 cup + 2 tbsp flour",
+      "he": "1 כוס + 2 כפות קמח",
+      "item": "flour",
+      "amount": null
+    },
+    {
+      "en": "½ tsp baking soda",
+      "he": "½ כפית סודה לשתייה",
+      "item": "baking soda",
+      "amount": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "en": "½ tsp salt",
+      "he": "½ כפית מלח",
+      "item": "salt",
+      "amount": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "en": "1 cup nut or 1 cup chocolate chips (or both)",
+      "he": "1 כוס אגוזים או 1 כוס שוקולד צ'יפס (או שניהם)",
+      "item": "nuts or chocolate chips",
+      "amount": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Cream butter & sugar. Add egg, vanilla, water.",
+      "Add dry ingredients.",
+      "If using nuts, add only 1/4 of them to the mixture.",
+      "Spread mixture thinly in a sheet pan.",
+      "Sprinkle chocolate chips (and remaining nuts if used) on top.",
+      "Bake at 375°F for 12 minutes.",
+      "Remove from oven and run a knife through to create a marble effect.",
+      "Return to oven and bake for another 12-14 minutes.",
+      "Cool and cut into squares. Enjoy."
+    ],
+    "he": [
+      "מקציפים חמאה וסוכר. מוסיפים ביצה, וניל ומים.",
+      "מוסיפים את החומרים היבשים.",
+      "אם משתמשים באגוזים, מוסיפים רק רבע מהם לתערובת.",
+      "משטחים את התערובת דק בתבנית אפייה.",
+      "מפזרים שוקולד צ'יפס (ואת יתרת האגוזים אם השתמשתם) מעל.",
+      "אופים בחום של 190°C (375°F) למשך 12 דקות.",
+      "מוציאים מהתנור ומעבירים סכין בתערובת ליצירת אפקט שיש.",
+      "מחזירים לתנור ואופים 12-14 דקות נוספות.",
+      "מצננים וחותכים לריבועים. בתיאבון."
+    ]
+  },
+  "tags": [
+    {
+      "en": "Dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "Baked Goods",
+      "he": "מאפים"
+    },
+    {
+      "en": "American",
+      "he": "אמריקאי"
+    },
+    {
+      "en": "Dairy",
+      "he": "חלבי"
+    }
+  ],
+  "illustration": "illustrations/6ceaa871-b276-4d69-94a7-fc56554c66dd.webp",
+  "ocrRawText": "Toll House Marble Squares\n½ cup soft butter or Margarine\n6 tbsp white sugar\n6 tbsp brown sugar (firmly packed)\n1 egg\n1 tsp vanilla\n¼ cup water\n1 cup + 2 tbsp flour\n½ tsp baking soda\n½ tsp salt\n1 cup nut or 1 cup chocolate chips (or both)\n\nCream butter & sugar add egg\nvanilla, water & dry ingredients add\nonly the nuts if you use 1/4 of them\nspread mixture in sheet pan (thinly)\nsprinkle choc. chips. Bake at\n375° for 12 min - remove from oven\nrun knife thru to marble effect\nreturn & bake 12-14 min. Cool &\ncut into squares. (Enjoy)",
+  "selectedModel": "gemini",
+  "rankingReason": "Gemini selected (only valid result). Claude returned no result"
+}

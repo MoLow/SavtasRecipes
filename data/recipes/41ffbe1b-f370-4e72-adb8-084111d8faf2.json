@@ -1,0 +1,124 @@
+{
+  "id": "41ffbe1b-f370-4e72-adb8-084111d8faf2",
+  "slug": "cheesecake",
+  "source": {
+    "scanFiles": [
+      "scans/41ffbe1b-f370-4e72-adb8-084111d8faf2-0.jpg"
+    ],
+    "processedAt": "2026-03-19T22:49:00.500Z"
+  },
+  "title": {
+    "en": "Cheesecake",
+    "he": "עוגת גבינה"
+  },
+  "description": {
+    "en": "A classic cheesecake recipe featuring a sour cream topping. The recipe provides ingredients and baking time/temperature, with preparation steps inferred based on standard cheesecake methods.",
+    "he": "מתכון קלאסי לעוגת גבינה הכולל ציפוי שמנת חמוצה. המתכון מפרט מרכיבים וזמני אפייה/טמפרטורה, כאשר שלבי ההכנה נגזרו משיטות הכנה סטנדרטיות לעוגות גבינה."
+  },
+  "ingredients": [
+    {
+      "en": "3/4 cup milk",
+      "he": "3/4 כוס חלב",
+      "item": "milk",
+      "amount": 0.75,
+      "unit": "cup"
+    },
+    {
+      "en": "2 tsp vanilla",
+      "he": "2 כפיות וניל",
+      "item": "vanilla",
+      "amount": 2,
+      "unit": "tsp"
+    },
+    {
+      "en": "2 eggs",
+      "he": "2 ביצים",
+      "item": "eggs",
+      "amount": 2
+    },
+    {
+      "en": "1 cup sugar",
+      "he": "1 כוס סוכר",
+      "item": "sugar",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1/2 cup flour",
+      "he": "1/2 כוס קמח",
+      "item": "flour",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "2 (8 oz) packages cream cheese",
+      "he": "2 חבילות (226 גרם כל אחת) גבינת שמנת",
+      "item": "cream cheese",
+      "amount": 2,
+      "unit": "8 oz package"
+    },
+    {
+      "en": "Sour cream (for topping)",
+      "he": "שמנת חמוצה (לציפוי)",
+      "item": "sour cream",
+      "amount": null,
+      "unit": null
+    },
+    {
+      "en": "1/4 cup sugar (for topping)",
+      "he": "1/4 כוס סוכר (לציפוי)",
+      "item": "sugar",
+      "amount": 0.25,
+      "unit": "cup"
+    },
+    {
+      "en": "2 tsp vanilla (for topping)",
+      "he": "2 כפיות וניל (לציפוי)",
+      "item": "vanilla",
+      "amount": 2,
+      "unit": "tsp"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Preheat oven to 350°F (175°C).",
+      "In a large bowl, beat the cream cheese until smooth.",
+      "Gradually add sugar, then flour, mixing well after each addition.",
+      "Beat in eggs one at a time, then milk and vanilla until just combined. Do not overmix.",
+      "Pour the mixture into a prepared crust (crust not specified in recipe, but implied for cheesecake).",
+      "Bake for 40-45 minutes, or until the edges are set and the center is slightly jiggly.",
+      "While the cheesecake cools, prepare the topping: mix sour cream, 1/4 cup sugar, and 2 tsp vanilla.",
+      "Spread the topping over the cooled cheesecake.",
+      "Refrigerate for at least 4 hours, or preferably overnight, before serving."
+    ],
+    "he": [
+      "חממו תנור ל-175°C (350°F).",
+      "בקערה גדולה, הקציפו את גבינת השמנת עד לקבלת תערובת חלקה.",
+      "הוסיפו בהדרגה את הסוכר, ולאחר מכן את הקמח, וערבבו היטב לאחר כל הוספה.",
+      "הקציפו פנימה את הביצים אחת אחת, ולאחר מכן את החלב והווניל, רק עד לאיחוד. אין לערבב יתר על המידה.",
+      "שפכו את התערובת לקלתית מוכנה (קלתית לא מצוינת במתכון, אך משתמעת לעוגת גבינה).",
+      "אפו במשך 40-45 דקות, או עד שהשוליים יציבים והמרכז עדיין מעט רוטט.",
+      "בזמן שעוגת הגבינה מתקררת, הכינו את הציפוי: ערבבו שמנת חמוצה, 1/4 כוס סוכר ו-2 כפיות וניל.",
+      "מרחו את הציפוי על עוגת הגבינה שהתקררה.",
+      "קררו במקרר לפחות 4 שעות, או רצוי לילה שלם, לפני ההגשה."
+    ]
+  },
+  "tags": [
+    {
+      "en": "Dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "Dairy",
+      "he": "חלבי"
+    },
+    {
+      "en": "Baked",
+      "he": "אפוי"
+    }
+  ],
+  "illustration": "illustrations/41ffbe1b-f370-4e72-adb8-084111d8faf2.webp",
+  "ocrRawText": "Smf. Cheesecake\n3/4 c. milk\n2 tsp vanilla\n2 eggs\n1 c. sugar\n1/2 c. flour\n2-8 oz pkg cream ch.\n\nTopping sour cream\n1/4 c. sugar\n2 tsp vanilla\n\n350-\n40-45 min.",
+  "selectedModel": "gemini",
+  "rankingReason": "Result A is more accurate and coherent as a cheesecake recipe. It correctly identifies 2 eggs from the OCR text, while Result B incorrectly lists 3 eggs (not in the raw text). Result A also properly captures 2 tsp vanilla for the main mixture and separately for the topping, maintaining ingredient consistency. Result A's instructions follow proper cheesecake methodology (beat cream cheese, add ingredients gradually, bake, then add topping). Result B has internal inconsistencies (lists 2 tbsp vanilla in ingredients but instruction mentions mixing with other ingredients in a way that doesn't align with proper cheesecake technique). Result A's OCR raw text alignment is more faithful to what was actually written."
+}

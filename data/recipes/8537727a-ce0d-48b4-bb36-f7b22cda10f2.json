@@ -1,0 +1,107 @@
+{
+  "id": "8537727a-ce0d-48b4-bb36-f7b22cda10f2",
+  "slug": "salmon-loaf",
+  "source": {
+    "scanFiles": [
+      "scans/8537727a-ce0d-48b4-bb36-f7b22cda10f2-0.jpg"
+    ],
+    "processedAt": "2026-03-19T22:37:34.891Z"
+  },
+  "title": {
+    "en": "Salmon Loaf",
+    "he": "כיכר סלמון"
+  },
+  "description": {
+    "en": "A baked salmon loaf made with canned salmon, eggs, bread crumbs, milk, butter, and American cheese. The recipe card is attributed to 'Bob'.",
+    "he": "כיכר סלמון אפויה העשויה מסלמון משומר, ביצים, פירורי לחם, חלב, חמאה וגבינה אמריקאית. כרטיס המתכון מיוחס ל-'בוב'."
+  },
+  "ingredients": [
+    {
+      "en": "1 large can salmon",
+      "he": "1 פחית גדולה סלמון",
+      "item": "salmon",
+      "amount": 1,
+      "unit": "large can"
+    },
+    {
+      "en": "3 eggs",
+      "he": "3 ביצים",
+      "item": "eggs",
+      "amount": 3,
+      "unit": "piece"
+    },
+    {
+      "en": "1/4 cup seasoned bread crumbs",
+      "he": "1/4 כוס פירורי לחם מתובלים",
+      "item": "seasoned bread crumbs",
+      "amount": 0.25,
+      "unit": "cup"
+    },
+    {
+      "en": "Pepper",
+      "he": "פלפל",
+      "item": "pepper"
+    },
+    {
+      "en": "1 cup milk",
+      "he": "1 כוס חלב",
+      "item": "milk",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1/2 stick butter",
+      "he": "1/2 חפיסת חמאה",
+      "item": "butter",
+      "amount": 0.5,
+      "unit": "stick"
+    },
+    {
+      "en": "3 slices American cheese",
+      "he": "3 פרוסות גבינה אמריקאית",
+      "item": "American cheese",
+      "amount": 3,
+      "unit": "slices"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Step 1: Mix the salmon, eggs, seasoned bread crumbs, and pepper together.",
+      "Step 2: Boil 1 cup milk with 1/2 stick butter and 3 slices American cheese.",
+      "Step 3: Mix the boiled milk, cheese, and butter with the other ingredients.",
+      "Step 4: Bake at 350° until brown."
+    ],
+    "he": [
+      "שלב 1: לערבב את הסלמון, הביצים, פירורי הלחם המתובלים והפלפל יחד.",
+      "שלב 2: להרתיח כוס חלב עם חצי חפיסת חמאה ו-3 פרוסות גבינה אמריקאית.",
+      "שלב 3: לערבב את החלב הרותח, הגבינה והחמאה עם שאר המרכיבים.",
+      "שלב 4: לאפות ב-175 מעלות (350°F) עד שמשחים."
+    ]
+  },
+  "tags": [
+    {
+      "en": "fish",
+      "he": "דגים"
+    },
+    {
+      "en": "dairy",
+      "he": "חלבי"
+    },
+    {
+      "en": "main",
+      "he": "מנה עיקרית"
+    },
+    {
+      "en": "American",
+      "he": "אמריקאי"
+    },
+    {
+      "en": "baked",
+      "he": "אפייה"
+    }
+  ],
+  "illustration": "illustrations/8537727a-ce0d-48b4-bb36-f7b22cda10f2.webp",
+  "ocrRawText": "Bob\nSalmon Loaf\n1 large can salmon\n3 eggs          1/4 cup seasoned bread crumbs\npepper\nmix the above\nboil 1 cup milk\n        1/2 stick butter       3 slices American Cheese\nmix the boiled milk, cheese + butter\nwith other ingredients\nBake at 350° until brown",
+  "selectedModel": "claude",
+  "rankingReason": "Result B is more accurate to the actual handwritten recipe. Key differences: (1) OCR raw text in B correctly shows '1/4 cup seasoned bread crumbs' and 'boil 1 cup milk' with proper parsing of the layout, while A misses the '1 cup milk' instruction and incorrectly lists '1/2 cup seasoned bread crumbs'; (2) B's ingredients correctly show 1 cup milk, matching the instructions, while A shows 1/4 cup milk which is inconsistent with the recipe steps; (3) B's instructions include the critical 'boil' step for the milk/butter/cheese mixture, which is the actual cooking method, while A's instructions are vague and incomplete; (4) B correctly identifies 'brown' as the baking endpoint vs A's 'dry' which seems inaccurate; (5) B includes the attribution to 'Bob' in the description, showing attention to detail. A appears to have misread the handwritten layout and extracted incorrect ingredient quantities."
+}

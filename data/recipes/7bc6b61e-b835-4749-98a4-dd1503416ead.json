@@ -1,0 +1,98 @@
+{
+  "id": "7bc6b61e-b835-4749-98a4-dd1503416ead",
+  "slug": "chocolate-swirl-cheese-pie",
+  "source": {
+    "scanFiles": [
+      "scans/7bc6b61e-b835-4749-98a4-dd1503416ead-0.jpg",
+      "scans/7bc6b61e-b835-4749-98a4-dd1503416ead-1.jpg"
+    ],
+    "processedAt": "2026-03-19T22:43:41.554Z"
+  },
+  "title": {
+    "en": "Chocolate Swirl Cheese Pie",
+    "he": "פאי גבינה שוקולד משויש"
+  },
+  "description": {
+    "en": "A rich and creamy chocolate swirl cheese pie, baked until golden and then chilled. Note: The original recipe lists '3 eggs' and '5 eggs' separately; the structured ingredients list assumes 5 eggs are used in total for the cheese mixture, based on common practice for such a pie.",
+    "he": "פאי גבינה עשיר וקרמי עם שוקולד משויש, נאפה עד הזהבה ולאחר מכן מקורר. הערה: המתכון המקורי מציין '3 ביצים' ו'5 ביצים' בנפרד; רשימת המרכיבים המובנית מניחה שנעשה שימוש ב-5 ביצים בסך הכל לתערובת הגבינה, בהתבסס על נוהג מקובל לפאי מסוג זה."
+  },
+  "ingredients": [
+    {
+      "en": "1 cup sugar",
+      "he": "1 כוס סוכר",
+      "item": "sugar",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "8 oz cream cheese",
+      "he": "226 גרם גבינת שמנת",
+      "item": "cream cheese",
+      "amount": 8,
+      "unit": "oz"
+    },
+    {
+      "en": "5 eggs",
+      "he": "5 ביצים",
+      "item": "eggs",
+      "amount": 5,
+      "unit": ""
+    },
+    {
+      "en": "1 tsp. vanilla",
+      "he": "1 כפית תמצית וניל",
+      "item": "vanilla",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "1-4 oz pkg. Bakers German Sweet Chocolate, melted & cooled",
+      "he": "1 חבילה (113 גרם) שוקולד גרמני מתוק של בייקרס, מומס ומקורר",
+      "item": "Bakers German Sweet Chocolate",
+      "amount": null,
+      "unit": "oz pkg."
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Add sugar to cheese - beat well.",
+      "Add eggs (one at a time) & beat well after each addition.",
+      "Fold in Chocolate into 7/8ths of the Cheese Mixture.",
+      "Pour remaining Cheese Mixture into well buttered 10\" pie pan or 9\" sq. pan.",
+      "Add spoonfuls of the Chocolate mix + zigzag with a spatula thru batter to marbleize.",
+      "Bake 350° for 40-45 min.",
+      "Cool then chill."
+    ],
+    "he": [
+      "הוסיפו סוכר לגבינה – טרפו היטב.",
+      "הוסיפו ביצים (אחת בכל פעם) וטרפו היטב לאחר כל הוספה.",
+      "קפלו את השוקולד לתוך 7/8 מתערובת הגבינה.",
+      "שפכו את יתרת תערובת הגבינה לתבנית פאי משומנת היטב בקוטר 25 ס\"מ או לתבנית מרובעת בגודל 23 ס\"מ.",
+      "הוסיפו כפיות מתערובת השוקולד וצרו זיגזג עם מרית דרך הבלילה ליצירת אפקט שיש.",
+      "אפו בחום של 175°C למשך 40-45 דקות.",
+      "צננו ואז קררו במקרר."
+    ]
+  },
+  "tags": [
+    {
+      "en": "Dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "Dairy",
+      "he": "חלבי"
+    },
+    {
+      "en": "Baked",
+      "he": "אפוי"
+    },
+    {
+      "en": "American",
+      "he": "אמריקאי"
+    }
+  ],
+  "illustration": "illustrations/7bc6b61e-b835-4749-98a4-dd1503416ead.webp",
+  "ocrRawText": "Chocolate Swirl Cheese Pie\n1 cup sugar - 3 eggs - 8 oz cream cheese\n5 eggs - 1 tsp. vanilla\n1-4 oz pkg. Bakers German Sweet\nChocolate. Melted & Cooled\nAdd sugar to cheese - beat well. Add\neggs (one at a time) & beat well\nafter each addition. Fold in\nChocolate into 7/8ths of the\nCheese Mixture. Pour remaining\nCheese Mixture into well\nbuttered 10\" pie pan or 9\"\nsq. pan. Add spoonfuls of\nthe Chocolate mix + zigzag\nwith a spatula thru batter\nto marbleize. Bake 350°\n40-45 min. Cool then chill",
+  "selectedModel": "gemini",
+  "rankingReason": "Gemini selected (only valid result). Claude returned no result"
+}

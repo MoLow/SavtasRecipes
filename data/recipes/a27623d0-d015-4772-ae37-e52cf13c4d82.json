@@ -1,0 +1,133 @@
+{
+  "id": "a27623d0-d015-4772-ae37-e52cf13c4d82",
+  "slug": "applesauce-cake",
+  "source": {
+    "scanFiles": [
+      "scans/a27623d0-d015-4772-ae37-e52cf13c4d82-0.jpg",
+      "scans/a27623d0-d015-4772-ae37-e52cf13c4d82-1.jpg"
+    ],
+    "processedAt": "2026-03-19T22:43:58.320Z"
+  },
+  "title": {
+    "en": "Applesauce Cake",
+    "he": "עוגת רסק תפוחים"
+  },
+  "description": {
+    "en": "A recipe for an applesauce cake, with an optional addition of raisins. Note: The instruction 'Dissolve soda in applesauce if crack' is ambiguous and may refer to the soda being clumpy or the applesauce having a particular consistency.",
+    "he": "מתכון לעוגת רסק תפוחים, עם תוספת אופציונלית של צימוקים. הערה: ההוראה 'ממיסים סודה ברסק התפוחים אם נסדק' אינה ברורה וייתכן שמתייחסת לסודה שהתגבשה או לרסק תפוחים בעל מרקם מסוים."
+  },
+  "ingredients": [
+    {
+      "en": "1/2 Cup shortening",
+      "he": "1/2 כוס שומן צמחי (שורטנינג)",
+      "item": "shortening",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1/2 Cup brown sugar",
+      "he": "1/2 כוס סוכר חום",
+      "item": "brown sugar",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1 Egg",
+      "he": "1 ביצה",
+      "item": "egg",
+      "amount": 1,
+      "unit": ""
+    },
+    {
+      "en": "1 Cup applesauce",
+      "he": "1 כוס רסק תפוחים",
+      "item": "applesauce",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1 teas. salt",
+      "he": "1 כפית מלח",
+      "item": "salt",
+      "amount": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "en": "1 teas. Cinnamon",
+      "he": "1 כפית קינמון",
+      "item": "cinnamon",
+      "amount": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "en": "1/2 teas. ground clove",
+      "he": "1/2 כפית ציפורן טחון",
+      "item": "ground clove",
+      "amount": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "en": "1 teas. baking soda",
+      "he": "1 כפית סודה לשתייה",
+      "item": "baking soda",
+      "amount": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "en": "1 1/2 - 2 Cups flour",
+      "he": "1 1/2 - 2 כוסות קמח",
+      "item": "flour",
+      "amount": null,
+      "unit": "cups"
+    },
+    {
+      "en": "1 Cup raisins (optional)",
+      "he": "1 כוס צימוקים (אופציונלי)",
+      "item": "raisins",
+      "amount": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Cream shortening, sugar & egg together.",
+      "Add applesauce.",
+      "Dissolve soda in applesauce if crack.",
+      "Sift flour, salt, spices & clove with part of the flour & add to first mixture.",
+      "Add enough flour to make a fairly stiff batter.",
+      "Pour into a greased loaf pan & bake in moderate oven (350°) 50 to 60 min.",
+      "Optional: Add 1 Cup raisins to the batter."
+    ],
+    "he": [
+      "מקציפים יחד את השומן הצמחי, הסוכר והביצה.",
+      "מוסיפים את רסק התפוחים.",
+      "ממיסים סודה ברסק התפוחים אם נסדק.",
+      "מנפים קמח, מלח, תבלינים וציפורן יחד עם חלק מהקמח ומוסיפים לתערובת הראשונה.",
+      "מוסיפים מספיק קמח ליצירת בלילה די סמיכה.",
+      "יוצקים לתבנית אינגליש קייק משומנת ואופים בתנור בחום בינוני (350°F / כ-175°C) למשך 50 עד 60 דקות.",
+      "אופציונלי: מוסיפים 1 כוס צימוקים לבלילה."
+    ]
+  },
+  "tags": [
+    {
+      "en": "Dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "Cake",
+      "he": "עוגה"
+    },
+    {
+      "en": "Baked",
+      "he": "אפוי"
+    },
+    {
+      "en": "American",
+      "he": "אמריקאי"
+    }
+  ],
+  "illustration": "illustrations/a27623d0-d015-4772-ae37-e52cf13c4d82.webp",
+  "ocrRawText": "Applesauce Cake\n1/2 Cup shortening\n1/2 Cup brown sugar\n1 Egg\n1 Cup applesauce\n1 teas. salt\n1 teas. Cinnamon\n1/2 teas. ground clove\n1 teas. baking soda\n1 1/2 - 2 Cups flour\nCream shortening, sugar & egg together.\nAdd applesauce.\nDissolve soda in applesauce if crack.\nSift flour, salt, spices & clove with part of the flour\n& add to first mixture.\nAdd enough flour to make a fairly stiff batter.\nPour into a greased loaf pan & bake\nin moder ate oven (350°) 50 to 60 min.\nOptional: Add 1 Cup raisins to the\nbatter.",
+  "selectedModel": "gemini",
+  "rankingReason": "Gemini selected (only valid result). Claude returned no result"
+}

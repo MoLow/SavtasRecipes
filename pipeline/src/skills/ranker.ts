@@ -14,7 +14,18 @@ const ocrResultSchema = z.object({
         en: z.string().min(1),
         he: z.string().min(1),
         item: z.string().min(1),
-        amount: z.number().nullable().optional(),
+        amount: z.union([
+          z.number(),
+          z.string().transform((s) => {
+            // Handle fractions like "1/2", "1 1/2"
+            const mixed = s.match(/^(\d+)\s+(\d+)\/(\d+)$/);
+            if (mixed) return Number(mixed[1]) + Number(mixed[2]) / Number(mixed[3]);
+            const frac = s.match(/^(\d+)\/(\d+)$/);
+            if (frac) return Number(frac[1]) / Number(frac[2]);
+            const num = Number(s);
+            return isNaN(num) ? null : num;
+          }),
+        ]).nullable().optional(),
         unit: z.string().nullable().optional(),
       })
     )

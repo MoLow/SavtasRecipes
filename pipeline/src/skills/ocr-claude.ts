@@ -27,7 +27,7 @@ export async function ocrWithClaude(
     prompt: `${imageList}\n\nFollow these instructions:\n\n${systemPrompt}`,
     options: {
       model: "claude-opus-4-6",
-      permissionMode: "default",
+      permissionMode: "bypassPermissions",
       allowedTools: ["Read"],
       maxTurns: 3,
     },

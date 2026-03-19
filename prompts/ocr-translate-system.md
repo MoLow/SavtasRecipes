@@ -32,8 +32,9 @@ Return a JSON object with exactly this structure (no markdown, no code fences, j
 
 Guidelines:
 - For `ocrRawText`, include ALL text visible on the page, preserving line breaks as \n
-- For `ingredients`, extract structured data (item, amount, unit) when possible. If amount/unit are unclear, omit them.
+- For `ingredients`, extract structured data (item, amount, unit) when possible. `amount` MUST be a number (e.g. fractions like "1/2" → 0.5, "1 1/2" → 1.5). If amount is unclear or not present, omit the `amount` field entirely (do NOT use a string).
 - For `tags`, infer relevant categories: cuisine type (e.g. "iraqi"/"עיראקי", "moroccan"/"מרוקאי", "ashkenazi"/"אשכנזי"), meal type (e.g. "dessert"/"קינוח", "soup"/"מרק", "main"/"מנה עיקרית"), occasion (e.g. "shabbat"/"שבת", "holiday"/"חג"), dietary (e.g. "vegetarian"/"צמחוני", "dairy"/"חלבי", "meat"/"בשרי"). Each tag must have both English and Hebrew.
 - Hebrew translations should sound natural, using standard Israeli cooking terminology
+- The `description` field MUST be non-empty. If the recipe has no written description, synthesize a brief one-sentence description from the title and ingredients (e.g. "A classic baked cheesecake with a buttery graham cracker crust.")
 - If any part of the handwriting is illegible, make your best guess and note it in the description
 - Return ONLY valid JSON, no additional text

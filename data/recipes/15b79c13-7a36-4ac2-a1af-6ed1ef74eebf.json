@@ -1,0 +1,113 @@
+{
+  "id": "15b79c13-7a36-4ac2-a1af-6ed1ef74eebf",
+  "slug": "carrot-cake",
+  "source": {
+    "scanFiles": [
+      "scans/15b79c13-7a36-4ac2-a1af-6ed1ef74eebf-0.jpg"
+    ],
+    "processedAt": "2026-03-19T22:41:21.222Z"
+  },
+  "title": {
+    "en": "Carrot Cake",
+    "he": "עוגת גזר"
+  },
+  "description": {
+    "en": "A classic carrot cake with ground walnuts, grated carrots, and maraschino cherries. The note says 'over' suggesting there may be additional instructions on the back of the card.",
+    "he": "עוגת גזר קלאסית עם אגוזי מלך טחונים, גזר מגורר ודובדבני מרסקינו. על הכרטיס כתוב 'over' (המשך בצד השני) מה שמרמז שייתכן שיש הוראות נוספות בצד השני של הכרטיס."
+  },
+  "ingredients": [
+    {
+      "en": "6 eggs",
+      "he": "6 ביצים",
+      "item": "eggs",
+      "amount": 6,
+      "unit": "piece"
+    },
+    {
+      "en": "1/2 lb ground walnuts",
+      "he": "1/2 ליברה אגוזי מלך טחונים",
+      "item": "ground walnuts",
+      "amount": 0.5,
+      "unit": "lb"
+    },
+    {
+      "en": "2 glasses carrots (grated)",
+      "he": "2 כוסות גזר (מגורר)",
+      "item": "carrots (grated)",
+      "amount": 2,
+      "unit": "glass"
+    },
+    {
+      "en": "3/4 cup oil",
+      "he": "3/4 כוס שמן",
+      "item": "oil",
+      "amount": 0.75,
+      "unit": "cup"
+    },
+    {
+      "en": "1 1/2 cup sugar",
+      "he": "1 1/2 כוס סוכר",
+      "item": "sugar",
+      "amount": 1.5,
+      "unit": "cup"
+    },
+    {
+      "en": "2 cups flour",
+      "he": "2 כוסות קמח",
+      "item": "flour",
+      "amount": 2,
+      "unit": "cup"
+    },
+    {
+      "en": "2 tsp baking powder",
+      "he": "2 כפיות אבקת אפייה",
+      "item": "baking powder",
+      "amount": 2,
+      "unit": "tsp"
+    },
+    {
+      "en": "1/2 tsp baking soda",
+      "he": "1/2 כפית סודה לשתייה",
+      "item": "baking soda",
+      "amount": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "en": "1 small jar maraschino cherries (drained)",
+      "he": "1 צנצנת קטנה דובדבני מרסקינו (מסוננים)",
+      "item": "maraschino cherries",
+      "amount": 1,
+      "unit": "small jar"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "No instructions are written on this side of the card. The word 'over' suggests instructions continue on the back of the recipe card."
+    ],
+    "he": [
+      "אין הוראות הכנה בצד זה של הכרטיס. המילה 'over' מרמזת שההוראות ממשיכות בצד השני של כרטיס המתכון."
+    ]
+  },
+  "tags": [
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "cake",
+      "he": "עוגה"
+    },
+    {
+      "en": "baking",
+      "he": "אפייה"
+    },
+    {
+      "en": "vegetarian",
+      "he": "צמחוני"
+    }
+  ],
+  "illustration": "illustrations/15b79c13-7a36-4ac2-a1af-6ed1ef74eebf.webp",
+  "ocrRawText": "Carrot Cake\n6 eggs\n1/2 lb ground walnuts\n2 glasses carrots (grated)\n3/4 cup oil\n1 1/2 cup sugar\n2 cups flour\n2 tsp baking powder\n1/2 tsp \" soda\n1 small jar maraschino cherries\n(drained) (over)",
+  "selectedModel": "claude",
+  "rankingReason": "Claude selected (only valid result). Gemini result failed validation: instructions.en: Array must contain at least 1 element(s); instructions.he: Array must contain at least 1 element(s)"
+}

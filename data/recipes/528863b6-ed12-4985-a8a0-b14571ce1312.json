@@ -1,0 +1,124 @@
+{
+  "id": "528863b6-ed12-4985-a8a0-b14571ce1312",
+  "slug": "rugelach",
+  "source": {
+    "scanFiles": [
+      "scans/528863b6-ed12-4985-a8a0-b14571ce1312-0.jpg"
+    ],
+    "processedAt": "2026-03-19T22:37:59.925Z"
+  },
+  "title": {
+    "en": "Rugelach",
+    "he": "רוגלך"
+  },
+  "description": {
+    "en": "A classic rugelach recipe from Linda Rosenfeld, using a sour cream and butter dough with a cinnamon-walnut-sugar filling. The recipe includes suggestions for alternative fillings such as jam, melted chocolate, and raisins. Noted as 'delicious' on the original card.",
+    "he": "מתכון קלאסי לרוגלך מאת לינדה רוזנפלד, עם בצק שמנת חמוצה וחמאה במילוי קינמון, אגוזי מלך וסוכר. המתכון כולל הצעות למילויים חלופיים כגון ריבה, שוקולד מומס וצימוקים. צוין כ׳טעים׳ על הכרטיס המקורי."
+  },
+  "ingredients": [
+    {
+      "en": "3 cups flour",
+      "he": "3 כוסות קמח",
+      "item": "flour",
+      "amount": 3,
+      "unit": "cup"
+    },
+    {
+      "en": "1 cup sour cream",
+      "he": "1 כוס שמנת חמוצה",
+      "item": "sour cream",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1/2 lb butter",
+      "he": "חצי פאונד (225 גרם) חמאה",
+      "item": "butter",
+      "amount": 0.5,
+      "unit": "lb"
+    },
+    {
+      "en": "1 pkg. dry yeast",
+      "he": "1 שקית שמרים יבשים",
+      "item": "dry yeast",
+      "amount": 1,
+      "unit": "pkg"
+    },
+    {
+      "en": "3 egg yolks",
+      "he": "3 חלמונים",
+      "item": "egg yolks",
+      "amount": 3,
+      "unit": "piece"
+    },
+    {
+      "en": "1 cup sugar (for sugar mixture)",
+      "he": "1 כוס סוכר (לתערובת הסוכר)",
+      "item": "sugar",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1 cup finely chopped walnuts (for sugar mixture)",
+      "he": "1 כוס אגוזי מלך קצוצים דק (לתערובת הסוכר)",
+      "item": "walnuts",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "3 1/2 tsp cinnamon (for sugar mixture)",
+      "he": "3.5 כפיות קינמון (לתערובת הסוכר)",
+      "item": "cinnamon",
+      "amount": 3.5,
+      "unit": "tsp"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Mix together flour, sour cream, butter, dry yeast, and egg yolks. Chill several hours or overnight.",
+      "Prepare the sugar mixture: combine 1 cup sugar, 1 cup finely chopped walnuts, and 3 1/2 tsp cinnamon.",
+      "Divide dough into 4 equal parts. Use 1/4 of sugar mixture for each part of dough.",
+      "Sprinkle sugar mixture on board. Roll dough into shape of pie, using all of sugar mixture on board.",
+      "Cut into wedges and roll from widest part.",
+      "Optional: You can use a variety of mixtures to spread on dough before rolling out. Try jams – raspberry and apricot, melted bittersweet chocolate sprinkled with chopped walnuts and raisins, raisins."
+    ],
+    "he": [
+      "מערבבים יחד קמח, שמנת חמוצה, חמאה, שמרים יבשים וחלמונים. מקררים למשך מספר שעות או לילה.",
+      "מכינים את תערובת הסוכר: מערבבים 1 כוס סוכר, 1 כוס אגוזי מלך קצוצים דק ו-3.5 כפיות קינמון.",
+      "מחלקים את הבצק ל-4 חלקים שווים. משתמשים ב-1/4 מתערובת הסוכר לכל חלק בצק.",
+      "מפזרים את תערובת הסוכר על משטח העבודה. מרדדים את הבצק לצורת עיגול (כמו פאי), תוך שימוש בכל תערובת הסוכר שעל המשטח.",
+      "חותכים למשולשים וגולגלים מהצד הרחב.",
+      "אופציונלי: ניתן להשתמש במגוון מילויים למריחה על הבצק לפני הגלגול. נסו ריבות – פטל ומשמש, שוקולד מריר מומס מפוזר עם אגוזי מלך קצוצים וצימוקים."
+    ]
+  },
+  "tags": [
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "pastry",
+      "he": "מאפה"
+    },
+    {
+      "en": "ashkenazi",
+      "he": "אשכנזי"
+    },
+    {
+      "en": "dairy",
+      "he": "חלבי"
+    },
+    {
+      "en": "holiday",
+      "he": "חג"
+    },
+    {
+      "en": "baking",
+      "he": "אפייה"
+    }
+  ],
+  "illustration": "illustrations/528863b6-ed12-4985-a8a0-b14571ce1312.webp",
+  "ocrRawText": "RUGELACH\nLinda Rosenfeld\n\n3 c. flour\t\t1 pkg. dry yeast\n1 c. sour cream\t\t3 egg yolks\n1/2 lb. butter\n\ndelicious\n\nMix together and chill several hours or overnight.\n\nSugar Mixture:\n\n1 c. sugar\t\t3 1/2 tsp. cinnamon\n1 c. finely chopped walnuts\n\nDivide dough into 4 equal parts. Use 1/4 of sugar mixture for each part of dough. Sprinkle sugar mixture on board. Roll dough into shape of pie, using all of sugar mixture on board. Cut into wedges and roll from widest part.\nYou can use a variety of mixtures to spread on dough before rolling out. Try jams - raspberry and apricot, melted bittersweet chocolate sprinkled with chopped walnuts and raisins, raisins",
+  "selectedModel": "claude",
+  "rankingReason": "Result B correctly identifies the recipe as 'Rugelach' (the actual name of this pastry) rather than 'Gullach' (an incorrect transliteration). The OCR raw text in B is more accurate and complete, properly capturing the layout. B's instructions are more detailed and clearer, explicitly stating to 'prepare the sugar mixture' and numbering steps more logically. The Hebrew translation in B is more natural and idiomatic. B also includes additional relevant tags (dairy, holiday, baking) that provide better recipe categorization. While both extractions are largely complete, B demonstrates superior accuracy in the critical element of recipe identification and presents information more clearly for actual cooking use."
+}

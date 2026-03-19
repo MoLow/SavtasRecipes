@@ -1,0 +1,102 @@
+{
+  "id": "5a36b4b9-68ac-4078-a7c2-d9fd87ba3a90",
+  "slug": "sweet-potato-casserole",
+  "source": {
+    "scanFiles": [
+      "scans/5a36b4b9-68ac-4078-a7c2-d9fd87ba3a90-0.jpg"
+    ],
+    "processedAt": "2026-03-19T22:38:46.861Z"
+  },
+  "title": {
+    "en": "Sweet Potato Casserole",
+    "he": "קדרת בטטה"
+  },
+  "description": {
+    "en": "A sweet potato casserole with apricot preserves and prunes, based on a handwritten shopping list. Some items were difficult to read due to cursive handwriting and the image being rotated.",
+    "he": "קדרת בטטה עם ריבת משמש ושזיפים מיובשים, מבוססת על רשימת קניות בכתב יד. חלק מהפריטים היו קשים לקריאה בגלל כתב יד רהוט והתמונה המסובבת."
+  },
+  "ingredients": [
+    {
+      "en": "4 sweet potatoes",
+      "he": "4 בטטות",
+      "item": "sweet potatoes",
+      "amount": 4,
+      "unit": "piece"
+    },
+    {
+      "en": "3 1/2 cups potato",
+      "he": "3.5 כוסות תפוח אדמה",
+      "item": "potato",
+      "amount": 3.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1 bag pepper",
+      "he": "1 שקית פלפל",
+      "item": "pepper",
+      "amount": 1,
+      "unit": "bag"
+    },
+    {
+      "en": "3 tbs pepper",
+      "he": "3 כפות פלפל",
+      "item": "pepper",
+      "amount": 3,
+      "unit": "tablespoon"
+    },
+    {
+      "en": "Apricot preserves",
+      "he": "ריבת משמש",
+      "item": "apricot preserves"
+    },
+    {
+      "en": "Peppers and prunes",
+      "he": "פלפלים ושזיפים מיובשים",
+      "item": "peppers and prunes"
+    },
+    {
+      "en": "1/2 pt of bake cheese",
+      "he": "1/2 פיינט גבינה לאפייה",
+      "item": "bake cheese",
+      "amount": 0.5,
+      "unit": "pint"
+    },
+    {
+      "en": "1/2 bag frozen sugar",
+      "he": "1/2 שקית סוכר קפוא",
+      "item": "frozen sugar",
+      "amount": 0.5,
+      "unit": "bag"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "This image contains a shopping list rather than step-by-step instructions. Presumably, prepare a sweet potato casserole by combining the listed ingredients."
+    ],
+    "he": [
+      "התמונה מכילה רשימת קניות ולא הוראות הכנה מפורטות. ככל הנראה, יש להכין קדרת בטטה על ידי שילוב המרכיבים הרשומים."
+    ]
+  },
+  "tags": [
+    {
+      "en": "casserole",
+      "he": "קדרה"
+    },
+    {
+      "en": "side dish",
+      "he": "תוספת"
+    },
+    {
+      "en": "vegetarian",
+      "he": "צמחוני"
+    },
+    {
+      "en": "holiday",
+      "he": "חג"
+    }
+  ],
+  "illustration": "illustrations/5a36b4b9-68ac-4078-a7c2-d9fd87ba3a90.webp",
+  "ocrRawText": "Levi's sweet potato casserole\nShopping List\n4 sweet potatoes\n3 1/2 cups potato\n1 bag pep\n3 tbs pep\n1 cup + casserole\nApricot preserves\nPeppers + prunes\n1/2 pt of bake cheese\n1/2 frozen sugars",
+  "selectedModel": "claude",
+  "rankingReason": "Claude selected (only valid result). Gemini result failed validation: instructions.en: Array must contain at least 1 element(s); instructions.he: Array must contain at least 1 element(s)"
+}

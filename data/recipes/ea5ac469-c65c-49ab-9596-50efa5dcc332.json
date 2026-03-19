@@ -1,0 +1,140 @@
+{
+  "id": "ea5ac469-c65c-49ab-9596-50efa5dcc332",
+  "slug": "sun-dried-pizza-pie",
+  "source": {
+    "scanFiles": [
+      "scans/ea5ac469-c65c-49ab-9596-50efa5dcc332-0.jpg"
+    ],
+    "processedAt": "2026-03-19T22:48:26.039Z"
+  },
+  "title": {
+    "en": "Sun-Dried Pizza Pie",
+    "he": "פאי פיצה מיובש בשמש"
+  },
+  "description": {
+    "en": "A savory pie recipe featuring a base of milk, eggs, and cheese, with onions, green pepper, and mozzarella, baked in a pie plate. Note: The recipe does not explicitly state when to add the 1/2 cup chopped onion, 1/3 cup chopped green pepper, and 1 1/2 cup dried Mozzarella, nor does it list an ingredient for 'sauce'. The instructions have been interpreted to include these ingredients in the main mixture and assume a pre-made sauce.",
+    "he": "מתכון לפאי מלוח המבוסס על חלב, ביצים וגבינה, עם בצל, פלפל ירוק ומוצרלה, אפוי בתבנית פאי. הערה: המתכון אינו מציין במפורש מתי להוסיף את 1/2 כוס הבצל הקצוץ, 1/3 כוס הפלפל הירוק הקצוץ ו-1 1/2 כוס מוצרלה מיובשת, וגם אינו מפרט מרכיב ל'רוטב'. ההוראות פורשו כך שיכללו מרכיבים אלו בתערובת העיקרית ומניחות שימוש ברוטב מוכן מראש."
+  },
+  "ingredients": [
+    {
+      "en": "2/3 cup chopped onions",
+      "he": "2/3 כוס בצל קצוץ",
+      "item": "chopped onions",
+      "amount": 0.66,
+      "unit": "cup"
+    },
+    {
+      "en": "1/3 cup grated Parmesan",
+      "he": "1/3 כוס פרמזן מגורר",
+      "item": "grated Parmesan",
+      "amount": 0.33,
+      "unit": "cup"
+    },
+    {
+      "en": "1 1/2 cups milk",
+      "he": "1 1/2 כוסות חלב",
+      "item": "milk",
+      "amount": 1.5,
+      "unit": "cup"
+    },
+    {
+      "en": "3 eggs",
+      "he": "3 ביצים",
+      "item": "eggs",
+      "amount": 3,
+      "unit": ""
+    },
+    {
+      "en": "3/4 cup seasoned bread crumbs",
+      "he": "3/4 כוס פירורי לחם מתובלים",
+      "item": "seasoned bread crumbs",
+      "amount": 0.75,
+      "unit": "cup"
+    },
+    {
+      "en": "1/4 cup grated Parmesan",
+      "he": "1/4 כוס פרמזן מגורר",
+      "item": "grated Parmesan",
+      "amount": 0.25,
+      "unit": "cup"
+    },
+    {
+      "en": "1/2 cup chopped onion",
+      "he": "1/2 כוס בצל קצוץ",
+      "item": "chopped onion",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1/3 cup chopped green pepper",
+      "he": "1/3 כוס פלפל ירוק קצוץ",
+      "item": "chopped green pepper",
+      "amount": 0.33,
+      "unit": "cup"
+    },
+    {
+      "en": "1 1/2 cups dried Mozzarella",
+      "he": "1 1/2 כוסות מוצרלה מיובשת",
+      "item": "dried Mozzarella",
+      "amount": 1.5,
+      "unit": "cup"
+    },
+    {
+      "en": "Sauce (e.g., tomato sauce or pizza sauce)",
+      "he": "רוטב (לדוגמה, רוטב עגבניות או רוטב פיצה)",
+      "item": "sauce",
+      "amount": null,
+      "unit": null
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Heat oven to 425°F.",
+      "Grease a pie plate.",
+      "Sprinkle 2/3 cup chopped onion and 1/3 cup grated Parmesan cheese onto the plate.",
+      "In a bowl, beat milk, eggs, and the remaining 1/4 cup grated Parmesan cheese.",
+      "Stir in the 1/2 cup chopped onion, 1/3 cup chopped green pepper, and 1 1/2 cup dried Mozzarella.",
+      "Gradually stir in seasoned bread crumbs.",
+      "Pour the mixture into the prepared pie plate.",
+      "Bake for 20 minutes.",
+      "Spread sauce on top.",
+      "Bake for an additional 15-20 minutes.",
+      "Cool and serve."
+    ],
+    "he": [
+      "חממו תנור ל-425°F (כ-220°C).",
+      "שמנו תבנית פאי.",
+      "פזרו 2/3 כוס בצל קצוץ ו-1/3 כוס גבינת פרמזן מגוררת על התבנית.",
+      "בקערה, טרפו חלב, ביצים ואת 1/4 כוס גבינת הפרמזן הנותרת.",
+      "ערבבו פנימה את 1/2 כוס הבצל הקצוץ, 1/3 כוס הפלפל הירוק הקצוץ ו-1 1/2 כוס מוצרלה מיובשת.",
+      "ערבבו בהדרגה פנימה את פירורי הלחם המתובלים.",
+      "שפכו את התערובת לתבנית הפאי המוכנה.",
+      "אפו במשך 20 דקות.",
+      "מרחו רוטב מעל.",
+      "אפו למשך 15-20 דקות נוספות.",
+      "צננו והגישו."
+    ]
+  },
+  "tags": [
+    {
+      "en": "Main",
+      "he": "מנה עיקרית"
+    },
+    {
+      "en": "Pie",
+      "he": "פאי"
+    },
+    {
+      "en": "Vegetarian",
+      "he": "צמחוני"
+    },
+    {
+      "en": "American",
+      "he": "אמריקאי"
+    }
+  ],
+  "illustration": "illustrations/ea5ac469-c65c-49ab-9596-50efa5dcc332.webp",
+  "ocrRawText": "Sun-Dried Pizza Pie\n2/3 c. chopped onions\n1/3 c. grated Parmesan\n1 1/2 c. milk\n3 eggs\n3/4 c. seasoned bread\ncrumbs\n1/4 c. grated Parm.\n1/2 c. chop. onion\n1/3 c. chop. green pepper\n1-1/2 c. dried Mozzarella\nHeat oven 425°. Grease\npie plate. Sprinkle onion\n+ 1/3 c. Parm. on to plate.\nBeat milk, eggs + remaining\nParm. Gradually stir in bread\ncrumbs. Bake 20 min.\nSpread sauce on top. Bake\nremain in oven. Bake\n15-20 min. Cool & serve.",
+  "selectedModel": "gemini",
+  "rankingReason": "Result A demonstrates significantly better overall quality. While both extractions have challenges, Result A provides a coherent recipe with logical ingredient quantities and clear baking instructions (heat oven, prepare, bake 20 min, add sauce, bake 15-20 min). Result B's instructions are largely incoherent ('Die front', 'Layer to plate', 'pour into batter' without clear sequence) and the ingredients list contains apparent OCR errors ('chopped red My Farella', 'sour cream' where eggs and milk should be). Result A also explicitly acknowledges extraction ambiguities in its description, showing transparency about ingredient placement uncertainties. Result A's Hebrew translation is more natural and complete. While Result A lists onion quantities that seem inconsistent (2/3 cup, then 1/2 cup separately), this reflects the source text ambiguity noted in the description. Result B's instructions are essentially unusable without significant interpretation."
+}

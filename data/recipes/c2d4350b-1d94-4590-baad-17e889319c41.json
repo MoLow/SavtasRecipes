@@ -1,0 +1,159 @@
+{
+  "id": "c2d4350b-1d94-4590-baad-17e889319c41",
+  "slug": "cheese-cake-with-strawberry-glaze",
+  "source": {
+    "scanFiles": [
+      "scans/c2d4350b-1d94-4590-baad-17e889319c41-0.jpg",
+      "scans/c2d4350b-1d94-4590-baad-17e889319c41-1.jpg"
+    ],
+    "processedAt": "2026-03-19T22:47:16.605Z"
+  },
+  "title": {
+    "en": "CHEESE CAKE with Strawberry Glaze",
+    "he": "עוגת גבינה עם זיגוג תותים"
+  },
+  "description": {
+    "en": "A classic baked cheesecake with a vanilla wafer crust and a fresh strawberry glaze.",
+    "he": "עוגת גבינה אפויה קלאסית עם קראסט וופלים וניל וזיגוג תותים טרי."
+  },
+  "ingredients": [
+    {
+      "en": "2 eggs, separated",
+      "he": "2 ביצים, מופרדות",
+      "item": "eggs",
+      "amount": 2
+    },
+    {
+      "en": "1 lb. cream cheese",
+      "he": "1 ליברות גבינת שמנת",
+      "item": "cream cheese",
+      "amount": 1,
+      "unit": "lb"
+    },
+    {
+      "en": "1 cup sugar",
+      "he": "1 כוס סוכר",
+      "item": "sugar",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "3 tbsp flour",
+      "he": "3 כפות קמח",
+      "item": "flour",
+      "amount": 3,
+      "unit": "tbsp"
+    },
+    {
+      "en": "1 tsp vanilla",
+      "he": "1 כפית תמצית וניל",
+      "item": "vanilla",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "3 tbsp lemon juice",
+      "he": "3 כפות מיץ לימון",
+      "item": "lemon juice",
+      "amount": 3,
+      "unit": "tbsp"
+    },
+    {
+      "en": "12 vanilla wafers, crushed",
+      "he": "12 וופלים בטעם וניל, מרוסקים",
+      "item": "vanilla wafers",
+      "amount": 12
+    },
+    {
+      "en": "1/4 cup sugar",
+      "he": "1/4 כוס סוכר",
+      "item": "sugar",
+      "amount": 0.25,
+      "unit": "cup"
+    },
+    {
+      "en": "1/4 cup melted butter",
+      "he": "1/4 כוס חמאה מומסת",
+      "item": "melted butter",
+      "amount": 0.25,
+      "unit": "cup"
+    },
+    {
+      "en": "1/2 cup sugar",
+      "he": "1/2 כוס סוכר",
+      "item": "sugar",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1/2 cup water",
+      "he": "1/2 כוס מים",
+      "item": "water",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1 tbsp cornstarch",
+      "he": "1 כף קורנפלור",
+      "item": "cornstarch",
+      "amount": 1,
+      "unit": "tbsp"
+    },
+    {
+      "en": "1/4 tsp butter",
+      "he": "1/4 כפית חמאה",
+      "item": "butter",
+      "amount": 0.25,
+      "unit": "tsp"
+    },
+    {
+      "en": "1/4 cup sliced strawberries",
+      "he": "1/4 כוס תותים פרוסים",
+      "item": "sliced strawberries",
+      "amount": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "For the Crust: Crush 12 vanilla wafers. In a bowl, combine crushed wafers with 1/4 cup sugar and 1/4 cup melted butter. Mix well. Press the mixture evenly into the bottom of a 10-inch springform pan. Bake the crust at 350°F (175°C) for 10 minutes. Let cool completely.",
+      "For the Cheesecake Filling: In a large bowl, beat egg yolks until they are lemon-colored. Add 1 lb. cream cheese, 1 cup sugar, 3 tbsp flour, 1 tsp vanilla, and 3 tbsp lemon juice. Mix until well combined and smooth.",
+      "In a separate clean bowl, beat egg whites until stiff peaks form. Gently fold the beaten egg whites into the cream cheese mixture.",
+      "Pour the cheesecake mixture over the cooled crust in the springform pan.",
+      "Bake the cheesecake at 300°F (150°C) for 1 hour. Turn off the oven and let the cake cool inside the oven for 3 hours before removing.",
+      "For the Strawberry Glaze: In a saucepan, mix 1/2 cup sugar and 1 tbsp cornstarch. Gradually add 1/2 cup water, stirring until smooth. Cook over medium heat, stirring constantly, until the mixture thickens. Remove from heat and stir in 1/4 tsp butter and 1/4 cup sliced strawberries. Stir until thick. Let cool.",
+      "Once the cheesecake is completely cooled, arrange fresh strawberries on top (optional, if not using the sliced strawberries in the glaze as the only fruit). Pour the prepared strawberry glaze over the cake."
+    ],
+    "he": [
+      "לקראסט: רסקו 12 וופלים בטעם וניל. בקערה, שלבו את הוופלים המרוסקים עם 1/4 כוס סוכר ו-1/4 כוס חמאה מומסת. ערבבו היטב. לחצו את התערובת באופן אחיד לתחתית תבנית קפיצית בקוטר 25 ס\"מ. אפו את הקראסט ב-175°C (350°F) למשך 10 דקות. הניחו להתקרר לחלוטין.",
+      "למלית עוגת הגבינה: בקערה גדולה, הקציפו את חלמוני הביצים עד לקבלת צבע לימוני. הוסיפו 1 ליברות גבינת שמנת, 1 כוס סוכר, 3 כפות קמח, 1 כפית תמצית וניל ו-3 כפות מיץ לימון. ערבבו היטב עד לקבלת תערובת אחידה וחלקה.",
+      "בקערה נקייה נפרדת, הקציפו את חלבוני הביצים עד לקבלת קצף יציב. קפלו בעדינות את חלבוני הביצים המוקצפים לתוך תערובת הגבינה.",
+      "שפכו את תערובת עוגת הגבינה מעל הקראסט המצונן בתבנית הקפיצית.",
+      "אפו את עוגת הגבינה ב-150°C (300°F) למשך שעה אחת. כבו את התנור והניחו לעוגה להתקרר בתוך התנור למשך 3 שעות לפני הוצאתה.",
+      "לזיגוג התותים: בסיר קטן, ערבבו 1/2 כוס סוכר ו-1 כף קורנפלור. הוסיפו בהדרגה 1/2 כוס מים, תוך כדי ערבוב עד לקבלת תערובת חלקה. בשלו על אש בינונית, תוך כדי ערבוב מתמיד, עד שהתערובת מסמיכה. הסירו מהאש וערבבו פנימה 1/4 כפית חמאה ו-1/4 כוס תותים פרוסים. ערבבו עד להסמכה. הניחו להתקרר.",
+      "לאחר שעוגת הגבינה התקררה לחלוטין, סדרו תותים טריים מעל (אופציונלי, אם לא משתמשים בתותים הפרוסים שבזיגוג כפרי היחיד). שפכו את זיגוג התותים המוכן מעל העוגה."
+    ]
+  },
+  "tags": [
+    {
+      "en": "Dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "Dairy",
+      "he": "חלבי"
+    },
+    {
+      "en": "Cheesecake",
+      "he": "עוגת גבינה"
+    },
+    {
+      "en": "American",
+      "he": "אמריקאי"
+    }
+  ],
+  "illustration": "illustrations/c2d4350b-1d94-4590-baad-17e889319c41.webp",
+  "ocrRawText": "CHEESE CAKE with Strawberry Glaze\n2 eggs separated\n1 lb. cream cheese\n1 cup sugar\n3 tbsp flour\n1 tsp vanilla\n3 tbsp lemon juice\nStrawberry glaze\nBeat egg yolks until lemon colored.\nAdd 1 lb. cream cheese, 1 cup sugar, 3 tbsp flour, 1 tsp vanilla, 3 tbsp lemon\njuice. Mix well. Separate egg whites. Beat until stiff. Fold into egg yolk & cheese\nmixture. Pour into 10\" spring form pan. Bake at 300 for 1 hr. Turn off oven. Let\ncake cool in oven 3 hrs. before removing.\nUntill peaks\nPour into 10\" spring form pan. Bake\nat 300 for 1 hr. Turn off oven. Let\ncake cool in oven 3 hrs. before removing.\nStrawberry glaze\n1/2 cup sugar\n1/2 cup water\n1 tbsp cornstarch\n1/4 tsp butter\n1/4 cup sliced\nstrawberries\nMix sugar & cornstarch. Add water. Cook until thick. Add butter & sliced\nstrawberries. Stir until thick. Add butter & sliced strawberries.\nArrange strawberries on top of cake. Reserve 3/4 cup for glaze.\nCrush 12 vanilla wafers. Add 1/4 cup sugar & 1/4 cup melted butter.\nMix well. Press into bottom of 10\" spring form pan. Bake 10 min. at 350.\nLet cool. Pour cheese cake mixture into crust. Bake.",
+  "selectedModel": "gemini",
+  "rankingReason": "Gemini selected (only valid result). Claude returned no result"
+}
