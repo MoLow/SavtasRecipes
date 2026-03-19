@@ -2,8 +2,10 @@
   "id": "08c9c639-20a5-4e61-acab-170037439a15",
   "slug": "coconut-custard-pie",
   "source": {
-    "scanFile": "scans/2197C3FD-2058-4642-AF04-8DCF766FB32F.heic",
-    "processedAt": "2026-03-19T10:46:02.337Z"
+    "processedAt": "2026-03-19T10:46:02.337Z",
+    "scanFiles": [
+      "scans/2197C3FD-2058-4642-AF04-8DCF766FB32F.heic"
+    ]
   },
   "title": {
     "en": "Coconut Custard Pie",

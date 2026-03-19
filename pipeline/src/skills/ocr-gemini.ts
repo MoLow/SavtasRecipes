@@ -21,31 +21,30 @@ export interface OcrTranslateResult {
   ocrRawText: string;
 }
 
+function getMimeType(path: string): string {
+  const ext = path.toLowerCase().split(".").pop();
+  return ext === "png" ? "image/png" : ext === "webp" ? "image/webp" : "image/jpeg";
+}
+
 export async function ocrWithGemini(
-  imagePath: string
+  imagePaths: string[]
 ): Promise<OcrTranslateResult> {
   const client = getGeminiClient();
   const systemPrompt = readFileSync(PROMPT_PATH, "utf-8");
-  const imageData = readFileSync(imagePath);
-  const base64Image = imageData.toString("base64");
 
-  const ext = imagePath.toLowerCase().split(".").pop();
-  const mimeType =
-    ext === "png"
-      ? "image/png"
-      : ext === "webp"
-        ? "image/webp"
-        : "image/jpeg";
+  const imageParts = imagePaths.map((p) => ({
+    inlineData: {
+      mimeType: getMimeType(p),
+      data: readFileSync(p).toString("base64"),
+    },
+  }));
 
   const response = await client.models.generateContent({
     model: "gemini-2.5-flash",
     contents: [
       {
         role: "user",
-        parts: [
-          { inlineData: { mimeType, data: base64Image } },
-          { text: systemPrompt },
-        ],
+        parts: [...imageParts, { text: systemPrompt }],
       },
     ],
     config: {

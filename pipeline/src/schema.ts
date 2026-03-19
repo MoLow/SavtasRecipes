@@ -17,7 +17,7 @@ export const recipeSchema = z.object({
   id: z.string(),
   slug: z.string(),
   source: z.object({
-    scanFile: z.string(),
+    scanFiles: z.array(z.string()).min(1),
     processedAt: z.string().datetime(),
   }),
   title: bilingualText,

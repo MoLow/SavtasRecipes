@@ -125,3 +125,19 @@ Initial project setup for Savta's Recipes — digitizing 50+ scanned handwritten
   - English grid: all 4 recipe cards with illustrations
   - Recipe detail: full content (title, description, ingredients, instructions, tags, scan viewer)
   - Hebrew version: RTL layout, Hebrew translations, language toggle between en/he
+
+### Multi-Page Scan Grouping
+- **Problem**: Some recipes span multiple scanned pages — pipeline was treating each page as separate recipe
+- **Solution**: New `grouper.ts` skill that runs before OCR pipeline:
+  1. Quick-OCR all unprocessed scans with Gemini Flash (extract raw text, parallel)
+  2. Send all filenames + text snippets to a single LLM clustering call
+  3. Groups pages by recipe (same title, continuation of ingredients/instructions)
+  4. Falls back to individual groups if parsing fails
+- **Changes**:
+  - New: `pipeline/src/skills/grouper.ts` + `prompts/grouper-system.md`
+  - OCR skills now accept `imagePaths: string[]` (multi-image input)
+  - Schema: `source.scanFile` → `source.scanFiles: string[]`
+  - Agent: discovers scans → filters processed → groups → processes groups
+  - Website: ScanViewer renders multiple scan pages with page numbers
+  - Migrated existing 4 recipe JSONs to new schema
+- Build verified: 15 static pages, all passing

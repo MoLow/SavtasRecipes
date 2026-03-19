@@ -8,15 +8,19 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const PROMPT_PATH = resolve(__dirname, "../../../prompts/ocr-translate-system.md");
 
 export async function ocrWithClaude(
-  imagePath: string
+  imagePaths: string[]
 ): Promise<OcrTranslateResult> {
   const systemPrompt = readFileSync(PROMPT_PATH, "utf-8");
-  const absoluteImagePath = resolve(imagePath);
+  const absolutePaths = imagePaths.map((p) => resolve(p));
+
+  const imageList = absolutePaths.length === 1
+    ? `Read the image at ${absolutePaths[0]}`
+    : `Read these images (consecutive pages of a single recipe):\n${absolutePaths.map((p, i) => `  Page ${i + 1}: ${p}`).join("\n")}`;
 
   let responseText = "";
 
   for await (const message of query({
-    prompt: `Read the image at ${absoluteImagePath} and follow these instructions:\n\n${systemPrompt}`,
+    prompt: `${imageList}\n\nFollow these instructions:\n\n${systemPrompt}`,
     options: {
       model: "claude-opus-4-6",
       permissionMode: "default",

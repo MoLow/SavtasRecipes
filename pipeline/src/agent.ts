@@ -6,6 +6,7 @@ import { ocrWithGemini } from "./skills/ocr-gemini.ts";
 import { ocrWithClaude } from "./skills/ocr-claude.ts";
 import { rankResults } from "./skills/ranker.ts";
 import { generateIllustration } from "./skills/illustrator.ts";
+import { groupScans } from "./skills/grouper.ts";
 import { recipeSchema, type Recipe } from "./schema.ts";
 import { ensureCompatibleImage } from "./utils/image.ts";
 
@@ -37,29 +38,31 @@ function saveProcessedMap(map: Record<string, string>): void {
   writeFileSync(PROCESSED_MAP_PATH, JSON.stringify(map, null, 2) + "\n");
 }
 
-async function processSingleScan(
-  scanPath: string,
+async function processRecipeGroup(
+  scanFilenames: string[],
   force: boolean
 ): Promise<void> {
-  const scanFilename = basename(scanPath);
   const processedMap = loadProcessedMap();
 
-  if (processedMap[scanFilename] && !force) {
-    console.log(`  Skipping ${scanFilename} (already processed, use --force to reprocess)`);
+  // Check if all files in group are already processed
+  const allProcessed = scanFilenames.every((f) => processedMap[f]);
+  if (allProcessed && !force) {
+    console.log(`  Skipping (already processed, use --force to reprocess)`);
     return;
   }
 
   const id = randomUUID();
+  const scanPaths = scanFilenames.map((f) => resolve(SCANS_DIR, f));
 
   console.log(`  [1/4] Running dual OCR + translation...`);
 
   // Convert HEIC/TIFF to JPEG if needed
-  const compatiblePath = await ensureCompatibleImage(scanPath);
+  const compatiblePaths = await Promise.all(scanPaths.map(ensureCompatibleImage));
 
   // Run both models in parallel
   const [geminiResult, claudeResult] = await Promise.allSettled([
-    ocrWithGemini(compatiblePath),
-    ocrWithClaude(compatiblePath),
+    ocrWithGemini(compatiblePaths),
+    ocrWithClaude(compatiblePaths),
   ]);
 
   const geminiData =
@@ -93,7 +96,7 @@ async function processSingleScan(
     id,
     slug,
     source: {
-      scanFile: `scans/${scanFilename}`,
+      scanFiles: scanFilenames.map((f) => `scans/${f}`),
       processedAt: new Date().toISOString(),
     },
     title: ranking.winner.title,
@@ -114,8 +117,10 @@ async function processSingleScan(
   const outputPath = resolve(RECIPES_DIR, `${id}.json`);
   writeFileSync(outputPath, JSON.stringify(recipe, null, 2) + "\n");
 
-  // Update processed map
-  processedMap[scanFilename] = id;
+  // Update processed map — all files in group map to same UUID
+  for (const filename of scanFilenames) {
+    processedMap[filename] = id;
+  }
   saveProcessedMap(processedMap);
 
   console.log(`  Done: ${recipe.title.en} → ${outputPath}`);
@@ -159,7 +164,7 @@ async function main(): Promise<void> {
   const fileFlag = args.indexOf("--file");
 
   if (fileFlag !== -1) {
-    // Single file mode
+    // Single file mode — skip grouper, process as single-element group
     const filePath = args[fileFlag + 1];
     if (!filePath) {
       console.error("Usage: npm run process:one -- --file <path>");
@@ -171,7 +176,7 @@ async function main(): Promise<void> {
       process.exit(1);
     }
     console.log(`Processing single scan: ${basename(fullPath)}`);
-    await processSingleScan(fullPath, force);
+    await processRecipeGroup([basename(fullPath)], force);
     buildIndex();
     return;
   }
@@ -193,18 +198,36 @@ async function main(): Promise<void> {
     return;
   }
 
-  console.log(`Found ${scanFiles.length} scans to process.\n`);
+  // Filter out already-processed files
+  const processedMap = loadProcessedMap();
+  const unprocessed = force
+    ? scanFiles
+    : scanFiles.filter((f) => !processedMap[f]);
+
+  if (unprocessed.length === 0) {
+    console.log(`All ${scanFiles.length} scans already processed (use --force to reprocess).`);
+    buildIndex();
+    return;
+  }
+
+  console.log(`Found ${scanFiles.length} scans (${unprocessed.length} unprocessed).\n`);
+
+  // Group unprocessed scans by recipe
+  const unprocessedPaths = unprocessed.map((f) => resolve(SCANS_DIR, f));
+  const groups = await groupScans(unprocessedPaths);
+
+  console.log(`\nProcessing ${groups.length} recipe group(s)...\n`);
 
   let processed = 0;
-  let skipped = 0;
   let failed = 0;
 
-  for (const file of scanFiles) {
-    const scanPath = resolve(SCANS_DIR, file);
-    console.log(`[${processed + skipped + failed + 1}/${scanFiles.length}] ${file}`);
+  for (let i = 0; i < groups.length; i++) {
+    const group = groups[i];
+    const label = group.length === 1 ? group[0] : `[${group.join(" + ")}]`;
+    console.log(`[${i + 1}/${groups.length}] ${label}`);
 
     try {
-      await processSingleScan(scanPath, force);
+      await processRecipeGroup(group, force);
       processed++;
     } catch (err) {
       console.error(`  FAILED: ${err}`);
@@ -214,7 +237,7 @@ async function main(): Promise<void> {
 
   buildIndex();
 
-  console.log(`\nComplete: ${processed} processed, ${skipped} skipped, ${failed} failed`);
+  console.log(`\nComplete: ${processed} processed, ${failed} failed`);
 }
 
 main().catch((err) => {

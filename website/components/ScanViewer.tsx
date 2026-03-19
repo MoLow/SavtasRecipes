@@ -4,11 +4,11 @@ import { useState } from "react";
 import Image from "next/image";
 
 interface ScanViewerProps {
-  scanFile: string;
+  scanFiles: string[];
   recipeName: string;
 }
 
-export default function ScanViewer({ scanFile, recipeName }: ScanViewerProps) {
+export default function ScanViewer({ scanFiles, recipeName }: ScanViewerProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -17,7 +17,7 @@ export default function ScanViewer({ scanFile, recipeName }: ScanViewerProps) {
         onClick={() => setIsOpen(true)}
         className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-white/80 hover:bg-white shadow-sm text-sm text-[var(--color-warm-brown)] transition-colors"
       >
-        View original scan
+        View original scan{scanFiles.length > 1 ? `s (${scanFiles.length} pages)` : ""}
       </button>
 
       {isOpen && (
@@ -31,7 +31,7 @@ export default function ScanViewer({ scanFile, recipeName }: ScanViewerProps) {
           >
             <div className="flex items-center justify-between p-4 border-b">
               <h3 className="font-medium text-[var(--color-warm-brown)]">
-                {recipeName} — Original Scan
+                {recipeName} — Original Scan{scanFiles.length > 1 ? "s" : ""}
               </h3>
               <button
                 onClick={() => setIsOpen(false)}
@@ -41,13 +41,22 @@ export default function ScanViewer({ scanFile, recipeName }: ScanViewerProps) {
               </button>
             </div>
             <div className="overflow-auto max-h-[calc(90vh-4rem)]">
-              <Image
-                src={`/${scanFile}`}
-                alt={`Original scan of ${recipeName}`}
-                width={800}
-                height={1100}
-                className="w-full h-auto"
-              />
+              {scanFiles.map((scanFile, i) => (
+                <div key={scanFile} className={i > 0 ? "border-t border-gray-200" : ""}>
+                  {scanFiles.length > 1 && (
+                    <p className="text-xs text-center text-[var(--color-warm-tan)] py-1">
+                      Page {i + 1} of {scanFiles.length}
+                    </p>
+                  )}
+                  <Image
+                    src={`/${scanFile}`}
+                    alt={`Original scan of ${recipeName}${scanFiles.length > 1 ? ` (page ${i + 1})` : ""}`}
+                    width={800}
+                    height={1100}
+                    className="w-full h-auto"
+                  />
+                </div>
+              ))}
             </div>
           </div>
         </div>

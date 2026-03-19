@@ -105,7 +105,7 @@ export default async function RecipeDetail({
       {/* View original scan */}
       <section className="pt-6 border-t border-[var(--color-warm-tan)]/20">
         <ScanViewer
-          scanFile={recipe.source.scanFile}
+          scanFiles={recipe.source.scanFiles}
           recipeName={recipe.title.en}
         />
         <p className="mt-2 text-xs text-[var(--color-warm-tan)]">

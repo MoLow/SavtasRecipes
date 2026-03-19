@@ -2,8 +2,10 @@
   "id": "d4c90391-33f0-4979-9e4c-9bba518c72e2",
   "slug": "apple-cake",
   "source": {
-    "scanFile": "scans/D1FA872E-0207-4675-AE48-471C9E453D09.heic",
-    "processedAt": "2026-03-19T10:47:51.877Z"
+    "processedAt": "2026-03-19T10:47:51.877Z",
+    "scanFiles": [
+      "scans/D1FA872E-0207-4675-AE48-471C9E453D09.heic"
+    ]
   },
   "title": {
     "en": "Apple Cake",

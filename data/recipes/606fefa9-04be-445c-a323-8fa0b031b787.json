@@ -2,8 +2,10 @@
   "id": "606fefa9-04be-445c-a323-8fa0b031b787",
   "slug": "nanis-noodle-pudding",
   "source": {
-    "scanFile": "scans/8CEC7A26-2093-4714-949D-63B689B69CAD.heic",
-    "processedAt": "2026-03-19T10:46:59.729Z"
+    "processedAt": "2026-03-19T10:46:59.729Z",
+    "scanFiles": [
+      "scans/8CEC7A26-2093-4714-949D-63B689B69CAD.heic"
+    ]
   },
   "title": {
     "en": "Nani's Noodle Pudding",
