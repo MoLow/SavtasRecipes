@@ -81,3 +81,11 @@ Initial project setup for Savta's Recipes — digitizing 50+ scanned handwritten
 - Fixed Next.js 15 async params issue (params are now `Promise` in layouts/pages)
 - Verified static build passes (`npx next build` succeeds, outputs to `website/out/`)
 - User noted conversation log wasn't being updated before commits — fixed by updating log before every commit going forward
+
+### Dependency Updates
+- Updated all npm packages to latest stable versions (March 2026)
+- Pipeline: `@anthropic-ai/sdk` 0.79.0, `@google/genai` 1.45.0, `sharp` 0.34.5, `tsx` 4.21.0, `typescript` 5.9.3
+- Website: `react` 19.2.4, `next` 15.5.13, `tailwindcss` 4.2.1, `fuse.js` 7.1.0, `typescript` 5.9.3
+- Kept Zod at 3.x (4.x has breaking API changes), kept Next.js at 15.x (16.x would need code changes)
+- GitHub Actions: `checkout` v6, `setup-node` v6, Node.js 22
+- Verified build still passes after updates
