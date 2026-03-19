@@ -12,6 +12,7 @@
     "@google/genai": "^1.45.0",
     "cli-progress": "^3.12.0",
     "p-map": "^7.0.4",
+    "sharp": "^0.34.5",
     "zod": "^3.24.0"
   },
   "devDependencies": {

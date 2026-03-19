@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { SearchableRecipe } from "@/lib/search";
 import { createFuse } from "@/lib/search";
+import { optimizedImage } from "@/lib/image-utils";
 
 interface SearchResultsProps {
   recipes: SearchableRecipe[];
@@ -76,7 +77,7 @@ export default function SearchResults({ recipes, locale }: SearchResultsProps) {
               }}
             >
               <Image
-                src={`/${r.illustration}`}
+                src={`/${optimizedImage(r.illustration, 400)}`}
                 alt={locale === "he" ? r.titleHe : r.titleEn}
                 fill
                 className="object-cover transition-transform duration-500 ease-out group-hover:scale-[1.04]"

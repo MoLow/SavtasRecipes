@@ -1,0 +1,124 @@
+{
+  "id": "b8e2584a-86c4-41fe-ab67-855cec7b2eb6",
+  "slug": "spanish-rice",
+  "source": {
+    "scanFiles": [
+      "scans/b8e2584a-86c4-41fe-ab67-855cec7b2eb6-0.jpg",
+      "scans/b8e2584a-86c4-41fe-ab67-855cec7b2eb6-1.jpg"
+    ],
+    "processedAt": "2026-03-19T18:24:17.459Z"
+  },
+  "title": {
+    "en": "Spanish Rice",
+    "he": "אורז ספרדי"
+  },
+  "description": {
+    "en": "A simple recipe for Spanish rice, combining tomato sauce, vegetables, and two types of rice for a quick and flavorful dish.",
+    "he": "מתכון פשוט לאורז ספרדי, המשלב רוטב עגבניות, ירקות ושני סוגי אורז למנה מהירה וטעימה."
+  },
+  "ingredients": [
+    {
+      "en": "2 cans tomato sauce (8oz)",
+      "he": "2 קופסאות רוטב עגבניות (8 אונקיות)",
+      "item": "tomato sauce",
+      "amount": 2,
+      "unit": "cans (8oz)"
+    },
+    {
+      "en": "½ C. finely chopped onion",
+      "he": "½ כוס בצל קצוץ דק",
+      "item": "finely chopped onion",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "½ C. finely chopped green pepper (large)",
+      "he": "½ כוס פלפל ירוק קצוץ דק (גדול)",
+      "item": "finely chopped green pepper",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "¼ C. butter",
+      "he": "¼ כוס חמאה",
+      "item": "butter",
+      "amount": 0.25,
+      "unit": "cup"
+    },
+    {
+      "en": "½ tsp salt",
+      "he": "½ כפית מלח",
+      "item": "salt",
+      "amount": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "en": "1 tsp sugar",
+      "he": "1 כפית סוכר",
+      "item": "sugar",
+      "amount": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "en": "½ tsp mustard",
+      "he": "½ כפית חרדל",
+      "item": "mustard",
+      "amount": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "en": "1 C. raw rice",
+      "he": "1 כוס אורז לא מבושל",
+      "item": "raw rice",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1½ C. minute rice",
+      "he": "1½ כוסות אורז מהיר הכנה",
+      "item": "minute rice",
+      "amount": 1.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Combine tomato sauce, finely chopped onion, finely chopped green pepper, butter, salt, sugar, and mustard in a saucepan.",
+      "Cover the saucepan and bring the mixture to a full boil.",
+      "Stir in the raw rice and minute rice.",
+      "Remove the saucepan from heat.",
+      "Cover and let stand for 5 minutes.",
+      "Stir with a fork before serving."
+    ],
+    "he": [
+      "שלבו את רוטב העגבניות, הבצל הקצוץ דק, הפלפל הירוק הקצוץ דק, החמאה, המלח, הסוכר והחרדל בסיר.",
+      "כסו את הסיר והביאו את התערובת לרתיחה מלאה.",
+      "ערבבו פנימה את האורז הלא מבושל ואת האורז מהיר ההכנה.",
+      "הסירו את הסיר מהאש.",
+      "כסו והניחו לעמוד למשך 5 דקות.",
+      "ערבבו במזלג לפני ההגשה."
+    ]
+  },
+  "tags": [
+    {
+      "en": "Spanish",
+      "he": "ספרדי"
+    },
+    {
+      "en": "Main Course",
+      "he": "מנה עיקרית"
+    },
+    {
+      "en": "Side Dish",
+      "he": "תוספת"
+    },
+    {
+      "en": "Vegetarian",
+      "he": "צמחוני"
+    }
+  ],
+  "illustration": "illustrations/b8e2584a-86c4-41fe-ab67-855cec7b2eb6.webp",
+  "ocrRawText": "Spanish Rice\n2 cans tomato sauce (8oz)\n½ C. finely chopped onion\n½ C. finely chopped green pepper (large)\n¼ C. butter\n½ tsp salt\n1 tsp sugar\n½ tsp mustard\n1 C. raw rice\n1½ C. minute rice\nCombine all ingredients in\na saucepan. Cover & bring\nto full boil. Stir in rice.\nRemove from heat. Cover\n& let stand for 5 min. Stir\nwith fork.",
+  "selectedModel": "gemini",
+  "rankingReason": "Gemini selected (only valid result). Claude returned no result"
+}

@@ -1,0 +1,91 @@
+{
+  "id": "ecb36c2a-68bd-4b89-a626-0401098e080c",
+  "slug": "stuffing",
+  "source": {
+    "scanFiles": [
+      "scans/ecb36c2a-68bd-4b89-a626-0401098e080c-0.jpg"
+    ],
+    "processedAt": "2026-03-19T18:04:00.825Z"
+  },
+  "title": {
+    "en": "Stuffing",
+    "he": "מילוי"
+  },
+  "description": {
+    "en": "A handwritten recipe for a stuffing mixture made with mashed potato, grated vegetables, oatmeal, and bread crumbs. No flour is used. The note appears to be an ingredient list without detailed proportions or instructions.",
+    "he": "מתכון כתוב בכתב יד למילוי העשוי מתפוחי אדמה מרוסקים, ירקות מגוררים, שיבולת שועל ופירורי לחם. ללא קמח. הפתק נראה כרשימת מרכיבים ללא פירוט כמויות או הוראות הכנה."
+  },
+  "ingredients": [
+    {
+      "en": "mashed potato",
+      "he": "תפוחי אדמה מרוסקים",
+      "item": "potato"
+    },
+    {
+      "en": "grated onion",
+      "he": "בצל מגורר",
+      "item": "onion"
+    },
+    {
+      "en": "grated carrot",
+      "he": "גזר מגורר",
+      "item": "carrot"
+    },
+    {
+      "en": "1 tbsp Crisco",
+      "he": "1 כף קריסקו (שומן צמחי)",
+      "item": "Crisco",
+      "amount": 1,
+      "unit": "tbsp"
+    },
+    {
+      "en": "oatmeal",
+      "he": "שיבולת שועל",
+      "item": "oatmeal"
+    },
+    {
+      "en": "bread crumbs",
+      "he": "פירורי לחם",
+      "item": "bread crumbs"
+    },
+    {
+      "en": "eggs",
+      "he": "ביצים",
+      "item": "eggs"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Mix mashed potato, grated onion, grated carrot, oatmeal, and bread crumbs together.",
+      "Add 1 tbsp Crisco and eggs.",
+      "Mix well. Do not add flour."
+    ],
+    "he": [
+      "לערבב יחד תפוחי אדמה מרוסקים, בצל מגורר, גזר מגורר, שיבולת שועל ופירורי לחם.",
+      "להוסיף 1 כף קריסקו (שומן צמחי) וביצים.",
+      "לערבב היטב. לא להוסיף קמח."
+    ]
+  },
+  "tags": [
+    {
+      "en": "stuffing",
+      "he": "מילוי"
+    },
+    {
+      "en": "side dish",
+      "he": "תוספת"
+    },
+    {
+      "en": "ashkenazi",
+      "he": "אשכנזי"
+    },
+    {
+      "en": "pareve",
+      "he": "פרווה"
+    }
+  ],
+  "illustration": "illustrations/ecb36c2a-68bd-4b89-a626-0401098e080c.webp",
+  "ocrRawText": "mashed potato\ngrated onion\ngrate carrot\ncrisco - 1 tbsp\noatmeal\nbread crumbs\neggs too\nNo flour\nStuffing",
+  "selectedModel": "claude",
+  "rankingReason": "Result B better captures the actual handwritten content. The OCR raw text in B ('mashed potato', 'grate carrot', 'eggs too', 'No flour') more accurately reflects what appears to be written versus A's interpretation. B's description honestly notes this is an ingredient list without detailed proportions, while A fabricates specific preparation instructions ('Prepare the potato by rubbing or grating') not evident in the source. B's tags include culturally appropriate markers ('ashkenazi', 'pareve') suggesting familiarity with the recipe's context. While A is more polished, B is more faithful to the source material and avoids inventing details."
+}

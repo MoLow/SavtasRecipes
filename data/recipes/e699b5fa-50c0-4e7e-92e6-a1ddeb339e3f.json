@@ -1,0 +1,91 @@
+{
+  "id": "e699b5fa-50c0-4e7e-92e6-a1ddeb339e3f",
+  "slug": "rugelach",
+  "source": {
+    "scanFiles": [
+      "scans/e699b5fa-50c0-4e7e-92e6-a1ddeb339e3f-0.jpg"
+    ],
+    "processedAt": "2026-03-19T18:31:27.686Z"
+  },
+  "title": {
+    "en": "Rugelach",
+    "he": "רוגלך"
+  },
+  "description": {
+    "en": "A classic Jewish pastry dough recipe from Bernyce Offer's favorite recipes collection. This is the dough portion — mix together and refrigerate before shaping and baking.",
+    "he": "מתכון קלאסי לבצק רוגלך מתוך אוסף המתכונים האהובים של ברניס אופר. זהו חלק הבצק — מערבבים יחד ומצננים במקרר לפני עיצוב ואפייה."
+  },
+  "ingredients": [
+    {
+      "en": "3 cups flour",
+      "he": "3 כוסות קמח",
+      "item": "flour",
+      "amount": 3,
+      "unit": "cup"
+    },
+    {
+      "en": "1/2 lb margarine or butter",
+      "he": "225 גרם מרגרינה או חמאה",
+      "item": "margarine or butter",
+      "amount": 0.5,
+      "unit": "lb"
+    },
+    {
+      "en": "3 egg yolks",
+      "he": "3 חלמונים",
+      "item": "egg yolks",
+      "amount": 3,
+      "unit": "piece"
+    },
+    {
+      "en": "1 cup sour cream",
+      "he": "1 כוס שמנת חמוצה",
+      "item": "sour cream",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1 package dry yeast",
+      "he": "1 שקית שמרים יבשים",
+      "item": "dry yeast",
+      "amount": 1,
+      "unit": "package"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Step 1: Mix all ingredients together.",
+      "Step 2: Leave in refrigerator several hours or overnight."
+    ],
+    "he": [
+      "שלב 1: מערבבים את כל המרכיבים יחד.",
+      "שלב 2: משאירים במקרר למספר שעות או לילה."
+    ]
+  },
+  "tags": [
+    {
+      "en": "ashkenazi",
+      "he": "אשכנזי"
+    },
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "pastry",
+      "he": "מאפה"
+    },
+    {
+      "en": "dairy",
+      "he": "חלבי"
+    },
+    {
+      "en": "holiday",
+      "he": "חג"
+    }
+  ],
+  "illustration": "illustrations/e699b5fa-50c0-4e7e-92e6-a1ddeb339e3f.webp",
+  "ocrRawText": "Rugelach\n3 cups flour\n1/2 lb Margarine or butter\n3 egg Yolks\n1 cup Sour Cream\n1 Pkge Dry Yeast\nMix Together and leave in\nrefrigerator several hours or\novernight.\n\nONE OF\nBernyce Offer's\nFAVORITE RECIPES",
+  "selectedModel": "claude",
+  "rankingReason": "Result B is superior on multiple fronts: (1) It correctly identifies the recipe as 'Rugelach', a well-known Jewish pastry, rather than the implausible 'Angelick'; (2) The ingredient 'margarine or butter' is correctly read as '1/2 lb' (a standard measurement for this recipe) vs Result A's '1/2 cup' (inconsistent with the flour-to-fat ratio for rugelach); (3) Instructions are properly structured with numbered steps; (4) The OCR raw text captures 'Bernyce Offer's' correctly while Result A misreads it as 'Berryjoe'; (5) Tags are more accurate and specific (ashkenazi, holiday appropriate for rugelach); (6) The Hebrew translation is more natural and contextually appropriate; (7) The description provides helpful context about the dough being for rugelach that will be shaped and baked. Result B demonstrates superior OCR accuracy, recipe coherence, and cultural knowledge."
+}

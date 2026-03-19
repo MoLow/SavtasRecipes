@@ -1,0 +1,84 @@
+{
+  "id": "be84506e-87a6-4f56-be2e-026f693f0bab",
+  "slug": "champagne-punch",
+  "source": {
+    "scanFiles": [
+      "scans/be84506e-87a6-4f56-be2e-026f693f0bab-0.jpg"
+    ],
+    "processedAt": "2026-03-19T18:03:57.360Z"
+  },
+  "title": {
+    "en": "Champagne Punch",
+    "he": "פאנץ' שמפניה"
+  },
+  "description": {
+    "en": "A festive champagne punch made with pink champagne, lemon soda, and a decorative ice mold with frozen strawberries.",
+    "he": "פאנץ' שמפניה חגיגי המוכן משמפניה ורודה, סודה לימון ותבנית קרח דקורטיבית עם תותים קפואים."
+  },
+  "ingredients": [
+    {
+      "en": "2 bottles pink champagne",
+      "he": "2 בקבוקים שמפניה ורודה",
+      "item": "pink champagne",
+      "amount": 2,
+      "unit": "bottles"
+    },
+    {
+      "en": "1 bottle lemon soda",
+      "he": "1 בקבוק סודה לימון",
+      "item": "lemon soda",
+      "amount": 1,
+      "unit": "bottle"
+    },
+    {
+      "en": "1 bottle lemon soda (for ice mold)",
+      "he": "1 בקבוק סודה לימון (לתבנית הקרח)",
+      "item": "lemon soda",
+      "amount": 1,
+      "unit": "bottle"
+    },
+    {
+      "en": "Frozen strawberries",
+      "he": "תותים קפואים",
+      "item": "frozen strawberries"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "To 2 bottles pink champagne, add 1 bottle lemon soda.",
+      "Make an ice mold with another bottle lemon soda and frozen strawberries.",
+      "Add mold to champagne."
+    ],
+    "he": [
+      "הוסיפו לשני בקבוקי שמפניה ורודה בקבוק אחד של סודה לימון.",
+      "הכינו תבנית קרח מבקבוק נוסף של סודה לימון ותותים קפואים.",
+      "הוסיפו את תבנית הקרח לשמפניה."
+    ]
+  },
+  "tags": [
+    {
+      "en": "beverage",
+      "he": "משקה"
+    },
+    {
+      "en": "party",
+      "he": "מסיבה"
+    },
+    {
+      "en": "holiday",
+      "he": "חג"
+    },
+    {
+      "en": "dairy-free",
+      "he": "ללא חלב"
+    },
+    {
+      "en": "vegetarian",
+      "he": "צמחוני"
+    }
+  ],
+  "illustration": "illustrations/be84506e-87a6-4f56-be2e-026f693f0bab.webp",
+  "ocrRawText": "Champagne Punch\nTo 2 bottles pink champagne, add\n1 bottle lemon soda. Make a\nice mold with another bottle\nlemon soda & frozen\nstrawberries. Add mold to\nchampagne.",
+  "selectedModel": "claude",
+  "rankingReason": "Result B has superior coherence and recipe logic. The OCR text clearly describes making an ice mold with frozen strawberries and lemon soda, which is a sensible culinary technique for punch presentation. Result A's OCR shows garbled instructions ('Add the chilled to strawberries, add the chilled to champagne') that don't form coherent steps, and its extraction splits these unclear fragments into 7 verbose steps. Result B's 3 concise instructions directly correspond to the handwritten source. Result A also contradicts itself by listing 2 bottles of lemon soda in ingredients but the OCR mentions only one additional bottle. Result B maintains internal consistency, with ingredients matching the instructions (2 bottles champagne, 1 bottle soda mixed in, 1 bottle soda for the ice mold, frozen strawberries). Both have complete metadata, but B's translations are natural and B's tags are more appropriate (removing 'alcoholic' redundancy, adding 'dairy-free' and 'vegetarian' which are relevant)."
+}

@@ -1,0 +1,110 @@
+{
+  "id": "7b59aecc-0aa0-4934-b116-144e32a497e7",
+  "slug": "madelines-broccoli-noodle-pudding",
+  "source": {
+    "scanFiles": [
+      "scans/7b59aecc-0aa0-4934-b116-144e32a497e7-0.jpg"
+    ],
+    "processedAt": "2026-03-19T18:06:41.889Z"
+  },
+  "title": {
+    "en": "Madeline's Broccoli Noodle Pudding",
+    "he": "פודינג אטריות ברוקולי של מדלין"
+  },
+  "description": {
+    "en": "A savory noodle kugel with broccoli, eggs, and onion soup mix. Can be made parve with margarine or dairy with butter.",
+    "he": "קוגל אטריות מלוח עם ברוקולי, ביצים ותערובת מרק בצל. ניתן להכין פרווה עם מרגרינה או חלבי עם חמאה."
+  },
+  "ingredients": [
+    {
+      "en": "1 lb (400-500 gr) noodles (medium)",
+      "he": "450 גרם (400-500 גרם) אטריות (בינוניות)",
+      "item": "noodles",
+      "amount": 1,
+      "unit": "lb"
+    },
+    {
+      "en": "300-gram broccoli (chopped)",
+      "he": "300 גרם ברוקולי (קצוץ)",
+      "item": "broccoli",
+      "amount": 300,
+      "unit": "gram"
+    },
+    {
+      "en": "3-5 eggs, beaten",
+      "he": "3-5 ביצים, טרופות",
+      "item": "eggs",
+      "amount": 4,
+      "unit": "piece"
+    },
+    {
+      "en": "100 grams margarine",
+      "he": "100 גרם מרגרינה",
+      "item": "margarine",
+      "amount": 100,
+      "unit": "gram"
+    },
+    {
+      "en": "3-4 Tbsp onion soup",
+      "he": "3-4 כפות מרק בצל",
+      "item": "onion soup mix",
+      "amount": 3.5,
+      "unit": "tbsp"
+    },
+    {
+      "en": "1 cup liquid (parve: water, dairy: milk or)",
+      "he": "1 כוס נוזל (פרווה: מים, חלבי: חלב)",
+      "item": "liquid",
+      "amount": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Step 1: Cook noodles and drain.",
+      "Step 2: Melt margarine into noodles.",
+      "Step 3: Add soup mix, margarine and chopped broccoli. Mix thoroughly.",
+      "Step 4: Mix in liquid. Add beaten eggs. Mix thoroughly.",
+      "Step 5: Bake in a 9x13 greased pan at 350°F for approx. 30 min until set and golden.",
+      "Step 6: Can substitute chopped cauliflower."
+    ],
+    "he": [
+      "שלב 1: לבשל את האטריות ולסנן.",
+      "שלב 2: להמיס מרגרינה לתוך האטריות.",
+      "שלב 3: להוסיף תערובת מרק בצל, מרגרינה וברוקולי קצוץ. לערבב היטב.",
+      "שלב 4: להוסיף את הנוזל. להוסיף ביצים טרופות. לערבב היטב.",
+      "שלב 5: לאפות בתבנית משומנת 9x13 בטמפרטורה של 180 מעלות למשך כ-30 דקות עד שמתגבש ומזהיב.",
+      "שלב 6: ניתן להחליף בכרובית קצוצה."
+    ]
+  },
+  "tags": [
+    {
+      "en": "kugel",
+      "he": "קוגל"
+    },
+    {
+      "en": "ashkenazi",
+      "he": "אשכנזי"
+    },
+    {
+      "en": "side dish",
+      "he": "תוספת"
+    },
+    {
+      "en": "parve",
+      "he": "פרווה"
+    },
+    {
+      "en": "shabbat",
+      "he": "שבת"
+    },
+    {
+      "en": "vegetarian",
+      "he": "צמחוני"
+    }
+  ],
+  "illustration": "illustrations/7b59aecc-0aa0-4934-b116-144e32a497e7.webp",
+  "ocrRawText": "Madeline's\nBroccoli Noodle Pudding\n1 lb (400-500 gr) noodles (med)\n300- gram Broccoli (chopped)\n3-5 Eggs - Beaten\n100 grams margarine\n3-4 Tbsp onion soup\n1 cup liquid (parve water or\ndairy milk or)\n\nCook noodles and drain\nmelt margarine into noodles\nAdd soup mix and chopped\nBroccoli. Mix thoroughly.\nMix in liquid. add Beaten\neggs. mix thoroughly.\nBake in a 9x13 greased Pan\nat 350° for approx. 30 min\nuntil set and golden.\nCan substitute chopped\ncauliflower",
+  "selectedModel": "claude",
+  "rankingReason": "Claude selected (only valid result). Gemini result failed validation: ingredients.0.amount: Expected number, received string; ingredients.2.amount: Expected number, received string; ingredients.4.amount: Expected number, received string"
+}

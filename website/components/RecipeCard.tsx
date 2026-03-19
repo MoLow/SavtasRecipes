@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Locale } from "@/lib/recipes";
+import { optimizedImage } from "@/lib/image-utils";
 
 interface RecipeCardProps {
   slug: string;
@@ -29,7 +30,7 @@ export default function RecipeCard({
       }}
     >
       <Image
-        src={`/${illustration}`}
+        src={`/${optimizedImage(illustration, 400)}`}
         alt={title[locale]}
         fill
         className="object-cover transition-transform duration-500 ease-out group-hover:scale-[1.04]"

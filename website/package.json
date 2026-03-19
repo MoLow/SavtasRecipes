@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node --experimental-strip-types --no-warnings scripts/optimize-images.ts",
     "build": "next build",
     "start": "next start"
   },
@@ -15,8 +16,12 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.2.2",
+    "@types/cli-progress": "^3.11.6",
     "@types/react": "^19.2.13",
     "@types/react-dom": "^19.2.3",
+    "cli-progress": "^3.12.0",
+    "p-map": "^7.0.4",
+    "sharp": "^0.34.5",
     "tailwindcss": "^4.2.1",
     "typescript": "^5.9.3"
   }

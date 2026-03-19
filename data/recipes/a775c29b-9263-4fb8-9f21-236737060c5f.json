@@ -1,0 +1,144 @@
+{
+  "id": "a775c29b-9263-4fb8-9f21-236737060c5f",
+  "slug": "choc-pudding-cake",
+  "source": {
+    "scanFiles": [
+      "scans/a775c29b-9263-4fb8-9f21-236737060c5f-0.jpg",
+      "scans/a775c29b-9263-4fb8-9f21-236737060c5f-1.jpg"
+    ],
+    "processedAt": "2026-03-19T18:34:28.500Z"
+  },
+  "title": {
+    "en": "Choc. Pudding Cake",
+    "he": "עוגת פודינג שוקולד"
+  },
+  "description": {
+    "en": "A chocolate pudding cake recipe, likely for microwave preparation, featuring a rich chocolate cake base and a warm chocolate sauce topping. The original recipe has some ambiguities in the instructions regarding ingredient usage, which have been interpreted for clarity.",
+    "he": "מתכון לעוגת פודינג שוקולד, ככל הנראה להכנה במיקרוגל, הכוללת בסיס עוגת שוקולד עשיר ורוטב שוקולד חם מעל. המתכון המקורי מכיל אי-בהירויות מסוימות בהוראות לגבי שימוש במרכיבים, אשר פורשו לשם בהירות."
+  },
+  "ingredients": [
+    {
+      "en": "6 oz. Chocolate Chips",
+      "he": "170 גרם שבבי שוקולד",
+      "item": "Chocolate Chips",
+      "amount": 6,
+      "unit": "oz"
+    },
+    {
+      "en": "1/2 C Brown sugar",
+      "he": "1/2 כוס סוכר חום",
+      "item": "Brown sugar",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1/2 C Chopped nuts",
+      "he": "1/2 כוס אגוזים קצוצים",
+      "item": "Chopped nuts",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1/3 C Granulated sugar",
+      "he": "1/3 כוס סוכר מגורען",
+      "item": "Granulated sugar",
+      "amount": 0.33,
+      "unit": "cup"
+    },
+    {
+      "en": "1/2 C milk",
+      "he": "1/2 כוס חלב",
+      "item": "milk",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "2 tbsp oil",
+      "he": "2 כפות שמן",
+      "item": "oil",
+      "amount": 2,
+      "unit": "tbsp"
+    },
+    {
+      "en": "1 tsp vanilla extract",
+      "he": "1 כפית תמצית וניל",
+      "item": "vanilla extract",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "en": "1 egg",
+      "he": "1 ביצה",
+      "item": "egg",
+      "amount": 1,
+      "unit": "unit"
+    },
+    {
+      "en": "1/2 C hot water",
+      "he": "1/2 כוס מים חמים",
+      "item": "hot water",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "2/3 C Granulated sugar",
+      "he": "2/3 כוס סוכר מגורען",
+      "item": "Granulated sugar",
+      "amount": 0.66,
+      "unit": "cup"
+    },
+    {
+      "en": "1/3 C Chocolate chips",
+      "he": "1/3 כוס שבבי שוקולד",
+      "item": "Chocolate chips",
+      "amount": 0.33,
+      "unit": "cup"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "1. Place 1/3 cup chocolate chips into a 2 quart dish. Microwave at 100% power for 1-3 minutes to melt.",
+      "2. In a separate bowl, combine 6 oz. chocolate chips, 1/2 cup brown sugar, 1/2 cup chopped nuts, 1/3 cup sugar, 1/2 cup milk, 2 tablespoons oil, 1 teaspoon vanilla, and 1 egg. Mix with a fork and beat until well blended.",
+      "3. Pour the cake batter over the melted chips in the 2 quart dish.",
+      "4. Microwave the cake on 50% power for 9 minutes. Rotate 1/4 turn.",
+      "5. Microwave at 100% power for 5-7 minutes, or until done.",
+      "6. For the sauce: In a 4 cup measuring cup, combine 1/2 cup hot water, 2/3 cup sugar, and 1/3 cup chocolate chips. Microwave for 4 minutes. Stir.",
+      "7. Microwave the sauce for another 2-4 minutes, or until it boils.",
+      "8. Pour the hot sauce over the hot cake mixture.",
+      "9. Serve warm."
+    ],
+    "he": [
+      "1. הניחו 1/3 כוס שבבי שוקולד בכלי בגודל 2 ליטר. חממו במיקרוגל בעוצמה של 100% למשך 1-3 דקות להמסה.",
+      "2. בקערה נפרדת, שלבו 170 גרם שבבי שוקולד, 1/2 כוס סוכר חום, 1/2 כוס אגוזים קצוצים, 1/3 כוס סוכר, 1/2 כוס חלב, 2 כפות שמן, 1 כפית תמצית וניל וביצה אחת. ערבבו במזלג וטרפו היטב עד לקבלת תערובת אחידה.",
+      "3. שפכו את בלילת העוגה מעל השבבים המומסים בכלי בגודל 2 ליטר.",
+      "4. חממו את העוגה במיקרוגל בעוצמה של 50% למשך 9 דקות. סובבו רבע סיבוב.",
+      "5. חממו במיקרוגל בעוצמה של 100% למשך 5-7 דקות, או עד שהעוגה מוכנה.",
+      "6. לרוטב: בכוס מדידה של 4 כוסות, שלבו 1/2 כוס מים חמים, 2/3 כוס סוכר ו-1/3 כוס שבבי שוקולד. חממו במיקרוגל למשך 4 דקות. ערבבו.",
+      "7. חממו את הרוטב במיקרוגל למשך 2-4 דקות נוספות, או עד לרתיחה.",
+      "8. שפכו את הרוטב החם מעל תערובת העוגה החמה.",
+      "9. הגישו חם."
+    ]
+  },
+  "tags": [
+    {
+      "en": "Dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "Chocolate",
+      "he": "שוקולד"
+    },
+    {
+      "en": "Microwave",
+      "he": "מיקרוגל"
+    },
+    {
+      "en": "American",
+      "he": "אמריקאי"
+    }
+  ],
+  "illustration": "illustrations/a775c29b-9263-4fb8-9f21-236737060c5f.webp",
+  "ocrRawText": "Choc. Pudding Cake -\n6oz. Choc. Chips\n1/2 C Br. sugar\n1/2 C Chop. nuts\n1/3 C sugar\n1/2 C milk\n2 tbsp oil\n1 tsp vanilla\n1 egg\n1/2 C hot H2O\n2/3 C sugar\n1/3 C chips into 2 qt.\ndish. Tuke 100% 1-3 min.\nmix in 6oz. nuts, 1/3 sugar,\nmilk, oil van & egg with\nfork. Beat until well\nblended.\nTuke H2O, 2/3 C sugar +\nchips in 4 cup measur. cup\nfor 4 min. Stir. Tuke 2-4\nmin. until it boils. Then\npour over hot mixture.\nTuke on 50% 9 min.\nRotate 1/4 turn. Tuke\n100% 5-7 min. Serve\nWarm.",
+  "selectedModel": "gemini",
+  "rankingReason": "Gemini selected (only valid result). Claude returned no result"
+}

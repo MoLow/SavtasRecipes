@@ -1,0 +1,146 @@
+{
+  "id": "617b2004-a08d-4188-bb9b-8b06ae12edf7",
+  "slug": "nut-crust-crumb-crust",
+  "source": {
+    "scanFiles": [
+      "scans/617b2004-a08d-4188-bb9b-8b06ae12edf7-0.jpg"
+    ],
+    "processedAt": "2026-03-19T18:30:35.599Z"
+  },
+  "title": {
+    "en": "Nut Crust & Crumb Crust",
+    "he": "בסיס פאי אגוזים ובסיס פאי פירורים"
+  },
+  "description": {
+    "en": "Two pie crust recipes: a nut crust made with ground nuts, butter, and flour, and a whole wheat crumb crust with bread crumbs, oats, and herbs.",
+    "he": "שני מתכונים לבסיס פאי: בסיס אגוזים עשוי מאגוזים טחונים, חמאה וקמח, ובסיס פירורים מחיטה מלאה עם פירורי לחם, שיבולת שועל ותבלינים."
+  },
+  "ingredients": [
+    {
+      "en": "1/2 cup coarsely ground nuts",
+      "he": "1/2 כוס אגוזים טחונים גס",
+      "item": "ground nuts",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "dash of salt",
+      "he": "קמצוץ מלח",
+      "item": "salt"
+    },
+    {
+      "en": "4 tbs butter (margarine) cut into small pieces",
+      "he": "4 כפות חמאה (מרגרינה) חתוכה לחתיכות קטנות",
+      "item": "butter (margarine)",
+      "amount": 4,
+      "unit": "tbs"
+    },
+    {
+      "en": "1 1/4 cup flour",
+      "he": "1 1/4 כוס קמח",
+      "item": "flour",
+      "amount": 1.25,
+      "unit": "cup"
+    },
+    {
+      "en": "3-5 tbs cold water",
+      "he": "3-5 כפות מים קרים",
+      "item": "cold water",
+      "amount": 3,
+      "unit": "tbs"
+    },
+    {
+      "en": "1 cup whole wheat bread crumbs",
+      "he": "1 כוס פירורי לחם מחיטה מלאה",
+      "item": "whole wheat bread crumbs",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1/4 c whole wheat flour",
+      "he": "1/4 כוס קמח חיטה מלאה",
+      "item": "whole wheat flour",
+      "amount": 0.25,
+      "unit": "cup"
+    },
+    {
+      "en": "1/2 c wheat germ",
+      "he": "1/2 כוס נבט חיטה",
+      "item": "wheat germ",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1/2 c rolled oats",
+      "he": "1/2 כוס שיבולת שועל",
+      "item": "rolled oats",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1/2 tsp salt",
+      "he": "1/2 כפית מלח",
+      "item": "salt",
+      "amount": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "en": "dash basil and/or marjoram",
+      "he": "קמצוץ בזיליקום ו/או מיורן",
+      "item": "basil and/or marjoram"
+    },
+    {
+      "en": "1/2 c melted butter (margarine)",
+      "he": "1/2 כוס חמאה מומסת (מרגרינה)",
+      "item": "melted butter (margarine)",
+      "amount": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "NUT CRUST: Combine nuts, margarine, salt & flour — use pastry cutter until it looks like coarse corn meal.",
+      "Gradually drizzle in water. When dough adheres to itself there is enough water.",
+      "Roll out dough and form crust. Chill until time to fill.",
+      "CRUMB CRUST: Mix dry ingredients, drizzle in melted butter, toss with fork until uniformly moistened.",
+      "Press into 9\" buttered pie pan. Pre bake at 350°F for 10 min."
+    ],
+    "he": [
+      "בסיס אגוזים: לערבב אגוזים, מרגרינה, מלח וקמח — להשתמש בחותך בצק עד שהתערובת נראית כמו קמח תירס גס.",
+      "לטפטף מים בהדרגה. כשהבצק נדבק לעצמו יש מספיק מים.",
+      "לרדד את הבצק ולעצב את הבסיס. לקרר עד שמוכנים למלא.",
+      "בסיס פירורים: לערבב את המרכיבים היבשים, לטפטף חמאה מומסת, ולערבב עם מזלג עד שהכל לח באופן אחיד.",
+      "ללחוץ לתוך תבנית פאי משומנת בקוטר 9 אינץ'. לאפות מראש ב-175 מעלות למשך 10 דקות."
+    ]
+  },
+  "tags": [
+    {
+      "en": "baking",
+      "he": "אפייה"
+    },
+    {
+      "en": "pie crust",
+      "he": "בסיס פאי"
+    },
+    {
+      "en": "vegetarian",
+      "he": "צמחוני"
+    },
+    {
+      "en": "dairy",
+      "he": "חלבי"
+    },
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "american",
+      "he": "אמריקאי"
+    }
+  ],
+  "illustration": "illustrations/617b2004-a08d-4188-bb9b-8b06ae12edf7.webp",
+  "ocrRawText": "NUT CRUST\n\n1/2 cup coursely ground nuts\ndash of salt\n4 tbs butter (margerine) cut into small pieces\n1 1/4 cup flour\n3-5 tbs cold water\n\nnuts, margerine, salt & flour-use pastry cutter until it\nlooks like course corn meal. Gradually drizzle in water, when\ndough adheres to itself there is enough water. Roll out\ndough and form crust. chill until time to fill\n\nCRUMB CRUST\n\n1 cup whole wheat bread crumbs    1/4 c whole wheat flour\n1/2 c wheat germ                  1/2 c rolled oats\n1/2 tsp salt                      dash basil and/or marjoram\n1/2 C melted butter (margerine)\n\nmix dry ingredients, drizzle in melted butter, toss with fork\nuntil uniformly moistened.\nPress into 9\" buttered pie pan    pre bake 350 for 10 min.",
+  "selectedModel": "claude",
+  "rankingReason": "Claude selected (only valid result). Gemini result failed validation: ingredients.0.item: Expected string, received null; ingredients.4.amount: Expected number, received string; ingredients.5.item: Expected string, received null"
+}

@@ -1,0 +1,122 @@
+{
+  "id": "f68dcb54-a1c1-4654-b2ca-52f2c87f822c",
+  "slug": "salmon-mousse",
+  "source": {
+    "scanFiles": [
+      "scans/f68dcb54-a1c1-4654-b2ca-52f2c87f822c-0.jpg",
+      "scans/f68dcb54-a1c1-4654-b2ca-52f2c87f822c-1.jpg"
+    ],
+    "processedAt": "2026-03-19T18:23:27.382Z"
+  },
+  "title": {
+    "en": "Salmon Mousse",
+    "he": "מוס סלמון"
+  },
+  "description": {
+    "en": "A simple recipe for a molded salmon mousse, perfect as an appetizer or light meal, featuring salmon, mayonnaise, sour cream, and dill.",
+    "he": "מתכון פשוט למוס סלמון מעוצב, מושלם כמתאבן או ארוחה קלה, המכיל סלמון, מיונז, שמנת חמוצה ושמיר."
+  },
+  "ingredients": [
+    {
+      "en": "1 can Salmon (1 lb) (drained)",
+      "he": "1 קופסת שימורים סלמון (1 ליברות) (מסונן)",
+      "item": "Salmon",
+      "amount": 1,
+      "unit": "can (1 lb)"
+    },
+    {
+      "en": "2 tsp lemon juice",
+      "he": "2 כפיות מיץ לימון",
+      "item": "lemon juice",
+      "amount": 2,
+      "unit": "tsp"
+    },
+    {
+      "en": "1 small onion",
+      "he": "1 בצל קטן",
+      "item": "small onion",
+      "amount": 1,
+      "unit": "small onion"
+    },
+    {
+      "en": "1 envelope - unflavored gelatin",
+      "he": "1 שקית - ג'לטין ללא טעם",
+      "item": "unflavored gelatin",
+      "amount": 1,
+      "unit": "envelope"
+    },
+    {
+      "en": "1/2 cup boiling water",
+      "he": "1/2 כוס מים רותחים",
+      "item": "boiling water",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1 cup mayonnaise",
+      "he": "1 כוס מיונז",
+      "item": "mayonnaise",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1/2 tsp dried dill weed",
+      "he": "1/2 כפית שמיר יבש",
+      "item": "dried dill weed",
+      "amount": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "en": "1/4 tsp pepper",
+      "he": "1/4 כפית פלפל",
+      "item": "pepper",
+      "amount": 0.25,
+      "unit": "tsp"
+    },
+    {
+      "en": "1/2 cup sour cream",
+      "he": "1/2 כוס שמנת חמוצה",
+      "item": "sour cream",
+      "amount": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "In blender put - lemon juice, onion, gelatin & water.",
+      "Then with above more flaked salmon, mayo, pepper, dill weed.",
+      "Gradually add sour cream and blend for 30 sec.",
+      "Pour into lightly oiled mold.",
+      "Refrigerate overnight for best result."
+    ],
+    "he": [
+      "בבלנדר שמים מיץ לימון, בצל, ג'לטין ומים.",
+      "לאחר מכן מוסיפים את הסלמון המפורר, מיונז, פלפל ושמיר יבש.",
+      "מוסיפים בהדרגה את השמנת החמוצה ומערבבים בבלנדר למשך 30 שניות.",
+      "יוצקים לתבנית משומנת קלות.",
+      "מקררים במקרר למשך הלילה לקבלת התוצאה הטובה ביותר."
+    ]
+  },
+  "tags": [
+    {
+      "en": "Appetizer",
+      "he": "מתאבן"
+    },
+    {
+      "en": "Fish",
+      "he": "דגים"
+    },
+    {
+      "en": "Cold Dish",
+      "he": "מנה קרה"
+    },
+    {
+      "en": "Mousse",
+      "he": "מוס"
+    }
+  ],
+  "illustration": "illustrations/f68dcb54-a1c1-4654-b2ca-52f2c87f822c.webp",
+  "ocrRawText": "Salmon Mousse\n1 can Salmon (1 lb) (drained)\n2 tsp lemon juice\n1 small onion\n1 envelope - unflavored gelatin\n1/2 cup boiling water\n1 cup mayonnaise\n1/2 tsp dried dill weed\n1/4 tsp pepper\n1/2 cup sour cream\nIn blender put - lemon juice,\nonion, gelatin & water.\nThen with above\nmore flaked salmon, mayo, pepper,\ndill weed. Gradually add\nsour cream and blend\nfor 30 sec.\nPour into lightly\noiled mold. Ref overnight\nfor best result.",
+  "selectedModel": "gemini",
+  "rankingReason": "Gemini selected (only valid result). Claude returned no result"
+}

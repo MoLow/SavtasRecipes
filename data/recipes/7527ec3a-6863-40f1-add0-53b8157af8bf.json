@@ -1,0 +1,98 @@
+{
+  "id": "7527ec3a-6863-40f1-add0-53b8157af8bf",
+  "slug": "herring-salad",
+  "source": {
+    "scanFiles": [
+      "scans/7527ec3a-6863-40f1-add0-53b8157af8bf-0.jpg"
+    ],
+    "processedAt": "2026-03-19T18:06:43.661Z"
+  },
+  "title": {
+    "en": "Herring Salad",
+    "he": "סלט הרינג"
+  },
+  "description": {
+    "en": "A traditional herring salad recipe from Rebbetsen Kahane, making one big salad bowl. Dated 30/03/92.",
+    "he": "מתכון מסורתי לסלט הרינג מהרבנית כהנא, מספיק לקערת סלט גדולה. מתוארך 30/03/92."
+  },
+  "ingredients": [
+    {
+      "en": "1 box Matias herring",
+      "he": "1 קופסת הרינג מטיאס",
+      "item": "Matias herring",
+      "amount": 1,
+      "unit": "box"
+    },
+    {
+      "en": "1 red pepper",
+      "he": "1 פלפל אדום",
+      "item": "red pepper",
+      "amount": 1,
+      "unit": "piece"
+    },
+    {
+      "en": "1-2 apples",
+      "he": "1-2 תפוחים",
+      "item": "apples",
+      "amount": 1.5,
+      "unit": "piece"
+    },
+    {
+      "en": "1 onion",
+      "he": "1 בצל",
+      "item": "onion",
+      "amount": 1,
+      "unit": "piece"
+    },
+    {
+      "en": "dry bread - soaked and wrung",
+      "he": "לחם יבש - שרוי וסחוט",
+      "item": "dry bread"
+    },
+    {
+      "en": "1-3 tbsp sugar",
+      "he": "1-3 כפות סוכר",
+      "item": "sugar",
+      "amount": 2,
+      "unit": "tbsp"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Grind each ingredient separately (otherwise while one becomes liquid, the other is still entire).",
+      "Mix together.",
+      "Add sugar to taste."
+    ],
+    "he": [
+      "לטחון כל מרכיב בנפרד (אחרת בזמן שאחד הופך לנוזלי, השני עדיין שלם).",
+      "לערבב הכל יחד.",
+      "להוסיף סוכר לפי הטעם."
+    ]
+  },
+  "tags": [
+    {
+      "en": "ashkenazi",
+      "he": "אשכנזי"
+    },
+    {
+      "en": "salad",
+      "he": "סלט"
+    },
+    {
+      "en": "appetizer",
+      "he": "מנה ראשונה"
+    },
+    {
+      "en": "shabbat",
+      "he": "שבת"
+    },
+    {
+      "en": "fish",
+      "he": "דגים"
+    }
+  ],
+  "illustration": "illustrations/7527ec3a-6863-40f1-add0-53b8157af8bf.webp",
+  "ocrRawText": "name: Herring salad\nCode: C5\norigin: Rebbetsen Kahane\nupdate: 30/03/92\n-------------------------------------------\npreparation time:\nfor 1 big salad bowl\n\nIngredients:                Special ustensils:\n\n1 box Matias herring\n1 red peper\n1-2 apples\n1 onion\n\ndry bread - soaked and wrung\n1-3 tbsp sugar\n\nPreparation:\nGrind each ingredient seperately (otherwise while one becomes liquid,\nthe other is still entire). Mix together. Add sugar to taste.",
+  "selectedModel": "claude",
+  "rankingReason": "Claude selected (only valid result). Gemini result failed validation: ingredients.2.amount: Expected number, received string; ingredients.5.amount: Expected number, received string"
+}

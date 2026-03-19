@@ -1,0 +1,89 @@
+{
+  "id": "57c31209-e95a-4970-aa50-bb38f19ad075",
+  "slug": "viennese-crescents-irenes-recipe",
+  "source": {
+    "scanFiles": [
+      "scans/57c31209-e95a-4970-aa50-bb38f19ad075-0.jpg"
+    ],
+    "processedAt": "2026-03-19T18:10:56.944Z"
+  },
+  "title": {
+    "en": "Viennese Crescents (Irene's Recipe)",
+    "he": "סהרוני וינה (המתכון של אירן)"
+  },
+  "description": {
+    "en": "Classic Viennese crescent cookies made with ground nuts and butter, shaped into crescents and baked until golden brown.",
+    "he": "עוגיות סהרון וינאיות קלאסיות עשויות מאגוזים טחונים וחמאה, מעוצבות בצורת סהר ונאפות עד להזהבה."
+  },
+  "ingredients": [
+    {
+      "en": "1 cup ground nuts",
+      "he": "1 כוס אגוזים טחונים",
+      "item": "ground nuts",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "1 cup butter",
+      "he": "1 כוס חמאה",
+      "item": "butter",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "3/4 cups sugar",
+      "he": "3/4 כוסות סוכר",
+      "item": "sugar",
+      "amount": 0.75,
+      "unit": "cup"
+    },
+    {
+      "en": "2 1/2 cups flour",
+      "he": "2.5 כוסות קמח",
+      "item": "flour",
+      "amount": 2.5,
+      "unit": "cup"
+    },
+    {
+      "en": "1 1/2 tsp. vanilla",
+      "he": "1.5 כפיות תמצית וניל",
+      "item": "vanilla",
+      "amount": 1.5,
+      "unit": "tsp"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Step 1: Mix all ingredients together — ground nuts, butter, sugar, flour, and vanilla — to form a dough.",
+      "Step 2: Shape the dough into small crescent shapes.",
+      "Step 3: Bake at 350°F until brown, approximately 10 minutes."
+    ],
+    "he": [
+      "שלב 1: מערבבים את כל המרכיבים יחד — אגוזים טחונים, חמאה, סוכר, קמח ווניל — עד ליצירת בצק.",
+      "שלב 2: מעצבים את הבצק לצורת סהרונים קטנים.",
+      "שלב 3: אופים בחום 175 מעלות צלזיוס עד להזהבה, כ-10 דקות."
+    ]
+  },
+  "tags": [
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "cookies",
+      "he": "עוגיות"
+    },
+    {
+      "en": "Austrian",
+      "he": "אוסטרי"
+    },
+    {
+      "en": "dairy",
+      "he": "חלבי"
+    }
+  ],
+  "illustration": "illustrations/57c31209-e95a-4970-aa50-bb38f19ad075.webp",
+  "ocrRawText": "Viennese Crescents (Irene's Recipe)\n\n1 cup ground nuts\n1 cup butter\n3/4 cups sugar\n2 1/2 cups flour\n1 1/2 tsp. vanilla\n\n350° until brown — 10 minutes",
+  "selectedModel": "claude",
+  "rankingReason": "Result B is superior because: (1) It provides complete instructions with logical preparation steps (mixing, shaping, baking), while A only has a single baking instruction with missing prep; (2) The recipe is more coherent—B's ingredients and steps form a complete, executable recipe, whereas A lacks any mixing/preparation guidance; (3) B's description is more detailed and descriptive rather than just stating what's missing; (4) B's vanilla amount (1.5 tsp) is more realistic for this quantity of dough than A's 0.5 tsp; (5) B's Hebrew translation is more natural (e.g., 'סהרוני וינה' vs 'סהרונים וינאיים'); (6) B's OCR raw text appears more complete and plausible as a handwritten recipe layout, while A's appears fragmented. Result A explicitly acknowledges missing preparation steps, making B clearly the better extraction."
+}

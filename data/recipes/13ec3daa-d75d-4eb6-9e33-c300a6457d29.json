@@ -1,0 +1,93 @@
+{
+  "id": "13ec3daa-d75d-4eb6-9e33-c300a6457d29",
+  "slug": "coconut-custard-pie",
+  "source": {
+    "scanFiles": [
+      "scans/13ec3daa-d75d-4eb6-9e33-c300a6457d29-0.jpg"
+    ],
+    "processedAt": "2026-03-19T18:07:36.401Z"
+  },
+  "title": {
+    "en": "Coconut Custard Pie",
+    "he": "פאי קסטרד קוקוס"
+  },
+  "description": {
+    "en": "A coconut custard pie made with Ann Page coconut custard pie filling and Durkee's shredded coconut, topped with browned coconut. Recipe attributed to Bob.",
+    "he": "פאי קסטרד קוקוס העשוי ממילוי פאי קסטרד קוקוס של Ann Page וקוקוס מגורד של Durkee's, מצופה בקוקוס מוזהב. המתכון מיוחס לבוב."
+  },
+  "ingredients": [
+    {
+      "en": "Ann Page coconut custard pie filling",
+      "he": "מילוי פאי קסטרד קוקוס של Ann Page",
+      "item": "coconut custard pie filling"
+    },
+    {
+      "en": "Durkee's shredded coconut",
+      "he": "קוקוס מגורד של Durkee's",
+      "item": "shredded coconut"
+    },
+    {
+      "en": "2 egg yolks",
+      "he": "2 חלמונים",
+      "item": "egg yolks",
+      "amount": 2,
+      "unit": "piece"
+    },
+    {
+      "en": "1/2 pkg coconut",
+      "he": "1/2 חבילת קוקוס",
+      "item": "coconut",
+      "amount": 0.5,
+      "unit": "pkg"
+    },
+    {
+      "en": "Pie crust",
+      "he": "בצק פאי",
+      "item": "pie crust"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Step 1: Follow directions on box; add 2 egg yolks.",
+      "Step 2: Add 1/2 pkg coconut.",
+      "Step 3: Pour in and let set.",
+      "Step 4: Brown rest of coconut.",
+      "Step 5: Put filling in pie crust and sprinkle browned coconut on top.",
+      "Step 6: Refrigerate."
+    ],
+    "he": [
+      "שלב 1: עקבו אחרי ההוראות שעל הקופסה; הוסיפו 2 חלמונים.",
+      "שלב 2: הוסיפו 1/2 חבילת קוקוס.",
+      "שלב 3: יצקו פנימה ותנו לקרוש.",
+      "שלב 4: הזהיבו את שאר הקוקוס.",
+      "שלב 5: שימו את המילוי בתוך בצק הפאי ופזרו קוקוס מוזהב מעל.",
+      "שלב 6: הכניסו למקרר."
+    ]
+  },
+  "tags": [
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "pie",
+      "he": "פאי"
+    },
+    {
+      "en": "american",
+      "he": "אמריקאי"
+    },
+    {
+      "en": "dairy",
+      "he": "חלבי"
+    },
+    {
+      "en": "coconut",
+      "he": "קוקוס"
+    }
+  ],
+  "illustration": "illustrations/13ec3daa-d75d-4eb6-9e33-c300a6457d29.webp",
+  "ocrRawText": "Bob\nCoconut Custard Pie\nAnn Page Coconut Custard Pie Filling\nDurkee's shredded Coconut\nFollow directions on box; add\n2 egg yolks. add 1/2 pkg\ncoconut. Pour in~ let set.\nBrown rest of coconut. Put\nfilling in pie crust & sprinkle\nbrowned coconut on top -\nrefrigerate.",
+  "selectedModel": "claude",
+  "rankingReason": "Result B is more accurate and coherent. It correctly identifies specific brand names (Ann Page, Durkee's) from the handwriting, making it more faithful to the original document. The instructions are clearer and more logically sequenced (\"Pour in~ let set\" makes more sense than the confusing meringue instructions in A). Result A incorrectly interprets the recipe and includes a meringue step that contradicts using a pre-made pie filling, while B correctly recognizes this is a simplified recipe using convenience products. The OCR raw text in B is also more faithful to typical handwriting (including the tilde in \"Pour in~\"), and the ingredient measurements are more precise (0.5 pkg vs vague divisions)."
+}

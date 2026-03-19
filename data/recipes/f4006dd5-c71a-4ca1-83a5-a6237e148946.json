@@ -1,0 +1,97 @@
+{
+  "id": "f4006dd5-c71a-4ca1-83a5-a6237e148946",
+  "slug": "cherry-topped-cheese-pie",
+  "source": {
+    "scanFiles": [
+      "scans/f4006dd5-c71a-4ca1-83a5-a6237e148946-0.jpg"
+    ],
+    "processedAt": "2026-03-19T18:11:50.371Z"
+  },
+  "title": {
+    "en": "Cherry Topped Cheese Pie",
+    "he": "פאי גבינה עם ציפוי דובדבנים"
+  },
+  "description": {
+    "en": "A no-bake cherry topped cheesecake pie with a graham cracker crust, cream cheese filling, and Cool Whip, topped with canned cherry pie filling.",
+    "he": "פאי גבינה ללא אפייה עם בסיס של בסקוויטים, מילוי גבינת שמנת וקצפת, מצופה במילוי פאי דובדבנים משומר."
+  },
+  "ingredients": [
+    {
+      "en": "1 8oz pkg softened cream cheese",
+      "he": "1 חבילת גבינת שמנת (225 גרם) מרוככת",
+      "item": "cream cheese",
+      "amount": 8,
+      "unit": "oz"
+    },
+    {
+      "en": "1/3 cup sugar",
+      "he": "1/3 כוס סוכר",
+      "item": "sugar",
+      "amount": 0.33,
+      "unit": "cup"
+    },
+    {
+      "en": "4 1/2 oz Cool Whip",
+      "he": "4.5 אונקיות קצפת מוקצפת (קול וויפ)",
+      "item": "Cool Whip",
+      "amount": 4.5,
+      "unit": "oz"
+    },
+    {
+      "en": "1 unbaked 9\" graham cracker crust",
+      "he": "1 בסיס פאי בסקוויטים 9 אינץ' (ללא אפייה)",
+      "item": "graham cracker crust",
+      "amount": 1,
+      "unit": "piece"
+    },
+    {
+      "en": "1 can canned cherry pie filling",
+      "he": "1 פחית מילוי פאי דובדבנים",
+      "item": "cherry pie filling",
+      "amount": 1,
+      "unit": "can"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Beat together 1 8oz pkg softened cream cheese and 1/3 cup sugar until creamy.",
+      "Blend in 4 1/2 oz Cool Whip.",
+      "Pour into unbaked 9\" graham cracker crust.",
+      "Top with 1 can canned cherry pie filling.",
+      "Chill for 3 hours and serve."
+    ],
+    "he": [
+      "להקציף יחד חבילת גבינת שמנת (225 גרם) מרוככת עם 1/3 כוס סוכר עד לקבלת תערובת חלקה וקרמית.",
+      "לערבב פנימה 4.5 אונקיות קצפת מוקצפת (קול וויפ).",
+      "לשפוך לתוך בסיס פאי בסקוויטים 9 אינץ' (ללא אפייה).",
+      "לכסות עם פחית מילוי פאי דובדבנים.",
+      "לצנן במקרר למשך 3 שעות ולהגיש."
+    ]
+  },
+  "tags": [
+    {
+      "en": "dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "no-bake",
+      "he": "ללא אפייה"
+    },
+    {
+      "en": "american",
+      "he": "אמריקאי"
+    },
+    {
+      "en": "dairy",
+      "he": "חלבי"
+    },
+    {
+      "en": "pie",
+      "he": "פאי"
+    }
+  ],
+  "illustration": "illustrations/f4006dd5-c71a-4ca1-83a5-a6237e148946.webp",
+  "ocrRawText": "Cherry Topped Cheese Pie\nBeat together 1 8oz pkg.\nsoftened cream cheese & 1/3 cup\nsugar until creamy. Blend in\n4½ oz Cool Whip. Pour into\nunbaked 9\" graham cracker crust.\nTop with 1 can canned cherry pie\nfilling. Chill for 3 hours &\nserve.",
+  "selectedModel": "claude",
+  "rankingReason": "Result B is more accurate and coherent. The OCR raw text in B correctly captures '1/3 cup sugar' and '4½ oz Cool Whip' instead of A's '½ cup sugar' and 'whip 1 cup heavy cream', which are different ingredients. The handwritten recipe clearly specifies Cool Whip (a whipped cream product) not heavy cream that needs whipping - this is a crucial difference for a no-bake recipe. Result B's ingredients list (1/3 cup sugar, Cool Whip instead of heavy cream) and instructions are internally consistent and represent an actual Cherry Topped Cheese Pie recipe. Result A has an ingredient/instruction mismatch: it lists 'heavy cream' to whip but this contradicts the no-bake concept and typical recipes using this name. Result B also includes an additional relevant tag ('pie') and has slightly more natural Hebrew translations."
+}

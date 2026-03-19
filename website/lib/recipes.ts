@@ -56,3 +56,4 @@ export function getRecipeBySlug(slug: string): Recipe | undefined {
 export function getAllSlugs(): string[] {
   return getAllRecipes().map((r) => r.slug);
 }
+

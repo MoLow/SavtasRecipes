@@ -1,0 +1,162 @@
+{
+  "id": "f9cd1731-c9ce-49d7-bb5a-e95757caffc7",
+  "slug": "tofu-burgers-and-meatballs",
+  "source": {
+    "scanFiles": [
+      "scans/f9cd1731-c9ce-49d7-bb5a-e95757caffc7-0.jpg"
+    ],
+    "processedAt": "2026-03-19T18:23:25.846Z"
+  },
+  "title": {
+    "en": "Tofu Burgers and \"Meatballs\"",
+    "he": "המבורגרים ו\"קציצות\" טופו"
+  },
+  "description": {
+    "en": "A vegetarian recipe from the Moosewood Restaurant. Tofu burgers that were popular in the early days of '80s vegetarian cooking. Yields 6 large burgers. Includes a variation for tofu \"meatballs\".",
+    "he": "מתכון צמחוני ממסעדת מוסווד. המבורגרים מטופו שהיו פופולריים בתחילת שנות ה-80 של הבישול הצמחוני. התפוקה: 6 המבורגרים גדולים. כולל וריאציה לקציצות טופו."
+  },
+  "ingredients": [
+    {
+      "en": "1 tablespoon vegetable oil",
+      "he": "1 כף שמן צמחי",
+      "item": "vegetable oil",
+      "amount": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "en": "1 large onion, finely chopped",
+      "he": "1 בצל גדול, קצוץ דק",
+      "item": "onion",
+      "amount": 1,
+      "unit": "large"
+    },
+    {
+      "en": "1 large carrot, grated",
+      "he": "1 גזר גדול, מגורר",
+      "item": "carrot",
+      "amount": 1,
+      "unit": "large"
+    },
+    {
+      "en": "1 green pepper, finely chopped",
+      "he": "1 פלפל ירוק, קצוץ דק",
+      "item": "green pepper",
+      "amount": 1,
+      "unit": "piece"
+    },
+    {
+      "en": "1/2 teaspoon dried basil",
+      "he": "1/2 כפית בזיליקום מיובש",
+      "item": "dried basil",
+      "amount": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "en": "1/4 cup chopped fresh parsley",
+      "he": "1/4 כוס פטרוזיליה טרייה קצוצה",
+      "item": "fresh parsley",
+      "amount": 0.25,
+      "unit": "cup"
+    },
+    {
+      "en": "1 tablespoon Dijon mustard",
+      "he": "1 כף חרדל דיז'ון",
+      "item": "Dijon mustard",
+      "amount": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "en": "1 1/2 tablespoons dark sesame oil",
+      "he": "1.5 כפות שמן שומשום כהה",
+      "item": "dark sesame oil",
+      "amount": 1.5,
+      "unit": "tablespoon"
+    },
+    {
+      "en": "3 tablespoons tamari soy sauce (see Appendix)",
+      "he": "3 כפות רוטב סויה טמרי",
+      "item": "tamari soy sauce",
+      "amount": 3,
+      "unit": "tablespoon"
+    },
+    {
+      "en": "black pepper to taste",
+      "he": "פלפל שחור לפי הטעם",
+      "item": "black pepper"
+    },
+    {
+      "en": "3 cakes of tofu, pressed (see Appendix)",
+      "he": "3 חתיכות טופו, מסוננות",
+      "item": "tofu",
+      "amount": 3,
+      "unit": "cakes"
+    },
+    {
+      "en": "2 large eggs",
+      "he": "2 ביצים גדולות",
+      "item": "eggs",
+      "amount": 2,
+      "unit": "large"
+    },
+    {
+      "en": "1 cup bread crumbs",
+      "he": "1 כוס פירורי לחם",
+      "item": "bread crumbs",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "3/4 cup walnuts, ground or finely chopped",
+      "he": "3/4 כוס אגוזי מלך, טחונים או קצוצים דק",
+      "item": "walnuts",
+      "amount": 0.75,
+      "unit": "cup"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Step 1: Sauté the vegetables and basil in oil until tender, about 10 minutes. In a large bowl, lightly beat the eggs, then add the bread crumbs, walnuts, and remaining ingredients.",
+      "Step 2: Mash the pressed tofu either with a potato masher or your hands and add it to the bowl, along with the sautéed vegetables. Stir well; the mixture should be firm enough to form into patties.",
+      "Step 3: Pat the mixture into 6 large \"burgers.\" Bake on an oiled baking sheet at 375° until golden brown on the outside, but still moist inside, about 30 minutes.",
+      "Step 4: Serve with Russian Dressing (p. 57) or ketchup, tomato slices, lettuce, pickles, chips, and sprouts on whole wheat or rye toast.",
+      "Tofu \"Meatballs\" variation: To the basic burger mix, add the following ingredients — For about 3 dozen balls, add 3 garlic cloves, minced, 1 teaspoon ground fennel seed, 3/4 teaspoon dried oregano, and an additional 1 1/2 teaspoons Dijon mustard. Form 1 1/2-inch balls and bake at 350° on an oiled baking sheet for 20 to 30 minutes."
+    ],
+    "he": [
+      "שלב 1: מטגנים את הירקות והבזיליקום בשמן עד שמתרככים, כ-10 דקות. בקערה גדולה, טורפים קלות את הביצים, ואז מוסיפים את פירורי הלחם, אגוזי המלך ושאר המרכיבים.",
+      "שלב 2: מועכים את הטופו המסונן עם מועך תפוחי אדמה או עם הידיים ומוסיפים לקערה, יחד עם הירקות המוקפצים. מערבבים היטב; התערובת צריכה להיות מוצקה מספיק כדי לעצב קציצות.",
+      "שלב 3: מעצבים את התערובת ל-6 'המבורגרים' גדולים. אופים על תבנית אפייה משומנת ב-375°F (190°C) עד שמוזהבים מבחוץ אך עדיין לחים מבפנים, כ-30 דקות.",
+      "שלב 4: מגישים עם רוטב רוסי או קטשופ, פרוסות עגבנייה, חסה, חמוצים, צ'יפס ונבטים על לחם מחיטה מלאה או שיפון.",
+      "וריאציה לקציצות טופו: לתערובת ההמבורגרים הבסיסית, מוסיפים את המרכיבים הבאים — לכ-3 תריסר כדורים, מוסיפים 3 שיני שום קצוצות, 1 כפית שומר טחון, 3/4 כפית אורגנו מיובש, ו-1.5 כפיות נוספות של חרדל דיז'ון. מעצבים כדורים בקוטר 4 ס\"מ ואופים ב-350°F (175°C) על תבנית אפייה משומנת למשך 20 עד 30 דקות."
+    ]
+  },
+  "tags": [
+    {
+      "en": "vegetarian",
+      "he": "צמחוני"
+    },
+    {
+      "en": "main",
+      "he": "מנה עיקרית"
+    },
+    {
+      "en": "American",
+      "he": "אמריקאי"
+    },
+    {
+      "en": "tofu",
+      "he": "טופו"
+    },
+    {
+      "en": "burgers",
+      "he": "המבורגרים"
+    },
+    {
+      "en": "pareve",
+      "he": "פרווה"
+    }
+  ],
+  "illustration": "illustrations/f9cd1731-c9ce-49d7-bb5a-e95757caffc7.webp",
+  "ocrRawText": "NEAL - HERE ARE TWO RECIPES\nNEW RECIPES FROM MOOSEWOOD RESTAURANT\nTofu Burgers and \"Meatballs\"\nYields 6 large burgers\nTofu burgers may sound like the early days of '80s vegetarian cooking, when\nimitation meat was all the rage. But in fact, these burgers are absolutely\ndelicious and are one of our most popular standard lunch items. We know lots of\nkids who gladly devour tofu burgers and \"meatballs.\"\n\n1 tablespoon vegetable oil\n1 large onion, finely chopped\n1 large carrot, grated\n1 green pepper, finely chopped\n1/2 teaspoon dried basil\n\n1/4 cup chopped fresh parsley\n1 tablespoon Dijon mustard\n1 1/2 tablespoons dark sesame oil\n(see Appendix)\n3 tablespoons tamari soy sauce\nblack pepper to taste\n\n3 cakes of tofu, pressed (see Appendix)\n\n2 large eggs\n1 cup bread crumbs\n3/4 cup walnuts, ground or finely chopped\n\nSauté the vegetables and basil in oil until tender, about 10 minutes. In a\nlarge bowl, lightly beat the eggs, then add the bread crumbs, walnuts, and\nremaining ingredients. Mash the pressed tofu either with a potato masher or\nyour hands and add it to the bowl, along with the sautéed vegetables. Stir well;\nthe mixture should be firm enough to form into patties.\nPat the mixture into 6 large \"burgers.\" Bake on an oiled baking sheet at\n375° until golden brown on the outside, but still moist inside, about 30 minutes.\nServe with Russian Dressing (p. 57) or ketchup, tomato slices, lettuce,\npickles, chips, and sprouts on whole wheat or rye toast.\nTofu \"Meatballs\": For about 3 dozen balls, add the following ingredients\nto the basic burger mix: 3 garlic cloves, minced, 1 teaspoon ground fennel\nseed, 3/4 teaspoon dried oregano, and an additional 1 1/2 teaspoons Dijon\nmustard. Form 1 1/2-inch balls and bake at 350° on an oiled baking sheet for\n20 to 30 minutes.",
+  "selectedModel": "claude",
+  "rankingReason": "Claude selected (only valid result). Gemini returned no result"
+}

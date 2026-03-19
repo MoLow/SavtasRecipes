@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { getAllRecipes, getRecipeBySlug, type Locale } from "@/lib/recipes";
+import { optimizedImage } from "@/lib/image-utils";
 import ScanViewer from "@/components/ScanViewer";
 
 export const dynamicParams = false;
@@ -45,7 +46,7 @@ export default async function RecipeDetail({
                 style={{ boxShadow: "var(--shadow-card-hover)" }}
               >
                 <Image
-                  src={`/${recipe.illustration}`}
+                  src={`/${optimizedImage(recipe.illustration, 800)}`}
                   alt={recipe.title[locale]}
                   fill
                   className="object-cover"

@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback } from "react";
 import { createPortal } from "react-dom";
 import Image from "next/image";
+import { optimizedImage } from "@/lib/image-utils";
 
 interface ScanViewerProps {
   scanFiles: string[];
@@ -92,7 +93,7 @@ export default function ScanViewer({ scanFiles, recipeName }: ScanViewerProps) {
           onClick={(e) => e.stopPropagation()}
         >
           <Image
-            src={`/${scanFiles[openIndex]}`}
+            src={`/${optimizedImage(scanFiles[openIndex], 1200)}`}
             alt={`Scan of ${recipeName}`}
             width={800}
             height={1100}
@@ -122,7 +123,7 @@ export default function ScanViewer({ scanFiles, recipeName }: ScanViewerProps) {
             <div className="bg-white p-2 pb-3 rounded-sm">
               <div className="relative w-28 h-36 sm:w-32 sm:h-40 overflow-hidden">
                 <Image
-                  src={`/${scanFile}`}
+                  src={`/${optimizedImage(scanFile, 400)}`}
                   alt={`Scan page ${i + 1} of ${recipeName}`}
                   fill
                   className="object-cover"

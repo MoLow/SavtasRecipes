@@ -1,0 +1,89 @@
+{
+  "id": "e5719a2b-b8f5-4f73-8fd0-05bb8c722613",
+  "slug": "jam-sticks",
+  "source": {
+    "scanFiles": [
+      "scans/e5719a2b-b8f5-4f73-8fd0-05bb8c722613-0.jpg",
+      "scans/e5719a2b-b8f5-4f73-8fd0-05bb8c722613-1.jpg"
+    ],
+    "processedAt": "2026-03-19T18:14:02.922Z"
+  },
+  "title": {
+    "en": "Jam Sticks",
+    "he": "מקלות ריבה"
+  },
+  "description": {
+    "en": "This recipe for Jam Sticks features a crumbly pastry base and topping with a jam filling. The exact quantity of jam in the main ingredient list is somewhat ambiguous ('1 c + 2 + 1/2 TSP Peach or Apricot Jam'), but a note suggests that 4 recipes require 3 - 18oz jars of jam, implying approximately 1.7 cups of jam per recipe. The recipe also implies the use of sugar, though no specific quantity is listed.",
+    "he": "מתכון זה למקלות ריבה כולל בסיס בצק פירורי וציפוי פירורים עם מילוי ריבה. הכמות המדויקת של הריבה ברשימת המרכיבים הראשית מעט מעורפלת ('1 כוס + 2 + 1/2 כפית ריבת אפרסקים או משמשים'), אך הערה מציינת כי ל-4 מתכונים נדרשות 3 צנצנות ריבה של 18 אונקיות, מה שמרמז על כ-1.7 כוסות ריבה למתכון. המתכון גם מרמז על שימוש בסוכר, אם כי לא מצוינת כמות ספציפית."
+  },
+  "ingredients": [
+    {
+      "en": "1 3/4 cups + 2 tablespoons flour",
+      "he": "1 ו-3/4 כוסות + 2 כפות קמח",
+      "item": "flour",
+      "amount": 1.875,
+      "unit": "cup"
+    },
+    {
+      "en": "1/2 cup + 1 tablespoon margarine",
+      "he": "1/2 כוס + 1 כף מרגרינה",
+      "item": "margarine",
+      "amount": 0.5625,
+      "unit": "cup"
+    },
+    {
+      "en": "1 cup Peach or Apricot Jam",
+      "he": "1 כוס ריבת אפרסקים או משמשים",
+      "item": "Peach or Apricot Jam",
+      "amount": 1,
+      "unit": "cup"
+    },
+    {
+      "en": "Sugar (quantity not specified)",
+      "he": "סוכר (כמות לא מצוינת)",
+      "item": "sugar",
+      "amount": null,
+      "unit": null
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Combine flour + sugar.",
+      "Cut in Marg. with Pastry blender until crumbly.",
+      "Press 1/2 mixture into 9x13 pan.",
+      "Spread carefully with jam.",
+      "Sprinkle remaining crumbly mixture lightly (over).",
+      "Bake 350 for 30 min. or until Top is lightly brown.",
+      "Cool on wire rack.",
+      "Cut into 3\" x 1\" strips."
+    ],
+    "he": [
+      "שלבו קמח + סוכר.",
+      "ערבבו פנימה מרגרינה בעזרת בלנדר בצק עד לקבלת פירורים.",
+      "לחצו חצי מהתערובת לתבנית בגודל 9X13 אינץ'.",
+      "מרחו בזהירות ריבה.",
+      "פזרו קלות את יתרת תערובת הפירורים (מעל).",
+      "אפו ב-350 [מעלות פרנהייט] למשך 30 דקות או עד שהחלק העליון משחים קלות.",
+      "צננו על רשת.",
+      "חתכו לרצועות בגודל 3X1 אינץ'."
+    ]
+  },
+  "tags": [
+    {
+      "en": "Dessert",
+      "he": "קינוח"
+    },
+    {
+      "en": "Baked Goods",
+      "he": "מאפים"
+    },
+    {
+      "en": "American",
+      "he": "אמריקאי"
+    }
+  ],
+  "illustration": "illustrations/e5719a2b-b8f5-4f73-8fd0-05bb8c722613.webp",
+  "ocrRawText": "Jam Sticks\n1 3/4 c + 2 TBS flour\n1/2 c + 1 TBSP Marg.\n1 c + 2 + 1/2 TSP Peach or\nApricot Jam.\nCombine flour + sugar. Cut in Marg. with\nPastry blender until crumbly.\nPress 1/2 mixture into 9x13 pan. Spread\ncarefully with jam. Sprinkle remaining\ncrumbly mixture lightly\n(over).\nBake 350 for 30 min. or until Top\nis lightly brown. Cool on wire\nrack. Cut into 3\" x 1\" strips.\nNote: 1/4 lb brown sugar = 2 1/4 c.\nfor 4 recipes need 3 - 18oz. jars jam",
+  "selectedModel": "gemini",
+  "rankingReason": "Gemini selected (only valid result). Claude returned no result"
+}

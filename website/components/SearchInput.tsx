@@ -7,6 +7,7 @@ import { useRouter } from "next/navigation";
 import type { SearchableRecipe } from "@/lib/search";
 import { createFuse } from "@/lib/search";
 import type { Locale } from "@/lib/recipes";
+import { optimizedImage } from "@/lib/image-utils";
 
 interface SearchInputProps {
   recipes: SearchableRecipe[];
@@ -169,7 +170,7 @@ export default function SearchInput({ recipes, locale, variant = "navbar" }: Sea
             >
               <div className="relative w-10 h-10 rounded-lg overflow-hidden flex-shrink-0">
                 <Image
-                  src={`/${r.illustration}`}
+                  src={`/${optimizedImage(r.illustration, 400)}`}
                   alt={locale === "he" ? r.titleHe : r.titleEn}
                   fill
                   className="object-cover"

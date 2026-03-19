@@ -1,0 +1,100 @@
+{
+  "id": "166f3d4f-d6f9-4561-836e-88bb6cc5d6a7",
+  "slug": "carrot-soup",
+  "source": {
+    "scanFiles": [
+      "scans/166f3d4f-d6f9-4561-836e-88bb6cc5d6a7-0.jpg"
+    ],
+    "processedAt": "2026-03-19T18:20:50.648Z"
+  },
+  "title": {
+    "en": "Carrot Soup",
+    "he": "מרק גזר"
+  },
+  "description": {
+    "en": "A simple creamy carrot soup made with frozen carrots, blended smooth and thickened with flour, seasoned with onion powder.",
+    "he": "מרק גזר קרמי פשוט מגזרים קפואים, מעובד עד לקבלת מרקם חלק ומסומך בקמח, מתובל באבקת בצל."
+  },
+  "ingredients": [
+    {
+      "en": "1 lb pkg frozen carrots",
+      "he": "חבילה של 450 גרם גזרים קפואים",
+      "item": "frozen carrots",
+      "amount": 1,
+      "unit": "lb pkg"
+    },
+    {
+      "en": "Salt",
+      "he": "מלח",
+      "item": "salt"
+    },
+    {
+      "en": "Celery",
+      "he": "סלרי",
+      "item": "celery"
+    },
+    {
+      "en": "Seasonings",
+      "he": "תבלינים",
+      "item": "seasonings"
+    },
+    {
+      "en": "½ cup flour (paste)",
+      "he": "½ כוס קמח (פסטה/רביכה)",
+      "item": "flour",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "en": "2/3 tbsp onion powder",
+      "he": "2/3 כף אבקת בצל",
+      "item": "onion powder",
+      "amount": 0.67,
+      "unit": "tbsp"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Step 1: Boil 1 lb package of frozen carrots with salt, celery, and seasonings.",
+      "Step 2: When tender, run through food processor until smooth.",
+      "Step 3: Add ½ cup flour (paste).",
+      "Step 4: Return to pot.",
+      "Step 5: Add 2/3 tbsp onion powder.",
+      "Step 6: Boil."
+    ],
+    "he": [
+      "שלב 1: להרתיח חבילה של 450 גרם גזרים קפואים עם מלח, סלרי ותבלינים.",
+      "שלב 2: כשהגזרים רכים, להעביר דרך מעבד מזון עד לקבלת מרקם חלק.",
+      "שלב 3: להוסיף ½ כוס קמח (רביכה).",
+      "שלב 4: להחזיר לסיר.",
+      "שלב 5: להוסיף 2/3 כף אבקת בצל.",
+      "שלב 6: להרתיח."
+    ]
+  },
+  "tags": [
+    {
+      "en": "soup",
+      "he": "מרק"
+    },
+    {
+      "en": "vegetarian",
+      "he": "צמחוני"
+    },
+    {
+      "en": "pareve",
+      "he": "פרווה"
+    },
+    {
+      "en": "easy",
+      "he": "קל"
+    },
+    {
+      "en": "ashkenazi",
+      "he": "אשכנזי"
+    }
+  ],
+  "illustration": "illustrations/166f3d4f-d6f9-4561-836e-88bb6cc5d6a7.webp",
+  "ocrRawText": "Carrot Soup\n1lb pkg frozen Carrots\nboil with Salt, celery,\nseasonings. When its\ntender run thru food\nprocessor until smooth.\nAdd ½ cup flour (paste)\nReturn to pot. Add\n2/3 tbsp onion powder.\nBoil.",
+  "selectedModel": "claude",
+  "rankingReason": "Result B has better OCR accuracy (mentions frozen carrots and specific measurements like '½ cup' and '2/3 tbsp' that align with the raw text), more complete and coherent instructions with numbered steps, includes important ingredients like salt and celery that are in the raw text, and provides more detailed tags (ashkenazi, pareve, easy). Result A invents ingredients not in the source (baby carrots instead of frozen) and has less structured instructions, though its Hebrew translation quality is good. B's raw OCR text is more detailed and matches the extracted recipe more faithfully."
+}
