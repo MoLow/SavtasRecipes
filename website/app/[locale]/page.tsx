@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { getAllRecipes, type Locale } from "@/lib/recipes";
 import RecipeCard from "@/components/RecipeCard";
 
@@ -25,20 +26,45 @@ export default async function RecipeGrid({
 
   return (
     <div className="animate-fade-up">
-      {/* Site title */}
-      <div className="text-center pt-4 pb-8">
+      {/* Hero — Savta's portrait & dedication */}
+      <div className="text-center pt-6 pb-10">
+        <div
+          className="relative mx-auto w-32 h-32 sm:w-36 sm:h-36 rounded-full overflow-hidden mb-5"
+          style={{
+            boxShadow:
+              "0 0 0 3px var(--color-bg), 0 0 0 5px var(--color-border-strong), 0 8px 24px rgba(44, 24, 16, 0.12)",
+          }}
+        >
+          <Image
+            src="/savta.jpg"
+            alt="Savta"
+            fill
+            className="object-cover object-top"
+            sizes="144px"
+            priority
+          />
+        </div>
+
         <h1 className="font-display text-3xl sm:text-4xl text-[var(--color-ink)]">
           {isHebrew ? "המתכונים של סבתא" : "Savta\u2019s Recipes"}
         </h1>
+
         <div className="flex items-center justify-center gap-3 mt-3">
           <span className="h-px w-12 bg-[var(--color-border-strong)]" />
           <span className="text-[var(--color-accent)] text-xs">{"\u25C6"}</span>
           <span className="h-px w-12 bg-[var(--color-border-strong)]" />
         </div>
-        <p className="text-[var(--color-ink-secondary)] text-sm mt-3 font-body">
+
+        <p className="text-[var(--color-ink-secondary)] text-sm mt-3 max-w-md mx-auto leading-relaxed">
           {isHebrew
             ? "מתכונים בכתב יד, שעברו דיגיטציה ותורגמו"
             : "Handwritten recipes, digitized & translated"}
+        </p>
+
+        <p className="text-[var(--color-ink-tertiary)] text-xs font-mono mt-4">
+          {isHebrew
+            ? "בזכות ניל אטלו וסטיוארט אטלו"
+            : "Thanks to Neal Atlow & Stuart Atlow"}
         </p>
       </div>
 
