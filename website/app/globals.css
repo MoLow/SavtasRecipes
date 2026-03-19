@@ -63,6 +63,7 @@ a, button, input, select, textarea, [role="button"] {
   touch-action: manipulation;
 }
 
+
 /* All elements inherit body font */
 input, button, textarea, select {
   font-family: inherit;
@@ -93,6 +94,16 @@ input, button, textarea, select {
 @keyframes fade-in {
   from { opacity: 0; }
   to { opacity: 1; }
+}
+
+@keyframes scanSlideFromRight {
+  from { transform: translateX(35%); opacity: 0.3; }
+  to   { transform: translateX(0);   opacity: 1; }
+}
+
+@keyframes scanSlideFromLeft {
+  from { transform: translateX(-35%); opacity: 0.3; }
+  to   { transform: translateX(0);    opacity: 1; }
 }
 
 @keyframes card-enter {

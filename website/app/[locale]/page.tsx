@@ -1,6 +1,31 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import { getAllRecipes, type Locale } from "@/lib/recipes";
 import RecipeCard from "@/components/RecipeCard";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const isHebrew = locale === "he";
+  const title = isHebrew ? "המתכונים של סבתא" : "Savta's Recipes";
+  const description = isHebrew
+    ? "מתכונים בכתב יד, שעברו דיגיטציה ותורגמו"
+    : "Grandmother's handwritten recipes, digitized and translated";
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url: `/${locale}`,
+      locale: isHebrew ? "he_IL" : "en_US",
+      images: [{ url: "/savta.jpg", width: 400, height: 400 }],
+    },
+  };
+}
 
 export default async function RecipeGrid({
   params,

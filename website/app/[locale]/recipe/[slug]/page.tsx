@@ -1,7 +1,40 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import { getAllRecipes, getRecipeBySlug, type Locale } from "@/lib/recipes";
 import { optimizedImage } from "@/lib/image-utils";
 import ScanViewer from "@/components/ScanViewer";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string; slug: string }>;
+}): Promise<Metadata> {
+  const { locale: localeParam, slug } = await params;
+  const locale = localeParam as Locale;
+  const recipe = getRecipeBySlug(slug);
+  if (!recipe) return {};
+  const title = recipe.title[locale];
+  const description = recipe.description[locale];
+  const imageUrl = `/${recipe.illustration}`;
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      type: "article",
+      url: `/${locale}/recipe/${slug}`,
+      locale: locale === "he" ? "he_IL" : "en_US",
+      images: [{ url: imageUrl, width: 800, height: 1000, alt: title }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [imageUrl],
+    },
+  };
+}
 
 export const dynamicParams = false;
 

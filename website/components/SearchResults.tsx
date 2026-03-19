@@ -70,13 +70,12 @@ export default function SearchResults({ recipes, locale }: SearchResultsProps) {
             <Link
               key={r.slug}
               href={`/${locale}/recipe/${r.slug}`}
-              className="group relative aspect-square rounded-xl animate-card-enter cursor-pointer"
+              className="group relative aspect-square rounded-xl overflow-hidden animate-card-enter cursor-pointer"
               style={{
                 animationDelay: `${i * 50}ms`,
                 boxShadow: "var(--shadow-card)",
               }}
             >
-              <div className="absolute inset-0 rounded-xl overflow-hidden">
               <Image
                 src={`/${optimizedImage(r.illustration, 400)}`}
                 alt={locale === "he" ? r.titleHe : r.titleEn}
@@ -98,7 +97,6 @@ export default function SearchResults({ recipes, locale }: SearchResultsProps) {
                 <p className="text-[10px] sm:text-xs text-[var(--color-ink-tertiary)] truncate mt-0.5">
                   {(locale === "he" ? r.tagsHe : r.tagsEn).slice(0, 3).join(" \u00b7 ")}
                 </p>
-              </div>
               </div>
             </Link>
           ))}
