@@ -23,7 +23,7 @@ export default function RecipeCard({
   return (
     <Link
       href={`/${locale}/recipe/${slug}`}
-      className="group relative aspect-square rounded-xl overflow-hidden animate-card-enter"
+      className="group relative aspect-square rounded-xl overflow-hidden animate-card-enter cursor-pointer"
       style={{
         animationDelay: `${index * 50}ms`,
         boxShadow: "var(--shadow-card)",
@@ -33,7 +33,7 @@ export default function RecipeCard({
         src={`/${optimizedImage(illustration, 400)}`}
         alt={title[locale]}
         fill
-        className="object-cover transition-transform duration-500 ease-out group-hover:scale-[1.04]"
+        className="object-cover transition-transform duration-500 ease-out [@media(hover:hover)]:group-hover:scale-[1.04]"
         sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
       />
 
@@ -58,7 +58,7 @@ export default function RecipeCard({
 
       {/* Hover lift effect */}
       <div
-        className="absolute inset-0 transition-shadow duration-300 rounded-xl group-hover:shadow-[var(--shadow-card-hover)]"
+        className="absolute inset-0 transition-shadow duration-300 rounded-xl [@media(hover:hover)]:group-hover:shadow-[var(--shadow-card-hover)]"
         style={{ pointerEvents: "none" }}
       />
     </Link>

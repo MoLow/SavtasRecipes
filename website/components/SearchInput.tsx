@@ -165,7 +165,7 @@ export default function SearchInput({ recipes, locale, variant = "navbar" }: Sea
               className={`flex items-center gap-3 px-4 py-3 transition-colors ${
                 activeIndex === i
                   ? "bg-[var(--color-bg-recessed)]"
-                  : "hover:bg-[var(--color-bg-recessed)]"
+                  : "[@media(hover:hover)]:hover:bg-[var(--color-bg-recessed)]"
               }`}
             >
               <div className="relative w-10 h-10 rounded-lg overflow-hidden flex-shrink-0">
@@ -198,7 +198,7 @@ export default function SearchInput({ recipes, locale, variant = "navbar" }: Sea
             className={`block px-4 py-2.5 text-xs text-[var(--color-accent)] transition-colors border-t border-[var(--color-border)] text-center ${
               activeIndex === results.length
                 ? "bg-[var(--color-accent-light)]"
-                : "hover:bg-[var(--color-accent-light)]"
+                : "[@media(hover:hover)]:hover:bg-[var(--color-accent-light)]"
             }`}
           >
             {locale === "he" ? "→ כל התוצאות" : "All results →"}

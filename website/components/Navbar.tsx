@@ -26,7 +26,7 @@ export default function Navbar({ locale }: NavbarProps) {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between gap-2 sm:gap-4">
         <Link
           href={`/${locale}`}
-          className="font-semibold text-lg text-[var(--color-ink)] hover:text-[var(--color-accent)] transition-colors flex-shrink-0"
+          className="font-semibold text-lg text-[var(--color-ink)] [@media(hover:hover)]:hover:text-[var(--color-accent)] transition-colors flex-shrink-0"
         >
           {isHebrew ? "המתכונים של סבתא" : "Savta\u2019s Recipes"}
         </Link>
@@ -39,13 +39,13 @@ export default function Navbar({ locale }: NavbarProps) {
           {/* About — text on desktop, icon on mobile */}
           <Link
             href={`/${locale}/about`}
-            className="hidden sm:inline text-xs text-[var(--color-ink-tertiary)] hover:text-[var(--color-accent)] transition-colors"
+            className="hidden sm:inline text-xs text-[var(--color-ink-tertiary)] [@media(hover:hover)]:hover:text-[var(--color-accent)] transition-colors"
           >
             {isHebrew ? "איך זה עובד" : "How It Works"}
           </Link>
           <Link
             href={`/${locale}/about`}
-            className="sm:hidden p-2 min-w-[44px] min-h-[44px] flex items-center justify-center rounded-full hover:bg-[var(--color-bg-recessed)] transition-colors"
+            className="sm:hidden p-2 min-w-[44px] min-h-[44px] flex items-center justify-center rounded-full [@media(hover:hover)]:hover:bg-[var(--color-bg-recessed)] transition-colors"
             aria-label={isHebrew ? "איך זה עובד" : "How It Works"}
           >
             <svg
@@ -64,7 +64,7 @@ export default function Navbar({ locale }: NavbarProps) {
           {/* Search — icon on mobile only */}
           <Link
             href={`/${locale}/search`}
-            className="sm:hidden p-2 min-w-[44px] min-h-[44px] flex items-center justify-center rounded-full hover:bg-[var(--color-bg-recessed)] transition-colors"
+            className="sm:hidden p-2 min-w-[44px] min-h-[44px] flex items-center justify-center rounded-full [@media(hover:hover)]:hover:bg-[var(--color-bg-recessed)] transition-colors"
             aria-label={isHebrew ? "חיפוש" : "Search"}
           >
             <svg

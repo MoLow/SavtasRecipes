@@ -26,7 +26,7 @@ export default function LanguageToggle({ currentLocale }: LanguageToggleProps) {
         className={`px-3.5 py-1.5 sm:px-3 sm:py-1 rounded-full text-xs transition-all duration-200 ${
           currentLocale === "en"
             ? "bg-[var(--color-bg-elevated)] text-[var(--color-ink)] shadow-sm"
-            : "text-[var(--color-ink-tertiary)] hover:text-[var(--color-ink-secondary)]"
+            : "text-[var(--color-ink-tertiary)] [@media(hover:hover)]:hover:text-[var(--color-ink-secondary)]"
         }`}
       >
         EN
@@ -37,7 +37,7 @@ export default function LanguageToggle({ currentLocale }: LanguageToggleProps) {
         className={`px-3.5 py-1.5 sm:px-3 sm:py-1 rounded-full text-xs transition-all duration-200 ${
           currentLocale === "he"
             ? "bg-[var(--color-bg-elevated)] text-[var(--color-ink)] shadow-sm"
-            : "text-[var(--color-ink-tertiary)] hover:text-[var(--color-ink-secondary)]"
+            : "text-[var(--color-ink-tertiary)] [@media(hover:hover)]:hover:text-[var(--color-ink-secondary)]"
         }`}
       >
         עב
