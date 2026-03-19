@@ -1,14 +1,23 @@
+"use client";
+
+import { useEffect } from "react";
+
 export default function HomePage() {
+  useEffect(() => {
+    const saved = localStorage.getItem("locale");
+    if (saved === "he" || saved === "en") {
+      window.location.replace(`/${saved}`);
+      return;
+    }
+
+    const browserLang = navigator.language || "";
+    const locale = browserLang.startsWith("he") ? "he" : "en";
+    window.location.replace(`/${locale}`);
+  }, []);
+
   return (
-    <html>
-      <head>
-        <meta httpEquiv="refresh" content="0;url=/en" />
-      </head>
-      <body>
-        <p style={{ fontFamily: "Georgia, serif", color: "#6B5B4E", padding: "2rem" }}>
-          Redirecting...
-        </p>
-      </body>
-    </html>
+    <noscript>
+      <meta httpEquiv="refresh" content="0;url=/en" />
+    </noscript>
   );
 }

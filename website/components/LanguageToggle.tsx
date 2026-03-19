@@ -22,6 +22,7 @@ export default function LanguageToggle({ currentLocale }: LanguageToggleProps) {
     >
       <Link
         href={getPath("en")}
+        onClick={() => localStorage.setItem("locale", "en")}
         className={`px-3 py-1 rounded-full text-xs transition-all duration-200 ${
           currentLocale === "en"
             ? "bg-[var(--color-bg-elevated)] text-[var(--color-ink)] shadow-sm"
@@ -32,6 +33,7 @@ export default function LanguageToggle({ currentLocale }: LanguageToggleProps) {
       </Link>
       <Link
         href={getPath("he")}
+        onClick={() => localStorage.setItem("locale", "he")}
         className={`px-3 py-1 rounded-full text-xs transition-all duration-200 ${
           currentLocale === "he"
             ? "bg-[var(--color-bg-elevated)] text-[var(--color-ink)] shadow-sm"
