@@ -49,23 +49,21 @@ jobs:
 
       - name: Sync to S3
         run: |
+          # Static assets (long cache)
           aws s3 sync website/out/ s3://recipes.atlow.co.il \
             --delete \
             --cache-control "public, max-age=31536000, immutable" \
             --exclude "*.html" \
             --exclude "*.json"
-          # HTML and JSON get shorter cache (for content updates)
+          # HTML files (short cache)
           aws s3 sync website/out/ s3://recipes.atlow.co.il \
-            --delete \
             --cache-control "public, max-age=60, s-maxage=3600" \
-            --include "*.html" \
-            --include "*.json" \
             --exclude "*" \
+            --include "*.html" \
             --content-type "text/html" \
             --no-guess-mime-type
-          # Fix JSON content type
+          # JSON files (short cache)
           aws s3 sync website/out/ s3://recipes.atlow.co.il \
-            --delete \
             --cache-control "public, max-age=60, s-maxage=3600" \
             --exclude "*" \
             --include "*.json" \
