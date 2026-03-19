@@ -39,12 +39,21 @@ Resources:
       PolicyDocument:
         Version: "2012-10-17"
         Statement:
-          - Sid: AllowCloudFrontServicePrincipal
+          - Sid: AllowCloudFrontGetObject
             Effect: Allow
             Principal:
               Service: cloudfront.amazonaws.com
             Action: s3:GetObject
             Resource: !Sub "${WebsiteBucket.Arn}/*"
+            Condition:
+              StringEquals:
+                "AWS:SourceArn": !Sub "arn:aws:cloudfront::${AWS::AccountId}:distribution/${CloudFrontDistribution}"
+          - Sid: AllowCloudFrontListBucket
+            Effect: Allow
+            Principal:
+              Service: cloudfront.amazonaws.com
+            Action: s3:ListBucket
+            Resource: !GetAtt WebsiteBucket.Arn
             Condition:
               StringEquals:
                 "AWS:SourceArn": !Sub "arn:aws:cloudfront::${AWS::AccountId}:distribution/${CloudFrontDistribution}"
@@ -59,27 +68,6 @@ Resources:
         - DomainName: !Ref DomainName
           HostedZoneId: !Ref HostedZoneId
 
-  # ── CloudFront Function (URL rewrite for S3 static hosting) ──
-  UrlRewriteFunction:
-    Type: AWS::CloudFront::Function
-    Properties:
-      Name: !Sub "${AWS::StackName}-url-rewrite"
-      AutoPublish: true
-      FunctionConfig:
-        Comment: "Append index.html to directory-style paths for S3 static hosting"
-        Runtime: cloudfront-js-2.0
-      FunctionCode: |
-        function handler(event) {
-          var request = event.request;
-          var uri = request.uri;
-          if (uri.endsWith('/')) {
-            request.uri += 'index.html';
-          } else if (!uri.includes('.')) {
-            request.uri += '/index.html';
-          }
-          return request;
-        }
-
   # ── CloudFront Distribution ──
   CloudFrontDistribution:
     Type: AWS::CloudFront::Distribution
@@ -93,16 +81,12 @@ Resources:
           - Id: S3Origin
             DomainName: !GetAtt WebsiteBucket.RegionalDomainName
             OriginAccessControlId: !Ref CloudFrontOAC
-            S3OriginConfig:
-              OriginAccessIdentity: ""
+            S3OriginConfig: {}
         DefaultCacheBehavior:
           TargetOriginId: S3Origin
           ViewerProtocolPolicy: redirect-to-https
           CachePolicyId: 658327ea-f89d-4fab-a63d-7e88639e58f6 # CachingOptimized
           Compress: true
-          FunctionAssociations:
-            - EventType: viewer-request
-              FunctionARN: !GetAtt UrlRewriteFunction.FunctionARN
         # SPA fallback: serve index.html for 404s (Next.js static export)
         CustomErrorResponses:
           - ErrorCode: 403
