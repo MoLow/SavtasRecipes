@@ -143,8 +143,8 @@ export default async function AboutPage({
       <Section title={isHebrew ? "תודות" : "Credits"} last>
         <P locale={locale}>
           {{
-            en: "Recipe scans provided by Neal Atlow and Stuart Atlow. Built with Claude Code by Moshe Atlow.",
-            he: "סריקות המתכונים סופקו על ידי ניל אטלו ושבתי אטלו. נבנה עם Claude Code על ידי משה אטלו.",
+            en: "Recipe scans provided by Neal Atlow and Stuart Atlow. Thank you to Roi and Yuval Atlow for helping scan all the photos. Built with Claude Code by Moshe Atlow.",
+            he: "סריקות המתכונים סופקו על ידי ניל אטלו ושבתי אטלו. תודה לרועי ויובל אטלו על העזרה בסריקת כל התמונות. נבנה עם Claude Code על ידי משה אטלו.",
           }}
         </P>
       </Section>
