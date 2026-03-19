@@ -45,5 +45,15 @@ Initial project setup for Savta's Recipes — digitizing 50+ scanned handwritten
 - Created `pipeline/src/skills/ranker.ts` — validates both OCR results with Zod, uses Claude Haiku as judge when both pass
 - Updated `README.md` with project description, tech stack, and "vibe coded with Claude Code" note
 
-### Phase 4: Illustration Skill (in progress)
-- Implementing `pipeline/src/skills/illustrator.ts` using Nano Banana Pro
+### Phase 4: Illustration Skill
+- Created `pipeline/src/skills/illustrator.ts` — sends recipe title + description to Nano Banana Pro (`gemini-3-pro-image-preview`), saves image to `data/illustrations/`
+- Created `prompts/illustrator-system.md` — style prompt for hyper-realistic food photography (top-down, rustic table, warm lighting)
+
+### Phase 5: Processing Agent
+- Created `pipeline/src/agent.ts` — orchestrator that ties all skills together
+- Batch mode: processes all scans in `scans/` directory
+- Single file mode: `npm run process:one -- --file <path>`
+- Idempotent: skips already-processed recipes unless `--force` is passed
+- Runs Gemini and Claude OCR in parallel via `Promise.allSettled`
+- Builds `data/recipes/index.json` manifest after processing
+- Progress logging for each step (OCR → rank → illustrate → write)
