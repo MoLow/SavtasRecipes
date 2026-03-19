@@ -8,7 +8,7 @@ import { rankResults } from "./skills/ranker.ts";
 import { generateIllustration } from "./skills/illustrator.ts";
 import { groupScans } from "./skills/grouper.ts";
 import { recipeSchema, type Recipe } from "./schema.ts";
-import { ensureCompatibleImage } from "./utils/image.ts";
+import { ensureCompatibleImage, exportWebScans } from "./utils/image.ts";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = resolve(__dirname, "../..");
@@ -54,7 +54,7 @@ async function processRecipeGroup(
   const id = randomUUID();
   const scanPaths = scanFilenames.map((f) => resolve(SCANS_DIR, f));
 
-  console.log(`  [1/4] Running dual OCR + translation...`);
+  console.log(`  [1/5] Running dual OCR + translation...`);
 
   // Convert HEIC/TIFF to JPEG if needed
   const compatiblePaths = await Promise.all(scanPaths.map(ensureCompatibleImage));
@@ -77,26 +77,29 @@ async function processRecipeGroup(
     console.warn(`  Claude OCR failed: ${claudeResult.reason}`);
   }
 
-  console.log(`  [2/4] Ranking results...`);
+  console.log(`  [2/5] Ranking results...`);
   const ranking = await rankResults(geminiData, claudeData);
   console.log(
     `  Selected: ${ranking.selectedModel} — ${ranking.rankingReason}`
   );
 
-  console.log(`  [3/4] Generating illustration...`);
+  console.log(`  [3/5] Generating illustration...`);
   const illustrationPath = await generateIllustration(
     id,
     ranking.winner.title.en,
     ranking.winner.description.en
   );
 
-  console.log(`  [4/4] Writing recipe JSON...`);
+  console.log(`  [4/5] Exporting scans for web...`);
+  const webScanPaths = await exportWebScans(id, scanPaths);
+
+  console.log(`  [5/5] Writing recipe JSON...`);
   const slug = slugify(ranking.winner.title.en);
   const recipe: Recipe = {
     id,
     slug,
     source: {
-      scanFiles: scanFilenames.map((f) => `scans/${f}`),
+      scanFiles: webScanPaths,
       processedAt: new Date().toISOString(),
     },
     title: ranking.winner.title,

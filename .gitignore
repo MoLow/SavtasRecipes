@@ -10,8 +10,8 @@ out/
 .env
 .env.local
 
-# Raw scans (too large for git)
-scans/
+# But keep web-exported scans
+!data/scans/
 
 # OS files
 .DS_Store
