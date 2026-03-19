@@ -8,7 +8,6 @@ import { ocrWithGemini } from "./skills/ocr-gemini.ts";
 import { ocrWithClaude } from "./skills/ocr-claude.ts";
 import { rankResults } from "./skills/ranker.ts";
 import { generateIllustration } from "./skills/illustrator.ts";
-import { groupScans } from "./skills/grouper.ts";
 import { recipeSchema, type Recipe } from "./schema.ts";
 import { ensureCompatibleImage, exportWebScans } from "./utils/image.ts";
 
@@ -17,6 +16,7 @@ const ROOT_DIR = resolve(__dirname, "../..");
 const SCANS_DIR = resolve(ROOT_DIR, "scans");
 const RECIPES_DIR = resolve(ROOT_DIR, "data/recipes");
 const PROCESSED_MAP_PATH = resolve(RECIPES_DIR, ".processed.json");
+const SCAN_GROUPS_PATH = resolve(ROOT_DIR, "data/scan-groups.json");
 
 const IMAGE_EXTENSIONS = new Set([".jpg", ".jpeg", ".png", ".webp", ".tiff", ".heic", ".heif"]);
 
@@ -244,9 +244,12 @@ async function main(): Promise<void> {
 
   console.log(`Found ${scanFiles.length} scans (${unprocessed.length} unprocessed).\n`);
 
-  // Group unprocessed scans by recipe
-  const unprocessedPaths = unprocessed.map((f) => resolve(SCANS_DIR, f));
-  const groups = await groupScans(unprocessedPaths);
+  // Load manual scan groups and filter to unprocessed files
+  const unprocessedSet = new Set(unprocessed);
+  const allGroups: string[][] = JSON.parse(readFileSync(SCAN_GROUPS_PATH, "utf-8"));
+  const groups = allGroups.filter((group) =>
+    group.some((f) => unprocessedSet.has(f))
+  );
 
   console.log(`\nProcessing ${groups.length} recipe(s)...\n`);
 
