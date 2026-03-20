@@ -109,17 +109,18 @@ export default function ScanViewer({ scanFiles, recipeName }: ScanViewerProps) {
               <div
                 key={scanFile}
                 className="flex-none w-full h-full flex items-center justify-center px-4 overflow-hidden"
-                onClick={(e) => e.stopPropagation()}
               >
-                <Image
-                  src={`/${optimizedImage(scanFile, 1200)}`}
-                  alt={`Scan of ${recipeName} page ${i + 1}`}
-                  width={800}
-                  height={1100}
-                  className="rounded-lg w-auto"
-                  style={{ maxHeight: "100%", maxWidth: "100%", height: "auto" }}
-                  priority={i === 0}
-                />
+                <div onClick={(e) => e.stopPropagation()} style={{ display: "contents" }}>
+                  <Image
+                    src={`/${optimizedImage(scanFile, 1200)}`}
+                    alt={`Scan of ${recipeName} page ${i + 1}`}
+                    width={800}
+                    height={1100}
+                    className="rounded-lg w-auto"
+                    style={{ maxHeight: "100%", maxWidth: "100%", height: "auto" }}
+                    priority={i === 0}
+                  />
+                </div>
               </div>
             ))}
           </div>
