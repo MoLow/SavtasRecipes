@@ -24,4 +24,5 @@ pipeline/.ai-cache/
 
 # Website optimized images
 data/illustrations/*-*w.*
+data/illustrations/*-og.png
 data/scans/*-*w.*

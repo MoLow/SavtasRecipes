@@ -15,7 +15,9 @@ export async function generateMetadata({
   if (!recipe) return {};
   const title = recipe.title[locale];
   const description = recipe.description[locale];
-  const imageUrl = `/${recipe.illustration}`;
+  // Use PNG illustration for OG — universally supported (WhatsApp, iMessage, etc.)
+  // Generated at prebuild time as [uuid]-og.png
+  const ogImage = `/${recipe.illustration.replace(/\.webp$/, "-og.png")}`;
   return {
     title,
     description,
@@ -25,13 +27,13 @@ export async function generateMetadata({
       type: "article",
       url: `/${locale}/recipe/${slug}`,
       locale: locale === "he" ? "he_IL" : "en_US",
-      images: [{ url: imageUrl, width: 800, height: 1000, alt: title }],
+      images: [{ url: ogImage, width: 1200, height: 1200, alt: title }],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      images: [imageUrl],
+      images: [ogImage],
     },
   };
 }

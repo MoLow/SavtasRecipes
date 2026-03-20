@@ -26,6 +26,7 @@ interface Variant {
   suffix: string;
   width: number;
   quality: number;
+  format?: "webp" | "png";
 }
 
 async function optimizeFile(
@@ -37,16 +38,19 @@ async function optimizeFile(
   let generated = 0;
 
   for (const variant of variants) {
-    const outPath = resolve(outputDir, `${nameBase}${variant.suffix}.webp`);
+    const format = variant.format ?? "webp";
+    const outPath = resolve(outputDir, `${nameBase}${variant.suffix}.${format}`);
 
     if (existsSync(outPath) && !force) {
       continue;
     }
 
-    await sharp(inputPath)
-      .resize(variant.width, undefined, { withoutEnlargement: true })
-      .webp({ quality: variant.quality })
-      .toFile(outPath);
+    const pipeline = sharp(inputPath).resize(variant.width, undefined, { withoutEnlargement: true });
+    if (format === "png") {
+      await pipeline.png({ quality: variant.quality, compressionLevel: 8 }).toFile(outPath);
+    } else {
+      await pipeline.webp({ quality: variant.quality }).toFile(outPath);
+    }
 
     generated++;
   }
@@ -82,6 +86,7 @@ async function main() {
         variants: [
           { suffix: "-400w", width: 400, quality: 80 },
           { suffix: "-800w", width: 800, quality: 80 },
+          { suffix: "-og", width: 1200, quality: 90, format: "png" },
         ],
         label: `illus/${file}`,
       });
