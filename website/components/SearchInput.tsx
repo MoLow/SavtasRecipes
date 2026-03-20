@@ -158,7 +158,7 @@ export default function SearchInput({ recipes, locale, variant = "navbar" }: Sea
               id={`search-item-${i}`}
               ref={(el) => { itemRefs.current[i] = el; }}
               href={`/${locale}/recipe/${r.slug}`}
-              onPointerDown={() => { setIsOpen(false); setQuery(""); }}
+              onClick={() => { setIsOpen(false); setQuery(""); }}
               onPointerEnter={() => setActiveIndex(i)}
               role="option"
               aria-selected={activeIndex === i}
@@ -191,7 +191,7 @@ export default function SearchInput({ recipes, locale, variant = "navbar" }: Sea
             id={`search-item-${results.length}`}
             ref={(el) => { itemRefs.current[results.length] = el; }}
             href={`/${locale}/search${query ? `?q=${encodeURIComponent(query)}` : ""}`}
-            onPointerDown={() => setIsOpen(false)}
+            onClick={() => setIsOpen(false)}
             onPointerEnter={() => setActiveIndex(results.length)}
             role="option"
             aria-selected={activeIndex === results.length}
