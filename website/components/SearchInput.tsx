@@ -64,14 +64,14 @@ export default function SearchInput({ recipes, locale, variant = "navbar" }: Sea
   }, []);
 
   useEffect(() => {
-    function handleClickOutside(e: MouseEvent) {
+    function handleOutside(e: PointerEvent) {
       if (containerRef.current && !containerRef.current.contains(e.target as Node)) {
         setIsOpen(false);
         setActiveIndex(-1);
       }
     }
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
+    document.addEventListener("pointerdown", handleOutside);
+    return () => document.removeEventListener("pointerdown", handleOutside);
   }, []);
 
   // Scroll active item into view
@@ -158,8 +158,8 @@ export default function SearchInput({ recipes, locale, variant = "navbar" }: Sea
               id={`search-item-${i}`}
               ref={(el) => { itemRefs.current[i] = el; }}
               href={`/${locale}/recipe/${r.slug}`}
-              onClick={() => { setIsOpen(false); setQuery(""); }}
-              onMouseEnter={() => setActiveIndex(i)}
+              onPointerDown={() => { setIsOpen(false); setQuery(""); }}
+              onPointerEnter={() => setActiveIndex(i)}
               role="option"
               aria-selected={activeIndex === i}
               className={`flex items-center gap-3 px-4 py-3 transition-colors ${
@@ -191,8 +191,8 @@ export default function SearchInput({ recipes, locale, variant = "navbar" }: Sea
             id={`search-item-${results.length}`}
             ref={(el) => { itemRefs.current[results.length] = el; }}
             href={`/${locale}/search${query ? `?q=${encodeURIComponent(query)}` : ""}`}
-            onClick={() => setIsOpen(false)}
-            onMouseEnter={() => setActiveIndex(results.length)}
+            onPointerDown={() => setIsOpen(false)}
+            onPointerEnter={() => setActiveIndex(results.length)}
             role="option"
             aria-selected={activeIndex === results.length}
             className={`block px-4 py-2.5 text-xs text-[var(--color-accent)] transition-colors border-t border-[var(--color-border)] text-center ${
