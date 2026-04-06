@@ -129,6 +129,11 @@ export default async function RecipeDetail({
                 ? `עובד על ידי ${recipe.selectedModel === "gemini" ? "Gemini" : "Claude"}`
                 : `Processed by ${recipe.selectedModel === "gemini" ? "Gemini" : "Claude"}`}
             </p>
+            {recipe.source.attribution && (
+              <p className="mt-1 text-xs text-[var(--color-ink-tertiary)] text-center italic">
+                {recipe.source.attribution}
+              </p>
+            )}
           </div>
         </div>
       </div>

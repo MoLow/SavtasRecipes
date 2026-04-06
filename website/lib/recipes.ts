@@ -6,7 +6,7 @@ const RECIPES_DIR = resolve(process.cwd(), "../data/recipes");
 export interface Recipe {
   id: string;
   slug: string;
-  source: { scanFiles: string[]; processedAt: string };
+  source: { scanFiles: string[]; processedAt: string; attribution?: string };
   title: { en: string; he: string };
   description: { en: string; he: string };
   ingredients: Array<{
