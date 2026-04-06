@@ -3,6 +3,7 @@ import Image from "next/image";
 import { getAllRecipes, getRecipeBySlug, type Locale } from "@/lib/recipes";
 import { optimizedImage } from "@/lib/image-utils";
 import ScanViewer from "@/components/ScanViewer";
+import BackButton from "@/components/BackButton";
 
 export async function generateMetadata({
   params,
@@ -177,6 +178,8 @@ export default async function RecipeDetail({
           </ol>
         </section>
       </div>
+
+      <BackButton locale={locale} />
     </article>
   );
 }
