@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T22:49:00.524Z",
+  "generatedAt": "2026-04-06T19:24:57.685Z",
   "totalRecipes": 156,
   "recipes": [
     {
@@ -264,37 +264,6 @@
         }
       ],
       "illustration": "illustrations/0e0eca0b-c1a5-4983-ac29-83473c015aa4.webp"
-    },
-    {
-      "id": "0f321a48-4981-405c-a6a1-ddbca686f049",
-      "slug": "sweet-sour-meatballs",
-      "title": {
-        "en": "Sweet & Sour Meatballs",
-        "he": "כדורי בשר חמוץ מתוק"
-      },
-      "tags": [
-        {
-          "en": "meat",
-          "he": "בשרי"
-        },
-        {
-          "en": "main",
-          "he": "מנה עיקרית"
-        },
-        {
-          "en": "american",
-          "he": "אמריקאי"
-        },
-        {
-          "en": "ashkenazi",
-          "he": "אשכנזי"
-        },
-        {
-          "en": "holiday",
-          "he": "חג"
-        }
-      ],
-      "illustration": "illustrations/0f321a48-4981-405c-a6a1-ddbca686f049.webp"
     },
     {
       "id": "1128f48e-24b2-41f3-8a98-4211a22831cb",
@@ -1297,6 +1266,33 @@
         }
       ],
       "illustration": "illustrations/528863b6-ed12-4985-a8a0-b14571ce1312.webp"
+    },
+    {
+      "id": "5489735f-d0bb-4e8f-876b-65d7534186c6",
+      "slug": "sweet-sour-meatballs",
+      "title": {
+        "en": "Sweet & Sour Meatballs",
+        "he": "כדורי בשר חמוץ מתוק"
+      },
+      "tags": [
+        {
+          "en": "meat",
+          "he": "בשרי"
+        },
+        {
+          "en": "main",
+          "he": "מנה עיקרית"
+        },
+        {
+          "en": "american",
+          "he": "אמריקאי"
+        },
+        {
+          "en": "holiday",
+          "he": "חג"
+        }
+      ],
+      "illustration": "illustrations/5489735f-d0bb-4e8f-876b-65d7534186c6.webp"
     },
     {
       "id": "551b5d1b-b3f6-40e7-8403-1147334442b4",

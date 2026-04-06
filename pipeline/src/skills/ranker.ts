@@ -59,13 +59,30 @@ function validate(
 
 export async function rankResults(
   geminiResult: OcrTranslateResult | null,
-  claudeResult: OcrTranslateResult | null
+  claudeResult: OcrTranslateResult | null,
+  preferModel?: "gemini" | "claude"
 ): Promise<RankingResult> {
   const geminiValid = geminiResult ? validate(geminiResult) : null;
   const claudeValid = claudeResult ? validate(claudeResult) : null;
 
   const geminiOk = geminiValid?.valid === true;
   const claudeOk = claudeValid?.valid === true;
+
+  // If a preferred model is specified and its result is valid, use it directly
+  if (preferModel === "claude" && claudeOk) {
+    return {
+      winner: (claudeValid as { valid: true; data: OcrTranslateResult }).data,
+      selectedModel: "claude",
+      rankingReason: "Claude selected (preferred by --prefer-model flag)",
+    };
+  }
+  if (preferModel === "gemini" && geminiOk) {
+    return {
+      winner: (geminiValid as { valid: true; data: OcrTranslateResult }).data,
+      selectedModel: "gemini",
+      rankingReason: "Gemini selected (preferred by --prefer-model flag)",
+    };
+  }
 
   // If only one passes validation, use it
   if (geminiOk && !claudeOk) {

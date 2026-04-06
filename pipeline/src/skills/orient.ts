@@ -51,6 +51,9 @@ export async function detectRotation(imagePath: string): Promise<number> {
           ],
         },
       ],
+      config: {
+        responseMimeType: "application/json",
+      },
     });
 
     let text = response.text?.trim() ?? '{}';
