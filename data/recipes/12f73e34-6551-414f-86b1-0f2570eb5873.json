@@ -26,56 +26,56 @@
     },
     {
       "en": "½ C. finely chopped onion",
-      "he": "½ כוס בצל קצוץ דק",
+      "he": "½ כוס (120 מ\"ל) בצל קצוץ דק",
       "item": "finely chopped onion",
       "amount": 0.5,
       "unit": "cup"
     },
     {
       "en": "½ C. finely chopped green pepper (large)",
-      "he": "½ כוס פלפל ירוק קצוץ דק (גדול)",
+      "he": "½ כוס (120 מ\"ל) פלפל ירוק קצוץ דק (גדול)",
       "item": "finely chopped green pepper",
       "amount": 0.5,
       "unit": "cup"
     },
     {
       "en": "¼ C. butter",
-      "he": "¼ כוס חמאה",
+      "he": "¼ כוס (60 מ\"ל) חמאה",
       "item": "butter",
       "amount": 0.25,
       "unit": "cup"
     },
     {
-      "en": "½ tsp salt",
-      "he": "½ כפית מלח",
+      "en": "½ tsp (3ml) salt",
+      "he": "½ כפית (3 מ\"ל) מלח",
       "item": "salt",
       "amount": 0.5,
       "unit": "teaspoon"
     },
     {
-      "en": "1 tsp sugar",
-      "he": "1 כפית סוכר",
+      "en": "1 tsp (5ml) sugar",
+      "he": "1 כפית (5 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 1,
       "unit": "teaspoon"
     },
     {
-      "en": "½ tsp mustard",
-      "he": "½ כפית חרדל",
+      "en": "½ tsp (3ml) mustard",
+      "he": "½ כפית (3 מ\"ל) חרדל",
       "item": "mustard",
       "amount": 0.5,
       "unit": "teaspoon"
     },
     {
       "en": "1 C. raw rice",
-      "he": "1 כוס אורז לא מבושל",
+      "he": "1 כוס (240 מ\"ל) אורז לא מבושל",
       "item": "raw rice",
       "amount": 1,
       "unit": "cup"
     },
     {
       "en": "1½ C. minute rice",
-      "he": "1½ כוסות אורז מהיר הכנה",
+      "he": "1½ כוסות (360 מ\"ל) אורז מהיר הכנה",
       "item": "minute rice",
       "amount": 1.5,
       "unit": "cup"

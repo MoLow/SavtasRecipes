@@ -24,43 +24,43 @@
       "unit": "can"
     },
     {
-      "en": "1/4 tsp nutmeg",
-      "he": "1/4 כפית אגוז מוסקט",
+      "en": "1/4 tsp (1ml) nutmeg",
+      "he": "1/4 כפית (1 מ\"ל) אגוז מוסקט",
       "item": "nutmeg",
       "amount": 0.25,
       "unit": "tsp"
     },
     {
       "en": "1 C. Bisquick",
-      "he": "1 כוס ביסקוויק",
+      "he": "1 כוס (240 מ\"ל) ביסקוויק",
       "item": "Bisquick",
       "amount": 1,
       "unit": "cup"
     },
     {
       "en": "1/4 C. milk",
-      "he": "1/4 כוס חלב",
+      "he": "1/4 כוס (60 מ\"ל) חלב",
       "item": "milk",
       "amount": 0.25,
       "unit": "cup"
     },
     {
-      "en": "1 Tbsp sugar",
-      "he": "1 כף סוכר",
+      "en": "1 Tbsp (15ml) sugar",
+      "he": "1 כף (15 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 1,
       "unit": "Tbsp"
     },
     {
-      "en": "1 Tbsp marg. softened",
-      "he": "1 כף מרגרינה רכה",
+      "en": "1 Tbsp (15ml) marg. softened",
+      "he": "1 כף (15 מ\"ל) מרגרינה רכה",
       "item": "margarine, softened",
       "amount": 1,
       "unit": "Tbsp"
     },
     {
-      "en": "2 Tbsp slivered nuts",
-      "he": "2 כפות שבבי שקדים",
+      "en": "2 Tbsp (30ml) slivered nuts",
+      "he": "2 כפות (30 מ\"ל) שבבי שקדים",
       "item": "slivered nuts",
       "amount": 2,
       "unit": "Tbsp"

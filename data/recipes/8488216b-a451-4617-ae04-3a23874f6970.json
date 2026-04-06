@@ -17,8 +17,8 @@
   },
   "ingredients": [
     {
-      "en": "1¼ cup chicken broth",
-      "he": "1¼ כוס מרק עוף",
+      "en": "1¼ cup (300ml) chicken broth",
+      "he": "1¼ כוס (300 מ\"ל) מרק עוף",
       "item": "chicken broth",
       "amount": 1.25,
       "unit": "cup"
@@ -38,43 +38,43 @@
       "unit": "whole"
     },
     {
-      "en": "1 cup flour",
-      "he": "1 כוס קמח",
+      "en": "1 cup (240ml) flour",
+      "he": "1 כוס (240 מ\"ל) קמח",
       "item": "flour",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "2 tbs baking powder",
-      "he": "2 כפות אבקת אפייה",
+      "en": "2 tbs (30ml) baking powder",
+      "he": "2 כפות (30 מ\"ל) אבקת אפייה",
       "item": "baking powder",
       "amount": 2,
       "unit": "tbs"
     },
     {
-      "en": "1 stick margarine, melted",
-      "he": "1 חפיסת מרגרינה, מומסת",
+      "en": "1 stick (115g) margarine, melted",
+      "he": "1 חפיסת (115 גרם) מרגרינה, מומסת",
       "item": "margarine",
       "amount": 1,
       "unit": "stick"
     },
     {
-      "en": "1 cup milk",
-      "he": "1 כוס חלב",
+      "en": "1 cup (240ml) milk",
+      "he": "1 כוס (240 מ\"ל) חלב",
       "item": "milk",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "1 tbs pepper",
-      "he": "1 כף פלפל",
+      "en": "1 tbs (15ml) pepper",
+      "he": "1 כף (15 מ\"ל) פלפל",
       "item": "pepper",
       "amount": 1,
       "unit": "tbs"
     },
     {
-      "en": "1 tsp salt",
-      "he": "1 כפית מלח",
+      "en": "1 tsp (5ml) salt",
+      "he": "1 כפית (5 מ\"ל) מלח",
       "item": "salt",
       "amount": 1,
       "unit": "tsp"
@@ -86,14 +86,14 @@
       "Step 2: Mix 1¼ cup chicken broth and 1 can cream of chicken soup to make a sauce.",
       "Step 3: Pour the sauce over the shredded chicken in a baking dish.",
       "Step 4: Prepare the cover: sift together 1 cup flour, 2 tbs baking powder, 1 tbs pepper, and 1 tsp salt. Mix in 1 stick melted margarine and 1 cup milk. Let the batter sit, then pour over the chicken.",
-      "Step 5: Bake at 425°F for 30 minutes."
+      "Step 5: Bake at 425°F (220°C) for 30 minutes."
     ],
     "he": [
       "שלב 1: לבשל עוף שלם במשך 40 דקות, ואז לגרד.",
       "שלב 2: לערבב 1¼ כוס מרק עוף עם פחית מרק עוף מרוכז שמנתי להכנת הרוטב.",
       "שלב 3: לשפוך את הרוטב על העוף המגורד בתבנית אפייה.",
       "שלב 4: להכין את הכיסוי: לנפות יחד 1 כוס קמח, 2 כפות אבקת אפייה, 1 כף פלפל ו-1 כפית מלח. לערבב עם חפיסת מרגרינה מומסת ו-1 כוס חלב. לתת לבלילה לנוח, ואז לשפוך על העוף.",
-      "שלב 5: לאפות ב-425 מעלות פרנהייט (כ-220 מעלות צלזיוס) למשך 30 דקות."
+      "שלב 5: לאפות ב-220°C (425 מעלות פרנהייט) (כ-220 מעלות צלזיוס) למשך 30 דקות."
     ]
   },
   "tags": [

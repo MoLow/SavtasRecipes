@@ -17,29 +17,29 @@
   },
   "ingredients": [
     {
-      "en": "1 lb pkg medium noodles",
+      "en": "1 lb (455g) pkg medium noodles",
       "he": "חבילה של 450 גרם אטריות בינוניות",
       "item": "medium noodles",
       "amount": 1,
       "unit": "lb"
     },
     {
-      "en": "1 lb cottage cheese",
+      "en": "1 lb (455g) cottage cheese",
       "he": "450 גרם גבינת קוטג'",
       "item": "cottage cheese",
       "amount": 1,
       "unit": "lb"
     },
     {
-      "en": "1 pt sour cream",
+      "en": "1 pt (475ml) sour cream",
       "he": "כ-475 מ\"ל שמנת חמוצה",
       "item": "sour cream",
       "amount": 1,
       "unit": "pint"
     },
     {
-      "en": "3½ glasses milk",
-      "he": "3½ כוסות חלב",
+      "en": "3½ glasses (840ml) milk",
+      "he": "3½ כוסות (840 מ\"ל) חלב",
       "item": "milk",
       "amount": 3.5,
       "unit": "glasses"
@@ -64,15 +64,15 @@
       "item": "cinnamon"
     },
     {
-      "en": "1 cup sugar",
-      "he": "1 כוס סוכר",
+      "en": "1 cup (240ml) sugar",
+      "he": "1 כוס (240 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "1 stick margarine",
-      "he": "1 חפיסת מרגרינה",
+      "en": "1 stick (115g) margarine",
+      "he": "1 חפיסת (115 גרם) מרגרינה",
       "item": "margarine",
       "amount": 1,
       "unit": "stick"

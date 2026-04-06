@@ -17,15 +17,15 @@
   },
   "ingredients": [
     {
-      "en": "1/2 lb crisco (1 cup)",
-      "he": "1/2 ליברה קריסקו (1 כוס)",
+      "en": "1/2 lb (225g) crisco (1 cup)",
+      "he": "1/2 ליברה (225 גרם) קריסקו (1 כוס)",
       "item": "crisco",
       "amount": 0.5,
       "unit": "lb"
     },
     {
-      "en": "1/2 pt sour cream",
-      "he": "1/2 פינט שמנת חמוצה",
+      "en": "1/2 pt (235ml) sour cream",
+      "he": "1/2 פינט (235 מ\"ל) שמנת חמוצה",
       "item": "sour cream",
       "amount": 0.5,
       "unit": "pt"
@@ -38,8 +38,8 @@
       "unit": null
     },
     {
-      "en": "3 cups flour",
-      "he": "3 כוסות קמח",
+      "en": "3 cups (720ml) flour",
+      "he": "3 כוסות (720 מ\"ל) קמח",
       "item": "flour",
       "amount": 3,
       "unit": "cups"
@@ -51,14 +51,14 @@
       "Freeze overnight.",
       "Divide dough.",
       "Roll out and fill.",
-      "Bake at 375°F for 1 1/2 hours."
+      "Bake at 375°F (190°C) for 1 1/2 hours."
     ],
     "he": [
       "לערבב את כל המרכיבים ליצירת בצק.",
       "להקפיא למשך לילה.",
       "לחלק את הבצק.",
       "לרדד ולמלא.",
-      "לאפות ב-375 מעלות פרנהייט למשך שעה וחצי."
+      "לאפות ב-190°C (375 מעלות פרנהייט) למשך שעה וחצי."
     ]
   },
   "tags": [

@@ -24,8 +24,8 @@
       "unit": "piece"
     },
     {
-      "en": "3 1/2 cups potato",
-      "he": "3.5 כוסות תפוח אדמה",
+      "en": "3 1/2 cups (840ml) potato",
+      "he": "3.5 כוסות (840 מ\"ל) תפוח אדמה",
       "item": "potato",
       "amount": 3.5,
       "unit": "cup"
@@ -38,8 +38,8 @@
       "unit": "bag"
     },
     {
-      "en": "3 tbs pepper",
-      "he": "3 כפות פלפל",
+      "en": "3 tbs (45ml) pepper",
+      "he": "3 כפות (45 מ\"ל) פלפל",
       "item": "pepper",
       "amount": 3,
       "unit": "tablespoon"
@@ -55,8 +55,8 @@
       "item": "peppers and prunes"
     },
     {
-      "en": "1/2 pt of bake cheese",
-      "he": "1/2 פיינט גבינה לאפייה",
+      "en": "1/2 pt (235ml) of bake cheese",
+      "he": "1/2 פיינט (235 מ\"ל) גבינה לאפייה",
       "item": "bake cheese",
       "amount": 0.5,
       "unit": "pint"

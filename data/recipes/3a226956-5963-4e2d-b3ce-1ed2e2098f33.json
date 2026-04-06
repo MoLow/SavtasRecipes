@@ -18,36 +18,36 @@
   },
   "ingredients": [
     {
-      "en": "3/4 cup margarine",
-      "he": "3/4 כוס מרגרינה",
+      "en": "3/4 cup (180ml) margarine",
+      "he": "3/4 כוס (180 מ\"ל) מרגרינה",
       "item": "margarine",
       "amount": 0.75,
       "unit": "cup"
     },
     {
-      "en": "3 oz Nestle baking chocolate",
-      "he": "3 אונקיות שוקולד אפייה נסטלה",
+      "en": "3 oz (85g) Nestle baking chocolate",
+      "he": "3 אונקיות (85 גרם) שוקולד אפייה נסטלה",
       "item": "Nestle baking chocolate",
       "amount": 3,
       "unit": "oz"
     },
     {
-      "en": "1 1/2 cup sugar",
-      "he": "1 1/2 כוס סוכר",
+      "en": "1 1/2 cup (360ml) sugar",
+      "he": "1 1/2 כוס (360 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 1.5,
       "unit": "cup"
     },
     {
-      "en": "1 1/2 tsp vanilla",
-      "he": "1 1/2 כפית וניל",
+      "en": "1 1/2 tsp (8ml) vanilla",
+      "he": "1 1/2 כפית (8 מ\"ל) וניל",
       "item": "vanilla",
       "amount": 1.5,
       "unit": "tsp"
     },
     {
-      "en": "1/2 tsp salt",
-      "he": "1/2 כפית מלח",
+      "en": "1/2 tsp (3ml) salt",
+      "he": "1/2 כפית (3 מ\"ל) מלח",
       "item": "salt",
       "amount": 0.5,
       "unit": "tsp"
@@ -60,29 +60,29 @@
       "unit": null
     },
     {
-      "en": "1 1/2 cup flour",
-      "he": "1 1/2 כוס קמח",
+      "en": "1 1/2 cup (360ml) flour",
+      "he": "1 1/2 כוס (360 מ\"ל) קמח",
       "item": "flour",
       "amount": 1.5,
       "unit": "cup"
     },
     {
-      "en": "1/2 tsp baking powder",
-      "he": "1/2 כפית אבקת אפייה",
+      "en": "1/2 tsp (3ml) baking powder",
+      "he": "1/2 כפית (3 מ\"ל) אבקת אפייה",
       "item": "baking powder",
       "amount": 0.5,
       "unit": "tsp"
     },
     {
-      "en": "3/4 cup raspberry jam",
-      "he": "3/4 כוס ריבת פטל",
+      "en": "3/4 cup (180ml) raspberry jam",
+      "he": "3/4 כוס (180 מ\"ל) ריבת פטל",
       "item": "raspberry jam",
       "amount": 0.75,
       "unit": "cup"
     },
     {
-      "en": "3/4 cup coconut or chopped walnuts",
-      "he": "3/4 כוס קוקוס או אגוזי מלך קצוצים",
+      "en": "3/4 cup (180ml) coconut or chopped walnuts",
+      "he": "3/4 כוס (180 מ\"ל) קוקוס או אגוזי מלך קצוצים",
       "item": "coconut or chopped walnuts",
       "amount": 0.75,
       "unit": "cup"
@@ -96,7 +96,7 @@
       "Stir in the melted margarine & chocolate & vanilla.",
       "Stir in flour, baking powder & salt.",
       "Turn into greased 9x13 inch pan.",
-      "Bake at 350°F for 25 minutes or until toothpick comes out clean.",
+      "Bake at 350°F (175°C) for 25 minutes or until toothpick comes out clean.",
       "Cool.",
       "While warm, spread with jam.",
       "Sprinkle with coconut or nuts.",

@@ -34,22 +34,22 @@
       "item": "salt"
     },
     {
-      "en": "2 tbs margarine",
-      "he": "2 כפות מרגרינה",
+      "en": "2 tbs (30ml) margarine",
+      "he": "2 כפות (30 מ\"ל) מרגרינה",
       "item": "margarine",
       "amount": 2,
       "unit": "tbs"
     },
     {
-      "en": "1 tbs olive oil",
-      "he": "1 כף שמן זית",
+      "en": "1 tbs (15ml) olive oil",
+      "he": "1 כף (15 מ\"ל) שמן זית",
       "item": "olive oil",
       "amount": 1,
       "unit": "tbs"
     },
     {
-      "en": "1 cup chopped onion",
-      "he": "1 כוס בצל קצוץ",
+      "en": "1 cup (240ml) chopped onion",
+      "he": "1 כוס (240 מ\"ל) בצל קצוץ",
       "item": "onion",
       "amount": 1,
       "unit": "cup"
@@ -74,8 +74,8 @@
       "unit": "large"
     },
     {
-      "en": "1/2 tsp each: dill, marjoram, basil",
-      "he": "1/2 כפית מכל אחד: שמיר, מיורן, בזיליקום",
+      "en": "1/2 tsp (3ml) each: dill, marjoram, basil",
+      "he": "1/2 כפית (3 מ\"ל) מכל אחד: שמיר, מיורן, בזיליקום",
       "item": "dill, marjoram, basil",
       "amount": 0.5,
       "unit": "tsp"
@@ -91,22 +91,22 @@
       "item": "mushrooms"
     },
     {
-      "en": "Optional: 3/4 cup dry white wine",
-      "he": "אופציונלי: 3/4 כוס יין לבן יבש",
+      "en": "Optional: 3/4 cup (180ml) dry white wine",
+      "he": "אופציונלי: 3/4 כוס (180 מ\"ל) יין לבן יבש",
       "item": "dry white wine",
       "amount": 0.75,
       "unit": "cup"
     },
     {
-      "en": "Optional: 1 tbs soy sauce",
-      "he": "אופציונלי: 1 כף רוטב סויה",
+      "en": "Optional: 1 tbs (15ml) soy sauce",
+      "he": "אופציונלי: 1 כף (15 מ\"ל) רוטב סויה",
       "item": "soy sauce",
       "amount": 1,
       "unit": "tbs"
     },
     {
-      "en": "Optional: 1 cup raw or frozen peas",
-      "he": "אופציונלי: 1 כוס אפונה טרייה או קפואה",
+      "en": "Optional: 1 cup (240ml) raw or frozen peas",
+      "he": "אופציונלי: 1 כוס (240 מ\"ל) אפונה טרייה או קפואה",
       "item": "peas",
       "amount": 1,
       "unit": "cup"

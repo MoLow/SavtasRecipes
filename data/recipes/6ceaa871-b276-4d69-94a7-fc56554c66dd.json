@@ -18,22 +18,22 @@
   },
   "ingredients": [
     {
-      "en": "½ cup soft butter or Margarine",
-      "he": "½ כוס חמאה רכה או מרגרינה",
+      "en": "½ cup (120ml) soft butter or Margarine",
+      "he": "½ כוס (120 מ\"ל) חמאה רכה או מרגרינה",
       "item": "soft butter or margarine",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "6 tbsp white sugar",
-      "he": "6 כפות סוכר לבן",
+      "en": "6 tbsp (90ml) white sugar",
+      "he": "6 כפות (90 מ\"ל) סוכר לבן",
       "item": "white sugar",
       "amount": 6,
       "unit": "tbsp"
     },
     {
-      "en": "6 tbsp brown sugar (firmly packed)",
-      "he": "6 כפות סוכר חום (דחוס היטב)",
+      "en": "6 tbsp (90ml) brown sugar (firmly packed)",
+      "he": "6 כפות (90 מ\"ל) סוכר חום (דחוס היטב)",
       "item": "brown sugar (firmly packed)",
       "amount": 6,
       "unit": "tbsp"
@@ -45,15 +45,15 @@
       "amount": 1
     },
     {
-      "en": "1 tsp vanilla",
-      "he": "1 כפית וניל",
+      "en": "1 tsp (5ml) vanilla",
+      "he": "1 כפית (5 מ\"ל) וניל",
       "item": "vanilla",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "¼ cup water",
-      "he": "¼ כוס מים",
+      "en": "¼ cup (60ml) water",
+      "he": "¼ כוס (60 מ\"ל) מים",
       "item": "water",
       "amount": 0.25,
       "unit": "cup"
@@ -65,22 +65,22 @@
       "amount": null
     },
     {
-      "en": "½ tsp baking soda",
-      "he": "½ כפית סודה לשתייה",
+      "en": "½ tsp (3ml) baking soda",
+      "he": "½ כפית (3 מ\"ל) סודה לשתייה",
       "item": "baking soda",
       "amount": 0.5,
       "unit": "tsp"
     },
     {
-      "en": "½ tsp salt",
-      "he": "½ כפית מלח",
+      "en": "½ tsp (3ml) salt",
+      "he": "½ כפית (3 מ\"ל) מלח",
       "item": "salt",
       "amount": 0.5,
       "unit": "tsp"
     },
     {
-      "en": "1 cup nut or 1 cup chocolate chips (or both)",
-      "he": "1 כוס אגוזים או 1 כוס שוקולד צ'יפס (או שניהם)",
+      "en": "1 cup (240ml) nut or 1 cup chocolate chips (or both)",
+      "he": "1 כוס (240 מ\"ל) אגוזים או 1 כוס שוקולד צ'יפס (או שניהם)",
       "item": "nuts or chocolate chips",
       "amount": 1,
       "unit": "cup"
@@ -93,7 +93,7 @@
       "If using nuts, add only 1/4 of them to the mixture.",
       "Spread mixture thinly in a sheet pan.",
       "Sprinkle chocolate chips (and remaining nuts if used) on top.",
-      "Bake at 375°F for 12 minutes.",
+      "Bake at 375°F (190°C) for 12 minutes.",
       "Remove from oven and run a knife through to create a marble effect.",
       "Return to oven and bake for another 12-14 minutes.",
       "Cool and cut into squares. Enjoy."

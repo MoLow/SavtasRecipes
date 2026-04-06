@@ -17,64 +17,64 @@
   },
   "ingredients": [
     {
-      "en": "1/4 lb butter",
-      "he": "1/4 ליברות חמאה",
+      "en": "1/4 lb (115g) butter",
+      "he": "1/4 ליברות (115 גרם) חמאה",
       "item": "butter",
       "amount": 0.25,
       "unit": "lb"
     },
     {
-      "en": "1/4 lb cream cheese",
-      "he": "1/4 ליברות גבינת שמנת",
+      "en": "1/4 lb (115g) cream cheese",
+      "he": "1/4 ליברות (115 גרם) גבינת שמנת",
       "item": "cream cheese",
       "amount": 0.25,
       "unit": "lb"
     },
     {
       "en": "1/2 c Cold Milk",
-      "he": "1/2 כוס חלב קר",
+      "he": "1/2 כוס (120 מ\"ל) חלב קר",
       "item": "cold milk",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "2 tbs SPry",
-      "he": "2 כפות שומן צמחי (ספרי)",
+      "en": "2 tbs (30ml) SPry",
+      "he": "2 כפות (30 מ\"ל) שומן צמחי (ספרי)",
       "item": "shortening (SPry)",
       "amount": 2,
       "unit": "tablespoon"
     },
     {
-      "en": "1 tsp Vanilla",
-      "he": "1 כפית תמצית וניל",
+      "en": "1 tsp (5ml) Vanilla",
+      "he": "1 כפית (5 מ\"ל) תמצית וניל",
       "item": "vanilla",
       "amount": 1,
       "unit": "teaspoon"
     },
     {
-      "en": "5 tbsp Sugar",
-      "he": "5 כפות סוכר",
+      "en": "5 tbsp (75ml) Sugar",
+      "he": "5 כפות (75 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 5,
       "unit": "tablespoon"
     },
     {
       "en": "5 c Flour",
-      "he": "5 כוסות קמח",
+      "he": "5 כוסות (1200 מ\"ל) קמח",
       "item": "flour",
       "amount": 5,
       "unit": "cup"
     },
     {
-      "en": "1 tsp baking powder",
-      "he": "1 כפית אבקת אפייה",
+      "en": "1 tsp (5ml) baking powder",
+      "he": "1 כפית (5 מ\"ל) אבקת אפייה",
       "item": "baking powder",
       "amount": 1,
       "unit": "teaspoon"
     },
     {
-      "en": "1/2 tsp Salt",
-      "he": "1/2 כפית מלח",
+      "en": "1/2 tsp (3ml) Salt",
+      "he": "1/2 כפית (3 מ\"ל) מלח",
       "item": "salt",
       "amount": 0.5,
       "unit": "teaspoon"

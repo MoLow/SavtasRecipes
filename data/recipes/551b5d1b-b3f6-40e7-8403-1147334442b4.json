@@ -32,35 +32,35 @@
     },
     {
       "en": "3 T Margarine",
-      "he": "3 כפות מרגרינה",
+      "he": "3 כפות (45 מ\"ל) מרגרינה",
       "item": "margarine",
       "amount": 3,
       "unit": "tablespoon"
     },
     {
       "en": "1 C Shredded Carrots",
-      "he": "כוס אחת גזר מגורר",
+      "he": "כוס (240 מ\"ל) אחת גזר מגורר",
       "item": "carrots",
       "amount": 1,
       "unit": "cup"
     },
     {
       "en": "1 C Chopped Celery",
-      "he": "כוס אחת סלרי קצוץ",
+      "he": "כוס (240 מ\"ל) אחת סלרי קצוץ",
       "item": "celery",
       "amount": 1,
       "unit": "cup"
     },
     {
       "en": "5-6 C Onion stock or other broth",
-      "he": "5-6 כוסות ציר בצל או ציר אחר",
+      "he": "5-6 כוסות (1320 מ\"ל) ציר בצל או ציר אחר",
       "item": "onion stock or other broth",
       "amount": 5.5,
       "unit": "cup"
     },
     {
       "en": "Garlic (approx 1 tb)",
-      "he": "שום (כף אחת בערך)",
+      "he": "שום (כף (15 מ\"ל) אחת בערך)",
       "item": "garlic",
       "amount": 1,
       "unit": "tablespoon"
@@ -72,7 +72,7 @@
     },
     {
       "en": "1/4 C Lemon juice",
-      "he": "רבע כוס מיץ לימון",
+      "he": "רבע כוס (60 מ\"ל) מיץ לימון",
       "item": "lemon juice",
       "amount": 0.25,
       "unit": "cup"

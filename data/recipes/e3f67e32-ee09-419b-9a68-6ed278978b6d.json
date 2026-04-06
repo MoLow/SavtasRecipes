@@ -17,8 +17,8 @@
   },
   "ingredients": [
     {
-      "en": "1/2 cup oil",
-      "he": "1/2 כוס שמן",
+      "en": "1/2 cup (120ml) oil",
+      "he": "1/2 כוס (120 מ\"ל) שמן",
       "item": "oil",
       "amount": 0.5,
       "unit": "cup"
@@ -31,29 +31,29 @@
       "unit": "whole"
     },
     {
-      "en": "1/2 tsp vanilla",
-      "he": "1/2 כפית וניל",
+      "en": "1/2 tsp (3ml) vanilla",
+      "he": "1/2 כפית (3 מ\"ל) וניל",
       "item": "vanilla",
       "amount": 0.5,
       "unit": "tsp"
     },
     {
-      "en": "1/4 cup + 2 Tbsp sugar",
-      "he": "1/4 כוס + 2 כפות סוכר",
+      "en": "1/4 cup (90ml) + 2 Tbsp sugar",
+      "he": "1/4 כוס (90 מ\"ל) + 2 כפות סוכר",
       "item": "sugar",
       "amount": 0.375,
       "unit": "cup"
     },
     {
-      "en": "1 tsp baking powder",
-      "he": "1 כפית אבקת אפייה",
+      "en": "1 tsp (5ml) baking powder",
+      "he": "1 כפית (5 מ\"ל) אבקת אפייה",
       "item": "baking powder",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "1 1/2 - 2 cups flour",
-      "he": "1.5 - 2 כוסות קמח",
+      "en": "1 1/2 - 2 cups (360ml) flour",
+      "he": "1.5 - 2 כוסות (360 מ\"ל) קמח",
       "item": "flour",
       "amount": 1.5,
       "unit": "cup"
@@ -72,7 +72,7 @@
       "Make small balls about the size of a walnut.",
       "Dip balls in cinnamon and roll into a rope.",
       "Wind rope around itself.",
-      "Bake on ungreased cookie sheet for 10 minutes at 400°F."
+      "Bake on ungreased cookie sheet for 10 minutes at 400°F (205°C)."
     ],
     "he": [
       "לערבב את כל המרכיבים חוץ מהקמח.",

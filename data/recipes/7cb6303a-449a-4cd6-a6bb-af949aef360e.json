@@ -17,8 +17,8 @@
   },
   "ingredients": [
     {
-      "en": "9 lbs. fish (7½ lbs. pike & white fish, 1½ lbs. carp)",
-      "he": "9 פאונד דגים (7.5 פאונד פייק ודג לבן, 1.5 פאונד קרפיון)",
+      "en": "9 lbs. (4085g) fish (7½ lbs. pike & white fish, 1½ lbs. carp)",
+      "he": "9 פאונד (4085 גרם) דגים (7.5 פאונד פייק ודג לבן, 1.5 פאונד קרפיון)",
       "item": "fish (pike, white fish, carp)",
       "amount": 9,
       "unit": "lbs"
@@ -31,8 +31,8 @@
       "unit": "piece"
     },
     {
-      "en": "6 Tbsp. matzoh meal",
-      "he": "6 כפות מצה טחונה",
+      "en": "6 Tbsp. (90ml) matzoh meal",
+      "he": "6 כפות (90 מ\"ל) מצה טחונה",
       "item": "matzoh meal",
       "amount": 6,
       "unit": "Tbsp"
@@ -58,7 +58,7 @@
     },
     {
       "en": "1/2 C. water",
-      "he": "1/2 כוס מים",
+      "he": "1/2 כוס (120 מ\"ל) מים",
       "item": "water",
       "amount": 0.5,
       "unit": "cup"

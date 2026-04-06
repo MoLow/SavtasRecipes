@@ -33,14 +33,14 @@
     },
     {
       "en": "1 Cup Water or Orange juice",
-      "he": "1 כוס מים או מיץ תפוזים",
+      "he": "1 כוס (240 מ\"ל) מים או מיץ תפוזים",
       "item": "Water or Orange juice",
       "amount": 1,
       "unit": "cup"
     },
     {
       "en": "1/2 Cup Oil",
-      "he": "1/2 כוס שמן",
+      "he": "1/2 כוס (120 מ\"ל) שמן",
       "item": "Oil",
       "amount": 0.5,
       "unit": "cup"
@@ -53,15 +53,15 @@
       "unit": null
     },
     {
-      "en": "1 tsp almond extract",
-      "he": "1 כפית תמצית שקדים",
+      "en": "1 tsp (5ml) almond extract",
+      "he": "1 כפית (5 מ\"ל) תמצית שקדים",
       "item": "almond extract",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "1 tsp green food coloring",
-      "he": "1 כפית צבע מאכל ירוק",
+      "en": "1 tsp (5ml) green food coloring",
+      "he": "1 כפית (5 מ\"ל) צבע מאכל ירוק",
       "item": "green food coloring",
       "amount": 1,
       "unit": "tsp"
@@ -79,11 +79,11 @@
       "Mix all ingredients except chocolate syrup in a bowl.",
       "Beat 4 minutes.",
       "Grease & flour Bundt Pan.",
-      "Preheat oven to 350°F.",
+      "Preheat oven to 350°F (175°C).",
       "Pour 2/3 of mixture in pan.",
       "Mix syrup with remaining batter.",
       "Pour on top of other mix.",
-      "Bake 1 hour at 350°F."
+      "Bake 1 hour at 350°F (175°C)."
     ],
     "he": [
       "ערבבו את כל המרכיבים מלבד סירופ השוקולד בקערה.",

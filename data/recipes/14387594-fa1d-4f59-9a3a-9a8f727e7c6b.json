@@ -18,22 +18,22 @@
   },
   "ingredients": [
     {
-      "en": "2 cups canned chick peas - drained and mashed.",
-      "he": "2 כוסות גרגירי חומוס מקופסה - מסוננים ומעוכים.",
+      "en": "2 cups (480ml) canned chick peas - drained and mashed.",
+      "he": "2 כוסות (480 מ\"ל) גרגירי חומוס מקופסה - מסוננים ומעוכים.",
       "item": "canned chick peas",
       "amount": 2,
       "unit": "cups"
     },
     {
-      "en": "1/2 teaspoon salt",
-      "he": "1/2 כפית מלח",
+      "en": "1/2 teaspoon (3ml) salt",
+      "he": "1/2 כפית (3 מ\"ל) מלח",
       "item": "salt",
       "amount": 0.5,
       "unit": "teaspoon"
     },
     {
-      "en": "1/4 teaspoon hot pepper sauce",
-      "he": "1/4 כפית רוטב פלפל חריף",
+      "en": "1/4 teaspoon (1ml) hot pepper sauce",
+      "he": "1/4 כפית (1 מ\"ל) רוטב פלפל חריף",
       "item": "hot pepper sauce",
       "amount": 0.25,
       "unit": "teaspoon"
@@ -46,8 +46,8 @@
       "unit": null
     },
     {
-      "en": "1/4 teaspoon pepper",
-      "he": "1/4 כפית פלפל",
+      "en": "1/4 teaspoon (1ml) pepper",
+      "he": "1/4 כפית (1 מ\"ל) פלפל",
       "item": "pepper",
       "amount": 0.25,
       "unit": "teaspoon"
@@ -60,8 +60,8 @@
       "unit": null
     },
     {
-      "en": "2 tablespoons melted shortening",
-      "he": "2 כפות שומן מומס",
+      "en": "2 tablespoons (30ml) melted shortening",
+      "he": "2 כפות (30 מ\"ל) שומן מומס",
       "item": "melted shortening",
       "amount": 2,
       "unit": "tablespoons"

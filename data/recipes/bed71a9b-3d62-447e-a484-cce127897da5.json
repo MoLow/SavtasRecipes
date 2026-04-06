@@ -24,14 +24,14 @@
       "unit": "pkg"
     },
     {
-      "en": "1 quart buttermilk",
+      "en": "1 quart (945ml) buttermilk",
       "he": "1 ליטר חלב חמאה",
       "item": "buttermilk",
       "amount": 1,
       "unit": "quart"
     },
     {
-      "en": "1 lb carton 2% cottage cheese",
+      "en": "1 lb (455g) carton 2% cottage cheese",
       "he": "חבילת 450 גרם גבינת קוטג' 2%",
       "item": "cottage cheese",
       "amount": 1,
@@ -45,29 +45,29 @@
       "unit": "piece"
     },
     {
-      "en": "1 pt sour cream",
+      "en": "1 pt (475ml) sour cream",
       "he": "1 כוס שמנת חמוצה (חצי ליטר)",
       "item": "sour cream",
       "amount": 1,
       "unit": "pint"
     },
     {
-      "en": "1/2 tsp vanilla",
-      "he": "1/2 כפית תמצית וניל",
+      "en": "1/2 tsp (3ml) vanilla",
+      "he": "1/2 כפית (3 מ\"ל) תמצית וניל",
       "item": "vanilla",
       "amount": 0.5,
       "unit": "tsp"
     },
     {
-      "en": "1/4 lb butter",
+      "en": "1/4 lb (115g) butter",
       "he": "115 גרם חמאה",
       "item": "butter",
       "amount": 0.25,
       "unit": "lb"
     },
     {
-      "en": "1 cup of sugar or less",
-      "he": "1 כוס סוכר או פחות",
+      "en": "1 cup (240ml) of sugar or less",
+      "he": "1 כוס (240 מ\"ל) סוכר או פחות",
       "item": "sugar",
       "amount": 1,
       "unit": "cup"
@@ -77,12 +77,12 @@
     "en": [
       "Step 1: Drain the broad noodles and soak them overnight in 1 quart of buttermilk.",
       "Step 2: Mix in 1 lb carton of 2% cottage cheese, 7 beaten eggs, 1 pint sour cream, 1/2 tsp vanilla, 1/4 lb butter, and 1 cup of sugar (or less to taste).",
-      "Step 3: Bake for 1 1/2 hours at 350°F."
+      "Step 3: Bake for 1 1/2 hours at 350°F (175°C)."
     ],
     "he": [
       "שלב 1: סננו את האטריות הרחבות והשרו אותן לילה ב-1 ליטר חלב חמאה.",
       "שלב 2: ערבבו עם חבילת גבינת קוטג' 2%, 7 ביצים טרופות, חצי ליטר שמנת חמוצה, 1/2 כפית וניל, 115 גרם חמאה וכוס סוכר (או פחות לפי הטעם).",
-      "שלב 3: אפו במשך שעה וחצי בחום 175 מעלות צלזיוס (350°F)."
+      "שלב 3: אפו במשך שעה וחצי בחום 175 מעלות צלזיוס (175°C (350°F))."
     ]
   },
   "tags": [

@@ -18,7 +18,7 @@
   },
   "ingredients": [
     {
-      "en": "6 oz. Chocolate Chips",
+      "en": "6 oz. (170g) Chocolate Chips",
       "he": "170 גרם שבבי שוקולד",
       "item": "Chocolate Chips",
       "amount": 6,
@@ -26,42 +26,42 @@
     },
     {
       "en": "1/2 C Brown sugar",
-      "he": "1/2 כוס סוכר חום",
+      "he": "1/2 כוס (120 מ\"ל) סוכר חום",
       "item": "Brown sugar",
       "amount": 0.5,
       "unit": "cup"
     },
     {
       "en": "1/2 C Chopped nuts",
-      "he": "1/2 כוס אגוזים קצוצים",
+      "he": "1/2 כוס (120 מ\"ל) אגוזים קצוצים",
       "item": "Chopped nuts",
       "amount": 0.5,
       "unit": "cup"
     },
     {
       "en": "1/3 C Granulated sugar",
-      "he": "1/3 כוס סוכר מגורען",
+      "he": "1/3 כוס (80 מ\"ל) סוכר מגורען",
       "item": "Granulated sugar",
       "amount": 0.33,
       "unit": "cup"
     },
     {
       "en": "1/2 C milk",
-      "he": "1/2 כוס חלב",
+      "he": "1/2 כוס (120 מ\"ל) חלב",
       "item": "milk",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "2 tbsp oil",
-      "he": "2 כפות שמן",
+      "en": "2 tbsp (30ml) oil",
+      "he": "2 כפות (30 מ\"ל) שמן",
       "item": "oil",
       "amount": 2,
       "unit": "tbsp"
     },
     {
-      "en": "1 tsp vanilla extract",
-      "he": "1 כפית תמצית וניל",
+      "en": "1 tsp (5ml) vanilla extract",
+      "he": "1 כפית (5 מ\"ל) תמצית וניל",
       "item": "vanilla extract",
       "amount": 1,
       "unit": "tsp"
@@ -75,21 +75,21 @@
     },
     {
       "en": "1/2 C hot water",
-      "he": "1/2 כוס מים חמים",
+      "he": "1/2 כוס (120 מ\"ל) מים חמים",
       "item": "hot water",
       "amount": 0.5,
       "unit": "cup"
     },
     {
       "en": "2/3 C Granulated sugar",
-      "he": "2/3 כוס סוכר מגורען",
+      "he": "2/3 כוס (160 מ\"ל) סוכר מגורען",
       "item": "Granulated sugar",
       "amount": 0.66,
       "unit": "cup"
     },
     {
       "en": "1/3 C Chocolate chips",
-      "he": "1/3 כוס שבבי שוקולד",
+      "he": "1/3 כוס (80 מ\"ל) שבבי שוקולד",
       "item": "Chocolate chips",
       "amount": 0.33,
       "unit": "cup"

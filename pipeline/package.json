@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "process": "node --env-file=.env --experimental-strip-types --no-warnings src/agent.ts",
-    "process:one": "node --env-file=.env --experimental-strip-types --no-warnings src/agent.ts --file"
+    "process:one": "node --env-file=.env --experimental-strip-types --no-warnings src/agent.ts --file",
+    "migrate:metric": "node --experimental-strip-types --no-warnings src/migrate-metric.ts"
   },
   "dependencies": {
     "@anthropic-ai/claude-agent-sdk": "^0.1.0",

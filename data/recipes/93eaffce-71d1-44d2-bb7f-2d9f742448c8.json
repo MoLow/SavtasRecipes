@@ -17,29 +17,29 @@
   },
   "ingredients": [
     {
-      "en": "4 cups shredded Cabbage",
-      "he": "4 כוסות כרוב מגורר",
+      "en": "4 cups (960ml) shredded Cabbage",
+      "he": "4 כוסות (960 מ\"ל) כרוב מגורר",
       "item": "shredded Cabbage",
       "amount": 4,
       "unit": "cups"
     },
     {
-      "en": "2 onions - 2 cups",
-      "he": "2 בצלים - 2 כוסות",
+      "en": "2 onions - 2 cups (480ml)",
+      "he": "2 בצלים - 2 כוסות (480 מ\"ל)",
       "item": "onions",
       "amount": 2,
       "unit": "cups"
     },
     {
-      "en": "3 tbsps oil",
-      "he": "3 כפות שמן",
+      "en": "3 tbsp (45ml)s oil",
+      "he": "3 כפות (45 מ\"ל) שמן",
       "item": "oil",
       "amount": 3,
       "unit": "tbsps"
     },
     {
-      "en": "2 lb canned tomatoes undrained",
-      "he": "2 ליברות עגבניות משומרות לא מסוננות",
+      "en": "2 lb (910g) canned tomatoes undrained",
+      "he": "2 ליברות (910 גרם) עגבניות משומרות לא מסוננות",
       "item": "canned tomatoes undrained",
       "amount": 2,
       "unit": "lb"

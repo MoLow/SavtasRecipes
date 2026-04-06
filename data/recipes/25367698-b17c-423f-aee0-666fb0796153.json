@@ -18,15 +18,15 @@
   },
   "ingredients": [
     {
-      "en": "3/4 cups butter or margarine",
-      "he": "3/4 כוסות חמאה או מרגרינה",
+      "en": "3/4 cups (180ml) butter or margarine",
+      "he": "3/4 כוסות (180 מ\"ל) חמאה או מרגרינה",
       "item": "butter or margarine",
       "amount": 0.75,
       "unit": "cup"
     },
     {
-      "en": "1 and 2/3 cup sugar",
-      "he": "1 ו-2/3 כוס סוכר",
+      "en": "1 and 2/3 cup (400ml) sugar",
+      "he": "1 ו-2/3 כוס (400 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 1.66,
       "unit": "cup"
@@ -39,92 +39,92 @@
       "unit": ""
     },
     {
-      "en": "1 tsp vanilla (for cake)",
-      "he": "1 כפית וניל (לעוגה)",
+      "en": "1 tsp (5ml) vanilla (for cake)",
+      "he": "1 כפית (5 מ\"ל) וניל (לעוגה)",
       "item": "vanilla",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "3/4 cup sour cream",
-      "he": "3/4 כוס שמנת חמוצה",
+      "en": "3/4 cup (180ml) sour cream",
+      "he": "3/4 כוס (180 מ\"ל) שמנת חמוצה",
       "item": "sour cream",
       "amount": 0.75,
       "unit": "cup"
     },
     {
-      "en": "2 cups flour",
-      "he": "2 כוסות קמח",
+      "en": "2 cups (480ml) flour",
+      "he": "2 כוסות (480 מ\"ל) קמח",
       "item": "flour",
       "amount": 2,
       "unit": "cup"
     },
     {
-      "en": "2/3 cup unsweetened cocoa",
-      "he": "2/3 כוס קקאו לא ממותק",
+      "en": "2/3 cup (160ml) unsweetened cocoa",
+      "he": "2/3 כוס (160 מ\"ל) קקאו לא ממותק",
       "item": "unsweetened cocoa",
       "amount": 0.66,
       "unit": "cup"
     },
     {
-      "en": "1 tsp salt",
-      "he": "1 כפית מלח",
+      "en": "1 tsp (5ml) salt",
+      "he": "1 כפית (5 מ\"ל) מלח",
       "item": "salt",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "2 tsp baking soda",
-      "he": "2 כפיות סודה לשתייה",
+      "en": "2 tsp (10ml) baking soda",
+      "he": "2 כפיות (10 מ\"ל) סודה לשתייה",
       "item": "baking soda",
       "amount": 2,
       "unit": "tsp"
     },
     {
-      "en": "1 cup buttermilk or sour milk",
-      "he": "1 כוס רוויון או חלב חמוץ",
+      "en": "1 cup (240ml) buttermilk or sour milk",
+      "he": "1 כוס (240 מ\"ל) רוויון או חלב חמוץ",
       "item": "buttermilk or sour milk",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "2 cups confectioners sugar (for glaze)",
-      "he": "2 כוסות אבקת סוכר (לציפוי)",
+      "en": "2 cups (480ml) confectioners sugar (for glaze)",
+      "he": "2 כוסות (480 מ\"ל) אבקת סוכר (לציפוי)",
       "item": "confectioners sugar",
       "amount": 2,
       "unit": "cup"
     },
     {
-      "en": "1/4 cup melted butter or margarine (for glaze)",
-      "he": "1/4 כוס חמאה או מרגרינה מומסת (לציפוי)",
+      "en": "1/4 cup (60ml) melted butter or margarine (for glaze)",
+      "he": "1/4 כוס (60 מ\"ל) חמאה או מרגרינה מומסת (לציפוי)",
       "item": "melted butter or margarine",
       "amount": 0.25,
       "unit": "cup"
     },
     {
-      "en": "3 tbsps orange juice (for orange glaze)",
-      "he": "3 כפות מיץ תפוזים (לציפוי תפוזים)",
+      "en": "3 tbsp (45ml)s orange juice (for orange glaze)",
+      "he": "3 כפות (45 מ\"ל) מיץ תפוזים (לציפוי תפוזים)",
       "item": "orange juice",
       "amount": 3,
       "unit": "tbsp"
     },
     {
-      "en": "1 tsp vanilla (for glaze)",
-      "he": "1 כפית וניל (לציפוי)",
+      "en": "1 tsp (5ml) vanilla (for glaze)",
+      "he": "1 כפית (5 מ\"ל) וניל (לציפוי)",
       "item": "vanilla",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "1/2 tsp grated orange peel (for orange glaze)",
-      "he": "1/2 כפית קליפת תפוז מגוררת (לציפוי תפוזים)",
+      "en": "1/2 tsp (3ml) grated orange peel (for orange glaze)",
+      "he": "1/2 כפית (3 מ\"ל) קליפת תפוז מגוררת (לציפוי תפוזים)",
       "item": "grated orange peel",
       "amount": 0.5,
       "unit": "tsp"
     },
     {
-      "en": "3 tbsps water (optional, for vanilla glaze instead of orange juice)",
-      "he": "3 כפות מים (אופציונלי, לציפוי וניל במקום מיץ תפוזים)",
+      "en": "3 tbsp (45ml)s water (optional, for vanilla glaze instead of orange juice)",
+      "he": "3 כפות (45 מ\"ל) מים (אופציונלי, לציפוי וניל במקום מיץ תפוזים)",
       "item": "water",
       "amount": 3,
       "unit": "tbsp"
@@ -152,7 +152,7 @@
       "4. הוסיפו את החומרים היבשים (קמח, קקאו לא ממותק, מלח) לסירוגין עם תערובת הרוויון לתערובת המוקרמת.",
       "5. הקציפו במשך 2 דקות במהירות בינונית.",
       "6. שפכו לתבנית בונדט משומנת ומקומחת.",
-      "7. אפו ב-350 מעלות פרנהייט (175 מעלות צלזיוס) למשך 50 דקות.",
+      "7. אפו ב-175°C (350 מעלות פרנהייט) (175 מעלות צלזיוס) למשך 50 דקות.",
       "8. צננו במשך 10 דקות בתבנית, ואז הוציאו וצננו לחלוטין.",
       "9. הכינו את ציפוי התפוזים: ערבבו בקערה קטנה 2 כוסות אבקת סוכר, 1/4 כוס חמאה או מרגרינה מומסת, 3 כפות מיץ תפוזים, 1 כפית וניל ו-1/2 כפית קליפת תפוז מגוררת.",
       "10. הקציפו עד לקבלת תערובת חלקה.",

@@ -31,15 +31,15 @@
       "unit": "piece"
     },
     {
-      "en": "1 cup milk with salmon liquid",
-      "he": "1 כוס חלב עם נוזל הסלמון",
+      "en": "1 cup (240ml) milk with salmon liquid",
+      "he": "1 כוס (240 מ\"ל) חלב עם נוזל הסלמון",
       "item": "milk with salmon liquid",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "1 tbsp melted margarine",
-      "he": "1 כף מרגרינה מומסת",
+      "en": "1 tbsp (15ml) melted margarine",
+      "he": "1 כף (15 מ\"ל) מרגרינה מומסת",
       "item": "margarine",
       "amount": 1,
       "unit": "tbsp"

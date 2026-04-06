@@ -18,43 +18,43 @@
   },
   "ingredients": [
     {
-      "en": "2 cup chopped onion",
-      "he": "2 כוסות בצל קצוץ",
+      "en": "2 cup (480ml) chopped onion",
+      "he": "2 כוסות (480 מ\"ל) בצל קצוץ",
       "item": "onion",
       "amount": 2,
       "unit": "cup"
     },
     {
-      "en": "2 cup chopped green pepper",
-      "he": "2 כוסות פלפל ירוק קצוץ",
+      "en": "2 cup (480ml) chopped green pepper",
+      "he": "2 כוסות (480 מ\"ל) פלפל ירוק קצוץ",
       "item": "green pepper",
       "amount": 2,
       "unit": "cup"
     },
     {
-      "en": "1 cup rice",
-      "he": "1 כוס אורז",
+      "en": "1 cup (240ml) rice",
+      "he": "1 כוס (240 מ\"ל) אורז",
       "item": "rice",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "1 cup water",
-      "he": "1 כוס מים",
+      "en": "1 cup (240ml) water",
+      "he": "1 כוס (240 מ\"ל) מים",
       "item": "water",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "1/2 tsp salt",
-      "he": "1/2 כפית מלח",
+      "en": "1/2 tsp (3ml) salt",
+      "he": "1/2 כפית (3 מ\"ל) מלח",
       "item": "salt",
       "amount": 0.5,
       "unit": "tsp"
     },
     {
-      "en": "1/4 tsp pepper",
-      "he": "1/4 כפית פלפל",
+      "en": "1/4 tsp (1ml) pepper",
+      "he": "1/4 כפית (1 מ\"ל) פלפל",
       "item": "pepper",
       "amount": 0.25,
       "unit": "tsp"

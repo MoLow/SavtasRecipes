@@ -38,8 +38,8 @@
       "unit": "pieces"
     },
     {
-      "en": "1 cup mashed potatoes (leftover)",
-      "he": "1 כוס פירה תפוחי אדמה (שאריות)",
+      "en": "1 cup (240ml) mashed potatoes (leftover)",
+      "he": "1 כוס (240 מ\"ל) פירה תפוחי אדמה (שאריות)",
       "item": "mashed potatoes",
       "amount": 1,
       "unit": "cup"
@@ -50,8 +50,8 @@
       "item": "pepper"
     },
     {
-      "en": "1 tablespoon water",
-      "he": "1 כף מים",
+      "en": "1 tablespoon (15ml) water",
+      "he": "1 כף (15 מ\"ל) מים",
       "item": "water",
       "amount": 1,
       "unit": "tablespoon"

@@ -24,43 +24,43 @@
       "unit": "large"
     },
     {
-      "en": "1 tsp. cinnamon",
-      "he": "1 כפית קינמון",
+      "en": "1 tsp. (5ml) cinnamon",
+      "he": "1 כפית (5 מ\"ל) קינמון",
       "item": "cinnamon",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "3 tsp. sugar",
-      "he": "3 כפיות סוכר",
+      "en": "3 tsp. (15ml) sugar",
+      "he": "3 כפיות (15 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 3,
       "unit": "tsp"
     },
     {
-      "en": "3 cups flour",
-      "he": "3 כוסות קמח",
+      "en": "3 cups (720ml) flour",
+      "he": "3 כוסות (720 מ\"ל) קמח",
       "item": "flour",
       "amount": 3,
       "unit": "cup"
     },
     {
-      "en": "1½ cups sugar",
-      "he": "1.5 כוסות סוכר",
+      "en": "1½ cups (360ml) sugar",
+      "he": "1.5 כוסות (360 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 1.5,
       "unit": "cup"
     },
     {
-      "en": "1 tsp. salt",
-      "he": "1 כפית מלח",
+      "en": "1 tsp. (5ml) salt",
+      "he": "1 כפית (5 מ\"ל) מלח",
       "item": "salt",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "3 tsp. baking powder",
-      "he": "3 כפיות אבקת אפייה",
+      "en": "3 tsp. (15ml) baking powder",
+      "he": "3 כפיות (15 מ\"ל) אבקת אפייה",
       "item": "baking powder",
       "amount": 3,
       "unit": "tsp"
@@ -73,22 +73,22 @@
       "unit": "whole"
     },
     {
-      "en": "1 cup vegetable oil",
-      "he": "1 כוס שמן צמחי",
+      "en": "1 cup (240ml) vegetable oil",
+      "he": "1 כוס (240 מ\"ל) שמן צמחי",
       "item": "vegetable oil",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "¼ cup orange juice",
-      "he": "¼ כוס מיץ תפוזים",
+      "en": "¼ cup (60ml) orange juice",
+      "he": "¼ כוס (60 מ\"ל) מיץ תפוזים",
       "item": "orange juice",
       "amount": 0.25,
       "unit": "cup"
     },
     {
-      "en": "1½ tsp. vanilla",
-      "he": "1.5 כפיות תמצית וניל",
+      "en": "1½ tsp. (8ml) vanilla",
+      "he": "1.5 כפיות (8 מ\"ל) תמצית וניל",
       "item": "vanilla",
       "amount": 1.5,
       "unit": "tsp"

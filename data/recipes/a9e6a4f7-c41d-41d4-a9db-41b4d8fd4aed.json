@@ -24,36 +24,36 @@
       "unit": null
     },
     {
-      "en": "1 cup oil",
-      "he": "1 כוס שמן",
+      "en": "1 cup (240ml) oil",
+      "he": "1 כוס (240 מ\"ל) שמן",
       "item": "oil",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "1 cup sugar",
-      "he": "1 כוס סוכר",
+      "en": "1 cup (240ml) sugar",
+      "he": "1 כוס (240 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "4 cups flour",
-      "he": "4 כוסות קמח",
+      "en": "4 cups (960ml) flour",
+      "he": "4 כוסות (960 מ\"ל) קמח",
       "item": "flour",
       "amount": 4,
       "unit": "cup"
     },
     {
-      "en": "1 tsp salt",
-      "he": "1 כפית מלח",
+      "en": "1 tsp (5ml) salt",
+      "he": "1 כפית (5 מ\"ל) מלח",
       "item": "salt",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "3 tsp baking powder",
-      "he": "3 כפיות אבקת אפייה",
+      "en": "3 tsp (15ml) baking powder",
+      "he": "3 כפיות (15 מ\"ל) אבקת אפייה",
       "item": "baking powder",
       "amount": 3,
       "unit": "tsp"

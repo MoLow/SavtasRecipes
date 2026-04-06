@@ -18,15 +18,15 @@
   },
   "ingredients": [
     {
-      "en": "3 lbs chicken cut up",
-      "he": "3 ליברות עוף חתוך",
+      "en": "3 lbs (1360g) chicken cut up",
+      "he": "3 ליברות (1360 גרם) עוף חתוך",
       "item": "chicken cut up",
       "amount": 3,
       "unit": "lbs"
     },
     {
-      "en": "2 tbsps oil",
-      "he": "2 כפות שמן",
+      "en": "2 tbsp (30ml)s oil",
+      "he": "2 כפות (30 מ\"ל) שמן",
       "item": "oil",
       "amount": 2,
       "unit": "tbsps"
@@ -50,43 +50,43 @@
       "amount": 4
     },
     {
-      "en": "1 tsp salt",
-      "he": "1 כפית מלח",
+      "en": "1 tsp (5ml) salt",
+      "he": "1 כפית (5 מ\"ל) מלח",
       "item": "salt",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "1 tsp pepper",
-      "he": "1 כפית פלפל",
+      "en": "1 tsp (5ml) pepper",
+      "he": "1 כפית (5 מ\"ל) פלפל",
       "item": "pepper",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "2 cups dry white wine",
-      "he": "2 כוסות יין לבן יבש",
+      "en": "2 cups (480ml) dry white wine",
+      "he": "2 כוסות (480 מ\"ל) יין לבן יבש",
       "item": "dry white wine",
       "amount": 2,
       "unit": "cups"
     },
     {
-      "en": "1 lb mushrooms",
-      "he": "1 ליברה פטריות",
+      "en": "1 lb (455g) mushrooms",
+      "he": "1 ליברה (455 גרם) פטריות",
       "item": "mushrooms",
       "amount": 1,
       "unit": "lb"
     },
     {
-      "en": "2 tbsps potato starch or corn starch",
-      "he": "2 כפות קורנפלור או עמילן תפוחי אדמה",
+      "en": "2 tbsp (30ml)s potato starch or corn starch",
+      "he": "2 כפות (30 מ\"ל) קורנפלור או עמילן תפוחי אדמה",
       "item": "potato starch or corn starch",
       "amount": 2,
       "unit": "tbsps"
     },
     {
-      "en": "2 tbsps water",
-      "he": "2 כפות מים",
+      "en": "2 tbsp (30ml)s water",
+      "he": "2 כפות (30 מ\"ל) מים",
       "item": "water",
       "amount": 2,
       "unit": "tbsps"

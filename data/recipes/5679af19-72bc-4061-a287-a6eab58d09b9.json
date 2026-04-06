@@ -19,21 +19,21 @@
   "ingredients": [
     {
       "en": "1 c flour",
-      "he": "1 כוס קמח",
+      "he": "1 כוס (240 מ\"ל) קמח",
       "item": "flour",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "1 stick of butter (softened)",
-      "he": "1 מקל חמאה (רכה)",
+      "en": "1 stick (115g) of butter (softened)",
+      "he": "1 מקל (115 גרם) חמאה (רכה)",
       "item": "butter",
       "amount": 1,
       "unit": "stick"
     },
     {
       "en": "½ C chopped nuts",
-      "he": "½ כוס אגוזים קצוצים",
+      "he": "½ כוס (120 מ\"ל) אגוזים קצוצים",
       "item": "chopped nuts",
       "amount": 0.5,
       "unit": "cup"
@@ -47,7 +47,7 @@
     },
     {
       "en": "1 c confectionary sugar",
-      "he": "1 כוס אבקת סוכר",
+      "he": "1 כוס (240 מ\"ל) אבקת סוכר",
       "item": "confectionary sugar",
       "amount": 1,
       "unit": "cup"
@@ -59,7 +59,7 @@
     },
     {
       "en": "3 c milk",
-      "he": "3 כוסות חלב",
+      "he": "3 כוסות (720 מ\"ל) חלב",
       "item": "milk",
       "amount": 3,
       "unit": "cup"
@@ -81,7 +81,7 @@
     "en": [
       "Combine 1 c flour, 1 stick of butter (softened), ½ C chopped nuts.",
       "Press into 9x13x2 pan.",
-      "Bake 350°F - 15 minutes.",
+      "Bake 350°F (175°C) - 15 minutes.",
       "Cool 15 minutes.",
       "Combine 1 (8oz) pkg. cream cheese (softened), 1 c confectionary sugar, 1 c cool whip.",
       "Layer on cooled crust.",

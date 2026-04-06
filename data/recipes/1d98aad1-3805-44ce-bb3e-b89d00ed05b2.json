@@ -18,8 +18,8 @@
   },
   "ingredients": [
     {
-      "en": "1 cup tomato juice",
-      "he": "1 כוס מיץ עגבניות",
+      "en": "1 cup (240ml) tomato juice",
+      "he": "1 כוס (240 מ\"ל) מיץ עגבניות",
       "item": "tomato juice",
       "amount": 1,
       "unit": "cup"
@@ -32,15 +32,15 @@
       "unit": "small can"
     },
     {
-      "en": "2 tsp onion flakes",
-      "he": "2 כפיות פתיתי בצל",
+      "en": "2 tsp (10ml) onion flakes",
+      "he": "2 כפיות (10 מ\"ל) פתיתי בצל",
       "item": "onion flakes",
       "amount": 2,
       "unit": "tsp"
     },
     {
-      "en": "1 tsp garlic powder",
-      "he": "1 כפית אבקת שום",
+      "en": "1 tsp (5ml) garlic powder",
+      "he": "1 כפית (5 מ\"ל) אבקת שום",
       "item": "garlic powder",
       "amount": 1,
       "unit": "tsp"
@@ -53,29 +53,29 @@
       "unit": "pkg"
     },
     {
-      "en": "6 oz undrained sliced peas",
-      "he": "6 אונקיות אפונה פרוסה לא מסוננת",
+      "en": "6 oz (170g) undrained sliced peas",
+      "he": "6 אונקיות (170 גרם) אפונה פרוסה לא מסוננת",
       "item": "undrained sliced peas",
       "amount": 6,
       "unit": "oz"
     },
     {
-      "en": "2 cup cooked peas",
-      "he": "2 כוסות אפונה מבושלת",
+      "en": "2 cup (480ml) cooked peas",
+      "he": "2 כוסות (480 מ\"ל) אפונה מבושלת",
       "item": "cooked peas",
       "amount": 2,
       "unit": "cup"
     },
     {
-      "en": "1/2 cup long grain rice",
-      "he": "1/2 כוס אורז ארוך",
+      "en": "1/2 cup (120ml) long grain rice",
+      "he": "1/2 כוס (120 מ\"ל) אורז ארוך",
       "item": "long grain rice",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "3 lb cut up chicken",
-      "he": "3 ליברות עוף חתוך לחתיכות",
+      "en": "3 lb (1360g) cut up chicken",
+      "he": "3 ליברות (1360 גרם) עוף חתוך לחתיכות",
       "item": "cut up chicken",
       "amount": 3,
       "unit": "lb"
@@ -94,7 +94,7 @@
       "בשלו על אש קטנה ללא כיסוי במשך 10 דקות.",
       "הוסיפו עוף חתוך, אפונה פרוסה לא מסוננת, אפונה מבושלת ואורז ארוך. ערבבו.",
       "העבירו את התערובת לתבנית קדרה.",
-      "אפו בחום של 350° פרנהייט (כ-175° צלזיוס) למשך שעה."
+      "אפו בחום של 175°C (350° פרנהייט) (כ-175° צלזיוס) למשך שעה."
     ]
   },
   "tags": [

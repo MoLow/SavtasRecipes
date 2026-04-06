@@ -25,8 +25,8 @@
       "unit": "can (1 lb)"
     },
     {
-      "en": "2 tsp lemon juice",
-      "he": "2 כפיות מיץ לימון",
+      "en": "2 tsp (10ml) lemon juice",
+      "he": "2 כפיות (10 מ\"ל) מיץ לימון",
       "item": "lemon juice",
       "amount": 2,
       "unit": "tsp"
@@ -46,36 +46,36 @@
       "unit": "envelope"
     },
     {
-      "en": "1/2 cup boiling water",
-      "he": "1/2 כוס מים רותחים",
+      "en": "1/2 cup (120ml) boiling water",
+      "he": "1/2 כוס (120 מ\"ל) מים רותחים",
       "item": "boiling water",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "1 cup mayonnaise",
-      "he": "1 כוס מיונז",
+      "en": "1 cup (240ml) mayonnaise",
+      "he": "1 כוס (240 מ\"ל) מיונז",
       "item": "mayonnaise",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "1/2 tsp dried dill weed",
-      "he": "1/2 כפית שמיר יבש",
+      "en": "1/2 tsp (3ml) dried dill weed",
+      "he": "1/2 כפית (3 מ\"ל) שמיר יבש",
       "item": "dried dill weed",
       "amount": 0.5,
       "unit": "tsp"
     },
     {
-      "en": "1/4 tsp pepper",
-      "he": "1/4 כפית פלפל",
+      "en": "1/4 tsp (1ml) pepper",
+      "he": "1/4 כפית (1 מ\"ל) פלפל",
       "item": "pepper",
       "amount": 0.25,
       "unit": "tsp"
     },
     {
-      "en": "1/2 cup sour cream",
-      "he": "1/2 כוס שמנת חמוצה",
+      "en": "1/2 cup (120ml) sour cream",
+      "he": "1/2 כוס (120 מ\"ל) שמנת חמוצה",
       "item": "sour cream",
       "amount": 0.5,
       "unit": "cup"

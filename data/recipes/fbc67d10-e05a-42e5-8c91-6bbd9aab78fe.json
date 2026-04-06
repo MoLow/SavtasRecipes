@@ -17,7 +17,7 @@
   },
   "ingredients": [
     {
-      "en": "1 lb broad noodles",
+      "en": "1 lb (455g) broad noodles",
       "he": "450 גרם אטריות רחבות",
       "item": "broad noodles",
       "amount": 1,
@@ -38,15 +38,15 @@
       "unit": "jar"
     },
     {
-      "en": "1/2 cup sugar",
-      "he": "1/2 כוס סוכר",
+      "en": "1/2 cup (120ml) sugar",
+      "he": "1/2 כוס (120 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "1/4 cup raisins",
-      "he": "1/4 כוס צימוקים",
+      "en": "1/4 cup (60ml) raisins",
+      "he": "1/4 כוס (60 מ\"ל) צימוקים",
       "item": "raisins",
       "amount": 0.25,
       "unit": "cup"
@@ -57,8 +57,8 @@
       "item": "lemon juice"
     },
     {
-      "en": "1 tsp vanilla",
-      "he": "1 כפית תמצית וניל",
+      "en": "1 tsp (5ml) vanilla",
+      "he": "1 כפית (5 מ\"ל) תמצית וניל",
       "item": "vanilla",
       "amount": 1,
       "unit": "tsp"
@@ -78,7 +78,7 @@
       "Step 3: Combine the noodles with the egg mixture.",
       "Step 4: Grease the pan with some of the reserved melted margarine.",
       "Step 5: Pour the mixture into the greased pan.",
-      "Step 6: Bake at 350°F for 1 hour."
+      "Step 6: Bake at 350°F (175°C) for 1 hour."
     ],
     "he": [
       "שלב 1: לבשל 450 גרם אטריות רחבות לפי ההוראות על האריזה ולסנן.",

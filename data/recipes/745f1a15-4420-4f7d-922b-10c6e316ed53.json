@@ -24,50 +24,50 @@
       "unit": "piece"
     },
     {
-      "en": "1 cup oil",
-      "he": "1 כוס שמן",
+      "en": "1 cup (240ml) oil",
+      "he": "1 כוס (240 מ\"ל) שמן",
       "item": "oil",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "3/4 cup sugar",
-      "he": "3/4 כוס סוכר",
+      "en": "3/4 cup (180ml) sugar",
+      "he": "3/4 כוס (180 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 0.75,
       "unit": "cup"
     },
     {
-      "en": "2 tsp baking powder",
-      "he": "2 כפיות אבקת אפייה",
+      "en": "2 tsp (10ml) baking powder",
+      "he": "2 כפיות (10 מ\"ל) אבקת אפייה",
       "item": "baking powder",
       "amount": 2,
       "unit": "tsp"
     },
     {
-      "en": "1 tsp vanilla",
-      "he": "1 כפית תמצית וניל",
+      "en": "1 tsp (5ml) vanilla",
+      "he": "1 כפית (5 מ\"ל) תמצית וניל",
       "item": "vanilla",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "1 tsp almond extract",
-      "he": "1 כפית תמצית שקדים",
+      "en": "1 tsp (5ml) almond extract",
+      "he": "1 כפית (5 מ\"ל) תמצית שקדים",
       "item": "almond extract",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "1/2 cup chopped nuts",
-      "he": "1/2 כוס אגוזים קצוצים",
+      "en": "1/2 cup (120ml) chopped nuts",
+      "he": "1/2 כוס (120 מ\"ל) אגוזים קצוצים",
       "item": "chopped nuts",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "3 1/2 - 4 cups flour",
-      "he": "3.5 - 4 כוסות קמח",
+      "en": "3 1/2 - 4 cups (840ml) flour",
+      "he": "3.5 - 4 כוסות (840 מ\"ל) קמח",
       "item": "flour",
       "amount": 3.5,
       "unit": "cup"
@@ -76,8 +76,8 @@
   "instructions": {
     "en": [
       "Mix all ingredients, shape into 2 loaves.",
-      "Bake 20 to 30 minutes at 350°F.",
-      "Cut into 1/2\" slices, put back into oven at 200°F for 1 hour."
+      "Bake 20 to 30 minutes at 350°F (175°C).",
+      "Cut into 1/2\" slices, put back into oven at 200°F (95°C) for 1 hour."
     ],
     "he": [
       "לערבב את כל המרכיבים ולעצב ל-2 כיכרות.",

@@ -17,29 +17,29 @@
   },
   "ingredients": [
     {
-      "en": "1 cup butter",
-      "he": "1 כוס חמאה",
+      "en": "1 cup (240ml) butter",
+      "he": "1 כוס (240 מ\"ל) חמאה",
       "item": "butter",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "2.5 cups flour",
-      "he": "2.5 כוסות קמח",
+      "en": "2.5 cups (600ml) flour",
+      "he": "2.5 כוסות (600 מ\"ל) קמח",
       "item": "flour",
       "amount": 2.5,
       "unit": "cups"
     },
     {
-      "en": "2/3 cup sugar",
-      "he": "2/3 כוס סוכר",
+      "en": "2/3 cup (160ml) sugar",
+      "he": "2/3 כוס (160 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 0.67,
       "unit": "cup"
     },
     {
-      "en": "1/3 tsp salt",
-      "he": "1/3 כפית מלח",
+      "en": "1/3 tsp (2ml) salt",
+      "he": "1/3 כפית (2 מ\"ל) מלח",
       "item": "salt",
       "amount": 0.33,
       "unit": "tsp"
@@ -52,8 +52,8 @@
       "unit": "piece"
     },
     {
-      "en": "1 tsp vanilla",
-      "he": "1 כפית וניל",
+      "en": "1 tsp (5ml) vanilla",
+      "he": "1 כפית (5 מ\"ל) וניל",
       "item": "vanilla",
       "amount": 1,
       "unit": "tsp"

@@ -24,15 +24,15 @@
       "unit": "envelopes"
     },
     {
-      "en": "2 3/4 cups cold milk",
-      "he": "2 3/4 כוסות חלב קר",
+      "en": "2 3/4 cups (660ml) cold milk",
+      "he": "2 3/4 כוסות (660 מ\"ל) חלב קר",
       "item": "cold milk",
       "amount": 2.75,
       "unit": "cups"
     },
     {
-      "en": "1 tsp vanilla",
-      "he": "1 כפית וניל",
+      "en": "1 tsp (5ml) vanilla",
+      "he": "1 כפית (5 מ\"ל) וניל",
       "item": "vanilla",
       "amount": 1,
       "unit": "tsp"

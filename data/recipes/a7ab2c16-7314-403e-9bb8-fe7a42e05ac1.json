@@ -18,15 +18,15 @@
   },
   "ingredients": [
     {
-      "en": "½ cups cooking oil",
-      "he": "½ כוסות שמן בישול",
+      "en": "½ cups (120ml) cooking oil",
+      "he": "½ כוסות (120 מ\"ל) שמן בישול",
       "item": "cooking oil",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "2 cups Sugar",
-      "he": "2 כוסות סוכר",
+      "en": "2 cups (480ml) Sugar",
+      "he": "2 כוסות (480 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 2,
       "unit": "cup"
@@ -39,64 +39,64 @@
       "unit": ""
     },
     {
-      "en": "2¾ cups Flour",
-      "he": "2¾ כוסות קמח",
+      "en": "2¾ cups (660ml) Flour",
+      "he": "2¾ כוסות (660 מ\"ל) קמח",
       "item": "flour",
       "amount": 2.75,
       "unit": "cup"
     },
     {
-      "en": "2 Tsp. Baking Powder",
-      "he": "2 כפיות אבקת אפייה",
+      "en": "2 Tsp. (10ml) Baking Powder",
+      "he": "2 כפיות (10 מ\"ל) אבקת אפייה",
       "item": "baking powder",
       "amount": 2,
       "unit": "tsp"
     },
     {
-      "en": "1 Tsp. Soda",
-      "he": "1 כפית סודה לשתייה",
+      "en": "1 Tsp. (5ml) Soda",
+      "he": "1 כפית (5 מ\"ל) סודה לשתייה",
       "item": "baking soda",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "1 Tsp. Salt",
-      "he": "1 כפית מלח",
+      "en": "1 Tsp. (5ml) Salt",
+      "he": "1 כפית (5 מ\"ל) מלח",
       "item": "salt",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "2 Tsp. Cinnamon",
-      "he": "2 כפיות קינמון",
+      "en": "2 Tsp. (10ml) Cinnamon",
+      "he": "2 כפיות (10 מ\"ל) קינמון",
       "item": "cinnamon",
       "amount": 2,
       "unit": "tsp"
     },
     {
-      "en": "2 Tsp. VANILLA",
-      "he": "2 כפיות תמצית וניל",
+      "en": "2 Tsp. (10ml) VANILLA",
+      "he": "2 כפיות (10 מ\"ל) תמצית וניל",
       "item": "vanilla extract",
       "amount": 2,
       "unit": "tsp"
     },
     {
-      "en": "2 cups grated CARROTS",
-      "he": "2 כוסות גזר מגורר",
+      "en": "2 cups (480ml) grated CARROTS",
+      "he": "2 כוסות (480 מ\"ל) גזר מגורר",
       "item": "grated carrots",
       "amount": 2,
       "unit": "cup"
     },
     {
-      "en": "1 cup crushed pineapple (drained- 15½ oz can)",
-      "he": "1 כוס אננס מרוסק (מסונן - קופסת 15.5 אונקיות)",
+      "en": "1 cup (240ml) crushed pineapple (drained- 15½ oz can)",
+      "he": "1 כוס (240 מ\"ל) אננס מרוסק (מסונן - קופסת 15.5 אונקיות)",
       "item": "crushed pineapple (drained)",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "½ cup nuts",
-      "he": "½ כוס אגוזים",
+      "en": "½ cup (120ml) nuts",
+      "he": "½ כוס (120 מ\"ל) אגוזים",
       "item": "nuts",
       "amount": 0.5,
       "unit": "cup"
@@ -109,22 +109,22 @@
       "unit": "8oz pack"
     },
     {
-      "en": "2 stick melted butter",
-      "he": "2 מקלות חמאה מומסת",
+      "en": "2 stick (225g) melted butter",
+      "he": "2 מקל (225 גרם)ות חמאה מומסת",
       "item": "melted butter",
       "amount": 2,
       "unit": "stick"
     },
     {
-      "en": "2 Tsp vanilla",
-      "he": "2 כפיות תמצית וניל",
+      "en": "2 Tsp (10ml) vanilla",
+      "he": "2 כפיות (10 מ\"ל) תמצית וניל",
       "item": "vanilla extract",
       "amount": 2,
       "unit": "tsp"
     },
     {
-      "en": "1 lb. Confectionary Sugar",
-      "he": "1 ליברה אבקת סוכר",
+      "en": "1 lb. (455g) Confectionary Sugar",
+      "he": "1 ליברה (455 גרם) אבקת סוכר",
       "item": "confectioners' sugar",
       "amount": 1,
       "unit": "lb"
@@ -135,7 +135,7 @@
       "Beat oil and sugar in a large bowl. Beat in eggs, one at a time, beating after each addition.",
       "Sift together dry ingredients (flour, baking powder, soda, salt, cinnamon). Add the sifted dry ingredients, vanilla, carrots, pineapple, and nuts to the wet mixture. Mix well.",
       "Pour the batter into a 14x10 baking pan or tube pan.",
-      "Bake for 1 hour and 15 minutes in a 350°F oven.",
+      "Bake for 1 hour and 15 minutes in a 350°F (175°C) oven.",
       "For the icing (reduce by half if desired): Combine 1 (8oz) pack cream cheese, 2 sticks melted butter, 2 tsp vanilla, and 1 lb confectioners' sugar. Beat until smooth."
     ],
     "he": [

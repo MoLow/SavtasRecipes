@@ -17,49 +17,49 @@
   },
   "ingredients": [
     {
-      "en": "1 lb margarine",
+      "en": "1 lb (455g) margarine",
       "he": "450 גרם מרגרינה",
       "item": "margarine",
       "amount": 1,
       "unit": "lb"
     },
     {
-      "en": "2 tbs oil",
-      "he": "2 כפות שמן",
+      "en": "2 tbs (30ml) oil",
+      "he": "2 כפות (30 מ\"ל) שמן",
       "item": "oil",
       "amount": 2,
       "unit": "tbs"
     },
     {
-      "en": "6 cups flour",
-      "he": "6 כוסות קמח",
+      "en": "6 cups (1440ml) flour",
+      "he": "6 כוסות (1440 מ\"ל) קמח",
       "item": "flour",
       "amount": 6,
       "unit": "cup"
     },
     {
-      "en": "1/2 cup milk (approx) to soften",
-      "he": "1/2 כוס חלב (בערך) לריכוך",
+      "en": "1/2 cup (120ml) milk (approx) to soften",
+      "he": "1/2 כוס (120 מ\"ל) חלב (בערך) לריכוך",
       "item": "milk",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "2 lbs cottage cheese (filling)",
+      "en": "2 lbs (910g) cottage cheese (filling)",
       "he": "900 גרם גבינת קוטג' (למילוי)",
       "item": "cottage cheese",
       "amount": 2,
       "unit": "lb"
     },
     {
-      "en": "1 lb farmer cheese (filling)",
+      "en": "1 lb (455g) farmer cheese (filling)",
       "he": "450 גרם גבינה לבנה (למילוי)",
       "item": "farmer cheese",
       "amount": 1,
       "unit": "lb"
     },
     {
-      "en": "1 lb cooked rice (optional, filling)",
+      "en": "1 lb (455g) cooked rice (optional, filling)",
       "he": "450 גרם אורז מבושל (אופציונלי, למילוי)",
       "item": "cooked rice",
       "amount": 1,
@@ -85,7 +85,7 @@
       "Step 3: Spread melted margarine along the dough.",
       "Step 4: Prepare filling: mix 2 lbs cottage cheese, 1 lb farmer cheese, 1 lb cooked rice (optional), 3 eggs, and sugar & cinnamon to taste.",
       "Step 5: Put filling along the outer edge of the dough.",
-      "Step 6: Roll up the dough and bake at 350°F."
+      "Step 6: Roll up the dough and bake at 350°F (175°C)."
     ],
     "he": [
       "שלב 1: מערבבים מרגרינה, שמן, קמח וחלב (כ-1/2 כוס) ליצירת בצק. מכניסים למקרר ללילה.",

@@ -59,29 +59,29 @@
       "unit": null
     },
     {
-      "en": "1/2 cup wine vinegar",
-      "he": "1/2 כוס חומץ יין",
+      "en": "1/2 cup (120ml) wine vinegar",
+      "he": "1/2 כוס (120 מ\"ל) חומץ יין",
       "item": "wine vinegar",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "4 cups ice H₂O",
-      "he": "4 כוסות מי קרח",
+      "en": "4 cups (960ml) ice H₂O",
+      "he": "4 כוסות (960 מ\"ל) מי קרח",
       "item": "ice water",
       "amount": 4,
       "unit": "cups"
     },
     {
-      "en": "3/4 tsp celery seed",
-      "he": "3/4 כפית זרעי סלרי",
+      "en": "3/4 tsp (4ml) celery seed",
+      "he": "3/4 כפית (4 מ\"ל) זרעי סלרי",
       "item": "celery seed",
       "amount": 0.75,
       "unit": "tsp"
     },
     {
-      "en": "3/4 tsp Tabasco",
-      "he": "3/4 כפית טבסקו",
+      "en": "3/4 tsp (4ml) Tabasco",
+      "he": "3/4 כפית (4 מ\"ל) טבסקו",
       "item": "Tabasco",
       "amount": 0.75,
       "unit": "tsp"

@@ -31,22 +31,22 @@
       "unit": "piece"
     },
     {
-      "en": "1/2 cup oil",
-      "he": "1/2 כוס שמן",
+      "en": "1/2 cup (120ml) oil",
+      "he": "1/2 כוס (120 מ\"ל) שמן",
       "item": "oil",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "1/2 cup water",
-      "he": "1/2 כוס מים",
+      "en": "1/2 cup (120ml) water",
+      "he": "1/2 כוס (120 מ\"ל) מים",
       "item": "water",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "1 cup sour cream",
-      "he": "1 כוס שמנת חמוצה",
+      "en": "1 cup (240ml) sour cream",
+      "he": "1 כוס (240 מ\"ל) שמנת חמוצה",
       "item": "sour cream",
       "amount": 1,
       "unit": "cup"
@@ -59,8 +59,8 @@
       "unit": "package"
     },
     {
-      "en": "1 cup chocolate chips",
-      "he": "1 כוס שוקולד צ'יפס",
+      "en": "1 cup (240ml) chocolate chips",
+      "he": "1 כוס (240 מ\"ל) שוקולד צ'יפס",
       "item": "chocolate chips",
       "amount": 1,
       "unit": "cup"
@@ -68,11 +68,11 @@
   ],
   "instructions": {
     "en": [
-      "Step 1: Preheat oven to 350°F.",
+      "Step 1: Preheat oven to 350°F (175°C).",
       "Step 2: Mix the Duncan Hines chocolate cake mix, eggs, oil, water, sour cream, and instant chocolate pudding together.",
       "Step 3: Fold in the chocolate chips.",
       "Step 4: Pour batter into a greased cake pan.",
-      "Step 5: Bake at 350°F for 50+ minutes, or until done."
+      "Step 5: Bake at 350°F (175°C) for 50+ minutes, or until done."
     ],
     "he": [
       "שלב 1: לחמם תנור ל-175°C (350°F).",

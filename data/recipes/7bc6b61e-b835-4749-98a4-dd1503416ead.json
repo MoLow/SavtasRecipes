@@ -18,14 +18,14 @@
   },
   "ingredients": [
     {
-      "en": "1 cup sugar",
-      "he": "1 כוס סוכר",
+      "en": "1 cup (240ml) sugar",
+      "he": "1 כוס (240 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "8 oz cream cheese",
+      "en": "8 oz (225g) cream cheese",
       "he": "226 גרם גבינת שמנת",
       "item": "cream cheese",
       "amount": 8,
@@ -39,8 +39,8 @@
       "unit": ""
     },
     {
-      "en": "1 tsp. vanilla",
-      "he": "1 כפית תמצית וניל",
+      "en": "1 tsp. (5ml) vanilla",
+      "he": "1 כפית (5 מ\"ל) תמצית וניל",
       "item": "vanilla",
       "amount": 1,
       "unit": "tsp"

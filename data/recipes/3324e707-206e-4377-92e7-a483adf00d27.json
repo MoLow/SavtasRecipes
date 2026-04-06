@@ -24,8 +24,8 @@
       "unit": null
     },
     {
-      "en": "1/4 cup melted margarine",
-      "he": "1/4 כוס מרגרינה מומסת",
+      "en": "1/4 cup (60ml) melted margarine",
+      "he": "1/4 כוס (60 מ\"ל) מרגרינה מומסת",
       "item": "margarine",
       "amount": 0.25,
       "unit": "cup"
@@ -38,29 +38,29 @@
       "unit": "bar"
     },
     {
-      "en": "1/4 cup brown sugar",
-      "he": "1/4 כוס סוכר חום",
+      "en": "1/4 cup (60ml) brown sugar",
+      "he": "1/4 כוס (60 מ\"ל) סוכר חום",
       "item": "brown sugar",
       "amount": 0.25,
       "unit": "cup"
     },
     {
-      "en": "1/2 cup Bisquick",
-      "he": "1/2 כוס ביסקוויק",
+      "en": "1/2 cup (120ml) Bisquick",
+      "he": "1/2 כוס (120 מ\"ל) ביסקוויק",
       "item": "Bisquick",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "1/2 cup granulated sugar",
-      "he": "1/2 כוס סוכר מגורען",
+      "en": "1/2 cup (120ml) granulated sugar",
+      "he": "1/2 כוס (120 מ\"ל) סוכר מגורען",
       "item": "granulated sugar",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "3/4 cup chopped nuts",
-      "he": "3/4 כוס אגוזים קצוצים",
+      "en": "3/4 cup (180ml) chopped nuts",
+      "he": "3/4 כוס (180 מ\"ל) אגוזים קצוצים",
       "item": "nuts",
       "amount": 0.75,
       "unit": "cup"
@@ -70,12 +70,12 @@
     "en": [
       "Combine all ingredients in a bowl.",
       "Pour the mixture into a pie dish.",
-      "Bake at 350°F for 35 minutes."
+      "Bake at 350°F (175°C) for 35 minutes."
     ],
     "he": [
       "שלב את כל המרכיבים בקערה.",
       "שפוך את התערובת לתבנית פאי.",
-      "אפה ב-350 מעלות פרנהייט למשך 35 דקות."
+      "אפה ב-175°C (350 מעלות פרנהייט) למשך 35 דקות."
     ]
   },
   "tags": [

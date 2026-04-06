@@ -19,35 +19,35 @@
   "ingredients": [
     {
       "en": "6 C. sliced tart apples",
-      "he": "6 כוסות תפוחי עץ חמוצים פרוסים",
+      "he": "6 כוסות (1440 מ\"ל) תפוחי עץ חמוצים פרוסים",
       "item": "sliced tart apples",
       "amount": 6,
       "unit": "cup"
     },
     {
       "en": "1 1/4 C. granulated sugar",
-      "he": "1 ו-1/4 כוסות סוכר מגורען",
+      "he": "1 ו-1/4 כוסות (300 מ\"ל) סוכר מגורען",
       "item": "granulated sugar",
       "amount": 1.25,
       "unit": "cup"
     },
     {
-      "en": "1/4 tsp. nutmeg",
-      "he": "1/4 כפית אגוז מוסקט",
+      "en": "1/4 tsp. (1ml) nutmeg",
+      "he": "1/4 כפית (1 מ\"ל) אגוז מוסקט",
       "item": "nutmeg",
       "amount": 0.25,
       "unit": "tsp"
     },
     {
       "en": "3/4 C. milk",
-      "he": "3/4 כוס חלב",
+      "he": "3/4 כוס (180 מ\"ל) חלב",
       "item": "milk",
       "amount": 0.75,
       "unit": "cup"
     },
     {
-      "en": "2 tbsp. Margarine",
-      "he": "2 כפות מרגרינה",
+      "en": "2 tbsp. (30ml) Margarine",
+      "he": "2 כפות (30 מ\"ל) מרגרינה",
       "item": "margarine",
       "amount": 2,
       "unit": "tbsp"
@@ -61,14 +61,14 @@
     },
     {
       "en": "1 C. Bisquick",
-      "he": "1 כוס ביסקוויק",
+      "he": "1 כוס (240 מ\"ל) ביסקוויק",
       "item": "Bisquick",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "1/2 tsp. vanilla",
-      "he": "1/2 כפית תמצית וניל",
+      "en": "1/2 tsp. (3ml) vanilla",
+      "he": "1/2 כפית (3 מ\"ל) תמצית וניל",
       "item": "vanilla",
       "amount": 0.5,
       "unit": "tsp"
@@ -82,28 +82,28 @@
     },
     {
       "en": "2 C. Bisquick",
-      "he": "2 כוסות ביסקוויק",
+      "he": "2 כוסות (480 מ\"ל) ביסקוויק",
       "item": "Bisquick",
       "amount": 2,
       "unit": "cup"
     },
     {
       "en": "1 C. milk",
-      "he": "1 כוס חלב",
+      "he": "1 כוס (240 מ\"ל) חלב",
       "item": "milk",
       "amount": 1,
       "unit": "cup"
     },
     {
       "en": "1/2 C. margarine",
-      "he": "1/2 כוס מרגרינה",
+      "he": "1/2 כוס (120 מ\"ל) מרגרינה",
       "item": "margarine",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "1/2 tsp vanilla",
-      "he": "1/2 כפית תמצית וניל",
+      "en": "1/2 tsp (3ml) vanilla",
+      "he": "1/2 כפית (3 מ\"ל) תמצית וניל",
       "item": "vanilla",
       "amount": 0.5,
       "unit": "tsp"
@@ -117,35 +117,35 @@
     },
     {
       "en": "1/2 C. coconut",
-      "he": "1/2 כוס קוקוס",
+      "he": "1/2 כוס (120 מ\"ל) קוקוס",
       "item": "coconut",
       "amount": 0.5,
       "unit": "cup"
     },
     {
       "en": "1/2 C. sugar",
-      "he": "1/2 כוס סוכר",
+      "he": "1/2 כוס (120 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 0.5,
       "unit": "cup"
     },
     {
       "en": "1/2 C. Bisquick",
-      "he": "1/2 כוס ביסקוויק",
+      "he": "1/2 כוס (120 מ\"ל) ביסקוויק",
       "item": "Bisquick",
       "amount": 0.5,
       "unit": "cup"
     },
     {
       "en": "1/2 C. Lesquick",
-      "he": "1/2 כוס לסקוויק",
+      "he": "1/2 כוס (120 מ\"ל) לסקוויק",
       "item": "Lesquick",
       "amount": 0.5,
       "unit": "cup"
     },
     {
       "en": "1/2 C. Mini",
-      "he": "1/2 כוס מיני",
+      "he": "1/2 כוס (120 מ\"ל) מיני",
       "item": "Mini",
       "amount": 0.5,
       "unit": "cup"

@@ -17,36 +17,36 @@
   },
   "ingredients": [
     {
-      "en": "1⅓ cup flour",
-      "he": "1⅓ כוס קמח",
+      "en": "1⅓ cup (320ml) flour",
+      "he": "1⅓ כוס (320 מ\"ל) קמח",
       "item": "flour",
       "amount": 1.33,
       "unit": "cup"
     },
     {
-      "en": "1½ tsp baking powder",
-      "he": "1½ כפית אבקת אפייה",
+      "en": "1½ tsp (8ml) baking powder",
+      "he": "1½ כפית (8 מ\"ל) אבקת אפייה",
       "item": "baking powder",
       "amount": 1.5,
       "unit": "tsp"
     },
     {
-      "en": "¼ cup margarine",
-      "he": "¼ כוס מרגרינה",
+      "en": "¼ cup (60ml) margarine",
+      "he": "¼ כוס (60 מ\"ל) מרגרינה",
       "item": "margarine",
       "amount": 0.25,
       "unit": "cup"
     },
     {
-      "en": "¾ cup sugar",
-      "he": "¾ כוס סוכר",
+      "en": "¾ cup (180ml) sugar",
+      "he": "¾ כוס (180 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 0.75,
       "unit": "cup"
     },
     {
-      "en": "Blend, 1 tsp vanilla",
-      "he": "1 כפית וניל",
+      "en": "Blend, 1 tsp (5ml) vanilla",
+      "he": "1 כפית (5 מ\"ל) וניל",
       "item": "vanilla",
       "amount": 1,
       "unit": "tsp"

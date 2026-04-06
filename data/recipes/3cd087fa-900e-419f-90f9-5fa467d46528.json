@@ -31,43 +31,43 @@
       "unit": null
     },
     {
-      "en": "½ cup sugar",
-      "he": "½ כוס סוכר",
+      "en": "½ cup (120ml) sugar",
+      "he": "½ כוס (120 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "½ cup flour",
-      "he": "½ כוס קמח",
+      "en": "½ cup (120ml) flour",
+      "he": "½ כוס (120 מ\"ל) קמח",
       "item": "flour",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "½ cup melted Margarine",
-      "he": "½ כוס מרגרינה מומסת",
+      "en": "½ cup (120ml) melted Margarine",
+      "he": "½ כוס (120 מ\"ל) מרגרינה מומסת",
       "item": "margarine",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "1 tsp vanilla",
-      "he": "1 כפית תמצית וניל",
+      "en": "1 tsp (5ml) vanilla",
+      "he": "1 כפית (5 מ\"ל) תמצית וניל",
       "item": "vanilla",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "1 cup chopped almonds or pecans",
-      "he": "1 כוס שקדים או פקאנים קצוצים",
+      "en": "1 cup (240ml) chopped almonds or pecans",
+      "he": "1 כוס (240 מ\"ל) שקדים או פקאנים קצוצים",
       "item": "almonds or pecans",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "½ cup choc. chips",
-      "he": "½ כוס שוקולד צ'יפס",
+      "en": "½ cup (120ml) choc. chips",
+      "he": "½ כוס (120 מ\"ל) שוקולד צ'יפס",
       "item": "chocolate chips",
       "amount": 0.5,
       "unit": "cup"
@@ -77,13 +77,13 @@
     "en": [
       "Beat eggs.",
       "Add all other ingredients, stirring in nuts and chocolate chips.",
-      "Bake at 350°F.",
+      "Bake at 350°F (175°C).",
       "The pie is ready when a crust forms."
     ],
     "he": [
       "טורפים ביצים.",
       "מוסיפים את כל שאר המרכיבים, מערבבים פנימה את האגוזים ושוקולד צ'יפס.",
-      "אופים בחום של 350°F.",
+      "אופים בחום של 175°C (350°F).",
       "הפאי מוכן כאשר נוצר קרום."
     ]
   },

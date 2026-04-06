@@ -24,50 +24,50 @@
       "unit": "piece"
     },
     {
-      "en": "1/2 lb ground walnuts",
-      "he": "1/2 ליברה אגוזי מלך טחונים",
+      "en": "1/2 lb (225g) ground walnuts",
+      "he": "1/2 ליברה (225 גרם) אגוזי מלך טחונים",
       "item": "ground walnuts",
       "amount": 0.5,
       "unit": "lb"
     },
     {
-      "en": "2 glasses carrots (grated)",
-      "he": "2 כוסות גזר (מגורר)",
+      "en": "2 glasses (480ml) carrots (grated)",
+      "he": "2 כוסות (480 מ\"ל) גזר (מגורר)",
       "item": "carrots (grated)",
       "amount": 2,
       "unit": "glass"
     },
     {
-      "en": "3/4 cup oil",
-      "he": "3/4 כוס שמן",
+      "en": "3/4 cup (180ml) oil",
+      "he": "3/4 כוס (180 מ\"ל) שמן",
       "item": "oil",
       "amount": 0.75,
       "unit": "cup"
     },
     {
-      "en": "1 1/2 cup sugar",
-      "he": "1 1/2 כוס סוכר",
+      "en": "1 1/2 cup (360ml) sugar",
+      "he": "1 1/2 כוס (360 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 1.5,
       "unit": "cup"
     },
     {
-      "en": "2 cups flour",
-      "he": "2 כוסות קמח",
+      "en": "2 cups (480ml) flour",
+      "he": "2 כוסות (480 מ\"ל) קמח",
       "item": "flour",
       "amount": 2,
       "unit": "cup"
     },
     {
-      "en": "2 tsp baking powder",
-      "he": "2 כפיות אבקת אפייה",
+      "en": "2 tsp (10ml) baking powder",
+      "he": "2 כפיות (10 מ\"ל) אבקת אפייה",
       "item": "baking powder",
       "amount": 2,
       "unit": "tsp"
     },
     {
-      "en": "1/2 tsp baking soda",
-      "he": "1/2 כפית סודה לשתייה",
+      "en": "1/2 tsp (3ml) baking soda",
+      "he": "1/2 כפית (3 מ\"ל) סודה לשתייה",
       "item": "baking soda",
       "amount": 0.5,
       "unit": "tsp"

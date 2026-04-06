@@ -32,15 +32,15 @@
       "unit": "bottles"
     },
     {
-      "en": "1/2 cup orange juice",
-      "he": "1/2 כוס מיץ תפוזים",
+      "en": "1/2 cup (120ml) orange juice",
+      "he": "1/2 כוס (120 מ\"ל) מיץ תפוזים",
       "item": "orange juice",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "1/2 cup lemon juice",
-      "he": "1/2 כוס מיץ לימון",
+      "en": "1/2 cup (120ml) lemon juice",
+      "he": "1/2 כוס (120 מ\"ל) מיץ לימון",
       "item": "lemon juice",
       "amount": 0.5,
       "unit": "cup"

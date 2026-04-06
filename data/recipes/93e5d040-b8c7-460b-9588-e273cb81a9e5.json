@@ -24,29 +24,29 @@
       "unit": "piece"
     },
     {
-      "en": "1/2 cup sugar",
-      "he": "1/2 כוס סוכר",
+      "en": "1/2 cup (120ml) sugar",
+      "he": "1/2 כוס (120 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "3/4 cup oil",
-      "he": "3/4 כוס שמן",
+      "en": "3/4 cup (180ml) oil",
+      "he": "3/4 כוס (180 מ\"ל) שמן",
       "item": "oil",
       "amount": 0.75,
       "unit": "cup"
     },
     {
-      "en": "1/4 cup OJ & water",
-      "he": "1/4 כוס מיץ תפוזים ומים",
+      "en": "1/4 cup (60ml) OJ & water",
+      "he": "1/4 כוס (60 מ\"ל) מיץ תפוזים ומים",
       "item": "orange juice and water",
       "amount": 0.25,
       "unit": "cup"
     },
     {
-      "en": "2 tsp baking powder",
-      "he": "2 כפיות אבקת אפייה",
+      "en": "2 tsp (10ml) baking powder",
+      "he": "2 כפיות (10 מ\"ל) אבקת אפייה",
       "item": "baking powder",
       "amount": 2,
       "unit": "tsp"
@@ -57,15 +57,15 @@
       "item": "vanilla or lemon juice"
     },
     {
-      "en": "3 cups flour",
-      "he": "3 כוסות קמח",
+      "en": "3 cups (720ml) flour",
+      "he": "3 כוסות (720 מ\"ל) קמח",
       "item": "flour",
       "amount": 3,
       "unit": "cup"
     },
     {
-      "en": "1 tsp honey",
-      "he": "1 כפית דבש",
+      "en": "1 tsp (5ml) honey",
+      "he": "1 כפית (5 מ\"ל) דבש",
       "item": "honey",
       "amount": 1,
       "unit": "tsp"
