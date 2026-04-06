@@ -25,14 +25,14 @@
     },
     {
       "en": "2 1/2 c Flour",
-      "he": "2.5 כוסות קמח",
+      "he": "2.5 כוסות (600 מ\"ל) קמח",
       "item": "Flour",
       "amount": 2.5,
       "unit": "cup"
     },
     {
       "en": "1/4 c Oil",
-      "he": "1/4 כוס שמן",
+      "he": "1/4 כוס (60 מ\"ל) שמן",
       "item": "Oil",
       "amount": 0.25,
       "unit": "cup"
@@ -45,15 +45,15 @@
       "unit": null
     },
     {
-      "en": "1/2 tsp baking soda",
-      "he": "1/2 כפית אבקת סודה לשתייה",
+      "en": "1/2 tsp (3ml) baking soda",
+      "he": "1/2 כפית (3 מ\"ל) אבקת סודה לשתייה",
       "item": "baking soda",
       "amount": 0.5,
       "unit": "teaspoon"
     },
     {
-      "en": "2 tbs Orange (fruit) juice",
-      "he": "2 כפות מיץ תפוזים (פרי)",
+      "en": "2 tbs (30ml) Orange (fruit) juice",
+      "he": "2 כפות (30 מ\"ל) מיץ תפוזים (פרי)",
       "item": "Orange (fruit) juice",
       "amount": 2,
       "unit": "tablespoons"

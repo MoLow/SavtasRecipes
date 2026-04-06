@@ -17,50 +17,50 @@
   },
   "ingredients": [
     {
-      "en": "1/2 cup margarine (= 1 stick)",
-      "he": "1/2 כוס מרגרינה (= חפיסה אחת)",
+      "en": "1/2 cup (120ml) margarine (= 1 stick)",
+      "he": "1/2 כוס (120 מ\"ל) מרגרינה (= חפיסה אחת)",
       "item": "margarine",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "1 cup crushed graham crackers",
-      "he": "1 כוס פירורי גרהם קרקרס",
+      "en": "1 cup (240ml) crushed graham crackers",
+      "he": "1 כוס (240 מ\"ל) פירורי גרהם קרקרס",
       "item": "crushed graham crackers",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "1 cup coconut",
-      "he": "1 כוס קוקוס",
+      "en": "1 cup (240ml) coconut",
+      "he": "1 כוס (240 מ\"ל) קוקוס",
       "item": "coconut",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "1 package chocolate bits (6 ozs)",
+      "en": "1 package chocolate bits (6 oz (170g)s)",
       "he": "1 חבילה שבבי שוקולד (170 גרם)",
       "item": "chocolate bits",
       "amount": 6,
       "unit": "oz"
     },
     {
-      "en": "1 package butterscotch bits (6 ozs)",
+      "en": "1 package butterscotch bits (6 oz (170g)s)",
       "he": "1 חבילה שבבי באטרסקוטש (170 גרם)",
       "item": "butterscotch bits",
       "amount": 6,
       "unit": "oz"
     },
     {
-      "en": "1 can condensed sweet milk (14 ozs)",
+      "en": "1 can condensed sweet milk (14 oz (390g)s)",
       "he": "1 פחית חלב מרוכז ממותק (400 גרם)",
       "item": "condensed sweet milk",
       "amount": 14,
       "unit": "oz"
     },
     {
-      "en": "1 cup chopped pecans or walnuts",
-      "he": "1 כוס פקאנים או אגוזי מלך קצוצים",
+      "en": "1 cup (240ml) chopped pecans or walnuts",
+      "he": "1 כוס (240 מ\"ל) פקאנים או אגוזי מלך קצוצים",
       "item": "chopped pecans or walnuts",
       "amount": 1,
       "unit": "cup"
@@ -71,7 +71,7 @@
       "Step 1: Melt margarine in a 9x13 pan on top of the stove.",
       "Step 2: Add crushed graham crackers over the melted margarine.",
       "Step 3: Go down the list in order given, layering each ingredient: coconut, chocolate bits, butterscotch bits, condensed sweet milk, and chopped pecans or walnuts.",
-      "Step 4: Bake at 350°F for 25 minutes.",
+      "Step 4: Bake at 350°F (175°C) for 25 minutes.",
       "Step 5: Make sure it is cold before cutting into squares."
     ],
     "he": [

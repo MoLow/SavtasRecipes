@@ -17,7 +17,7 @@
   },
   "ingredients": [
     {
-      "en": "11 oz cream cheese",
+      "en": "11 oz (310g) cream cheese",
       "he": "310 גרם גבינת שמנת",
       "item": "cream cheese",
       "amount": 11,
@@ -31,15 +31,15 @@
       "unit": "piece"
     },
     {
-      "en": "1 tsp vanilla",
-      "he": "1 כפית וניל",
+      "en": "1 tsp (5ml) vanilla",
+      "he": "1 כפית (5 מ\"ל) וניל",
       "item": "vanilla",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "1/3 cup sugar",
-      "he": "1/3 כוס סוכר",
+      "en": "1/3 cup (80ml) sugar",
+      "he": "1/3 כוס (80 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 0.333,
       "unit": "cup"
@@ -52,15 +52,15 @@
       "unit": "piece"
     },
     {
-      "en": "1 cup sour cream",
-      "he": "1 כוס שמנת חמוצה",
+      "en": "1 cup (240ml) sour cream",
+      "he": "1 כוס (240 מ\"ל) שמנת חמוצה",
       "item": "sour cream",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "1/4 cup sugar",
-      "he": "1/4 כוס סוכר",
+      "en": "1/4 cup (60ml) sugar",
+      "he": "1/4 כוס (60 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 0.25,
       "unit": "cup"
@@ -75,7 +75,7 @@
     "en": [
       "Step 1: Beat cream cheese, eggs, vanilla, and 1/3 cup sugar with electric mixer.",
       "Step 2: Pour into unbaked pie shell.",
-      "Step 3: Preheat oven to 350°F.",
+      "Step 3: Preheat oven to 350°F (175°C).",
       "Step 4: Bake 20-30 minutes.",
       "Step 5: While cake is in oven, mix 1 cup sour cream and 1/4 cup sugar.",
       "Step 6: Add sour cream and sugar mixture the last few minutes.",

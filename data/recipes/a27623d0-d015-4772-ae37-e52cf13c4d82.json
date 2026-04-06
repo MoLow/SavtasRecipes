@@ -19,14 +19,14 @@
   "ingredients": [
     {
       "en": "1/2 Cup shortening",
-      "he": "1/2 כוס שומן צמחי (שורטנינג)",
+      "he": "1/2 כוס (120 מ\"ל) שומן צמחי (שורטנינג)",
       "item": "shortening",
       "amount": 0.5,
       "unit": "cup"
     },
     {
       "en": "1/2 Cup brown sugar",
-      "he": "1/2 כוס סוכר חום",
+      "he": "1/2 כוס (120 מ\"ל) סוכר חום",
       "item": "brown sugar",
       "amount": 0.5,
       "unit": "cup"
@@ -40,35 +40,35 @@
     },
     {
       "en": "1 Cup applesauce",
-      "he": "1 כוס רסק תפוחים",
+      "he": "1 כוס (240 מ\"ל) רסק תפוחים",
       "item": "applesauce",
       "amount": 1,
       "unit": "cup"
     },
     {
       "en": "1 teas. salt",
-      "he": "1 כפית מלח",
+      "he": "1 כפית (5 מ\"ל) מלח",
       "item": "salt",
       "amount": 1,
       "unit": "teaspoon"
     },
     {
       "en": "1 teas. Cinnamon",
-      "he": "1 כפית קינמון",
+      "he": "1 כפית (5 מ\"ל) קינמון",
       "item": "cinnamon",
       "amount": 1,
       "unit": "teaspoon"
     },
     {
       "en": "1/2 teas. ground clove",
-      "he": "1/2 כפית ציפורן טחון",
+      "he": "1/2 כפית (3 מ\"ל) ציפורן טחון",
       "item": "ground clove",
       "amount": 0.5,
       "unit": "teaspoon"
     },
     {
       "en": "1 teas. baking soda",
-      "he": "1 כפית סודה לשתייה",
+      "he": "1 כפית (5 מ\"ל) סודה לשתייה",
       "item": "baking soda",
       "amount": 1,
       "unit": "teaspoon"
@@ -82,7 +82,7 @@
     },
     {
       "en": "1 Cup raisins (optional)",
-      "he": "1 כוס צימוקים (אופציונלי)",
+      "he": "1 כוס (240 מ\"ל) צימוקים (אופציונלי)",
       "item": "raisins",
       "amount": 1,
       "unit": "cup"

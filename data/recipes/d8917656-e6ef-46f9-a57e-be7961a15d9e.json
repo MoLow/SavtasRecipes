@@ -24,49 +24,49 @@
       "unit": "piece"
     },
     {
-      "en": "1 cup milk",
-      "he": "1 כוס חלב",
+      "en": "1 cup (240ml) milk",
+      "he": "1 כוס (240 מ\"ל) חלב",
       "item": "milk",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "2 tbs melted butter",
-      "he": "2 כפות חמאה מומסת",
+      "en": "2 tbs (30ml) melted butter",
+      "he": "2 כפות (30 מ\"ל) חמאה מומסת",
       "item": "melted butter",
       "amount": 2,
       "unit": "tbs"
     },
     {
-      "en": "1/8 tsp salt",
-      "he": "1/8 כפית מלח",
+      "en": "1/8 tsp (1ml) salt",
+      "he": "1/8 כפית (1 מ\"ל) מלח",
       "item": "salt",
       "amount": 0.125,
       "unit": "tsp"
     },
     {
-      "en": "1 tbs sugar",
-      "he": "1 כף סוכר",
+      "en": "1 tbs (15ml) sugar",
+      "he": "1 כף (15 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 1,
       "unit": "tbs"
     },
     {
-      "en": "1 cup flour",
-      "he": "1 כוס קמח",
+      "en": "1 cup (240ml) flour",
+      "he": "1 כוס (240 מ\"ל) קמח",
       "item": "flour",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "3/4 cup cottage cheese",
-      "he": "3/4 כוס גבינת קוטג'",
+      "en": "3/4 cup (180ml) cottage cheese",
+      "he": "3/4 כוס (180 מ\"ל) גבינת קוטג'",
       "item": "cottage cheese",
       "amount": 0.75,
       "unit": "cup"
     },
     {
-      "en": "4 oz cream cheese",
+      "en": "4 oz (110g) cream cheese",
       "he": "4 אונקיות (115 גרם) גבינת שמנת",
       "item": "cream cheese",
       "amount": 4,
@@ -80,15 +80,15 @@
       "unit": "piece"
     },
     {
-      "en": "1 tbs confectioners sugar",
-      "he": "1 כף אבקת סוכר",
+      "en": "1 tbs (15ml) confectioners sugar",
+      "he": "1 כף (15 מ\"ל) אבקת סוכר",
       "item": "confectioners sugar",
       "amount": 1,
       "unit": "tbs"
     },
     {
-      "en": "2 tbs half & half",
-      "he": "2 כפות שמנת חצי חצי",
+      "en": "2 tbs (30ml) half & half",
+      "he": "2 כפות (30 מ\"ל) שמנת חצי חצי",
       "item": "half & half",
       "amount": 2,
       "unit": "tbs"

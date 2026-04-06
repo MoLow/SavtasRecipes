@@ -18,22 +18,22 @@
   },
   "ingredients": [
     {
-      "en": "½ Lb. butter",
-      "he": "חצי ליברא חמאה",
+      "en": "½ Lb. (225g) butter",
+      "he": "חצי ליברא (225 גרם) חמאה",
       "item": "butter",
       "amount": 0.5,
       "unit": "Lb."
     },
     {
-      "en": "½ Lb. Cream Cheese",
-      "he": "חצי ליברא גבינת שמנת",
+      "en": "½ Lb. (225g) Cream Cheese",
+      "he": "חצי ליברא (225 גרם) גבינת שמנת",
       "item": "Cream Cheese",
       "amount": 0.5,
       "unit": "Lb."
     },
     {
-      "en": "2 cups Flour",
-      "he": "2 כוסות קמח",
+      "en": "2 cups (480ml) Flour",
+      "he": "2 כוסות (480 מ\"ל) קמח",
       "item": "Flour",
       "amount": 2,
       "unit": "cups"
@@ -74,21 +74,21 @@
       "**Variation 1: Dipped Cookies**",
       "1. Cream all ingredients together. Form into logs about ½\" THICK. Refrigerate in Wax paper for 3 hrs.",
       "2. Slice cookies and dip in beaten Egg white and Then in mixture of crushed nuts, cinnamon and sugar.",
-      "3. Bake 350° For 10 to 15 minutes.",
+      "3. Bake 350°F (175°C)or 10 to 15 minutes.",
       "**Variation 2: Filled Cookies**",
       "1. Form dough into 1\" balls. Refrigerate in wax paper for 3 hours. Roll out balls on a FLOURED surface.",
       "2. Fill with jelly and nuts. Fold dough over and Seal with a Fork.",
-      "3. Bake 350° For 10-15 minutes."
+      "3. Bake 350°F (175°C)or 10-15 minutes."
     ],
     "he": [
       "**וריאציה 1: עוגיות טבולות**",
       "1. לערבב את כל המרכיבים יחד. ליצור גלילים בעובי של כחצי אינץ'. לקרר בנייר שעווה למשך 3 שעות.",
       "2. לפרוס את העוגיות ולטבול בחלבון ביצה טרוף ולאחר מכן בתערובת של אגוזים כתושים, קינמון וסוכר.",
-      "3. לאפות בחום של 350° פרנהייט למשך 10 עד 15 דקות.",
+      "3. לאפות בחום של 175°C (350° פרנהייט) למשך 10 עד 15 דקות.",
       "**וריאציה 2: עוגיות ממולאות**",
       "1. ליצור מהבצק כדורים בקוטר 1 אינץ'. לקרר בנייר שעווה למשך 3 שעות. לרדד את הכדורים על משטח מקומח.",
       "2. למלא בריבה ואגוזים. לקפל את הבצק ולאטום בעזרת מזלג.",
-      "3. לאפות בחום של 350° פרנהייט למשך 10-15 דקות."
+      "3. לאפות בחום של 175°C (350° פרנהייט) למשך 10-15 דקות."
     ]
   },
   "tags": [

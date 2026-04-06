@@ -17,43 +17,43 @@
   },
   "ingredients": [
     {
-      "en": "1 lb walnuts",
+      "en": "1 lb (455g) walnuts",
       "he": "1 ליברה (450 גרם) אגוזי מלך",
       "item": "walnuts",
       "amount": 1,
       "unit": "lb"
     },
     {
-      "en": "1 lb pitted dates",
+      "en": "1 lb (455g) pitted dates",
       "he": "1 ליברה (450 גרם) תמרים ללא גלעין",
       "item": "pitted dates",
       "amount": 1,
       "unit": "lb"
     },
     {
-      "en": "3½ cups boiled water",
-      "he": "3½ כוסות מים רותחים",
+      "en": "3½ cups (840ml) boiled water",
+      "he": "3½ כוסות (840 מ\"ל) מים רותחים",
       "item": "boiled water",
       "amount": 3.5,
       "unit": "cup"
     },
     {
-      "en": "¾ tsp salt",
-      "he": "¾ כפית מלח",
+      "en": "¾ tsp (4ml) salt",
+      "he": "¾ כפית (4 מ\"ל) מלח",
       "item": "salt",
       "amount": 0.75,
       "unit": "tsp"
     },
     {
-      "en": "3 tsp bicarbonate of soda",
-      "he": "3 כפיות סודה לשתייה",
+      "en": "3 tsp (15ml) bicarbonate of soda",
+      "he": "3 כפיות (15 מ\"ל) סודה לשתייה",
       "item": "bicarbonate of soda",
       "amount": 3,
       "unit": "tsp"
     },
     {
-      "en": "6 cups flour (approx)",
-      "he": "6 כוסות קמח (בערך)",
+      "en": "6 cups (1440ml) flour (approx)",
+      "he": "6 כוסות (1440 מ\"ל) קמח (בערך)",
       "item": "flour",
       "amount": 6,
       "unit": "cup"
@@ -66,8 +66,8 @@
       "unit": "piece"
     },
     {
-      "en": "2½ cups sugar",
-      "he": "2½ כוסות סוכר",
+      "en": "2½ cups (600ml) sugar",
+      "he": "2½ כוסות (600 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 2.5,
       "unit": "cup"
@@ -78,7 +78,7 @@
       "Pour boiled water over walnuts, dates, bicarbonate of soda and salt.",
       "Mix eggs and sugar together. Gradually add flour.",
       "Gradually add the water, date and nut mixture.",
-      "Bake in a greased pan at 275°F or 300°F for 1 to 1½ hours."
+      "Bake in a greased pan at 275°F (135°C) or 300°F (150°C) for 1 to 1½ hours."
     ],
     "he": [
       "יוצקים מים רותחים על אגוזי המלך, התמרים, הסודה לשתייה והמלח.",

@@ -24,22 +24,22 @@
       "unit": "package"
     },
     {
-      "en": "15 oz applesauce",
+      "en": "15 oz (420g) applesauce",
       "he": "425 גרם רסק תפוחים",
       "item": "applesauce",
       "amount": 15,
       "unit": "oz"
     },
     {
-      "en": "1/4 cup sugar",
-      "he": "1/4 כוס סוכר",
+      "en": "1/4 cup (60ml) sugar",
+      "he": "1/4 כוס (60 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 0.25,
       "unit": "cup"
     },
     {
-      "en": "2 tsp cinnamon",
-      "he": "2 כפיות קינמון",
+      "en": "2 tsp (10ml) cinnamon",
+      "he": "2 כפיות (10 מ\"ל) קינמון",
       "item": "cinnamon",
       "amount": 2,
       "unit": "tsp"
@@ -53,7 +53,7 @@
       "Step 4: Spread sugar and cinnamon mixture over the batter.",
       "Step 5: Add the rest of the batter on top.",
       "Step 6: Cut through with a knife to create a swirl.",
-      "Step 7: Bake at 350°F for 40 minutes."
+      "Step 7: Bake at 350°F (175°C) for 40 minutes."
     ],
     "he": [
       "שלב 1: לערבב את תערובת העוגה הצהובה עם 425 גרם רסק תפוחים.",

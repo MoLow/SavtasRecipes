@@ -17,50 +17,50 @@
   },
   "ingredients": [
     {
-      "en": "1 1/3 cups flour",
-      "he": "1 ו-1/3 כוסות קמח",
+      "en": "1 1/3 cups (320ml) flour",
+      "he": "1 ו-1/3 כוסות (320 מ\"ל) קמח",
       "item": "flour",
       "amount": 1.33,
       "unit": "cups"
     },
     {
-      "en": "1 1/2 tsp. baking powder",
-      "he": "1 ו-1/2 כפיות אבקת אפייה",
+      "en": "1 1/2 tsp. (8ml) baking powder",
+      "he": "1 ו-1/2 כפיות (8 מ\"ל) אבקת אפייה",
       "item": "baking powder",
       "amount": 1.5,
       "unit": "tsp"
     },
     {
-      "en": "1/4 cup margarine",
-      "he": "1/4 כוס מרגרינה",
+      "en": "1/4 cup (60ml) margarine",
+      "he": "1/4 כוס (60 מ\"ל) מרגרינה",
       "item": "margarine",
       "amount": 0.25,
       "unit": "cup"
     },
     {
-      "en": "1/4 cup sugar",
-      "he": "1/4 כוס סוכר",
+      "en": "1/4 cup (60ml) sugar",
+      "he": "1/4 כוס (60 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 0.25,
       "unit": "cup"
     },
     {
-      "en": "1 tsp. vanilla",
-      "he": "1 כפית וניל",
+      "en": "1 tsp. (5ml) vanilla",
+      "he": "1 כפית (5 מ\"ל) וניל",
       "item": "vanilla",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "1 tsp. almond flavoring",
-      "he": "1 כפית תמצית שקדים",
+      "en": "1 tsp. (5ml) almond flavoring",
+      "he": "1 כפית (5 מ\"ל) תמצית שקדים",
       "item": "almond flavoring",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "1/8 tsp. salt",
-      "he": "1/8 כפית מלח",
+      "en": "1/8 tsp. (1ml) salt",
+      "he": "1/8 כפית (1 מ\"ל) מלח",
       "item": "salt",
       "amount": 0.125,
       "unit": "tsp"
@@ -89,7 +89,7 @@
       "Cut circle with a glass (2 1/2\" - 3\").",
       "Fill circles with lekvar or Apricot butter.",
       "Pinch on 3 sides into Δ shape.",
-      "Bake on greased cookie sheet at 375°F about 20 minutes.",
+      "Bake on greased cookie sheet at 375°F (190°C) about 20 minutes.",
       "Enjoy! Happy Purim!",
       "* Chocolate chips are great for filling too!"
     ],

@@ -38,14 +38,14 @@
       "unit": "piece"
     },
     {
-      "en": "1 stick margarine",
-      "he": "1 חפיסת מרגרינה",
+      "en": "1 stick (115g) margarine",
+      "he": "1 חפיסת (115 גרם) מרגרינה",
       "item": "margarine",
       "amount": 1,
       "unit": "stick"
     },
     {
-      "en": "1 box Tam Tam or 8 oz. Ritz crackers - crumbs (in Israel: use plain crackers or matzah meal)",
+      "en": "1 box Tam Tam or 8 oz. (225g) Ritz crackers - crumbs (in Israel: use plain crackers or matzah meal)",
       "he": "1 קופסת טם טם או 225 גרם פירורי קרקרים מסוג ריץ (בישראל: להשתמש בקרקרים פשוטים או קמח מצות)",
       "item": "cracker crumbs",
       "amount": 8,

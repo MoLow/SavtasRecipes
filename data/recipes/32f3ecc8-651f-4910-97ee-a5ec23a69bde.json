@@ -24,36 +24,36 @@
       "unit": "piece"
     },
     {
-      "en": "2½ cups flour",
-      "he": "2.5 כוסות קמח",
+      "en": "2½ cups (600ml) flour",
+      "he": "2.5 כוסות (600 מ\"ל) קמח",
       "item": "flour",
       "amount": 2.5,
       "unit": "cup"
     },
     {
-      "en": "¼ cup oil",
-      "he": "¼ כוס שמן",
+      "en": "¼ cup (60ml) oil",
+      "he": "¼ כוס (60 מ\"ל) שמן",
       "item": "oil",
       "amount": 0.25,
       "unit": "cup"
     },
     {
-      "en": "¼ cup + 2 tsp sugar",
-      "he": "¼ כוס + 2 כפיות סוכר",
+      "en": "¼ cup (60ml) + 2 tsp sugar",
+      "he": "¼ כוס (60 מ\"ל) + 2 כפיות סוכר",
       "item": "sugar",
       "amount": 0.25,
       "unit": "cup"
     },
     {
-      "en": "1½ tsp baking powder",
-      "he": "1.5 כפיות אבקת אפייה",
+      "en": "1½ tsp (8ml) baking powder",
+      "he": "1.5 כפיות (8 מ\"ל) אבקת אפייה",
       "item": "baking powder",
       "amount": 1.5,
       "unit": "tsp"
     },
     {
-      "en": "2 tbs orange juice (or some other juice — you may need more juice or more flour — adjust until ready to roll)",
-      "he": "2 כפות מיץ תפוזים (או מיץ אחר — ייתכן שתצטרכו עוד מיץ או עוד קמח — התאימו עד שהבצק מוכן לרידוד)",
+      "en": "2 tbs (30ml) orange juice (or some other juice — you may need more juice or more flour — adjust until ready to roll)",
+      "he": "2 כפות (30 מ\"ל) מיץ תפוזים (או מיץ אחר — ייתכן שתצטרכו עוד מיץ או עוד קמח — התאימו עד שהבצק מוכן לרידוד)",
       "item": "orange juice",
       "amount": 2,
       "unit": "tbs"

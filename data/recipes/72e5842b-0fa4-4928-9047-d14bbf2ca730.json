@@ -24,22 +24,22 @@
       "unit": "piece"
     },
     {
-      "en": "2 cups sugar",
-      "he": "2 כוסות סוכר",
+      "en": "2 cups (480ml) sugar",
+      "he": "2 כוסות (480 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 2,
       "unit": "cup"
     },
     {
-      "en": "3/4 cup oil + 1/4 cup O.J. & water to make 1 cup",
-      "he": "3/4 כוס שמן + 1/4 כוס מיץ תפוזים ומים להשלמת כוס",
+      "en": "3/4 cup (240ml) oil + 1/4 cup O.J. & water to make 1 cup",
+      "he": "3/4 כוס (240 מ\"ל) שמן + 1/4 כוס מיץ תפוזים ומים להשלמת כוס",
       "item": "oil + orange juice & water",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "2 tsp B.P. (baking powder)",
-      "he": "2 כפיות אבקת אפייה",
+      "en": "2 tsp (10ml) B.P. (baking powder)",
+      "he": "2 כפיות (10 מ\"ל) אבקת אפייה",
       "item": "baking powder",
       "amount": 2,
       "unit": "tsp"
@@ -50,15 +50,15 @@
       "item": "vanilla or lemon juice"
     },
     {
-      "en": "3 cups flour",
-      "he": "3 כוסות קמח",
+      "en": "3 cups (720ml) flour",
+      "he": "3 כוסות (720 מ\"ל) קמח",
       "item": "flour",
       "amount": 3,
       "unit": "cup"
     },
     {
-      "en": "1 tsp Harrey (Harissa/spice mix)",
-      "he": "1 כפית הריסה / תבלין",
+      "en": "1 tsp (5ml) Harrey (Harissa/spice mix)",
+      "he": "1 כפית (5 מ\"ל) הריסה / תבלין",
       "item": "harissa",
       "amount": 1,
       "unit": "tsp"

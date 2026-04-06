@@ -17,36 +17,36 @@
   },
   "ingredients": [
     {
-      "en": "1 cup ground nuts",
-      "he": "1 כוס אגוזים טחונים",
+      "en": "1 cup (240ml) ground nuts",
+      "he": "1 כוס (240 מ\"ל) אגוזים טחונים",
       "item": "ground nuts",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "1 cup butter",
-      "he": "1 כוס חמאה",
+      "en": "1 cup (240ml) butter",
+      "he": "1 כוס (240 מ\"ל) חמאה",
       "item": "butter",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "3/4 cups sugar",
-      "he": "3/4 כוסות סוכר",
+      "en": "3/4 cups (180ml) sugar",
+      "he": "3/4 כוסות (180 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 0.75,
       "unit": "cup"
     },
     {
-      "en": "2 1/2 cups flour",
-      "he": "2.5 כוסות קמח",
+      "en": "2 1/2 cups (600ml) flour",
+      "he": "2.5 כוסות (600 מ\"ל) קמח",
       "item": "flour",
       "amount": 2.5,
       "unit": "cup"
     },
     {
-      "en": "1 1/2 tsp. vanilla",
-      "he": "1.5 כפיות תמצית וניל",
+      "en": "1 1/2 tsp. (8ml) vanilla",
+      "he": "1.5 כפיות (8 מ\"ל) תמצית וניל",
       "item": "vanilla",
       "amount": 1.5,
       "unit": "tsp"
@@ -56,7 +56,7 @@
     "en": [
       "Step 1: Mix all ingredients together — ground nuts, butter, sugar, flour, and vanilla — to form a dough.",
       "Step 2: Shape the dough into small crescent shapes.",
-      "Step 3: Bake at 350°F until brown, approximately 10 minutes."
+      "Step 3: Bake at 350°F (175°C) until brown, approximately 10 minutes."
     ],
     "he": [
       "שלב 1: מערבבים את כל המרכיבים יחד — אגוזים טחונים, חמאה, סוכר, קמח ווניל — עד ליצירת בצק.",

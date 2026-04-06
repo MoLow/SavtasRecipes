@@ -17,43 +17,43 @@
   },
   "ingredients": [
     {
-      "en": "3/4 cup margarine",
-      "he": "3/4 כוס מרגרינה",
+      "en": "3/4 cup (180ml) margarine",
+      "he": "3/4 כוס (180 מ\"ל) מרגרינה",
       "item": "margarine",
       "amount": 0.75,
       "unit": "cup"
     },
     {
-      "en": "3 oz chocolate",
-      "he": "3 אונקיות שוקולד",
+      "en": "3 oz (85g) chocolate",
+      "he": "3 אונקיות (85 גרם) שוקולד",
       "item": "chocolate",
       "amount": 3,
       "unit": "oz"
     },
     {
-      "en": "1 1/2 cup sugar",
-      "he": "1.5 כוס סוכר",
+      "en": "1 1/2 cup (360ml) sugar",
+      "he": "1.5 כוס (360 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 1.5,
       "unit": "cup"
     },
     {
-      "en": "1 1/2 tsp vanilla",
-      "he": "1.5 כפית וניל",
+      "en": "1 1/2 tsp (8ml) vanilla",
+      "he": "1.5 כפית (8 מ\"ל) וניל",
       "item": "vanilla",
       "amount": 1.5,
       "unit": "tsp"
     },
     {
-      "en": "1/8 tsp salt",
-      "he": "1/8 כפית מלח",
+      "en": "1/8 tsp (1ml) salt",
+      "he": "1/8 כפית (1 מ\"ל) מלח",
       "item": "salt",
       "amount": 0.125,
       "unit": "tsp"
     },
     {
-      "en": "3/4 cup chopped walnuts",
-      "he": "3/4 כוס אגוזי מלך קצוצים",
+      "en": "3/4 cup (180ml) chopped walnuts",
+      "he": "3/4 כוס (180 מ\"ל) אגוזי מלך קצוצים",
       "item": "walnuts",
       "amount": 0.75,
       "unit": "cup"
@@ -66,22 +66,22 @@
       "unit": "piece"
     },
     {
-      "en": "1 1/2 cup flour",
-      "he": "1.5 כוס קמח",
+      "en": "1 1/2 cup (360ml) flour",
+      "he": "1.5 כוס (360 מ\"ל) קמח",
       "item": "flour",
       "amount": 1.5,
       "unit": "cup"
     },
     {
-      "en": "3/4 tsp baking powder",
-      "he": "3/4 כפית אבקת אפייה",
+      "en": "3/4 tsp (4ml) baking powder",
+      "he": "3/4 כפית (4 מ\"ל) אבקת אפייה",
       "item": "baking powder",
       "amount": 0.75,
       "unit": "tsp"
     },
     {
-      "en": "1/4 cup + 2 tbs raspberry jam",
-      "he": "1/4 כוס + 2 כפות ריבת פטל",
+      "en": "1/4 cup (60ml) + 2 tbs raspberry jam",
+      "he": "1/4 כוס (60 מ\"ל) + 2 כפות ריבת פטל",
       "item": "raspberry jam",
       "amount": 0.25,
       "unit": "cup"
@@ -94,7 +94,7 @@
       "Beat in sugar.",
       "Stir in margarine, chocolate and vanilla.",
       "Stir in flour, baking powder and salt.",
-      "Bake at 350°F for 25 minutes. Cool.",
+      "Bake at 350°F (175°C) for 25 minutes. Cool.",
       "While warm, spread with jam, sprinkle with walnuts and cut into 1 1/2 inch squares."
     ],
     "he": [

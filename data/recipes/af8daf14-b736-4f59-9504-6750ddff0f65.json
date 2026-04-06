@@ -18,15 +18,15 @@
   },
   "ingredients": [
     {
-      "en": "1/2 lb butter",
-      "he": "1/2 ליברת חמאה",
+      "en": "1/2 lb (225g) butter",
+      "he": "1/2 ליברת (225 גרם) חמאה",
       "item": "butter",
       "amount": 0.5,
       "unit": "lb"
     },
     {
-      "en": "1 1/2 cups sugar",
-      "he": "1 1/2 כוסות סוכר",
+      "en": "1 1/2 cups (360ml) sugar",
+      "he": "1 1/2 כוסות (360 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 1.5,
       "unit": "cup"
@@ -39,36 +39,36 @@
       "unit": ""
     },
     {
-      "en": "4 cups flour",
-      "he": "4 כוסות קמח",
+      "en": "4 cups (960ml) flour",
+      "he": "4 כוסות (960 מ\"ל) קמח",
       "item": "flour",
       "amount": 4,
       "unit": "cup"
     },
     {
-      "en": "2 tsp baking powder",
-      "he": "2 כפיות אבקת אפייה",
+      "en": "2 tsp (10ml) baking powder",
+      "he": "2 כפיות (10 מ\"ל) אבקת אפייה",
       "item": "baking powder",
       "amount": 2,
       "unit": "tsp"
     },
     {
-      "en": "1 tsp vanilla",
-      "he": "1 כפית וניל",
+      "en": "1 tsp (5ml) vanilla",
+      "he": "1 כפית (5 מ\"ל) וניל",
       "item": "vanilla",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "1 cup sour cream",
-      "he": "1 כוס שמנת חמוצה",
+      "en": "1 cup (240ml) sour cream",
+      "he": "1 כוס (240 מ\"ל) שמנת חמוצה",
       "item": "sour cream",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "1 lb walnuts",
-      "he": "1 ליברת אגוזי מלך",
+      "en": "1 lb (455g) walnuts",
+      "he": "1 ליברת (455 גרם) אגוזי מלך",
       "item": "walnuts",
       "amount": 1,
       "unit": "lb"
@@ -104,7 +104,7 @@
       "Sprinkle some of the walnut, sugar, and cinnamon mixture onto the batter.",
       "Pour the rest of the remaining batter over the streusel layer.",
       "Add fruit on top.",
-      "Bake at 350°F for 1 hour."
+      "Bake at 350°F (175°C) for 1 hour."
     ],
     "he": [
       "מקציפים יחד חמאה, 1 1/2 כוסות סוכר וביצים.",

@@ -31,29 +31,29 @@
       "unit": "clove"
     },
     {
-      "en": "1/4 cup oil",
-      "he": "1/4 כוס שמן",
+      "en": "1/4 cup (60ml) oil",
+      "he": "1/4 כוס (60 מ\"ל) שמן",
       "item": "oil",
       "amount": 0.25,
       "unit": "cup"
     },
     {
-      "en": "1 tsp salt",
-      "he": "1 כפית מלח",
+      "en": "1 tsp (5ml) salt",
+      "he": "1 כפית (5 מ\"ל) מלח",
       "item": "salt",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "1/8 tsp pepper",
-      "he": "1/8 כפית פלפל",
+      "en": "1/8 tsp (1ml) pepper",
+      "he": "1/8 כפית (1 מ\"ל) פלפל",
       "item": "pepper",
       "amount": 0.125,
       "unit": "tsp"
     },
     {
-      "en": "2 cups chopped celery",
-      "he": "2 כוסות סלרי קצוץ",
+      "en": "2 cups (480ml) chopped celery",
+      "he": "2 כוסות (480 מ\"ל) סלרי קצוץ",
       "item": "celery",
       "amount": 2,
       "unit": "cups"
@@ -80,22 +80,22 @@
       "unit": "can"
     },
     {
-      "en": "1/2 cup water",
-      "he": "1/2 כוס מים",
+      "en": "1/2 cup (120ml) water",
+      "he": "1/2 כוס (120 מ\"ל) מים",
       "item": "water",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "1/3 cup dry wine",
-      "he": "1/3 כוס יין יבש",
+      "en": "1/3 cup (80ml) dry wine",
+      "he": "1/3 כוס (80 מ\"ל) יין יבש",
       "item": "dry wine",
       "amount": 0.33,
       "unit": "cup"
     },
     {
-      "en": "1/2 tsp marjoram",
-      "he": "1/2 כפית מיורם",
+      "en": "1/2 tsp (3ml) marjoram",
+      "he": "1/2 כפית (3 מ\"ל) מיורם",
       "item": "marjoram",
       "amount": 0.5,
       "unit": "tsp"
@@ -117,7 +117,7 @@
       "להשחים סלרי, גזרים ובצלים.",
       "לסנן את השומן העודף.",
       "להוסיף את שאר המרכיבים.",
-      "לאפות מכוסה בחום 175 מעלות (350°F) למשך 50 דקות.",
+      "לאפות מכוסה בחום 175 מעלות (175°C (350°F)) למשך 50 דקות.",
       "מוגש ל-6 עד 8 סועדים."
     ]
   },

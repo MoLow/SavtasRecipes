@@ -24,36 +24,36 @@
       "amount": 2
     },
     {
-      "en": "1 lb. cream cheese",
-      "he": "1 ליברות גבינת שמנת",
+      "en": "1 lb. (455g) cream cheese",
+      "he": "1 ליברות (455 גרם) גבינת שמנת",
       "item": "cream cheese",
       "amount": 1,
       "unit": "lb"
     },
     {
-      "en": "1 cup sugar",
-      "he": "1 כוס סוכר",
+      "en": "1 cup (240ml) sugar",
+      "he": "1 כוס (240 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "3 tbsp flour",
-      "he": "3 כפות קמח",
+      "en": "3 tbsp (45ml) flour",
+      "he": "3 כפות (45 מ\"ל) קמח",
       "item": "flour",
       "amount": 3,
       "unit": "tbsp"
     },
     {
-      "en": "1 tsp vanilla",
-      "he": "1 כפית תמצית וניל",
+      "en": "1 tsp (5ml) vanilla",
+      "he": "1 כפית (5 מ\"ל) תמצית וניל",
       "item": "vanilla",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "3 tbsp lemon juice",
-      "he": "3 כפות מיץ לימון",
+      "en": "3 tbsp (45ml) lemon juice",
+      "he": "3 כפות (45 מ\"ל) מיץ לימון",
       "item": "lemon juice",
       "amount": 3,
       "unit": "tbsp"
@@ -65,50 +65,50 @@
       "amount": 12
     },
     {
-      "en": "1/4 cup sugar",
-      "he": "1/4 כוס סוכר",
+      "en": "1/4 cup (60ml) sugar",
+      "he": "1/4 כוס (60 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 0.25,
       "unit": "cup"
     },
     {
-      "en": "1/4 cup melted butter",
-      "he": "1/4 כוס חמאה מומסת",
+      "en": "1/4 cup (60ml) melted butter",
+      "he": "1/4 כוס (60 מ\"ל) חמאה מומסת",
       "item": "melted butter",
       "amount": 0.25,
       "unit": "cup"
     },
     {
-      "en": "1/2 cup sugar",
-      "he": "1/2 כוס סוכר",
+      "en": "1/2 cup (120ml) sugar",
+      "he": "1/2 כוס (120 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "1/2 cup water",
-      "he": "1/2 כוס מים",
+      "en": "1/2 cup (120ml) water",
+      "he": "1/2 כוס (120 מ\"ל) מים",
       "item": "water",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "1 tbsp cornstarch",
-      "he": "1 כף קורנפלור",
+      "en": "1 tbsp (15ml) cornstarch",
+      "he": "1 כף (15 מ\"ל) קורנפלור",
       "item": "cornstarch",
       "amount": 1,
       "unit": "tbsp"
     },
     {
-      "en": "1/4 tsp butter",
-      "he": "1/4 כפית חמאה",
+      "en": "1/4 tsp (1ml) butter",
+      "he": "1/4 כפית (1 מ\"ל) חמאה",
       "item": "butter",
       "amount": 0.25,
       "unit": "tsp"
     },
     {
-      "en": "1/4 cup sliced strawberries",
-      "he": "1/4 כוס תותים פרוסים",
+      "en": "1/4 cup (60ml) sliced strawberries",
+      "he": "1/4 כוס (60 מ\"ל) תותים פרוסים",
       "item": "sliced strawberries",
       "amount": 0.25,
       "unit": "cup"

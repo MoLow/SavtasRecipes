@@ -39,15 +39,15 @@
       "item": "seasonings"
     },
     {
-      "en": "½ cup flour (paste)",
-      "he": "½ כוס קמח (פסטה/רביכה)",
+      "en": "½ cup (120ml) flour (paste)",
+      "he": "½ כוס (120 מ\"ל) קמח (פסטה/רביכה)",
       "item": "flour",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "2/3 tbsp onion powder",
-      "he": "2/3 כף אבקת בצל",
+      "en": "2/3 tbsp (10ml) onion powder",
+      "he": "2/3 כף (10 מ\"ל) אבקת בצל",
       "item": "onion powder",
       "amount": 0.67,
       "unit": "tbsp"

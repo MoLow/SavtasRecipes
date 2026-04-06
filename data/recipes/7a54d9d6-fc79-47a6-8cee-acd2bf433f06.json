@@ -18,8 +18,8 @@
   },
   "ingredients": [
     {
-      "en": "2 cups tap H₂O",
-      "he": "2 כוסות מים מהברז",
+      "en": "2 cups (480ml) tap H₂O",
+      "he": "2 כוסות (480 מ\"ל) מים מהברז",
       "item": "tap water",
       "amount": 2,
       "unit": "cups"
@@ -32,15 +32,15 @@
       "unit": "envelopes"
     },
     {
-      "en": "2 tsp large salt",
-      "he": "2 כפיות מלח גס",
+      "en": "2 tsp (10ml) large salt",
+      "he": "2 כפיות (10 מ\"ל) מלח גס",
       "item": "large salt",
       "amount": 2,
       "unit": "tsp"
     },
     {
-      "en": "2 tsp lite brown sugar",
-      "he": "2 כפיות סוכר חום בהיר",
+      "en": "2 tsp (10ml) lite brown sugar",
+      "he": "2 כפיות (10 מ\"ל) סוכר חום בהיר",
       "item": "light brown sugar",
       "amount": 2,
       "unit": "tsp"
@@ -60,29 +60,29 @@
       "unit": null
     },
     {
-      "en": "1/3 cup peanut oil",
-      "he": "1/3 כוס שמן בוטנים",
+      "en": "1/3 cup (80ml) peanut oil",
+      "he": "1/3 כוס (80 מ\"ל) שמן בוטנים",
       "item": "peanut oil",
       "amount": 0.33,
       "unit": "cup"
     },
     {
-      "en": "1/2 cup honey",
-      "he": "1/2 כוס דבש",
+      "en": "1/2 cup (120ml) honey",
+      "he": "1/2 כוס (120 מ\"ל) דבש",
       "item": "honey",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "3 cups white flour",
-      "he": "3 כוסות קמח לבן",
+      "en": "3 cups (720ml) white flour",
+      "he": "3 כוסות (720 מ\"ל) קמח לבן",
       "item": "white flour",
       "amount": 3,
       "unit": "cups"
     },
     {
       "en": "3 C whole wheat flour",
-      "he": "3 כוסות קמח חיטה מלאה",
+      "he": "3 כוסות (720 מ\"ל) קמח חיטה מלאה",
       "item": "whole wheat flour",
       "amount": 3,
       "unit": "cups"
@@ -95,15 +95,15 @@
       "unit": null
     },
     {
-      "en": "1 Tsp honey (for wash)",
-      "he": "1 כפית דבש (לציפוי)",
+      "en": "1 Tsp (5ml) honey (for wash)",
+      "he": "1 כפית (5 מ\"ל) דבש (לציפוי)",
       "item": "honey",
       "amount": 1,
       "unit": "Tsp"
     },
     {
-      "en": "1 Tsp H₂O (for wash)",
-      "he": "1 כפית מים (לציפוי)",
+      "en": "1 Tsp (5ml) H₂O (for wash)",
+      "he": "1 כפית (5 מ\"ל) מים (לציפוי)",
       "item": "water",
       "amount": 1,
       "unit": "Tsp"
@@ -122,7 +122,7 @@
       "Allow to rise until double.",
       "Make egg wash & brush on top.",
       "Egg Wash: 1 egg, 1 Tsp honey, 1 Tsp H₂O.",
-      "Bake for 350° F in preheated oven."
+      "Bake for 350°F (175°C) in preheated oven."
     ],
     "he": [
       "ערבבו שמרים, מלח וסוכר חום – ערבבו עד להמסה.",
@@ -136,7 +136,7 @@
       "הניחו לתפוח עד שיכפיל את גודלו.",
       "הכינו ציפוי ביצה והברישו מעל.",
       "ציפוי ביצה: 1 ביצה, 1 כפית דבש, 1 כפית מים.",
-      "אפו בחום של 350°F בתנור שחומם מראש."
+      "אפו בחום של 175°C (350°F) בתנור שחומם מראש."
     ]
   },
   "tags": [

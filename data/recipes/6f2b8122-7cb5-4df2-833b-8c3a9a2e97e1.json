@@ -19,21 +19,21 @@
   "ingredients": [
     {
       "en": "½ C margarine",
-      "he": "½ כוס מרגרינה",
+      "he": "½ כוס (120 מ\"ל) מרגרינה",
       "item": "margarine",
       "amount": 0.5,
       "unit": "cup"
     },
     {
       "en": "½ C brown sugar packed",
-      "he": "½ כוס סוכר חום דחוס",
+      "he": "½ כוס (120 מ\"ל) סוכר חום דחוס",
       "item": "brown sugar",
       "amount": 0.5,
       "unit": "cup"
     },
     {
       "en": "½ C sugar",
-      "he": "½ כוס סוכר",
+      "he": "½ כוס (120 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 0.5,
       "unit": "cup"
@@ -46,57 +46,57 @@
       "unit": null
     },
     {
-      "en": "1 tsp vanilla",
-      "he": "1 כפית וניל",
+      "en": "1 tsp (5ml) vanilla",
+      "he": "1 כפית (5 מ\"ל) וניל",
       "item": "vanilla",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "2 cups flour",
-      "he": "2 כוסות קמח",
+      "en": "2 cups (480ml) flour",
+      "he": "2 כוסות (480 מ\"ל) קמח",
       "item": "flour",
       "amount": 2,
       "unit": "cup"
     },
     {
-      "en": "1 tsp salt",
-      "he": "1 כפית מלח",
+      "en": "1 tsp (5ml) salt",
+      "he": "1 כפית (5 מ\"ל) מלח",
       "item": "salt",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "1 tsp cinnamon (cover)",
-      "he": "1 כפית קינמון (לכסות)",
+      "en": "1 tsp (5ml) cinnamon (cover)",
+      "he": "1 כפית (5 מ\"ל) קינמון (לכסות)",
       "item": "cinnamon",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "½ tsp soda",
-      "he": "½ כפית סודה לשתייה",
+      "en": "½ tsp (3ml) soda",
+      "he": "½ כפית (3 מ\"ל) סודה לשתייה",
       "item": "baking soda",
       "amount": 0.5,
       "unit": "tsp"
     },
     {
       "en": "1½ C nuts",
-      "he": "1½ כוסות אגוזים",
+      "he": "1½ כוסות (360 מ\"ל) אגוזים",
       "item": "nuts",
       "amount": 1.5,
       "unit": "cup"
     },
     {
       "en": "½ C raisins",
-      "he": "½ כוס צימוקים",
+      "he": "½ כוס (120 מ\"ל) צימוקים",
       "item": "raisins",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "2 cups quick cooking oats",
-      "he": "2 כוסות שיבולת שועל מהירת הכנה",
+      "en": "2 cups (480ml) quick cooking oats",
+      "he": "2 כוסות (480 מ\"ל) שיבולת שועל מהירת הכנה",
       "item": "quick cooking oats",
       "amount": 2,
       "unit": "cup"

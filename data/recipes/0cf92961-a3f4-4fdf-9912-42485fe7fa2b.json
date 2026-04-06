@@ -39,36 +39,36 @@
       "unit": "glasses"
     },
     {
-      "en": "1/2 cup oil",
-      "he": "1/2 כוס שמן",
+      "en": "1/2 cup (120ml) oil",
+      "he": "1/2 כוס (120 מ\"ל) שמן",
       "item": "oil",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "1 1/2 cup sugar",
-      "he": "1 1/2 כוס סוכר",
+      "en": "1 1/2 cup (360ml) sugar",
+      "he": "1 1/2 כוס (360 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 1.5,
       "unit": "cup"
     },
     {
-      "en": "2 cups flour",
-      "he": "2 כוסות קמח",
+      "en": "2 cups (480ml) flour",
+      "he": "2 כוסות (480 מ\"ל) קמח",
       "item": "flour",
       "amount": 2,
       "unit": "cups"
     },
     {
-      "en": "2 tsp baking powder",
-      "he": "2 כפיות אבקת אפייה",
+      "en": "2 tsp (10ml) baking powder",
+      "he": "2 כפיות (10 מ\"ל) אבקת אפייה",
       "item": "baking powder",
       "amount": 2,
       "unit": "tsp"
     },
     {
-      "en": "1/2 tsp soda",
-      "he": "1/2 כפית סודה לשתייה",
+      "en": "1/2 tsp (3ml) soda",
+      "he": "1/2 כפית (3 מ\"ל) סודה לשתייה",
       "item": "soda",
       "amount": 0.5,
       "unit": "tsp"

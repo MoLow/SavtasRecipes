@@ -40,14 +40,14 @@
     },
     {
       "en": "1/2 C broth",
-      "he": "1/2 כוס ציר מרק",
+      "he": "1/2 כוס (120 מ\"ל) ציר מרק",
       "item": "broth",
       "amount": 0.5,
       "unit": "cup"
     },
     {
       "en": "1/2 C white wine (optional)",
-      "he": "1/2 כוס יין לבן (אופציונלי)",
+      "he": "1/2 כוס (120 מ\"ל) יין לבן (אופציונלי)",
       "item": "white wine",
       "amount": 0.5,
       "unit": "cup"

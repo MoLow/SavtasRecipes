@@ -17,7 +17,7 @@
   },
   "ingredients": [
     {
-      "en": "1 lb (400-500 gr) noodles (medium)",
+      "en": "1 lb (455g) (400-500 gr) noodles (medium)",
       "he": "450 גרם (400-500 גרם) אטריות (בינוניות)",
       "item": "noodles",
       "amount": 1,
@@ -45,15 +45,15 @@
       "unit": "gram"
     },
     {
-      "en": "3-4 Tbsp onion soup",
-      "he": "3-4 כפות מרק בצל",
+      "en": "3-4 Tbsp (55ml) onion soup",
+      "he": "3-4 כפות (55 מ\"ל) מרק בצל",
       "item": "onion soup mix",
       "amount": 3.5,
       "unit": "tbsp"
     },
     {
-      "en": "1 cup liquid (parve: water, dairy: milk or)",
-      "he": "1 כוס נוזל (פרווה: מים, חלבי: חלב)",
+      "en": "1 cup (240ml) liquid (parve: water, dairy: milk or)",
+      "he": "1 כוס (240 מ\"ל) נוזל (פרווה: מים, חלבי: חלב)",
       "item": "liquid",
       "amount": 1,
       "unit": "cup"
@@ -65,7 +65,7 @@
       "Step 2: Melt margarine into noodles.",
       "Step 3: Add soup mix, margarine and chopped broccoli. Mix thoroughly.",
       "Step 4: Mix in liquid. Add beaten eggs. Mix thoroughly.",
-      "Step 5: Bake in a 9x13 greased pan at 350°F for approx. 30 min until set and golden.",
+      "Step 5: Bake in a 9x13 greased pan at 350°F (175°C) for approx. 30 min until set and golden.",
       "Step 6: Can substitute chopped cauliflower."
     ],
     "he": [

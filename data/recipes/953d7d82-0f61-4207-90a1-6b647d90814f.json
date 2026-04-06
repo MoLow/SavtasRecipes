@@ -17,57 +17,57 @@
   },
   "ingredients": [
     {
-      "en": "2 quarts water",
+      "en": "2 quarts (1890ml) water",
       "he": "2 ליטר מים",
       "item": "water",
       "amount": 2,
       "unit": "quarts"
     },
     {
-      "en": "3/4 lb bean sprouts",
+      "en": "3/4 lb (340g) bean sprouts",
       "he": "340 גרם נבטי שעועית",
       "item": "bean sprouts",
       "amount": 0.75,
       "unit": "lb"
     },
     {
-      "en": "6 oz rice noodles",
+      "en": "6 oz (170g) rice noodles",
       "he": "170 גרם אטריות אורז",
       "item": "rice noodles",
       "amount": 6,
       "unit": "oz"
     },
     {
-      "en": "3 tbsp fresh lime juice",
-      "he": "3 כפות מיץ ליים טרי",
+      "en": "3 tbsp (45ml) fresh lime juice",
+      "he": "3 כפות (45 מ\"ל) מיץ ליים טרי",
       "item": "fresh lime juice",
       "amount": 3,
       "unit": "tbsp"
     },
     {
-      "en": "3 tbsp ketchup",
-      "he": "3 כפות קטשופ",
+      "en": "3 tbsp (45ml) ketchup",
+      "he": "3 כפות (45 מ\"ל) קטשופ",
       "item": "ketchup",
       "amount": 3,
       "unit": "tbsp"
     },
     {
-      "en": "1 tbsp brown sugar",
-      "he": "1 כף סוכר חום",
+      "en": "1 tbsp (15ml) brown sugar",
+      "he": "1 כף (15 מ\"ל) סוכר חום",
       "item": "brown sugar",
       "amount": 1,
       "unit": "tbsp"
     },
     {
-      "en": "1/4 cup soy sauce",
-      "he": "1/4 כוס רוטב סויה",
+      "en": "1/4 cup (60ml) soy sauce",
+      "he": "1/4 כוס (60 מ\"ל) רוטב סויה",
       "item": "soy sauce",
       "amount": 0.25,
       "unit": "cup"
     },
     {
-      "en": "3 tbsp peanut or vegetable oil",
-      "he": "3 כפות שמן בוטנים או שמן צמחי",
+      "en": "3 tbsp (45ml) peanut or vegetable oil",
+      "he": "3 כפות (45 מ\"ל) שמן בוטנים או שמן צמחי",
       "item": "peanut or vegetable oil",
       "amount": 3,
       "unit": "tbsp"
@@ -80,8 +80,8 @@
       "unit": "piece"
     },
     {
-      "en": "2 cups grated carrots",
-      "he": "2 כוסות גזר מגורר",
+      "en": "2 cups (480ml) grated carrots",
+      "he": "2 כוסות (480 מ\"ל) גזר מגורר",
       "item": "grated carrots",
       "amount": 2,
       "unit": "cups"
@@ -101,8 +101,8 @@
       "unit": "pinch"
     },
     {
-      "en": "2/3 cups chopped peanuts",
-      "he": "2/3 כוס בוטנים קצוצים",
+      "en": "2/3 cups (160ml) chopped peanuts",
+      "he": "2/3 כוס (160 מ\"ל) בוטנים קצוצים",
       "item": "chopped peanuts",
       "amount": 0.67,
       "unit": "cups"

@@ -18,29 +18,29 @@
   },
   "ingredients": [
     {
-      "en": "1 lb. sweet butter or margarine (preferred)",
-      "he": "1 ליברות חמאה מתוקה או מרגרינה (מועדף)",
+      "en": "1 lb. (455g) sweet butter or margarine (preferred)",
+      "he": "1 ליברות (455 גרם) חמאה מתוקה או מרגרינה (מועדף)",
       "item": "sweet butter or margarine",
       "amount": 1,
       "unit": "lb"
     },
     {
-      "en": "2/3 cup of fine sugar",
-      "he": "2/3 כוס סוכר דק",
+      "en": "2/3 cup (160ml) of fine sugar",
+      "he": "2/3 כוס (160 מ\"ל) סוכר דק",
       "item": "fine sugar",
       "amount": 0.66,
       "unit": "cup"
     },
     {
-      "en": "1 rounded jigger of whisky",
-      "he": "1 ג'יגר מלא (מעוגל) של וויסקי",
+      "en": "1 rounded jigger (45ml) of whisky",
+      "he": "1 ג'יגר (45 מ\"ל) מלא (מעוגל) של וויסקי",
       "item": "whisky",
       "amount": 1,
       "unit": "jigger"
     },
     {
-      "en": "approx. 4 cups of flour",
-      "he": "כ-4 כוסות קמח",
+      "en": "approx. 4 cups (960ml) of flour",
+      "he": "כ-4 כוסות (960 מ\"ל) קמח",
       "item": "flour",
       "amount": 4,
       "unit": "cups"
@@ -70,7 +70,7 @@
     "he": [
       "שלבו חמאה, סוכר וויסקי עם מספיק קמח ליצירת בצק רך.",
       "עצבו לסהרונים.",
-      "אפו ב-350° פרנהייט עד שמוכן.",
+      "אפו ב-175°C (350° פרנהייט) עד שמוכן.",
       "לאחר קירור, טבלו את הקצוות בשוקולד מומס - או גלגלו באבקת סוכר."
     ]
   },

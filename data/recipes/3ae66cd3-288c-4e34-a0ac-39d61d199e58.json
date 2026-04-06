@@ -17,15 +17,15 @@
   },
   "ingredients": [
     {
-      "en": "4 oz. blue cheese",
-      "he": "4 אונקיות גבינה כחולה",
+      "en": "4 oz. (110g) blue cheese",
+      "he": "4 אונקיות (110 גרם) גבינה כחולה",
       "item": "blue cheese",
       "amount": 4,
       "unit": "oz"
     },
     {
-      "en": "8 oz cottage cheese",
-      "he": "8 אונקיות גבינת קוטג׳",
+      "en": "8 oz (225g) cottage cheese",
+      "he": "8 אונקיות (225 גרם) גבינת קוטג׳",
       "item": "cottage cheese",
       "amount": 8,
       "unit": "oz"

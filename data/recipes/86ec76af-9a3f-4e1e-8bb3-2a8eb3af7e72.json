@@ -24,15 +24,15 @@
       "unit": "Pkgs"
     },
     {
-      "en": "7 Teaspoons vanilla",
-      "he": "7 כפיות וניל",
+      "en": "7 Teaspoons (35ml) vanilla",
+      "he": "7 כפיות (35 מ\"ל) וניל",
       "item": "vanilla",
       "amount": 7,
       "unit": "Teaspoons"
     },
     {
-      "en": "2 Teaspoons yellow color",
-      "he": "2 כפיות צבע מאכל צהוב",
+      "en": "2 Teaspoons (10ml) yellow color",
+      "he": "2 כפיות (10 מ\"ל) צבע מאכל צהוב",
       "item": "yellow color",
       "amount": 2,
       "unit": "Teaspoons"
@@ -45,8 +45,8 @@
       "unit": "drops"
     },
     {
-      "en": "1/2 cup Buttermilk",
-      "he": "1/2 כוס חובצה",
+      "en": "1/2 cup (120ml) Buttermilk",
+      "he": "1/2 כוס (120 מ\"ל) חובצה",
       "item": "Buttermilk",
       "amount": 0.5,
       "unit": "cup"

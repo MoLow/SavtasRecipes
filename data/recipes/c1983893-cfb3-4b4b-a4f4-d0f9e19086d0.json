@@ -17,22 +17,22 @@
   },
   "ingredients": [
     {
-      "en": "3½ cups flour",
-      "he": "3½ כוסות קמח",
+      "en": "3½ cups (840ml) flour",
+      "he": "3½ כוסות (840 מ\"ל) קמח",
       "item": "flour",
       "amount": 3.5,
       "unit": "cup"
     },
     {
-      "en": "½ tsp salt",
-      "he": "½ כפית מלח",
+      "en": "½ tsp (3ml) salt",
+      "he": "½ כפית (3 מ\"ל) מלח",
       "item": "salt",
       "amount": 0.5,
       "unit": "tsp"
     },
     {
-      "en": "1 cup boiled water",
-      "he": "1 כוס מים רותחים",
+      "en": "1 cup (240ml) boiled water",
+      "he": "1 כוס (240 מ\"ל) מים רותחים",
       "item": "boiled water",
       "amount": 1,
       "unit": "cup"
@@ -43,8 +43,8 @@
       "item": "margarine"
     },
     {
-      "en": "2 tbsp vinegar",
-      "he": "2 כפות חומץ",
+      "en": "2 tbsp (30ml) vinegar",
+      "he": "2 כפות (30 מ\"ל) חומץ",
       "item": "vinegar",
       "amount": 2,
       "unit": "tbsp"

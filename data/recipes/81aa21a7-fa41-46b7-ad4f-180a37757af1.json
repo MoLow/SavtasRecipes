@@ -17,22 +17,22 @@
   },
   "ingredients": [
     {
-      "en": "1 1/2 cups flour",
-      "he": "1.5 כוסות קמח",
+      "en": "1 1/2 cups (360ml) flour",
+      "he": "1.5 כוסות (360 מ\"ל) קמח",
       "item": "flour",
       "amount": 1.5,
       "unit": "cup"
     },
     {
-      "en": "3 tbsp milk",
-      "he": "3 כפות חלב",
+      "en": "3 tbsp (45ml) milk",
+      "he": "3 כפות (45 מ\"ל) חלב",
       "item": "milk",
       "amount": 3,
       "unit": "tbsp"
     },
     {
-      "en": "1/4 - 1/2 cup oil",
-      "he": "1/4 עד 1/2 כוס שמן",
+      "en": "1/4 - 1/2 cup (60ml) oil",
+      "he": "1/4 עד 1/2 כוס (60 מ\"ל) שמן",
       "item": "oil",
       "amount": 0.25,
       "unit": "cup"

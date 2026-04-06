@@ -24,50 +24,50 @@
       "unit": "piece"
     },
     {
-      "en": "1/2 lb ground walnuts",
+      "en": "1/2 lb (225g) ground walnuts",
       "he": "225 גרם אגוזי מלך טחונים",
       "item": "ground walnuts",
       "amount": 0.5,
       "unit": "lb"
     },
     {
-      "en": "2 glasses grated carrots",
-      "he": "2 כוסות גזר מגורר",
+      "en": "2 glasses (480ml) grated carrots",
+      "he": "2 כוסות (480 מ\"ל) גזר מגורר",
       "item": "grated carrots",
       "amount": 2,
       "unit": "glass"
     },
     {
-      "en": "3/4 cup oil",
-      "he": "3/4 כוס שמן",
+      "en": "3/4 cup (180ml) oil",
+      "he": "3/4 כוס (180 מ\"ל) שמן",
       "item": "oil",
       "amount": 0.75,
       "unit": "cup"
     },
     {
-      "en": "1 1/2 cups sugar",
-      "he": "1.5 כוסות סוכר",
+      "en": "1 1/2 cups (360ml) sugar",
+      "he": "1.5 כוסות (360 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 1.5,
       "unit": "cup"
     },
     {
-      "en": "2 cups flour",
-      "he": "2 כוסות קמח",
+      "en": "2 cups (480ml) flour",
+      "he": "2 כוסות (480 מ\"ל) קמח",
       "item": "flour",
       "amount": 2,
       "unit": "cup"
     },
     {
-      "en": "2 tsp baking powder",
-      "he": "2 כפיות אבקת אפייה",
+      "en": "2 tsp (10ml) baking powder",
+      "he": "2 כפיות (10 מ\"ל) אבקת אפייה",
       "item": "baking powder",
       "amount": 2,
       "unit": "tsp"
     },
     {
-      "en": "1/2 tsp baking soda",
-      "he": "1/2 כפית סודה לשתייה",
+      "en": "1/2 tsp (3ml) baking soda",
+      "he": "1/2 כפית (3 מ\"ל) סודה לשתייה",
       "item": "baking soda",
       "amount": 0.5,
       "unit": "tsp"
@@ -79,14 +79,14 @@
       "Beat yolks, add sugar and oil.",
       "Then add whites.",
       "Then add remaining ingredients.",
-      "Bake 1/2 to 1 hour at 350°F."
+      "Bake 1/2 to 1 hour at 350°F (175°C)."
     ],
     "he": [
       "מפרידים ביצים. מקציפים חלבונים עד שהם מקציפים.",
       "מקציפים חלמונים, מוסיפים סוכר ושמן.",
       "מוסיפים את החלבונים המוקצפים.",
       "מוסיפים את שאר המרכיבים.",
-      "אופים חצי שעה עד שעה בטמפרטורה של 175 מעלות צלזיוס (350°F)."
+      "אופים חצי שעה עד שעה בטמפרטורה של 175 מעלות צלזיוס (175°C (350°F))."
     ]
   },
   "tags": [

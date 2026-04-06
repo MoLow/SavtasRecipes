@@ -17,22 +17,22 @@
   },
   "ingredients": [
     {
-      "en": "2/3 cup chopped onions",
-      "he": "2/3 כוס בצל קצוץ",
+      "en": "2/3 cup (160ml) chopped onions",
+      "he": "2/3 כוס (160 מ\"ל) בצל קצוץ",
       "item": "chopped onions",
       "amount": 0.66,
       "unit": "cup"
     },
     {
-      "en": "1/3 cup grated Parmesan",
-      "he": "1/3 כוס פרמזן מגורר",
+      "en": "1/3 cup (80ml) grated Parmesan",
+      "he": "1/3 כוס (80 מ\"ל) פרמזן מגורר",
       "item": "grated Parmesan",
       "amount": 0.33,
       "unit": "cup"
     },
     {
-      "en": "1 1/2 cups milk",
-      "he": "1 1/2 כוסות חלב",
+      "en": "1 1/2 cups (360ml) milk",
+      "he": "1 1/2 כוסות (360 מ\"ל) חלב",
       "item": "milk",
       "amount": 1.5,
       "unit": "cup"
@@ -45,36 +45,36 @@
       "unit": ""
     },
     {
-      "en": "3/4 cup seasoned bread crumbs",
-      "he": "3/4 כוס פירורי לחם מתובלים",
+      "en": "3/4 cup (180ml) seasoned bread crumbs",
+      "he": "3/4 כוס (180 מ\"ל) פירורי לחם מתובלים",
       "item": "seasoned bread crumbs",
       "amount": 0.75,
       "unit": "cup"
     },
     {
-      "en": "1/4 cup grated Parmesan",
-      "he": "1/4 כוס פרמזן מגורר",
+      "en": "1/4 cup (60ml) grated Parmesan",
+      "he": "1/4 כוס (60 מ\"ל) פרמזן מגורר",
       "item": "grated Parmesan",
       "amount": 0.25,
       "unit": "cup"
     },
     {
-      "en": "1/2 cup chopped onion",
-      "he": "1/2 כוס בצל קצוץ",
+      "en": "1/2 cup (120ml) chopped onion",
+      "he": "1/2 כוס (120 מ\"ל) בצל קצוץ",
       "item": "chopped onion",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "1/3 cup chopped green pepper",
-      "he": "1/3 כוס פלפל ירוק קצוץ",
+      "en": "1/3 cup (80ml) chopped green pepper",
+      "he": "1/3 כוס (80 מ\"ל) פלפל ירוק קצוץ",
       "item": "chopped green pepper",
       "amount": 0.33,
       "unit": "cup"
     },
     {
-      "en": "1 1/2 cups dried Mozzarella",
-      "he": "1 1/2 כוסות מוצרלה מיובשת",
+      "en": "1 1/2 cups (360ml) dried Mozzarella",
+      "he": "1 1/2 כוסות (360 מ\"ל) מוצרלה מיובשת",
       "item": "dried Mozzarella",
       "amount": 1.5,
       "unit": "cup"
@@ -89,7 +89,7 @@
   ],
   "instructions": {
     "en": [
-      "Heat oven to 425°F.",
+      "Heat oven to 425°F (220°C).",
       "Grease a pie plate.",
       "Sprinkle 2/3 cup chopped onion and 1/3 cup grated Parmesan cheese onto the plate.",
       "In a bowl, beat milk, eggs, and the remaining 1/4 cup grated Parmesan cheese.",

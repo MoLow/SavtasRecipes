@@ -31,36 +31,36 @@
       "unit": "pkg"
     },
     {
-      "en": "1¼ cup sugar",
-      "he": "1¼ כוס סוכר",
+      "en": "1¼ cup (300ml) sugar",
+      "he": "1¼ כוס (300 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 1.25,
       "unit": "cup"
     },
     {
-      "en": "1 tsp vanilla",
-      "he": "1 כפית תמצית וניל",
+      "en": "1 tsp (5ml) vanilla",
+      "he": "1 כפית (5 מ\"ל) תמצית וניל",
       "item": "vanilla",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "1 pt sour cream (for topping)",
-      "he": "1 פינט שמנת חמוצה (לציפוי)",
+      "en": "1 pt (475ml) sour cream (for topping)",
+      "he": "1 פינט (475 מ\"ל) שמנת חמוצה (לציפוי)",
       "item": "sour cream",
       "amount": 1,
       "unit": "pt"
     },
     {
-      "en": "¾ cup sugar (for topping)",
-      "he": "¾ כוס סוכר (לציפוי)",
+      "en": "¾ cup (180ml) sugar (for topping)",
+      "he": "¾ כוס (180 מ\"ל) סוכר (לציפוי)",
       "item": "sugar",
       "amount": 0.75,
       "unit": "cup"
     },
     {
-      "en": "1 tsp vanilla (for topping)",
-      "he": "1 כפית תמצית וניל (לציפוי)",
+      "en": "1 tsp (5ml) vanilla (for topping)",
+      "he": "1 כפית (5 מ\"ל) תמצית וניל (לציפוי)",
       "item": "vanilla",
       "amount": 1,
       "unit": "tsp"
@@ -70,9 +70,9 @@
     "en": [
       "Step 1: Cream together eggs, cream cheese, sugar, and vanilla.",
       "Step 2: Pour into pan.",
-      "Step 3: Bake 1 hour at 375°F. Cool on rack 20 minutes.",
+      "Step 3: Bake 1 hour at 375°F (190°C). Cool on rack 20 minutes.",
       "Step 4: Mix sour cream, ¾ cup sugar, and 1 tsp vanilla. Spread on cake.",
-      "Step 5: Bake at 475°F for 10 minutes.",
+      "Step 5: Bake at 475°F (245°C) for 10 minutes.",
       "Step 6: Cool and serve."
     ],
     "he": [

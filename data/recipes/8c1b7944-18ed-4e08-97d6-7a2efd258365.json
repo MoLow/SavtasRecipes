@@ -17,8 +17,8 @@
   },
   "ingredients": [
     {
-      "en": "1 lb cottage cheese",
-      "he": "1 ליברא גבינת קוטג'",
+      "en": "1 lb (455g) cottage cheese",
+      "he": "1 ליברא (455 גרם) גבינת קוטג'",
       "item": "cottage cheese",
       "amount": 1,
       "unit": "lb"
@@ -31,29 +31,29 @@
       "unit": ""
     },
     {
-      "en": "1/2 cup sugar",
-      "he": "1/2 כוס סוכר",
+      "en": "1/2 cup (120ml) sugar",
+      "he": "1/2 כוס (120 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "1/2 cup crushed pineapple",
-      "he": "1/2 כוס אננס מרוסק",
+      "en": "1/2 cup (120ml) crushed pineapple",
+      "he": "1/2 כוס (120 מ\"ל) אננס מרוסק",
       "item": "crushed pineapple",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "1/2 cup flour",
-      "he": "1/2 כוס קמח",
+      "en": "1/2 cup (120ml) flour",
+      "he": "1/2 כוס (120 מ\"ל) קמח",
       "item": "flour",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "1 tsp vanilla",
-      "he": "1 כפית וניל",
+      "en": "1 tsp (5ml) vanilla",
+      "he": "1 כפית (5 מ\"ל) וניל",
       "item": "vanilla",
       "amount": 1,
       "unit": "tsp"
@@ -66,15 +66,15 @@
       "unit": "pkg"
     },
     {
-      "en": "1/2 cup boiling water",
-      "he": "1/2 כוס מים רותחים",
+      "en": "1/2 cup (120ml) boiling water",
+      "he": "1/2 כוס (120 מ\"ל) מים רותחים",
       "item": "boiling water",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "1/2 cup cold water",
-      "he": "1/2 כוס מים קרים",
+      "en": "1/2 cup (120ml) cold water",
+      "he": "1/2 כוס (120 מ\"ל) מים קרים",
       "item": "cold water",
       "amount": 0.5,
       "unit": "cup"

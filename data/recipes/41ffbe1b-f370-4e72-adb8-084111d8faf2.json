@@ -17,15 +17,15 @@
   },
   "ingredients": [
     {
-      "en": "3/4 cup milk",
-      "he": "3/4 כוס חלב",
+      "en": "3/4 cup (180ml) milk",
+      "he": "3/4 כוס (180 מ\"ל) חלב",
       "item": "milk",
       "amount": 0.75,
       "unit": "cup"
     },
     {
-      "en": "2 tsp vanilla",
-      "he": "2 כפיות וניל",
+      "en": "2 tsp (10ml) vanilla",
+      "he": "2 כפיות (10 מ\"ל) וניל",
       "item": "vanilla",
       "amount": 2,
       "unit": "tsp"
@@ -37,15 +37,15 @@
       "amount": 2
     },
     {
-      "en": "1 cup sugar",
-      "he": "1 כוס סוכר",
+      "en": "1 cup (240ml) sugar",
+      "he": "1 כוס (240 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "1/2 cup flour",
-      "he": "1/2 כוס קמח",
+      "en": "1/2 cup (120ml) flour",
+      "he": "1/2 כוס (120 מ\"ל) קמח",
       "item": "flour",
       "amount": 0.5,
       "unit": "cup"
@@ -65,15 +65,15 @@
       "unit": null
     },
     {
-      "en": "1/4 cup sugar (for topping)",
-      "he": "1/4 כוס סוכר (לציפוי)",
+      "en": "1/4 cup (60ml) sugar (for topping)",
+      "he": "1/4 כוס (60 מ\"ל) סוכר (לציפוי)",
       "item": "sugar",
       "amount": 0.25,
       "unit": "cup"
     },
     {
-      "en": "2 tsp vanilla (for topping)",
-      "he": "2 כפיות וניל (לציפוי)",
+      "en": "2 tsp (10ml) vanilla (for topping)",
+      "he": "2 כפיות (10 מ\"ל) וניל (לציפוי)",
       "item": "vanilla",
       "amount": 2,
       "unit": "tsp"

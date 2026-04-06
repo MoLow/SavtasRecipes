@@ -17,8 +17,8 @@
   },
   "ingredients": [
     {
-      "en": "3 lbs cream cheese",
-      "he": "3 פאונד גבינת שמנת",
+      "en": "3 lbs (1360g) cream cheese",
+      "he": "3 פאונד (1360 גרם) גבינת שמנת",
       "item": "cream cheese",
       "amount": 3,
       "unit": "lbs"
@@ -58,7 +58,7 @@
       "Step 2: Whip egg whites separately and fold into the mixture.",
       "Step 3: Line a bowl with wrap, put in the batter.",
       "Step 4: Place bowl in a tray with water (water bath/bain-marie).",
-      "Step 5: Bake at 350°F in oven for one hour.",
+      "Step 5: Bake at 350°F (175°C) in oven for one hour.",
       "Step 6: Rest in oven for one hour after baking (with oven off)."
     ],
     "he": [
@@ -66,7 +66,7 @@
       "שלב 2: להקציף את חלבוני הביצים בנפרד ולקפל לתוך התערובת.",
       "שלב 3: לרפד קערה בניילון נצמד ולשים בתוכה את התערובת.",
       "שלב 4: להניח את הקערה במגש עם מים (בן מרי).",
-      "שלב 5: לאפות ב-350 מעלות פרנהייט בתנור למשך שעה אחת.",
+      "שלב 5: לאפות ב-175°C (350 מעלות פרנהייט) בתנור למשך שעה אחת.",
       "שלב 6: להשאיר לנוח בתנור שעה נוספת לאחר האפייה (עם תנור כבוי)."
     ]
   },

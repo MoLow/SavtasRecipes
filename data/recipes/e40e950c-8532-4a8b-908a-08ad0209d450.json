@@ -35,15 +35,15 @@
       "amount": 1
     },
     {
-      "en": "1/2 cup oil",
-      "he": "1/2 כוס שמן",
+      "en": "1/2 cup (120ml) oil",
+      "he": "1/2 כוס (120 מ\"ל) שמן",
       "item": "oil",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "2 cups whole wheat flour",
-      "he": "2 כוסות קמח מלא",
+      "en": "2 cups (480ml) whole wheat flour",
+      "he": "2 כוסות (480 מ\"ל) קמח מלא",
       "item": "whole wheat flour",
       "amount": 2,
       "unit": "cup"
@@ -58,7 +58,7 @@
     "en": [
       "Grind up fine.",
       "Make loaf and wrap in aluminium foil.",
-      "Bake at 325°F."
+      "Bake at 325°F (165°C)."
     ],
     "he": [
       "לטחון דק.",

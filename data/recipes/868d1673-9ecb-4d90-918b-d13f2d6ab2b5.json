@@ -18,29 +18,29 @@
   },
   "ingredients": [
     {
-      "en": "2/3 cup + 2 tablespoons Crisco",
-      "he": "2/3 כוס + 2 כפות קריסקו",
+      "en": "2/3 cup (190ml) + 2 tablespoons Crisco",
+      "he": "2/3 כוס (190 מ\"ל) + 2 כפות קריסקו",
       "item": "Crisco",
       "amount": 0.79,
       "unit": "cup"
     },
     {
-      "en": "2 cups Flour",
-      "he": "2 כוסות קמח",
+      "en": "2 cups (480ml) Flour",
+      "he": "2 כוסות (480 מ\"ל) קמח",
       "item": "Flour",
       "amount": 2,
       "unit": "cup"
     },
     {
-      "en": "1 teaspoon Salt",
-      "he": "1 כפית מלח",
+      "en": "1 teaspoon (5ml) Salt",
+      "he": "1 כפית (5 מ\"ל) מלח",
       "item": "Salt",
       "amount": 1,
       "unit": "teaspoon"
     },
     {
-      "en": "1/4 cup Apple Juice",
-      "he": "1/4 כוס מיץ תפוחים",
+      "en": "1/4 cup (60ml) Apple Juice",
+      "he": "1/4 כוס (60 מ\"ל) מיץ תפוחים",
       "item": "Apple Juice",
       "amount": 0.25,
       "unit": "cup"
@@ -53,57 +53,57 @@
       "unit": null
     },
     {
-      "en": "3/4 cup Sugar",
-      "he": "3/4 כוס סוכר",
+      "en": "3/4 cup (180ml) Sugar",
+      "he": "3/4 כוס (180 מ\"ל) סוכר",
       "item": "Sugar",
       "amount": 0.75,
       "unit": "cup"
     },
     {
-      "en": "1/4 cup Flour",
-      "he": "1/4 כוס קמח",
+      "en": "1/4 cup (60ml) Flour",
+      "he": "1/4 כוס (60 מ\"ל) קמח",
       "item": "Flour",
       "amount": 0.25,
       "unit": "cup"
     },
     {
-      "en": "7 cups peeled, cored, and sliced Apples",
-      "he": "7 כוסות תפוחים קלופים, מגולענים ופרוסים",
+      "en": "7 cups (1680ml) peeled, cored, and sliced Apples",
+      "he": "7 כוסות (1680 מ\"ל) תפוחים קלופים, מגולענים ופרוסים",
       "item": "Apples",
       "amount": 7,
       "unit": "cup"
     },
     {
-      "en": "1 teaspoon Cinnamon",
-      "he": "1 כפית קינמון",
+      "en": "1 teaspoon (5ml) Cinnamon",
+      "he": "1 כפית (5 מ\"ל) קינמון",
       "item": "Cinnamon",
       "amount": 1,
       "unit": "teaspoon"
     },
     {
-      "en": "1 teaspoon Nutmeg",
-      "he": "1 כפית אגוז מוסקט",
+      "en": "1 teaspoon (5ml) Nutmeg",
+      "he": "1 כפית (5 מ\"ל) אגוז מוסקט",
       "item": "Nutmeg",
       "amount": 1,
       "unit": "teaspoon"
     },
     {
-      "en": "1 cup Flour",
-      "he": "1 כוס קמח",
+      "en": "1 cup (240ml) Flour",
+      "he": "1 כוס (240 מ\"ל) קמח",
       "item": "Flour",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "1/2 cup hard margarine",
-      "he": "1/2 כוס מרגרינה קשה",
+      "en": "1/2 cup (120ml) hard margarine",
+      "he": "1/2 כוס (120 מ\"ל) מרגרינה קשה",
       "item": "hard margarine",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "1/2 cup Brown sugar",
-      "he": "1/2 כוס סוכר חום",
+      "en": "1/2 cup (120ml) Brown sugar",
+      "he": "1/2 כוס (120 מ\"ל) סוכר חום",
       "item": "Brown sugar",
       "amount": 0.5,
       "unit": "cup"
@@ -127,7 +127,7 @@
       "שפכו את תערובת התפוחים לתוך קלתית הפאי.",
       "להכנת הציפוי: חתכו יחד 1 כוס קמח, 1/2 כוס מרגרינה קשה ו-1/2 כוס סוכר חום ליצירת ציפוי פירורים.",
       "הניחו את ציפוי הפירורים מעל תערובת התפוחים.",
-      "אפו ב-425° פרנהייט למשך 50 דקות.",
+      "אפו ב-220°C (425° פרנהייט) למשך 50 דקות.",
       "השתמשו ברצועות נייר אלומיניום על שולי הקלתית עד 15 הדקות האחרונות, או אם היא מתחילה להשחים יותר מדי."
     ]
   },

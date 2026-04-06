@@ -18,22 +18,22 @@
   },
   "ingredients": [
     {
-      "en": "1 3/4 cups + 2 tablespoons flour",
-      "he": "1 ו-3/4 כוסות + 2 כפות קמח",
+      "en": "1 3/4 cups (450ml) + 2 tablespoons flour",
+      "he": "1 ו-3/4 כוסות (450 מ\"ל) + 2 כפות קמח",
       "item": "flour",
       "amount": 1.875,
       "unit": "cup"
     },
     {
-      "en": "1/2 cup + 1 tablespoon margarine",
-      "he": "1/2 כוס + 1 כף מרגרינה",
+      "en": "1/2 cup (135ml) + 1 tablespoon margarine",
+      "he": "1/2 כוס (135 מ\"ל) + 1 כף מרגרינה",
       "item": "margarine",
       "amount": 0.5625,
       "unit": "cup"
     },
     {
-      "en": "1 cup Peach or Apricot Jam",
-      "he": "1 כוס ריבת אפרסקים או משמשים",
+      "en": "1 cup (240ml) Peach or Apricot Jam",
+      "he": "1 כוס (240 מ\"ל) ריבת אפרסקים או משמשים",
       "item": "Peach or Apricot Jam",
       "amount": 1,
       "unit": "cup"

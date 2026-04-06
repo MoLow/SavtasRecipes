@@ -17,22 +17,22 @@
   },
   "ingredients": [
     {
-      "en": "1 scant cup sugar",
-      "he": "כוס סוכר לא מלאה (קמצוץ פחות מכוס)",
+      "en": "1 scant cup (220ml) sugar",
+      "he": "כוס (220 מ\"ל) סוכר לא מלאה (קמצוץ פחות מכוס)",
       "item": "sugar",
       "amount": 1,
       "unit": "scant cup"
     },
     {
-      "en": "1 cup chopped nuts",
-      "he": "כוס אגוזים קצוצים",
+      "en": "1 cup (240ml) chopped nuts",
+      "he": "כוס (240 מ\"ל) אגוזים קצוצים",
       "item": "chopped nuts",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "3½ tsp cinnamon",
-      "he": "3½ כפיות קינמון",
+      "en": "3½ tsp (20ml) cinnamon",
+      "he": "3½ כפיות (20 מ\"ל) קינמון",
       "item": "cinnamon",
       "amount": 3.5,
       "unit": "tsp"
@@ -45,7 +45,7 @@
       "Use ¼ of the sugar mixture for each part.",
       "Spread on a board. Roll dough into the shape of a pie (circle) using all of the sugar mixture.",
       "Cut into 16 wedges and roll up each wedge from the widest part.",
-      "Bake at 350°F until light brown."
+      "Bake at 350°F (175°C) until light brown."
     ],
     "he": [
       "הכינו את תערובת הסוכר: ערבבו כוס סוכר (לא מלאה), כוס אגוזים קצוצים ו-3½ כפיות קינמון.",

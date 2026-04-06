@@ -17,15 +17,15 @@
   },
   "ingredients": [
     {
-      "en": "2 cups flour",
-      "he": "2 כוסות קמח",
+      "en": "2 cups (480ml) flour",
+      "he": "2 כוסות (480 מ\"ל) קמח",
       "item": "flour",
       "amount": 2,
       "unit": "cup"
     },
     {
-      "en": "3 tsps baking powder",
-      "he": "3 כפיות אבקת אפייה",
+      "en": "3 tsp (15ml)s baking powder",
+      "he": "3 כפיות (15 מ\"ל) אבקת אפייה",
       "item": "baking powder",
       "amount": 3,
       "unit": "tsp"
@@ -38,43 +38,43 @@
       "unit": "whole"
     },
     {
-      "en": "1/4 cup melted butter",
-      "he": "1/4 כוס חמאה מומסת",
+      "en": "1/4 cup (60ml) melted butter",
+      "he": "1/4 כוס (60 מ\"ל) חמאה מומסת",
       "item": "melted butter",
       "amount": 0.25,
       "unit": "cup"
     },
     {
-      "en": "2 tbsps sugar",
-      "he": "2 כפות סוכר",
+      "en": "2 tbsp (30ml)s sugar",
+      "he": "2 כפות (30 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 2,
       "unit": "tbsp"
     },
     {
-      "en": "3 tbsps brown sugar",
-      "he": "3 כפות סוכר חום",
+      "en": "3 tbsp (45ml)s brown sugar",
+      "he": "3 כפות (45 מ\"ל) סוכר חום",
       "item": "brown sugar",
       "amount": 3,
       "unit": "tbsp"
     },
     {
-      "en": "1/4 tsp salt",
-      "he": "1/4 כפית מלח",
+      "en": "1/4 tsp (1ml) salt",
+      "he": "1/4 כפית (1 מ\"ל) מלח",
       "item": "salt",
       "amount": 0.25,
       "unit": "tsp"
     },
     {
-      "en": "1 cup milk",
-      "he": "1 כוס חלב",
+      "en": "1 cup (240ml) milk",
+      "he": "1 כוס (240 מ\"ל) חלב",
       "item": "milk",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "1 cup fresh blueberries",
-      "he": "1 כוס אוכמניות טריות",
+      "en": "1 cup (240ml) fresh blueberries",
+      "he": "1 כוס (240 מ\"ל) אוכמניות טריות",
       "item": "fresh blueberries",
       "amount": 1,
       "unit": "cup"
@@ -87,7 +87,7 @@
       "Add to dry ingredients.",
       "Stir in blueberries.",
       "Spoon into greased muffin tins.",
-      "Bake at 425°F for 20 to 25 minutes.",
+      "Bake at 425°F (220°C) for 20 to 25 minutes.",
       "Serve warm."
     ],
     "he": [

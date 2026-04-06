@@ -18,64 +18,64 @@
   },
   "ingredients": [
     {
-      "en": "1/2 lb. Butter",
-      "he": "1/2 ליברות חמאה",
+      "en": "1/2 lb. (225g) Butter",
+      "he": "1/2 ליברות (225 גרם) חמאה",
       "item": "Butter",
       "amount": 0.5,
       "unit": "lb"
     },
     {
-      "en": "1/2 lb. Cream Cheese",
-      "he": "1/2 ליברות גבינת שמנת",
+      "en": "1/2 lb. (225g) Cream Cheese",
+      "he": "1/2 ליברות (225 גרם) גבינת שמנת",
       "item": "Cream Cheese",
       "amount": 0.5,
       "unit": "lb"
     },
     {
-      "en": "1/2 cup sour cream",
-      "he": "1/2 כוס שמנת חמוצה",
+      "en": "1/2 cup (120ml) sour cream",
+      "he": "1/2 כוס (120 מ\"ל) שמנת חמוצה",
       "item": "sour cream",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "1/2 cup cold milk",
-      "he": "1/2 כוס חלב קר",
+      "en": "1/2 cup (120ml) cold milk",
+      "he": "1/2 כוס (120 מ\"ל) חלב קר",
       "item": "cold milk",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "1 tsp vanilla",
-      "he": "1 כפית וניל",
+      "en": "1 tsp (5ml) vanilla",
+      "he": "1 כפית (5 מ\"ל) וניל",
       "item": "vanilla",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "1 tsp baking powder",
-      "he": "1 כפית אבקת אפייה",
+      "en": "1 tsp (5ml) baking powder",
+      "he": "1 כפית (5 מ\"ל) אבקת אפייה",
       "item": "baking powder",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "1/2 tsp salt",
-      "he": "1/2 כפית מלח",
+      "en": "1/2 tsp (3ml) salt",
+      "he": "1/2 כפית (3 מ\"ל) מלח",
       "item": "salt",
       "amount": 0.5,
       "unit": "tsp"
     },
     {
-      "en": "1 cup sugar",
-      "he": "1 כוס סוכר",
+      "en": "1 cup (240ml) sugar",
+      "he": "1 כוס (240 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "1 cup flour",
-      "he": "1 כוס קמח",
+      "en": "1 cup (240ml) flour",
+      "he": "1 כוס (240 מ\"ל) קמח",
       "item": "flour",
       "amount": 1,
       "unit": "cup"

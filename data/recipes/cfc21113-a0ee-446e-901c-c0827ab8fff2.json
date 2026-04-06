@@ -17,15 +17,15 @@
   },
   "ingredients": [
     {
-      "en": "1 cup applesauce",
-      "he": "1 כוס רסק תפוחים",
+      "en": "1 cup (240ml) applesauce",
+      "he": "1 כוס (240 מ\"ל) רסק תפוחים",
       "item": "applesauce",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "2 cups sugar (or 24 packs Sweet & Low)",
-      "he": "2 כוסות סוכר (או 24 שקיקי ממתיק)",
+      "en": "2 cups (480ml) sugar (or 24 packs Sweet & Low)",
+      "he": "2 כוסות (480 מ\"ל) סוכר (או 24 שקיקי ממתיק)",
       "item": "sugar",
       "amount": 2,
       "unit": "cups"
@@ -38,50 +38,50 @@
       "unit": ""
     },
     {
-      "en": "3 cups flour",
-      "he": "3 כוסות קמח",
+      "en": "3 cups (720ml) flour",
+      "he": "3 כוסות (720 מ\"ל) קמח",
       "item": "flour",
       "amount": 3,
       "unit": "cups"
     },
     {
-      "en": "1 tsp salt",
-      "he": "1 כפית מלח",
+      "en": "1 tsp (5ml) salt",
+      "he": "1 כפית (5 מ\"ל) מלח",
       "item": "salt",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "1 tsp cinnamon",
-      "he": "1 כפית קינמון",
+      "en": "1 tsp (5ml) cinnamon",
+      "he": "1 כפית (5 מ\"ל) קינמון",
       "item": "cinnamon",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "1 tsp baking soda",
-      "he": "1 כפית סודה לשתייה",
+      "en": "1 tsp (5ml) baking soda",
+      "he": "1 כפית (5 מ\"ל) סודה לשתייה",
       "item": "baking soda",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "3 cups peeled, cored, thick sliced apple",
-      "he": "3 כוסות תפוחים מקולפים, ללא גרעינים, חתוכים לפרוסות עבות",
+      "en": "3 cups (720ml) peeled, cored, thick sliced apple",
+      "he": "3 כוסות (720 מ\"ל) תפוחים מקולפים, ללא גרעינים, חתוכים לפרוסות עבות",
       "item": "apple",
       "amount": 3,
       "unit": "cups"
     },
     {
-      "en": "1 cup chopped walnuts",
-      "he": "1 כוס אגוזי מלך קצוצים",
+      "en": "1 cup (240ml) chopped walnuts",
+      "he": "1 כוס (240 מ\"ל) אגוזי מלך קצוצים",
       "item": "walnuts",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "1 cup raisins",
-      "he": "1 כוס צימוקים",
+      "en": "1 cup (240ml) raisins",
+      "he": "1 כוס (240 מ\"ל) צימוקים",
       "item": "raisins",
       "amount": 1,
       "unit": "cup"
@@ -89,14 +89,14 @@
   ],
   "instructions": {
     "en": [
-      "Preheat oven to 350°F.",
+      "Preheat oven to 350°F (175°C).",
       "Butter and flour a 9\" tube pan.",
       "Mix applesauce, sugar (or 24 packs Sweet & Low), and eggs together.",
       "In a separate bowl, combine flour, salt, cinnamon, and baking soda.",
       "Combine wet and dry ingredients.",
       "Fold in the peeled, cored, and thick sliced apples, chopped walnuts, and raisins.",
       "Pour batter into the prepared 9\" buttered and floured tube pan.",
-      "Bake at 350°F for 45 minutes."
+      "Bake at 350°F (175°C) for 45 minutes."
     ],
     "he": [
       "לחמם תנור ל-175°C.",

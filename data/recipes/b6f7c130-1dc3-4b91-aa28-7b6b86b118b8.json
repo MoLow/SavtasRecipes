@@ -25,8 +25,8 @@
       "unit": null
     },
     {
-      "en": "1/4 cup oil",
-      "he": "1/4 כוס שמן",
+      "en": "1/4 cup (60ml) oil",
+      "he": "1/4 כוס (60 מ\"ל) שמן",
       "item": "oil",
       "amount": 0.25,
       "unit": "cup"
@@ -60,8 +60,8 @@
       "unit": "large can"
     },
     {
-      "en": "1/2 cup water",
-      "he": "1/2 כוס מים",
+      "en": "1/2 cup (120ml) water",
+      "he": "1/2 כוס (120 מ\"ל) מים",
       "item": "water",
       "amount": 0.5,
       "unit": "cup"
@@ -74,8 +74,8 @@
       "unit": null
     },
     {
-      "en": "1/4 tsp allspice",
-      "he": "1/4 כפית פלפל אנגלי",
+      "en": "1/4 tsp (1ml) allspice",
+      "he": "1/4 כפית (1 מ\"ל) פלפל אנגלי",
       "item": "allspice",
       "amount": 0.25,
       "unit": "tsp"

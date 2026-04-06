@@ -17,8 +17,8 @@
   },
   "ingredients": [
     {
-      "en": "2 cups crushed unsweetened pineapple with juice",
-      "he": "2 כוסות אננס מרוסק לא ממותק עם המיץ",
+      "en": "2 cups (480ml) crushed unsweetened pineapple with juice",
+      "he": "2 כוסות (480 מ\"ל) אננס מרוסק לא ממותק עם המיץ",
       "item": "crushed unsweetened pineapple",
       "amount": 2,
       "unit": "cup"
@@ -38,29 +38,29 @@
       "unit": "packet"
     },
     {
-      "en": "3 tsp vanilla extract",
-      "he": "3 כפיות תמצית וניל",
+      "en": "3 tsp (15ml) vanilla extract",
+      "he": "3 כפיות (15 מ\"ל) תמצית וניל",
       "item": "vanilla extract",
       "amount": 3,
       "unit": "tsp"
     },
     {
-      "en": "1 tsp butter extract",
-      "he": "1 כפית תמצית חמאה",
+      "en": "1 tsp (5ml) butter extract",
+      "he": "1 כפית (5 מ\"ל) תמצית חמאה",
       "item": "butter extract",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "1/2 cup boiling water",
-      "he": "1/2 כוס מים רותחים",
+      "en": "1/2 cup (120ml) boiling water",
+      "he": "1/2 כוס (120 מ\"ל) מים רותחים",
       "item": "boiling water",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "1 1/3 cups skimmed milk (canned or made from powder milk is best)",
-      "he": "1 1/3 כוסות חלב רזה (משומר או מאבקת חלב עדיף)",
+      "en": "1 1/3 cups (320ml) skimmed milk (canned or made from powder milk is best)",
+      "he": "1 1/3 כוסות (320 מ\"ל) חלב רזה (משומר או מאבקת חלב עדיף)",
       "item": "skimmed milk",
       "amount": 1.33,
       "unit": "cup"

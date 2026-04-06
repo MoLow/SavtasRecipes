@@ -18,50 +18,50 @@
   },
   "ingredients": [
     {
-      "en": "1 lb Margarine",
-      "he": "1 ליברא מרגרינה",
+      "en": "1 lb (455g) Margarine",
+      "he": "1 ליברא (455 גרם) מרגרינה",
       "item": "Margarine",
       "amount": 1,
       "unit": "lb"
     },
     {
-      "en": "2 Tablespoons oil",
-      "he": "2 כפות שמן",
+      "en": "2 Tablespoons (30ml) oil",
+      "he": "2 כפות (30 מ\"ל) שמן",
       "item": "oil",
       "amount": 2,
       "unit": "Tablespoons"
     },
     {
-      "en": "6 cups flour",
-      "he": "6 כוסות קמח",
+      "en": "6 cups (1440ml) flour",
+      "he": "6 כוסות (1440 מ\"ל) קמח",
       "item": "flour",
       "amount": 6,
       "unit": "cups"
     },
     {
       "en": "Approx ½ Cup MILK (to soften)",
-      "he": "כ-½ כוס חלב (לריכוך)",
+      "he": "כ-½ כוס (120 מ\"ל) חלב (לריכוך)",
       "item": "milk",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "2 lbs Cottage cheese",
-      "he": "2 ליברא גבינת קוטג'",
+      "en": "2 lbs (910g) Cottage cheese",
+      "he": "2 ליברא (910 גרם) גבינת קוטג'",
       "item": "cottage cheese",
       "amount": 2,
       "unit": "lbs"
     },
     {
-      "en": "1 lb. Farmer cheese",
-      "he": "1 ליברא גבינת איכרים",
+      "en": "1 lb. (455g) Farmer cheese",
+      "he": "1 ליברא (455 גרם) גבינת איכרים",
       "item": "farmer cheese",
       "amount": 1,
       "unit": "lb"
     },
     {
-      "en": "1 lb. Cooked rice (optional)",
-      "he": "1 ליברא אורז מבושל (אופציונלי)",
+      "en": "1 lb. (455g) Cooked rice (optional)",
+      "he": "1 ליברא (455 גרם) אורז מבושל (אופציונלי)",
       "item": "cooked rice",
       "amount": 1,
       "unit": "lb"
@@ -105,7 +105,7 @@
       "מכינים את המילוי: מערבבים גבינת קוטג', גבינת איכרים, אורז מבושל (אופציונלי), ביצים, סוכר לפי הטעם וקינמון (אופציונלי).",
       "מניחים את המילוי לאורך קצה הבצק.",
       "מגלגלים את הבצק.",
-      "אופים ב-350 מעלות פרנהייט."
+      "אופים ב-175°C (350 מעלות פרנהייט)."
     ]
   },
   "tags": [

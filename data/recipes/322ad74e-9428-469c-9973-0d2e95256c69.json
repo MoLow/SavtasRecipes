@@ -18,36 +18,36 @@
   },
   "ingredients": [
     {
-      "en": "1/2 lb chicken livers",
-      "he": "1/2 ליברות כבד עוף",
+      "en": "1/2 lb (225g) chicken livers",
+      "he": "1/2 ליברות (225 גרם) כבד עוף",
       "item": "chicken livers",
       "amount": 0.5,
       "unit": "lb"
     },
     {
-      "en": "1/4 cup flour",
-      "he": "1/4 כוס קמח",
+      "en": "1/4 cup (60ml) flour",
+      "he": "1/4 כוס (60 מ\"ל) קמח",
       "item": "flour",
       "amount": 0.25,
       "unit": "cup"
     },
     {
-      "en": "1/4 cup sherry",
-      "he": "1/4 כוס שרי",
+      "en": "1/4 cup (60ml) sherry",
+      "he": "1/4 כוס (60 מ\"ל) שרי",
       "item": "sherry",
       "amount": 0.25,
       "unit": "cup"
     },
     {
-      "en": "1/4 tsp thyme",
-      "he": "1/4 כפית טימין",
+      "en": "1/4 tsp (1ml) thyme",
+      "he": "1/4 כפית (1 מ\"ל) טימין",
       "item": "thyme",
       "amount": 0.25,
       "unit": "tsp"
     },
     {
-      "en": "1/4 cup oil",
-      "he": "1/4 כוס שמן",
+      "en": "1/4 cup (60ml) oil",
+      "he": "1/4 כוס (60 מ\"ל) שמן",
       "item": "oil",
       "amount": 0.25,
       "unit": "cup"

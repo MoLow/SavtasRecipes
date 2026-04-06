@@ -24,36 +24,36 @@
       "unit": null
     },
     {
-      "en": "2 cups Bisquick",
-      "he": "2 כוסות ביסקוויק",
+      "en": "2 cups (480ml) Bisquick",
+      "he": "2 כוסות (480 מ\"ל) ביסקוויק",
       "item": "Bisquick",
       "amount": 2,
       "unit": "cups"
     },
     {
       "en": "1/4 c sugar",
-      "he": "1/4 כוס סוכר",
+      "he": "1/4 כוס (60 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 0.25,
       "unit": "cup"
     },
     {
       "en": "2/3 c milk",
-      "he": "2/3 כוס חלב",
+      "he": "2/3 כוס (160 מ\"ל) חלב",
       "item": "milk",
       "amount": 0.66,
       "unit": "cup"
     },
     {
-      "en": "2 tbsps oil or marg.",
-      "he": "2 כפות שמן או מרגרינה",
+      "en": "2 tbsp (30ml)s oil or marg.",
+      "he": "2 כפות (30 מ\"ל) שמן או מרגרינה",
       "item": "oil or margarine",
       "amount": 2,
       "unit": "tablespoons"
     },
     {
-      "en": "1 cup berries",
-      "he": "1 כוס פירות יער",
+      "en": "1 cup (240ml) berries",
+      "he": "1 כוס (240 מ\"ל) פירות יער",
       "item": "berries",
       "amount": 1,
       "unit": "cup"
@@ -67,7 +67,7 @@
       "Bake 15-18 min."
     ],
     "he": [
-      "חממו תנור ל-400° פרנהייט - ל-12 מאפינס.",
+      "חממו תנור ל-205°C (400° פרנהייט) - ל-12 מאפינס.",
       "טרפו ביצה קלות, ערבבו פנימה את שאר המרכיבים למעט פירות היער.",
       "קפלו פנימה את האוכמניות.",
       "אפו 15-18 דקות."

@@ -18,7 +18,7 @@
   "ingredients": [
     {
       "en": "1/2 C Oil",
-      "he": "1/2 כוס שמן",
+      "he": "1/2 כוס (120 מ\"ל) שמן",
       "item": "Oil",
       "amount": 0.5,
       "unit": "cup"
@@ -38,15 +38,15 @@
       "unit": null
     },
     {
-      "en": "1 Tsp B.P.",
-      "he": "1 כפית אבקת אפייה",
+      "en": "1 Tsp (5ml) B.P.",
+      "he": "1 כפית (5 מ\"ל) אבקת אפייה",
       "item": "Baking Powder",
       "amount": 1,
       "unit": "teaspoon"
     },
     {
-      "en": "1 Tsp Vanilla",
-      "he": "1 כפית וניל",
+      "en": "1 Tsp (5ml) Vanilla",
+      "he": "1 כפית (5 מ\"ל) וניל",
       "item": "Vanilla",
       "amount": 1,
       "unit": "teaspoon"
@@ -75,7 +75,7 @@
       "Dip ball into Cinnamon and Roll into Rope.",
       "Wind around itself.",
       "Place on ungreased cookie sheet.",
-      "Bake 10 min. at 400°F."
+      "Bake 10 min. at 400°F (205°C)."
     ],
     "he": [
       "מערבבים את כל החומרים מלבד הקמח.",
@@ -85,7 +85,7 @@
       "טובלים את הכדור בקינמון ומגלגלים לחבל.",
       "מלפפים סביב עצמו.",
       "מניחים על תבנית אפייה לא משומנת.",
-      "אופים 10 דקות ב-400°F."
+      "אופים 10 דקות ב-205°C (400°F)."
     ]
   },
   "tags": [

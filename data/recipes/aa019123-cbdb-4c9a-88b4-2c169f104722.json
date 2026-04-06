@@ -26,56 +26,56 @@
     },
     {
       "en": "1/4 C. MARGARINE",
-      "he": "1/4 כוס מרגרינה",
+      "he": "1/4 כוס (60 מ\"ל) מרגרינה",
       "item": "margarine",
       "amount": 0.25,
       "unit": "cup"
     },
     {
       "en": "1/4 TSP. SALT",
-      "he": "1/4 כפית מלח",
+      "he": "1/4 כפית (1 מ\"ל) מלח",
       "item": "salt",
       "amount": 0.25,
       "unit": "teaspoon"
     },
     {
       "en": "1/4 TSP. BAKING POWDER",
-      "he": "1/4 כפית אבקת אפייה",
+      "he": "1/4 כפית (1 מ\"ל) אבקת אפייה",
       "item": "baking powder",
       "amount": 0.25,
       "unit": "teaspoon"
     },
     {
       "en": "2 C. WHITE SUGAR",
-      "he": "2 כוסות סוכר לבן",
+      "he": "2 כוסות (480 מ\"ל) סוכר לבן",
       "item": "white sugar",
       "amount": 2,
       "unit": "cup"
     },
     {
       "en": "2 Cups MILK",
-      "he": "2 כוסות חלב",
+      "he": "2 כוסות (480 מ\"ל) חלב",
       "item": "milk",
       "amount": 2,
       "unit": "cup"
     },
     {
       "en": "1 1/2 C. FLOUR",
-      "he": "1 1/2 כוסות קמח",
+      "he": "1 1/2 כוסות (360 מ\"ל) קמח",
       "item": "flour",
       "amount": 1.5,
       "unit": "cup"
     },
     {
       "en": "1 TSP. VANILLA",
-      "he": "1 כפית תמצית וניל",
+      "he": "1 כפית (5 מ\"ל) תמצית וניל",
       "item": "vanilla",
       "amount": 1,
       "unit": "teaspoon"
     },
     {
       "en": "1 Cup COCONUT",
-      "he": "1 כוס קוקוס",
+      "he": "1 כוס (240 מ\"ל) קוקוס",
       "item": "coconut",
       "amount": 1,
       "unit": "cup"

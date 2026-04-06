@@ -17,15 +17,15 @@
   },
   "ingredients": [
     {
-      "en": "½ cup butter",
-      "he": "½ כוס חמאה",
+      "en": "½ cup (120ml) butter",
+      "he": "½ כוס (120 מ\"ל) חמאה",
       "item": "butter",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "2 cups sugar",
-      "he": "2 כוסות סוכר",
+      "en": "2 cups (480ml) sugar",
+      "he": "2 כוסות (480 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 2,
       "unit": "cups"
@@ -38,29 +38,29 @@
       "unit": ""
     },
     {
-      "en": "2½ cups flour",
-      "he": "2½ כוסות קמח",
+      "en": "2½ cups (600ml) flour",
+      "he": "2½ כוסות (600 מ\"ל) קמח",
       "item": "flour",
       "amount": 2.5,
       "unit": "cups"
     },
     {
-      "en": "1 cup chopped nuts and raisins",
-      "he": "1 כוס אגוזים קצוצים וצימוקים",
+      "en": "1 cup (240ml) chopped nuts and raisins",
+      "he": "1 כוס (240 מ\"ל) אגוזים קצוצים וצימוקים",
       "item": "chopped nuts and raisins",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "2 tbsps grated orange rind",
-      "he": "2 כפות גרידת תפוז",
+      "en": "2 tbsp (30ml)s grated orange rind",
+      "he": "2 כפות (30 מ\"ל) גרידת תפוז",
       "item": "grated orange rind",
       "amount": 2,
       "unit": "tbsps"
     },
     {
-      "en": "1 tsp baking soda",
-      "he": "1 כפית סודה לשתיה",
+      "en": "1 tsp (5ml) baking soda",
+      "he": "1 כפית (5 מ\"ל) סודה לשתיה",
       "item": "baking soda",
       "amount": 1,
       "unit": "tsp"
@@ -73,8 +73,8 @@
       "unit": "pinch"
     },
     {
-      "en": "½ pint plain yogurt",
-      "he": "½ פיינט יוגורט רגיל",
+      "en": "½ pint (235ml) plain yogurt",
+      "he": "½ פיינט (235 מ\"ל) יוגורט רגיל",
       "item": "plain yogurt",
       "amount": 0.5,
       "unit": "pint"

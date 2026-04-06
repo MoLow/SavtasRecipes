@@ -17,15 +17,15 @@
   },
   "ingredients": [
     {
-      "en": "2 cups sugar",
-      "he": "2 כוסות סוכר",
+      "en": "2 cups (480ml) sugar",
+      "he": "2 כוסות (480 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 2,
       "unit": "cup"
     },
     {
-      "en": "1½ cups cooking oil",
-      "he": "1½ כוסות שמן",
+      "en": "1½ cups (360ml) cooking oil",
+      "he": "1½ כוסות (360 מ\"ל) שמן",
       "item": "cooking oil",
       "amount": 1.5,
       "unit": "cup"
@@ -44,57 +44,57 @@
       "unit": "8oz can"
     },
     {
-      "en": "3 cups sifted flour",
-      "he": "3 כוסות קמח מנופה",
+      "en": "3 cups (720ml) sifted flour",
+      "he": "3 כוסות (720 מ\"ל) קמח מנופה",
       "item": "flour",
       "amount": 3,
       "unit": "cup"
     },
     {
-      "en": "2 tsp baking soda",
-      "he": "2 כפיות סודה לשתייה",
+      "en": "2 tsp (10ml) baking soda",
+      "he": "2 כפיות (10 מ\"ל) סודה לשתייה",
       "item": "baking soda",
       "amount": 2,
       "unit": "tsp"
     },
     {
-      "en": "3 tsp salt",
-      "he": "3 כפיות מלח",
+      "en": "3 tsp (15ml) salt",
+      "he": "3 כפיות (15 מ\"ל) מלח",
       "item": "salt",
       "amount": 3,
       "unit": "tsp"
     },
     {
-      "en": "3½ cups grated raw carrots",
-      "he": "3½ כוסות גזר חי מגורר",
+      "en": "3½ cups (840ml) grated raw carrots",
+      "he": "3½ כוסות (840 מ\"ל) גזר חי מגורר",
       "item": "carrots",
       "amount": 3.5,
       "unit": "cup"
     },
     {
-      "en": "1 cup raisins",
-      "he": "1 כוס צימוקים",
+      "en": "1 cup (240ml) raisins",
+      "he": "1 כוס (240 מ\"ל) צימוקים",
       "item": "raisins",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "1 cup walnuts",
-      "he": "1 כוס אגוזי מלך",
+      "en": "1 cup (240ml) walnuts",
+      "he": "1 כוס (240 מ\"ל) אגוזי מלך",
       "item": "walnuts",
       "amount": 1,
       "unit": "cup"
     },
     {
-      "en": "1 tsp cinnamon",
-      "he": "1 כפית קינמון",
+      "en": "1 tsp (5ml) cinnamon",
+      "he": "1 כפית (5 מ\"ל) קינמון",
       "item": "cinnamon",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "1 tsp vanilla",
-      "he": "1 כפית וניל",
+      "en": "1 tsp (5ml) vanilla",
+      "he": "1 כפית (5 מ\"ל) וניל",
       "item": "vanilla",
       "amount": 1,
       "unit": "tsp"
@@ -115,7 +115,7 @@
       "שלב 3: מנפים יחד 3 כוסות קמח, 2 כפיות סודה לשתייה ו-3 כפיות מלח. מוסיפים לתערובת.",
       "שלב 4: מקפלים פנימה 3½ כוסות גזר חי מגורר, 1 כוס צימוקים, 1 כוס אגוזי מלך, 1 כפית קינמון ו-1 כפית וניל.",
       "שלב 5: יוצקים לתבנית טבעת משומנת.",
-      "שלב 6: אופים בחום 175 מעלות צלזיוס (350°F) למשך 70 דקות."
+      "שלב 6: אופים בחום 175 מעלות צלזיוס (175°C (350°F)) למשך 70 דקות."
     ]
   },
   "tags": [

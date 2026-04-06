@@ -19,7 +19,7 @@
   "ingredients": [
     {
       "en": "2c Tap Water",
-      "he": "2 כוסות מים מהברז",
+      "he": "2 כוסות (480 מ\"ל) מים מהברז",
       "item": "Tap Water",
       "amount": 2,
       "unit": "cup"
@@ -32,15 +32,15 @@
       "unit": "envelopes"
     },
     {
-      "en": "2 Tsp Kosher Salt",
-      "he": "2 כפיות מלח גס",
+      "en": "2 Tsp (10ml) Kosher Salt",
+      "he": "2 כפיות (10 מ\"ל) מלח גס",
       "item": "Kosher Salt",
       "amount": 2,
       "unit": "tsp"
     },
     {
-      "en": "2 Tbsp Brown Sugar",
-      "he": "2 כפות סוכר חום",
+      "en": "2 Tbsp (30ml) Brown Sugar",
+      "he": "2 כפות (30 מ\"ל) סוכר חום",
       "item": "Brown Sugar",
       "amount": 2,
       "unit": "tbsp"
@@ -54,28 +54,28 @@
     },
     {
       "en": "1/3 c Oil (peanuts)",
-      "he": "1/3 כוס שמן (בוטנים)",
+      "he": "1/3 כוס (80 מ\"ל) שמן (בוטנים)",
       "item": "Oil (peanuts)",
       "amount": 0.33,
       "unit": "cup"
     },
     {
       "en": "1/2 c Honey",
-      "he": "1/2 כוס דבש",
+      "he": "1/2 כוס (120 מ\"ל) דבש",
       "item": "Honey",
       "amount": 0.5,
       "unit": "cup"
     },
     {
       "en": "3c White Flour",
-      "he": "3 כוסות קמח לבן",
+      "he": "3 כוסות (720 מ\"ל) קמח לבן",
       "item": "White Flour",
       "amount": 3,
       "unit": "cup"
     },
     {
       "en": "3c Wheat Flour",
-      "he": "3 כוסות קמח חיטה מלאה",
+      "he": "3 כוסות (720 מ\"ל) קמח חיטה מלאה",
       "item": "Wheat Flour",
       "amount": 3,
       "unit": "cup"
@@ -95,15 +95,15 @@
       "unit": "egg"
     },
     {
-      "en": "1 Tbsp Honey (for Egg Wash)",
-      "he": "1 כף דבש (לציפוי ביצה)",
+      "en": "1 Tbsp (15ml) Honey (for Egg Wash)",
+      "he": "1 כף (15 מ\"ל) דבש (לציפוי ביצה)",
       "item": "Honey",
       "amount": 1,
       "unit": "tbsp"
     },
     {
-      "en": "1 Tbsp Water (for Egg Wash)",
-      "he": "1 כף מים (לציפוי ביצה)",
+      "en": "1 Tbsp (15ml) Water (for Egg Wash)",
+      "he": "1 כף (15 מ\"ל) מים (לציפוי ביצה)",
       "item": "Water",
       "amount": 1,
       "unit": "tbsp"
@@ -134,7 +134,7 @@
       "להוריד את האוויר שוב, לחלק לחצי. כל חצי לחלק לשלישים ולקלוע. לפזר קמח תירס על תבניות אפייה ולהניח כיכר אחת על כל תבנית",
       "לאפשר לתפוח עד להכפלת הנפח",
       "להכין ציפוי ביצה ולמרוח מעל (להבריש)",
-      "לאפות שעה ב-350°F (לחמם תנור מראש)"
+      "לאפות שעה ב-175°C (350°F) (לחמם תנור מראש)"
     ]
   },
   "tags": [

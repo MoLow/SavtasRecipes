@@ -18,7 +18,7 @@
   "ingredients": [
     {
       "en": "3 t paprika",
-      "he": "3 כפיות פפריקה",
+      "he": "3 כפיות (15 מ\"ל) פפריקה",
       "item": "paprika",
       "amount": 3,
       "unit": "teaspoon"
@@ -32,63 +32,63 @@
     },
     {
       "en": "1/2 t fennel",
-      "he": "1/2 כפית שומר",
+      "he": "1/2 כפית (3 מ\"ל) שומר",
       "item": "fennel",
       "amount": 0.5,
       "unit": "teaspoon"
     },
     {
       "en": "1/2 t pepper",
-      "he": "1/2 כפית פלפל",
+      "he": "1/2 כפית (3 מ\"ל) פלפל",
       "item": "pepper",
       "amount": 0.5,
       "unit": "teaspoon"
     },
     {
       "en": "1 t salt",
-      "he": "1 כפית מלח",
+      "he": "1 כפית (5 מ\"ל) מלח",
       "item": "salt",
       "amount": 1,
       "unit": "teaspoon"
     },
     {
       "en": "1/2 t red pepper flakes",
-      "he": "1/2 כפית פתיתי פלפל אדום",
+      "he": "1/2 כפית (3 מ\"ל) פתיתי פלפל אדום",
       "item": "red pepper flakes",
       "amount": 0.5,
       "unit": "teaspoon"
     },
     {
       "en": "1/2 t sage",
-      "he": "1/2 כפית מרווה",
+      "he": "1/2 כפית (3 מ\"ל) מרווה",
       "item": "sage",
       "amount": 0.5,
       "unit": "teaspoon"
     },
     {
       "en": "1/4 t thyme",
-      "he": "1/4 כפית טימין",
+      "he": "1/4 כפית (1 מ\"ל) טימין",
       "item": "thyme",
       "amount": 0.25,
       "unit": "teaspoon"
     },
     {
       "en": "1/2 t rosemary",
-      "he": "1/2 כפית רוזמרין",
+      "he": "1/2 כפית (3 מ\"ל) רוזמרין",
       "item": "rosemary",
       "amount": 0.5,
       "unit": "teaspoon"
     },
     {
       "en": "1/2 t nutmeg",
-      "he": "1/2 כפית אגוז מוסקט",
+      "he": "1/2 כפית (3 מ\"ל) אגוז מוסקט",
       "item": "nutmeg",
       "amount": 0.5,
       "unit": "teaspoon"
     },
     {
       "en": "1 T brown sugar",
-      "he": "1 כף סוכר חום",
+      "he": "1 כף (15 מ\"ל) סוכר חום",
       "item": "brown sugar",
       "amount": 1,
       "unit": "tablespoon"

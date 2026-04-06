@@ -18,15 +18,15 @@
   },
   "ingredients": [
     {
-      "en": "1/2 cup oil",
-      "he": "1/2 כוס שמן",
+      "en": "1/2 cup (120ml) oil",
+      "he": "1/2 כוס (120 מ\"ל) שמן",
       "item": "oil",
       "amount": 0.5,
       "unit": "cup"
     },
     {
-      "en": "1/4 cup + 2 Tbs sugar",
-      "he": "1/4 כוס + 2 כפות סוכר",
+      "en": "1/4 cup (60ml) + 2 Tbs sugar",
+      "he": "1/4 כוס (60 מ\"ל) + 2 כפות סוכר",
       "item": "sugar",
       "amount": 0.25,
       "unit": "cup"
@@ -39,22 +39,22 @@
       "unit": "pieces"
     },
     {
-      "en": "1 tsp vanilla",
-      "he": "1 כפית וניל",
+      "en": "1 tsp (5ml) vanilla",
+      "he": "1 כפית (5 מ\"ל) וניל",
       "item": "vanilla",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "1 tsp baking powder",
-      "he": "1 כפית אבקת אפייה",
+      "en": "1 tsp (5ml) baking powder",
+      "he": "1 כפית (5 מ\"ל) אבקת אפייה",
       "item": "baking powder",
       "amount": 1,
       "unit": "tsp"
     },
     {
-      "en": "1 1/2 - 2 cups flour",
-      "he": "1.5 - 2 כוסות קמח",
+      "en": "1 1/2 - 2 cups (360ml) flour",
+      "he": "1.5 - 2 כוסות (360 מ\"ל) קמח",
       "item": "flour",
       "amount": 1.5,
       "unit": "cup"

@@ -17,7 +17,7 @@
   },
   "ingredients": [
     {
-      "en": "3½ lbs ricotta",
+      "en": "3½ lbs (1590g) ricotta",
       "he": "1.6 ק\"ג ריקוטה",
       "item": "ricotta",
       "amount": 3.5,
@@ -41,15 +41,15 @@
       "item": "orange and lemon rind"
     },
     {
-      "en": "1¼ cup sugar",
-      "he": "1¼ כוס סוכר",
+      "en": "1¼ cup (300ml) sugar",
+      "he": "1¼ כוס (300 מ\"ל) סוכר",
       "item": "sugar",
       "amount": 1.25,
       "unit": "cup"
     },
     {
-      "en": "½ cup milk",
-      "he": "½ כוס חלב",
+      "en": "½ cup (120ml) milk",
+      "he": "½ כוס (120 מ\"ל) חלב",
       "item": "milk",
       "amount": 0.5,
       "unit": "cup"

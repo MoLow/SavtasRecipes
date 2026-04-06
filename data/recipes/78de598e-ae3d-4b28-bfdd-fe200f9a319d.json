@@ -18,29 +18,29 @@
   },
   "ingredients": [
     {
-      "en": "1 lb walnuts",
+      "en": "1 lb (455g) walnuts",
       "he": "450 גרם אגוזי מלך",
       "item": "walnuts",
       "amount": 1,
       "unit": "lb"
     },
     {
-      "en": "3½ cups sifted flour",
-      "he": "3½ כוסות קמח מנופה",
+      "en": "3½ cups (840ml) sifted flour",
+      "he": "3½ כוסות (840 מ\"ל) קמח מנופה",
       "item": "sifted flour",
       "amount": 3.5,
       "unit": "cups"
     },
     {
-      "en": "3 tsp bicarbonate of soda",
-      "he": "3 כפיות סודה לשתייה",
+      "en": "3 tsp (15ml) bicarbonate of soda",
+      "he": "3 כפיות (15 מ\"ל) סודה לשתייה",
       "item": "bicarbonate of soda",
       "amount": 3,
       "unit": "tsp"
     },
     {
-      "en": "3/4 tsp salt",
-      "he": "3/4 כפית מלח",
+      "en": "3/4 tsp (4ml) salt",
+      "he": "3/4 כפית (4 מ\"ל) מלח",
       "item": "salt",
       "amount": 0.75,
       "unit": "tsp"
@@ -53,7 +53,7 @@
       "unit": null
     },
     {
-      "en": "2 lbs sugar",
+      "en": "2 lbs (910g) sugar",
       "he": "900 גרם סוכר",
       "item": "sugar",
       "amount": 2,
@@ -67,8 +67,8 @@
       "unit": null
     },
     {
-      "en": "1 cup liquid from boiled/soaked dates",
-      "he": "1 כוס נוזל מתמרים מבושלים/מושרים",
+      "en": "1 cup (240ml) liquid from boiled/soaked dates",
+      "he": "1 כוס (240 מ\"ל) נוזל מתמרים מבושלים/מושרים",
       "item": "liquid from dates",
       "amount": 1,
       "unit": "cup"
@@ -87,14 +87,14 @@
       "Mix eggs and sugar.",
       "Gradually add flour to the date and nut mix.",
       "Bake in greased bread loaf pans, filling 2/3 full.",
-      "Bake at 275°F or 300°F for 1 hour."
+      "Bake at 275°F (135°C) or 300°F (150°C) for 1 hour."
     ],
     "he": [
       "שפכו מים חמים על התמרים המגולענים.",
       "ערבבו ביצים וסוכר.",
       "הוסיפו בהדרגה קמח לתערובת התמרים והאגוזים.",
       "אפו בתבניות אינגליש קייק משומנות, מלאו אותן עד 2/3 גובה.",
-      "אפו ב-275°F או 300°F למשך שעה."
+      "אפו ב-135°C (275°F) או 150°C (300°F) למשך שעה."
     ]
   },
   "tags": [

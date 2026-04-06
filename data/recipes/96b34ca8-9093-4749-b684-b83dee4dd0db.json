@@ -17,7 +17,7 @@
   },
   "ingredients": [
     {
-      "en": "12 oz mushrooms",
+      "en": "12 oz (335g) mushrooms",
       "he": "340 גרם פטריות",
       "item": "mushrooms",
       "amount": 12,
@@ -31,15 +31,15 @@
       "unit": "piece"
     },
     {
-      "en": "1/4 tsp thyme",
-      "he": "1/4 כפית טימין",
+      "en": "1/4 tsp (1ml) thyme",
+      "he": "1/4 כפית (1 מ\"ל) טימין",
       "item": "thyme",
       "amount": 0.25,
       "unit": "tsp"
     },
     {
-      "en": "1/4 cup sherry",
-      "he": "1/4 כוס שרי",
+      "en": "1/4 cup (60ml) sherry",
+      "he": "1/4 כוס (60 מ\"ל) שרי",
       "item": "sherry",
       "amount": 0.25,
       "unit": "cup"
