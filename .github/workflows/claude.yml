@@ -30,11 +30,15 @@ jobs:
         with:
           fetch-depth: 1
 
+      - name: Install pipeline dependencies
+        run: npm ci
+
       - name: Run Claude Code
         id: claude
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          claude_args: '--allowedTools "Bash(npm *)" "Bash(node *)" "Bash(gh pr:*)"'
 
           # This is an optional setting that allows Claude to read CI results on PRs
           additional_permissions: |
