@@ -71,6 +71,13 @@
       "item": "egg",
       "amount": 1,
       "unit": null
+    },
+    {
+      "en": "Lekvar or apricot butter (for filling)",
+      "he": "לקוואר או חמאת משמש (למילוי)",
+      "item": "lekvar or apricot butter",
+      "amount": null,
+      "unit": null
     }
   ],
   "instructions": {
@@ -82,7 +89,9 @@
       "Cut circle with a glass (2 1/2\" - 3\").",
       "Fill circles with lekvar or Apricot butter.",
       "Pinch on 3 sides into Δ shape.",
-      "Bake on greased cookie sheet at 375°F about 20 minutes."
+      "Bake on greased cookie sheet at 375°F about 20 minutes.",
+      "Enjoy! Happy Purim!",
+      "* Chocolate chips are great for filling too!"
     ],
     "he": [
       "קרמו מרגרינה וסוכר.",
@@ -92,7 +101,9 @@
       "חתכו עיגולים בעזרת כוס (בקוטר 2.5-3 אינץ').",
       "מלאו את העיגולים בריבת שזיפים (לקוואר) או ריבת משמש.",
       "צבטו מ-3 צדדים לצורת משולש.",
-      "אפו על תבנית עוגיות משומנת בחום של 375°F (כ-190°C) למשך כ-20 דקות."
+      "אפו על תבנית עוגיות משומנת בחום של 375°F (כ-190°C) למשך כ-20 דקות.",
+      "!תהנו! חג פורים שמח",
+      "* שוקולד צ'יפס הם גם מילוי נהדר!"
     ]
   },
   "tags": [
