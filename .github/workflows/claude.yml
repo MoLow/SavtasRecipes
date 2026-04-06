@@ -42,7 +42,7 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          claude_args: '--allowedTools "Bash(npm *)" "Bash(node *)" "Bash(gh pr:*)"'
+          claude_args: '--allowedTools "Bash(npm *)" "Bash(node *)" "Bash(gh pr:*)" "Bash(gh issue *)" "Bash(git *)"'
           prompt: "${{ github.event_name == 'issues' && github.event.action == 'opened' && format('Read issue #{0} and create a PR that fixes it. The issue title is: {1}', github.event.issue.number, github.event.issue.title) || '' }}"
 
           # This is an optional setting that allows Claude to read CI results on PRs
