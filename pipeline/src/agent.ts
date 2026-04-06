@@ -76,7 +76,8 @@ function noopReporter(): ProgressReporter {
 async function processRecipeGroup(
   scanFilenames: string[],
   force: boolean,
-  progress: ProgressReporter = noopReporter()
+  progress: ProgressReporter = noopReporter(),
+  preferModel?: "gemini" | "claude"
 ): Promise<void> {
   const processedMap = getProcessedMap();
 
@@ -109,7 +110,7 @@ async function processRecipeGroup(
 
   // Step 2: Ranking
   progress.step(1);
-  const ranking = await rankResults(geminiData, claudeData);
+  const ranking = await rankResults(geminiData, claudeData, preferModel);
 
   // Step 3: Illustration
   progress.step(2);
@@ -193,6 +194,10 @@ async function main(): Promise<void> {
   const args = process.argv.slice(2);
   const force = args.includes("--force");
   const fileFlag = args.indexOf("--file");
+  const preferFlag = args.indexOf("--prefer-model");
+  const preferModel = preferFlag !== -1
+    ? (args[preferFlag + 1] as "gemini" | "claude" | undefined)
+    : undefined;
 
   if (fileFlag !== -1) {
     // Single file mode — skip grouper, process as single-element group
@@ -216,7 +221,7 @@ async function main(): Promise<void> {
       done() { bar.update(STEPS.length, { step: "Done" }); bar.stop(); },
     };
 
-    await processRecipeGroup([basename(fullPath)], force, reporter);
+    await processRecipeGroup([basename(fullPath)], force, reporter, preferModel);
     buildIndex();
     return;
   }
@@ -290,7 +295,7 @@ async function main(): Promise<void> {
     };
 
     try {
-      await processRecipeGroup(group, force, reporter);
+      await processRecipeGroup(group, force, reporter, preferModel);
       completed++;
     } catch (err) {
       bar.update(baseStep + STEPS.length, {

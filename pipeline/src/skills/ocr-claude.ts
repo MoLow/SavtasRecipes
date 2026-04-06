@@ -29,7 +29,7 @@ export async function ocrWithClaude(
       model: "claude-opus-4-6",
       permissionMode: "bypassPermissions",
       allowedTools: ["Read"],
-      maxTurns: 3,
+      maxTurns: 5,
     },
   })) {
     if (message.type === "assistant" && message.message?.content) {

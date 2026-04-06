@@ -1,0 +1,113 @@
+{
+  "id": "5489735f-d0bb-4e8f-876b-65d7534186c6",
+  "slug": "sweet-sour-meatballs",
+  "source": {
+    "scanFiles": [
+      "scans/5489735f-d0bb-4e8f-876b-65d7534186c6-0.jpg",
+      "scans/5489735f-d0bb-4e8f-876b-65d7534186c6-1.jpg"
+    ],
+    "processedAt": "2026-04-06T19:24:57.657Z"
+  },
+  "title": {
+    "en": "Sweet & Sour Meatballs",
+    "he": "כדורי בשר חמוץ מתוק"
+  },
+  "description": {
+    "en": "Classic sweet and sour meatballs made with ground beef, cranberry sauce, and meatless sauce Arturo, browned in oil and simmered in a tangy-sweet sauce.",
+    "he": "כדורי בשר קלאסיים בטעם חמוץ מתוק, עשויים מבשר טחון, רוטב חמוציות ורוטב ארטורו, מוקפצים בשמן ומבושלים ברוטב מתקתק-חמצמץ."
+  },
+  "ingredients": [
+    {
+      "en": "2 small cans meatless sauce Arturo",
+      "he": "2 פחיות קטנות רוטב ארטורו ללא בשר",
+      "item": "meatless sauce Arturo",
+      "amount": 2,
+      "unit": "small cans"
+    },
+    {
+      "en": "2 lbs chop meat",
+      "he": "2 פאונד בשר טחון",
+      "item": "chop meat",
+      "amount": 2,
+      "unit": "lbs"
+    },
+    {
+      "en": "1 can whole cranberry sauce",
+      "he": "1 פחית רוטב חמוציות שלם",
+      "item": "whole cranberry sauce",
+      "amount": 1,
+      "unit": "can"
+    },
+    {
+      "en": "2 eggs",
+      "he": "2 ביצים",
+      "item": "eggs",
+      "amount": 2,
+      "unit": "piece"
+    },
+    {
+      "en": "bread crumbs",
+      "he": "פירורי לחם",
+      "item": "bread crumbs"
+    },
+    {
+      "en": "garlic powder",
+      "he": "אבקת שום",
+      "item": "garlic powder"
+    },
+    {
+      "en": "grated onion",
+      "he": "בצל מגורר",
+      "item": "grated onion"
+    },
+    {
+      "en": "parsley flakes",
+      "he": "פתיתי פטרוזיליה",
+      "item": "parsley flakes"
+    },
+    {
+      "en": "drop water",
+      "he": "מעט מים",
+      "item": "water"
+    },
+    {
+      "en": "drop of oil",
+      "he": "מעט שמן",
+      "item": "oil"
+    }
+  ],
+  "instructions": {
+    "en": [
+      "Mix chop meat with eggs, bread crumbs, garlic powder, grated onion, parsley flakes, and a drop of water to form meatballs.",
+      "Brown meatballs in a drop of oil.",
+      "Add sauce and cranberries, mix up."
+    ],
+    "he": [
+      "לערבב את הבשר הטחון עם ביצים, פירורי לחם, אבקת שום, בצל מגורר, פתיתי פטרוזיליה ומעט מים וליצור כדורי בשר.",
+      "להשחים את כדורי הבשר במעט שמן.",
+      "להוסיף את הרוטב ואת החמוציות ולערבב."
+    ]
+  },
+  "tags": [
+    {
+      "en": "meat",
+      "he": "בשרי"
+    },
+    {
+      "en": "main",
+      "he": "מנה עיקרית"
+    },
+    {
+      "en": "american",
+      "he": "אמריקאי"
+    },
+    {
+      "en": "holiday",
+      "he": "חג"
+    }
+  ],
+  "illustration": "illustrations/5489735f-d0bb-4e8f-876b-65d7534186c6.webp",
+  "ocrRawText": "Sweet - Sour MeatBalls\n2 small cans meatless sauce Arturo\n2 lbs chop meat\nwhole cranberry sauce 1 can\n2 eggs       bread crumbs\ngarlic powder  grated onion\nparsley flakes\ndrop water\ndrop of oil\n(over)\nbrown meat ball in drop\nof oil\nadd sauce + cranberries -\nmix up.",
+  "selectedModel": "claude",
+  "rankingReason": "Claude selected (preferred by --prefer-model flag)"
+}
