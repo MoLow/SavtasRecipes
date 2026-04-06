@@ -45,8 +45,8 @@
       "unit": "stick"
     },
     {
-      "en": "1 box Tam Tam or 8 oz. Ritz crackers - crumbs",
-      "he": "1 קופסת טם טם או 225 גרם פירורי קרקרים מסוג ריץ",
+      "en": "1 box Tam Tam or 8 oz. Ritz crackers - crumbs (in Israel: use plain crackers or matzah meal)",
+      "he": "1 קופסת טם טם או 225 גרם פירורי קרקרים מסוג ריץ (בישראל: להשתמש בקרקרים פשוטים או קמח מצות)",
       "item": "cracker crumbs",
       "amount": 8,
       "unit": "oz"
@@ -61,13 +61,13 @@
     "en": [
       "Mix all ingredients and mold into a roll.",
       "Wrap in aluminum foil.",
-      "Bake at 325°F for 45 minutes, place in baking dish as margarine drips.",
+      "Bake at 325°F (163°C) for 45 minutes, place in baking dish as margarine drips.",
       "Freeze solid, and when ready to use cut into slices and heat in oven until brown and hot."
     ],
     "he": [
       "לערבב את כל המרכיבים ולעצב לגליל.",
       "לעטוף בנייר אלומיניום.",
-      "לאפות ב-165 מעלות צלזיוס במשך 45 דקות, להניח בתבנית אפייה כדי לקלוט את המרגרינה שנוטפת.",
+      "לאפות ב-163 מעלות צלזיוס במשך 45 דקות, להניח בתבנית אפייה כדי לקלוט את המרגרינה שנוטפת.",
       "להקפיא עד שמוצק לגמרי, וכשרוצים להגיש לחתוך לפרוסות ולחמם בתנור עד שמשחים וחמים."
     ]
   },
