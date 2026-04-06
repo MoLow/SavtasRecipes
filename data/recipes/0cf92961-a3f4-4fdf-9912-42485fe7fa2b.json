@@ -25,11 +25,11 @@
       "unit": null
     },
     {
-      "en": "1/2 lb ground walnuts",
-      "he": "1/2 ליברה אגוזי מלך טחונים",
+      "en": "225g ground walnuts",
+      "he": "225 גרם אגוזי מלך טחונים",
       "item": "ground walnuts",
-      "amount": 0.5,
-      "unit": "lb"
+      "amount": 225,
+      "unit": "g"
     },
     {
       "en": "3-4 glasses carrot (grated)",
