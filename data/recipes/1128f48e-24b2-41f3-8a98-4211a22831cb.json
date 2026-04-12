@@ -6,15 +6,16 @@
       "scans/1128f48e-24b2-41f3-8a98-4211a22831cb-0.jpg",
       "scans/1128f48e-24b2-41f3-8a98-4211a22831cb-1.jpg"
     ],
-    "processedAt": "2026-03-19T19:11:13.115Z"
+    "processedAt": "2026-03-19T19:11:13.115Z",
+    "attribution": "In Neal's handwriting"
   },
   "title": {
     "en": "Crescent Cookies (David)",
     "he": "עוגיות סהר (דוד)"
   },
   "description": {
-    "en": "A recipe for crescent-shaped cookies, featuring butter, sugar, whiskey, and flour. The cookies are baked until golden and then dipped in melted chocolate or rolled in confectioners' sugar. The recipe includes a humorous personal note at the end.",
-    "he": "מתכון לעוגיות בצורת סהר, המשלב חמאה, סוכר, וויסקי וקמח. העוגיות נאפות עד להזהבה ולאחר מכן נטבלות בשוקולד מומס או מגולגלות באבקת סוכר. המתכון כולל הערה אישית הומוריסטית בסופו."
+    "en": "A recipe for crescent-shaped cookies, featuring butter, sugar, whiskey, and flour. The cookies are baked until golden and then dipped in melted chocolate or rolled in confectioners' sugar. The recipe ends with a humorous personal note: \"Lick out whiskey glass & throw out the rest of the ingredients.\"",
+    "he": "מתכון לעוגיות בצורת סהר, המשלב חמאה, סוכר, וויסקי וקמח. העוגיות נאפות עד להזהבה ולאחר מכן נטבלות בשוקולד מומס או מגולגלות באבקת סוכר. המתכון מסתיים בהערה אישית הומוריסטית: \"לחכך את כוס הוויסקי ולזרוק את שאר המרכיבים.\""
   },
   "ingredients": [
     {
@@ -65,13 +66,15 @@
       "Combine butter, sugar, and whiskey with enough flour to make a soft dough.",
       "Shape into crescents.",
       "Bake at 350°F (175°C) until done.",
-      "After cooking, dip points into melted chocolate or roll in confectioners sugar."
+      "After cooking, dip points into melted chocolate or roll in confectioners sugar.",
+      "Lick out whiskey glass & throw out the rest of the ingredients."
     ],
     "he": [
       "שלבו חמאה, סוכר וויסקי עם מספיק קמח ליצירת בצק רך.",
       "עצבו לסהרונים.",
       "אפו ב-350°F (כ-175°C) עד שהן מוכנות.",
-      "לאחר האפייה, טבלו את הקצוות בשוקולד מומס או גלגלו באבקת סוכר."
+      "לאחר האפייה, טבלו את הקצוות בשוקולד מומס או גלגלו באבקת סוכר.",
+      "לחכך את כוס הוויסקי ולזרוק את שאר המרכיבים."
     ]
   },
   "tags": [
