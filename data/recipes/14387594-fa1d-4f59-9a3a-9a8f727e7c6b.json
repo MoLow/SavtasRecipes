@@ -6,7 +6,8 @@
       "scans/14387594-fa1d-4f59-9a3a-9a8f727e7c6b-0.jpg",
       "scans/14387594-fa1d-4f59-9a3a-9a8f727e7c6b-1.jpg"
     ],
-    "processedAt": "2026-03-19T22:47:16.952Z"
+    "processedAt": "2026-03-19T22:47:16.952Z",
+    "attribution": "Handwritten by Zeyda"
   },
   "title": {
     "en": "FALAFEL",
@@ -53,11 +54,11 @@
       "unit": "teaspoon"
     },
     {
-      "en": "2 soups fine dry bread crumbs",
-      "he": "2 'סופס' (כנראה כפות) פירורי לחם יבשים דקים",
+      "en": "2 cups fine dry bread crumbs",
+      "he": "2 כוסות פירורי לחם יבשים דקים",
       "item": "fine dry bread crumbs",
       "amount": 2,
-      "unit": null
+      "unit": "cups"
     },
     {
       "en": "2 tablespoons (30ml) melted shortening",
