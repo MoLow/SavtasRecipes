@@ -25,6 +25,13 @@
       "unit": "cans (8oz)"
     },
     {
+      "en": "½ C. water",
+      "he": "½ כוס (120 מ\"ל) מים",
+      "item": "water",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
       "en": "½ C. finely chopped onion",
       "he": "½ כוס (120 מ\"ל) בצל קצוץ דק",
       "item": "finely chopped onion",
@@ -32,9 +39,9 @@
       "unit": "cup"
     },
     {
-      "en": "½ C. finely chopped green pepper (large)",
-      "he": "½ כוס (120 מ\"ל) פלפל ירוק קצוץ דק (גדול)",
-      "item": "finely chopped green pepper",
+      "en": "½ C. diced green pepper (frozen)",
+      "he": "½ כוס (120 מ\"ל) פלפל ירוק קצוץ (קפוא)",
+      "item": "diced green pepper",
       "amount": 0.5,
       "unit": "cup"
     },
@@ -67,11 +74,9 @@
       "unit": "teaspoon"
     },
     {
-      "en": "1 C. raw rice",
-      "he": "1 כוס (240 מ\"ל) אורז לא מבושל",
-      "item": "raw rice",
-      "amount": 1,
-      "unit": "cup"
+      "en": "pepper",
+      "he": "פלפל",
+      "item": "pepper"
     },
     {
       "en": "1½ C. minute rice",
@@ -85,7 +90,7 @@
     "en": [
       "Combine tomato sauce, finely chopped onion, finely chopped green pepper, butter, salt, sugar, and mustard in a saucepan.",
       "Cover the saucepan and bring the mixture to a full boil.",
-      "Stir in the raw rice and minute rice.",
+      "Stir in rice.",
       "Remove the saucepan from heat.",
       "Cover and let stand for 5 minutes.",
       "Stir with a fork before serving."
@@ -93,7 +98,7 @@
     "he": [
       "שלבו את רוטב העגבניות, הבצל הקצוץ דק, הפלפל הירוק הקצוץ דק, החמאה, המלח, הסוכר והחרדל בסיר.",
       "כסו את הסיר והביאו את התערובת לרתיחה מלאה.",
-      "ערבבו פנימה את האורז הלא מבושל ואת האורז מהיר ההכנה.",
+      "ערבבו פנימה את האורז.",
       "הסירו את הסיר מהאש.",
       "כסו והניחו לעמוד למשך 5 דקות.",
       "ערבבו במזלג לפני ההגשה."
