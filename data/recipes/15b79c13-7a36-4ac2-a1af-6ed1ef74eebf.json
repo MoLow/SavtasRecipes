@@ -3,17 +3,18 @@
   "slug": "carrot-cake",
   "source": {
     "scanFiles": [
-      "scans/15b79c13-7a36-4ac2-a1af-6ed1ef74eebf-0.jpg"
+      "scans/15b79c13-7a36-4ac2-a1af-6ed1ef74eebf-0.jpg",
+      "scans/15b79c13-7a36-4ac2-a1af-6ed1ef74eebf-1.jpg"
     ],
-    "processedAt": "2026-03-19T22:41:21.222Z"
+    "processedAt": "2026-04-24T06:35:00.000Z"
   },
   "title": {
     "en": "Carrot Cake",
     "he": "עוגת גזר"
   },
   "description": {
-    "en": "A classic carrot cake with ground walnuts, grated carrots, and maraschino cherries. The note says 'over' suggesting there may be additional instructions on the back of the card.",
-    "he": "עוגת גזר קלאסית עם אגוזי מלך טחונים, גזר מגורר ודובדבני מרסקינו. על הכרטיס כתוב 'over' (המשך בצד השני) מה שמרמז שייתכן שיש הוראות נוספות בצד השני של הכרטיס."
+    "en": "A classic carrot cake with ground walnuts, grated carrots, and maraschino cherries. Eggs are separated and beaten for a light, airy texture, then baked in an 8x11 pan at 350°F.",
+    "he": "עוגת גזר קלאסית עם אגוזי מלך טחונים, גזר מגורר ודובדבני מרסקינו. הביצים מופרדות ומוקצפות לקבלת מרקם קל ואוורירי, ואופים בתבנית 8x11 ב-175°C."
   },
   "ingredients": [
     {
@@ -82,10 +83,18 @@
   ],
   "instructions": {
     "en": [
-      "No instructions are written on this side of the card. The word 'over' suggests instructions continue on the back of the recipe card."
+      "Separate eggs. Beat whites until foamy.",
+      "Beat yolks, then add sugar and oil. Mix well.",
+      "Fold the beaten egg whites into the yolk mixture.",
+      "Add the remaining ingredients (flour, baking powder, baking soda, ground walnuts, grated carrots, and drained maraschino cherries) and mix until combined.",
+      "Pour into an 8x11 pan and bake at 350°F (175°C) for about 45 minutes (¾ hour)."
     ],
     "he": [
-      "אין הוראות הכנה בצד זה של הכרטיס. המילה 'over' מרמזת שההוראות ממשיכות בצד השני של כרטיס המתכון."
+      "מפרידים ביצים. מקציפים את החלבונים עד לקצף.",
+      "מקציפים את החלמונים, מוסיפים סוכר ושמן. מערבבים היטב.",
+      "מקפלים את החלבונים המוקצפים לתוך תערובת החלמונים.",
+      "מוסיפים את שאר המרכיבים (קמח, אבקת אפייה, סודה לשתייה, אגוזי מלך טחונים, גזר מגורר ודובדבני מרסקינו מסוננים) ומערבבים עד לאיחוד.",
+      "יוצקים לתבנית 8x11 ואופים ב-175°C (350°F) כ-45 דקות (¾ שעה)."
     ]
   },
   "tags": [
@@ -107,7 +116,7 @@
     }
   ],
   "illustration": "illustrations/15b79c13-7a36-4ac2-a1af-6ed1ef74eebf.webp",
-  "ocrRawText": "Carrot Cake\n6 eggs\n1/2 lb ground walnuts\n2 glasses carrots (grated)\n3/4 cup oil\n1 1/2 cup sugar\n2 cups flour\n2 tsp baking powder\n1/2 tsp \" soda\n1 small jar maraschino cherries\n(drained) (over)",
+  "ocrRawText": "Carrot Cake\n6 eggs\n1/2 lb ground walnuts\n2 glasses carrots (grated)\n3/4 cup oil\n1 1/2 cup sugar\n2 cups flour\n2 tsp baking powder\n1/2 tsp \" soda\n1 small jar maraschino cherries\n(drained) (over)\n\n[Back of card]\nseparate eggs. beat whites till foamy. Beat yolks add sugar, & oil. Then add [fold in] whites then add remaining ingrediet, bake in an 8x11 pan. 350° ¾ chr",
   "selectedModel": "claude",
   "rankingReason": "Claude selected (only valid result). Gemini result failed validation: instructions.en: Array must contain at least 1 element(s); instructions.he: Array must contain at least 1 element(s)"
 }
