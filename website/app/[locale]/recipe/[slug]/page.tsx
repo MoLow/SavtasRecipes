@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import { getAllRecipes, getRecipeBySlug, type Locale } from "@/lib/recipes";
 import { optimizedImage } from "@/lib/image-utils";
 import ScanViewer from "@/components/ScanViewer";
 import BackButton from "@/components/BackButton";
+import PictureImage from "@/components/PictureImage";
 
 export async function generateMetadata({
   params,
@@ -70,7 +70,7 @@ export default async function RecipeDetail({
   }
 
   return (
-    <article className="animate-fade-up">
+    <article>
       {/* Unified hero — illustration, title, and original scans */}
       <div className="bg-[var(--color-bg-recessed)] -mx-4 sm:-mx-6 px-4 sm:px-6 py-8 mb-10 rounded-xl">
         <div className="max-w-5xl mx-auto">
@@ -81,8 +81,8 @@ export default async function RecipeDetail({
                 className="relative aspect-[4/5] rounded-2xl overflow-hidden"
                 style={{ boxShadow: "var(--shadow-card-hover)" }}
               >
-                <Image
-                  src={`/${optimizedImage(recipe.illustration, 800)}`}
+                <PictureImage
+                  src={optimizedImage(recipe.illustration, 800)}
                   alt={recipe.title[locale]}
                   fill
                   className="object-cover"

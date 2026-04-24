@@ -27,7 +27,7 @@ interface Variant {
   suffix: string;
   width: number;
   quality: number;
-  format?: "webp" | "png";
+  format?: "webp" | "png" | "jpeg" | "avif";
 }
 
 async function optimizeFile(
@@ -40,7 +40,8 @@ async function optimizeFile(
 
   for (const variant of variants) {
     const format = variant.format ?? "webp";
-    const outPath = resolve(outputDir, `${nameBase}${variant.suffix}.${format}`);
+    const ext = format === "jpeg" ? "jpg" : format;
+    const outPath = resolve(outputDir, `${nameBase}${variant.suffix}.${ext}`);
 
     if (existsSync(outPath) && !force) {
       continue;
@@ -49,6 +50,10 @@ async function optimizeFile(
     const pipeline = sharp(inputPath).resize(variant.width, undefined, { withoutEnlargement: true });
     if (format === "png") {
       await pipeline.png({ quality: variant.quality, compressionLevel: 8 }).toFile(outPath);
+    } else if (format === "jpeg") {
+      await pipeline.jpeg({ quality: variant.quality, mozjpeg: true }).toFile(outPath);
+    } else if (format === "avif") {
+      await pipeline.avif({ quality: variant.quality, effort: 4 }).toFile(outPath);
     } else {
       await pipeline.webp({ quality: variant.quality }).toFile(outPath);
     }
@@ -75,7 +80,7 @@ async function main() {
   // Illustrations
   if (existsSync(ILLUSTRATIONS_DIR)) {
     const files = readdirSync(ILLUSTRATIONS_DIR).filter(
-      (f) => /\.(jpe?g|png|webp)$/i.test(f) && !/-\d+w\.webp$/.test(f)
+      (f) => /\.(jpe?g|png|webp)$/i.test(f) && !/-(\d+w|og)\.(webp|avif|png)$/.test(f)
     );
 
     for (const file of files) {
@@ -87,6 +92,8 @@ async function main() {
         variants: [
           { suffix: "-400w", width: 400, quality: 80 },
           { suffix: "-800w", width: 800, quality: 80 },
+          { suffix: "-400w", width: 400, quality: 55, format: "avif" },
+          { suffix: "-800w", width: 800, quality: 55, format: "avif" },
           { suffix: "-og", width: 1200, quality: 90, format: "png" },
         ],
         label: `illus/${file}`,
@@ -117,8 +124,16 @@ async function main() {
 
 
   // Static public assets
-  const staticAssets = [
-    { file: 'savta.jpg', variants: [{ suffix: '', width: 300, quality: 85 }] },
+  const staticAssets: Array<{ file: string; variants: Variant[] }> = [
+    {
+      file: "savta.jpg",
+      variants: [
+        { suffix: "", width: 300, quality: 85, format: "webp" },
+        { suffix: "", width: 300, quality: 55, format: "avif" },
+        { suffix: "-og", width: 1200, quality: 82, format: "jpeg" },
+        { suffix: "-apple", width: 180, quality: 90, format: "png" },
+      ],
+    },
   ];
 
   for (const { file, variants } of staticAssets) {
@@ -129,7 +144,7 @@ async function main() {
         input: inputPath,
         outputDir: PUBLIC_DIR,
         nameBase: name,
-        variants: variants.map((v) => ({ ...v, format: 'webp' as const })),
+        variants,
         label: `public/${file}`,
       });
     }

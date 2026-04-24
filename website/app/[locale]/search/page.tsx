@@ -1,6 +1,5 @@
 import { Suspense } from "react";
-import { getAllRecipes, type Locale } from "@/lib/recipes";
-import { buildSearchIndex } from "@/lib/search";
+import { type Locale } from "@/lib/recipes";
 import SearchResults from "@/components/SearchResults";
 
 export default async function SearchPage({
@@ -10,12 +9,10 @@ export default async function SearchPage({
 }) {
   const { locale: localeParam } = await params;
   const locale = localeParam as Locale;
-  const recipes = getAllRecipes();
-  const searchIndex = buildSearchIndex(recipes);
 
   return (
     <Suspense>
-      <SearchResults recipes={searchIndex} locale={locale} />
+      <SearchResults locale={locale} />
     </Suspense>
   );
 }

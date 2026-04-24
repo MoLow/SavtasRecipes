@@ -10,7 +10,7 @@ export default async function AboutPage({
   const isHebrew = locale === "he";
 
   return (
-    <article className="animate-fade-up max-w-3xl mx-auto py-4">
+    <article className="max-w-3xl mx-auto py-4">
       <h1 className="font-semibold text-3xl text-[var(--color-ink)] mb-2">
         {isHebrew ? "איך זה עובד" : "How It Works"}
       </h1>

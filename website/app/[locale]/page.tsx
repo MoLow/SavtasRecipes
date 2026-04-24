@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import { getAllRecipes, type Locale } from "@/lib/recipes";
 import RecipeCard from "@/components/RecipeCard";
+import PictureImage from "@/components/PictureImage";
 
 export async function generateMetadata({
   params,
@@ -22,7 +22,7 @@ export async function generateMetadata({
       description,
       url: `/${locale}`,
       locale: isHebrew ? "he_IL" : "en_US",
-      images: [{ url: "/savta.jpg", width: 400, height: 400 }],
+      images: [{ url: "/savta-og.jpg", width: 1200, height: 1200 }],
     },
   };
 }
@@ -39,7 +39,7 @@ export default async function RecipeGrid({
 
   if (recipes.length === 0) {
     return (
-      <div className="text-center py-20 animate-fade-up">
+      <div className="text-center py-20">
         <p className="text-[var(--color-ink-secondary)]">
           {isHebrew
             ? "אין עדיין מתכונים. הפעל את הפייפליין כדי לעבד סריקות."
@@ -50,7 +50,7 @@ export default async function RecipeGrid({
   }
 
   return (
-    <div className="animate-fade-up">
+    <div>
       {/* Hero — Savta's portrait & dedication */}
       <div className="text-center pt-6 pb-10">
         <div
@@ -60,8 +60,8 @@ export default async function RecipeGrid({
               "0 0 0 3px var(--color-bg), 0 0 0 5px var(--color-border-strong), 0 8px 24px rgba(44, 24, 16, 0.12)",
           }}
         >
-          <Image
-            src="/savta.webp"
+          <PictureImage
+            src="savta.webp"
             alt="Savta"
             fill
             className="object-cover object-top"
@@ -103,8 +103,7 @@ export default async function RecipeGrid({
             illustration={recipe.illustration}
             tags={recipe.tags}
             locale={locale}
-            index={i}
-            priority={i < 4}
+            priority={i < 2}
           />
         ))}
       </div>

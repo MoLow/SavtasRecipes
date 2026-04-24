@@ -13,6 +13,7 @@ const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
   variable: "--font-body",
   display: "swap",
+  preload: false,
 });
 
 export const metadata: Metadata = {
@@ -25,14 +26,14 @@ export const metadata: Metadata = {
   openGraph: {
     siteName: "Savta's Recipes",
     type: "website",
-    images: [{ url: "/savta.jpg", width: 400, height: 400, alt: "Savta" }],
+    images: [{ url: "/savta-og.jpg", width: 1200, height: 1200, alt: "Savta" }],
   },
   twitter: {
     card: "summary_large_image",
   },
   icons: {
     icon: "/icon.svg",
-    apple: "/savta.jpg",
+    apple: "/savta-apple.png",
   },
   other: {
     "mobile-web-app-capable": "yes",
