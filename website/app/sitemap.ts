@@ -1,6 +1,8 @@
 import { getAllRecipes } from '@/lib/recipes';
 import type { MetadataRoute } from 'next';
 
+export const dynamic = 'force-static';
+
 const BASE_URL = 'https://recipes.atlow.co.il';
 const LOCALES = ['en', 'he'] as const;
 
