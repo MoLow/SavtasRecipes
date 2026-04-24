@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
 Content-Usage: train-ai=n, search=y
+Content-Signal: ai-train=no, search=yes, ai-input=no
 
 Sitemap: https://recipes.atlow.co.il/sitemap.xml
