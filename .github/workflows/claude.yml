@@ -10,13 +10,11 @@ on:
   pull_request_review:
     types: [submitted]
 
-env:
-  ALLOWED_USERS: '["MoLow","Saturn7X"]'
-
+# Keep in sync with `allowed_non_write_users` below.
 jobs:
   claude:
     if: |
-      contains(fromJSON(env.ALLOWED_USERS), github.actor) &&
+      contains(fromJSON('["MoLow","Saturn7X"]'), github.actor) &&
       (
         (github.event_name == 'issue_comment' && contains(github.event.comment.body, '@claude')) ||
         (github.event_name == 'pull_request_review_comment' && contains(github.event.comment.body, '@claude')) ||
@@ -47,7 +45,8 @@ jobs:
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           github_token: ${{ secrets.CLAUDE_BOT_PAT }}
-          allowed_non_write_users: ${{ join(fromJSON(env.ALLOWED_USERS), ',') }}
+          # Keep in sync with the `if` condition above.
+          allowed_non_write_users: "MoLow,Saturn7X"
           claude_args: '--allowedTools "Bash(npm *)" "Bash(node *)" "Bash(gh pr:*)" "Bash(gh issue *)" "Bash(git *)"'
           prompt: "${{ github.event_name == 'issues' && github.event.action == 'opened' && format('Read issue #{0} and create a PR that fixes it. The issue title is: {1}', github.event.issue.number, github.event.issue.title) || '' }}"
 
