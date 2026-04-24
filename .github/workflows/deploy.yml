@@ -54,7 +54,8 @@ jobs:
             --delete \
             --cache-control "public, max-age=31536000, immutable" \
             --exclude "*.html" \
-            --exclude "*.json"
+            --exclude "*.json" \
+            --exclude "*.md"
           # HTML files (short cache)
           aws s3 sync website/out/ s3://recipes.atlow.co.il \
             --cache-control "public, max-age=60, s-maxage=3600" \
@@ -68,6 +69,13 @@ jobs:
             --exclude "*" \
             --include "*.json" \
             --content-type "application/json" \
+            --no-guess-mime-type
+          # Markdown files for AI agents (short cache, explicit content-type)
+          aws s3 sync website/out/ s3://recipes.atlow.co.il \
+            --cache-control "public, max-age=60, s-maxage=3600" \
+            --exclude "*" \
+            --include "*.md" \
+            --content-type "text/markdown" \
             --no-guess-mime-type
 
       - name: Invalidate CloudFront cache
