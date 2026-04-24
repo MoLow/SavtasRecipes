@@ -104,6 +104,7 @@ export default async function RecipeGrid({
             tags={recipe.tags}
             locale={locale}
             index={i}
+            priority={i < 4}
           />
         ))}
       </div>

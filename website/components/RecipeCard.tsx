@@ -10,6 +10,7 @@ interface RecipeCardProps {
   tags?: Array<{ en: string; he: string }>;
   locale: Locale;
   index?: number;
+  priority?: boolean;
 }
 
 export default function RecipeCard({
@@ -19,6 +20,7 @@ export default function RecipeCard({
   tags,
   locale,
   index = 0,
+  priority = false,
 }: RecipeCardProps) {
   return (
     <Link
@@ -35,6 +37,7 @@ export default function RecipeCard({
         fill
         className="object-cover transition-transform duration-500 ease-out [@media(hover:hover)]:group-hover:scale-[1.04]"
         sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+        priority={priority}
       />
 
       {/* Frosted glass title band */}
