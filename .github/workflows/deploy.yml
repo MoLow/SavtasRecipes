@@ -50,7 +50,7 @@ jobs:
       - name: Sync to S3
         run: |
           # Pre-gzip all text assets in-place so S3 serves them compressed
-          find website/out -type f \( -name "*.html" -o -name "*.css" -o -name "*.js" -o -name "*.json" -o -name "*.svg" -o -name "*.md" \) \
+          find website/out -type f \( -name "*.html" -o -name "*.css" -o -name "*.js" -o -name "*.json" -o -name "*.svg" -o -name "*.md" -o -name "*.txt" \) \
             -exec sh -c 'gzip -9 "$1" && mv "${1}.gz" "$1"' _ {} \;
 
           # Binary assets (images, fonts) — no compression, auto content-type
@@ -62,7 +62,8 @@ jobs:
             --exclude "*.js" \
             --exclude "*.json" \
             --exclude "*.svg" \
-            --exclude "*.md"
+            --exclude "*.md" \
+            --exclude "*.txt"
 
           # CSS (long cache, gzip-encoded)
           aws s3 sync website/out/ s3://recipes.atlow.co.il \
@@ -123,6 +124,16 @@ jobs:
             --no-guess-mime-type \
             --exclude "*" \
             --include "*.md"
+
+          # Plain text — robots.txt etc. (short cache, gzip-encoded)
+          aws s3 sync website/out/ s3://recipes.atlow.co.il \
+            --delete \
+            --cache-control "public, max-age=300, must-revalidate" \
+            --content-type "text/plain" \
+            --content-encoding "gzip" \
+            --no-guess-mime-type \
+            --exclude "*" \
+            --include "*.txt"
 
       - name: Invalidate CloudFront cache
         run: |
