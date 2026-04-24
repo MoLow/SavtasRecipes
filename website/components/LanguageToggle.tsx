@@ -15,6 +15,13 @@ export default function LanguageToggle({ currentLocale }: LanguageToggleProps) {
     return pathname.replace(`/${currentLocale}`, `/${locale}`);
   }
 
+  function rememberLocale(locale: Locale) {
+    localStorage.setItem("locale", locale);
+    // Cookie is read by the CloudFront edge function to 302 `/` to the
+    // right locale for bookmarked bare-domain visits.
+    document.cookie = `locale=${locale}; path=/; max-age=31536000; SameSite=Lax`;
+  }
+
   return (
     <div
       dir="ltr"
@@ -22,7 +29,7 @@ export default function LanguageToggle({ currentLocale }: LanguageToggleProps) {
     >
       <Link
         href={getPath("en")}
-        onClick={() => localStorage.setItem("locale", "en")}
+        onClick={() => rememberLocale("en")}
         className={`px-3.5 py-1.5 sm:px-3 sm:py-1 rounded-full text-xs transition-all duration-200 ${
           currentLocale === "en"
             ? "bg-[var(--color-bg-elevated)] text-[var(--color-ink)] shadow-sm"
@@ -33,7 +40,7 @@ export default function LanguageToggle({ currentLocale }: LanguageToggleProps) {
       </Link>
       <Link
         href={getPath("he")}
-        onClick={() => localStorage.setItem("locale", "he")}
+        onClick={() => rememberLocale("he")}
         className={`px-3.5 py-1.5 sm:px-3 sm:py-1 rounded-full text-xs transition-all duration-200 ${
           currentLocale === "he"
             ? "bg-[var(--color-bg-elevated)] text-[var(--color-ink)] shadow-sm"

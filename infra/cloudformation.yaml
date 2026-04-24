@@ -81,11 +81,37 @@ Resources:
         function handler(event) {
           var request = event.request;
           var uri = request.uri;
-          var accept = request.headers['accept'] ? request.headers['accept'].value : '';
+          var headers = request.headers;
+          var accept = headers['accept'] ? headers['accept'].value : '';
           var wantsMarkdown = accept.indexOf('text/markdown') !== -1;
           if (uri === '/') {
-            if (wantsMarkdown) request.uri = '/index.md';
-            return request;
+            if (wantsMarkdown) {
+              request.uri = '/index.md';
+              return request;
+            }
+            // 302 to a locale so agents/crawlers see a real page immediately
+            // rather than a client-side redirect that destroys the JS execution
+            // context mid-probe. Prefer cookie > Accept-Language > 'en'.
+            var locale = 'en';
+            var cookie = headers['cookie'] ? headers['cookie'].value : '';
+            var m = cookie.match(/(?:^|;\s*)locale=(he|en)/);
+            if (m) {
+              locale = m[1];
+            } else {
+              var lang = headers['accept-language']
+                ? headers['accept-language'].value.toLowerCase()
+                : '';
+              if (/\b(he|iw)\b/.test(lang)) locale = 'he';
+            }
+            return {
+              statusCode: 302,
+              statusDescription: 'Found',
+              headers: {
+                'location': { value: '/' + locale },
+                'cache-control': { value: 'no-store' },
+                'vary': { value: 'cookie, accept-language' }
+              }
+            };
           }
           var ext = wantsMarkdown ? '.md' : '.html';
           if (uri.endsWith('/')) {
