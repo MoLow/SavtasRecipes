@@ -41,34 +41,27 @@ function write(filePath: string, content: string) {
 }
 
 function recipeMarkdown(recipe: Recipe, locale: Locale): string {
-  const url = 'https://recipes.atlow.co.il/' + locale + '/recipe/' + recipe.slug;
-  const ingredients = recipe.ingredients.map((i) => '- ' + i[locale]).join('
-');
-  const instructions = recipe.instructions[locale].map((s, i) => (i + 1) + '. ' + s).join('
-');
+  const url = `https://recipes.atlow.co.il/${locale}/recipe/${recipe.slug}`;
+  const ingredients = recipe.ingredients.map((i) => `- ${i[locale]}`).join('\n');
+  const instructions = recipe.instructions[locale].map((s, i) => `${i + 1}. ${s}`).join('\n');
   const tags = recipe.tags.map((t) => t[locale]).join(', ');
-  return '# ' + recipe.title[locale] + '
+  return `# ${recipe.title[locale]}
 
-' +
-    recipe.description[locale] + '
+${recipe.description[locale]}
 
-' +
-    '**Tags:** ' + tags + '
+**Tags:** ${tags}
 
-' +
-    '## Ingredients
+## Ingredients
 
-' + ingredients + '
+${ingredients}
 
-' +
-    '## Instructions
+## Instructions
 
-' + instructions + '
+${instructions}
 
-' +
-    '---
-Source: ' + url + '
-';
+---
+Source: ${url}
+`;
 }
 
 function indexMarkdown(recipes: Recipe[], locale: Locale): string {
@@ -77,19 +70,20 @@ function indexMarkdown(recipes: Recipe[], locale: Locale): string {
   const intro = locale === 'he'
     ? 'מתכונים בכתב יד של סבתא, ממוינים ומתורגמים.'
     : "Grandmother's handwritten recipes, digitized and translated.";
-  const list = recipes.map((r) => '- [' + r.title[locale] + '](' + base + '/' + locale + '/recipe/' + r.slug + ')').join('
-');
-  return '# ' + heading + '
+  const list = recipes
+    .map((r) => `- [${r.title[locale]}](${base}/${locale}/recipe/${r.slug})`)
+    .join('\n');
+  return `# ${heading}
 
-' + intro + '
+${intro}
 
 ## Recipes
 
-' + list + '
+${list}
 
 ---
-Source: ' + base + '/' + locale + '
-';
+Source: ${base}/${locale}
+`;
 }
 
 const recipes = loadRecipes();
