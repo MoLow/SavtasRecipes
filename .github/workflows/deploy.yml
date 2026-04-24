@@ -49,8 +49,11 @@ jobs:
 
       - name: Sync to S3
         run: |
-          # Pre-gzip all text assets in-place so S3 serves them compressed
-          find website/out -type f \( -name "*.html" -o -name "*.css" -o -name "*.js" -o -name "*.json" -o -name "*.svg" -o -name "*.md" -o -name "*.txt" \) \
+          # Pre-gzip all text assets in-place so S3 serves them compressed.
+          # .txt files (robots.txt, etc.) are intentionally left uncompressed —
+          # they're tiny, and many bot HTTP clients don't advertise gzip and
+          # would otherwise receive unreadable bytes.
+          find website/out -type f \( -name "*.html" -o -name "*.css" -o -name "*.js" -o -name "*.json" -o -name "*.svg" -o -name "*.md" \) \
             -exec sh -c 'gzip -9 "$1" && mv "${1}.gz" "$1"' _ {} \;
 
           # Binary assets (images, fonts) — no compression, auto content-type
@@ -125,12 +128,12 @@ jobs:
             --exclude "*" \
             --include "*.md"
 
-          # Plain text — robots.txt etc. (short cache, gzip-encoded)
+          # Plain text — robots.txt etc. Served uncompressed so bot HTTP
+          # clients that don't advertise gzip get readable content.
           aws s3 sync website/out/ s3://recipes.atlow.co.il \
             --delete \
             --cache-control "public, max-age=300, must-revalidate" \
-            --content-type "text/plain" \
-            --content-encoding "gzip" \
+            --content-type "text/plain; charset=utf-8" \
             --no-guess-mime-type \
             --exclude "*" \
             --include "*.txt"
