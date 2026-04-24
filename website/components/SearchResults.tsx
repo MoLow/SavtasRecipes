@@ -91,9 +91,9 @@ export default function SearchResults({ recipes, locale }: SearchResultsProps) {
                   WebkitBackdropFilter: "blur(16px) saturate(1.2)",
                 }}
               >
-                <h3 className="font-semibold text-sm sm:text-base text-[var(--color-ink)] truncate leading-tight">
+                <h2 className="font-semibold text-sm sm:text-base text-[var(--color-ink)] truncate leading-tight">
                   {locale === "he" ? r.titleHe : r.titleEn}
-                </h3>
+                </h2>
                 <p className="text-[10px] sm:text-xs text-[var(--color-ink-tertiary)] truncate mt-0.5">
                   {(locale === "he" ? r.tagsHe : r.tagsEn).slice(0, 3).join(" \u00b7 ")}
                 </p>

@@ -46,9 +46,9 @@ export default function RecipeCard({
           WebkitBackdropFilter: "blur(16px) saturate(1.2)",
         }}
       >
-        <h3 className="font-semibold text-sm sm:text-base text-[var(--color-ink)] truncate leading-tight">
+        <h2 className="font-semibold text-sm sm:text-base text-[var(--color-ink)] truncate leading-tight">
           {title[locale]}
-        </h3>
+        </h2>
         {tags && tags.length > 0 && (
           <p className="text-[10px] sm:text-xs text-[var(--color-ink-tertiary)] truncate mt-0.5">
             {tags.slice(0, 3).map((t) => t[locale]).join(" \u00b7 ")}

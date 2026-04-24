@@ -61,7 +61,7 @@ export default async function RecipeGrid({
           }}
         >
           <Image
-            src="/savta.jpg"
+            src="/savta.webp"
             alt="Savta"
             fill
             className="object-cover object-top"

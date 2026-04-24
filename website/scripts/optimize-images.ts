@@ -19,6 +19,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = resolve(__dirname, "../..");
 const ILLUSTRATIONS_DIR = resolve(ROOT_DIR, "data/illustrations");
 const SCANS_DIR = resolve(ROOT_DIR, "data/scans");
+const PUBLIC_DIR = resolve(__dirname, "../public");
 
 const force = process.argv.includes("--force");
 
@@ -110,6 +111,26 @@ async function main() {
           { suffix: "-1200w", width: 1200, quality: 85 },
         ],
         label: `scans/${file}`,
+      });
+    }
+  }
+
+
+  // Static public assets
+  const staticAssets = [
+    { file: 'savta.jpg', variants: [{ suffix: '', width: 300, quality: 85 }] },
+  ];
+
+  for (const { file, variants } of staticAssets) {
+    const inputPath = resolve(PUBLIC_DIR, file);
+    if (existsSync(inputPath)) {
+      const name = basename(file, extname(file));
+      work.push({
+        input: inputPath,
+        outputDir: PUBLIC_DIR,
+        nameBase: name,
+        variants: variants.map((v) => ({ ...v, format: 'webp' as const })),
+        label: `public/${file}`,
       });
     }
   }
