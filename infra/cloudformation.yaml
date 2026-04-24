@@ -84,10 +84,12 @@ Resources:
           if (uri === '/') {
             return request;
           }
+          var accept = request.headers['accept'] ? request.headers['accept'].value : '';
+          var ext = accept.indexOf('text/markdown') !== -1 ? '.md' : '.html';
           if (uri.endsWith('/')) {
-            request.uri = uri.slice(0, -1) + '.html';
+            request.uri = uri.slice(0, -1) + ext;
           } else if (!uri.includes('.')) {
-            request.uri += '.html';
+            request.uri += ext;
           }
           return request;
         }
