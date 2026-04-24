@@ -94,6 +94,19 @@ Resources:
           return request;
         }
 
+  # -- CloudFront Response Headers Policy (agent discovery) --
+  ResponseHeadersPolicy:
+    Type: AWS::CloudFront::ResponseHeadersPolicy
+    Properties:
+      ResponseHeadersPolicyConfig:
+        Name: !Sub "${AWS::StackName}-agent-ready"
+        Comment: RFC 8288 Link header for agent discovery (RFC 9727)
+        CustomHeadersConfig:
+          Items:
+            - Header: Link
+              Value: '</.well-known/api-catalog>; rel="api-catalog"'
+              Override: false
+
   # ── CloudFront Distribution ──
   CloudFrontDistribution:
     Type: AWS::CloudFront::Distribution
@@ -113,6 +126,7 @@ Resources:
           ViewerProtocolPolicy: redirect-to-https
           CachePolicyId: 658327ea-f89d-4fab-a63d-7e88639e58f6 # CachingOptimized
           Compress: true
+          ResponseHeadersPolicyId: !Ref ResponseHeadersPolicy
           FunctionAssociations:
             - EventType: viewer-request
               FunctionARN: !GetAtt UrlRewriteFunction.FunctionARN
