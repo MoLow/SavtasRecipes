@@ -1,0 +1,6 @@
+{
+  "resource": "https://recipes.atlow.co.il",
+  "authorization_servers": [],
+  "scopes_supported": [],
+  "bearer_methods_supported": []
+}
