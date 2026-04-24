@@ -116,11 +116,14 @@ Resources:
     Properties:
       ResponseHeadersPolicyConfig:
         Name: !Sub "${AWS::StackName}-agent-ready"
-        Comment: RFC 8288 Link header for agent discovery (RFC 9727)
+        Comment: RFC 8288 Link header for agent discovery (RFC 9727) + Vary for markdown negotiation
         CustomHeadersConfig:
           Items:
             - Header: Link
               Value: '</.well-known/api-catalog>; rel="api-catalog"'
+              Override: false
+            - Header: Vary
+              Value: Accept
               Override: false
 
   # ── CloudFront Distribution ──
