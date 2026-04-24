@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import { useRouter } from "next/navigation";
 import { createFuse, type SearchableRecipe } from "@/lib/search";
 import type { Locale } from "@/lib/recipes";
 
@@ -10,6 +11,8 @@ interface WebMCPProviderProps {
 }
 
 export default function WebMCPProvider({ recipes, locale }: WebMCPProviderProps) {
+  const router = useRouter();
+
   useEffect(() => {
     const nav = navigator as Navigator & {
       modelContext?: {
@@ -84,7 +87,7 @@ export default function WebMCPProvider({ recipes, locale }: WebMCPProviderProps)
           },
           execute: (params: { slug: string }) => {
             const url = `/${locale}/recipe/${params.slug}`;
-            window.location.href = url;
+            router.push(url);
             return { navigating: true, url };
           },
         },
@@ -103,13 +106,13 @@ export default function WebMCPProvider({ recipes, locale }: WebMCPProviderProps)
           },
           execute: (params: { query?: string }) => {
             const url = `/${locale}/search${params.query ? `?q=${encodeURIComponent(params.query)}` : ""}`;
-            window.location.href = url;
+            router.push(url);
             return { navigating: true, url };
           },
         },
       ],
     });
-  }, [recipes, locale]);
+  }, [recipes, locale, router]);
 
   return null;
 }
