@@ -1,0 +1,126 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Savta's Recipes",
+    "description": "Bilingual (English/Hebrew) recipe collection digitised from handwritten originals",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://recipes.atlow.co.il",
+      "description": "Production"
+    }
+  ],
+  "paths": {
+    "/{locale}": {
+      "get": {
+        "summary": "Recipe grid",
+        "parameters": [
+          {
+            "name": "locale",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "enum": [
+                "en",
+                "he"
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Recipe grid page"
+          }
+        }
+      }
+    },
+    "/{locale}/recipe/{slug}": {
+      "get": {
+        "summary": "Recipe detail",
+        "parameters": [
+          {
+            "name": "locale",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "enum": [
+                "en",
+                "he"
+              ]
+            }
+          },
+          {
+            "name": "slug",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Recipe detail page"
+          }
+        }
+      }
+    },
+    "/{locale}/search": {
+      "get": {
+        "summary": "Search recipes",
+        "parameters": [
+          {
+            "name": "locale",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "enum": [
+                "en",
+                "he"
+              ]
+            }
+          },
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Search results page"
+          }
+        }
+      }
+    },
+    "/health.json": {
+      "get": {
+        "summary": "Health check",
+        "responses": {
+          "200": {
+            "description": "Service status",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "example": "ok"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

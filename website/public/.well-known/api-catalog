@@ -2,16 +2,22 @@
   "linkset": [
     {
       "anchor": "https://recipes.atlow.co.il/",
+      "service-desc": [
+        {
+          "href": "https://recipes.atlow.co.il/openapi.json",
+          "type": "application/vnd.oai.openapi+json;version=3.1"
+        }
+      ],
       "service-doc": [
         {
           "href": "https://recipes.atlow.co.il/en/about",
           "type": "text/html"
         }
       ],
-      "describedby": [
+      "status": [
         {
-          "href": "https://recipes.atlow.co.il/sitemap.xml",
-          "type": "application/xml"
+          "href": "https://recipes.atlow.co.il/health.json",
+          "type": "application/json"
         }
       ]
     }

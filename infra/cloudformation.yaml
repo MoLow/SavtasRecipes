@@ -94,6 +94,22 @@ Resources:
           return request;
         }
 
+
+  # -- CloudFront Function (set Content-Type for /.well-known/api-catalog) --
+  ApiCatalogContentTypeFunction:
+    Type: AWS::CloudFront::Function
+    Properties:
+      Name: !Sub "${AWS::StackName}-api-catalog-ct"
+      AutoPublish: true
+      FunctionConfig:
+        Comment: Set application/linkset+json Content-Type for RFC 9727 API Catalog
+        Runtime: cloudfront-js-2.0
+      FunctionCode: |
+        function handler(event) {
+          var response = event.response;
+          response.headers['content-type'] = {value: 'application/linkset+json'};
+          return response;
+        }
   # -- CloudFront Response Headers Policy (agent discovery) --
   ResponseHeadersPolicy:
     Type: AWS::CloudFront::ResponseHeadersPolicy
@@ -121,6 +137,16 @@ Resources:
             DomainName: !GetAtt WebsiteBucket.RegionalDomainName
             OriginAccessControlId: !Ref CloudFrontOAC
             S3OriginConfig: {}
+        CacheBehaviors:
+          - PathPattern: "/.well-known/api-catalog"
+            TargetOriginId: S3Origin
+            ViewerProtocolPolicy: redirect-to-https
+            CachePolicyId: 658327ea-f89d-4fab-a63d-7e88639e58f6
+            Compress: true
+            ResponseHeadersPolicyId: !Ref ResponseHeadersPolicy
+            FunctionAssociations:
+              - EventType: viewer-response
+                FunctionARN: !GetAtt ApiCatalogContentTypeFunction.FunctionARN
         DefaultCacheBehavior:
           TargetOriginId: S3Origin
           ViewerProtocolPolicy: redirect-to-https
