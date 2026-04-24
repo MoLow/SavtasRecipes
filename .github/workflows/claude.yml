@@ -12,15 +12,6 @@ on:
 
 jobs:
   claude:
-    if: |
-      (github.actor == 'MoLow' || github.actor == 'Saturn7X') &&
-      (
-        (github.event_name == 'issue_comment' && contains(github.event.comment.body, '@claude')) ||
-        (github.event_name == 'pull_request_review_comment' && contains(github.event.comment.body, '@claude')) ||
-        (github.event_name == 'pull_request_review' && contains(github.event.review.body, '@claude')) ||
-        (github.event_name == 'issues' && github.event.action == 'opened') ||
-        (github.event_name == 'issues' && github.event.action == 'assigned' && (contains(github.event.issue.body, '@claude') || contains(github.event.issue.title, '@claude')))
-      )
     runs-on: ubuntu-latest
     timeout-minutes: 15
     permissions:
@@ -43,6 +34,8 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.CLAUDE_BOT_PAT }}
+          allowed_non_write_users: "MoLow,Saturn7X"
           claude_args: '--allowedTools "Bash(npm *)" "Bash(node *)" "Bash(gh pr:*)" "Bash(gh issue *)" "Bash(git *)"'
           prompt: "${{ github.event_name == 'issues' && github.event.action == 'opened' && format('Read issue #{0} and create a PR that fixes it. The issue title is: {1}', github.event.issue.number, github.event.issue.title) || '' }}"
 
