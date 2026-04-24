@@ -2,7 +2,7 @@
 name: webmcp
 type: webmcp
 version: 1.0.0
-description: Browser-native AI agent tools via navigator.modelContext.provideContext()
+description: Browser-native AI agent tools via navigator.modelContext.registerTool()
 ---
 
 # webmcp
@@ -11,7 +11,7 @@ Savta's Recipes exposes browser-native tools to AI agents via the [WebMCP](https
 
 ## Implementation
 
-Tools are registered on every recipe page using `navigator.modelContext.provideContext()`.
+Tools are registered on every recipe page using `navigator.modelContext.registerTool()` (one call per tool, matching the current WebMCP spec). The older `provideContext({tools})` form is retained as a runtime fallback for shims that don't implement `registerTool`.
 
 ## Available tools
 

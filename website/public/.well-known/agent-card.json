@@ -1,0 +1,66 @@
+{
+  "name": "Savta's Recipes",
+  "description": "Bilingual (English/Hebrew) collection of grandmother's handwritten recipes, digitised, translated, and searchable. Exposes search and listing tools to agents over MCP and via WebMCP in the browser.",
+  "version": "1.0.0",
+  "url": "https://recipes.atlow.co.il",
+  "documentationUrl": "https://recipes.atlow.co.il/en/about",
+  "iconUrl": "https://recipes.atlow.co.il/icon.svg",
+  "provider": {
+    "organization": "atlow.co.il",
+    "url": "https://recipes.atlow.co.il"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "extendedAgentCard": false
+  },
+  "defaultInputModes": ["text/plain"],
+  "defaultOutputModes": ["application/json", "text/markdown"],
+  "supportedInterfaces": [
+    {
+      "url": "https://recipes.atlow.co.il/mcp",
+      "protocolBinding": "streamable-http",
+      "protocolVersion": "2025-06-18",
+      "transport": "https"
+    }
+  ],
+  "skills": [
+    {
+      "id": "search-recipes",
+      "name": "Search Recipes",
+      "description": "Search Savta's recipe collection by name, ingredient, or tag. Returns matching recipes with slugs and URLs in the requested locale.",
+      "tags": ["search", "recipes", "food", "bilingual"],
+      "inputModes": ["text/plain"],
+      "outputModes": ["application/json"],
+      "examples": [
+        "Find recipes with chocolate",
+        "What Hanukkah desserts does Savta have?",
+        "חיפוש עוגיות שוקולד"
+      ]
+    },
+    {
+      "id": "list-recipes",
+      "name": "List All Recipes",
+      "description": "List every recipe in the collection with names, tags, and canonical page URLs in the requested locale.",
+      "tags": ["listing", "recipes", "catalog"],
+      "inputModes": ["text/plain"],
+      "outputModes": ["application/json"]
+    },
+    {
+      "id": "navigate-to-recipe",
+      "name": "Open a Recipe",
+      "description": "Navigate the active browser tab to a recipe's page by slug. Intended for WebMCP contexts where the agent drives a real browser.",
+      "tags": ["navigation", "recipes"],
+      "inputModes": ["text/plain"],
+      "outputModes": ["application/json"]
+    },
+    {
+      "id": "navigate-to-search",
+      "name": "Open Search",
+      "description": "Navigate the active browser tab to the recipe search page, optionally pre-filled with a query.",
+      "tags": ["navigation", "search"],
+      "inputModes": ["text/plain"],
+      "outputModes": ["application/json"]
+    }
+  ]
+}
