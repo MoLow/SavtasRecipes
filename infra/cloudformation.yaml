@@ -156,6 +156,24 @@ Resources:
           response.headers['content-type'] = {value: 'application/linkset+json'};
           return response;
         }
+
+  # -- CloudFront Function (set Content-Type for /.well-known/http-message-signatures-directory) --
+  HttpSigDirectoryContentTypeFunction:
+    Type: AWS::CloudFront::Function
+    Properties:
+      Name: !Sub "${AWS::StackName}-http-sig-dir-ct"
+      AutoPublish: true
+      FunctionConfig:
+        Comment: Set application/http-message-signatures-directory+json for Web Bot Auth directory
+        Runtime: cloudfront-js-2.0
+      FunctionCode: |
+        function handler(event) {
+          var response = event.response;
+          response.headers['content-type'] = {
+            value: 'application/http-message-signatures-directory+json'
+          };
+          return response;
+        }
   # -- CloudFront Response Headers Policy (agent discovery) --
   ResponseHeadersPolicy:
     Type: AWS::CloudFront::ResponseHeadersPolicy
@@ -196,6 +214,15 @@ Resources:
             FunctionAssociations:
               - EventType: viewer-response
                 FunctionARN: !GetAtt ApiCatalogContentTypeFunction.FunctionARN
+          - PathPattern: "/.well-known/http-message-signatures-directory"
+            TargetOriginId: S3Origin
+            ViewerProtocolPolicy: redirect-to-https
+            CachePolicyId: 658327ea-f89d-4fab-a63d-7e88639e58f6
+            Compress: true
+            ResponseHeadersPolicyId: !Ref ResponseHeadersPolicy
+            FunctionAssociations:
+              - EventType: viewer-response
+                FunctionARN: !GetAtt HttpSigDirectoryContentTypeFunction.FunctionARN
         DefaultCacheBehavior:
           TargetOriginId: S3Origin
           ViewerProtocolPolicy: redirect-to-https
