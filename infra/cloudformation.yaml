@@ -95,6 +95,24 @@ Resources:
         }
 
 
+  # -- CloudFront Function (set Content-Type: text/markdown for .md responses) --
+  MarkdownResponseFunction:
+    Type: AWS::CloudFront::Function
+    Properties:
+      Name: !Sub "${AWS::StackName}-markdown-ct"
+      AutoPublish: true
+      FunctionConfig:
+        Comment: Set text/markdown Content-Type for .md responses (Markdown for Agents)
+        Runtime: cloudfront-js-2.0
+      FunctionCode: |
+        function handler(event) {
+          var response = event.response;
+          if (event.request.uri.endsWith('.md')) {
+            response.headers['content-type'] = { value: 'text/markdown; charset=utf-8' };
+          }
+          return response;
+        }
+
   # -- CloudFront Function (set Content-Type for /.well-known/api-catalog) --
   ApiCatalogContentTypeFunction:
     Type: AWS::CloudFront::Function
@@ -159,6 +177,8 @@ Resources:
           FunctionAssociations:
             - EventType: viewer-request
               FunctionARN: !GetAtt UrlRewriteFunction.FunctionARN
+            - EventType: viewer-response
+              FunctionARN: !GetAtt MarkdownResponseFunction.FunctionARN
         # SPA fallback: serve index.html for 404s (Next.js static export)
         CustomErrorResponses:
           - ErrorCode: 403
