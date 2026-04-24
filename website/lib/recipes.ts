@@ -57,3 +57,25 @@ export function getAllSlugs(): string[] {
   return getAllRecipes().map((r) => r.slug);
 }
 
+export interface RecipeIndex {
+  slug: string;
+  titleEn: string;
+  titleHe: string;
+  descriptionEn: string;
+  descriptionHe: string;
+  tags: string[];
+  illustration: string;
+}
+
+export function getRecipesIndex(): RecipeIndex[] {
+  return getAllRecipes().map((r) => ({
+    slug: r.slug,
+    titleEn: r.title.en,
+    titleHe: r.title.he,
+    descriptionEn: r.description.en,
+    descriptionHe: r.description.he,
+    tags: r.tags.map((t) => t.en),
+    illustration: r.illustration,
+  }));
+}
+

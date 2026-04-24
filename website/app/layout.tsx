@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Heebo, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import MobileTapFix from "@/components/MobileTapFix";
+import WebMCPProvider from "@/components/WebMCPProvider";
+import { getRecipesIndex } from "@/lib/recipes";
 
 const heebo = Heebo({
   subsets: ["hebrew", "latin"],
@@ -48,6 +50,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const recipesIndex = getRecipesIndex();
   return (
     <html
       lang="en"
@@ -59,6 +62,7 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen antialiased">
         <MobileTapFix />
+        <WebMCPProvider recipes={recipesIndex} />
         {children}
       </body>
     </html>
