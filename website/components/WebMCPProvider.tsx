@@ -2,15 +2,14 @@
 
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { createFuse, type SearchableRecipe } from "@/lib/search";
+import { loadSearchIndex } from "@/lib/search-client";
 import type { Locale } from "@/lib/recipes";
 
 interface WebMCPProviderProps {
-  recipes: SearchableRecipe[];
   locale: Locale;
 }
 
-export default function WebMCPProvider({ recipes, locale }: WebMCPProviderProps) {
+export default function WebMCPProvider({ locale }: WebMCPProviderProps) {
   const router = useRouter();
 
   useEffect(() => {
@@ -22,97 +21,114 @@ export default function WebMCPProvider({ recipes, locale }: WebMCPProviderProps)
 
     if (!nav.modelContext?.provideContext) return;
 
-    const fuse = createFuse(recipes);
+    const idle = (cb: () => void) => {
+      const w = window as Window & {
+        requestIdleCallback?: (cb: () => void) => number;
+      };
+      if (typeof w.requestIdleCallback === "function") w.requestIdleCallback(cb);
+      else setTimeout(cb, 500);
+    };
 
-    nav.modelContext.provideContext({
-      tools: [
-        {
-          name: "search_recipes",
-          description:
-            "Search Savta's recipe collection by name, ingredient, or tag. Returns matching recipes with slugs and URLs.",
-          inputSchema: {
-            type: "object",
-            properties: {
-              query: {
-                type: "string",
-                description: "Search query — recipe name, ingredient, or tag",
+    let cancelled = false;
+    idle(async () => {
+      if (cancelled) return;
+      const { fuse, recipes } = await loadSearchIndex();
+      if (cancelled) return;
+
+      nav.modelContext!.provideContext({
+        tools: [
+          {
+            name: "search_recipes",
+            description:
+              "Search Savta's recipe collection by name, ingredient, or tag. Returns matching recipes with slugs and URLs.",
+            inputSchema: {
+              type: "object",
+              properties: {
+                query: {
+                  type: "string",
+                  description: "Search query — recipe name, ingredient, or tag",
+                },
               },
+              required: ["query"],
             },
-            required: ["query"],
-          },
-          execute: (params: { query: string }) => {
-            const results = fuse
-              .search(params.query)
-              .slice(0, 10)
-              .map((r) => ({
-                slug: r.item.slug,
-                titleEn: r.item.titleEn,
-                titleHe: r.item.titleHe,
-                tags: locale === "he" ? r.item.tagsHe : r.item.tagsEn,
-                url: `/${locale}/recipe/${r.item.slug}`,
-              }));
-            return { results };
-          },
-        },
-        {
-          name: "list_all_recipes",
-          description:
-            "List every recipe in Savta's collection with names, tags, and page URLs.",
-          inputSchema: {
-            type: "object",
-            properties: {},
-          },
-          execute: () => ({
-            recipes: recipes.map((r) => ({
-              slug: r.slug,
-              titleEn: r.titleEn,
-              titleHe: r.titleHe,
-              tags: locale === "he" ? r.tagsHe : r.tagsEn,
-              url: `/${locale}/recipe/${r.slug}`,
-            })),
-          }),
-        },
-        {
-          name: "navigate_to_recipe",
-          description: "Navigate the browser to a specific recipe page.",
-          inputSchema: {
-            type: "object",
-            properties: {
-              slug: {
-                type: "string",
-                description: "Recipe slug from search_recipes or list_all_recipes",
-              },
-            },
-            required: ["slug"],
-          },
-          execute: (params: { slug: string }) => {
-            const url = `/${locale}/recipe/${params.slug}`;
-            router.push(url);
-            return { navigating: true, url };
-          },
-        },
-        {
-          name: "navigate_to_search",
-          description:
-            "Navigate to the recipe search page, optionally pre-filled with a query.",
-          inputSchema: {
-            type: "object",
-            properties: {
-              query: {
-                type: "string",
-                description: "Optional search query to pre-fill",
-              },
+            execute: (params: { query: string }) => {
+              const results = fuse
+                .search(params.query)
+                .slice(0, 10)
+                .map((r) => ({
+                  slug: r.item.slug,
+                  titleEn: r.item.titleEn,
+                  titleHe: r.item.titleHe,
+                  tags: locale === "he" ? r.item.tagsHe : r.item.tagsEn,
+                  url: `/${locale}/recipe/${r.item.slug}`,
+                }));
+              return { results };
             },
           },
-          execute: (params: { query?: string }) => {
-            const url = `/${locale}/search${params.query ? `?q=${encodeURIComponent(params.query)}` : ""}`;
-            router.push(url);
-            return { navigating: true, url };
+          {
+            name: "list_all_recipes",
+            description:
+              "List every recipe in Savta's collection with names, tags, and page URLs.",
+            inputSchema: {
+              type: "object",
+              properties: {},
+            },
+            execute: () => ({
+              recipes: recipes.map((r) => ({
+                slug: r.slug,
+                titleEn: r.titleEn,
+                titleHe: r.titleHe,
+                tags: locale === "he" ? r.tagsHe : r.tagsEn,
+                url: `/${locale}/recipe/${r.slug}`,
+              })),
+            }),
           },
-        },
-      ],
+          {
+            name: "navigate_to_recipe",
+            description: "Navigate the browser to a specific recipe page.",
+            inputSchema: {
+              type: "object",
+              properties: {
+                slug: {
+                  type: "string",
+                  description: "Recipe slug from search_recipes or list_all_recipes",
+                },
+              },
+              required: ["slug"],
+            },
+            execute: (params: { slug: string }) => {
+              const url = `/${locale}/recipe/${params.slug}`;
+              router.push(url);
+              return { navigating: true, url };
+            },
+          },
+          {
+            name: "navigate_to_search",
+            description:
+              "Navigate to the recipe search page, optionally pre-filled with a query.",
+            inputSchema: {
+              type: "object",
+              properties: {
+                query: {
+                  type: "string",
+                  description: "Optional search query to pre-fill",
+                },
+              },
+            },
+            execute: (params: { query?: string }) => {
+              const url = `/${locale}/search${params.query ? `?q=${encodeURIComponent(params.query)}` : ""}`;
+              router.push(url);
+              return { navigating: true, url };
+            },
+          },
+        ],
+      });
     });
-  }, [recipes, locale, router]);
+
+    return () => {
+      cancelled = true;
+    };
+  }, [locale, router]);
 
   return null;
 }

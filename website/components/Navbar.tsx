@@ -1,6 +1,5 @@
 import Link from "next/link";
-import { getAllRecipes, type Locale } from "@/lib/recipes";
-import { buildSearchIndex } from "@/lib/search";
+import { type Locale } from "@/lib/recipes";
 import LanguageToggle from "./LanguageToggle";
 import SearchInput from "./SearchInput";
 
@@ -10,8 +9,6 @@ interface NavbarProps {
 
 export default function Navbar({ locale }: NavbarProps) {
   const isHebrew = locale === "he";
-  const recipes = getAllRecipes();
-  const searchIndex = buildSearchIndex(recipes);
 
   return (
     <header
@@ -32,7 +29,7 @@ export default function Navbar({ locale }: NavbarProps) {
         </Link>
 
         <div className="hidden sm:block flex-1 max-w-xs mx-4">
-          <SearchInput recipes={searchIndex} locale={locale} />
+          <SearchInput locale={locale} />
         </div>
 
         <div className="flex items-center gap-1 sm:gap-3">

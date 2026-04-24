@@ -27,3 +27,10 @@ data/illustrations/*-*w.*
 data/illustrations/*-og.png
 data/scans/*-*w.*
 website/public/savta.webp
+website/public/savta.avif
+website/public/savta-og.jpg
+website/public/savta-apple.png
+
+# Website generated artifacts
+website/public/search-index.json
+website/tsconfig.tsbuildinfo

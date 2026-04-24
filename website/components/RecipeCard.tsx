@@ -1,7 +1,7 @@
-import Image from "next/image";
 import Link from "next/link";
 import type { Locale } from "@/lib/recipes";
 import { optimizedImage } from "@/lib/image-utils";
+import PictureImage from "./PictureImage";
 
 interface RecipeCardProps {
   slug: string;
@@ -9,7 +9,6 @@ interface RecipeCardProps {
   illustration: string;
   tags?: Array<{ en: string; he: string }>;
   locale: Locale;
-  index?: number;
   priority?: boolean;
 }
 
@@ -19,20 +18,16 @@ export default function RecipeCard({
   illustration,
   tags,
   locale,
-  index = 0,
   priority = false,
 }: RecipeCardProps) {
   return (
     <Link
       href={`/${locale}/recipe/${slug}`}
-      className="group relative aspect-square rounded-xl overflow-hidden animate-card-enter cursor-pointer"
-      style={{
-        animationDelay: `${index * 50}ms`,
-        boxShadow: "var(--shadow-card)",
-      }}
+      className="group relative aspect-square rounded-xl overflow-hidden cursor-pointer"
+      style={{ boxShadow: "var(--shadow-card)" }}
     >
-      <Image
-        src={`/${optimizedImage(illustration, 400)}`}
+      <PictureImage
+        src={optimizedImage(illustration, 400)}
         alt={title[locale]}
         fill
         className="object-cover transition-transform duration-500 ease-out [@media(hover:hover)]:group-hover:scale-[1.04]"

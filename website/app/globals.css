@@ -129,6 +129,14 @@ input, button, textarea, select {
   animation: card-enter 0.4s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-up,
+  .animate-fade-in,
+  .animate-card-enter {
+    animation: none !important;
+  }
+}
+
 /* ── Scrollbar ── */
 
 ::-webkit-scrollbar {

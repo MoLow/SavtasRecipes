@@ -1,21 +1,22 @@
 "use client";
 
 import { useState, useRef, useEffect, useCallback } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import type { SearchableRecipe } from "@/lib/search";
-import { createFuse } from "@/lib/search";
+import { loadSearchIndex } from "@/lib/search-client";
 import type { Locale } from "@/lib/recipes";
 import { optimizedImage } from "@/lib/image-utils";
+import PictureImage from "./PictureImage";
+
+type Fuse<T> = import("fuse.js").default<T>;
 
 interface SearchInputProps {
-  recipes: SearchableRecipe[];
   locale: Locale;
   variant?: "navbar" | "page";
 }
 
-export default function SearchInput({ recipes, locale, variant = "navbar" }: SearchInputProps) {
+export default function SearchInput({ locale, variant = "navbar" }: SearchInputProps) {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<SearchableRecipe[]>([]);
   const [isOpen, setIsOpen] = useState(false);
@@ -23,24 +24,31 @@ export default function SearchInput({ recipes, locale, variant = "navbar" }: Sea
   const inputRef = useRef<HTMLInputElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const itemRefs = useRef<(HTMLAnchorElement | null)[]>([]);
-  const fuseRef = useRef(createFuse(recipes));
+  const fuseRef = useRef<Fuse<SearchableRecipe> | null>(null);
   const router = useRouter();
 
-  // Total selectable items: results + "All results" link
   const totalItems = results.length + (results.length > 0 ? 1 : 0);
 
-  const search = useCallback((q: string) => {
+  const ensureIndex = useCallback(async () => {
+    if (fuseRef.current) return fuseRef.current;
+    const { fuse } = await loadSearchIndex();
+    fuseRef.current = fuse;
+    return fuse;
+  }, []);
+
+  const search = useCallback(async (q: string) => {
     if (q.trim().length === 0) {
       setResults([]);
       setIsOpen(false);
       setActiveIndex(-1);
       return;
     }
-    const found = fuseRef.current.search(q).slice(0, 5).map((r) => r.item);
+    const fuse = await ensureIndex();
+    const found = fuse.search(q).slice(0, 5).map((r) => r.item);
     setResults(found);
     setIsOpen(found.length > 0);
     setActiveIndex(-1);
-  }, []);
+  }, [ensureIndex]);
 
   useEffect(() => {
     const timer = setTimeout(() => search(query), 150);
@@ -74,12 +82,14 @@ export default function SearchInput({ recipes, locale, variant = "navbar" }: Sea
     return () => document.removeEventListener("pointerdown", handleOutside);
   }, []);
 
-  // Scroll active item into view
+  // Scroll active item into view (rAF-scheduled so we don't force layout synchronously on every keystroke)
   useEffect(() => {
-    if (activeIndex >= 0 && itemRefs.current[activeIndex]) {
-      itemRefs.current[activeIndex]?.scrollIntoView({ block: "nearest" });
-    }
-  }, [activeIndex]);
+    if (!isOpen || activeIndex < 0) return;
+    const el = itemRefs.current[activeIndex];
+    if (!el) return;
+    const id = requestAnimationFrame(() => el.scrollIntoView({ block: "nearest" }));
+    return () => cancelAnimationFrame(id);
+  }, [activeIndex, isOpen]);
 
   function handleInputKeyDown(e: React.KeyboardEvent) {
     if (e.key === "ArrowDown") {
@@ -98,7 +108,6 @@ export default function SearchInput({ recipes, locale, variant = "navbar" }: Sea
         setIsOpen(false);
         setQuery("");
       } else if (activeIndex === results.length) {
-        // "All results" link
         router.push(`/${locale}/search${query ? `?q=${encodeURIComponent(query)}` : ""}`);
         setIsOpen(false);
       } else if (query.trim()) {
@@ -128,7 +137,10 @@ export default function SearchInput({ recipes, locale, variant = "navbar" }: Sea
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          onFocus={() => results.length > 0 && setIsOpen(true)}
+          onFocus={() => {
+            void ensureIndex();
+            if (results.length > 0) setIsOpen(true);
+          }}
           onKeyDown={handleInputKeyDown}
           placeholder={locale === "he" ? "חיפוש מתכונים..." : "Search recipes..."}
           dir={locale === "he" ? "rtl" : "ltr"}
@@ -169,8 +181,8 @@ export default function SearchInput({ recipes, locale, variant = "navbar" }: Sea
               }`}
             >
               <div className="relative w-10 h-10 rounded-lg overflow-hidden flex-shrink-0">
-                <Image
-                  src={`/${optimizedImage(r.illustration, 400)}`}
+                <PictureImage
+                  src={optimizedImage(r.illustration, 400)}
                   alt={locale === "he" ? r.titleHe : r.titleEn}
                   fill
                   className="object-cover"
@@ -182,7 +194,7 @@ export default function SearchInput({ recipes, locale, variant = "navbar" }: Sea
                   {locale === "he" ? r.titleHe : r.titleEn}
                 </p>
                 <p className="text-xs text-[var(--color-ink-tertiary)] truncate">
-                  {(locale === "he" ? r.tagsHe : r.tagsEn).slice(0, 3).join(" \u00b7 ")}
+                  {(locale === "he" ? r.tagsHe : r.tagsEn).slice(0, 3).join(" · ")}
                 </p>
               </div>
             </Link>

@@ -1,37 +1,53 @@
 "use client";
 
-import { useState, useMemo, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useSearchParams } from "next/navigation";
-import Image from "next/image";
 import Link from "next/link";
 import type { SearchableRecipe } from "@/lib/search";
-import { createFuse } from "@/lib/search";
+import { loadSearchIndex } from "@/lib/search-client";
 import { optimizedImage } from "@/lib/image-utils";
+import PictureImage from "./PictureImage";
+
+type Fuse<T> = import("fuse.js").default<T>;
 
 interface SearchResultsProps {
-  recipes: SearchableRecipe[];
   locale: "en" | "he";
 }
 
-export default function SearchResults({ recipes, locale }: SearchResultsProps) {
+export default function SearchResults({ locale }: SearchResultsProps) {
   const searchParams = useSearchParams();
   const initialQuery = searchParams.get("q") || "";
   const [query, setQuery] = useState(initialQuery);
-  const fuse = useMemo(() => createFuse(recipes), [recipes]);
+  const [recipes, setRecipes] = useState<SearchableRecipe[] | null>(null);
+  const [fuse, setFuse] = useState<Fuse<SearchableRecipe> | null>(null);
   const isHebrew = locale === "he";
 
-  const results = useMemo(() => {
-    if (query.trim().length === 0) return recipes;
-    return fuse.search(query).map((r) => r.item);
-  }, [query, fuse, recipes]);
+  useEffect(() => {
+    let cancelled = false;
+    loadSearchIndex().then((res) => {
+      if (cancelled) return;
+      setRecipes(res.recipes);
+      setFuse(res.fuse);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   useEffect(() => {
     const q = searchParams.get("q");
-    if (q) setQuery(q);
+    if (q !== null) setQuery(q);
   }, [searchParams]);
 
+  const results =
+    recipes === null
+      ? []
+      : query.trim().length === 0 || fuse === null
+        ? recipes
+        : fuse.search(query).map((r) => r.item);
+
   return (
-    <div className="py-8 animate-fade-up">
+    <div className="py-8">
       <h1 className="font-semibold text-3xl text-[var(--color-ink)] text-center mb-8">
         {isHebrew ? "חיפוש מתכונים" : "Search Recipes"}
       </h1>
@@ -60,24 +76,25 @@ export default function SearchResults({ recipes, locale }: SearchResultsProps) {
         </div>
       </div>
 
-      {results.length === 0 ? (
+      {recipes === null ? (
+        <p className="text-center text-[var(--color-ink-tertiary)]">
+          {isHebrew ? "טוען..." : "Loading..."}
+        </p>
+      ) : results.length === 0 ? (
         <p className="text-center text-[var(--color-ink-tertiary)]">
           {isHebrew ? "לא נמצאו תוצאות" : "No results found"}
         </p>
       ) : (
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-5">
-          {results.map((r, i) => (
+          {results.map((r) => (
             <Link
               key={r.slug}
               href={`/${locale}/recipe/${r.slug}`}
-              className="group relative aspect-square rounded-xl overflow-hidden animate-card-enter cursor-pointer"
-              style={{
-                animationDelay: `${i * 50}ms`,
-                boxShadow: "var(--shadow-card)",
-              }}
+              className="group relative aspect-square rounded-xl overflow-hidden cursor-pointer"
+              style={{ boxShadow: "var(--shadow-card)" }}
             >
-              <Image
-                src={`/${optimizedImage(r.illustration, 400)}`}
+              <PictureImage
+                src={optimizedImage(r.illustration, 400)}
                 alt={locale === "he" ? r.titleHe : r.titleEn}
                 fill
                 className="object-cover transition-transform duration-500 ease-out [@media(hover:hover)]:group-hover:scale-[1.04]"
@@ -95,7 +112,7 @@ export default function SearchResults({ recipes, locale }: SearchResultsProps) {
                   {locale === "he" ? r.titleHe : r.titleEn}
                 </h2>
                 <p className="text-[10px] sm:text-xs text-[var(--color-ink-tertiary)] truncate mt-0.5">
-                  {(locale === "he" ? r.tagsHe : r.tagsEn).slice(0, 3).join(" \u00b7 ")}
+                  {(locale === "he" ? r.tagsHe : r.tagsEn).slice(0, 3).join(" · ")}
                 </p>
               </div>
             </Link>

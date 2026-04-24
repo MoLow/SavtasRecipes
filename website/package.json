@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node --experimental-strip-types --no-warnings scripts/optimize-images.ts",
+    "prebuild": "node --experimental-strip-types --no-warnings scripts/optimize-images.ts && node --experimental-strip-types --no-warnings scripts/build-search-index.ts",
     "build": "next build",
     "start": "next start",
     "postbuild": "node --experimental-strip-types --no-warnings scripts/generate-markdown.ts"
