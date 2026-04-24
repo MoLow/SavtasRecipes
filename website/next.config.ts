@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
   },
   experimental: {
     browsersListForSwc: true,
-  },
+  } as NextConfig["experimental"],
   webpack(config, { isServer }) {
     if (!isServer) {
       const sc = config.optimization?.splitChunks;
