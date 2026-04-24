@@ -1,0 +1,9 @@
+{
+  "issuer": "https://recipes.atlow.co.il",
+  "response_types_supported": [],
+  "grant_types_supported": [],
+  "subject_types_supported": [],
+  "scopes_supported": [],
+  "token_endpoint_auth_methods_supported": [],
+  "authentication_supported": false
+}
