@@ -100,14 +100,7 @@ export default function SearchResults({ locale }: SearchResultsProps) {
                 className="object-cover transition-transform duration-500 ease-out [@media(hover:hover)]:group-hover:scale-[1.04]"
                 sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
               />
-              <div
-                className="absolute inset-x-0 bottom-0 px-3 py-2.5 sm:px-4 sm:py-3"
-                style={{
-                  backgroundColor: "rgba(250, 247, 242, 0.82)",
-                  backdropFilter: "blur(16px) saturate(1.2)",
-                  WebkitBackdropFilter: "blur(16px) saturate(1.2)",
-                }}
-              >
+              <div className="frosted-glass absolute inset-x-0 bottom-0 px-3 py-2.5 sm:px-4 sm:py-3">
                 <h2 className="font-semibold text-sm sm:text-base text-[var(--color-ink)] truncate leading-tight">
                   {locale === "he" ? r.titleHe : r.titleEn}
                 </h2>
