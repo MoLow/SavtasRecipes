@@ -58,7 +58,8 @@ jobs:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           github_token: ${{ secrets.CLAUDE_BOT_PAT }}
           allowed_non_write_users: ${{ steps.perm.outputs.has_write == 'true' && '' || join(fromJSON(vars.ALLOWED_USERS), ',') }}
-          prompt: "${{ github.event_name == 'issues' && (github.event.action == 'opened' || github.event.action == 'reopened') && format('Read issue #{0} (title: {1}) and open a PR that fixes it. Required workflow: (1) create a new branch named `claude/issue-{0}`; (2) make the code changes; (3) run `git add -A && git commit`; (4) `git push -u origin claude/issue-{0}`; (5) run `gh pr create` with a descriptive title and body referencing `Closes #{0}`. The task is NOT complete until `gh pr create` has succeeded and printed a PR URL. Do not stop after editing files.', github.event.issue.number, github.event.issue.title) || '' }}"
+          claude_args: '--allowedTools Read Write Edit Glob Grep "Bash(gh *)" "Bash(git *)" "Bash(npm *)" "Bash(node *)"'
+          prompt: "${{ github.event_name == 'issues' && (github.event.action == 'opened' || github.event.action == 'reopened') && format('Read issue #{0} (title: {1}) and open a PR that fixes it. Required workflow: (1) create a new branch named `claude/issue-{0}`; (2) make the code changes; (3) run `git add -A && git commit`; (4) `git push -u origin claude/issue-{0}`; (5) run `gh pr create` with a descriptive title and body referencing `Closes #{0}`. The task is NOT complete until `gh pr create` has succeeded and printed a PR URL. Do not stop after editing files.\n\nIssue body:\n\n{2}', github.event.issue.number, github.event.issue.title, github.event.issue.body) || '' }}"
 
           show_full_output: true
 
