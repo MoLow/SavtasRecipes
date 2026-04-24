@@ -49,8 +49,26 @@ export default async function RecipeGrid({
     );
   }
 
+  const lcpCandidates = recipes.slice(0, 4);
+
   return (
     <div>
+      {/* Preload the first two recipe card AVIFs so the preload scanner kicks off
+          the LCP image fetch before parsing the ~150-card body. */}
+      {lcpCandidates.map((recipe) => {
+        const avif = recipe.illustration.replace(/\.webp$/i, "-400w.avif");
+        return (
+          <link
+            key={recipe.id}
+            rel="preload"
+            as="image"
+            href={`/${avif}`}
+            type="image/avif"
+            fetchPriority="high"
+          />
+        );
+      })}
+
       {/* Hero — Savta's portrait & dedication */}
       <div className="text-center pt-6 pb-10">
         <div
@@ -103,7 +121,7 @@ export default async function RecipeGrid({
             illustration={recipe.illustration}
             tags={recipe.tags}
             locale={locale}
-            priority={i < 2}
+            priority={i < 4}
           />
         ))}
       </div>

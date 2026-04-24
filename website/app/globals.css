@@ -137,6 +137,22 @@ input, button, textarea, select {
   }
 }
 
+/* Frosted-glass band on recipe cards. backdrop-filter is expensive to composite
+   on mobile GPUs — hundreds of blurred surfaces blow the paint budget — so we
+   only apply it on hover-capable devices. The slightly more opaque solid color
+   keeps the card title readable on mobile without the blur cost. */
+.frosted-glass {
+  background-color: rgba(250, 247, 242, 0.9);
+}
+
+@media (hover: hover) {
+  .frosted-glass {
+    background-color: rgba(250, 247, 242, 0.82);
+    backdrop-filter: blur(16px) saturate(1.2);
+    -webkit-backdrop-filter: blur(16px) saturate(1.2);
+  }
+}
+
 /* ── Scrollbar ── */
 
 ::-webkit-scrollbar {

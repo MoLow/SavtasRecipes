@@ -24,7 +24,15 @@ export default function RecipeCard({
     <Link
       href={`/${locale}/recipe/${slug}`}
       className="group relative aspect-square rounded-xl overflow-hidden cursor-pointer"
-      style={{ boxShadow: "var(--shadow-card)" }}
+      style={
+        priority
+          ? { boxShadow: "var(--shadow-card)" }
+          : {
+              boxShadow: "var(--shadow-card)",
+              contentVisibility: "auto",
+              containIntrinsicSize: "200px 200px",
+            }
+      }
     >
       <PictureImage
         src={optimizedImage(illustration, 400)}
@@ -36,14 +44,7 @@ export default function RecipeCard({
       />
 
       {/* Frosted glass title band */}
-      <div
-        className="absolute inset-x-0 bottom-0 px-3 py-2.5 sm:px-4 sm:py-3"
-        style={{
-          backgroundColor: "rgba(250, 247, 242, 0.82)",
-          backdropFilter: "blur(16px) saturate(1.2)",
-          WebkitBackdropFilter: "blur(16px) saturate(1.2)",
-        }}
-      >
+      <div className="frosted-glass absolute inset-x-0 bottom-0 px-3 py-2.5 sm:px-4 sm:py-3">
         <h2 className="font-semibold text-sm sm:text-base text-[var(--color-ink)] truncate leading-tight">
           {title[locale]}
         </h2>

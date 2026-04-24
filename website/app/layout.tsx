@@ -56,7 +56,7 @@ export default function RootLayout({
     >
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="preload" href="/savta.webp" as="image" type="image/webp" />
+        <link rel="preload" href="/savta.avif" as="image" type="image/avif" />
       </head>
       <body className="min-h-screen antialiased">
         <MobileTapFix />
