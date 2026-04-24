@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agentskills.io/schemas/v0.2.0/index.schema.json",
+  "skills": [
+    {
+      "name": "mcp-recipes",
+      "type": "mcp",
+      "description": "Access Savta's bilingual recipe collection via Model Context Protocol",
+      "url": "https://recipes.atlow.co.il/.well-known/agent-skills/mcp-recipes/SKILL.md",
+      "sha256": "e89ea60ca2ad545a937a9e8cfad77ec1ceedcf0920d2fabf2eb6bd36216976af"
+    },
+    {
+      "name": "browse-recipes",
+      "type": "openapi",
+      "description": "Browse Savta's bilingual recipe collection via REST API",
+      "url": "https://recipes.atlow.co.il/.well-known/agent-skills/browse-recipes/SKILL.md",
+      "sha256": "2be3b1d5d845ca9f0959108d38171565dbaf79a458fc7e8866939057518fa3b1"
+    }
+  ]
+}
