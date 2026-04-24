@@ -6,7 +6,7 @@ on:
   pull_request_review_comment:
     types: [created]
   issues:
-    types: [opened, assigned]
+    types: [opened, reopened, assigned]
   pull_request_review:
     types: [submitted]
 
@@ -18,7 +18,7 @@ jobs:
         (github.event_name == 'issue_comment' && contains(github.event.comment.body, '@claude')) ||
         (github.event_name == 'pull_request_review_comment' && contains(github.event.comment.body, '@claude')) ||
         (github.event_name == 'pull_request_review' && contains(github.event.review.body, '@claude')) ||
-        (github.event_name == 'issues' && github.event.action == 'opened') ||
+        (github.event_name == 'issues' && (github.event.action == 'opened' || github.event.action == 'reopened')) ||
         (github.event_name == 'issues' && github.event.action == 'assigned' && (contains(github.event.issue.body, '@claude') || contains(github.event.issue.title, '@claude')))
       )
     runs-on: ubuntu-latest
@@ -59,7 +59,7 @@ jobs:
           github_token: ${{ secrets.CLAUDE_BOT_PAT }}
           allowed_non_write_users: ${{ steps.perm.outputs.has_write == 'true' && '' || join(fromJSON(vars.ALLOWED_USERS), ',') }}
           claude_args: '--allowedTools "Bash(npm *)" "Bash(node *)" "Bash(gh pr:*)" "Bash(gh issue *)" "Bash(git *)"'
-          prompt: "${{ github.event_name == 'issues' && github.event.action == 'opened' && format('Read issue #{0} and create a PR that fixes it. The issue title is: {1}', github.event.issue.number, github.event.issue.title) || '' }}"
+          prompt: "${{ github.event_name == 'issues' && (github.event.action == 'opened' || github.event.action == 'reopened') && format('Read issue #{0} (title: {1}) and open a PR that fixes it. Required workflow: (1) create a new branch named `claude/issue-{0}`; (2) make the code changes; (3) run `git add -A && git commit`; (4) `git push -u origin claude/issue-{0}`; (5) run `gh pr create` with a descriptive title and body referencing `Closes #{0}`. The task is NOT complete until `gh pr create` has succeeded and printed a PR URL. Do not stop after editing files.', github.event.issue.number, github.event.issue.title) || '' }}"
 
           show_full_output: true
 
@@ -75,3 +75,37 @@ jobs:
           # or https://code.claude.com/docs/en/cli-reference for available options
           # claude_args: '--allowed-tools Bash(gh pr:*)'
 
+      - name: Ensure PR exists for issue-triggered runs
+        if: github.event_name == 'issues' && (github.event.action == 'opened' || github.event.action == 'reopened')
+        env:
+          GH_TOKEN: ${{ secrets.CLAUDE_BOT_PAT }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+        run: |
+          set -euo pipefail
+
+          # If Claude already pushed a branch and opened a PR, nothing to do.
+          if gh pr list --state open --search "Closes #${ISSUE_NUMBER} in:body" --json number --jq 'length' | grep -qv '^0$'; then
+            echo "PR already exists for issue #${ISSUE_NUMBER}"
+            exit 0
+          fi
+
+          # If there are no changes on the runner, Claude wrote nothing. Bail.
+          if git diff --quiet && git diff --cached --quiet && [ -z "$(git status --porcelain)" ]; then
+            echo "No uncommitted changes and no existing PR — Claude did not produce output."
+            exit 0
+          fi
+
+          BRANCH="claude/issue-${ISSUE_NUMBER}-fallback"
+          git config user.name  "claude-bot"
+          git config user.email "claude-bot@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add -A
+          git commit -m "fix: address issue #${ISSUE_NUMBER} (${ISSUE_TITLE})"
+          git push -u origin "$BRANCH"
+          PR_BODY=$(printf 'Auto-created fallback PR for issue #%s. Claude made file changes but did not open a PR itself.\n\nCloses #%s\n' "$ISSUE_NUMBER" "$ISSUE_NUMBER")
+          gh pr create \
+            --head "$BRANCH" \
+            --base main \
+            --title "fix: ${ISSUE_TITLE} (#${ISSUE_NUMBER})" \
+            --body "$PR_BODY"
