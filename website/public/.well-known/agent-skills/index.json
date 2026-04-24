@@ -14,6 +14,27 @@
       "description": "Browse Savta's bilingual recipe collection via REST API",
       "url": "https://recipes.atlow.co.il/.well-known/agent-skills/browse-recipes/SKILL.md",
       "sha256": "2be3b1d5d845ca9f0959108d38171565dbaf79a458fc7e8866939057518fa3b1"
+    },
+    {
+      "name": "markdown-negotiation",
+      "type": "markdown",
+      "description": "Get any page as Markdown by sending Accept: text/markdown",
+      "url": "https://recipes.atlow.co.il/.well-known/agent-skills/markdown-negotiation/SKILL.md",
+      "sha256": "98fb95a2b7433a52d6956f200983317ebe2ba0f6ec045920d16f9f130ed5bbf4"
+    },
+    {
+      "name": "content-signals",
+      "type": "content-signals",
+      "description": "AI content usage preferences declared via Content-Signal in robots.txt",
+      "url": "https://recipes.atlow.co.il/.well-known/agent-skills/content-signals/SKILL.md",
+      "sha256": "9f8761de57bfb07720fa394b2699be5570d604ac8ca6a269e51cbc0297527953"
+    },
+    {
+      "name": "webmcp",
+      "type": "webmcp",
+      "description": "Browser-native AI agent tools via navigator.modelContext.provideContext()",
+      "url": "https://recipes.atlow.co.il/.well-known/agent-skills/webmcp/SKILL.md",
+      "sha256": "97a6a6b68e15ef9c0efbe690ce129e6c7649f12e01d914819f9a57e67e8f0488"
     }
   ]
 }

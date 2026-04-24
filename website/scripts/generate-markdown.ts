@@ -86,7 +86,25 @@ Source: ${base}/${locale}
 `;
 }
 
+function rootMarkdown(): string {
+  const base = 'https://recipes.atlow.co.il';
+  return `# Savta's Recipes
+
+Grandmother's handwritten recipes, digitized and translated into English and Hebrew.
+
+## Browse Recipes
+
+- [English recipes](${base}/en)
+- [Hebrew recipes / מתכונים בעברית](${base}/he)
+
+---
+Source: ${base}
+`;
+}
+
 const recipes = loadRecipes();
+
+write(resolve(OUT_DIR, 'index.md'), rootMarkdown());
 
 for (const locale of ['en', 'he'] as Locale[]) {
   write(resolve(OUT_DIR, locale + '.md'), indexMarkdown(recipes, locale));
@@ -95,4 +113,4 @@ for (const locale of ['en', 'he'] as Locale[]) {
   }
 }
 
-console.log('Generated markdown for ' + recipes.length + ' recipes x 2 locales + 2 index pages');
+console.log('Generated markdown for ' + recipes.length + ' recipes x 2 locales + 2 index pages + root index');
