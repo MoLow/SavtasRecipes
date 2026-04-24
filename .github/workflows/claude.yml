@@ -38,13 +38,26 @@ jobs:
       - name: Install pipeline dependencies
         run: npm ci
 
+      - name: Determine actor write access
+        id: perm
+        env:
+          ASSOC: >-
+            ${{ github.event.comment.author_association ||
+                github.event.review.author_association ||
+                github.event.issue.author_association }}
+        run: |
+          case "$ASSOC" in
+            OWNER|MEMBER|COLLABORATOR) echo "has_write=true" >> "$GITHUB_OUTPUT" ;;
+            *)                         echo "has_write=false" >> "$GITHUB_OUTPUT" ;;
+          esac
+
       - name: Run Claude Code
         id: claude
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           github_token: ${{ secrets.CLAUDE_BOT_PAT }}
-          allowed_non_write_users: ${{ join(fromJSON(vars.ALLOWED_USERS), ',') }}
+          allowed_non_write_users: ${{ steps.perm.outputs.has_write == 'true' && '' || join(fromJSON(vars.ALLOWED_USERS), ',') }}
           claude_args: '--allowedTools "Bash(npm *)" "Bash(node *)" "Bash(gh pr:*)" "Bash(gh issue *)" "Bash(git *)"'
           prompt: "${{ github.event_name == 'issues' && github.event.action == 'opened' && format('Read issue #{0} and create a PR that fixes it. The issue title is: {1}', github.event.issue.number, github.event.issue.title) || '' }}"
 
