@@ -5,6 +5,15 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true, // Required for static export
   },
+  webpack(config, { isServer }) {
+    if (!isServer) {
+      const sc = config.optimization?.splitChunks;
+      if (sc && typeof sc === "object") {
+        sc.maxInitialRequests = 4;
+      }
+    }
+    return config;
+  },
 };
 
 export default nextConfig;

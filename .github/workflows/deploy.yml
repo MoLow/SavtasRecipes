@@ -49,34 +49,80 @@ jobs:
 
       - name: Sync to S3
         run: |
-          # Static assets (long cache)
+          # Pre-gzip all text assets in-place so S3 serves them compressed
+          find website/out -type f \( -name "*.html" -o -name "*.css" -o -name "*.js" -o -name "*.json" -o -name "*.svg" -o -name "*.md" \) \
+            -exec sh -c 'gzip -9 "$1" && mv "${1}.gz" "$1"' _ {} \;
+
+          # Binary assets (images, fonts) — no compression, auto content-type
           aws s3 sync website/out/ s3://recipes.atlow.co.il \
             --delete \
             --cache-control "public, max-age=31536000, immutable" \
             --exclude "*.html" \
+            --exclude "*.css" \
+            --exclude "*.js" \
             --exclude "*.json" \
+            --exclude "*.svg" \
             --exclude "*.md"
-          # HTML files (short cache)
+
+          # CSS (long cache, gzip-encoded)
           aws s3 sync website/out/ s3://recipes.atlow.co.il \
-            --cache-control "public, max-age=60, s-maxage=3600" \
+            --delete \
+            --cache-control "public, max-age=31536000, immutable" \
+            --content-type "text/css" \
+            --content-encoding "gzip" \
+            --no-guess-mime-type \
             --exclude "*" \
-            --include "*.html" \
+            --include "*.css"
+
+          # JavaScript (long cache, gzip-encoded)
+          aws s3 sync website/out/ s3://recipes.atlow.co.il \
+            --delete \
+            --cache-control "public, max-age=31536000, immutable" \
+            --content-type "text/javascript" \
+            --content-encoding "gzip" \
+            --no-guess-mime-type \
+            --exclude "*" \
+            --include "*.js"
+
+          # SVG (long cache, gzip-encoded)
+          aws s3 sync website/out/ s3://recipes.atlow.co.il \
+            --delete \
+            --cache-control "public, max-age=31536000, immutable" \
+            --content-type "image/svg+xml" \
+            --content-encoding "gzip" \
+            --no-guess-mime-type \
+            --exclude "*" \
+            --include "*.svg"
+
+          # HTML (short cache, gzip-encoded)
+          aws s3 sync website/out/ s3://recipes.atlow.co.il \
+            --delete \
+            --cache-control "public, max-age=60, s-maxage=3600" \
             --content-type "text/html" \
-            --no-guess-mime-type
-          # JSON files (short cache)
-          aws s3 sync website/out/ s3://recipes.atlow.co.il \
-            --cache-control "public, max-age=60, s-maxage=3600" \
+            --content-encoding "gzip" \
+            --no-guess-mime-type \
             --exclude "*" \
-            --include "*.json" \
+            --include "*.html"
+
+          # JSON (short cache, gzip-encoded)
+          aws s3 sync website/out/ s3://recipes.atlow.co.il \
+            --delete \
+            --cache-control "public, max-age=60, s-maxage=3600" \
             --content-type "application/json" \
-            --no-guess-mime-type
-          # Markdown files for AI agents (short cache, explicit content-type)
-          aws s3 sync website/out/ s3://recipes.atlow.co.il \
-            --cache-control "public, max-age=60, s-maxage=3600" \
+            --content-encoding "gzip" \
+            --no-guess-mime-type \
             --exclude "*" \
-            --include "*.md" \
+            --include "*.json"
+
+          # Markdown (short cache, gzip-encoded)
+          aws s3 sync website/out/ s3://recipes.atlow.co.il \
+            --delete \
+            --cache-control "public, max-age=60, s-maxage=3600" \
             --content-type "text/markdown" \
-            --no-guess-mime-type
+            --content-encoding "gzip" \
+            --no-guess-mime-type \
+            --exclude "*" \
+            --include "*.md"
 
       - name: Invalidate CloudFront cache
         run: |
