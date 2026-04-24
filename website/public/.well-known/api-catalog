@@ -1,0 +1,19 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://recipes.atlow.co.il/",
+      "service-doc": [
+        {
+          "href": "https://recipes.atlow.co.il/en/about",
+          "type": "text/html"
+        }
+      ],
+      "describedby": [
+        {
+          "href": "https://recipes.atlow.co.il/sitemap.xml",
+          "type": "application/xml"
+        }
+      ]
+    }
+  ]
+}
