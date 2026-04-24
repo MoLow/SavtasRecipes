@@ -1,0 +1,15 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/v1/server-card.schema.json",
+  "name": "il.co.atlow/savtas-recipes",
+  "version": "1.0.0",
+  "title": "Savta's Recipes",
+  "description": "Bilingual (English/Hebrew) recipe collection digitised from handwritten originals",
+  "websiteUrl": "https://recipes.atlow.co.il",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://recipes.atlow.co.il/mcp",
+      "supportedProtocolVersions": ["2025-03-26", "2025-06-18"]
+    }
+  ]
+}
