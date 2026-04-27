@@ -143,5 +143,6 @@
   "illustration": "illustrations/19231f1d-587a-469b-aae6-07daf9817d4e.webp",
   "ocrRawText": "German Chocolate Bred\n1½ #\n1) 1C milk\n2) 1 egg\n3) 2T marg. or butter\n4) 2C flour\n5) 1C wheat flour\n6) 3T brown sugar\n7) 2T cocoa powder\n8) 3/4 tsp salt\n9) 1½ tsp. yeast\n10) ½C choc. chips\n11) 1/3C chopped nuts\n12) 1/3C toasted coconut",
   "selectedModel": "claude",
-  "rankingReason": "Claude selected (only valid result). Gemini result failed validation: instructions.en: Array must contain at least 1 element(s); instructions.he: Array must contain at least 1 element(s)"
+  "rankingReason": "Claude selected (only valid result). Gemini result failed validation: instructions.en: Array must contain at least 1 element(s); instructions.he: Array must contain at least 1 element(s)",
+  "notes": "This recipe card is not in Savta's handwriting — it may have been written by someone else or sourced from another person."
 }

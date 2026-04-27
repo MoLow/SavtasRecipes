@@ -32,6 +32,7 @@ export const recipeSchema = z.object({
   ocrRawText: z.string(),
   selectedModel: z.enum(["gemini", "claude"]),
   rankingReason: z.string(),
+  notes: z.string().optional(),
 });
 
 export type Recipe = z.infer<typeof recipeSchema>;
