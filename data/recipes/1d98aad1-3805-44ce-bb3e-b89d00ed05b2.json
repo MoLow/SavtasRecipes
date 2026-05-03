@@ -25,11 +25,11 @@
       "unit": "cup"
     },
     {
-      "en": "1 small can tomato paste",
-      "he": "1 קופסה קטנה רסק עגבניות",
-      "item": "tomato paste",
+      "en": "1 whole canned tomato, cut to pieces",
+      "he": "עגבניה שלמה אחת מקופסת שימורים, חתוכה לחתיכות",
+      "item": "canned tomato",
       "amount": 1,
-      "unit": "small can"
+      "unit": "whole"
     },
     {
       "en": "2 tsp (10ml) onion flakes",
@@ -39,18 +39,25 @@
       "unit": "tsp"
     },
     {
-      "en": "1 tsp (5ml) garlic powder",
-      "he": "1 כפית (5 מ\"ל) אבקת שום",
+      "en": "1/4 tsp garlic powder",
+      "he": "1/4 כפית אבקת שום",
       "item": "garlic powder",
-      "amount": 1,
+      "amount": 0.25,
       "unit": "tsp"
     },
     {
-      "en": "1 pkg instant chicken broth (equales to = 2 tsp sugar (pkg))",
-      "he": "1 חבילה אבקת מרק עוף אינסטנט (שווה ערך ל-2 כפיות סוכר בחבילה)",
+      "en": "1 pkg instant chicken broth",
+      "he": "1 חבילה אבקת מרק עוף אינסטנט",
       "item": "instant chicken broth",
       "amount": 1,
       "unit": "pkg"
+    },
+    {
+      "en": "2 tsp sugar",
+      "he": "2 כפיות סוכר",
+      "item": "sugar",
+      "amount": 2,
+      "unit": "tsp"
     },
     {
       "en": "6 oz (170g) undrained sliced peas",
@@ -74,27 +81,29 @@
       "unit": "cup"
     },
     {
-      "en": "3 lb (1360g) cut up chicken",
-      "he": "3 ליברות (1360 גרם) עוף חתוך לחתיכות",
-      "item": "cut up chicken",
-      "amount": 3,
-      "unit": "lb"
+      "en": "6 oz cooked diced chicken",
+      "he": "6 אונקיות עוף מבושל קצוץ",
+      "item": "cooked diced chicken",
+      "amount": 6,
+      "unit": "oz"
     }
   ],
   "instructions": {
     "en": [
-      "Combine tomato juice, tomato paste, onion flakes, garlic powder, and instant chicken broth in a saucepan.",
-      "Simmer uncovered for 10 minutes.",
-      "Add cut up chicken, undrained sliced peas, cooked peas, and long grain rice. Stir.",
+      "Preheat oven to 350°F.",
+      "Combine tomato juice, canned tomato, onion flakes, garlic powder, sugar, and instant chicken broth in a saucepan.",
+      "Simmer uncovered for 20 minutes.",
+      "Add cooked diced chicken, undrained sliced peas, cooked peas, and long grain rice. Stir.",
       "Place the mixture in a casserole dish.",
-      "Bake at 350° for 1 hour."
+      "Bake for 30 minutes. (Note: serves one.)"
     ],
     "he": [
-      "שלבו מיץ עגבניות, רסק עגבניות, פתיתי בצל, אבקת שום ואבקת מרק עוף אינסטנט בסיר.",
-      "בשלו על אש קטנה ללא כיסוי במשך 10 דקות.",
-      "הוסיפו עוף חתוך, אפונה פרוסה לא מסוננת, אפונה מבושלת ואורז ארוך. ערבבו.",
+      "חממו תנור מראש ל-175°C (350°F).",
+      "שלבו מיץ עגבניות, עגבניה שלמה מקופסה, פתיתי בצל, אבקת שום, סוכר ואבקת מרק עוף אינסטנט בסיר.",
+      "בשלו על אש קטנה ללא כיסוי במשך 20 דקות.",
+      "הוסיפו עוף מבושל קצוץ, אפונה פרוסה לא מסוננת, אפונה מבושלת ואורז ארוך. ערבבו.",
       "העבירו את התערובת לתבנית קדרה.",
-      "אפו בחום של 175°C (350° פרנהייט) (כ-175° צלזיוס) למשך שעה."
+      "אפו במשך 30 דקות. (הערה: מנה אחת.)"
     ]
   },
   "tags": [
