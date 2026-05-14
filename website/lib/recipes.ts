@@ -18,6 +18,7 @@ export interface Recipe {
   }>;
   instructions: { en: string[]; he: string[] };
   tags: Array<{ en: string; he: string }>;
+  notes?: Array<{ en: string; he: string }>;
   illustration: string;
   ocrRawText: string;
   selectedModel: "gemini" | "claude";

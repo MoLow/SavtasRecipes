@@ -13,8 +13,8 @@
     "he": "שטרוייזל (עוגת קפה)"
   },
   "description": {
-    "en": "A recipe for a coffee cake with a streusel topping, featuring walnuts, sugar, and cinnamon, and an option to add fruit. The original recipe uses the term 'Streisel Make'.",
-    "he": "מתכון לעוגת קפה עם ציפוי שטרוייזל הכולל אגוזי מלך, סוכר וקינמון, עם אפשרות להוסיף פירות."
+    "en": "A recipe for a coffee cake with a streusel topping, featuring walnuts, sugar, and cinnamon. The original recipe uses the term 'Streisel Make'. Originally from Aunt Ida.",
+    "he": "מתכון לעוגת קפה עם ציפוי שטרוייזל הכולל אגוזי מלך, סוכר וקינמון. המתכון המקורי משתמש במונח 'Streisel Make'. מקורו אצל דודה אידה."
   },
   "ingredients": [
     {
@@ -86,13 +86,6 @@
       "item": "cinnamon",
       "amount": null,
       "unit": null
-    },
-    {
-      "en": "Fruit (for topping)",
-      "he": "פירות (לציפוי)",
-      "item": "fruit",
-      "amount": null,
-      "unit": null
     }
   ],
   "instructions": {
@@ -103,7 +96,6 @@
       "Pour half of the batter into a baking pan.",
       "Sprinkle some of the walnut, sugar, and cinnamon mixture onto the batter.",
       "Pour the rest of the remaining batter over the streusel layer.",
-      "Add fruit on top.",
       "Bake at 350°F (175°C) for 1 hour."
     ],
     "he": [
@@ -113,7 +105,6 @@
       "יוצקים חצי מהבלילה לתבנית אפייה.",
       "מפזרים מעל הבלילה חלק מתערובת אגוזי המלך, הסוכר והקינמון.",
       "יוצקים את יתרת הבלילה מעל שכבת השטרוייזל.",
-      "מוסיפים פירות מעל.",
       "אופים בחום של 350°F (כ-175°C) למשך שעה."
     ]
   },
@@ -133,6 +124,28 @@
     {
       "en": "Dairy",
       "he": "חלבי"
+    }
+  ],
+  "notes": [
+    {
+      "en": "You can make a Pareve version of the cake by using non-dairy whipping cream (one small container) instead of the sour cream, and margarine instead of the butter.",
+      "he": "ניתן להכין גרסה פרווה של העוגה: השתמשו בשמנת להקצפה פרווה (קופסה קטנה אחת) במקום השמנת החמוצה, ומרגרינה במקום החמאה."
+    },
+    {
+      "en": "Be careful when filling the molds to bake the cake — this cake expands a lot while baking and has often overflowed and spilled onto the floor of the oven.",
+      "he": "יש להיזהר בעת מילוי התבניות — עוגה זו מתפחת מאוד בזמן האפייה ועלולה לגלוש ולשפוך לתחתית התנור."
+    },
+    {
+      "en": "The walnut, sugar, and cinnamon mixture can be prepared separately in a pull-cord chopper: add the whole nuts with the sugar and cinnamon, then powder the nuts using the chopper.",
+      "he": "ניתן להכין את תערובת אגוזי המלך, הסוכר והקינמון בנפרד בקוצץ ידני (עם שרוך): הכניסו את האגוזים השלמים עם הסוכר והקינמון, ואז כתשו את האגוזים בעזרת הקוצץ."
+    },
+    {
+      "en": "The family has never put fruit on top of this cake — neither the baker, Savta, Nana, Uncle David, nor Aunt Ida ever added fruit as a topping.",
+      "he": "המשפחה מעולם לא שמה פירות על גבי עוגה זו — לא המבשל, לא סבתא, לא נאנה, לא דוד דייוויד ולא דודה אידה הוסיפו אי פעם פירות כציפוי."
+    },
+    {
+      "en": "This recipe originally comes from Aunt Ida (Nana's sister). At the wedding of Ida to Benny, their common grandmother Bubbe Charna met Nana and told her she had a boy for her — and that is how the family started and grew. (Ida's husband, Uncle Benny, was a cousin of Nana's husband, Grandpa Charlie/Shepsa.)",
+      "he": "המתכון מקורו אצל דודה אידה (אחות נאנה). בחתונתם של אידה ובני, סבתא המשותפת בובה חרנה פגשה את נאנה ואמרה לה שיש לה ילד בשבילה — וכך התחילה ורדה המשפחה. (בעלה של אידה, דוד בני, היה דודן של בעל נאנה, סבא צ'ארלי/שפסה.)"
     }
   ],
   "illustration": "illustrations/af8daf14-b736-4f59-9504-6750ddff0f65.webp",

@@ -179,6 +179,24 @@ export default async function RecipeDetail({
         </section>
       </div>
 
+      {recipe.notes && recipe.notes.length > 0 && (
+        <div className="max-w-5xl mx-auto pb-8">
+          <section>
+            <h2 className="font-semibold text-xl text-[var(--color-ink)] mb-4">
+              {isHebrew ? "הערות" : "Notes"}
+            </h2>
+            <ul className="space-y-3">
+              {recipe.notes.map((note, i) => (
+                <li key={i} className="flex gap-3 text-sm text-[var(--color-ink-secondary)] leading-relaxed border-b border-[var(--color-border)] pb-3 last:border-0 last:pb-0">
+                  <span className="text-[var(--color-accent)] flex-shrink-0 mt-0.5 text-[8px]">{"●"}</span>
+                  <span>{note[locale]}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        </div>
+      )}
+
       <BackButton locale={locale} />
     </article>
   );
