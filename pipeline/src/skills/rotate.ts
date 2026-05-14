@@ -11,17 +11,19 @@ const DATA_DIR = resolve(ROOT_DIR, "data");
 type Degrees = 90 | 180 | 270;
 
 /**
- * Rotates all scan images for a recipe by the given degrees clockwise.
+ * Rotates scan images for a recipe by the given degrees clockwise.
  *
  * Reads the recipe JSON to locate its scan files (stored in data/scans/),
  * then rotates each in-place using sharp (cross-platform, works in CI).
  *
- * @param recipeId - The recipe UUID
- * @param degrees  - Clockwise rotation: 90, 180, or 270
+ * @param recipeId  - The recipe UUID
+ * @param degrees   - Clockwise rotation: 90, 180, or 270
+ * @param scanIndex - Optional: only rotate this specific scan (0-based index)
  */
 export async function rotateRecipeScans(
   recipeId: string,
-  degrees: Degrees
+  degrees: Degrees,
+  scanIndex?: number
 ): Promise<void> {
   const recipePath = resolve(RECIPES_DIR, `${recipeId}.json`);
   if (!existsSync(recipePath)) {
@@ -29,10 +31,19 @@ export async function rotateRecipeScans(
   }
 
   const recipe = JSON.parse(readFileSync(recipePath, "utf-8"));
-  const scanFiles: string[] = recipe.source?.scanFiles ?? [];
+  const allScanFiles: string[] = recipe.source?.scanFiles ?? [];
 
-  if (scanFiles.length === 0) {
+  if (allScanFiles.length === 0) {
     throw new Error(`No scan files found for recipe: ${recipeId}`);
+  }
+
+  const scanFiles =
+    scanIndex !== undefined ? [allScanFiles[scanIndex]] : allScanFiles;
+
+  if (scanIndex !== undefined && !allScanFiles[scanIndex]) {
+    throw new Error(
+      `Scan index ${scanIndex} out of range (recipe has ${allScanFiles.length} scan(s))`
+    );
   }
 
   for (const relPath of scanFiles) {

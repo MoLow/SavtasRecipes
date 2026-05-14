@@ -34,3 +34,6 @@ website/public/savta-apple.png
 # Website generated artifacts
 website/public/search-index.json
 website/tsconfig.tsbuildinfo
+
+# Temporary one-off scripts
+rotate-scans.mjs
