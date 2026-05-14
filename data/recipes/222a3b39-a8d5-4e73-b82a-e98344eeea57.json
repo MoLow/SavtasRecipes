@@ -1,6 +1,6 @@
 {
   "id": "222a3b39-a8d5-4e73-b82a-e98344eeea57",
-  "slug": "kugel",
+  "slug": "rugelach",
   "source": {
     "scanFiles": [
       "scans/222a3b39-a8d5-4e73-b82a-e98344eeea57-0.jpg",
@@ -9,12 +9,12 @@
     "processedAt": "2026-03-19T19:26:34.127Z"
   },
   "title": {
-    "en": "Kugel",
-    "he": "קוגל"
+    "en": "Rugelach",
+    "he": "רוגלך"
   },
   "description": {
-    "en": "A recipe for Kugel, likely a sweet version, involving a dough made with butter, cream cheese, and flour, filled with nuts, raisins, cinnamon, and sugar.",
-    "he": "מתכון לקוגל, ככל הנראה גרסה מתוקה, הכולל בצק העשוי מחמאה, גבינת שמנת וקמח, במילוי אגוזים, צימוקים, קינמון וסוכר."
+    "en": "A recipe for Rugelach, a rolled cream cheese pastry filled with nuts, raisins, cinnamon, and sugar.",
+    "he": "מתכון לרוגלך, עוגיות בצק שמנת מגולגל במילוי אגוזים, צימוקים, קינמון וסוכר."
   },
   "ingredients": [
     {
@@ -32,11 +32,11 @@
       "unit": "lb"
     },
     {
-      "en": "1/2 cup (120ml) sour cream",
-      "he": "1/2 כוס (120 מ\"ל) שמנת חמוצה",
-      "item": "sour cream",
-      "amount": 0.5,
-      "unit": "cup"
+      "en": "2 tbsp Spry (vegetable shortening; substitute Crisco or any solid vegetable shortening)",
+      "he": "2 כפות שומן צמחי (ספריי/קריסקו)",
+      "item": "vegetable shortening",
+      "amount": 2,
+      "unit": "tbsp"
     },
     {
       "en": "1/2 cup (120ml) cold milk",
@@ -67,11 +67,11 @@
       "unit": "tsp"
     },
     {
-      "en": "1 cup (240ml) sugar",
-      "he": "1 כוס (240 מ\"ל) סוכר",
+      "en": "1 tbsp sugar",
+      "he": "1 כף סוכר",
       "item": "sugar",
       "amount": 1,
-      "unit": "cup"
+      "unit": "tbsp"
     },
     {
       "en": "1 cup (240ml) flour",
