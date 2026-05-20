@@ -108,5 +108,11 @@
   "illustration": "illustrations/22bfb21f-625c-4d09-bd7e-33ed01fa5c15.webp",
   "ocrRawText": "FROZEN DOUGH Cookies (Irene)\n½ Lb. butter\n½ Lb. Cream Cheese\n2 cups Flour\nEgg white, crushed\nNUTS, cinnamon and\nSUGAR.\nSalt\nCream all ingredients together. Form into logs\nabout ½\" THICK. Refrigerate in Wax paper for 3 hrs.\nSlice cookies and dip in beaten Egg white and Then in\nmixture of crushed nuts, cinnamon and sugar. Bake 350°\nFor 10 to 15 minutes.\nFrozen DOUGH Filled with jelly (Irene)\n½ Lb. butter\n½ Lb. Cream cheese\n2 cups Flour\nSalt.\nJelly\nNUTS\nForm dough into 1\" balls. Refrigerate in wax\npaper for 3 hours. Roll out balls on a FLOURED surface.\nFill with jelly and nuts. Fold dough over and\nSeal with a Fork.\nBake 350° For\n10-15 minutes.",
   "selectedModel": "gemini",
-  "rankingReason": "Gemini selected (only valid result). Claude returned no result"
+  "rankingReason": "Gemini selected (only valid result). Claude returned no result",
+  "notes": [
+    {
+      "en": "\"Irene\" here refers to Irene Brenner, a neighbor who lived in the same Bronx apartment building as our family — not Irene Gozland (Meme).",
+      "he": "\"איירין\" כאן מתייחסת לאיירין ברנר, שכנה שגרה באותו בניין דירות בברונקס שבו גרה המשפחה שלנו — ולא איירין גוזלנד (מֵמֶה)."
+    }
+  ]
 }
