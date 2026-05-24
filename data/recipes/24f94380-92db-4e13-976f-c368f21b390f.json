@@ -14,8 +14,8 @@
     "he": "רולדות ריבה, או אוזני המן"
   },
   "description": {
-    "en": "A recipe for Jelly Rolls or Hamantaschen, possibly a double batch. The recipe involves making a dough, chilling it, rolling it out, filling it, and baking. Note: The ingredient \"juice\" is mentioned in the instructions but not listed in the ingredients. Also, \"3 lbs of\" is listed without an item, its purpose is unclear.",
-    "he": "מתכון לרולדות ריבה או אוזני המן, ייתכן שמדובר במנה כפולה. המתכון כולל הכנת בצק, קירורו, רידודו, מילוי ואפייה. הערה: המרכיב \"מיץ\" מוזכר בהוראות אך אינו מופיע ברשימת המרכיבים. כמו כן, \"3 ליברות של\" מופיע ללא פריט, מטרתו אינה ברורה."
+    "en": "A recipe for Jelly Rolls or Hamantaschen, a double batch. The recipe involves making a dough, chilling it, rolling it out, filling it with jam and nuts, and baking.",
+    "he": "מתכון לרולדות ריבה או אוזני המן, מנה כפולה. המתכון כולל הכנת בצק, קירורו, רידודו, מילוי בריבה ואגוזים ואפייה."
   },
   "ingredients": [
     {
@@ -40,10 +40,17 @@
       "unit": "teaspoon"
     },
     {
-      "en": "3 eggs",
-      "he": "3 ביצים",
-      "item": "eggs",
+      "en": "3 tablespoons (45ml) orange juice (OJ)",
+      "he": "3 כפות (45 מ\"ל) מיץ תפוזים",
+      "item": "orange juice",
       "amount": 3,
+      "unit": "tablespoon"
+    },
+    {
+      "en": "2 eggs",
+      "he": "2 ביצים",
+      "item": "eggs",
+      "amount": 2,
       "unit": null
     },
     {
@@ -54,23 +61,23 @@
       "unit": "pinch"
     },
     {
-      "en": "2 1/2 teaspoons (13ml) baking powder",
-      "he": "2.5 כפיות (13 מ\"ל) אבקת אפייה",
+      "en": "2 teaspoons (10ml) baking powder",
+      "he": "2 כפיות (10 מ\"ל) אבקת אפייה",
       "item": "baking powder",
-      "amount": 2.5,
+      "amount": 2,
       "unit": "teaspoon"
     },
     {
-      "en": "Flour (for dough and dusting)",
-      "he": "קמח (לבצק ולאיבוק)",
+      "en": "2 cups (480ml) flour",
+      "he": "2 כוסות (480 מ\"ל) קמח",
       "item": "flour",
-      "amount": null,
-      "unit": null
+      "amount": 2,
+      "unit": "cup"
     },
     {
-      "en": "Jam or nuts (for filling)",
-      "he": "ריבה או אגוזים (למילוי)",
-      "item": "jam or nuts",
+      "en": "Jam and nuts (for filling)",
+      "he": "ריבה ואגוזים (למילוי)",
+      "item": "jam and nuts",
       "amount": null,
       "unit": null
     },
@@ -84,42 +91,42 @@
   ],
   "instructions": {
     "en": [
-      "Mix together oil & sugar.",
-      "Add juice, eggs & vanilla.",
+      "Pack lightly flour, salt, and baking powder.",
+      "Mix juice, eggs & vanilla.",
+      "Mix together oil and sugar, add juice, eggs & vanilla.",
       "Add flour mixture.",
-      "Mix well.",
-      "Divide in small sections.",
-      "Add 1 cup [flour] as needed.",
-      "After mixing ingredients, sprinkle flour on top of the dough and put in freezer for 10 minutes.",
-      "Flour board and work with 1/3 of dough.",
-      "Work flour in. (Knead)",
+      "Mix very well. Roll out in small sections. Add flour as needed.",
+      "After mixing ingredients, sprinkle flour on top. Put in freezer for 10 minutes.",
+      "Flour board and spoon out portions of dough.",
+      "Work flour in (knead).",
       "Put on plate.",
-      "Flour on top & put in freezer again for 20 min.",
-      "Roll out the dough (without splitting it beforehand).",
-      "Fill with jam or nuts.",
-      "Cover & press with a fork & pinch ends together.",
+      "Sprinkle flour on top.",
+      "Put in freezer again for 20 minutes.",
+      "Take 1/2 out, split in half and work dough (roll out).",
+      "Fill with jam and nuts.",
+      "Cover and pinch ends together.",
       "With spatula, flip the seam side down on a flatter pan.",
       "Spray pan with Pam.",
-      "Bake 400° until top is brown or 15 min."
+      "Bake at 400°F until top is brown, approximately 15 minutes."
     ],
     "he": [
-      "ערבבו יחד שמן וסוכר.",
-      "הוסיפו מיץ, ביצים ותמצית וניל.",
+      "ארזו בקלילות קמח, מלח ואבקת אפייה.",
+      "ערבבו מיץ, ביצים ותמצית וניל.",
+      "ערבבו יחד שמן וסוכר, הוסיפו מיץ, ביצים ותמצית וניל.",
       "הוסיפו את תערובת הקמח.",
-      "ערבבו היטב.",
-      "חלקו למקטעים קטנים.",
-      "הוסיפו כוס קמח לפי הצורך.",
-      "לאחר ערבוב המרכיבים, פזרו קמח מעל הבצק והכניסו למקפיא ל-10 דקות.",
-      "קמחו משטח עבודה ועבדו עם שליש מהבצק.",
+      "ערבבו היטב מאוד. רדדו בחלקים קטנים. הוסיפו קמח לפי הצורך.",
+      "לאחר ערבוב המרכיבים, פזרו קמח מעל הבצק. הכניסו למקפיא ל-10 דקות.",
+      "קמחו משטח עבודה וחלקו מנות בצק.",
       "עבדו את הקמח פנימה (לושו).",
       "הניחו על צלחת.",
-      "פזרו קמח מעל והכניסו למקפיא שוב ל-20 דקות.",
-      "רדדו את הבצק (מבלי לחלק אותו מראש).",
-      "מלאו בריבה או אגוזים.",
-      "כסו ולחצו עם מזלג וצבטו את הקצוות יחד.",
+      "פזרו קמח מעל.",
+      "הכניסו למקפיא שוב ל-20 דקות.",
+      "הוציאו חצי, חלקו לשניים ועבדו את הבצק (רדדו).",
+      "מלאו בריבה ואגוזים.",
+      "כסו וצבטו את הקצוות יחד.",
       "בעזרת מרית, הפכו את התפר כלפי מטה על תבנית שטוחה יותר.",
       "רססו את התבנית בתרסיס שמן (פאם).",
-      "אפו ב-205°C (400° פרנהייט) עד שהחלק העליון משחים או למשך 15 דקות."
+      "אפו ב-204°C (400°F) עד שהחלק העליון משחים, כ-15 דקות."
     ]
   },
   "tags": [
