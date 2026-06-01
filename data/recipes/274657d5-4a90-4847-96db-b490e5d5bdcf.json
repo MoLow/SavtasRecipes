@@ -38,11 +38,11 @@
       "unit": "bars"
     },
     {
-      "en": "1 small containers heavy cream - Whip (do not overwhip)",
-      "he": "1 גביע קטן שמנת מתוקה - להקציף (לא להקציף יתר על המידה)",
+      "en": "4 small containers heavy cream - Whip (do not overwhip)",
+      "he": "4 גביעים קטנים שמנת מתוקה - להקציף (לא להקציף יתר על המידה)",
       "item": "heavy cream",
-      "amount": 1,
-      "unit": "small container"
+      "amount": 4,
+      "unit": "small containers"
     }
   ],
   "instructions": {
@@ -50,8 +50,9 @@
       "Beat 4 egg yolks well and put aside.",
       "Grate 2 squares of Baker's chocolate and put aside.",
       "Melt 2 bars semi-sweet chocolate in a double boiler and cool.",
-      "Whip 1 small container of heavy cream (do not overwhip).",
-      "Fold egg yolks into melted chocolate so it looks dark brown.",
+      "Whip 4 small containers of heavy cream (do not overwhip).",
+      "Fold egg yolks into whipped heavy cream.",
+      "Add melted chocolate to the cream and yolk mixture so it looks brown.",
       "Add grated bits.",
       "Put in freezer in large Pyrex bowl.",
       "Defrost 1 or 2 hrs. before serving.",
@@ -61,8 +62,9 @@
       "לטרוף 4 חלמוני ביצים היטב ולשים בצד.",
       "לגרד 2 ריבועי שוקולד בייקרס ולשים בצד.",
       "להמיס 2 חפיסות שוקולד מריר-מתוק בבן מרי ולצנן.",
-      "להקציף גביע קטן של שמנת מתוקה (לא להקציף יתר על המידה).",
-      "לקפל את חלמוני הביצים לתוך השוקולד המומס כך שייראה חום כהה.",
+      "להקציף 4 גביעים קטנים של שמנת מתוקה (לא להקציף יתר על המידה).",
+      "לקפל את חלמוני הביצים לתוך הקצפת.",
+      "להוסיף את השוקולד המומס לתערובת השמנת והחלמונים כך שייראה חום.",
       "להוסיף את השוקולד המגורד.",
       "לשים במקפיא בקערת פיירקס גדולה.",
       "להפשיר שעה או שעתיים לפני ההגשה.",
