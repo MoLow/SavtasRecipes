@@ -12,86 +12,103 @@
     "he": "רוטב ירקות"
   },
   "description": {
-    "en": "A vegetable sauce made with zucchini, tomatoes, and other vegetables, simmered and seasoned with salt, pepper, and sugar. The recipe was written on the back of a meeting sign-up sheet. Some words are partially obscured by the printed form columns.",
-    "he": "רוטב ירקות העשוי מקישואים, עגבניות וירקות נוספים, מבושל ומתובל במלח, פלפל וסוכר. המתכון נכתב על גב דף רישום לפגישה. חלק מהמילים מוסתרות חלקית על ידי העמודות המודפסות."
+    "en": "A hearty vegetable sauce with zucchini, onions, celery, mushrooms, crushed tomatoes, carrots, and spinach, simmered in chicken broth. The recipe was written on the back of a meeting sign-up sheet.",
+    "he": "רוטב ירקות עשיר עם קישואים, בצל, סלרי, פטריות, עגבניות מרוסקות, גזר ותרד, מבושל בציר עוף. המתכון נכתב על גב דף רישום לפגישה."
   },
   "ingredients": [
     {
-      "en": "7 zucchini",
-      "he": "7 קישואים",
+      "en": "2 zucchini",
+      "he": "2 קישואים",
       "item": "zucchini",
-      "amount": 7,
+      "amount": 2,
       "unit": "piece"
     },
     {
-      "en": "3 tomatoes or 1 can crushed tomatoes",
-      "he": "3 עגבניות או 1 קופסת עגבניות מרוסקות",
-      "item": "tomatoes",
-      "amount": 3,
+      "en": "2 onions",
+      "he": "2 בצלים",
+      "item": "onion",
+      "amount": 2,
       "unit": "piece"
     },
     {
-      "en": "1 small can tomato paste",
-      "he": "1 קופסה קטנה משחת עגבניות",
-      "item": "tomato paste",
+      "en": "2 stalks celery",
+      "he": "2 גבעולי סלרי",
+      "item": "celery",
+      "amount": 2,
+      "unit": "stalks"
+    },
+    {
+      "en": "1 small can mushrooms",
+      "he": "קופסה קטנה של פטריות",
+      "item": "mushrooms",
       "amount": 1,
       "unit": "small can"
     },
     {
-      "en": "3 cloves of garlic",
-      "he": "3 שיני שום",
-      "item": "garlic",
-      "amount": 3,
-      "unit": "cloves"
-    },
-    {
-      "en": "1 lemon, juice of",
-      "he": "מיץ של לימון 1",
-      "item": "lemon",
+      "en": "1 can crushed tomatoes",
+      "he": "קופסת עגבניות מרוסקות",
+      "item": "crushed tomatoes",
       "amount": 1,
-      "unit": "piece"
+      "unit": "can"
     },
     {
-      "en": "Salt",
-      "he": "מלח",
-      "item": "salt"
+      "en": "3/4 cup sliced frozen carrots",
+      "he": "3/4 כוס גזר קפוא פרוס",
+      "item": "carrots",
+      "amount": 0.75,
+      "unit": "cup"
     },
     {
-      "en": "Pepper",
-      "he": "פלפל",
+      "en": "2 pkgs chicken bouillon",
+      "he": "2 אבקות ציר עוף",
+      "item": "chicken bouillon",
+      "amount": 2,
+      "unit": "pkg"
+    },
+    {
+      "en": "4 cups water",
+      "he": "4 כוסות מים",
+      "item": "water",
+      "amount": 4,
+      "unit": "cup"
+    },
+    {
+      "en": "1 pkg frozen chopped spinach",
+      "he": "חבילה אחת של תרד קפוא קצוץ",
+      "item": "spinach",
+      "amount": 1,
+      "unit": "pkg"
+    },
+    {
+      "en": "Seasonings",
+      "he": "תבלינים",
+      "item": "seasonings"
+    },
+    {
+      "en": "Dash artificial sweetener",
+      "he": "מעט ממתיק מלאכותי",
+      "item": "artificial sweetener"
+    },
+    {
+      "en": "Dash pepper",
+      "he": "מעט פלפל",
       "item": "pepper"
-    },
-    {
-      "en": "Sugar",
-      "he": "סוכר",
-      "item": "sugar"
-    },
-    {
-      "en": "Oil",
-      "he": "שמן",
-      "item": "oil"
     }
   ],
   "instructions": {
     "en": [
-      "Step 1: Cut the zucchini into pieces.",
-      "Step 2: Use oil and brown/sauté the vegetables.",
-      "Step 3: Add crushed tomatoes and tomato paste.",
-      "Step 4: Add 3 cloves of garlic.",
-      "Step 5: Add lemon juice, buttoned/covered (flip).",
-      "Step 6: Simmer for about 1-1.5 hours from the time it starts to boil. Stir occasionally.",
-      "Step 7: Bring to a low simmer for about 30 minutes.",
-      "Step 8: Add salt, pepper, and sugar to taste."
+      "Step 1: Combine zucchini, onions, celery, mushrooms, crushed tomatoes, carrots, chicken bouillon, and water in a pot.",
+      "Step 2: Add seasonings.",
+      "Step 3: Bring to a boil, then simmer for 30 minutes.",
+      "Step 4: Add frozen chopped spinach and stir to combine.",
+      "Step 5: Season with a dash of artificial sweetener and a dash of pepper to taste."
     ],
     "he": [
-      "שלב 1: חותכים את הקישואים לחתיכות.",
-      "שלב 2: משתמשים בשמן ומשחימים/מטגנים את הירקות.",
-      "שלב 3: מוסיפים עגבניות מרוסקות ומשחת עגבניות.",
-      "שלב 4: מוסיפים 3 שיני שום.",
-      "שלב 5: מוסיפים מיץ לימון, מכסים (הופכים).",
-      "שלב 6: מבשלים על אש נמוכה כשעה עד שעה וחצי מרגע הרתיחה. מערבבים מדי פעם.",
-      "שלב 7: ממשיכים לבשל על אש נמוכה כ-30 דקות.",
-      "שלב 8: מוסיפים מלח, פלפל וסוכר לפי הטעם."
+      "שלב 1: מאחדים בסיר קישואים, בצל, סלרי, פטריות, עגבניות מרוסקות, גזר, אבקת ציר עוף ומים.",
+      "שלב 2: מוסיפים תבלינים.",
+      "שלב 3: מביאים לרתיחה, ואז מבשלים על אש נמוכה 30 דקות.",
+      "שלב 4: מוסיפים תרד קפוא קצוץ ומערבבים.",
+      "שלב 5: מתבלים במעט ממתיק מלאכותי ומעט פלפל לפי הטעם."
     ]
   },
   "tags": [
@@ -119,5 +136,6 @@
   "illustration": "illustrations/2eb0ebc0-f41e-4567-8fd8-8cd27e1c89ef.webp",
   "ocrRawText": "Veg. sauce\n7 zucchini\n3 tomatoes or 1 can 3 cup\n1 small can tomato paste\ncan crushed tomatoes\n3 cloves of garlic\n2 cleans buttoned (flip)\n1 lemon juice/buttoned (flip)\n\nStung it for ?\ncusts it - 1 1/2 hrs from\nthe hot to boil / simmer\nBring to a low simmer\n30 min.\nSalt pepper sugar\n\"",
   "selectedModel": "claude",
-  "rankingReason": "Claude selected (only valid result). Gemini result failed validation: instructions.en: Array must contain at least 1 element(s); instructions.he: Array must contain at least 1 element(s)"
+  "rankingReason": "Claude selected (only valid result). Gemini result failed validation: instructions.en: Array must contain at least 1 element(s); instructions.he: Array must contain at least 1 element(s)",
+  "manualCorrection": true
 }
