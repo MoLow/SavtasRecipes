@@ -1,6 +1,6 @@
 {
   "id": "322ad74e-9428-469c-9973-0d2e95256c69",
-  "slug": "chicken-livers-w-mushrooms",
+  "slug": "chicken-cutlets-w-mushrooms",
   "source": {
     "scanFiles": [
       "scans/322ad74e-9428-469c-9973-0d2e95256c69-0.jpg",
@@ -9,27 +9,32 @@
     "processedAt": "2026-03-19T19:18:17.575Z"
   },
   "title": {
-    "en": "Chicken Livers W/ Mushrooms",
-    "he": "כבד עוף עם פטריות"
+    "en": "Chicken Cutlets W/ Mushrooms",
+    "he": "שניצל עוף עם פטריות"
   },
   "description": {
-    "en": "A dish featuring chicken livers and mushrooms, suitable as a main course or appetizer for 4-6 persons.",
-    "he": "מנה הכוללת כבד עוף ופטריות, המתאימה כמנה עיקרית או ראשונה עבור 4-6 סועדים."
+    "en": "A dish featuring chicken cutlets and mushrooms, suitable as a main course for 4-6 persons.",
+    "he": "מנה הכוללת שניצלי עוף ופטריות, המתאימה כמנה עיקרית עבור 4-6 סועדים."
   },
   "ingredients": [
     {
-      "en": "1/2 lb (225g) chicken livers",
-      "he": "1/2 ליברות (225 גרם) כבד עוף",
-      "item": "chicken livers",
-      "amount": 0.5,
-      "unit": "lb"
+      "en": "4 Chicken Breasts",
+      "he": "4 חזה עוף",
+      "item": "chicken breasts",
+      "amount": 4,
+      "unit": "whole"
     },
     {
-      "en": "1/4 cup (60ml) flour",
-      "he": "1/4 כוס (60 מ\"ל) קמח",
-      "item": "flour",
-      "amount": 0.25,
-      "unit": "cup"
+      "en": "12 oz. mushrooms",
+      "he": "340 גרם פטריות",
+      "item": "mushrooms",
+      "amount": 12,
+      "unit": "oz"
+    },
+    {
+      "en": "flour",
+      "he": "קמח",
+      "item": "flour"
     },
     {
       "en": "1/4 cup (60ml) sherry",
@@ -46,11 +51,9 @@
       "unit": "tsp"
     },
     {
-      "en": "1/4 cup (60ml) oil",
-      "he": "1/4 כוס (60 מ\"ל) שמן",
-      "item": "oil",
-      "amount": 0.25,
-      "unit": "cup"
+      "en": "oil",
+      "he": "שמן",
+      "item": "oil"
     },
     {
       "en": "1 can chicken soup",
@@ -58,27 +61,18 @@
       "item": "chicken soup",
       "amount": 1,
       "unit": "can"
-    },
-    {
-      "en": "Mushrooms",
-      "he": "פטריות",
-      "item": "mushrooms"
     }
   ],
   "instructions": {
     "en": [
-      "Cut chicken livers, dredge them in flour, and brown them in oil.",
-      "Remove the browned livers from the pan.",
-      "In the same pan, brown mushrooms in oil.",
-      "Add chicken soup and thyme to the pan.",
-      "Return the livers to the pan and cook until the sauce thickens."
+      "Cut chicken up, dredge in thyme and flour, and brown in oil.",
+      "Remove chicken. Sauté mushrooms in drippings with remaining ingredients until the sauce thickens.",
+      "Add chicken back into the mixture."
     ],
     "he": [
-      "חותכים את כבדי העוף, מקמחים אותם ומטגנים בשמן עד להשחמה.",
-      "מוציאים את הכבדים המושחמים מהמחבת.",
-      "באותה מחבת, מטגנים פטריות בשמן עד להשחמה.",
-      "מוסיפים למחבת מרק עוף וטימין.",
-      "מחזירים את הכבדים למחבת ומבשלים עד שהרוטב מסמיך."
+      "חותכים את העוף, מקמחים עם טימין וקמח ומטגנים בשמן עד להשחמה.",
+      "מוציאים את העוף. מטגנים פטריות בשומן שנותר עם שאר המרכיבים עד שהרוטב מסמיך.",
+      "מחזירים את העוף לתערובת."
     ]
   },
   "tags": [
@@ -93,10 +87,6 @@
     {
       "en": "Chicken",
       "he": "עוף"
-    },
-    {
-      "en": "Liver",
-      "he": "כבד"
     },
     {
       "en": "Mushroom",
