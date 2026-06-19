@@ -12,8 +12,8 @@
     "he": "רוגלך"
   },
   "description": {
-    "en": "A classic Jewish pastry dough recipe from Bernyce Offer's favorite recipes collection. This is the dough portion — mix together and refrigerate before shaping and baking.",
-    "he": "מתכון קלאסי לבצק רוגלך מתוך אוסף המתכונים האהובים של ברניס אופר. זהו חלק הבצק — מערבבים יחד ומצננים במקרר לפני עיצוב ואפייה."
+    "en": "A classic Jewish pastry dough recipe from Bernyce Offer's favorite recipes collection. Rugelach are crescent-shaped rolled pastries filled with jam, nuts, cinnamon sugar, or chocolate — a beloved Ashkenazi treat. This card captures the dough; the shaping and filling steps may continue on a missing second card.",
+    "he": "מתכון קלאסי לבצק רוגלך מתוך אוסף המתכונים האהובים של ברניס אופר. רוגלך הם מאפים קרנדלים במילוי ריבה, אגוזים, סוכר-קינמון או שוקולד — מאפה אשכנזי אהוב. הכרטיס הזה מכיל את הבצק; שלבי העיצוב והמילוי עשויים להמשיך בכרטיס נוסף שנעלם."
   },
   "ingredients": [
     {
@@ -82,6 +82,12 @@
     {
       "en": "holiday",
       "he": "חג"
+    }
+  ],
+  "notes": [
+    {
+      "en": "This card appears to be the dough-only portion of a larger recipe. The shaping, filling, and baking instructions are likely on the back or a second card — a human should check the original scan for a continuation.",
+      "he": "נראה שהכרטיס הזה מכיל רק את חלק הבצק של מתכון מלא יותר. הוראות העיצוב, המילוי והאפייה כנראה מופיעות בגב הכרטיס או בכרטיס נוסף — יש לבדוק את הסריקה המקורית לאיתור המשך."
     }
   ],
   "illustration": "illustrations/3a3442e4-dc25-4729-996f-d4e5f69fd780.webp",
