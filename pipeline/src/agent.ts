@@ -77,7 +77,8 @@ async function processRecipeGroup(
   scanFilenames: string[],
   force: boolean,
   progress: ProgressReporter = noopReporter(),
-  preferModel?: "gemini" | "claude"
+  preferModel?: "gemini" | "claude",
+  scanDir: string = SCANS_DIR
 ): Promise<void> {
   const processedMap = getProcessedMap();
 
@@ -89,7 +90,7 @@ async function processRecipeGroup(
   }
 
   const id = randomUUID();
-  const scanPaths = scanFilenames.map((f) => resolve(SCANS_DIR, f));
+  const scanPaths = scanFilenames.map((f) => resolve(scanDir, f));
 
   // Step 1: Dual OCR + translation
   progress.step(0);
@@ -221,7 +222,7 @@ async function main(): Promise<void> {
       done() { bar.update(STEPS.length, { step: "Done" }); bar.stop(); },
     };
 
-    await processRecipeGroup([basename(fullPath)], force, reporter, preferModel);
+    await processRecipeGroup([basename(fullPath)], force, reporter, preferModel, dirname(fullPath));
     buildIndex();
     return;
   }
