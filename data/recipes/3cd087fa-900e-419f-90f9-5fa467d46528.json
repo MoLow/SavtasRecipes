@@ -66,24 +66,24 @@
       "unit": "cup"
     },
     {
-      "en": "½ cup (120ml) choc. chips",
-      "he": "½ כוס (120 מ\"ל) שוקולד צ'יפס",
+      "en": "1 cup (240ml) choc. chips",
+      "he": "1 כוס (240 מ\"ל) שוקולד צ'יפס",
       "item": "chocolate chips",
-      "amount": 0.5,
+      "amount": 1,
       "unit": "cup"
     }
   ],
   "instructions": {
     "en": [
       "Beat eggs.",
-      "Add all other ingredients, stirring in nuts and chocolate chips.",
-      "Bake at 350°F (175°C).",
+      "Add all other ingredients, stirring in nuts and chocolate chips last.",
+      "Bake at 350°F (175°C) for 45-50 minutes.",
       "The pie is ready when a crust forms."
     ],
     "he": [
       "טורפים ביצים.",
-      "מוסיפים את כל שאר המרכיבים, מערבבים פנימה את האגוזים ושוקולד צ'יפס.",
-      "אופים בחום של 175°C (350°F).",
+      "מוסיפים את כל שאר המרכיבים, ומערבבים פנימה לבסוף את האגוזים ושוקולד צ'יפס.",
+      "אופים בחום של 175°C (350°F) למשך 45-50 דקות.",
       "הפאי מוכן כאשר נוצר קרום."
     ]
   },
