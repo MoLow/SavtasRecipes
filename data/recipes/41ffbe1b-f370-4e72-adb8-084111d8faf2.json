@@ -8,12 +8,12 @@
     "processedAt": "2026-03-19T22:49:00.500Z"
   },
   "title": {
-    "en": "Cheesecake",
-    "he": "עוגת גבינה"
+    "en": "Impossible Cheesecake",
+    "he": "עוגת גבינה \"בלתי אפשרית\""
   },
   "description": {
-    "en": "A classic cheesecake recipe featuring a sour cream topping. The recipe provides ingredients and baking time/temperature, with preparation steps inferred based on standard cheesecake methods.",
-    "he": "מתכון קלאסי לעוגת גבינה הכולל ציפוי שמנת חמוצה. המתכון מפרט מרכיבים וזמני אפייה/טמפרטורה, כאשר שלבי ההכנה נגזרו משיטות הכנה סטנדרטיות לעוגות גבינה."
+    "en": "A classic Bisquick \"Impossible\" cheesecake, where the baking mix settles to form its own crust, topped with a sweetened sour cream layer. The recipe provides ingredients and baking time/temperature, with preparation steps inferred based on standard cheesecake methods.",
+    "he": "עוגת גבינה קלאסית מסוג \"בלתי אפשרית\" עם תערובת ביסקוויק, שיוצרת תחתית משלה במהלך האפייה, ומכוסה בשכבת שמנת חמוצה ממותקת. המתכון מפרט מרכיבים וזמני אפייה/טמפרטורה, כאשר שלבי ההכנה נגזרו משיטות הכנה סטנדרטיות לעוגות גבינה."
   },
   "ingredients": [
     {
@@ -44,9 +44,9 @@
       "unit": "cup"
     },
     {
-      "en": "1/2 cup (120ml) flour",
-      "he": "1/2 כוס (120 מ\"ל) קמח",
-      "item": "flour",
+      "en": "1/2 cup (120ml) Bisquick baking mix",
+      "he": "1/2 כוס (120 מ\"ל) תערובת ביסקוויק",
+      "item": "Bisquick baking mix",
       "amount": 0.5,
       "unit": "cup"
     },
@@ -58,18 +58,18 @@
       "unit": "8 oz package"
     },
     {
-      "en": "Sour cream (for topping)",
-      "he": "שמנת חמוצה (לציפוי)",
+      "en": "1 cup (240ml) sour cream (for topping)",
+      "he": "1 כוס (240 מ\"ל) שמנת חמוצה (לציפוי)",
       "item": "sour cream",
-      "amount": null,
-      "unit": null
+      "amount": 1,
+      "unit": "cup"
     },
     {
-      "en": "1/4 cup (60ml) sugar (for topping)",
-      "he": "1/4 כוס (60 מ\"ל) סוכר (לציפוי)",
+      "en": "2 tbsp (30ml) sugar (for topping)",
+      "he": "2 כפות (30 מ\"ל) סוכר (לציפוי)",
       "item": "sugar",
-      "amount": 0.25,
-      "unit": "cup"
+      "amount": 2,
+      "unit": "tbsp"
     },
     {
       "en": "2 tsp (10ml) vanilla (for topping)",
@@ -83,22 +83,22 @@
     "en": [
       "Preheat oven to 350°F (175°C).",
       "In a large bowl, beat the cream cheese until smooth.",
-      "Gradually add sugar, then flour, mixing well after each addition.",
+      "Gradually add sugar, then the Bisquick baking mix, mixing well after each addition.",
       "Beat in eggs one at a time, then milk and vanilla until just combined. Do not overmix.",
-      "Pour the mixture into a prepared crust (crust not specified in recipe, but implied for cheesecake).",
+      "Pour the mixture into a greased pie plate. No separate crust is needed — like a classic Bisquick \"Impossible\" pie, the baking mix settles to the bottom and forms its own crust as it bakes.",
       "Bake for 40-45 minutes, or until the edges are set and the center is slightly jiggly.",
-      "While the cheesecake cools, prepare the topping: mix sour cream, 1/4 cup sugar, and 2 tsp vanilla.",
+      "While the cheesecake cools, prepare the topping: mix sour cream, 2 tbsp sugar, and 2 tsp vanilla.",
       "Spread the topping over the cooled cheesecake.",
       "Refrigerate for at least 4 hours, or preferably overnight, before serving."
     ],
     "he": [
       "חממו תנור ל-175°C (350°F).",
       "בקערה גדולה, הקציפו את גבינת השמנת עד לקבלת תערובת חלקה.",
-      "הוסיפו בהדרגה את הסוכר, ולאחר מכן את הקמח, וערבבו היטב לאחר כל הוספה.",
+      "הוסיפו בהדרגה את הסוכר, ולאחר מכן את תערובת הביסקוויק, וערבבו היטב לאחר כל הוספה.",
       "הקציפו פנימה את הביצים אחת אחת, ולאחר מכן את החלב והווניל, רק עד לאיחוד. אין לערבב יתר על המידה.",
-      "שפכו את התערובת לקלתית מוכנה (קלתית לא מצוינת במתכון, אך משתמעת לעוגת גבינה).",
+      "שפכו את התערובת לתבנית פאי משומנת. אין צורך בתחתית נפרדת - כמו בעוגת \"בלתי אפשרית\" קלאסית של ביסקוויק, תערובת הביסקוויק שוקעת לתחתית ויוצרת תחתית משלה במהלך האפייה.",
       "אפו במשך 40-45 דקות, או עד שהשוליים יציבים והמרכז עדיין מעט רוטט.",
-      "בזמן שעוגת הגבינה מתקררת, הכינו את הציפוי: ערבבו שמנת חמוצה, 1/4 כוס סוכר ו-2 כפיות וניל.",
+      "בזמן שעוגת הגבינה מתקררת, הכינו את הציפוי: ערבבו שמנת חמוצה, 2 כפות סוכר ו-2 כפיות וניל.",
       "מרחו את הציפוי על עוגת הגבינה שהתקררה.",
       "קררו במקרר לפחות 4 שעות, או רצוי לילה שלם, לפני ההגשה."
     ]
@@ -118,7 +118,7 @@
     }
   ],
   "illustration": "illustrations/41ffbe1b-f370-4e72-adb8-084111d8faf2.webp",
-  "ocrRawText": "Smf. Cheesecake\n3/4 c. milk\n2 tsp vanilla\n2 eggs\n1 c. sugar\n1/2 c. flour\n2-8 oz pkg cream ch.\n\nTopping sour cream\n1/4 c. sugar\n2 tsp vanilla\n\n350-\n40-45 min.",
+  "ocrRawText": "Imp. Cheesecake\n3/4 c. milk\n2 tsp vanilla\n2 eggs\n1 c. sugar\n1/2 c. bisq.\n2-8 oz pkg cream ch.\n\nTopping -\n1 c. sour cream\n2 tbsp sugar\n2 tsp vanilla\n\n350°\n40-45 min.",
   "selectedModel": "gemini",
   "rankingReason": "Result A is more accurate and coherent as a cheesecake recipe. It correctly identifies 2 eggs from the OCR text, while Result B incorrectly lists 3 eggs (not in the raw text). Result A also properly captures 2 tsp vanilla for the main mixture and separately for the topping, maintaining ingredient consistency. Result A's instructions follow proper cheesecake methodology (beat cream cheese, add ingredients gradually, bake, then add topping). Result B has internal inconsistencies (lists 2 tbsp vanilla in ingredients but instruction mentions mixing with other ingredients in a way that doesn't align with proper cheesecake technique). Result A's OCR raw text alignment is more faithful to what was actually written."
 }
