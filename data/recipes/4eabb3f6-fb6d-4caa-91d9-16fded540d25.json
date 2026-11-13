@@ -13,8 +13,8 @@
     "he": "פונץ' שמפניה"
   },
   "description": {
-    "en": "A simple recipe for a Champagne Punch, featuring pink champagne, ginger ale, citrus juices, oranges, and frozen strawberries. The recipe includes a note about freezing some strawberries in molds and a suggestion regarding the ginger ale's strength.",
-    "he": "מתכון פשוט לפונץ' שמפניה, המשלב שמפניה ורודה, ג'ינג'ר אייל, מיצי הדרים, תפוזים ותותים קפואים. המתכון כולל הערה לגבי הקפאת חלק מהתותים בתבניות והצעה לגבי חוזק הג'ינג'ר אייל."
+    "en": "A festive pink champagne punch with ginger ale, orange juice, orange slices, raspberry sherbet, and frozen strawberries, served with a strawberry ice mold.",
+    "he": "פונץ' שמפניה ורודה חגיגי עם ג'ינג'ר אייל, מיץ תפוזים, פרוסות תפוז, שרבט פטל ותותים קפואים, מוגש עם תבנית קרח של תותים."
   },
   "ingredients": [
     {
@@ -32,48 +32,44 @@
       "unit": "bottles"
     },
     {
-      "en": "1/2 cup (120ml) orange juice",
-      "he": "1/2 כוס (120 מ\"ל) מיץ תפוזים",
+      "en": "2 packages frozen strawberries",
+      "he": "2 חבילות תותים קפואים",
+      "item": "frozen strawberries",
+      "amount": 2,
+      "unit": "packages"
+    },
+    {
+      "en": "1/2 container orange juice",
+      "he": "1/2 קרטון מיץ תפוזים",
       "item": "orange juice",
       "amount": 0.5,
-      "unit": "cup"
+      "unit": "container"
     },
     {
-      "en": "1/2 cup (120ml) lemon juice",
-      "he": "1/2 כוס (120 מ\"ל) מיץ לימון",
-      "item": "lemon juice",
-      "amount": 0.5,
-      "unit": "cup"
-    },
-    {
-      "en": "2 oranges",
-      "he": "2 תפוזים",
+      "en": "oranges",
+      "he": "תפוזים",
       "item": "oranges",
-      "amount": 2,
+      "amount": null,
       "unit": null
     },
     {
-      "en": "1 pkg. frozen strawberries",
-      "he": "1 חבילת תותים קפואים",
-      "item": "frozen strawberries",
-      "amount": 1,
-      "unit": "pkg."
+      "en": "1/2 gal. raspberry sherbet",
+      "he": "1/2 גלון שרבט פטל",
+      "item": "raspberry sherbet",
+      "amount": 0.5,
+      "unit": "gal."
     }
   ],
   "instructions": {
     "en": [
-      "Freeze some of the strawberries from one package in molds.",
-      "Add the remaining strawberries from the package to a punch bowl.",
-      "Pour in the pink champagne, ginger ale, orange juice, and lemon juice.",
-      "Add the oranges (presumably sliced or whole, but not specified).",
-      "Optional note: Consider using a mild ginger ale, or adjust to taste."
+      "Freeze 1 package of strawberries in a mold with water to make an ice mold.",
+      "In a punch bowl, combine the champagne, the other package of frozen strawberries, the orange juice, orange slices, and raspberry sherbet.",
+      "Just before serving, add the ginger ale and the ice mold."
     ],
     "he": [
-      "הקפיאו חלק מהתותים מחבילה אחת בתבניות.",
-      "הוסיפו את יתרת התותים מהחבילה לקערת פונץ'.",
-      "שפכו פנימה את השמפניה הוורודה, ג'ינג'ר אייל, מיץ תפוזים ומיץ לימון.",
-      "הוסיפו את התפוזים (כנראה פרוסים או שלמים, לא מצוין).",
-      "הערה אופציונלית: שקלו להשתמש בג'ינג'ר אייל עדין, או התאימו לטעם."
+      "הקפיאו חבילה אחת של תותים בתבנית עם מים להכנת תבנית קרח.",
+      "בקערת פונץ' ערבבו את השמפניה, את חבילת התותים הקפואים השנייה, מיץ תפוזים, פרוסות תפוז ושרבט פטל.",
+      "רגע לפני ההגשה הוסיפו את הג'ינג'ר אייל ואת תבנית הקרח."
     ]
   },
   "tags": [
@@ -99,7 +95,7 @@
     }
   ],
   "illustration": "illustrations/4eabb3f6-fb6d-4caa-91d9-16fded540d25.webp",
-  "ocrRawText": "Champagne Punch\n2 bottles pink champagne\n2 ginger ale\n1/2 cup orange juice\n1/2 cup lemon juice\n2 oranges\n1 pkg. frozen strawberries\nFreeze 1 pkg. strawberries in\nmolds use other to bowl, pour\nall in see mild of ginger",
+  "ocrRawText": "Champagne Punch\n2 bottles pink champagne\n2 \" ginger ale\n2 frozen strawberries\n1/2 container orange juice\noranges\n1/2 gal. raspberry sherbert.\nFreeze 1 pkg. strawberries in mold with H2O. In bowl put\nchampagne, other frozen strawberries, orange juice, orange slices & sherbert. Just before serving add ginger ale & ice mold",
   "selectedModel": "gemini",
-  "rankingReason": "Gemini selected (only valid result). Claude returned no result"
+  "rankingReason": "Manually corrected from scans after rotation (issue #152)"
 }
