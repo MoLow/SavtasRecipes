@@ -52,23 +52,23 @@
       "unit": "cup"
     },
     {
-      "en": "5-6 C Onion stock or other broth",
-      "he": "5-6 כוסות (1320 מ\"ל) ציר בצל או ציר אחר",
+      "en": "5 1/2 C Onion stock or other broth",
+      "he": "5½ כוסות (1320 מ\"ל) ציר בצל או ציר אחר",
       "item": "onion stock or other broth",
       "amount": 5.5,
       "unit": "cup"
     },
     {
-      "en": "Garlic (approx 1 tb)",
-      "he": "שום (כף (15 מ\"ל) אחת בערך)",
-      "item": "garlic",
-      "amount": 1,
-      "unit": "tablespoon"
+      "en": "Garlic",
+      "he": "שום",
+      "item": "garlic"
     },
     {
-      "en": "Thyme",
-      "he": "טימין",
-      "item": "thyme"
+      "en": "1 tsp Thyme",
+      "he": "כפית (5 מ\"ל) אחת טימין",
+      "item": "thyme",
+      "amount": 1,
+      "unit": "teaspoon"
     },
     {
       "en": "1/4 C Lemon juice",
@@ -127,7 +127,7 @@
     }
   ],
   "illustration": "illustrations/551b5d1b-b3f6-40e7-8403-1147334442b4.webp",
-  "ocrRawText": "Black Bean Soup\n1 pkg Black Beans (Soaked)\n1 Onion Chopped (aprox 1 cup)\n3 T Margarine\n1 C Shredded Carrots\n1 C Chopped Celery\n5/6 C Onion stock or other broth\nGarlic (aprox 1 tb)\nThyme\n1/4 C Lemon juice\nSour Cream\n(If you want it hot, Salsa)\n\nSaute Onion in Margarine for\n5 mins ~ add Carrots, Celery, Thyme\nand garlic ~ saute 5 mins more ~\nadd Broth + Beans* ~ bring to\nboil ~ Reduce heat and Simmer\ncovered for 1½ hr ~ puree in\nblender or food processor ~ mix in\nlemon juice — serve with a dollop of\nSour Cream\n* for hot Soup, add Salsa also",
+  "ocrRawText": "Black Bean Soup\n1 pkg Black Beans (Soaked)\n1 Onion Chopped (aprox 1 cup)\n3 T Margarine\n1 C Shredded Carrots\n1 C Chopped Celery\n5 1/2 C Onion stock or other broth\nGarlic\nThyme (aprox 1 t)\n1/4 C Lemon juice\nSour Cream\n(If you want it hot, Salsa)\n\nSaute Onion in Margarine for\n5 mins ~ add Carrots, Celery, Thyme\nand garlic ~ saute 5 mins more ~\nadd Broth + Beans* ~ bring to\nboil ~ Reduce heat and Simmer\ncovered for 1½ hr ~ puree in\nblender or food processor ~ mix in\nlemon juice — serve with a dollop of\nSour Cream\n* for hot Soup, add Salsa also",
   "selectedModel": "claude",
   "rankingReason": "Result B is superior in several key ways: (1) The instructions are more concise and readable with better formatting (7 steps vs 10, with logical grouping using em-dashes), (2) The ingredient list is more accurate - it correctly identifies garlic as 1 tablespoon (tb) whereas A leaves it without quantity, and correctly reads the broth as '5-6 C' instead of '5 1/2 C', (3) The Hebrew instructions use more natural present-tense construction (מטגנים, מוסיפים) rather than infinitives, making them more idiomatic, (4) The tags include 'pareve' which is contextually appropriate given the margarine and lack of dairy/meat mix, (5) The description avoids the awkward 'Mexican-inspired' tag which isn't supported by the recipe text, and (6) The OCR raw text more accurately reflects the original with 'Garlic (aprox 1 tb)' and '5/6 C' captured correctly"
 }
